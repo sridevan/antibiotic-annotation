@@ -1,0 +1,83 @@
+{
+ "chebi_id": "CHEBI:33702",
+ "chebi_release": "255",
+ "definition": "A cation consisting of more than one atom.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:36358",
+  "CHEBI:36916"
+ ],
+ "name": "polyatomic cation",
+ "num_descendants": 3550,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36916"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:09+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "polyatomic cation",
+   "chebi_accession": "CHEBI:33702",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A cation consisting of more than one atom.",
+   "id": 33702,
+   "is_released": true,
+   "name": "polyatomic cation",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 36916,
+      "final_name": "cation",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 36358,
+      "final_name": "polyatomic ion",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33702",
+   "definition": [
+    "A cation consisting of more than one atom."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36916"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36916"
+   ],
+   "isObsolete": false,
+   "label": [
+    "polyatomic cation"
+   ],
+   "numDescendants": 3550.0,
+   "numHierarchicalDescendants": 3550.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,370 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:45+00:00",
+ "chem_comp": {
+  "formula": "C7 H11 N3 O6 S",
+  "formula_weight": 265.244,
+  "id": "FYG",
+  "name": "(2S,5R)-7-oxo-6-(sulfooxy)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "2018-04-25T00:00:00.000+00:00",
+  "pdbx_modified_date": "2021-01-15T00:00:00.000+00:00",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "FYG",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "FYG",
+   "date": "2018-04-25T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify synonyms",
+   "comp_id": "FYG",
+   "date": "2020-10-13T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Initial release",
+   "comp_id": "FYG",
+   "date": "2021-01-20T00:00:00.000+00:00",
+   "ordinal": 3
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "FYG",
+   "descriptor": "C(N)(C1CCC2CN1C(N2OS(=O)(O)=O)=O)=O",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "FYG",
+   "descriptor": "InChI=1S/C7H11N3O6S/c8-6(11)5-2-1-4-3-9(5)7(12)10(4)16-17(13,14)15/h4-5H,1-3H2,(H2,8,11)(H,13,14,15)/t4-,5+/m1/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "FYG",
+   "descriptor": "NDCUAPJVLWFHHB-UHNVWZDZSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  },
+  {
+   "comp_id": "FYG",
+   "descriptor": "NC(=O)[C@@H]1CC[C@@H]2C[N@]1C(=O)N2O[S](O)(=O)=O",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "FYG",
+   "descriptor": "NC(=O)[CH]1CC[CH]2C[N]1C(=O)N2O[S](O)(=O)=O",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "FYG",
+   "descriptor": "C1C[C@H](N2C[C@@H]1N(C2=O)OS(=O)(=O)O)C(=O)N",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.6",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "FYG",
+   "descriptor": "C1CC(N2CC1N(C2=O)OS(=O)(=O)O)C(=O)N",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.6",
+   "type": "SMILES"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "FYG",
+   "identifier": "(2S,5R)-7-oxo-6-(sulfooxy)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "FYG",
+   "identifier": "[(2~{S},5~{R})-2-aminocarbonyl-7-oxidanylidene-1,6-diazabicyclo[3.2.1]octan-6-yl] hydrogen sulfate",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.6",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "FYG",
+  "drugbank_id": "DB09060",
+  "rcsb_id": "FYG"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C7H11N3O6S/c8-6(11)5-2-1-4-3-9(5)7(12)10(4)16-17(13,14)15/h4-5H,1-3H2,(H2,8,11)(H,13,14,15)/t4-,5+/m1/s1",
+  "InChIKey": "NDCUAPJVLWFHHB-UHNVWZDZSA-N",
+  "SMILES": "C1CC(N2CC1N(C2=O)OS(=O)(=O)O)C(=O)N",
+  "SMILES_stereo": "C1C[C@H](N2C[C@@H]1N(C2=O)OS(=O)(=O)O)C(=O)N",
+  "comp_id": "FYG"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 28,
+  "atom_count_chiral": 3,
+  "atom_count_heavy": 17,
+  "bond_count": 29,
+  "bond_count_aromatic": 0,
+  "comp_id": "FYG",
+  "initial_deposition_date": "2018-04-25T00:00:00.000+00:00",
+  "initial_release_date": "2021-01-20T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2021-01-20T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "FYG",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB09060",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "FYG",
+   "ordinal": 2,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "FUBDUE",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "FYG",
+   "ordinal": 3,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "FUBDEO",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "FYG",
+   "ordinal": 4,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "9835049",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "FYG",
+   "ordinal": 5,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "90333665",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "FYG",
+   "ordinal": 6,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEBI:85984",
+   "resource_name": "ChEBI"
+  },
+  {
+   "comp_id": "FYG",
+   "ordinal": 7,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEMBL1689063",
+   "resource_name": "ChEMBL"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "FYG",
+   "name": "(2S,5R)-7-oxo-6-(sulfooxy)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "FYG",
+   "name": "Avibactam",
+   "ordinal": 2,
+   "provenance_source": "PDB Reference Data",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "FYG",
+   "name": "(2S,5R)-7-oxo-6-(sulfooxy)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide",
+   "ordinal": 3,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "FYG",
+   "name": "[(2~{S},5~{R})-2-aminocarbonyl-7-oxidanylidene-1,6-diazabicyclo[3.2.1]octan-6-yl] hydrogen sulfate",
+   "ordinal": 4,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "FYG",
+   "name": "Avibactam sodium",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "FYG",
+   "name": "Avibactam",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "Beta-lactamase TEM",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P62593",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "Beta-lactamase CTX-M",
+   "ordinal": 2,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "Q939N4",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "Beta-lactamase",
+   "ordinal": 3,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P05364",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "Beta-lactamase SHV-1",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P0AD63",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "Beta-lactamase SHV-2",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P0A9Z7",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "Beta-lactamase SHV-1",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P0AD64",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "OXA-48 carbapenemase",
+   "ordinal": 7,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "A0A023W3H0",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "Carbapenem-hydrolyzing beta-lactamase KPC-2",
+   "ordinal": 8,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "Q9F663",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "Beta-lactamase",
+   "ordinal": 9,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "Q9EXV5",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "target",
+   "name": "Extended-spectrum beta-lactamase PER-1",
+   "ordinal": 10,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P37321",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "transporter",
+   "name": "ATP-binding cassette sub-family C member 2",
+   "ordinal": 11,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "Q92887",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "substrate"
+   ]
+  },
+  {
+   "comp_id": "FYG",
+   "interaction_type": "transporter",
+   "name": "Organic anion transporter 3",
+   "ordinal": 12,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "Q8TCC7",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "substrate"
+   ]
+  }
+ ],
+ "rcsb_id": "FYG"
+}

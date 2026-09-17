@@ -1,0 +1,182 @@
+{
+ "chebi_id": "CHEBI:87518",
+ "chebi_release": "255",
+ "definition": "An organophosphate oxoanion obtained by deprotonation of two of the three diphosphate OH groups of adenosine 5'-diphosphate.",
+ "inchikey": "XTWYTFMLZFPYCI-KQYNXXCUSA-L",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:87194",
+   "target_name": "MgADP"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:16761",
+   "target_name": "ADP"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:456216",
+   "target_name": "ADP(3−)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:58945"
+ ],
+ "name": "ADP(2-)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25696",
+  "CHEBI:25699",
+  "CHEBI:26079",
+  "CHEBI:26082",
+  "CHEBI:33241",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:36359",
+  "CHEBI:36360",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:58945"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:16761",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:456216",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:39+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ADP(2-)",
+   "chebi_accession": "CHEBI:87518",
+   "default_structure": {
+    "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])O)[C@@H](O)[C@H]1O",
+    "standard_inchi_key": "XTWYTFMLZFPYCI-KQYNXXCUSA-L"
+   },
+   "definition": "An organophosphate oxoanion obtained by deprotonation of two of the three diphosphate OH groups of adenosine 5'-diphosphate.",
+   "id": 87518,
+   "is_released": true,
+   "name": "ADP(2−)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 87194,
+      "init_name": "MgADP",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 16761,
+      "init_name": "ADP",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "init_id": 456216,
+      "init_name": "ADP(3−)",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 58945,
+      "final_name": "organophosphate oxoanion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 456216,
+      "final_name": "ADP(3−)",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "final_id": 16761,
+      "final_name": "ADP",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:87518",
+   "definition": [
+    "An organophosphate oxoanion obtained by deprotonation of two of the three diphosphate OH groups of adenosine 5'-diphosphate."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_58945"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25696",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_26079",
+    "http://purl.obolibrary.org/obo/CHEBI_26082",
+    "http://purl.obolibrary.org/obo/CHEBI_33241",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36359",
+    "http://purl.obolibrary.org/obo/CHEBI_36360",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_58945"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "5'-O-{[(hydroxyphosphinato)oxy]phosphinato}adenosine"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "XTWYTFMLZFPYCI-KQYNXXCUSA-L",
+   "isObsolete": false,
+   "label": [
+    "ADP(2-)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16761"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_456216"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "5'-O-{[(hydroxyphosphinato)oxy]phosphinato}adenosine"
+ ]
+}

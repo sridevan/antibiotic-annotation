@@ -1,0 +1,246 @@
+{
+ "chebi_id": "CHEBI:85984",
+ "chebi_release": "255",
+ "definition": "A member of the class of azabicycloalkanes that is (2<i>S</i>,5<i>R</i>)-7-oxo-1,6-diazabicyclo[3.2.1]octane-2-carboxamide in which the amino hydrogen at position 6 is replaced by a sulfooxy group. Used (in the form of its sodium salt) in combination with ceftazidime pentahydrate for the treatment of complicated urinary tract infections including pyelonephritis.",
+ "inchikey": "NDCUAPJVLWFHHB-UHNVWZDZSA-N",
+ "incoming": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:85988",
+   "target_name": "avibactam(1−)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:29347",
+  "CHEBI:38025",
+  "CHEBI:38295",
+  "CHEBI:47857"
+ ],
+ "name": "avibactam",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:25367",
+  "CHEBI:25704",
+  "CHEBI:25806",
+  "CHEBI:26820",
+  "CHEBI:26835",
+  "CHEBI:27171",
+  "CHEBI:29347",
+  "CHEBI:32988",
+  "CHEBI:33241",
+  "CHEBI:33256",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33424",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33635",
+  "CHEBI:33636",
+  "CHEBI:33671",
+  "CHEBI:33672",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:35352",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:37622",
+  "CHEBI:37826",
+  "CHEBI:38025",
+  "CHEBI:38101",
+  "CHEBI:38166",
+  "CHEBI:38295",
+  "CHEBI:47857",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:85988",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:45+00:00",
+ "roles": [
+  "CHEBI:33281",
+  "CHEBI:35625",
+  "CHEBI:36047"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "avibactam",
+   "chebi_accession": "CHEBI:85984",
+   "default_structure": {
+    "smiles": "NC(=O)[C@@H]1CC[C@@H]2CN1C(=O)N2OS(=O)(=O)O",
+    "standard_inchi_key": "NDCUAPJVLWFHHB-UHNVWZDZSA-N"
+   },
+   "definition": "A member of the class of azabicycloalkanes that is (2<i>S</i>,5<i>R</i>)-7-oxo-1,6-diazabicyclo[3.2.1]octane-2-carboxamide in which the amino hydrogen at position 6 is replaced by a sulfooxy group. Used (in the form of its sodium salt) in combination with ceftazidime pentahydrate for the treatment of complicated urinary tract infections including pyelonephritis.",
+   "id": 85984,
+   "is_released": true,
+   "name": "avibactam",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 85988,
+      "init_name": "avibactam(1−)",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35625,
+      "final_name": "EC 3.5.2.6 (β-lactamase) inhibitor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 38025,
+      "final_name": "hydroxylamine <em>O</em>-sulfonic acid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 29347,
+      "final_name": "monocarboxylic acid amide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 47857,
+      "final_name": "ureas",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 38295,
+      "final_name": "azabicycloalkane",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 85988,
+      "final_name": "avibactam(1−)",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:85984",
+   "definition": [
+    "A member of the class of azabicycloalkanes that is (2<i>S</i>,5<i>R</i>)-7-oxo-1,6-diazabicyclo[3.2.1]octane-2-carboxamide in which the amino hydrogen at position 6 is replaced by a sulfooxy group. Used (in the form of its sodium salt) in combination with ceftazidime pentahydrate for the treatment of complicated urinary tract infections including pyelonephritis."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_29347",
+    "http://purl.obolibrary.org/obo/CHEBI_38025",
+    "http://purl.obolibrary.org/obo/CHEBI_38295",
+    "http://purl.obolibrary.org/obo/CHEBI_47857"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25704",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26820",
+    "http://purl.obolibrary.org/obo/CHEBI_26835",
+    "http://purl.obolibrary.org/obo/CHEBI_27171",
+    "http://purl.obolibrary.org/obo/CHEBI_29347",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33241",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33424",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33635",
+    "http://purl.obolibrary.org/obo/CHEBI_33636",
+    "http://purl.obolibrary.org/obo/CHEBI_33671",
+    "http://purl.obolibrary.org/obo/CHEBI_33672",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_37826",
+    "http://purl.obolibrary.org/obo/CHEBI_38025",
+    "http://purl.obolibrary.org/obo/CHEBI_38101",
+    "http://purl.obolibrary.org/obo/CHEBI_38166",
+    "http://purl.obolibrary.org/obo/CHEBI_38295",
+    "http://purl.obolibrary.org/obo/CHEBI_47857",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(2S,5R)-7-oxo-6-(sulfooxy)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "NDCUAPJVLWFHHB-UHNVWZDZSA-N",
+   "isObsolete": false,
+   "label": [
+    "avibactam"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33281"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35625"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_85988"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(2S,5R)-7-oxo-6-(sulfooxy)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide"
+ ]
+}

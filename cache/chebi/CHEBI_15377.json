@@ -1,0 +1,344 @@
+{
+ "chebi_id": "CHEBI:15377",
+ "chebi_release": "255",
+ "definition": "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms",
+ "inchikey": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:132140",
+   "target_name": "methane clathrate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:78665",
+   "target_name": "royal jelly"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:35505",
+   "target_name": "hydrate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:88276",
+   "target_name": "urea ammonium nitrate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:91238",
+   "target_name": "calcium ammonium nitrate"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:29412",
+   "target_name": "oxonium"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:16234",
+   "target_name": "hydroxide"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33693",
+  "CHEBI:37176",
+  "CHEBI:52625"
+ ],
+ "name": "water",
+ "num_descendants": 6,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24835",
+  "CHEBI:25806",
+  "CHEBI:33242",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33692",
+  "CHEBI:33693",
+  "CHEBI:36357",
+  "CHEBI:36902",
+  "CHEBI:37176",
+  "CHEBI:37577",
+  "CHEBI:52625"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:29412",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:16234",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:36+00:00",
+ "roles": [
+  "CHEBI:48360",
+  "CHEBI:75771",
+  "CHEBI:75772",
+  "CHEBI:76413",
+  "CHEBI:76971",
+  "CHEBI:77746"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "water",
+   "chebi_accession": "CHEBI:15377",
+   "default_structure": {
+    "smiles": "[H]O[H]",
+    "standard_inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-N"
+   },
+   "definition": "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms",
+   "id": 15377,
+   "is_released": true,
+   "name": "water",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 132140,
+      "init_name": "methane clathrate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 78665,
+      "init_name": "royal jelly",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 35505,
+      "init_name": "hydrate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 88276,
+      "init_name": "urea ammonium nitrate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 91238,
+      "init_name": "calcium ammonium nitrate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 29412,
+      "init_name": "oxonium",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "init_id": 16234,
+      "init_name": "hydroxide",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48360,
+      "final_name": "amphiprotic solvent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76413,
+      "final_name": "greenhouse gas",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 37176,
+      "final_name": "mononuclear parent hydride",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 52625,
+      "final_name": "inorganic hydroxy compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33693,
+      "final_name": "oxygen hydride",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 16234,
+      "final_name": "hydroxide",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "final_id": 29412,
+      "final_name": "oxonium",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5585",
+    "CHEBI:10743",
+    "CHEBI:13352",
+    "CHEBI:27313",
+    "CHEBI:42043",
+    "CHEBI:42857",
+    "CHEBI:43228",
+    "CHEBI:44292",
+    "CHEBI:44701",
+    "CHEBI:44819"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:15377",
+   "definition": [
+    "An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms"
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33693",
+    "http://purl.obolibrary.org/obo/CHEBI_37176",
+    "http://purl.obolibrary.org/obo/CHEBI_52625"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33242",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33692",
+    "http://purl.obolibrary.org/obo/CHEBI_33693",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36902",
+    "http://purl.obolibrary.org/obo/CHEBI_37176",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_52625"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "PDBeChem"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "WATER"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Water"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "oxidane"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "water"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "XLYOFNOQVPJJNP-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "water"
+   ],
+   "numDescendants": 6.0,
+   "numHierarchicalDescendants": 6.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48360"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76413"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_29412"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16234"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "WATER",
+  "Water",
+  "oxidane",
+  "water"
+ ]
+}

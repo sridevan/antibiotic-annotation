@@ -1,0 +1,431 @@
+{
+ "chebi_id": "CHEBI:15422",
+ "chebi_release": "255",
+ "definition": "An adenosine 5'-phosphate in which the 5'-phosphate is a triphosphate group. It is involved in the transportation of chemical energy during metabolic pathways.",
+ "inchikey": "ZKHQWZAMYRWXGA-KQYNXXCUSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:189101",
+   "target_name": "8-hydroxy-ATP"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:27575",
+   "target_name": "adenosine 5'-[γ-thio]triphosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:189100",
+   "target_name": "8-oxo-ATP"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:27782",
+   "target_name": "3'-dehydro-ATP"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:20855",
+   "target_name": "ATP-sugar"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:50104",
+   "target_name": "TNP-ATP"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:71394",
+   "target_name": "adenosine thiamine triphosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:62910",
+   "target_name": "ethyl-ATP"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:71679",
+   "target_name": "<em>N</em><small><sup>6</small></sup>-(dimethylallyl)adenosine 5'-triphosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:71938",
+   "target_name": "9-ribosyl-<i>trans</i>-zeatin 5'-triphosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:65119",
+   "target_name": "2-hydroxy-ATP"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:50732",
+   "target_name": "adenosine triphosphate disodium"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:57299",
+   "target_name": "ATP(3−)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:37045",
+  "CHEBI:37096"
+ ],
+ "name": "ATP",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16701",
+  "CHEBI:17326",
+  "CHEBI:17972",
+  "CHEBI:22256",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:25367",
+  "CHEBI:25608",
+  "CHEBI:25703",
+  "CHEBI:25710",
+  "CHEBI:25806",
+  "CHEBI:25900",
+  "CHEBI:26020",
+  "CHEBI:26079",
+  "CHEBI:26082",
+  "CHEBI:26393",
+  "CHEBI:26395",
+  "CHEBI:26398",
+  "CHEBI:26400",
+  "CHEBI:26401",
+  "CHEBI:26561",
+  "CHEBI:26562",
+  "CHEBI:26816",
+  "CHEBI:27171",
+  "CHEBI:29075",
+  "CHEBI:33241",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33447",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33635",
+  "CHEBI:33636",
+  "CHEBI:33655",
+  "CHEBI:33659",
+  "CHEBI:33671",
+  "CHEBI:33672",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:33833",
+  "CHEBI:35131",
+  "CHEBI:35352",
+  "CHEBI:35701",
+  "CHEBI:35875",
+  "CHEBI:36357",
+  "CHEBI:36359",
+  "CHEBI:36360",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:36976",
+  "CHEBI:37015",
+  "CHEBI:37045",
+  "CHEBI:37076",
+  "CHEBI:37096",
+  "CHEBI:37577",
+  "CHEBI:37734",
+  "CHEBI:38101",
+  "CHEBI:38166",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:61120",
+  "CHEBI:61293",
+  "CHEBI:61296",
+  "CHEBI:63299",
+  "CHEBI:63367",
+  "CHEBI:63409",
+  "CHEBI:72695",
+  "CHEBI:78616",
+  "CHEBI:84055"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:57299",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:38+00:00",
+ "roles": [
+  "CHEBI:23357",
+  "CHEBI:27027",
+  "CHEBI:50733",
+  "CHEBI:78675"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ATP",
+   "chebi_accession": "CHEBI:15422",
+   "default_structure": {
+    "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+    "standard_inchi_key": "ZKHQWZAMYRWXGA-KQYNXXCUSA-N"
+   },
+   "definition": "An adenosine 5'-phosphate in which the 5'-phosphate is a triphosphate group. It is involved in the transportation of chemical energy during metabolic pathways.",
+   "id": 15422,
+   "is_released": true,
+   "name": "ATP",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 189101,
+      "init_name": "8-hydroxy-ATP",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 27575,
+      "init_name": "adenosine 5'-[γ-thio]triphosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 189100,
+      "init_name": "8-oxo-ATP",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 27782,
+      "init_name": "3'-dehydro-ATP",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 20855,
+      "init_name": "ATP-sugar",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 50104,
+      "init_name": "TNP-ATP",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 71394,
+      "init_name": "adenosine thiamine triphosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 62910,
+      "init_name": "ethyl-ATP",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 71679,
+      "init_name": "<em>N</em><small><sup>6</small></sup>-(dimethylallyl)adenosine 5'-triphosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 71938,
+      "init_name": "9-ribosyl-<i>trans</i>-zeatin 5'-triphosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 65119,
+      "init_name": "2-hydroxy-ATP",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 50732,
+      "init_name": "adenosine triphosphate disodium",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 57299,
+      "init_name": "ATP(3−)",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 78675,
+      "final_name": "fundamental metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 23357,
+      "final_name": "cofactor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50733,
+      "final_name": "nutraceutical",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 27027,
+      "final_name": "micronutrient",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 37096,
+      "final_name": "adenosine 5'-phosphate",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 37045,
+      "final_name": "purine ribonucleoside 5'-triphosphate",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 57299,
+      "final_name": "ATP(3−)",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:2359",
+    "CHEBI:10789",
+    "CHEBI:10841",
+    "CHEBI:13236",
+    "CHEBI:22249",
+    "CHEBI:40938"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:15422",
+   "definition": [
+    "An adenosine 5'-phosphate in which the 5'-phosphate is a triphosphate group. It is involved in the transportation of chemical energy during metabolic pathways."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_37045",
+    "http://purl.obolibrary.org/obo/CHEBI_37096"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16701",
+    "http://purl.obolibrary.org/obo/CHEBI_17326",
+    "http://purl.obolibrary.org/obo/CHEBI_17972",
+    "http://purl.obolibrary.org/obo/CHEBI_22256",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25608",
+    "http://purl.obolibrary.org/obo/CHEBI_25703",
+    "http://purl.obolibrary.org/obo/CHEBI_25710",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_25900",
+    "http://purl.obolibrary.org/obo/CHEBI_26020",
+    "http://purl.obolibrary.org/obo/CHEBI_26079",
+    "http://purl.obolibrary.org/obo/CHEBI_26082",
+    "http://purl.obolibrary.org/obo/CHEBI_26393",
+    "http://purl.obolibrary.org/obo/CHEBI_26395",
+    "http://purl.obolibrary.org/obo/CHEBI_26398",
+    "http://purl.obolibrary.org/obo/CHEBI_26400",
+    "http://purl.obolibrary.org/obo/CHEBI_26401",
+    "http://purl.obolibrary.org/obo/CHEBI_26561",
+    "http://purl.obolibrary.org/obo/CHEBI_26562",
+    "http://purl.obolibrary.org/obo/CHEBI_26816",
+    "http://purl.obolibrary.org/obo/CHEBI_27171",
+    "http://purl.obolibrary.org/obo/CHEBI_29075",
+    "http://purl.obolibrary.org/obo/CHEBI_33241",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33447",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33635",
+    "http://purl.obolibrary.org/obo/CHEBI_33636",
+    "http://purl.obolibrary.org/obo/CHEBI_33655",
+    "http://purl.obolibrary.org/obo/CHEBI_33659",
+    "http://purl.obolibrary.org/obo/CHEBI_33671",
+    "http://purl.obolibrary.org/obo/CHEBI_33672",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_33833",
+    "http://purl.obolibrary.org/obo/CHEBI_35131",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35701",
+    "http://purl.obolibrary.org/obo/CHEBI_35875",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36359",
+    "http://purl.obolibrary.org/obo/CHEBI_36360",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_36976",
+    "http://purl.obolibrary.org/obo/CHEBI_37015",
+    "http://purl.obolibrary.org/obo/CHEBI_37045",
+    "http://purl.obolibrary.org/obo/CHEBI_37076",
+    "http://purl.obolibrary.org/obo/CHEBI_37096",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37734",
+    "http://purl.obolibrary.org/obo/CHEBI_38101",
+    "http://purl.obolibrary.org/obo/CHEBI_38166",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_61120",
+    "http://purl.obolibrary.org/obo/CHEBI_61293",
+    "http://purl.obolibrary.org/obo/CHEBI_61296",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_63367",
+    "http://purl.obolibrary.org/obo/CHEBI_63409",
+    "http://purl.obolibrary.org/obo/CHEBI_72695",
+    "http://purl.obolibrary.org/obo/CHEBI_78616",
+    "http://purl.obolibrary.org/obo/CHEBI_84055"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "adenosine 5'-(tetrahydrogen triphosphate)"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "ZKHQWZAMYRWXGA-KQYNXXCUSA-N",
+   "isObsolete": false,
+   "label": [
+    "ATP"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_23357"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_27027"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50733"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_78675"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_57299"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "adenosine 5'-(tetrahydrogen triphosphate)"
+ ]
+}

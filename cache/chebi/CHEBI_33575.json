@@ -1,0 +1,281 @@
+{
+ "chebi_id": "CHEBI:33575",
+ "chebi_release": "255",
+ "definition": "A carbon oxoacid acid carrying at least one ‒C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:151087",
+   "target_name": "Hexadecyl trichloroacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:146305",
+   "target_name": "silyl ester"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:191922",
+   "target_name": "Ethyl 2-Bromo-2-iodoacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:23990",
+   "target_name": "ethyl ester"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:88330",
+   "target_name": "<em>N</em>-(2-naphthyl)carboxamide"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:90628",
+   "target_name": "benzyl ester"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:88360",
+   "target_name": "<em>N</em>-(1-naphthyl)carboxamide"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:192463",
+   "target_name": "TRIFLUOROACETIC ACID ETHYL ESTER"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:29067",
+   "target_name": "carboxylic acid anion"
+  }
+ ],
+ "is_a": [
+  "CHEBI:35605",
+  "CHEBI:36586",
+  "CHEBI:64709"
+ ],
+ "name": "carboxylic acid",
+ "num_descendants": 14407,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24833",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:35605",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:64709",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:46883",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:29067",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:16+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "carboxylic acid",
+   "chebi_accession": "CHEBI:33575",
+   "default_structure": {
+    "smiles": "*C(=O)O",
+    "standard_inchi_key": null
+   },
+   "definition": "A carbon oxoacid acid carrying at least one ‒C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid.",
+   "id": 33575,
+   "is_released": true,
+   "name": "carboxylic acid",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 151087,
+      "init_name": "Hexadecyl trichloroacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 146305,
+      "init_name": "silyl ester",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 191922,
+      "init_name": "Ethyl 2-Bromo-2-iodoacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 23990,
+      "init_name": "ethyl ester",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 88330,
+      "init_name": "<em>N</em>-(2-naphthyl)carboxamide",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 90628,
+      "init_name": "benzyl ester",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 88360,
+      "init_name": "<em>N</em>-(1-naphthyl)carboxamide",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 192463,
+      "init_name": "TRIFLUOROACETIC ACID ETHYL ESTER",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 29067,
+      "init_name": "carboxylic acid anion",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 46883,
+      "final_name": "carboxy group",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 36586,
+      "final_name": "carbonyl compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35605,
+      "final_name": "carbon oxoacid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 64709,
+      "final_name": "organic acid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 29067,
+      "final_name": "carboxylic acid anion",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:13428",
+    "CHEBI:13627",
+    "CHEBI:23027"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33575",
+   "definition": [
+    "A carbon oxoacid acid carrying at least one ‒C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_64709"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24833",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_64709",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "carboxylic acid"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "carboxylic acids"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "carboxylic acid"
+   ],
+   "numDescendants": 14407.0,
+   "numHierarchicalDescendants": 14407.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_46883"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_29067"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "carboxylic acid",
+  "carboxylic acids"
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "chebi_id": "CHEBI:25140",
+ "chebi_release": "255",
+ "definition": "A dextrin in which the <small>D</small>-glucose units are linked by α-(1→4) glycosidic bonds.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:28675"
+ ],
+ "name": "maltodextrin",
+ "num_descendants": 6,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16646",
+  "CHEBI:167559",
+  "CHEBI:18154",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:28675",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33694",
+  "CHEBI:33839",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37163",
+  "CHEBI:37164",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:48+00:00",
+ "roles": [
+  "CHEBI:176497",
+  "CHEBI:22587",
+  "CHEBI:35441",
+  "CHEBI:35469",
+  "CHEBI:35554",
+  "CHEBI:48407",
+  "CHEBI:50177",
+  "CHEBI:50503",
+  "CHEBI:50864",
+  "CHEBI:53784",
+  "CHEBI:67079"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "maltodextrin",
+   "chebi_accession": "CHEBI:25140",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A dextrin in which the <small>D</small>-glucose units are linked by α-(1→4) glycosidic bonds.",
+   "id": 25140,
+   "is_released": true,
+   "name": "maltodextrin",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 22587,
+      "final_name": "antiviral agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 176497,
+      "final_name": "geroprotector",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 67079,
+      "final_name": "anti-inflammatory agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50503,
+      "final_name": "laxative",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35469,
+      "final_name": "antidepressant",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50177,
+      "final_name": "dermatologic drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35554,
+      "final_name": "cardiovascular drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35441,
+      "final_name": "antiinfective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50864,
+      "final_name": "insulin-sensitizing drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48407,
+      "final_name": "antiparkinson drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 53784,
+      "final_name": "antispasmodic drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 28675,
+      "final_name": "dextrin",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25140",
+   "definition": [
+    "A dextrin in which the <small>D</small>-glucose units are linked by α-(1→4) glycosidic bonds."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_28675"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_167559",
+    "http://purl.obolibrary.org/obo/CHEBI_18154",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_28675",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33694",
+    "http://purl.obolibrary.org/obo/CHEBI_33839",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37163",
+    "http://purl.obolibrary.org/obo/CHEBI_37164",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "isObsolete": false,
+   "label": [
+    "maltodextrin"
+   ],
+   "numDescendants": 6.0,
+   "numHierarchicalDescendants": 6.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_176497"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_22587"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35441"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35469"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35554"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48407"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50177"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50503"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50864"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_53784"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_67079"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

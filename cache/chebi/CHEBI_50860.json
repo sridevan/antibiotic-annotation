@@ -1,0 +1,93 @@
+{
+ "chebi_id": "CHEBI:50860",
+ "chebi_release": "255",
+ "definition": "Any molecular entity that contains carbon.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33582"
+ ],
+ "name": "organic molecular entity",
+ "num_descendants": 203378,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:27594",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:45:41+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "organic molecular entity",
+   "chebi_accession": "CHEBI:50860",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any molecular entity that contains carbon.",
+   "id": 50860,
+   "is_released": true,
+   "name": "organic molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 27594,
+      "final_name": "carbon atom",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33582,
+      "final_name": "carbon group molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:25700",
+    "CHEBI:33244"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:50860",
+   "definition": [
+    "Any molecular entity that contains carbon."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33582"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675"
+   ],
+   "isObsolete": false,
+   "label": [
+    "organic molecular entity"
+   ],
+   "numDescendants": 203378.0,
+   "numHierarchicalDescendants": 203378.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_27594"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

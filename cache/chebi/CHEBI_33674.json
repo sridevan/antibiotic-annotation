@@ -1,0 +1,86 @@
+{
+ "chebi_id": "CHEBI:33674",
+ "chebi_release": "255",
+ "definition": "An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33579"
+ ],
+ "name": "s-block molecular entity",
+ "num_descendants": 31922,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33579"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33559",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:45:52+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "s-block molecular entity",
+   "chebi_accession": "CHEBI:33674",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.",
+   "id": 33674,
+   "is_released": true,
+   "name": "s-block molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33559,
+      "final_name": "s-block element atom",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33579,
+      "final_name": "main group molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33674",
+   "definition": [
+    "An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33579"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33579"
+   ],
+   "isObsolete": false,
+   "label": [
+    "s-block molecular entity"
+   ],
+   "numDescendants": 31922.0,
+   "numHierarchicalDescendants": 31922.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33559"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

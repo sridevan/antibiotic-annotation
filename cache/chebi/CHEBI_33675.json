@@ -1,0 +1,86 @@
+{
+ "chebi_id": "CHEBI:33675",
+ "chebi_release": "255",
+ "definition": "A main group molecular entity that contains one or more atoms of a p-block element.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33579"
+ ],
+ "name": "p-block molecular entity",
+ "num_descendants": 207974,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33579"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33560",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:45:42+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "p-block molecular entity",
+   "chebi_accession": "CHEBI:33675",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A main group molecular entity that contains one or more atoms of a p-block element.",
+   "id": 33675,
+   "is_released": true,
+   "name": "p-block molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33560,
+      "final_name": "p-block element atom",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33579,
+      "final_name": "main group molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33675",
+   "definition": [
+    "A main group molecular entity that contains one or more atoms of a p-block element."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33579"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33579"
+   ],
+   "isObsolete": false,
+   "label": [
+    "p-block molecular entity"
+   ],
+   "numDescendants": 207974.0,
+   "numHierarchicalDescendants": 207974.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33560"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

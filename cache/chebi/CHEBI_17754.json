@@ -1,0 +1,793 @@
+{
+ "chebi_id": "CHEBI:17754",
+ "chebi_release": "255",
+ "definition": "A triol with a structure of propane substituted at positions 1, 2 and 3 by hydroxy groups.",
+ "inchikey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:59642",
+   "target_name": "bisphenol A (3-chloro-2-hydroxypropyl) (2,3-dihydroxypropyl) ether"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16597",
+   "target_name": "glycerol 1,2-cyclic phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:15978",
+   "target_name": "<em>sn</em>-glycerol 3-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:17805",
+   "target_name": "<small>D</small>-<i>erythro</i>-1-(imidazol-4-yl)glycerol 3-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:18299",
+   "target_name": "1-<em>C</em>-(indol-3-yl)glycerol 3-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:18898",
+   "target_name": "1,2-dinitroglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16903",
+   "target_name": "1-<em>O</em>-(alk-1-enyl)-2-<em>O</em>-acylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52949",
+   "target_name": "<i>cis</i>,<i>cis</i>-1-<em>O</em>-(1,9-octadecadienyl)-2-<em>O</em>-stearoylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52568",
+   "target_name": "alk-1-enyl-2-lyso-glycerophosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52638",
+   "target_name": "1-<em>O</em>-hexadecyl-2-<em>O</em>-lauroyl-<em>sn</em>-glycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:34116",
+   "target_name": "(9<i>Z</i>)-1-<em>O</em>-octadec-9-enyl glycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:34110",
+   "target_name": "1-<em>O</em>-[(<i>Z</i>)-tetradec-1-enyl]-2-<em>O</em>-[(<i>Z</i>)-octadec-9-enoyl]-<em>sn</em>-glycero-3-phosphocholine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52642",
+   "target_name": "1-<em>O</em>-hexadecyl-2-<em>O</em>-lauroylglycerophosphoethanolamine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:34115",
+   "target_name": "1-<em>O</em>-hexadecyl-<em>sn</em>-glycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52645",
+   "target_name": "1-O-[(<i>E</i>)-hexadecen-1-yl]-<em>sn</em>-glycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52643",
+   "target_name": "1,2-diacylglycerol 3-diphosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:34087",
+   "target_name": "1-<em>O</em>-hexadecanoyl-2-<em>O</em>-[(<i>Z</i>)-octadec-9-enoyl]-<em>sn</em>-glycerol 3-diphosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:28468",
+   "target_name": "1-<em>O</em>-palmitoyl-<em>sn</em>-glycero-3-phosphocholine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52649",
+   "target_name": "1-O-oleoyl-<em>sn</em>-glycero-3-phosphoserine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52603",
+   "target_name": "1-acyl-<em>sn</em>-glycero-3-phosphoserine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:76583",
+   "target_name": "alk-1-enylacylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52578",
+   "target_name": "alkylacylglycerophosphoethanolamine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52567",
+   "target_name": "1-(alk-1-enyl)-2-acyl-<em>sn</em>-glycero-3-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:11750",
+   "target_name": "3-<em>sn</em>-phosphatidyl-<small>L</small>-serine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:34086",
+   "target_name": "{1-<em>O</em>-hexadecanoyl-2-<em>O</em>-[(<i>Z</i>)-octadec-9-enoyl]-<em>sn</em>-glycero-3-phospho}serine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:26707",
+   "target_name": "glycerol phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:64611",
+   "target_name": "ether lipid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:68347",
+   "target_name": "<i>threo</i>-1-(4-hydroxy-3-methoxyphenyl)-2-{4-[-(<i>E</i>)-3-hydroxy-1-propenyl]-2-methoxyphenoxy}-1,3-propanediol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:86962",
+   "target_name": "veratryl glycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:150373",
+   "target_name": "1-<em>O</em>-glyceryl β-<small>D</small>-galactofuranoside"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:76575",
+   "target_name": "monoradylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:90345",
+   "target_name": "glycerol monomycolate (C<small><sub>85</sub></small>)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:25560",
+   "target_name": "nitroglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:24406",
+   "target_name": "glycosylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:45666",
+   "target_name": "SDZ 35-682"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:35741",
+   "target_name": "glycerolipid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:147787",
+   "target_name": "isofloridoside"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:63578",
+   "target_name": "iopromide"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:24353",
+   "target_name": "glycerol ether"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:53663",
+   "target_name": "guaiacylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:74251",
+   "target_name": "glycerol mono(keto-meromycolate)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:142506",
+   "target_name": "1-nervonoylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:142505",
+   "target_name": "1-tetracosanoylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:142498",
+   "target_name": "1-erucoylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:142497",
+   "target_name": "1-behenoylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:149477",
+   "target_name": "1-feruloyl-<em>sn</em>-glycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:53758",
+   "target_name": "PAP"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:59478",
+   "target_name": "1-<em>O</em>-(hexadec-1-enyl)-2-<em>O</em>-octadeca-9,12-dienoyl-<em>sn</em>-glycero-3-phosphoethanolamine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:31653",
+   "target_name": "glafenine"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:61995",
+   "target_name": "lecithin"
+  }
+ ],
+ "is_a": [
+  "CHEBI:17522",
+  "CHEBI:27136"
+ ],
+ "name": "glycerol",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16646",
+  "CHEBI:17522",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:27136",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:36+00:00",
+ "roles": [
+  "CHEBI:176497",
+  "CHEBI:25728",
+  "CHEBI:27780",
+  "CHEBI:33282",
+  "CHEBI:35610",
+  "CHEBI:46787",
+  "CHEBI:49201",
+  "CHEBI:50503",
+  "CHEBI:64946",
+  "CHEBI:66981",
+  "CHEBI:75771",
+  "CHEBI:75772",
+  "CHEBI:76971",
+  "CHEBI:77746",
+  "CHEBI:84735"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "glycerol",
+   "chebi_accession": "CHEBI:17754",
+   "default_structure": {
+    "smiles": "OCC(O)CO",
+    "standard_inchi_key": "PEDCQBHIVMGVHV-UHFFFAOYSA-N"
+   },
+   "definition": "A triol with a structure of propane substituted at positions 1, 2 and 3 by hydroxy groups.",
+   "id": 17754,
+   "is_released": true,
+   "name": "glycerol",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 59642,
+      "init_name": "bisphenol A (3-chloro-2-hydroxypropyl) (2,3-dihydroxypropyl) ether",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16597,
+      "init_name": "glycerol 1,2-cyclic phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 15978,
+      "init_name": "<em>sn</em>-glycerol 3-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 17805,
+      "init_name": "<small>D</small>-<i>erythro</i>-1-(imidazol-4-yl)glycerol 3-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 18299,
+      "init_name": "1-<em>C</em>-(indol-3-yl)glycerol 3-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 18898,
+      "init_name": "1,2-dinitroglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16903,
+      "init_name": "1-<em>O</em>-(alk-1-enyl)-2-<em>O</em>-acylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52949,
+      "init_name": "<i>cis</i>,<i>cis</i>-1-<em>O</em>-(1,9-octadecadienyl)-2-<em>O</em>-stearoylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52568,
+      "init_name": "alk-1-enyl-2-lyso-glycerophosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52638,
+      "init_name": "1-<em>O</em>-hexadecyl-2-<em>O</em>-lauroyl-<em>sn</em>-glycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 34116,
+      "init_name": "(9<i>Z</i>)-1-<em>O</em>-octadec-9-enyl glycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 34110,
+      "init_name": "1-<em>O</em>-[(<i>Z</i>)-tetradec-1-enyl]-2-<em>O</em>-[(<i>Z</i>)-octadec-9-enoyl]-<em>sn</em>-glycero-3-phosphocholine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52642,
+      "init_name": "1-<em>O</em>-hexadecyl-2-<em>O</em>-lauroylglycerophosphoethanolamine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 34115,
+      "init_name": "1-<em>O</em>-hexadecyl-<em>sn</em>-glycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52645,
+      "init_name": "1-O-[(<i>E</i>)-hexadecen-1-yl]-<em>sn</em>-glycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52643,
+      "init_name": "1,2-diacylglycerol 3-diphosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 34087,
+      "init_name": "1-<em>O</em>-hexadecanoyl-2-<em>O</em>-[(<i>Z</i>)-octadec-9-enoyl]-<em>sn</em>-glycerol 3-diphosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 28468,
+      "init_name": "1-<em>O</em>-palmitoyl-<em>sn</em>-glycero-3-phosphocholine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52649,
+      "init_name": "1-O-oleoyl-<em>sn</em>-glycero-3-phosphoserine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52603,
+      "init_name": "1-acyl-<em>sn</em>-glycero-3-phosphoserine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 76583,
+      "init_name": "alk-1-enylacylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52578,
+      "init_name": "alkylacylglycerophosphoethanolamine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52567,
+      "init_name": "1-(alk-1-enyl)-2-acyl-<em>sn</em>-glycero-3-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 11750,
+      "init_name": "3-<em>sn</em>-phosphatidyl-<small>L</small>-serine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 34086,
+      "init_name": "{1-<em>O</em>-hexadecanoyl-2-<em>O</em>-[(<i>Z</i>)-octadec-9-enoyl]-<em>sn</em>-glycero-3-phospho}serine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 26707,
+      "init_name": "glycerol phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 64611,
+      "init_name": "ether lipid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 68347,
+      "init_name": "<i>threo</i>-1-(4-hydroxy-3-methoxyphenyl)-2-{4-[-(<i>E</i>)-3-hydroxy-1-propenyl]-2-methoxyphenoxy}-1,3-propanediol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 86962,
+      "init_name": "veratryl glycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 150373,
+      "init_name": "1-<em>O</em>-glyceryl β-<small>D</small>-galactofuranoside",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 76575,
+      "init_name": "monoradylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 90345,
+      "init_name": "glycerol monomycolate (C<small><sub>85</sub></small>)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 25560,
+      "init_name": "nitroglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 24406,
+      "init_name": "glycosylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 45666,
+      "init_name": "SDZ 35-682",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 35741,
+      "init_name": "glycerolipid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 147787,
+      "init_name": "isofloridoside",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 63578,
+      "init_name": "iopromide",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 24353,
+      "init_name": "glycerol ether",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 53663,
+      "init_name": "guaiacylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 74251,
+      "init_name": "glycerol mono(keto-meromycolate)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 142506,
+      "init_name": "1-nervonoylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 142505,
+      "init_name": "1-tetracosanoylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 142498,
+      "init_name": "1-erucoylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 142497,
+      "init_name": "1-behenoylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 149477,
+      "init_name": "1-feruloyl-<em>sn</em>-glycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 53758,
+      "init_name": "PAP",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 59478,
+      "init_name": "1-<em>O</em>-(hexadec-1-enyl)-2-<em>O</em>-octadeca-9,12-dienoyl-<em>sn</em>-glycero-3-phosphoethanolamine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 31653,
+      "init_name": "glafenine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 61995,
+      "init_name": "lecithin",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 46787,
+      "final_name": "solvent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 84735,
+      "final_name": "algal metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25728,
+      "final_name": "osmolyte",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 27780,
+      "final_name": "detergent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 176497,
+      "final_name": "geroprotector",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 66981,
+      "final_name": "ophthalmology drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50503,
+      "final_name": "laxative",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 49201,
+      "final_name": "anti-ulcer drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35610,
+      "final_name": "antineoplastic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 64946,
+      "final_name": "anti-HIV agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 27136,
+      "final_name": "triol",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 17522,
+      "final_name": "alditol",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5448",
+    "CHEBI:14334",
+    "CHEBI:24351",
+    "CHEBI:42998",
+    "CHEBI:131422"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17754",
+   "definition": [
+    "A triol with a structure of propane substituted at positions 1, 2 and 3 by hydroxy groups."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_17522",
+    "http://purl.obolibrary.org/obo/CHEBI_27136"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_17522",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_27136",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "propane-1,2,3-triol"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "glycerol"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_176497"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_25728"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_27780"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_46787"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_49201"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50503"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_64946"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_66981"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_84735"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "propane-1,2,3-triol"
+ ]
+}

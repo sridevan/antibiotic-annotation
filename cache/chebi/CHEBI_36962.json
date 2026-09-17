@@ -1,0 +1,87 @@
+{
+ "chebi_id": "CHEBI:36962",
+ "chebi_release": "255",
+ "definition": "An organochalcogen compound is a compound containing at least one carbon-chalcogen bond.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33285",
+  "CHEBI:33304"
+ ],
+ "name": "organochalcogen compound",
+ "num_descendants": 130110,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:47+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "organochalcogen compound",
+   "chebi_accession": "CHEBI:36962",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An organochalcogen compound is a compound containing at least one carbon-chalcogen bond.",
+   "id": 36962,
+   "is_released": true,
+   "name": "organochalcogen compound",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33285,
+      "final_name": "heteroorganic entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33304,
+      "final_name": "chalcogen molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:36962",
+   "definition": [
+    "An organochalcogen compound is a compound containing at least one carbon-chalcogen bond."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "isObsolete": false,
+   "label": [
+    "organochalcogen compound"
+   ],
+   "numDescendants": 130110.0,
+   "numHierarchicalDescendants": 130110.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

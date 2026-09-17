@@ -1,0 +1,97 @@
+{
+ "chebi_id": "CHEBI:36683",
+ "chebi_release": "255",
+ "definition": "An organochlorine compound is a compound containing at least one carbon-chlorine bond.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:17792",
+  "CHEBI:23117"
+ ],
+ "name": "organochlorine compound",
+ "num_descendants": 2730,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:17792",
+  "CHEBI:23117",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:33285",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:37578",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:56+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "organochlorine compound",
+   "chebi_accession": "CHEBI:36683",
+   "default_structure": {
+    "smiles": "*Cl",
+    "standard_inchi_key": null
+   },
+   "definition": "An organochlorine compound is a compound containing at least one carbon-chlorine bond.",
+   "id": 36683,
+   "is_released": true,
+   "name": "organochlorine compound",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 17792,
+      "final_name": "organohalogen compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 23117,
+      "final_name": "chlorine molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:36683",
+   "definition": [
+    "An organochlorine compound is a compound containing at least one carbon-chlorine bond."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_17792",
+    "http://purl.obolibrary.org/obo/CHEBI_23117"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_17792",
+    "http://purl.obolibrary.org/obo/CHEBI_23117",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37578",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "isObsolete": false,
+   "label": [
+    "organochlorine compound"
+   ],
+   "numDescendants": 2730.0,
+   "numHierarchicalDescendants": 2730.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

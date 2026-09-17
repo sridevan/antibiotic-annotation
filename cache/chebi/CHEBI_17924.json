@@ -1,0 +1,526 @@
+{
+ "chebi_id": "CHEBI:17924",
+ "chebi_release": "255",
+ "definition": "The <small>D</small>-enantiomer of glucitol (also known as <small>D</small>-sorbitol).",
+ "inchikey": "FBPFZTCFMRRESA-JGWLITMVSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:154588",
+   "target_name": "β-<small>D</small>-Glc<em>p</em>-(1→3)-<small>D</small>-Glc-OH"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:17044",
+   "target_name": "<small>D</small>-glucitol 6-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:21092",
+   "target_name": "<small>D</small>-glucitol 3-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:61784",
+   "target_name": "α-<small>L</small>-Rha<em>p</em>-(1→3)-<small>D</small>-glucitol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:153954",
+   "target_name": "β-<small>D</small>-Glc<em>p</em>-(1→2)-<small>D</small>-Glc-OH"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:153263",
+   "target_name": "α-<small>D</small>-Gal<em>p</em>-(1→6)-<small>D</small>-Glc-OH"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16070",
+   "target_name": "1,5-anhydro-<small>D</small>-glucitol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:68428",
+   "target_name": "maltitol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:148578",
+   "target_name": "α-<small>L</small>-Fuc<em>p</em>-(1→2)-β-<small>D</small>-Gal<em>p</em>-(1→3)-<small>D</small>-Glc-OH"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:152991",
+   "target_name": "α-<small>L</small>-Fuc<em>p</em>-(1→2)-β-<small>D</small>-Gal<em>p</em>-(1→4)-<small>D</small>-Glu-OH"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:62660",
+   "target_name": "β-<small>D</small>-GlcNAc-(1→3)-[β-<small>D</small>-GlcNAc-(1→6)]-β-<small>D</small>-Gal-(1→4)-<small>D</small>-Glc-ol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:62661",
+   "target_name": "β-<small>D</small>-Gal-(1→3)-β-<small>D</small>-GlcNAc-(1→3)-[β-<small>D</small>-GlcNAc-(1→6)]-β-<small>D</small>-Gal-(1→4)-<small>D</small>-Glc-ol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:151453",
+   "target_name": "α-<small>L</small>-Fuc<em>p</em>-(1→2)-<small>D</small>-Glc-OH"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:150274",
+   "target_name": "gentiobiitol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:152395",
+   "target_name": "cellobiotol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:62489",
+   "target_name": "α-<small>L</small>-Rha<em>p</em>-(1→2)-[α-<small>L</small>-Rha<em>p</em>-(1→2)-α-<small>D</small>-Gal<em>p</em>-(1→3)-β-<small>D</small>-Glc<em>p</em>NAc-(1→4)]-α-<small>L</small>-Rha<em>p</em>-(1→2)-α-<small>L</small>-Rha<em>p</em>-(1→1')-[α-<small>L</small>-Rha<em>p</em>-(1→3')]-<small>D</small>-glucitol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:62525",
+   "target_name": "β-<small>D</small>-Gal<em>p</em>-(1→3)-[α-<small>L</small>-Fuc<em>p</em>-(1→4)]-β-<small>D</small>-Glc<em>p</em>NAc-(1→3)-β-<small>D</small>-Gal<em>p</em>-(1→4)-[α-<small>L</small>-Fuc<em>p</em>-(1→3)]-<small>D</small>-Glc-ol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:62529",
+   "target_name": "α-<small>L</small>-Fuc<em>p</em>-(1→4)-[β-<small>D</small>-Gal<em>p</em>-(1→3)]-β-<small>D</small>-Glc<em>p</em>NAc-(1→3)-β-<small>D</small>-Gal<em>p</em>-(1→4)-<small>D</small>-Glc-ol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:152898",
+   "target_name": "6-<em>O</em>-α-<small>D</small>-glucopyranosyl-<small>D</small>-glucitol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:146034",
+   "target_name": "α-<small>L</small>-Fuc<em>p</em>-(1→3)-[β-<small>D</small>-Gal<em>p</em>-(1→4)]-<small>D</small>-Glc-ol"
+  },
+  {
+   "relation": "is_enantiomer_of",
+   "target_id": "CHEBI:28789",
+   "target_name": "<small>L</small>-glucitol"
+  }
+ ],
+ "is_a": [
+  "CHEBI:30911"
+ ],
+ "name": "D-glucitol",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16646",
+  "CHEBI:17522",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24583",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:30911",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018039",
+   "target_id": "CHEBI:28789",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:44+00:00",
+ "roles": [
+  "CHEBI:22587",
+  "CHEBI:25212",
+  "CHEBI:33282",
+  "CHEBI:35480",
+  "CHEBI:35610",
+  "CHEBI:50503",
+  "CHEBI:50505",
+  "CHEBI:67079",
+  "CHEBI:73336",
+  "CHEBI:75325",
+  "CHEBI:75771",
+  "CHEBI:75772",
+  "CHEBI:76971",
+  "CHEBI:77746",
+  "CHEBI:77969"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "D-glucitol",
+   "chebi_accession": "CHEBI:17924",
+   "default_structure": {
+    "smiles": "OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)CO",
+    "standard_inchi_key": "FBPFZTCFMRRESA-JGWLITMVSA-N"
+   },
+   "definition": "The <small>D</small>-enantiomer of glucitol (also known as <small>D</small>-sorbitol).",
+   "id": 17924,
+   "is_released": true,
+   "name": "<small>D</small>-glucitol",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 154588,
+      "init_name": "β-<small>D</small>-Glc<em>p</em>-(1→3)-<small>D</small>-Glc-OH",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 17044,
+      "init_name": "<small>D</small>-glucitol 6-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 21092,
+      "init_name": "<small>D</small>-glucitol 3-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 61784,
+      "init_name": "α-<small>L</small>-Rha<em>p</em>-(1→3)-<small>D</small>-glucitol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 153954,
+      "init_name": "β-<small>D</small>-Glc<em>p</em>-(1→2)-<small>D</small>-Glc-OH",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 153263,
+      "init_name": "α-<small>D</small>-Gal<em>p</em>-(1→6)-<small>D</small>-Glc-OH",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16070,
+      "init_name": "1,5-anhydro-<small>D</small>-glucitol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 68428,
+      "init_name": "maltitol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 148578,
+      "init_name": "α-<small>L</small>-Fuc<em>p</em>-(1→2)-β-<small>D</small>-Gal<em>p</em>-(1→3)-<small>D</small>-Glc-OH",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 152991,
+      "init_name": "α-<small>L</small>-Fuc<em>p</em>-(1→2)-β-<small>D</small>-Gal<em>p</em>-(1→4)-<small>D</small>-Glu-OH",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 62660,
+      "init_name": "β-<small>D</small>-GlcNAc-(1→3)-[β-<small>D</small>-GlcNAc-(1→6)]-β-<small>D</small>-Gal-(1→4)-<small>D</small>-Glc-ol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 62661,
+      "init_name": "β-<small>D</small>-Gal-(1→3)-β-<small>D</small>-GlcNAc-(1→3)-[β-<small>D</small>-GlcNAc-(1→6)]-β-<small>D</small>-Gal-(1→4)-<small>D</small>-Glc-ol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 151453,
+      "init_name": "α-<small>L</small>-Fuc<em>p</em>-(1→2)-<small>D</small>-Glc-OH",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 150274,
+      "init_name": "gentiobiitol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 152395,
+      "init_name": "cellobiotol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 62489,
+      "init_name": "α-<small>L</small>-Rha<em>p</em>-(1→2)-[α-<small>L</small>-Rha<em>p</em>-(1→2)-α-<small>D</small>-Gal<em>p</em>-(1→3)-β-<small>D</small>-Glc<em>p</em>NAc-(1→4)]-α-<small>L</small>-Rha<em>p</em>-(1→2)-α-<small>L</small>-Rha<em>p</em>-(1→1')-[α-<small>L</small>-Rha<em>p</em>-(1→3')]-<small>D</small>-glucitol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 62525,
+      "init_name": "β-<small>D</small>-Gal<em>p</em>-(1→3)-[α-<small>L</small>-Fuc<em>p</em>-(1→4)]-β-<small>D</small>-Glc<em>p</em>NAc-(1→3)-β-<small>D</small>-Gal<em>p</em>-(1→4)-[α-<small>L</small>-Fuc<em>p</em>-(1→3)]-<small>D</small>-Glc-ol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 62529,
+      "init_name": "α-<small>L</small>-Fuc<em>p</em>-(1→4)-[β-<small>D</small>-Gal<em>p</em>-(1→3)]-β-<small>D</small>-Glc<em>p</em>NAc-(1→3)-β-<small>D</small>-Gal<em>p</em>-(1→4)-<small>D</small>-Glc-ol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 152898,
+      "init_name": "6-<em>O</em>-α-<small>D</small>-glucopyranosyl-<small>D</small>-glucitol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 146034,
+      "init_name": "α-<small>L</small>-Fuc<em>p</em>-(1→3)-[β-<small>D</small>-Gal<em>p</em>-(1→4)]-<small>D</small>-Glc-ol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 28789,
+      "init_name": "<small>L</small>-glucitol",
+      "relation_type": "is enantiomer of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 22587,
+      "final_name": "antiviral agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35610,
+      "final_name": "antineoplastic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 67079,
+      "final_name": "anti-inflammatory agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25212,
+      "final_name": "metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77969,
+      "final_name": "food humectant",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75325,
+      "final_name": "cathartic",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50505,
+      "final_name": "sweetening agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50503,
+      "final_name": "laxative",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35480,
+      "final_name": "analgesic",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 73336,
+      "final_name": "vulnerary",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 30911,
+      "final_name": "glucitol",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 28789,
+      "final_name": "<small>L</small>-glucitol",
+      "relation_type": "is enantiomer of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:4246",
+    "CHEBI:12954",
+    "CHEBI:13020",
+    "CHEBI:17220",
+    "CHEBI:21091",
+    "CHEBI:45559"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17924",
+   "definition": [
+    "The <small>D</small>-enantiomer of glucitol (also known as <small>D</small>-sorbitol)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_30911"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_17522",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24583",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_30911",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "D-Glucitol"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "D-glucitol"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "FBPFZTCFMRRESA-JGWLITMVSA-N",
+   "isObsolete": false,
+   "label": [
+    "D-glucitol"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_22587"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_25212"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35480"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50503"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50505"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_67079"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_73336"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75325"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77969"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018039",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_28789"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "D-Glucitol",
+  "D-glucitol"
+ ]
+}

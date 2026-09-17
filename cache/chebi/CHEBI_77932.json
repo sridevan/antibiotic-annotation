@@ -1,0 +1,220 @@
+{
+ "chebi_id": "CHEBI:77932",
+ "chebi_release": "255",
+ "definition": "A zwitterion obtained by transfer of a proton from the 2-hydroxy group to the 1-amino group of tetracycline. It is the major microspecies at pH 7.3 (according to Marvin v 6.2.0.).",
+ "inchikey": "OFVLGDICTFRJMM-WESIUVDSSA-N",
+ "incoming": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:71392",
+   "target_name": "tetracycline(1−)"
+  },
+  {
+   "relation": "is_tautomer_of",
+   "target_id": "CHEBI:27902",
+   "target_name": "tetracycline"
+  }
+ ],
+ "is_a": [
+  "CHEBI:144644",
+  "CHEBI:27369"
+ ],
+ "name": "tetracycline zwitterion",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:144644",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:26188",
+  "CHEBI:26895",
+  "CHEBI:27369",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:50860",
+  "CHEBI:51151",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:71392",
+   "target_name": null
+  },
+  {
+   "relation": "is_tautomer_of",
+   "target_id": "CHEBI:27902",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:32+00:00",
+ "roles": [
+  "CHEBI:33281",
+  "CHEBI:35820",
+  "CHEBI:36047",
+  "CHEBI:48001"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "tetracycline zwitterion",
+   "chebi_accession": "CHEBI:77932",
+   "default_structure": {
+    "smiles": "[H][C@]12C[C@@]3([H])[C@H]([NH+](C)C)C([O-])=C(C(N)=O)C(=O)[C@@]3(O)C(O)=C1C(=O)c1c(O)cccc1[C@@]2(C)O",
+    "standard_inchi_key": "OFVLGDICTFRJMM-WESIUVDSSA-N"
+   },
+   "definition": "A zwitterion obtained by transfer of a proton from the 2-hydroxy group to the 1-amino group of tetracycline. It is the major microspecies at pH 7.3 (according to Marvin v 6.2.0.).",
+   "id": 77932,
+   "is_released": true,
+   "name": "tetracycline zwitterion",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 71392,
+      "init_name": "tetracycline(1−)",
+      "relation_type": "is conjugate base of"
+     },
+     {
+      "init_id": 27902,
+      "init_name": "tetracycline",
+      "relation_type": "is tautomer of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 48001,
+      "final_name": "protein synthesis inhibitor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35820,
+      "final_name": "antiprotozoal drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 144644,
+      "final_name": "a tetracycline zwitterion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 27369,
+      "final_name": "zwitterion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 71392,
+      "final_name": "tetracycline(1−)",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "final_id": 27902,
+      "final_name": "tetracycline",
+      "relation_type": "is tautomer of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:77932",
+   "definition": [
+    "A zwitterion obtained by transfer of a proton from the 2-hydroxy group to the 1-amino group of tetracycline. It is the major microspecies at pH 7.3 (according to Marvin v 6.2.0.)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_144644",
+    "http://purl.obolibrary.org/obo/CHEBI_27369"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_144644",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26188",
+    "http://purl.obolibrary.org/obo/CHEBI_26895",
+    "http://purl.obolibrary.org/obo/CHEBI_27369",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51151",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(1S,4aS,11S,11aS,12aS)-3-carbamoyl-1-(dimethylazaniumyl)-4a,5,7,11-tetrahydroxy-11-methyl-4,6-dioxo-1,4,4a,6,11,11a,12,12a-octahydrotetracen-2-olate"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "OFVLGDICTFRJMM-WESIUVDSSA-N",
+   "isObsolete": false,
+   "label": [
+    "tetracycline zwitterion"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33281"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35820"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48001"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_71392"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018036",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_27902"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(1S,4aS,11S,11aS,12aS)-3-carbamoyl-1-(dimethylazaniumyl)-4a,5,7,11-tetrahydroxy-11-methyl-4,6-dioxo-1,4,4a,6,11,11a,12,12a-octahydrotetracen-2-olate"
+ ]
+}

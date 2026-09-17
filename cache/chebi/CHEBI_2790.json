@@ -1,0 +1,206 @@
+{
+ "chebi_id": "CHEBI:2790",
+ "chebi_release": "255",
+ "definition": "An aminoglycoside that is 2-deoxystreptamine that is substituted on the oxygen at position 4 by an (8<i>R</i>)-2-amino-8-<em>O</em>-(4-amino-4-deoxy-α-<small>D</small>-glucopyranosyl)-2,3,7-trideoxy-7-(methylamino)-<small>D</small>-glycero-α-<small>D</small>-<i>allo</i>-octodialdo-1,5:8,4-dipyranos-1-yl) group.",
+ "inchikey": "XZNUGFQTQHRASN-XQENGBIVSA-N",
+ "incoming": [],
+ "is_a": [
+  "CHEBI:27171",
+  "CHEBI:47779",
+  "CHEBI:61800"
+ ],
+ "name": "apramycin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:23451",
+  "CHEBI:24400",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:24651",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:27171",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33608",
+  "CHEBI:33635",
+  "CHEBI:33636",
+  "CHEBI:33671",
+  "CHEBI:33672",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:33832",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:38166",
+  "CHEBI:47779",
+  "CHEBI:50860",
+  "CHEBI:5686",
+  "CHEBI:61689",
+  "CHEBI:61800",
+  "CHEBI:63161",
+  "CHEBI:63299",
+  "CHEBI:72695",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:48+00:00",
+ "roles": [
+  "CHEBI:33281",
+  "CHEBI:33282",
+  "CHEBI:36047"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "apramycin",
+   "chebi_accession": "CHEBI:2790",
+   "default_structure": {
+    "smiles": "[H][C@]12C[C@@H](N)[C@@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](N)C[C@@H]3N)O[C@]1([H])[C@H](O)[C@H](NC)[C@@H](O[C@H]1O[C@H](CO)[C@@H](N)[C@H](O)[C@H]1O)O2",
+    "standard_inchi_key": "XZNUGFQTQHRASN-XQENGBIVSA-N"
+   },
+   "definition": "An aminoglycoside that is 2-deoxystreptamine that is substituted on the oxygen at position 4 by an (8<i>R</i>)-2-amino-8-<em>O</em>-(4-amino-4-deoxy-α-<small>D</small>-glucopyranosyl)-2,3,7-trideoxy-7-(methylamino)-<small>D</small>-glycero-α-<small>D</small>-<i>allo</i>-octodialdo-1,5:8,4-dipyranos-1-yl) group.",
+   "id": 2790,
+   "is_released": true,
+   "name": "apramycin",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 61800,
+      "final_name": "2-deoxystreptamine derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 27171,
+      "final_name": "organic heterobicyclic compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 47779,
+      "final_name": "aminoglycoside",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:40708"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:2790",
+   "definition": [
+    "An aminoglycoside that is 2-deoxystreptamine that is substituted on the oxygen at position 4 by an (8<i>R</i>)-2-amino-8-<em>O</em>-(4-amino-4-deoxy-α-<small>D</small>-glucopyranosyl)-2,3,7-trideoxy-7-(methylamino)-<small>D</small>-glycero-α-<small>D</small>-<i>allo</i>-octodialdo-1,5:8,4-dipyranos-1-yl) group."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_27171",
+    "http://purl.obolibrary.org/obo/CHEBI_47779",
+    "http://purl.obolibrary.org/obo/CHEBI_61800"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23451",
+    "http://purl.obolibrary.org/obo/CHEBI_24400",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_27171",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33635",
+    "http://purl.obolibrary.org/obo/CHEBI_33636",
+    "http://purl.obolibrary.org/obo/CHEBI_33671",
+    "http://purl.obolibrary.org/obo/CHEBI_33672",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_38166",
+    "http://purl.obolibrary.org/obo/CHEBI_47779",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_61689",
+    "http://purl.obolibrary.org/obo/CHEBI_61800",
+    "http://purl.obolibrary.org/obo/CHEBI_63161",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_72695",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(2R,3S,4R,4aR,6S,7R,8aS)-7-amino-6-{[(1R,2R,3S,4R,6S)-4,6-diamino-2,3-dihydroxycyclohexyl]oxy}-4-hydroxy-3-(methylamino)octahydropyrano[3,2-b]pyran-2-yl 4-amino-4-deoxy-alpha-D-glucopyranoside"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "XZNUGFQTQHRASN-XQENGBIVSA-N",
+   "isObsolete": false,
+   "label": [
+    "apramycin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33281"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(2R,3S,4R,4aR,6S,7R,8aS)-7-amino-6-{[(1R,2R,3S,4R,6S)-4,6-diamino-2,3-dihydroxycyclohexyl]oxy}-4-hydroxy-3-(methylamino)octahydropyrano[3,2-b]pyran-2-yl 4-amino-4-deoxy-alpha-D-glucopyranoside"
+ ]
+}

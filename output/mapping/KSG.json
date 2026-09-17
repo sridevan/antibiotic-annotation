@@ -1,0 +1,63 @@
+{
+  "identity": {
+    "input_id": "KSG",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "(1S,2R,3S,4R,5S,6S)-2,3,4,5,6-PENTAHYDROXYCYCLOHEXYL\n2-AMINO-4-{[CARBOXY(IMINO)METHYL]AMINO}-2,3,4,6-TETRADEOXY-ALPHA-D-ARABINO-HEXOPYRANOSIDE",
+    "ccd_type": "non-polymer",
+    "formula": "C14 H25 N3 O9",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C14H25N3O9/c1-3-5(17-12(16)13(23)24)2-4(15)14(25-3)26-11-9(21)7(19)6(18)8(20)10(11)22/h3-11,14,18-22H,2,15H2,1H3,(H2,16,17)(H,23,24)/t3-,4+,5+,6-,7+,8+,9-,10+,11+,14-/m1/s1",
+    "inchikey": "PVTHJAPFENJVNC-MHRBZPPQSA-N",
+    "smiles": "[H]/N=C(/C(=O)O)\\N[C@H]1C[C@@H]([C@H](O[C@@H]1C)OC2[C@H]([C@H](C([C@@H]([C@H]2O)O)O)O)O)N",
+    "synonyms": [
+      "(1S,2R,3S,4R,5S,6S)-2,3,4,5,6-PENTAHYDROXYCYCLOHEXYL\n2-AMINO-4-{[CARBOXY(IMINO)METHYL]AMINO}-2,3,4,6-TETRADEOXY-ALPHA-D-ARABINO-HEXOPYRANOSIDE",
+      "KASUGAMYCIN",
+      "(1S,2R,3S,4R,5S,6S)-2,3,4,5,6-pentahydroxycyclohexyl 2-amino-4-{[(Z)-carboxy(imino)methyl]amino}-2,3,4,6-tetradeoxy-alpha-D-arabino-hexopyranoside",
+      "2-[[(2R,3S,5S,6R)-5-amino-2-methyl-6-[(2R,3S,5S,6S)-2,3,4,5,6-pentahydroxycyclohexyl]oxy-oxan-3-yl]amino]-2-imino-ethanoic acid"
+    ],
+    "xrefs": {},
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:26+00:00",
+    "inchikey_connectivity": "PVTHJAPFENJVNC"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "unichem_inchikey",
+    "source_id": "PVTHJAPFENJVNC-MHRBZPPQSA-N",
+    "primary_chebi_id": "CHEBI:81419",
+    "equivalent_chebi_ids": [
+      "CHEBI:81419"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:81419",
+        "inchikey": "PVTHJAPFENJVNC-MHRBZPPQSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "exact standard InChIKey match"
+      }
+    ],
+    "notes": [],
+    "resolved": true
+  },
+  "primary_name": "kasugamycin",
+  "equivalent_names": {
+    "CHEBI:81419": "kasugamycin"
+  },
+  "family": {
+    "member_of": [],
+    "forms": [
+      {
+        "chebi_id": "CHEBI:747446",
+        "name": "kasugamycin(1+)",
+        "relation": "is_conjugate_acid_of"
+      }
+    ]
+  }
+}

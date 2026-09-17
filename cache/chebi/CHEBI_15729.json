@@ -1,0 +1,339 @@
+{
+ "chebi_id": "CHEBI:15729",
+ "chebi_release": "255",
+ "definition": "An optically active form of ornithine having <small>L</small>-configuration.",
+ "inchikey": "AHLPHDHHMVZTML-BYPYZUCNSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:21368",
+   "target_name": "<small>L</small>-ornithine derivative"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:144747",
+   "target_name": "<small>L</small>-Orn-<small>D</small>-Glu"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:144746",
+   "target_name": "<small>L</small>-Orn-<small>D</small>-Asp"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:45453",
+   "target_name": "sinefungin"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:46911",
+   "target_name": "<small>L</small>-ornithinium(1+)"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:46914",
+   "target_name": "<small>L</small>-ornithinate"
+  },
+  {
+   "relation": "is_enantiomer_of",
+   "target_id": "CHEBI:16176",
+   "target_name": "<small>D</small>-ornithine"
+  }
+ ],
+ "is_a": [
+  "CHEBI:18257",
+  "CHEBI:83822"
+ ],
+ "name": "L-ornithine",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:15705",
+  "CHEBI:18257",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24833",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33575",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33704",
+  "CHEBI:33709",
+  "CHEBI:35352",
+  "CHEBI:35605",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:64709",
+  "CHEBI:72695",
+  "CHEBI:83820",
+  "CHEBI:83822",
+  "CHEBI:83925"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:46911",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:46914",
+   "target_name": null
+  },
+  {
+   "relation": "RO_0018039",
+   "target_id": "CHEBI:16176",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:35+00:00",
+ "roles": [
+  "CHEBI:62868",
+  "CHEBI:75771",
+  "CHEBI:84735"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "L-ornithine",
+   "chebi_accession": "CHEBI:15729",
+   "default_structure": {
+    "smiles": "NCCC[C@H](N)C(=O)O",
+    "standard_inchi_key": "AHLPHDHHMVZTML-BYPYZUCNSA-N"
+   },
+   "definition": "An optically active form of ornithine having <small>L</small>-configuration.",
+   "id": 15729,
+   "is_released": true,
+   "name": "<small>L</small>-ornithine",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 21368,
+      "init_name": "<small>L</small>-ornithine derivative",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 144747,
+      "init_name": "<small>L</small>-Orn-<small>D</small>-Glu",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 144746,
+      "init_name": "<small>L</small>-Orn-<small>D</small>-Asp",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 45453,
+      "init_name": "sinefungin",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 46911,
+      "init_name": "<small>L</small>-ornithinium(1+)",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "init_id": 46914,
+      "init_name": "<small>L</small>-ornithinate",
+      "relation_type": "is conjugate base of"
+     },
+     {
+      "init_id": 16176,
+      "init_name": "<small>D</small>-ornithine",
+      "relation_type": "is enantiomer of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 84735,
+      "final_name": "algal metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 62868,
+      "final_name": "hepatoprotective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 83822,
+      "final_name": "non-proteinogenic <small>L</small>-α-amino acid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 18257,
+      "final_name": "ornithine",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 46914,
+      "final_name": "<small>L</small>-ornithinate",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "final_id": 46911,
+      "final_name": "<small>L</small>-ornithinium(1+)",
+      "relation_type": "is conjugate base of"
+     },
+     {
+      "final_id": 16176,
+      "final_name": "<small>D</small>-ornithine",
+      "relation_type": "is enantiomer of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:6280",
+    "CHEBI:13148",
+    "CHEBI:21367"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:15729",
+   "definition": [
+    "An optically active form of ornithine having <small>L</small>-configuration."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_18257",
+    "http://purl.obolibrary.org/obo/CHEBI_83822"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_15705",
+    "http://purl.obolibrary.org/obo/CHEBI_18257",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24833",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33575",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33704",
+    "http://purl.obolibrary.org/obo/CHEBI_33709",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_64709",
+    "http://purl.obolibrary.org/obo/CHEBI_72695",
+    "http://purl.obolibrary.org/obo/CHEBI_83820",
+    "http://purl.obolibrary.org/obo/CHEBI_83822",
+    "http://purl.obolibrary.org/obo/CHEBI_83925"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(2S)-2,5-diaminopentanoic acid"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "L-Ornithine"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "ChEBI"
+      },
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "L-ornithine"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "AHLPHDHHMVZTML-BYPYZUCNSA-N",
+   "isObsolete": false,
+   "label": [
+    "L-ornithine"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_62868"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_84735"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_46911"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_46914"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018039",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16176"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(2S)-2,5-diaminopentanoic acid",
+  "L-Ornithine",
+  "L-ornithine"
+ ]
+}

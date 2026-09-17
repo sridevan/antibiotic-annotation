@@ -1,0 +1,90 @@
+{
+ "chebi_id": "CHEBI:23117",
+ "chebi_release": "255",
+ "definition": "A halogen molecular entity containing one or more atoms of chlorine.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24471"
+ ],
+ "name": "chlorine molecular entity",
+ "num_descendants": 3341,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:33579",
+  "CHEBI:33675"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:23116",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:46:56+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "chlorine molecular entity",
+   "chebi_accession": "CHEBI:23117",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A halogen molecular entity containing one or more atoms of chlorine.",
+   "id": 23117,
+   "is_released": true,
+   "name": "chlorine molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23116,
+      "final_name": "chlorine atom",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 24471,
+      "final_name": "halogen molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:23117",
+   "definition": [
+    "A halogen molecular entity containing one or more atoms of chlorine."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24471"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675"
+   ],
+   "isObsolete": false,
+   "label": [
+    "chlorine molecular entity"
+   ],
+   "numDescendants": 3341.0,
+   "numHierarchicalDescendants": 3341.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_23116"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

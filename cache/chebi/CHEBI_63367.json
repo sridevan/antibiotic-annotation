@@ -1,0 +1,106 @@
+{
+ "chebi_id": "CHEBI:63367",
+ "chebi_release": "255",
+ "definition": "A carbohydrate derivative that is formally obtained from a monosaccharide.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:63299"
+ ],
+ "name": "monosaccharide derivative",
+ "num_descendants": 3177,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:50860",
+  "CHEBI:63299",
+  "CHEBI:78616"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018038",
+   "target_id": "CHEBI:35381",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:04+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "monosaccharide derivative",
+   "chebi_accession": "CHEBI:63367",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A carbohydrate derivative that is formally obtained from a monosaccharide.",
+   "id": 63367,
+   "is_released": true,
+   "name": "monosaccharide derivative",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35381,
+      "final_name": "monosaccharide",
+      "relation_type": "has functional parent"
+     },
+     {
+      "final_id": 63299,
+      "final_name": "carbohydrate derivative",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:63367",
+   "definition": [
+    "A carbohydrate derivative that is formally obtained from a monosaccharide."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_63299"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "isObsolete": false,
+   "label": [
+    "monosaccharide derivative"
+   ],
+   "numDescendants": 3177.0,
+   "numHierarchicalDescendants": 3177.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018038",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35381"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

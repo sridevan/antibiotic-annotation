@@ -1,0 +1,184 @@
+{
+ "chebi_id": "CHEBI:60344",
+ "chebi_release": "255",
+ "definition": "Dicarboxylate anion of ferroheme <em>b</em>; major species at pH 7.3.",
+ "inchikey": "KABFMIBPWCXCRK-RGGAHWMASA-J",
+ "incoming": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:17627",
+   "target_name": "ferroheme <em>b</em>"
+  }
+ ],
+ "is_a": [
+  "CHEBI:28965",
+  "CHEBI:58941"
+ ],
+ "name": "ferroheme b(2-)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25696",
+  "CHEBI:25699",
+  "CHEBI:25741",
+  "CHEBI:25806",
+  "CHEBI:28965",
+  "CHEBI:29067",
+  "CHEBI:33273",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35406",
+  "CHEBI:35693",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:37577",
+  "CHEBI:38716",
+  "CHEBI:50860",
+  "CHEBI:58941"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:17627",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:41+00:00",
+ "roles": [
+  "CHEBI:23357",
+  "CHEBI:75772"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ferroheme b(2-)",
+   "chebi_accession": "CHEBI:60344",
+   "default_structure": {
+    "smiles": "C=CC1=C(C)C2=Cc3c(C=C)c(C)c4[n]3[Fe-2]35[n]6c(c(C)c(CCC(=O)[O-])c6=CC6=[N+]3C(=C4)C(C)=C6CCC(=O)[O-])=CC1=[N+]25",
+    "standard_inchi_key": "KABFMIBPWCXCRK-RGGAHWMASA-J"
+   },
+   "definition": "Dicarboxylate anion of ferroheme <em>b</em>; major species at pH 7.3.",
+   "id": 60344,
+   "is_released": true,
+   "name": "ferroheme <em>b</em>(2−)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 17627,
+      "init_name": "ferroheme <em>b</em>",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 23357,
+      "final_name": "cofactor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 58941,
+      "final_name": "cyclic tetrapyrrole anion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 28965,
+      "final_name": "dicarboxylic acid dianion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 17627,
+      "final_name": "ferroheme <em>b</em>",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:60344",
+   "definition": [
+    "Dicarboxylate anion of ferroheme <em>b</em>; major species at pH 7.3."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_28965",
+    "http://purl.obolibrary.org/obo/CHEBI_58941"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25696",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_28965",
+    "http://purl.obolibrary.org/obo/CHEBI_29067",
+    "http://purl.obolibrary.org/obo/CHEBI_33273",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35406",
+    "http://purl.obolibrary.org/obo/CHEBI_35693",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_38716",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_58941"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "[3,3'-(3,7,12,17-tetramethyl-8,13-divinylporphyrin-2,18-diyl-kappa(4)N(21),N(22),N(23),N(24))dipropanoato(4-)]ferrate(2-)"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "KABFMIBPWCXCRK-RGGAHWMASA-J",
+   "isObsolete": false,
+   "label": [
+    "ferroheme b(2-)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_23357"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_17627"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "[3,3'-(3,7,12,17-tetramethyl-8,13-divinylporphyrin-2,18-diyl-kappa(4)N(21),N(22),N(23),N(24))dipropanoato(4-)]ferrate(2-)"
+ ]
+}

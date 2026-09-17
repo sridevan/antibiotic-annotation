@@ -1,0 +1,81 @@
+{
+  "identity": {
+    "input_id": "TEL",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "TELITHROMYCIN",
+    "ccd_type": "non-polymer",
+    "formula": "C43 H65 N5 O10",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C43H65N5O10/c1-12-33-43(8)37(48(41(53)58-43)19-14-13-18-47-23-31(45-24-47)30-16-15-17-44-22-30)27(4)34(49)25(2)21-42(7,54-11)38(28(5)35(50)29(6)39(52)56-33)57-40-36(51)32(46(9)10)20-26(3)55-40/h15-17,22-29,32-33,36-38,40,51H,12-14,18-21H2,1-11H3/t25-,26-,27+,28+,29-,32+,33-,36-,37-,38-,40+,42-,43-/m1/s1",
+    "inchikey": "LJVAJPDWBABPEJ-PNUFFHFMSA-N",
+    "smiles": "CC[C@@H]1[C@@]2([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H](C(=O)[C@H](C(=O)O1)C)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)OC)C)C)N(C(=O)O2)CCCCn4cc(nc4)c5cccnc5)C",
+    "synonyms": [
+      "TELITHROMYCIN",
+      "(3aS,4R,7R,9R,10R,11R,13R,15R,15aR)-4-ethyl-11-methoxy-3a,7,9,11,13,15-hexamethyl-2,6,8,14-tetraoxo-1-{4-[4-(pyridin-3-yl)-1H-imidazol-1-yl]butyl}tetradecahydro-2H-oxacyclotetradecino[4,3-d][1,3]oxazol-10-yl 3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylo-hexopyranoside",
+      "(1~{S},2~{R},5~{R},7~{R},8~{R},9~{R},11~{R},13~{R},14~{R})-8-[(2~{S},3~{R},4~{S},6~{R})-4-(dimethylamino)-6-methyl-3-oxidanyl-oxan-2-yl]oxy-2-ethyl-9-methoxy-1,5,7,9,11,13-hexamethyl-15-[4-(4-pyridin-3-ylimidazol-1-yl)butyl]-3,17-dioxa-15-azabicyclo[12.3.0]heptadecane-4,6,12,16-tetrone",
+      "telitromicina",
+      "Telithromycin"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB00976"
+      ],
+      "PubChem": [
+        "3002190"
+      ],
+      "ChEBI": [
+        "CHEBI:29688"
+      ],
+      "ChEMBL": [
+        "CHEMBL1136"
+      ]
+    },
+    "atc_codes": [
+      "J01FA15"
+    ],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:31+00:00",
+    "inchikey_connectivity": "LJVAJPDWBABPEJ"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "direct_ccd_crossref",
+    "source_id": "TEL",
+    "primary_chebi_id": "CHEBI:29688",
+    "equivalent_chebi_ids": [
+      "CHEBI:29688"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:29688",
+        "inchikey": "LJVAJPDWBABPEJ-PNUFFHFMSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
+      }
+    ],
+    "notes": [
+      "RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
+    ],
+    "resolved": true
+  },
+  "primary_name": "telithromycin",
+  "equivalent_names": {
+    "CHEBI:29688": "telithromycin"
+  },
+  "family": {
+    "member_of": [],
+    "forms": [
+      {
+        "chebi_id": "CHEBI:747778",
+        "name": "telithromycin(1+)",
+        "relation": "is_conjugate_acid_of"
+      }
+    ]
+  }
+}

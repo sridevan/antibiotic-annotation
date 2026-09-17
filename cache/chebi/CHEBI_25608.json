@@ -1,0 +1,164 @@
+{
+ "chebi_id": "CHEBI:25608",
+ "chebi_release": "255",
+ "definition": "A nucleobase-containing molecular entity that is a nucleoside in which one or more of the sugar hydroxy groups has been converted into a mono- or poly-phosphate. The term includes both nucleotides and non-nucleotide nucleoside phosphates.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25703",
+  "CHEBI:37734",
+  "CHEBI:61120"
+ ],
+ "name": "nucleoside phosphate",
+ "num_descendants": 2073,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:25367",
+  "CHEBI:25703",
+  "CHEBI:25710",
+  "CHEBI:25806",
+  "CHEBI:26020",
+  "CHEBI:26079",
+  "CHEBI:26082",
+  "CHEBI:33241",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33655",
+  "CHEBI:33659",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:33833",
+  "CHEBI:35701",
+  "CHEBI:36357",
+  "CHEBI:36359",
+  "CHEBI:36360",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:37734",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:61120",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018038",
+   "target_id": "CHEBI:33838",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:24+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "nucleoside phosphate",
+   "chebi_accession": "CHEBI:25608",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A nucleobase-containing molecular entity that is a nucleoside in which one or more of the sugar hydroxy groups has been converted into a mono- or poly-phosphate. The term includes both nucleotides and non-nucleotide nucleoside phosphates.",
+   "id": 25608,
+   "is_released": true,
+   "name": "nucleoside phosphate",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33838,
+      "final_name": "nucleoside",
+      "relation_type": "has functional parent"
+     },
+     {
+      "final_id": 37734,
+      "final_name": "phosphoric ester",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 25703,
+      "final_name": "organic phosphate",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 61120,
+      "final_name": "nucleobase-containing molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25608",
+   "definition": [
+    "A nucleobase-containing molecular entity that is a nucleoside in which one or more of the sugar hydroxy groups has been converted into a mono- or poly-phosphate. The term includes both nucleotides and non-nucleotide nucleoside phosphates."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25703",
+    "http://purl.obolibrary.org/obo/CHEBI_37734",
+    "http://purl.obolibrary.org/obo/CHEBI_61120"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25703",
+    "http://purl.obolibrary.org/obo/CHEBI_25710",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26020",
+    "http://purl.obolibrary.org/obo/CHEBI_26079",
+    "http://purl.obolibrary.org/obo/CHEBI_26082",
+    "http://purl.obolibrary.org/obo/CHEBI_33241",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33655",
+    "http://purl.obolibrary.org/obo/CHEBI_33659",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_33833",
+    "http://purl.obolibrary.org/obo/CHEBI_35701",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36359",
+    "http://purl.obolibrary.org/obo/CHEBI_36360",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37734",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_61120",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "isObsolete": false,
+   "label": [
+    "nucleoside phosphate"
+   ],
+   "numDescendants": 2073.0,
+   "numHierarchicalDescendants": 2073.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018038",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33838"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

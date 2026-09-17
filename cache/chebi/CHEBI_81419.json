@@ -1,0 +1,224 @@
+{
+ "chebi_id": "CHEBI:81419",
+ "chebi_release": "255",
+ "definition": "An amino cyclitol glycoside that is isolated from <em>Streptomyces kasugaensis</em> and exhibits antibiotic and fungicidal properties.",
+ "inchikey": "PVTHJAPFENJVNC-MHRBZPPQSA-N",
+ "incoming": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:747446",
+   "target_name": "kasugamycin(1+)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:22479",
+  "CHEBI:22507",
+  "CHEBI:35359",
+  "CHEBI:63367",
+  "CHEBI:87114"
+ ],
+ "name": "kasugamycin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22479",
+  "CHEBI:22507",
+  "CHEBI:23007",
+  "CHEBI:23367",
+  "CHEBI:23451",
+  "CHEBI:24400",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:2634",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:35352",
+  "CHEBI:35359",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:47779",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:63161",
+  "CHEBI:63299",
+  "CHEBI:63367",
+  "CHEBI:78616",
+  "CHEBI:86478",
+  "CHEBI:87114"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:27+00:00",
+ "roles": [
+  "CHEBI:48001",
+  "CHEBI:76969",
+  "CHEBI:86328"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "kasugamycin",
+   "chebi_accession": "CHEBI:81419",
+   "default_structure": {
+    "smiles": "C[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](O)[C@H](O)[C@@H]2O)[C@@H](N)C[C@@H]1NC(=N)C(=O)O",
+    "standard_inchi_key": "PVTHJAPFENJVNC-MHRBZPPQSA-N"
+   },
+   "definition": "An amino cyclitol glycoside that is isolated from <em>Streptomyces kasugaensis</em> and exhibits antibiotic and fungicidal properties.",
+   "id": 81419,
+   "is_released": true,
+   "name": "kasugamycin",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 747446,
+      "init_name": "kasugamycin(1+)",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 86328,
+      "final_name": "antifungal agrochemical",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76969,
+      "final_name": "bacterial metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48001,
+      "final_name": "protein synthesis inhibitor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 22507,
+      "final_name": "aminoglycoside antibiotic",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 63367,
+      "final_name": "monosaccharide derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35359,
+      "final_name": "carboxamidine",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 87114,
+      "final_name": "antibiotic fungicide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 22479,
+      "final_name": "amino cyclitol glycoside",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:81419",
+   "definition": [
+    "An amino cyclitol glycoside that is isolated from <em>Streptomyces kasugaensis</em> and exhibits antibiotic and fungicidal properties."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_22479",
+    "http://purl.obolibrary.org/obo/CHEBI_22507",
+    "http://purl.obolibrary.org/obo/CHEBI_35359",
+    "http://purl.obolibrary.org/obo/CHEBI_63367",
+    "http://purl.obolibrary.org/obo/CHEBI_87114"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22479",
+    "http://purl.obolibrary.org/obo/CHEBI_22507",
+    "http://purl.obolibrary.org/obo/CHEBI_23007",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23451",
+    "http://purl.obolibrary.org/obo/CHEBI_24400",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_2634",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35359",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_47779",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_63161",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_63367",
+    "http://purl.obolibrary.org/obo/CHEBI_78616",
+    "http://purl.obolibrary.org/obo/CHEBI_86478",
+    "http://purl.obolibrary.org/obo/CHEBI_87114"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(1S,2R,3S,4R,5S,6S)-2,3,4,5,6-pentahydroxycyclohexyl 2-amino-4-{[carboxy(imino)methyl]amino}-2,3,4,6-tetradeoxy-alpha-D-arabino-hexopyranoside"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "PVTHJAPFENJVNC-MHRBZPPQSA-N",
+   "isObsolete": false,
+   "label": [
+    "kasugamycin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48001"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76969"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_86328"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(1S,2R,3S,4R,5S,6S)-2,3,4,5,6-pentahydroxycyclohexyl 2-amino-4-{[carboxy(imino)methyl]amino}-2,3,4,6-tetradeoxy-alpha-D-arabino-hexopyranoside"
+ ]
+}

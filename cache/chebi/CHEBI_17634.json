@@ -1,0 +1,267 @@
+{
+ "chebi_id": "CHEBI:17634",
+ "chebi_release": "255",
+ "definition": "A glucose with <small>D</small>-configuration.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:57615",
+   "target_name": "2-deoxy-<small>D</small>-glucose 6-phosphate(2−)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16043",
+   "target_name": "2-deoxy-<small>D</small>-glucose 6-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:17901",
+   "target_name": "6-<em>O</em>-acetyl-<small>D</small>-glucose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:17680",
+   "target_name": "<small>D</small>-glucose 1,6-bisphosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:15866",
+   "target_name": "2-deoxy-<small>D</small>-glucose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:27550",
+   "target_name": "3,6-anhydro-<small>D</small>-glucose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16809",
+   "target_name": "<small>D</small>-glucose 6-sulfate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:14314",
+   "target_name": "<small>D</small>-glucose 6-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:21006",
+   "target_name": "<small>D</small>-glucose monophosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:49137",
+   "target_name": "2-deoxy-2-fluoro-<small>D</small>-glucose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16077",
+   "target_name": "<small>D</small>-glucopyranose 1-phosphate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:78665",
+   "target_name": "royal jelly"
+  }
+ ],
+ "is_a": [
+  "CHEBI:17234",
+  "CHEBI:17608"
+ ],
+ "name": "D-glucose",
+ "num_descendants": 10,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:15693",
+  "CHEBI:16646",
+  "CHEBI:17234",
+  "CHEBI:17608",
+  "CHEBI:18133",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33917",
+  "CHEBI:35381",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:4194",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:50+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "D-glucose",
+   "chebi_accession": "CHEBI:17634",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A glucose with <small>D</small>-configuration.",
+   "id": 17634,
+   "is_released": true,
+   "name": "<small>D</small>-glucose",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 57615,
+      "init_name": "2-deoxy-<small>D</small>-glucose 6-phosphate(2−)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16043,
+      "init_name": "2-deoxy-<small>D</small>-glucose 6-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 17901,
+      "init_name": "6-<em>O</em>-acetyl-<small>D</small>-glucose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 17680,
+      "init_name": "<small>D</small>-glucose 1,6-bisphosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 15866,
+      "init_name": "2-deoxy-<small>D</small>-glucose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 27550,
+      "init_name": "3,6-anhydro-<small>D</small>-glucose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16809,
+      "init_name": "<small>D</small>-glucose 6-sulfate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 14314,
+      "init_name": "<small>D</small>-glucose 6-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 21006,
+      "init_name": "<small>D</small>-glucose monophosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 49137,
+      "init_name": "2-deoxy-2-fluoro-<small>D</small>-glucose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16077,
+      "init_name": "<small>D</small>-glucopyranose 1-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 78665,
+      "init_name": "royal jelly",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 17608,
+      "final_name": "<small>D</small>-aldohexose",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 17234,
+      "final_name": "glucose",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:12965",
+    "CHEBI:20999"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17634",
+   "definition": [
+    "A glucose with <small>D</small>-configuration."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_17234",
+    "http://purl.obolibrary.org/obo/CHEBI_17608"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_15693",
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_17234",
+    "http://purl.obolibrary.org/obo/CHEBI_17608",
+    "http://purl.obolibrary.org/obo/CHEBI_18133",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33917",
+    "http://purl.obolibrary.org/obo/CHEBI_35381",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_4194",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "D-gluco-hexose"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "D-glucose"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "D-glucose"
+   ],
+   "numDescendants": 10.0,
+   "numHierarchicalDescendants": 10.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "D-gluco-hexose",
+  "D-glucose"
+ ]
+}

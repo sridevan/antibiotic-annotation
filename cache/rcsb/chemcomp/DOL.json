@@ -1,0 +1,246 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:17+00:00",
+ "chem_comp": {
+  "formula": "C34 H50 N4 O9 S",
+  "formula_weight": 690.847,
+  "id": "DOL",
+  "name": "5-(2-DIETHYLAMINO-ETHANESULFONYL)-21-HYDROXY-10-ISOPROPYL-11,19-DIMETHYL-9,26-DIOXA-3,15,28-TRIAZA-TRICYCLO[23.2.1.00,255]OCTACOSA-1(27),12,17,19,25(28)-PENTAENE-2,8,14,23-TETRAONE",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "2002-09-26T00:00:00.000+00:00",
+  "pdbx_modified_date": "2021-03-01T00:00:00.000+00:00",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "DOL",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "DOL",
+   "date": "2002-09-26T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "DOL",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Modify synonyms",
+   "comp_id": "DOL",
+   "date": "2021-03-01T00:00:00.000+00:00",
+   "ordinal": 3
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "DOL",
+   "descriptor": "O=S(=O)(CCN(CC)CC)C3CCN2C(=O)c1nc(oc1)CC(=O)CC(O)C=C(C=CCNC(=O)C=CC(C)C(OC(=O)C23)C(C)C)C",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "DOL",
+   "descriptor": "CCN(CC)CC[S](=O)(=O)[C@@H]1CCN2[C@H]1C(=O)O[C@H](C(C)C)[C@H](C)/C=C/C(=O)NC/C=C/C(=C/[C@@H](O)CC(=O)Cc3occ(n3)C2=O)C",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "DOL",
+   "descriptor": "CCN(CC)CC[S](=O)(=O)[CH]1CCN2[CH]1C(=O)O[CH](C(C)C)[CH](C)C=CC(=O)NCC=CC(=C[CH](O)CC(=O)Cc3occ(n3)C2=O)C",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "DOL",
+   "descriptor": "CCN(CC)CCS(=O)(=O)[C@@H]1CCN2[C@H]1C(=O)O[C@@H]([C@@H](\\C=C\\C(=O)NC/C=C/C(=C/[C@H](CC(=O)Cc3nc(co3)C2=O)O)/C)C)C(C)C",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "DOL",
+   "descriptor": "CCN(CC)CCS(=O)(=O)C1CCN2C1C(=O)OC(C(C=CC(=O)NCC=CC(=CC(CC(=O)Cc3nc(co3)C2=O)O)C)C)C(C)C",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "DOL",
+   "descriptor": "InChI=1S/C34H50N4O9S/c1-7-37(8-2)16-17-48(44,45)28-13-15-38-31(28)34(43)47-32(22(3)4)24(6)11-12-29(41)35-14-9-10-23(5)18-25(39)19-26(40)20-30-36-27(21-46-30)33(38)42/h9-12,18,21-22,24-25,28,31-32,39H,7-8,13-17,19-20H2,1-6H3,(H,35,41)/b10-9+,12-11+,23-18+/t24-,25-,28-,31-,32-/m1/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "DOL",
+   "descriptor": "SUYRLXYYZQTJHF-VMBLUXKRSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "DOL",
+   "identifier": "(3R,4R,5E,10E,12E,14S,26R,26aS)-26-{[2-(diethylamino)ethyl]sulfonyl}-14-hydroxy-4,12-dimethyl-3-(1-methylethyl)-8,9,14,15,24,25,26,26a-octahydro-1H,3H,22H-21,18-(azeno)pyrrolo[2,1-c][1,8,4,19]dioxadiazacyclotetracosine-1,7,16,22(4H,17H)-tetrone",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "DOL",
+  "drugbank_id": "DB01764",
+  "rcsb_id": "DOL"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C34H50N4O9S/c1-7-37(8-2)16-17-48(44,45)28-13-15-38-31(28)34(43)47-32(22(3)4)24(6)11-12-29(41)35-14-9-10-23(5)18-25(39)19-26(40)20-30-36-27(21-46-30)33(38)42/h9-12,18,21-22,24-25,28,31-32,39H,7-8,13-17,19-20H2,1-6H3,(H,35,41)/b10-9+,12-11+,23-18+/t24-,25-,28-,31-,32-/m1/s1",
+  "InChIKey": "SUYRLXYYZQTJHF-VMBLUXKRSA-N",
+  "SMILES": "CCN(CC)CCS(=O)(=O)C1CCN2C1C(=O)OC(C(C=CC(=O)NCC=CC(=CC(CC(=O)Cc3nc(co3)C2=O)O)C)C)C(C)C",
+  "SMILES_stereo": "CCN(CC)CCS(=O)(=O)[C@@H]1CCN2[C@H]1C(=O)O[C@@H]([C@@H](\\C=C\\C(=O)NC/C=C/C(=C/[C@H](CC(=O)Cc3nc(co3)C2=O)O)/C)C)C(C)C",
+  "comp_id": "DOL"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 98,
+  "atom_count_chiral": 5,
+  "atom_count_heavy": 48,
+  "bond_count": 100,
+  "bond_count_aromatic": 5,
+  "comp_id": "DOL",
+  "initial_deposition_date": "2002-09-26T00:00:00.000+00:00",
+  "initial_release_date": "2003-08-26T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2021-03-01T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "DOL",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB01764",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "DOL",
+   "ordinal": 2,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "6323289",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "DOL",
+   "ordinal": 3,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "112362-50-2",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "DOL",
+   "ordinal": 4,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEMBL1200937",
+   "resource_name": "ChEMBL"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "DOL",
+   "name": "5-(2-DIETHYLAMINO-ETHANESULFONYL)-21-HYDROXY-10-ISOPROPYL-11,19-DIMETHYL-9,26-DIOXA-3,15,28-TRIAZA-TRICYCLO[23.2.1.00,255]OCTACOSA-1(27),12,17,19,25(28)-PENTAENE-2,8,14,23-TETRAONE",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "DOL",
+   "name": "DALFOPRISTIN",
+   "ordinal": 2,
+   "provenance_source": "PDB Reference Data",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "DOL",
+   "name": "(3R,4R,5E,10E,12E,14S,26R,26aS)-26-{[2-(diethylamino)ethyl]sulfonyl}-14-hydroxy-4,12-dimethyl-3-(1-methylethyl)-8,9,14,15,24,25,26,26a-octahydro-1H,3H,22H-21,18-(azeno)pyrrolo[2,1-c][1,8,4,19]dioxadiazacyclotetracosine-1,7,16,22(4H,17H)-tetrone",
+   "ordinal": 3,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "DOL",
+   "name": "Dalfopristinum",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "DOL",
+   "name": "Dalfopristina",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "DOL",
+   "name": "Dalfopristin",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "DOL",
+   "name": "Dalfopristine",
+   "ordinal": 7,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "DOL",
+   "name": "Dalfopristin mesylate",
+   "ordinal": 8,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "DOL",
+   "interaction_type": "target",
+   "name": "Bacterial 50S ribosomal protein",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "DOL",
+   "interaction_type": "target",
+   "name": "Streptogramin A acetyltransferase",
+   "ordinal": 2,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P50870",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "DOL",
+   "interaction_type": "enzyme",
+   "name": "Cytochrome P450 3A4",
+   "ordinal": 3,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P08684",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  }
+ ],
+ "rcsb_id": "DOL"
+}

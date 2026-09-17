@@ -1,0 +1,115 @@
+{
+ "chebi_id": "CHEBI:33461",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24834",
+  "CHEBI:26082",
+  "CHEBI:33459"
+ ],
+ "name": "phosphorus oxoanion",
+ "num_descendants": 45,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24834",
+  "CHEBI:24835",
+  "CHEBI:24870",
+  "CHEBI:25741",
+  "CHEBI:25806",
+  "CHEBI:26082",
+  "CHEBI:33273",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33459",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:35406",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36914",
+  "CHEBI:37577"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:22+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "phosphorus oxoanion",
+   "chebi_accession": "CHEBI:33461",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33461,
+   "is_released": true,
+   "name": "phosphorus oxoanion",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33459,
+      "final_name": "pnictogen oxoanion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 26082,
+      "final_name": "phosphorus molecular entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 24834,
+      "final_name": "inorganic anion",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33461",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24834",
+    "http://purl.obolibrary.org/obo/CHEBI_26082",
+    "http://purl.obolibrary.org/obo/CHEBI_33459"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24834",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26082",
+    "http://purl.obolibrary.org/obo/CHEBI_33273",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33459",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35406",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36914",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "phosphorus oxoanion"
+   ],
+   "numDescendants": 45.0,
+   "numHierarchicalDescendants": 45.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

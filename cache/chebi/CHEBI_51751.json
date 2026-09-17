@@ -1,0 +1,109 @@
+{
+ "chebi_id": "CHEBI:51751",
+ "chebi_release": "255",
+ "definition": "An α,β-unsaturated carboxylic acid amide of general formula R<small><sup>1</small></sup>R<small><sup>2</small></sup>C=CR<small><sup>3</small></sup>‒C(=O)NR<small><sup>4</small></sup>R<small><sup>5</small></sup> in which the amide C=O function is conjugated to a C=C double bond at the α,β position.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:51750",
+  "CHEBI:78840"
+ ],
+ "name": "enamide",
+ "num_descendants": 198,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37622",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:51750",
+  "CHEBI:78840"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:59+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "enamide",
+   "chebi_accession": "CHEBI:51751",
+   "default_structure": {
+    "smiles": "[1*]/C([2*])=C(/[3*])C(=O)N([4*])[5*]",
+    "standard_inchi_key": null
+   },
+   "definition": "An α,β-unsaturated carboxylic acid amide of general formula R<small><sup>1</small></sup>R<small><sup>2</small></sup>C=CR<small><sup>3</small></sup>‒C(=O)NR<small><sup>4</small></sup>R<small><sup>5</small></sup> in which the amide C=O function is conjugated to a C=C double bond at the α,β position.",
+   "id": 51751,
+   "is_released": true,
+   "name": "enamide",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 51750,
+      "final_name": "α,β-unsaturated carboxylic acid amide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 78840,
+      "final_name": "olefinic compound",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:51751",
+   "definition": [
+    "An α,β-unsaturated carboxylic acid amide of general formula R<small><sup>1</small></sup>R<small><sup>2</small></sup>C=CR<small><sup>3</small></sup>‒C(=O)NR<small><sup>4</small></sup>R<small><sup>5</small></sup> in which the amide C=O function is conjugated to a C=C double bond at the α,β position."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_51750",
+    "http://purl.obolibrary.org/obo/CHEBI_78840"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_51750",
+    "http://purl.obolibrary.org/obo/CHEBI_78840"
+   ],
+   "isObsolete": false,
+   "label": [
+    "enamide"
+   ],
+   "numDescendants": 198.0,
+   "numHierarchicalDescendants": 198.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

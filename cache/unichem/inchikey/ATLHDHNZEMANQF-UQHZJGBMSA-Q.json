@@ -1,0 +1,52 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "",
+    "connections": "1-4-21(37,18(35)36)15(41-16-8(26-2)12(33)9(30)5(3-29)39-16)17(38-4)40-14-7(28-20(24)25)10(31)6(27-19(22)23)11(32)13(14)34",
+    "formula": "C21H41N7O13",
+    "hAtoms": "4-18,26,29-37H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)",
+    "inchi": "InChI=1S/C21H41N7O13/c1-4-21(37,18(35)36)15(41-16-8(26-2)12(33)9(30)5(3-29)39-16)17(38-4)40-14-7(28-20(24)25)10(31)6(27-19(22)23)11(32)13(14)34/h4-18,26,29-37H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)/p+3/t4-,5-,6+,7-,8-,9-,10+,11-,12-,13+,14+,15-,16-,17-,21+/m0/s1",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "+3",
+    "stereoDbond": "",
+    "stereoSP3": "4-,5-,6+,7-,8-,9-,10+,11-,12-,13+,14+,15-,16-,17-,21+",
+    "stereoSP3inverted": "0",
+    "stereoType": "1",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "5I0",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/5I0"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "5I0",
+     "id": 5,
+     "longName": "Protein Data Bank in Europe",
+     "shortName": "pdbe",
+     "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/5I0"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "164575481",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/164575481"
+    }
+   ],
+   "standardInchiKey": "ATLHDHNZEMANQF-UQHZJGBMSA-Q",
+   "uci": 188654395
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

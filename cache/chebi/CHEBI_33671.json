@@ -1,0 +1,102 @@
+{
+ "chebi_id": "CHEBI:33671",
+ "chebi_release": "255",
+ "definition": "A polycyclic compound in which at least one of the rings contains at least one non-carbon atom.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33635",
+  "CHEBI:5686"
+ ],
+ "name": "heteropolycyclic compound",
+ "num_descendants": 27068,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25367",
+  "CHEBI:33595",
+  "CHEBI:33635",
+  "CHEBI:36357",
+  "CHEBI:5686"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:08+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "heteropolycyclic compound",
+   "chebi_accession": "CHEBI:33671",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A polycyclic compound in which at least one of the rings contains at least one non-carbon atom.",
+   "id": 33671,
+   "is_released": true,
+   "name": "heteropolycyclic compound",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 5686,
+      "final_name": "heterocyclic compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33635,
+      "final_name": "polycyclic compound",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33671",
+   "definition": [
+    "A polycyclic compound in which at least one of the rings contains at least one non-carbon atom."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33635",
+    "http://purl.obolibrary.org/obo/CHEBI_5686"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33635",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_5686"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "heteropolycyclic compounds"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "heteropolycyclic compound"
+   ],
+   "numDescendants": 27068.0,
+   "numHierarchicalDescendants": 27068.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "heteropolycyclic compounds"
+ ]
+}

@@ -1,0 +1,138 @@
+{
+ "chebi_id": "CHEBI:17522",
+ "chebi_release": "255",
+ "definition": "A carbohydrate that is an acyclic polyol having the general formula HOCH<small><sub>2</sub></small>[CH(OH)]<small><sub><em>n</em></sub></small>CH<small><sub>2</sub></small>OH (formally derivable from an aldose by reduction of the carbonyl group).",
+ "inchikey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:22297",
+   "target_name": "alditol phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:63423",
+   "target_name": "alditol derivative"
+  }
+ ],
+ "is_a": [
+  "CHEBI:16646",
+  "CHEBI:26191"
+ ],
+ "name": "alditol",
+ "num_descendants": 114,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16646",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:36+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "alditol",
+   "chebi_accession": "CHEBI:17522",
+   "default_structure": {
+    "smiles": "OCC(O)CO",
+    "standard_inchi_key": "PEDCQBHIVMGVHV-UHFFFAOYSA-N"
+   },
+   "definition": "A carbohydrate that is an acyclic polyol having the general formula HOCH<small><sub>2</sub></small>[CH(OH)]<small><sub><em>n</em></sub></small>CH<small><sub>2</sub></small>OH (formally derivable from an aldose by reduction of the carbonyl group).",
+   "id": 17522,
+   "is_released": true,
+   "name": "alditol",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 22297,
+      "init_name": "alditol phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 63423,
+      "init_name": "alditol derivative",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 16646,
+      "final_name": "carbohydrate",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 26191,
+      "final_name": "polyol",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:2556",
+    "CHEBI:13754",
+    "CHEBI:22298"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17522",
+   "definition": [
+    "A carbohydrate that is an acyclic polyol having the general formula HOCH<small><sub>2</sub></small>[CH(OH)]<small><sub><em>n</em></sub></small>CH<small><sub>2</sub></small>OH (formally derivable from an aldose by reduction of the carbonyl group)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_26191"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "alditol"
+   ],
+   "numDescendants": 114.0,
+   "numHierarchicalDescendants": 114.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,359 @@
+{
+ "chebi_id": "CHEBI:30742",
+ "chebi_release": "255",
+ "definition": "A 1,2-glycol compound produced via reaction of ethylene oxide with water.",
+ "inchikey": "LYCAIKOWRPUZTN-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:30741",
+   "target_name": "ethylene glycol bis(2-aminoethyl)tetraacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:131735",
+   "target_name": "4-[(2-hydroxyethoxy)carbonyl]benzoic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:84086",
+   "target_name": "6-(2-hydroxyethoxy)-6-oxohexanoic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:76609",
+   "target_name": "ACT-132577"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:167626",
+   "target_name": "2-hydroxyethyl octadecanoate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:136809",
+   "target_name": "2-hydroxyethyl hexadecanoate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:46788",
+   "target_name": "2-ethoxyethanol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:78770",
+   "target_name": "ethylene glycol monododecyl ether"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:82269",
+   "target_name": "TCA-ethadyl"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:42263",
+   "target_name": "1,2-dimethoxyethane"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:86541",
+   "target_name": "2-hydroxyethyl salicylate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:131362",
+   "target_name": "2-hydroxyethyl sulfonate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:111507",
+   "target_name": "ethylene glycol monophosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:76607",
+   "target_name": "macitentan"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:53436",
+   "target_name": "ethylene glycol dimethacrylate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:34288",
+   "target_name": "2-hydroxyethyl methacrylate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:13643",
+  "CHEBI:23976"
+ ],
+ "name": "ethylene glycol",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:13643",
+  "CHEBI:23367",
+  "CHEBI:23824",
+  "CHEBI:23976",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:36+00:00",
+ "roles": [
+  "CHEBI:25212",
+  "CHEBI:27026",
+  "CHEBI:46787",
+  "CHEBI:75771"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ethylene glycol",
+   "chebi_accession": "CHEBI:30742",
+   "default_structure": {
+    "smiles": "OCCO",
+    "standard_inchi_key": "LYCAIKOWRPUZTN-UHFFFAOYSA-N"
+   },
+   "definition": "A 1,2-glycol compound produced via reaction of ethylene oxide with water.",
+   "id": 30742,
+   "is_released": true,
+   "name": "ethylene glycol",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 30741,
+      "init_name": "ethylene glycol bis(2-aminoethyl)tetraacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 131735,
+      "init_name": "4-[(2-hydroxyethoxy)carbonyl]benzoic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 84086,
+      "init_name": "6-(2-hydroxyethoxy)-6-oxohexanoic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 76609,
+      "init_name": "ACT-132577",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 167626,
+      "init_name": "2-hydroxyethyl octadecanoate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 136809,
+      "init_name": "2-hydroxyethyl hexadecanoate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 46788,
+      "init_name": "2-ethoxyethanol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 78770,
+      "init_name": "ethylene glycol monododecyl ether",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 82269,
+      "init_name": "TCA-ethadyl",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 42263,
+      "init_name": "1,2-dimethoxyethane",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 86541,
+      "init_name": "2-hydroxyethyl salicylate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 131362,
+      "init_name": "2-hydroxyethyl sulfonate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 111507,
+      "init_name": "ethylene glycol monophosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 76607,
+      "init_name": "macitentan",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 53436,
+      "init_name": "ethylene glycol dimethacrylate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 34288,
+      "init_name": "2-hydroxyethyl methacrylate",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25212,
+      "final_name": "metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 27026,
+      "final_name": "toxin",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 46787,
+      "final_name": "solvent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 23976,
+      "final_name": "ethanediol",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 13643,
+      "final_name": "glycol",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5473",
+    "CHEBI:21317",
+    "CHEBI:42277"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:30742",
+   "definition": [
+    "A 1,2-glycol compound produced via reaction of ethylene oxide with water."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_13643",
+    "http://purl.obolibrary.org/obo/CHEBI_23976"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_13643",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23824",
+    "http://purl.obolibrary.org/obo/CHEBI_23976",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Ethylene glycol"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "ethane-1,2-diol"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "ethylene glycol"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "LYCAIKOWRPUZTN-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "ethylene glycol"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_25212"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_27026"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_46787"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "Ethylene glycol",
+  "ethane-1,2-diol",
+  "ethylene glycol"
+ ]
+}

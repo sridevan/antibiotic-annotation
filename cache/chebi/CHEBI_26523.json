@@ -1,0 +1,76 @@
+{
+ "chebi_id": "CHEBI:26523",
+ "chebi_release": "255",
+ "definition": "Molecules or ions formed by the incomplete one-electron reduction of oxygen. They contribute to the microbicidal activity of phagocytes, regulation of signal transduction and gene expression, and the oxidative damage to biopolymers.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25806"
+ ],
+ "name": "reactive oxygen species",
+ "num_descendants": 9,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33675"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:45+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "reactive oxygen species",
+   "chebi_accession": "CHEBI:26523",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Molecules or ions formed by the incomplete one-electron reduction of oxygen. They contribute to the microbicidal activity of phagocytes, regulation of signal transduction and gene expression, and the oxidative damage to biopolymers.",
+   "id": 26523,
+   "is_released": true,
+   "name": "reactive oxygen species",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 25806,
+      "final_name": "oxygen molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:26523",
+   "definition": [
+    "Molecules or ions formed by the incomplete one-electron reduction of oxygen. They contribute to the microbicidal activity of phagocytes, regulation of signal transduction and gene expression, and the oxidative damage to biopolymers."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25806"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675"
+   ],
+   "isObsolete": false,
+   "label": [
+    "reactive oxygen species"
+   ],
+   "numDescendants": 9.0,
+   "numHierarchicalDescendants": 9.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

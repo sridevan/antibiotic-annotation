@@ -1,0 +1,82 @@
+{
+ "chebi_id": "CHEBI:51151",
+ "chebi_release": "255",
+ "definition": "An  organic molecule that is electrically neutral carrying a positive and a negative charge in one of its major canonical descriptions. In most dipolar compounds the charges are delocalized; however the term is also applied to species where this is not the case.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:72695"
+ ],
+ "name": "dipolar compound",
+ "num_descendants": 3471,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25367",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:50860",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:08+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "dipolar compound",
+   "chebi_accession": "CHEBI:51151",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An  organic molecule that is electrically neutral carrying a positive and a negative charge in one of its major canonical descriptions. In most dipolar compounds the charges are delocalized; however the term is also applied to species where this is not the case.",
+   "id": 51151,
+   "is_released": true,
+   "name": "dipolar compound",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 72695,
+      "final_name": "organic molecule",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:51151",
+   "definition": [
+    "An  organic molecule that is electrically neutral carrying a positive and a negative charge in one of its major canonical descriptions. In most dipolar compounds the charges are delocalized; however the term is also applied to species where this is not the case."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "isObsolete": false,
+   "label": [
+    "dipolar compound"
+   ],
+   "numDescendants": 3471.0,
+   "numHierarchicalDescendants": 3471.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

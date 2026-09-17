@@ -1,0 +1,148 @@
+{
+  "identity": {
+    "input_id": "SO4",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "SULFATE ION",
+    "ccd_type": "non-polymer",
+    "formula": "O4 S",
+    "formal_charge": -2,
+    "inchi": "InChI=1S/H2O4S/c1-5(2,3)4/h(H2,1,2,3,4)/p-2",
+    "inchikey": "QAOWNCQODCNURD-UHFFFAOYSA-L",
+    "smiles": "[O-]S(=O)(=O)[O-]",
+    "synonyms": [
+      "SULFATE ION",
+      "sulfate",
+      "Sulfate(2-)",
+      "sulphate",
+      "Sulfate",
+      "Sulfate ion",
+      "Sulfate dianion",
+      "Sulfuric acid ion(2-)"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB14546"
+      ],
+      "CCDC/CSD": [
+        "ACUBAC",
+        "ABUWAY",
+        "ABUWEC",
+        "AFOLIQ04",
+        "AFOLIQ",
+        "AFOLIQ05",
+        "ACADEO",
+        "ACOZOI",
+        "AFOLIQ01",
+        "AFOLIQ02",
+        "AFOLIQ03",
+        "AFOLIQ06",
+        "ADUXAA",
+        "ADESON10",
+        "AFAXAG",
+        "ABOBAV",
+        "ADENSL",
+        "ADHCOS10",
+        "ACUKIV",
+        "ABIZER",
+        "ADESUL",
+        "ACEYUD"
+      ],
+      "COD": [
+        "1530986",
+        "1010246",
+        "1010918",
+        "1538457",
+        "1010981",
+        "2104289",
+        "1542156",
+        "1200011",
+        "5000039",
+        "9000652",
+        "9003569",
+        "9004484",
+        "2014508",
+        "9007569",
+        "9008047",
+        "2300259",
+        "7228504",
+        "7228505",
+        "9009882",
+        "9009883",
+        "4124677",
+        "9012270",
+        "4313263",
+        "2102491",
+        "1528159",
+        "1528837",
+        "8103630",
+        "9015524"
+      ],
+      "PubChem": [
+        "1117"
+      ],
+      "CAS": [
+        "14808-79-8",
+        "52037-76-0"
+      ],
+      "ChEBI": [
+        "CHEBI:16189"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:37+00:00",
+    "inchikey_connectivity": "QAOWNCQODCNURD"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "direct_ccd_crossref",
+    "source_id": "SO4",
+    "primary_chebi_id": "CHEBI:16189",
+    "equivalent_chebi_ids": [
+      "CHEBI:16189"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:16189",
+        "inchikey": "QAOWNCQODCNURD-UHFFFAOYSA-L",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
+      }
+    ],
+    "notes": [
+      "RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
+    ],
+    "resolved": true
+  },
+  "primary_name": "sulfate",
+  "equivalent_names": {
+    "CHEBI:16189": "sulfate"
+  },
+  "family": {
+    "member_of": [
+      {
+        "chebi_id": "CHEBI:81836",
+        "name": "thallium sulfate",
+        "relation": "has_part (incoming)"
+      }
+    ],
+    "forms": [
+      {
+        "chebi_id": "CHEBI:45696",
+        "name": "hydrogensulfate",
+        "relation": "is_conjugate_base_of"
+      },
+      {
+        "chebi_id": "CHEBI:45696",
+        "name": "hydrogensulfate",
+        "relation": "is_conjugate_acid_of"
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+ "chebi_id": "CHEBI:45696",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "QAOWNCQODCNURD-UHFFFAOYSA-M",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:88175",
+   "target_name": "organic hydrogensulfate salt"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:26836",
+   "target_name": "sulfuric acid"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:16189",
+   "target_name": "sulfate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33482"
+ ],
+ "name": "hydrogensulfate",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25741",
+  "CHEBI:25806",
+  "CHEBI:26835",
+  "CHEBI:33273",
+  "CHEBI:33304",
+  "CHEBI:33482",
+  "CHEBI:33485",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:35406",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:37577"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:26836",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:16189",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:37+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "hydrogensulfate",
+   "chebi_accession": "CHEBI:45696",
+   "default_structure": {
+    "smiles": "[H]OS(=O)(=O)[O-]",
+    "standard_inchi_key": "QAOWNCQODCNURD-UHFFFAOYSA-M"
+   },
+   "definition": null,
+   "id": 45696,
+   "is_released": true,
+   "name": "hydrogensulfate",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 88175,
+      "init_name": "organic hydrogensulfate salt",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 26836,
+      "init_name": "sulfuric acid",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "init_id": 16189,
+      "init_name": "sulfate",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33482,
+      "final_name": "sulfur oxoanion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 16189,
+      "final_name": "sulfate",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "final_id": 26836,
+      "final_name": "sulfuric acid",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:29199",
+    "CHEBI:45693"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:45696",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33482"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26835",
+    "http://purl.obolibrary.org/obo/CHEBI_33273",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33482",
+    "http://purl.obolibrary.org/obo/CHEBI_33485",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35406",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydrogen(tetraoxidosulfate)(1-)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydrogensulfate(1-)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydrogentetraoxosulfate(1-)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydrogentetraoxosulfate(VI)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydroxidotrioxidosulfate(1-)"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "QAOWNCQODCNURD-UHFFFAOYSA-M",
+   "isObsolete": false,
+   "label": [
+    "hydrogensulfate"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_26836"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16189"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "hydrogen(tetraoxidosulfate)(1-)",
+  "hydrogensulfate(1-)",
+  "hydrogentetraoxosulfate(1-)",
+  "hydrogentetraoxosulfate(VI)",
+  "hydroxidotrioxidosulfate(1-)"
+ ]
+}

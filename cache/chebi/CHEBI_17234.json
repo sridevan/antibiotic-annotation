@@ -1,0 +1,200 @@
+{
+ "chebi_id": "CHEBI:17234",
+ "chebi_release": "255",
+ "definition": "An aldohexose used as a source of energy and metabolic intermediate.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:147369",
+   "target_name": "glucotetraose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:9553",
+   "target_name": "thioglucoside"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:146180",
+   "target_name": "glucotriose"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:83163",
+   "target_name": "molasses"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33917"
+ ],
+ "name": "glucose",
+ "num_descendants": 21,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:15693",
+  "CHEBI:16646",
+  "CHEBI:18133",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33917",
+  "CHEBI:35381",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:48+00:00",
+ "roles": [
+  "CHEBI:78675"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "glucose",
+   "chebi_accession": "CHEBI:17234",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An aldohexose used as a source of energy and metabolic intermediate.",
+   "id": 17234,
+   "is_released": true,
+   "name": "glucose",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 147369,
+      "init_name": "glucotetraose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 9553,
+      "init_name": "thioglucoside",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 146180,
+      "init_name": "glucotriose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 83163,
+      "init_name": "molasses",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 78675,
+      "final_name": "fundamental metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33917,
+      "final_name": "aldohexose",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5418",
+    "CHEBI:14313",
+    "CHEBI:24277",
+    "CHEBI:33929"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17234",
+   "definition": [
+    "An aldohexose used as a source of energy and metabolic intermediate."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33917"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_15693",
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_18133",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33917",
+    "http://purl.obolibrary.org/obo/CHEBI_35381",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Glucose"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "gluco-hexose"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "glucose"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "glucose"
+   ],
+   "numDescendants": 21.0,
+   "numHierarchicalDescendants": 21.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_78675"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "Glucose",
+  "gluco-hexose",
+  "glucose"
+ ]
+}

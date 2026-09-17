@@ -1,0 +1,260 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": ";+2",
+    "connections": "1-7-21-17(3)25-13-26-19(5)23(9-11-33(39)40)31(37-26)16-32-24(10-12-34(41)42)20(6)28(38-32)15-30-22(8-2)18(4)27(36-30)14-29(21)35-25;",
+    "formula": "C34H34N4O4.Fe",
+    "hAtoms": "7-8,13-16H,1-2,9-12H2,3-6H3,(H4,35,36,37,38,39,40,41,42);",
+    "inchi": "InChI=1S/C34H34N4O4.Fe/c1-7-21-17(3)25-13-26-19(5)23(9-11-33(39)40)31(37-26)16-32-24(10-12-34(41)42)20(6)28(38-32)15-30-22(8-2)18(4)27(36-30)14-29(21)35-25;/h7-8,13-16H,1-2,9-12H2,3-6H3,(H4,35,36,37,38,39,40,41,42);/q;+2/p-2/b25-13-,26-13-,27-14-,28-15-,29-14-,30-15-,31-16-,32-16-;",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "-2",
+    "stereoDbond": "25-13-,26-13-,27-14-,28-15-,29-14-,30-15-,31-16-,32-16-;",
+    "stereoSP3": "",
+    "stereoSP3inverted": "",
+    "stereoType": "",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DB18267",
+     "id": 2,
+     "longName": "DrugBank",
+     "shortName": "drugbank",
+     "url": "https://go.drugbank.com/drugs/DB18267"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "HEM",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/HEM"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEBI:17627",
+     "id": 7,
+     "longName": "ChEBI",
+     "shortName": "chebi",
+     "url": "https://www.ebi.ac.uk/chebi/CHEBI:17627"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEBI:26355",
+     "id": 7,
+     "longName": "ChEBI",
+     "shortName": "chebi",
+     "url": "https://www.ebi.ac.uk/chebi/CHEBI:26355"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "HMDB0003178",
+     "id": 18,
+     "longName": "HMDB",
+     "shortName": "hmdb",
+     "url": "https://www.hmdb.ca/metabolites/HMDB0003178"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "162640511",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/162640511"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "172420250",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/172420250"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "26945",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/26945"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "444097",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/444097"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "444098",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/444098"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "4973",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/4973"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "53629486",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/53629486"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Molport-046-426-998",
+     "id": 28,
+     "longName": "MolPort",
+     "shortName": "molport",
+     "url": "https://www.molport.com/shop/compound/Molport-046-426-998"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "135197",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=135197"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "143348",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=143348"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "144129",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=144129"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "1517",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=1517"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "211503",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=211503"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "226133",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=226133"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "226134",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=226134"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "228485",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=228485"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "228486",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=228486"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "30062",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=30062"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "3360",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=3360"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "48",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=48"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "822",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=822"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "8254",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=8254"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "PD046174",
+     "id": 49,
+     "longName": "Probes&Drugs",
+     "shortName": "probes_and_drugs",
+     "url": "https://www.probes-drugs.org/compounds/PD046174"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "PD158908",
+     "id": 49,
+     "longName": "Probes&Drugs",
+     "shortName": "probes_and_drugs",
+     "url": "https://www.probes-drugs.org/compounds/PD158908"
+    }
+   ],
+   "standardInchiKey": "KABFMIBPWCXCRK-RGGAHWMASA-L",
+   "uci": 638817
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

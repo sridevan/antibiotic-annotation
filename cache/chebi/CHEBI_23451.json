@@ -1,0 +1,143 @@
+{
+ "chebi_id": "CHEBI:23451",
+ "chebi_release": "255",
+ "definition": "A polyol consisting of a cycloalkane containing at least three hydroxy groups, each attached to a different ring carbon atom.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:61362",
+   "target_name": "cyclitol ether"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:64426",
+   "target_name": "cyclitol ester"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:50135",
+   "target_name": "cyclitol nicotinate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:26191"
+ ],
+ "name": "cyclitol",
+ "num_descendants": 365,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:11+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "cyclitol",
+   "chebi_accession": "CHEBI:23451",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A polyol consisting of a cycloalkane containing at least three hydroxy groups, each attached to a different ring carbon atom.",
+   "id": 23451,
+   "is_released": true,
+   "name": "cyclitol",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 61362,
+      "init_name": "cyclitol ether",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 64426,
+      "init_name": "cyclitol ester",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 50135,
+      "init_name": "cyclitol nicotinate",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 26191,
+      "final_name": "polyol",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:23451",
+   "definition": [
+    "A polyol consisting of a cycloalkane containing at least three hydroxy groups, each attached to a different ring carbon atom."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_26191"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "cyclitols"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "cyclitol"
+   ],
+   "numDescendants": 365.0,
+   "numHierarchicalDescendants": 365.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "cyclitols"
+ ]
+}

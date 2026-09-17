@@ -1,0 +1,108 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "",
+    "connections": "1-9-11-13-21-31-42(6,7)38(50)39(51)43(54,57-31)28(10-2)40(52)44-23-17-16-19-26(4)36(55-8)27(5)37-35(49)34(48)30(56-37)20-15-12-14-18-25(3)33(47)32-29(46)22-24-45-41(32)53",
+    "formula": "C43H60N2O12",
+    "hAtoms": "9,11-22,24,27-28,30-31,34-39,48-51,54H,10,23H2,1-8H3,(H,44,52)(H2,45,46,53)",
+    "inchi": "InChI=1S/C43H60N2O12/c1-9-11-13-21-31-42(6,7)38(50)39(51)43(54,57-31)28(10-2)40(52)44-23-17-16-19-26(4)36(55-8)27(5)37-35(49)34(48)30(56-37)20-15-12-14-18-25(3)33(47)32-29(46)22-24-45-41(32)53/h9,11-22,24,27-28,30-31,34-39,48-51,54H,10,23H2,1-8H3,(H,44,52)(H2,45,46,53)/b11-9-,14-12+,17-16+,20-15+,21-13+,25-18+,26-19+/t27-,28-,30-,31+,34+,35+,36-,37+,38+,39-,43-/m1/s1",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "",
+    "stereoDbond": "11-9-,14-12+,17-16+,20-15+,21-13+,25-18+,26-19+",
+    "stereoSP3": "27-,28-,30-,31+,34+,35+,36-,37+,38+,39-,43-",
+    "stereoSP3inverted": "1",
+    "stereoType": "1",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEMBL5483019",
+     "id": 1,
+     "longName": "ChEMBL",
+     "shortName": "chembl",
+     "url": "https://www.ebi.ac.uk/chembldb/compound/inspect/CHEMBL5483019"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEBI:190786",
+     "id": 7,
+     "longName": "ChEBI",
+     "shortName": "chebi",
+     "url": "https://www.ebi.ac.uk/chebi/CHEBI:190786"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "PO3AA461HS",
+     "id": 14,
+     "longName": "FDA/USP Substance Registration System (SRS)",
+     "shortName": "fdasrs",
+     "url": "https://d20b1koi85gdl2.cloudfront.net/uniisearch/srs/unii/PO3AA461HS"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "195770",
+     "id": 15,
+     "longName": "SureChEMBL",
+     "shortName": "surechembl",
+     "url": "https://www.surechembl.org/chemical/195770"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "135484176",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/135484176"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Molport-046-856-591",
+     "id": 28,
+     "longName": "MolPort",
+     "shortName": "molport",
+     "url": "https://www.molport.com/shop/compound/Molport-046-856-591"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Molport-052-063-767",
+     "id": 28,
+     "longName": "MolPort",
+     "shortName": "molport",
+     "url": "https://www.molport.com/shop/compound/Molport-052-063-767"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DTXSID201023647",
+     "id": 32,
+     "longName": "EPA (Environmental Protection Agency) CompTox Dashboard",
+     "shortName": "comptox",
+     "url": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID201023647"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "13086",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=13086"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "PD121745",
+     "id": 49,
+     "longName": "Probes&Drugs",
+     "shortName": "probes_and_drugs",
+     "url": "https://www.probes-drugs.org/compounds/PD121745"
+    }
+   ],
+   "standardInchiKey": "HMSYAPGFKGSXAJ-PAHGNTJYSA-N",
+   "uci": 1077483
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

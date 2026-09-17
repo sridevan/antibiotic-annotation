@@ -1,0 +1,150 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:46+00:00",
+ "chem_comp": {
+  "formula": "C29 H30 F N3 O7",
+  "formula_weight": 551.563,
+  "id": "P8F",
+  "name": "Pentacycline",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "2023-02-09T00:00:00.000+00:00",
+  "pdbx_modified_date": "2023-07-25T00:00:00.000+00:00",
+  "pdbx_processing_site": "PDBE",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "P8F",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "P8F",
+   "date": "2023-02-09T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Initial release",
+   "comp_id": "P8F",
+   "date": "2023-07-26T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Modify aromatic_flag",
+   "comp_id": "P8F",
+   "date": "2023-07-25T00:00:00.000+00:00",
+   "ordinal": 3
+  },
+  {
+   "action_type": "Modify synonyms",
+   "comp_id": "P8F",
+   "date": "2023-07-25T00:00:00.000+00:00",
+   "ordinal": 4
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "P8F",
+   "descriptor": "InChI=1S/C29H30FN3O7/c1-32(2)22-18-8-15-7-14-6-13-4-3-12(9-33-10-16(30)11-33)5-17(13)23(34)19(14)24(35)20(15)26(37)29(18,40)27(38)21(25(22)36)28(31)39/h3-6,15-16,18,22,34,36-37,40H,7-11H2,1-2H3,(H2,31,39)/t15-,18-,22-,29-/m0/s1",
+   "program": "InChI",
+   "program_version": "1.06",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "P8F",
+   "descriptor": "DAUIQSOIFWOKJQ-MGVDVOGZSA-N",
+   "program": "InChI",
+   "program_version": "1.06",
+   "type": "InChIKey"
+  },
+  {
+   "comp_id": "P8F",
+   "descriptor": "CN(C)[C@H]1[C@@H]2C[C@@H]3Cc4cc5ccc(CN6CC(F)C6)cc5c(O)c4C(=O)C3=C(O)[C@]2(O)C(=O)C(=C1O)C(N)=O",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "P8F",
+   "descriptor": "CN(C)[CH]1[CH]2C[CH]3Cc4cc5ccc(CN6CC(F)C6)cc5c(O)c4C(=O)C3=C(O)[C]2(O)C(=O)C(=C1O)C(N)=O",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "P8F",
+   "descriptor": "CN(C)[C@H]1[C@@H]2C[C@@H]3Cc4cc5ccc(cc5c(c4C(=O)C3=C([C@@]2(C(=O)C(=C1O)C(=O)N)O)O)O)CN6CC(C6)F",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.7",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "P8F",
+   "descriptor": "CN(C)C1C2CC3Cc4cc5ccc(cc5c(c4C(=O)C3=C(C2(C(=O)C(=C1O)C(=O)N)O)O)O)CN6CC(C6)F",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.7",
+   "type": "SMILES"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "P8F",
+   "identifier": "(4~{S},4~{a}~{S},5~{a}~{R},14~{a}~{S})-4-(dimethylamino)-10-[(3-fluoranylazetidin-1-yl)methyl]-3,12,14,14~{a}-tetrakis(oxidanyl)-1,13-bis(oxidanylidene)-4~{a},5,5~{a},6-tetrahydro-4~{H}-pentacene-2-carboxamide",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.7",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "P8F",
+  "rcsb_id": "P8F"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C29H30FN3O7/c1-32(2)22-18-8-15-7-14-6-13-4-3-12(9-33-10-16(30)11-33)5-17(13)23(34)19(14)24(35)20(15)26(37)29(18,40)27(38)21(25(22)36)28(31)39/h3-6,15-16,18,22,34,36-37,40H,7-11H2,1-2H3,(H2,31,39)/t15-,18-,22-,29-/m0/s1",
+  "InChIKey": "DAUIQSOIFWOKJQ-MGVDVOGZSA-N",
+  "SMILES": "CN(C)C1C2CC3Cc4cc5ccc(cc5c(c4C(=O)C3=C(C2(C(=O)C(=C1O)C(=O)N)O)O)O)CN6CC(C6)F",
+  "SMILES_stereo": "CN(C)[C@H]1[C@@H]2C[C@@H]3Cc4cc5ccc(cc5c(c4C(=O)C3=C([C@@]2(C(=O)C(=C1O)C(=O)N)O)O)O)CN6CC(C6)F",
+  "comp_id": "P8F"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 70,
+  "atom_count_chiral": 4,
+  "atom_count_heavy": 40,
+  "bond_count": 75,
+  "bond_count_aromatic": 11,
+  "comp_id": "P8F",
+  "initial_deposition_date": "2023-02-09T00:00:00.000+00:00",
+  "initial_release_date": "2023-07-26T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2023-07-25T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "P8F",
+   "name": "Pentacycline",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "P8F",
+   "name": "(4S,4aS,5aR,14aS)-4-(dimethylamino)-10-[(3-fluoranylazetidin-1-yl)methyl]-3,12,14,14a-tetrakis(oxidanyl)-1,13-bis(oxidanylidene)-4a,5,5a,6-tetrahydro-4H-pentacene-2-carboxamide",
+   "ordinal": 2,
+   "provenance_source": "PDB Reference Data",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "P8F",
+   "name": "Pentacycline TP-038",
+   "ordinal": 3,
+   "provenance_source": "PDB Reference Data",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "P8F",
+   "name": "(4~{S},4~{a}~{S},5~{a}~{R},14~{a}~{S})-4-(dimethylamino)-10-[(3-fluoranylazetidin-1-yl)methyl]-3,12,14,14~{a}-tetrakis(oxidanyl)-1,13-bis(oxidanylidene)-4~{a},5,5~{a},6-tetrahydro-4~{H}-pentacene-2-carboxamide",
+   "ordinal": 4,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  }
+ ],
+ "rcsb_id": "P8F"
+}

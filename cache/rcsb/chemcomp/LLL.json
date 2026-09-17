@@ -1,0 +1,241 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:24+00:00",
+ "chem_comp": {
+  "formula": "C19 H39 N5 O7",
+  "formula_weight": 449.542,
+  "id": "LLL",
+  "name": "(2R,3R,4R,5R)-2-((1S,2S,3R,4S,6R)-4,6-DIAMINO-3-((2R,3R,6S)-3-AMINO-6-(AMINOMETHYL)-TETRAHYDRO-2H-PYRAN-2-YLOXY)-2-HYDR\nOXYCYCLOHEXYLOXY)-5-METHYL-4-(METHYLAMINO)-TETRAHYDRO-2H-PYRAN-3,5-DIOL",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "2005-11-02T00:00:00.000+00:00",
+  "pdbx_modified_date": "2020-06-17T00:00:00.000+00:00",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "LLL",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "LLL",
+   "date": "2005-11-02T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "LLL",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Modify synonyms",
+   "comp_id": "LLL",
+   "date": "2020-06-05T00:00:00.000+00:00",
+   "ordinal": 3
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "LLL",
+   "descriptor": "O(C2C(O)C(OC1OC(CN)CCC1N)C(N)CC2N)C3OCC(O)(C(NC)C3O)C",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "LLL",
+   "descriptor": "CN[C@@H]1[C@@H](O)[C@H](OC[C@]1(C)O)O[C@H]2[C@H](N)C[C@H](N)[C@@H](O[C@H]3O[C@H](CN)CC[C@H]3N)[C@@H]2O",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "LLL",
+   "descriptor": "CN[CH]1[CH](O)[CH](OC[C]1(C)O)O[CH]2[CH](N)C[CH](N)[CH](O[CH]3O[CH](CN)CC[CH]3N)[CH]2O",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "LLL",
+   "descriptor": "C[C@@]1(CO[C@@H]([C@@H]([C@H]1NC)O)O[C@H]2[C@@H](C[C@@H]([C@H]([C@@H]2O)O[C@@H]3[C@@H](CC[C@H](O3)CN)N)N)N)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "LLL",
+   "descriptor": "CC1(COC(C(C1NC)O)OC2C(CC(C(C2O)OC3C(CCC(O3)CN)N)N)N)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "LLL",
+   "descriptor": "InChI=1S/C19H39N5O7/c1-19(27)7-28-18(13(26)16(19)24-2)31-15-11(23)5-10(22)14(12(15)25)30-17-9(21)4-3-8(6-20)29-17/h8-18,24-27H,3-7,20-23H2,1-2H3/t8-,9+,10-,11+,12-,13+,14+,15-,16+,17+,18+,19-/m0/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "LLL",
+   "descriptor": "VEGXETMJINRLTH-BOZYPMBZSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "LLL",
+   "identifier": "(1R,2S,3S,4R,6S)-4,6-diamino-3-{[3-deoxy-4-C-methyl-3-(methylamino)-beta-L-arabinopyranosyl]oxy}-2-hydroxycyclohexyl 2,6-diamino-2,3,4,6-tetradeoxy-alpha-D-erythro-hexopyranoside",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "LLL",
+   "identifier": "(2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,6S)-3-amino-6-(aminomethyl)oxan-2-yl]oxy-2-hydroxy-cyclohexyl]oxy-5-methyl-4-methylamino-oxane-3,5-diol",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "LLL",
+  "drugbank_id": "DB04729",
+  "rcsb_id": "LLL"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C19H39N5O7/c1-19(27)7-28-18(13(26)16(19)24-2)31-15-11(23)5-10(22)14(12(15)25)30-17-9(21)4-3-8(6-20)29-17/h8-18,24-27H,3-7,20-23H2,1-2H3/t8-,9+,10-,11+,12-,13+,14+,15-,16+,17+,18+,19-/m0/s1",
+  "InChIKey": "VEGXETMJINRLTH-BOZYPMBZSA-N",
+  "SMILES": "CC1(COC(C(C1NC)O)OC2C(CC(C(C2O)OC3C(CCC(O3)CN)N)N)N)O",
+  "SMILES_stereo": "C[C@@]1(CO[C@@H]([C@@H]([C@H]1NC)O)O[C@H]2[C@@H](C[C@@H]([C@H]([C@@H]2O)O[C@@H]3[C@@H](CC[C@H](O3)CN)N)N)N)O",
+  "comp_id": "LLL"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 70,
+  "atom_count_chiral": 12,
+  "atom_count_heavy": 31,
+  "bond_count": 72,
+  "bond_count_aromatic": 0,
+  "comp_id": "LLL",
+  "initial_deposition_date": "2005-11-02T00:00:00.000+00:00",
+  "initial_release_date": "2005-12-13T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2020-06-05T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "LLL",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB04729",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "LLL",
+   "ordinal": 2,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "72396",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "LLL",
+   "ordinal": 3,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "26098-04-4",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "LLL",
+   "ordinal": 4,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEBI:27784",
+   "resource_name": "ChEBI"
+  },
+  {
+   "comp_id": "LLL",
+   "ordinal": 5,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEMBL194126",
+   "resource_name": "ChEMBL"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "LLL",
+   "name": "(2R,3R,4R,5R)-2-((1S,2S,3R,4S,6R)-4,6-DIAMINO-3-((2R,3R,6S)-3-AMINO-6-(AMINOMETHYL)-TETRAHYDRO-2H-PYRAN-2-YLOXY)-2-HYDR\nOXYCYCLOHEXYLOXY)-5-METHYL-4-(METHYLAMINO)-TETRAHYDRO-2H-PYRAN-3,5-DIOL",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "LLL",
+   "name": "GENTAMICIN C1A",
+   "ordinal": 2,
+   "provenance_source": "PDB Reference Data",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "LLL",
+   "name": "(1R,2S,3S,4R,6S)-4,6-diamino-3-{[3-deoxy-4-C-methyl-3-(methylamino)-beta-L-arabinopyranosyl]oxy}-2-hydroxycyclohexyl 2,6-diamino-2,3,4,6-tetradeoxy-alpha-D-erythro-hexopyranoside",
+   "ordinal": 3,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "LLL",
+   "name": "(2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,6S)-3-amino-6-(aminomethyl)oxan-2-yl]oxy-2-hydroxy-cyclohexyl]oxy-5-methyl-4-methylamino-oxane-3,5-diol",
+   "ordinal": 4,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "LLL",
+   "name": "Gentamycin C12",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "LLL",
+   "name": "Gentamicin C1a",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "LLL",
+   "name": "Gentamicin c1a sulfate",
+   "ordinal": 7,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "LLL",
+   "interaction_type": "target",
+   "name": "Small ribosomal subunit protein uS12",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P0A7S3",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "adduct"
+   ]
+  },
+  {
+   "comp_id": "LLL",
+   "interaction_type": "target",
+   "name": "16S ribosomal RNA",
+   "ordinal": 2,
+   "provenance_source": "DrugBank",
+   "target_actions": [
+    "adduct"
+   ]
+  }
+ ],
+ "rcsb_id": "LLL"
+}

@@ -1,0 +1,80 @@
+{
+ "chebi_id": "CHEBI:33861",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33240",
+  "CHEBI:33497"
+ ],
+ "name": "transition element coordination entity",
+ "num_descendants": 620,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33240",
+  "CHEBI:33497",
+  "CHEBI:36357",
+  "CHEBI:37577"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:05+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "transition element coordination entity",
+   "chebi_accession": "CHEBI:33861",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33861,
+   "is_released": true,
+   "name": "transition element coordination entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33240,
+      "final_name": "coordination entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33497,
+      "final_name": "transition element molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33861",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33240",
+    "http://purl.obolibrary.org/obo/CHEBI_33497"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33240",
+    "http://purl.obolibrary.org/obo/CHEBI_33497",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "transition element coordination entity"
+   ],
+   "numDescendants": 620.0,
+   "numHierarchicalDescendants": 620.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,339 @@
+{
+ "chebi_id": "CHEBI:30751",
+ "chebi_release": "255",
+ "definition": "The simplest carboxylic acid, containing a single carbon. Occurs naturally in various sources including the venom of bee and ant stings, and is a useful organic synthetic reagent. Principally used as a preservative and antibacterial agent in livestock feed. Induces severe metabolic acidosis and ocular injury in human subjects.",
+ "inchikey": "BDAGIHXWWSANSR-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:63050",
+   "target_name": "ammonium formate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:63006",
+   "target_name": "magnesium formate dihydrate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16397",
+   "target_name": "formamide"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52343",
+   "target_name": "formate ester"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:127780",
+   "target_name": "phosphonoformic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:38477",
+   "target_name": "formamidine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:48431",
+   "target_name": "formimidic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:50759",
+   "target_name": "<em>N</em>-formyl amino acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:15522",
+   "target_name": "formyl-CoA"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:63316",
+   "target_name": "potassium formate"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:15740",
+   "target_name": "formate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:25384"
+ ],
+ "name": "formic acid",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24833",
+  "CHEBI:25367",
+  "CHEBI:25384",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33575",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:35605",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:64709",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:15740",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:45+00:00",
+ "roles": [
+  "CHEBI:25212",
+  "CHEBI:33282",
+  "CHEBI:46787",
+  "CHEBI:48356",
+  "CHEBI:74783"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "formic acid",
+   "chebi_accession": "CHEBI:30751",
+   "default_structure": {
+    "smiles": "[H]C(=O)O",
+    "standard_inchi_key": "BDAGIHXWWSANSR-UHFFFAOYSA-N"
+   },
+   "definition": "The simplest carboxylic acid, containing a single carbon. Occurs naturally in various sources including the venom of bee and ant stings, and is a useful organic synthetic reagent. Principally used as a preservative and antibacterial agent in livestock feed. Induces severe metabolic acidosis and ocular injury in human subjects.",
+   "id": 30751,
+   "is_released": true,
+   "name": "formic acid",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 63050,
+      "init_name": "ammonium formate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 63006,
+      "init_name": "magnesium formate dihydrate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16397,
+      "init_name": "formamide",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52343,
+      "init_name": "formate ester",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 127780,
+      "init_name": "phosphonoformic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 38477,
+      "init_name": "formamidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 48431,
+      "init_name": "formimidic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 50759,
+      "init_name": "<em>N</em>-formyl amino acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 15522,
+      "init_name": "formyl-CoA",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 63316,
+      "init_name": "potassium formate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 15740,
+      "init_name": "formate",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 74783,
+      "final_name": "astringent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25212,
+      "final_name": "metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 46787,
+      "final_name": "solvent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48356,
+      "final_name": "protic solvent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25384,
+      "final_name": "monocarboxylic acid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 15740,
+      "final_name": "formate",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5145",
+    "CHEBI:24082",
+    "CHEBI:42460"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:30751",
+   "definition": [
+    "The simplest carboxylic acid, containing a single carbon. Occurs naturally in various sources including the venom of bee and ant stings, and is a useful organic synthetic reagent. Principally used as a preservative and antibacterial agent in livestock feed. Induces severe metabolic acidosis and ocular injury in human subjects."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25384"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24833",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25384",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33575",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_64709",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "PDBeChem"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "FORMIC ACID"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Formic acid"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "formic acid"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "BDAGIHXWWSANSR-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "formic acid"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_25212"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_46787"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48356"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_74783"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_15740"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "FORMIC ACID",
+  "Formic acid",
+  "formic acid"
+ ]
+}

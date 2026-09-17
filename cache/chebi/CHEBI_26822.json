@@ -1,0 +1,76 @@
+{
+ "chebi_id": "CHEBI:26822",
+ "chebi_release": "255",
+ "definition": "Any sulfur molecular entity that involves either covalently bonded or anionic sulfur.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:26835"
+ ],
+ "name": "sulfide",
+ "num_descendants": 845,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:26835",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33675"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:53+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "sulfide",
+   "chebi_accession": "CHEBI:26822",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any sulfur molecular entity that involves either covalently bonded or anionic sulfur.",
+   "id": 26822,
+   "is_released": true,
+   "name": "sulfide",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 26835,
+      "final_name": "sulfur molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:26822",
+   "definition": [
+    "Any sulfur molecular entity that involves either covalently bonded or anionic sulfur."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_26835"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_26835",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675"
+   ],
+   "isObsolete": false,
+   "label": [
+    "sulfide"
+   ],
+   "numDescendants": 845.0,
+   "numHierarchicalDescendants": 845.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

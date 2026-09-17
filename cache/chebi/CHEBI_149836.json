@@ -1,0 +1,227 @@
+{
+ "chebi_id": "CHEBI:149836",
+ "chebi_release": "255",
+ "definition": "Tetracycline in which the hydroxy group at position 5 and the methyl group at position 6 are replaced by hydrogen, and with a dimethylamino substituent and an (<em>N</em>-<em>tert</em>-butylglycyl)amino substituent at positions 7 and 9, respectively. A glycylcycline antibiotic, it has activity against a broad range of Gram-positive and Gram-negative bacteria, including tetracycline-resistant organisms. It is used for the intravenous treatment of complicated skin and skin structure infections caused by susceptible organisms.",
+ "inchikey": "FPZLLRFZJZRHSY-HJYUBDRYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:142709",
+   "target_name": "11a-hydroxytigecycline(1+)"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:142708",
+   "target_name": "tigecycline(1+)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:139592",
+  "CHEBI:26895"
+ ],
+ "name": "tigecycline",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:139588",
+  "CHEBI:139592",
+  "CHEBI:17087",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:26188",
+  "CHEBI:26878",
+  "CHEBI:26895",
+  "CHEBI:30879",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:142708",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:34+00:00",
+ "roles": [
+  "CHEBI:33282",
+  "CHEBI:35441",
+  "CHEBI:35610",
+  "CHEBI:36047"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "tigecycline",
+   "chebi_accession": "CHEBI:149836",
+   "default_structure": {
+    "smiles": "[H][C@@]12Cc3c(N(C)C)cc(NC(=O)CNC(C)(C)C)c(O)c3C(=O)C1=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@]1([H])C2",
+    "standard_inchi_key": "FPZLLRFZJZRHSY-HJYUBDRYSA-N"
+   },
+   "definition": "Tetracycline in which the hydroxy group at position 5 and the methyl group at position 6 are replaced by hydrogen, and with a dimethylamino substituent and an (<em>N</em>-<em>tert</em>-butylglycyl)amino substituent at positions 7 and 9, respectively. A glycylcycline antibiotic, it has activity against a broad range of Gram-positive and Gram-negative bacteria, including tetracycline-resistant organisms. It is used for the intravenous treatment of complicated skin and skin structure infections caused by susceptible organisms.",
+   "id": 149836,
+   "is_released": true,
+   "name": "tigecycline",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 142709,
+      "init_name": "11a-hydroxytigecycline(1+)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 142708,
+      "init_name": "tigecycline(1+)",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35441,
+      "final_name": "antiinfective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35610,
+      "final_name": "antineoplastic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 139592,
+      "final_name": "tertiary α-hydroxy ketone",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 26895,
+      "final_name": "tetracyclines",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 142708,
+      "final_name": "tigecycline(1+)",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:29696",
+    "CHEBI:473970"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:149836",
+   "definition": [
+    "Tetracycline in which the hydroxy group at position 5 and the methyl group at position 6 are replaced by hydrogen, and with a dimethylamino substituent and an (<em>N</em>-<em>tert</em>-butylglycyl)amino substituent at positions 7 and 9, respectively. A glycylcycline antibiotic, it has activity against a broad range of Gram-positive and Gram-negative bacteria, including tetracycline-resistant organisms. It is used for the intravenous treatment of complicated skin and skin structure infections caused by susceptible organisms."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_139592",
+    "http://purl.obolibrary.org/obo/CHEBI_26895"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_139588",
+    "http://purl.obolibrary.org/obo/CHEBI_139592",
+    "http://purl.obolibrary.org/obo/CHEBI_17087",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26188",
+    "http://purl.obolibrary.org/obo/CHEBI_26878",
+    "http://purl.obolibrary.org/obo/CHEBI_26895",
+    "http://purl.obolibrary.org/obo/CHEBI_30879",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(4S,4aS,5aR,12aS)-9-[(N-tert-butylglycyl)amino]-4,7-bis(dimethylamino)-3,10,12,12a-tetrahydroxy-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "FPZLLRFZJZRHSY-HJYUBDRYSA-N",
+   "isObsolete": false,
+   "label": [
+    "tigecycline"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35441"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_142708"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(4S,4aS,5aR,12aS)-9-[(N-tert-butylglycyl)amino]-4,7-bis(dimethylamino)-3,10,12,12a-tetrahydroxy-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide"
+ ]
+}

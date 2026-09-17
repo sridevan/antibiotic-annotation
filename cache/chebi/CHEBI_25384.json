@@ -1,0 +1,140 @@
+{
+ "chebi_id": "CHEBI:25384",
+ "chebi_release": "255",
+ "definition": "An oxoacid containing a single carboxy group.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:35757",
+   "target_name": "monocarboxylic acid anion"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33575"
+ ],
+ "name": "monocarboxylic acid",
+ "num_descendants": 7588,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24833",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33575",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:35605",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:64709",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:35757",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:45+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "monocarboxylic acid",
+   "chebi_accession": "CHEBI:25384",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An oxoacid containing a single carboxy group.",
+   "id": 25384,
+   "is_released": true,
+   "name": "monocarboxylic acid",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 35757,
+      "init_name": "monocarboxylic acid anion",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33575,
+      "final_name": "carboxylic acid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35757,
+      "final_name": "monocarboxylic acid anion",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25384",
+   "definition": [
+    "An oxoacid containing a single carboxy group."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33575"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24833",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33575",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_64709",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "isObsolete": false,
+   "label": [
+    "monocarboxylic acid"
+   ],
+   "numDescendants": 7588.0,
+   "numHierarchicalDescendants": 7588.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35757"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

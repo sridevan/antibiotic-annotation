@@ -1,0 +1,169 @@
+{
+ "chebi_id": "CHEBI:28102",
+ "chebi_release": "255",
+ "definition": "A glucan composed of unbranched chains of <small>D</small>-glucopyranose residues in α(1→4) glycosidic linkage. The number of repeated glucose subunits (n) is usually in the range of 300 to 3000, but can be many thousands. One of the two components of starch (the other, 70-80%, being amylopectin). Cf. linear maltodextrin, in which the chain length is typically between 3 and 17 glucose units.",
+ "inchikey": "WQZGKKKJIJFFOK-DVKNGEFBSA-N",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:28017",
+   "target_name": "starch"
+  }
+ ],
+ "is_a": [
+  "CHEBI:37163"
+ ],
+ "name": "amylose",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16646",
+  "CHEBI:167559",
+  "CHEBI:18154",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33694",
+  "CHEBI:33839",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37163",
+  "CHEBI:37164",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:43+00:00",
+ "roles": [
+  "CHEBI:75771",
+  "CHEBI:76924",
+  "CHEBI:76971"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "amylose",
+   "chebi_accession": "CHEBI:28102",
+   "default_structure": {
+    "smiles": "[H]O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O",
+    "standard_inchi_key": "WQZGKKKJIJFFOK-DVKNGEFBSA-N"
+   },
+   "definition": "A glucan composed of unbranched chains of <small>D</small>-glucopyranose residues in α(1→4) glycosidic linkage. The number of repeated glucose subunits (n) is usually in the range of 300 to 3000, but can be many thousands. One of the two components of starch (the other, 70-80%, being amylopectin). Cf. linear maltodextrin, in which the chain length is typically between 3 and 17 glucose units.",
+   "id": 28102,
+   "is_released": true,
+   "name": "amylose",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 28017,
+      "init_name": "starch",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76924,
+      "final_name": "plant metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 37163,
+      "final_name": "glucan",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:2694",
+    "CHEBI:22539"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:28102",
+   "definition": [
+    "A glucan composed of unbranched chains of <small>D</small>-glucopyranose residues in α(1→4) glycosidic linkage. The number of repeated glucose subunits (n) is usually in the range of 300 to 3000, but can be many thousands. One of the two components of starch (the other, 70-80%, being amylopectin). Cf. linear maltodextrin, in which the chain length is typically between 3 and 17 glucose units."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_37163"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_167559",
+    "http://purl.obolibrary.org/obo/CHEBI_18154",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33694",
+    "http://purl.obolibrary.org/obo/CHEBI_33839",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37163",
+    "http://purl.obolibrary.org/obo/CHEBI_37164",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(1->4)-alpha-D-glucopyranan"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "WQZGKKKJIJFFOK-DVKNGEFBSA-N",
+   "isObsolete": false,
+   "label": [
+    "amylose"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76924"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(1->4)-alpha-D-glucopyranan"
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "chebi_id": "CHEBI:35406",
+ "chebi_release": "255",
+ "definition": "An oxoanion is an anion derived from an oxoacid by loss of hydron(s) bound to oxygen.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25741",
+  "CHEBI:33273"
+ ],
+ "name": "oxoanion",
+ "num_descendants": 5755,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25741",
+  "CHEBI:25806",
+  "CHEBI:33273",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:37577"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:22+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "oxoanion",
+   "chebi_accession": "CHEBI:35406",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An oxoanion is an anion derived from an oxoacid by loss of hydron(s) bound to oxygen.",
+   "id": 35406,
+   "is_released": true,
+   "name": "oxoanion",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33273,
+      "final_name": "polyatomic anion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 25741,
+      "final_name": "oxide",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:33274",
+    "CHEBI:33436"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35406",
+   "definition": [
+    "An oxoanion is an anion derived from an oxoacid by loss of hydron(s) bound to oxygen."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_33273"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33273",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "oxoanion"
+   ],
+   "numDescendants": 5755.0,
+   "numHierarchicalDescendants": 5755.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

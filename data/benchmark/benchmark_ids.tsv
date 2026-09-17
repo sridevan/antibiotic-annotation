@@ -1,0 +1,39 @@
+compound	input_id	entity_kind	stratum	resolved_from_pdb_entry	note
+Apidaecin	PEPTIDE:Apidaecin	polymer_peptide	peptide_amp	5O2R	plain polymer entity (no PRD id); antimicrobial peptide track
+Avilamycin C	6UQ	ccd_nonpolymer	orthosomycin	5KCR	
+CEM-101	EM1	ccd_nonpolymer	macrolide_ketolide	4WWW	solithromycin
+Chloramphenicol	CLM	ccd_nonpolymer	phenicol	4V7T	
+Clindamycin	CLY	ccd_nonpolymer	lincosamide	4V7V	
+Dalfopristin	DOL	ccd_nonpolymer	streptogramin	4U24	
+ErmBL	PEPTIDE:ErmBL	polymer_peptide	regulatory_peptide	5JTE	nascent regulatory peptide; not an antibiotic
+Erythromycin A	ERY	ccd_nonpolymer	macrolide_ketolide	4V7U	
+Evernimycin	EVN	ccd_nonpolymer	orthosomycin	5KCS	paper benchmark lists a second CCD (6O1) for evernimicin
+Flopristin	VIF	ccd_nonpolymer	streptogramin	4U20	
+Gentamycin	LLL	ccd_nonpolymer	aminoglycoside	4V53	deposited species is a single gentamicin component
+Hygromycin B	HYG	ccd_nonpolymer	aminoglycoside	4V64	paper benchmark lists a second CCD (HY0) for hygromycin B
+Kasugamycin	KSG	ccd_nonpolymer	aminoglycoside	4V4H	
+Kirromycin	KIR	ccd_nonpolymer	elfamycin	5AFI	
+Linopristin	PRD_002101	bird_peptide_like	streptogramin	4U1V	BIRD polymer entity
+Negamycin	NEG	ccd_nonpolymer	other	4WF1	
+Neomycin	NMY	ccd_nonpolymer	aminoglycoside	4V52	deposited species is a single neomycin component
+Ornithine	ORN	ccd_nonpolymer	same_domain	6TBV	negative control; same species as ORN in Negative controls
+Paromomycin	PAR	ccd_nonpolymer	aminoglycoside	4WOI	
+Quinupristin	PRD_000505	bird_peptide_like	streptogramin	4U1U	BIRD polymer entity
+SpeFL	PEPTIDE:SpeFL	polymer_peptide	regulatory_peptide	6TBV	nascent regulatory peptide; not an antibiotic
+Spectinomycin	SCM	ccd_nonpolymer	aminoglycoside	4V56	aminocyclitol; paper groups it with aminoglycosides
+Telithromycin	TEL	ccd_nonpolymer	macrolide_ketolide	4V7S	
+Tetracycline	TAC	ccd_nonpolymer	tetracycline	5J5B	
+Tigecycline	T1C	ccd_nonpolymer	tetracycline	5J8A	
+VemP	PEPTIDE:VemP	polymer_peptide	regulatory_peptide	5NWY	nascent regulatory peptide; not an antibiotic
+Viomycin	PRD_000226	bird_peptide_like	peptide_like	4V85	BIRD polymer entity
+Virginiamycin	VIR	ccd_nonpolymer	streptogramin	4U25	deposited species is virginiamycin M1
+Omadacycline	U3B	ccd_nonpolymer	tetracycline	paper	
+Eravacycline	YQM	ccd_nonpolymer	tetracycline	paper	
+Pentacycline	P8F	ccd_nonpolymer	tetracycline	paper	
+Streptomycin	5I0	ccd_nonpolymer	aminoglycoside	paper	
+Apramycin	AM2	ccd_nonpolymer	aminoglycoside	paper	
+Capreomycin	CA7	ccd_nonpolymer	peptide_like	paper	tuberactinomycin
+Tiamulin	MUL	ccd_nonpolymer	pleuromutilin	paper	
+Retapamulin	G34	ccd_nonpolymer	pleuromutilin	paper	
+Lincomycin	3QB	ccd_nonpolymer	lincosamide	paper	
+Sodium chloride	CHEBI:26710	chebi_direct	hard_ontology	none	no single CCD (NA + CL); control exercised at the ChEBI level

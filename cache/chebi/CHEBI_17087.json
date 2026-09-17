@@ -1,0 +1,122 @@
+{
+ "chebi_id": "CHEBI:17087",
+ "chebi_release": "255",
+ "definition": "A compound in which a carbonyl group is bonded to two carbon atoms: R<small><sub>2</sub></small>C=O (neither R may be H).",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:36586"
+ ],
+ "name": "ketone",
+ "num_descendants": 9176,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:50860",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:08+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ketone",
+   "chebi_accession": "CHEBI:17087",
+   "default_structure": {
+    "smiles": "[1*]C([2*])=O",
+    "standard_inchi_key": null
+   },
+   "definition": "A compound in which a carbonyl group is bonded to two carbon atoms: R<small><sub>2</sub></small>C=O (neither R may be H).",
+   "id": 17087,
+   "is_released": true,
+   "name": "ketone",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 36586,
+      "final_name": "carbonyl compound",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:6127",
+    "CHEBI:8742",
+    "CHEBI:13427",
+    "CHEBI:13646",
+    "CHEBI:24974"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17087",
+   "definition": [
+    "A compound in which a carbonyl group is bonded to two carbon atoms: R<small><sub>2</sub></small>C=O (neither R may be H)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_36586"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "ChEBI"
+      },
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "ketones"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "ketone"
+   ],
+   "numDescendants": 9176.0,
+   "numHierarchicalDescendants": 9176.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "ketones"
+ ]
+}

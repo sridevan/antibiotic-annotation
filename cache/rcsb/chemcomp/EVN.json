@@ -1,0 +1,179 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:18+00:00",
+ "chem_comp": {
+  "formula": "C70 H97 Cl2 N O38",
+  "formula_weight": 1631.409,
+  "id": "EVN",
+  "name": "(2R,3R,4R,6S)-6-{[(2R,3aR,4R,4'R,5'S,6S,6'R,7S,7aR)-6-{[(2S,3R,4R,5S,6R)-2-{[(2R,3S,4S,5S,6S)-6-({(2R,3aS,3a'R,6S,7R,7'\nR,7aS,7a'S)-7'-[(2,4-dihydroxy-6-methylbenzoyl)oxy]-7-hydroxyoctahydro-4H-2,4'-spirobi[[1,3]dioxolo[4,5-c]pyran]-6-yl}ox\ny)-4-hydroxy-5-methoxy-2-(methoxymethyl)tetrahydro-2H-pyran-3-yl]oxy}-3-hydroxy-5-methoxy-6-methyltetrahydro-2H-pyran-4-\nyl]oxy}-4',7-dihydroxy-4,6',7a-trimethyloctahydro-4H-spiro[1,3-dioxolo[4,5-c]pyran-2,2'-pyran]-5'-yl]oxy}-4-{[(2R,4S,5R,\n6S)-5-methoxy-4,6-dimethyl-4-nitrotetrahydro-2H-pyran-2-yl]oxy}-2-methyltetrahydro-2H-pyran-3-yl 3,5-dichloro-4-hydroxy-2-methoxy-6-methylbenzoate (non-preferred name)",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "2016-06-28T00:00:00.000+00:00",
+  "pdbx_modified_date": "2020-06-17T00:00:00.000+00:00",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "EVN",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "EVN",
+   "date": "2016-06-28T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Other modification",
+   "comp_id": "EVN",
+   "date": "2016-08-02T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Initial release",
+   "comp_id": "EVN",
+   "date": "2016-08-17T00:00:00.000+00:00",
+   "ordinal": 3
+  },
+  {
+   "action_type": "Other modification",
+   "comp_id": "EVN",
+   "date": "2020-01-26T00:00:00.000+00:00",
+   "ordinal": 4
+  },
+  {
+   "action_type": "Modify synonyms",
+   "comp_id": "EVN",
+   "date": "2020-06-05T00:00:00.000+00:00",
+   "ordinal": 5
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "EVN",
+   "descriptor": "Cc1cc(O)cc(O)c1C(OC2COC4(C3C2OCO3)OC5C(O4)C(C(OC5)OC6C(OC)C(O)C(C(O6)COC)OC7C(O)C(C(C(O7)C)OC)OC8C(O)C9(C(C(O8)C)OC%10(O9)OC(C)C(C(C%10)O)OC%11OC(C)C(C(C%11)OC%12OC(C)C(C(C%12)(C)[N+]([O-])=O)OC)OC(c%13c(c(c(c(c%13C)Cl)O)Cl)OC)=O)C)O)=O",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "EVN",
+   "descriptor": "InChI=1S/C70H97Cl2NO38/c1-24-15-31(74)16-32(75)40(24)61(82)100-36-22-94-70(60-53(36)92-23-93-60)108-37-21-91-63(46(79)52(37)109-70)106-65-56(89-13)45(78)51(35(101-65)20-86-10)104-64-47(80)55(50(87-11)27(4)97-64)105-66-57(81)68(9)59(30(7)98-66)110-69(111-68)18-33(76)48(28(5)107-69)102-38-17-34(99-39-19-67(8,73(84)85)58(90-14)29(6)96-39)49(26(3)95-38)103-62(83)41-25(2)42(71)44(77)43(72)54(41)88-12/h15-16,26-30,33-39,45-53,55-60,63-66,74-81H,17-23H2,1-14H3/t26-,27-,28-,29+,30-,33-,34-,35-,36-,37+,38+,39-,45+,46-,47-,48-,49-,50+,51-,52-,53+,55-,56+,57-,58+,59-,60-,63+,64+,65+,66+,67+,68-,69-,70-/m1/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "EVN",
+   "descriptor": "UPADRKHAIMTUCC-LRNXXXSBSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  },
+  {
+   "comp_id": "EVN",
+   "descriptor": "COC[C@H]1O[C@@H](O[C@@H]2OC[C@@H]3O[C@@]4(OC[C@@H](OC(=O)c5c(C)cc(O)cc5O)[C@@H]6OCO[C@@H]46)O[C@H]3[C@H]2O)[C@@H](OC)[C@@H](O)[C@@H]1O[C@@H]7O[C@H](C)[C@H](OC)[C@H](O[C@@H]8O[C@H](C)[C@H]9O[C@]%10(C[C@@H](O)[C@H](O[C@H]%11C[C@@H](O[C@@H]%12C[C@@](C)([C@@H](OC)[C@H](C)O%12)[N+]([O-])=O)[C@H](OC(=O)c%13c(C)c(Cl)c(O)c(Cl)c%13OC)[C@@H](C)O%11)[C@@H](C)O%10)O[C@]9(C)[C@@H]8O)[C@H]7O",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "EVN",
+   "descriptor": "COC[CH]1O[CH](O[CH]2OC[CH]3O[C]4(OC[CH](OC(=O)c5c(C)cc(O)cc5O)[CH]6OCO[CH]46)O[CH]3[CH]2O)[CH](OC)[CH](O)[CH]1O[CH]7O[CH](C)[CH](OC)[CH](O[CH]8O[CH](C)[CH]9O[C]%10(C[CH](O)[CH](O[CH]%11C[CH](O[CH]%12C[C](C)([CH](OC)[CH](C)O%12)[N+]([O-])=O)[CH](OC(=O)c%13c(C)c(Cl)c(O)c(Cl)c%13OC)[CH](C)O%11)[CH](C)O%10)O[C]9(C)[CH]8O)[CH]7O",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "EVN",
+   "descriptor": "Cc1cc(cc(c1C(=O)O[C@@H]2CO[C@]3([C@H]4[C@H]2OCO4)O[C@H]5CO[C@H]([C@@H]([C@@H]5O3)O)O[C@H]6[C@H]([C@H]([C@@H]([C@H](O6)COC)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)C)OC)O[C@H]8[C@H]([C@@]9([C@@H]([C@H](O8)C)O[C@@]1(O9)C[C@H]([C@@H]([C@H](O1)C)O[C@H]1C[C@H]([C@@H]([C@H](O1)C)OC(=O)c1c(c(c(c(c1OC)Cl)O)Cl)C)O[C@@H]1C[C@]([C@H]([C@@H](O1)C)OC)(C)[N+](=O)[O-])O)C)O)O)O)OC)O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.5",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "EVN",
+   "descriptor": "Cc1cc(cc(c1C(=O)OC2COC3(C4C2OCO4)OC5COC(C(C5O3)O)OC6C(C(C(C(O6)COC)OC7C(C(C(C(O7)C)OC)OC8C(C9(C(C(O8)C)OC1(O9)CC(C(C(O1)C)OC1CC(C(C(O1)C)OC(=O)c1c(c(c(c(c1OC)Cl)O)Cl)C)OC1CC(C(C(O1)C)OC)(C)[N+](=O)[O-])O)C)O)O)O)OC)O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.5",
+   "type": "SMILES"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "EVN",
+   "identifier": "(2R,3R,4R,6S)-6-{[(2R,3aR,4R,4'R,5'S,6S,6'R,7S,7aR)-6-{[(2S,3R,4R,5S,6R)-2-{[(2R,3S,4S,5S,6S)-6-({(2R,3aS,3a'R,6S,7R,7'R,7aS,7a'S)-7'-[(2,4-dihydroxy-6-methylbenzoyl)oxy]-7-hydroxyoctahydro-4H-2,4'-spirobi[[1,3]dioxolo[4,5-c]pyran]-6-yl}oxy)-4-hydroxy-5-methoxy-2-(methoxymethyl)tetrahydro-2H-pyran-3-yl]oxy}-3-hydroxy-5-methoxy-6-methyltetrahydro-2H-pyran-4-yl]oxy}-4',7-dihydroxy-4,6',7a-trimethyloctahydro-4H-spiro[1,3-dioxolo[4,5-c]pyran-2,2'-pyran]-5'-yl]oxy}-4-{[(2R,4S,5R,6S)-5-methoxy-4,6-dimethyl-4-nitrotetrahydro-2H-pyran-2-yl]oxy}-2-methyltetrahydro-2H-pyran-3-yl 3,5-dichloro-4-hydroxy-2-methoxy-6-methylbenzoate (non-preferred name)",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "EVN",
+   "identifier": "[(2~{R},3~{R},4~{R},6~{S})-6-[(2~{R},2'~{R},3'~{S},3~{a}~{R},4~{R},4'~{R},6~{S},7~{S},7~{a}~{R})-6-[(2~{S},3~{R},4~{R},5~{S},6~{R})-2-[(2~{R},3~{S},4~{S},5~{S},6~{S})-6-[(3~{a}~{R},3'~{a}~{S},4~{R},6'~{S},7~{R},7'~{R},7~{a}~{S},7'~{a}~{S})-7-[2-methyl-4,6-bis(oxidanyl)phenyl]carbonyloxy-7'-oxidanyl-spiro[3~{a},6,7,7~{a}-tetrahydro-[1,3]dioxolo[4,5-c]pyran-4,2'-4,6,7,7~{a}-tetrahydro-3~{a}~{H}-[1,3]dioxolo[4,5-c]pyran]-6'-yl]oxy-5-methoxy-2-(methoxymethyl)-4-oxidanyl-oxan-3-yl]oxy-5-methoxy-6-methyl-3-oxidanyl-oxan-4-yl]oxy-2',4,7~{a}-trimethyl-4',7-bis(oxidanyl)spiro[3~{a},4,6,7-tetrahydro-[1,3]dioxolo[4,5-c]pyran-2,6'-oxane]-3'-yl]oxy-4-[(2~{R},4~{S},5~{R},6~{S})-5-methoxy-4,6-dimethyl-4-nitro-oxan-2-yl]oxy-2-methyl-oxan-3-yl] 3,5-bis(chloranyl)-2-methoxy-6-methyl-4-oxidanyl-benzoate",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.5",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "EVN",
+  "rcsb_id": "EVN"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C70H97Cl2NO38/c1-24-15-31(74)16-32(75)40(24)61(82)100-36-22-94-70(60-53(36)92-23-93-60)108-37-21-91-63(46(79)52(37)109-70)106-65-56(89-13)45(78)51(35(101-65)20-86-10)104-64-47(80)55(50(87-11)27(4)97-64)105-66-57(81)68(9)59(30(7)98-66)110-69(111-68)18-33(76)48(28(5)107-69)102-38-17-34(99-39-19-67(8,73(84)85)58(90-14)29(6)96-39)49(26(3)95-38)103-62(83)41-25(2)42(71)44(77)43(72)54(41)88-12/h15-16,26-30,33-39,45-53,55-60,63-66,74-81H,17-23H2,1-14H3/t26-,27-,28-,29+,30-,33-,34-,35-,36-,37+,38+,39-,45+,46-,47-,48-,49-,50+,51-,52-,53+,55-,56+,57-,58+,59-,60-,63+,64+,65+,66+,67+,68-,69-,70-/m1/s1",
+  "InChIKey": "UPADRKHAIMTUCC-LRNXXXSBSA-N",
+  "SMILES": "Cc1cc(cc(c1C(=O)OC2COC3(C4C2OCO4)OC5COC(C(C5O3)O)OC6C(C(C(C(O6)COC)OC7C(C(C(C(O7)C)OC)OC8C(C9(C(C(O8)C)OC1(O9)CC(C(C(O1)C)OC1CC(C(C(O1)C)OC(=O)c1c(c(c(c(c1OC)Cl)O)Cl)C)OC1CC(C(C(O1)C)OC)(C)[N+](=O)[O-])O)C)O)O)O)OC)O)O",
+  "SMILES_stereo": "Cc1cc(cc(c1C(=O)O[C@@H]2CO[C@]3([C@H]4[C@H]2OCO4)O[C@H]5CO[C@H]([C@@H]([C@@H]5O3)O)O[C@H]6[C@H]([C@H]([C@@H]([C@H](O6)COC)O[C@H]7[C@@H]([C@H]([C@H]([C@H](O7)C)OC)O[C@H]8[C@H]([C@@]9([C@@H]([C@H](O8)C)O[C@@]1(O9)C[C@H]([C@@H]([C@H](O1)C)O[C@H]1C[C@H]([C@@H]([C@H](O1)C)OC(=O)c1c(c(c(c(c1OC)Cl)O)Cl)C)O[C@@H]1C[C@]([C@H]([C@@H](O1)C)OC)(C)[N+](=O)[O-])O)C)O)O)O)OC)O)O",
+  "comp_id": "EVN"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 208,
+  "atom_count_chiral": 35,
+  "atom_count_heavy": 111,
+  "bond_count": 220,
+  "bond_count_aromatic": 12,
+  "comp_id": "EVN",
+  "initial_deposition_date": "2016-06-28T00:00:00.000+00:00",
+  "initial_release_date": "2016-08-17T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2020-06-05T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "EVN",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "137349286",
+   "resource_name": "PubChem"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "EVN",
+   "name": "(2R,3R,4R,6S)-6-{[(2R,3aR,4R,4'R,5'S,6S,6'R,7S,7aR)-6-{[(2S,3R,4R,5S,6R)-2-{[(2R,3S,4S,5S,6S)-6-({(2R,3aS,3a'R,6S,7R,7'\nR,7aS,7a'S)-7'-[(2,4-dihydroxy-6-methylbenzoyl)oxy]-7-hydroxyoctahydro-4H-2,4'-spirobi[[1,3]dioxolo[4,5-c]pyran]-6-yl}ox\ny)-4-hydroxy-5-methoxy-2-(methoxymethyl)tetrahydro-2H-pyran-3-yl]oxy}-3-hydroxy-5-methoxy-6-methyltetrahydro-2H-pyran-4-\nyl]oxy}-4',7-dihydroxy-4,6',7a-trimethyloctahydro-4H-spiro[1,3-dioxolo[4,5-c]pyran-2,2'-pyran]-5'-yl]oxy}-4-{[(2R,4S,5R,\n6S)-5-methoxy-4,6-dimethyl-4-nitrotetrahydro-2H-pyran-2-yl]oxy}-2-methyltetrahydro-2H-pyran-3-yl 3,5-dichloro-4-hydroxy-2-methoxy-6-methylbenzoate (non-preferred name)",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "EVN",
+   "name": "Evernimicin",
+   "ordinal": 2,
+   "provenance_source": "PDB Reference Data",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "EVN",
+   "name": "(2R,3R,4R,6S)-6-{[(2R,3aR,4R,4'R,5'S,6S,6'R,7S,7aR)-6-{[(2S,3R,4R,5S,6R)-2-{[(2R,3S,4S,5S,6S)-6-({(2R,3aS,3a'R,6S,7R,7'R,7aS,7a'S)-7'-[(2,4-dihydroxy-6-methylbenzoyl)oxy]-7-hydroxyoctahydro-4H-2,4'-spirobi[[1,3]dioxolo[4,5-c]pyran]-6-yl}oxy)-4-hydroxy-5-methoxy-2-(methoxymethyl)tetrahydro-2H-pyran-3-yl]oxy}-3-hydroxy-5-methoxy-6-methyltetrahydro-2H-pyran-4-yl]oxy}-4',7-dihydroxy-4,6',7a-trimethyloctahydro-4H-spiro[1,3-dioxolo[4,5-c]pyran-2,2'-pyran]-5'-yl]oxy}-4-{[(2R,4S,5R,6S)-5-methoxy-4,6-dimethyl-4-nitrotetrahydro-2H-pyran-2-yl]oxy}-2-methyltetrahydro-2H-pyran-3-yl 3,5-dichloro-4-hydroxy-2-methoxy-6-methylbenzoate (non-preferred name)",
+   "ordinal": 3,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "EVN",
+   "name": "[(2~{R},3~{R},4~{R},6~{S})-6-[(2~{R},2'~{R},3'~{S},3~{a}~{R},4~{R},4'~{R},6~{S},7~{S},7~{a}~{R})-6-[(2~{S},3~{R},4~{R},5~{S},6~{R})-2-[(2~{R},3~{S},4~{S},5~{S},6~{S})-6-[(3~{a}~{R},3'~{a}~{S},4~{R},6'~{S},7~{R},7'~{R},7~{a}~{S},7'~{a}~{S})-7-[2-methyl-4,6-bis(oxidanyl)phenyl]carbonyloxy-7'-oxidanyl-spiro[3~{a},6,7,7~{a}-tetrahydro-[1,3]dioxolo[4,5-c]pyran-4,2'-4,6,7,7~{a}-tetrahydro-3~{a}~{H}-[1,3]dioxolo[4,5-c]pyran]-6'-yl]oxy-5-methoxy-2-(methoxymethyl)-4-oxidanyl-oxan-3-yl]oxy-5-methoxy-6-methyl-3-oxidanyl-oxan-4-yl]oxy-2',4,7~{a}-trimethyl-4',7-bis(oxidanyl)spiro[3~{a},4,6,7-tetrahydro-[1,3]dioxolo[4,5-c]pyran-2,6'-oxane]-3'-yl]oxy-4-[(2~{R},4~{S},5~{R},6~{S})-5-methoxy-4,6-dimethyl-4-nitro-oxan-2-yl]oxy-2-methyl-oxan-3-yl] 3,5-bis(chloranyl)-2-methoxy-6-methyl-4-oxidanyl-benzoate",
+   "ordinal": 4,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  }
+ ],
+ "rcsb_id": "EVN"
+}

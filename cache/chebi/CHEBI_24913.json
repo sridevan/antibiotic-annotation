@@ -1,0 +1,102 @@
+{
+ "chebi_id": "CHEBI:24913",
+ "chebi_release": "255",
+ "definition": "Any lipid formally derived from isoprene (2-methylbuta-1,3-diene), the skeleton of which can generally be discerned in repeated occurrence in the molecule. The skeleton of isoprenoids may differ from strict additivity of isoprene units by loss or shift of a fragment, commonly a methyl group. The class includes both hydrocarbons and oxygenated derivatives.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:18059",
+  "CHEBI:50860"
+ ],
+ "name": "isoprenoid",
+ "num_descendants": 11852,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:18059",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:52+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "isoprenoid",
+   "chebi_accession": "CHEBI:24913",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any lipid formally derived from isoprene (2-methylbuta-1,3-diene), the skeleton of which can generally be discerned in repeated occurrence in the molecule. The skeleton of isoprenoids may differ from strict additivity of isoprene units by loss or shift of a fragment, commonly a methyl group. The class includes both hydrocarbons and oxygenated derivatives.",
+   "id": 24913,
+   "is_released": true,
+   "name": "isoprenoid",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 18059,
+      "final_name": "lipid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 50860,
+      "final_name": "organic molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:24913",
+   "definition": [
+    "Any lipid formally derived from isoprene (2-methylbuta-1,3-diene), the skeleton of which can generally be discerned in repeated occurrence in the molecule. The skeleton of isoprenoids may differ from strict additivity of isoprene units by loss or shift of a fragment, commonly a methyl group. The class includes both hydrocarbons and oxygenated derivatives."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_18059",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_18059",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "isoprenoids"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "isoprenoid"
+   ],
+   "numDescendants": 11852.0,
+   "numHierarchicalDescendants": 11852.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "isoprenoids"
+ ]
+}

@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "input_id": "VIF",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "Flopristin",
+    "ccd_type": "non-polymer",
+    "formula": "C28 H38 F N3 O6",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C28H38FN3O6/c1-17(2)26-19(4)9-10-24(34)30-11-5-7-18(3)13-21(33)14-20(29)15-25-31-22(16-37-25)27(35)32-12-6-8-23(32)28(36)38-26/h5,7,9-10,13,16-17,19-21,23,26,33H,6,8,11-12,14-15H2,1-4H3,(H,30,34)/b7-5+,10-9+,18-13+/t19-,20-,21-,23-,26-/m1/s1",
+    "inchikey": "DFSJQGCLWZVMOD-IQIMCDJDSA-N",
+    "smiles": "C[C@@H]1/C=C/C(=O)NC/C=C/C(=C/[C@H](C[C@H](Cc2nc(co2)C(=O)N3CCC[C@@H]3C(=O)O[C@@H]1C(C)C)F)O)/C",
+    "synonyms": [
+      "Flopristin",
+      "(3R,4R,5E,10E,12E,14S,16R,26aR)-16-fluoro-14-hydroxy-4,12-dimethyl-3-(propan-2-yl)-3,4,8,9,14,15,16,17,24,25,26,26a-dodecahydro-1H,7H,22H-21,18-(azeno)pyrrolo[2,1-c][1,8,4,19]dioxadiazacyclotetracosine-1,7,22-trione"
+    ],
+    "xrefs": {
+      "PubChem": [
+        "9914993"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:23+00:00",
+    "inchikey_connectivity": "DFSJQGCLWZVMOD"
+  },
+  "mapping": {
+    "status": "unresolved_no_chebi",
+    "method": "unresolved",
+    "source_id": "DFSJQGCLWZVMOD-IQIMCDJDSA-N",
+    "primary_chebi_id": null,
+    "equivalent_chebi_ids": [],
+    "evidence_unioned": false,
+    "candidates": [],
+    "notes": [
+      "no ChEBI entry found by exact InChIKey or connectivity search"
+    ],
+    "resolved": false
+  },
+  "primary_name": null,
+  "equivalent_names": {},
+  "family": {
+    "member_of": [],
+    "forms": []
+  }
+}

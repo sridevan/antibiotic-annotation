@@ -1,0 +1,126 @@
+{
+ "chebi_id": "CHEBI:35275",
+ "chebi_release": "255",
+ "definition": "A glycosyl compound arising formally from the elimination of water from a glycosidic hydroxy group and a S atom bound to a carbon atom, thus creating a C-S bond.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:59793",
+  "CHEBI:63161",
+  "CHEBI:63299",
+  "CHEBI:73754"
+ ],
+ "name": "S-glycosyl compound",
+ "num_descendants": 103,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:26835",
+  "CHEBI:33261",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:50860",
+  "CHEBI:59792",
+  "CHEBI:59793",
+  "CHEBI:63161",
+  "CHEBI:63299",
+  "CHEBI:73754",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:59+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "S-glycosyl compound",
+   "chebi_accession": "CHEBI:35275",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A glycosyl compound arising formally from the elimination of water from a glycosidic hydroxy group and a S atom bound to a carbon atom, thus creating a C-S bond.",
+   "id": 35275,
+   "is_released": true,
+   "name": "<em>S</em>-glycosyl compound",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 63299,
+      "final_name": "carbohydrate derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 59793,
+      "final_name": "monothioacetal",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 63161,
+      "final_name": "glycosyl compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 73754,
+      "final_name": "thiosugar",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:22048",
+    "CHEBI:33577"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35275",
+   "definition": [
+    "A glycosyl compound arising formally from the elimination of water from a glycosidic hydroxy group and a S atom bound to a carbon atom, thus creating a C-S bond."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_59793",
+    "http://purl.obolibrary.org/obo/CHEBI_63161",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_73754"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26835",
+    "http://purl.obolibrary.org/obo/CHEBI_33261",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_59792",
+    "http://purl.obolibrary.org/obo/CHEBI_59793",
+    "http://purl.obolibrary.org/obo/CHEBI_63161",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_73754",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "isObsolete": false,
+   "label": [
+    "S-glycosyl compound"
+   ],
+   "numDescendants": 103.0,
+   "numHierarchicalDescendants": 103.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

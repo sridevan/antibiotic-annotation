@@ -1,0 +1,116 @@
+{
+ "chebi_id": "CHEBI:33822",
+ "chebi_release": "255",
+ "definition": "An organic compound having at least one hydroxy group attached to a carbon atom.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24651",
+  "CHEBI:50860"
+ ],
+ "name": "organic hydroxy compound",
+ "num_descendants": 16936,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:51+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "organic hydroxy compound",
+   "chebi_accession": "CHEBI:33822",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An organic compound having at least one hydroxy group attached to a carbon atom.",
+   "id": 33822,
+   "is_released": true,
+   "name": "organic hydroxy compound",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24651,
+      "final_name": "hydroxides",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 50860,
+      "final_name": "organic molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:64710"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33822",
+   "definition": [
+    "An organic compound having at least one hydroxy group attached to a carbon atom."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydroxy compounds"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "organic hydroxy compound"
+   ],
+   "numDescendants": 16936.0,
+   "numHierarchicalDescendants": 16936.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "hydroxy compounds"
+ ]
+}

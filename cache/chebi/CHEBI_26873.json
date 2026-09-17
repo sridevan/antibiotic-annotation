@@ -1,0 +1,125 @@
+{
+ "chebi_id": "CHEBI:26873",
+ "chebi_release": "255",
+ "definition": "Any isoprenoid that is a natural product or related compound formally derived from isoprene units. Terpenoids may contain oxygen in various functional groups. This class is subdivided according to the number of carbon atoms in the parent terpene. The skeleton of terpenoids may differ from strict additivity of isoprene units by the loss or shift of a fragment, generally a methyl group.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:64419",
+   "target_name": "meroterpenoid"
+  }
+ ],
+ "is_a": [
+  "CHEBI:24913"
+ ],
+ "name": "terpenoid",
+ "num_descendants": 11198,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:18059",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24913",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:50860"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018040",
+   "target_id": "CHEBI:35186",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:52+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "terpenoid",
+   "chebi_accession": "CHEBI:26873",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any isoprenoid that is a natural product or related compound formally derived from isoprene units. Terpenoids may contain oxygen in various functional groups. This class is subdivided according to the number of carbon atoms in the parent terpene. The skeleton of terpenoids may differ from strict additivity of isoprene units by the loss or shift of a fragment, generally a methyl group.",
+   "id": 26873,
+   "is_released": true,
+   "name": "terpenoid",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 64419,
+      "init_name": "meroterpenoid",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 35186,
+      "final_name": "terpene",
+      "relation_type": "has parent hydride"
+     },
+     {
+      "final_id": 24913,
+      "final_name": "isoprenoid",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:26873",
+   "definition": [
+    "Any isoprenoid that is a natural product or related compound formally derived from isoprene units. Terpenoids may contain oxygen in various functional groups. This class is subdivided according to the number of carbon atoms in the parent terpene. The skeleton of terpenoids may differ from strict additivity of isoprene units by the loss or shift of a fragment, generally a methyl group."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24913"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_18059",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24913",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "terpenoids"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "terpenoid"
+   ],
+   "numDescendants": 11198.0,
+   "numHierarchicalDescendants": 11198.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018040",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35186"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "terpenoids"
+ ]
+}

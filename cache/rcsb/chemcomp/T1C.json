@@ -1,0 +1,151 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:32+00:00",
+ "chem_comp": {
+  "formula": "C29 H41 N5 O8",
+  "formula_weight": 587.665,
+  "id": "T1C",
+  "name": "TIGECYCLINE",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 2,
+  "pdbx_initial_date": "2011-11-07T00:00:00.000+00:00",
+  "pdbx_modified_date": "2014-09-05T00:00:00.000+00:00",
+  "pdbx_processing_site": "EBI",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "T1C",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "T1C",
+   "date": "2011-11-07T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Initial release",
+   "comp_id": "T1C",
+   "date": "2012-11-16T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "T1C",
+   "date": "2014-09-05T00:00:00.000+00:00",
+   "ordinal": 3
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "T1C",
+   "descriptor": "O=C2C1=C(O)C4(O)C(=O)C(=C(O)C(C4CC1Cc3c2c(O)c(NC(=O)CNC(C)(C)C)cc3[NH+](C)C)[NH+](C)C)C(=O)N",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "T1C",
+   "descriptor": "InChI=1S/C29H39N5O8/c1-28(2,3)31-11-17(35)32-15-10-16(33(4)5)13-8-12-9-14-21(34(6)7)24(38)20(27(30)41)26(40)29(14,42)25(39)18(12)23(37)19(13)22(15)36/h10,12,14,21,31,36,38-39,42H,8-9,11H2,1-7H3,(H2,30,41)(H,32,35)/p+2/t12-,14-,21-,29-/m0/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "T1C",
+   "descriptor": "FPZLLRFZJZRHSY-HJYUBDRYSA-P",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  },
+  {
+   "comp_id": "T1C",
+   "descriptor": "C[NH+](C)[C@H]1[C@@H]2C[C@@H]3Cc4c(cc(NC(=O)CNC(C)(C)C)c(O)c4C(=O)C3=C(O)[C@]2(O)C(=O)C(=C1O)C(N)=O)[NH+](C)C",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "T1C",
+   "descriptor": "C[NH+](C)[CH]1[CH]2C[CH]3Cc4c(cc(NC(=O)CNC(C)(C)C)c(O)c4C(=O)C3=C(O)[C]2(O)C(=O)C(=C1O)C(N)=O)[NH+](C)C",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "T1C",
+   "descriptor": "CC(C)(C)NCC(=O)Nc1cc(c2c(c1O)C(=O)C3=C([C@]4([C@@H](C[C@@H]3C2)[C@@H](C(=C(C4=O)C(=O)N)O)[NH+](C)C)O)O)[NH+](C)C",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.9.2",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "T1C",
+   "descriptor": "CC(C)(C)NCC(=O)Nc1cc(c2c(c1O)C(=O)C3=C(C4(C(CC3C2)C(C(=C(C4=O)C(=O)N)O)[NH+](C)C)O)O)[NH+](C)C",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.9.2",
+   "type": "SMILES"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "T1C",
+   "identifier": "(1S,4aS,11aR,12aS)-8-[(N-tert-butylglycyl)amino]-3-carbamoyl-2,4a,5,7-tetrahydroxy-N,N,N',N'-tetramethyl-4,6-dioxo-1,4,4a,6,11,11a,12,12a-octahydrotetracene-1,10-diaminium",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "T1C",
+   "identifier": "[(1S,4aS,11aR,12aS)-3-aminocarbonyl-8-[2-(tert-butylamino)ethanoylamino]-10-(dimethylazaniumyl)-2,4a,5,7-tetrakis(oxidanyl)-4,6-bis(oxidanylidene)-11,11a,12,12a-tetrahydro-1H-tetracen-1-yl]-dimethyl-azanium",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.9.2",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "T1C",
+  "rcsb_id": "T1C"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C29H39N5O8/c1-28(2,3)31-11-17(35)32-15-10-16(33(4)5)13-8-12-9-14-21(34(6)7)24(38)20(27(30)41)26(40)29(14,42)25(39)18(12)23(37)19(13)22(15)36/h10,12,14,21,31,36,38-39,42H,8-9,11H2,1-7H3,(H2,30,41)(H,32,35)/p+2/t12-,14-,21-,29-/m0/s1",
+  "InChIKey": "FPZLLRFZJZRHSY-HJYUBDRYSA-P",
+  "SMILES": "CC(C)(C)NCC(=O)Nc1cc(c2c(c1O)C(=O)C3=C(C4(C(CC3C2)C(C(=C(C4=O)C(=O)N)O)[NH+](C)C)O)O)[NH+](C)C",
+  "SMILES_stereo": "CC(C)(C)NCC(=O)Nc1cc(c2c(c1O)C(=O)C3=C([C@]4([C@@H](C[C@@H]3C2)[C@@H](C(=C(C4=O)C(=O)N)O)[NH+](C)C)O)O)[NH+](C)C",
+  "comp_id": "T1C"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 83,
+  "atom_count_chiral": 4,
+  "atom_count_heavy": 42,
+  "bond_count": 86,
+  "bond_count_aromatic": 6,
+  "comp_id": "T1C",
+  "initial_deposition_date": "2011-11-07T00:00:00.000+00:00",
+  "initial_release_date": "2012-11-16T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2014-09-05T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "T1C",
+   "name": "TIGECYCLINE",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "T1C",
+   "name": "(1S,4aS,11aR,12aS)-8-[(N-tert-butylglycyl)amino]-3-carbamoyl-2,4a,5,7-tetrahydroxy-N,N,N',N'-tetramethyl-4,6-dioxo-1,4,4a,6,11,11a,12,12a-octahydrotetracene-1,10-diaminium",
+   "ordinal": 2,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "T1C",
+   "name": "[(1S,4aS,11aR,12aS)-3-aminocarbonyl-8-[2-(tert-butylamino)ethanoylamino]-10-(dimethylazaniumyl)-2,4a,5,7-tetrakis(oxidanyl)-4,6-bis(oxidanylidene)-11,11a,12,12a-tetrahydro-1H-tetracen-1-yl]-dimethyl-azanium",
+   "ordinal": 3,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  }
+ ],
+ "rcsb_id": "T1C"
+}

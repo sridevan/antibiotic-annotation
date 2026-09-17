@@ -1,0 +1,134 @@
+{
+ "chebi_id": "CHEBI:57971",
+ "chebi_release": "255",
+ "definition": "An ammonium ion that is the trication of hygromycin B arising from protonation of the three amino groups; major species at pH 7.3.",
+ "inchikey": "GRRNUXAQVGOGFE-NZSRVPFOSA-Q",
+ "incoming": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:16976",
+   "target_name": "hygromycin B"
+  }
+ ],
+ "is_a": [
+  "CHEBI:35274"
+ ],
+ "name": "hygromycin B(3+)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:33702",
+  "CHEBI:35274",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36916",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:16976",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:26+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "hygromycin B(3+)",
+   "chebi_accession": "CHEBI:57971",
+   "default_structure": {
+    "smiles": "C[NH2+][C@H]1C[C@@H]([NH3+])[C@H](O)[C@@H](O[C@@H]2O[C@H](CO)[C@H](O)[C@@H]3O[C@]4(O[C@H]23)O[C@H](C([NH3+])CO)[C@H](O)[C@H](O)[C@H]4O)[C@@H]1O",
+    "standard_inchi_key": "GRRNUXAQVGOGFE-NZSRVPFOSA-Q"
+   },
+   "definition": "An ammonium ion that is the trication of hygromycin B arising from protonation of the three amino groups; major species at pH 7.3.",
+   "id": 57971,
+   "is_released": true,
+   "name": "hygromycin B(3+)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 16976,
+      "init_name": "hygromycin B",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 35274,
+      "final_name": "ammonium ion derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 16976,
+      "final_name": "hygromycin B",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:57971",
+   "definition": [
+    "An ammonium ion that is the trication of hygromycin B arising from protonation of the three amino groups; major species at pH 7.3."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35274"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33702",
+    "http://purl.obolibrary.org/obo/CHEBI_35274",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(1R,2S,3R,5S,6R)-3-azaniumyl-2,6-dihydroxy-5-(methylazaniumyl)cyclohexyl O-6-azaniumyl-6-deoxy-L-glycero-D-galacto-heptopyranosylidene-(1->2-3)-beta-D-talopyranoside"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "GRRNUXAQVGOGFE-NZSRVPFOSA-Q",
+   "isObsolete": false,
+   "label": [
+    "hygromycin B(3+)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16976"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(1R,2S,3R,5S,6R)-3-azaniumyl-2,6-dihydroxy-5-(methylazaniumyl)cyclohexyl O-6-azaniumyl-6-deoxy-L-glycero-D-galacto-heptopyranosylidene-(1->2-3)-beta-D-talopyranoside"
+ ]
+}

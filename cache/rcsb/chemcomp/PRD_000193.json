@@ -1,0 +1,362 @@
+{
+ "_retrieved_at": "2026-09-17T11:48:11+00:00",
+ "chem_comp": {
+  "formula": "C25 H44 N14 O8",
+  "formula_weight": 668.706,
+  "id": "PRD_000193",
+  "name": "Capreomycin IA",
+  "pdbx_release_status": "REF_ONLY",
+  "type": "peptide-like"
+ },
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "PRD_000193",
+   "descriptor": "O=C1NC(C(=O)NC(C(=O)NC(\\C(=O)NC(C(=O)NCC1N)C2N=C(N)NCC2)=C/NC(=O)N)CNC(=O)CC(N)CCCN)CO",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "descriptor": "InChI=1S/C25H44N14O8/c26-4-1-2-11(27)6-17(41)32-8-14-20(43)35-15(9-34-25(30)47)21(44)39-18(13-3-5-31-24(29)38-13)23(46)33-7-12(28)19(42)37-16(10-40)22(45)36-14/h9,11-14,16,18,40H,1-8,10,26-28H2,(H,32,41)(H,33,46)(H,35,43)(H,36,45)(H,37,42)(H,39,44)(H3,29,31,38)(H3,30,34,47)",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "descriptor": "JNIIDKODPGHQSS-UHFFFAOYSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "descriptor": "NCCC[C@H](N)CC(=O)NC[C@@H]1NC(=O)[C@H](CO)NC(=O)[C@@H](N)CNC(=O)[C@@H](NC(=O)\\C(NC1=O)=C\\NC(N)=O)[C@H]2CCNC(=N2)N",
+   "program": "CACTVS",
+   "program_version": "3.370",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "descriptor": "NCCC[CH](N)CC(=O)NC[CH]1NC(=O)[CH](CO)NC(=O)[CH](N)CNC(=O)[CH](NC(=O)C(NC1=O)=CNC(N)=O)[CH]2CCNC(=N2)N",
+   "program": "CACTVS",
+   "program_version": "3.370",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "descriptor": "C1CNC(=N[C@H]1[C@H]2C(=O)NC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N/C(=C\\NC(=O)N)/C(=O)N2)CNC(=O)C[C@H](CCCN)N)CO)N)N",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.6",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "descriptor": "C1CNC(=NC1C2C(=O)NCC(C(=O)NC(C(=O)NC(C(=O)NC(=CNC(=O)N)C(=O)N2)CNC(=O)CC(CCCN)N)CO)N)N",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.6",
+   "type": "SMILES"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "PRD_000193",
+   "identifier": "(3S)-3,6-diamino-N-{[(2S,5R,8Z,11S,15R)-15-amino-11-[(4R)-2-amino-1,4,5,6-tetrahydropyrimidin-4-yl]-8-[(carbamoylamino)methylidene]-2-(hydroxymethyl)-3,6,9,12,16-pentaoxo-1,4,7,10,13-pentaazacyclohexadecan-5-yl]methyl}hexanamide",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "identifier": "(3S)-N-[[(2S,5S,8Z,11S,15S)-8-[(aminocarbonylamino)methylidene]-15-azanyl-11-[(4R)-2-azanyl-1,4,5,6-tetrahydropyrimidin-4-yl]-2-(hydroxymethyl)-3,6,9,12,16-pentakis(oxidanylidene)-1,4,7,10,13-pentazacyclohexadec-5-yl]methyl]-3,6-bis(azanyl)hexanamide",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.6",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "pdbx_prd_audit": [
+  {
+   "action_type": "Create molecule",
+   "date": "2012-02-08T00:00:00.000+00:00",
+   "prd_id": "PRD_000193",
+   "processing_site": "RCSB"
+  },
+  {
+   "action_type": "Other modification",
+   "date": "2012-07-09T00:00:00.000+00:00",
+   "prd_id": "PRD_000193",
+   "processing_site": "PDBE"
+  },
+  {
+   "action_type": "Initial release",
+   "date": "2012-12-12T00:00:00.000+00:00",
+   "prd_id": "PRD_000193",
+   "processing_site": "RCSB"
+  },
+  {
+   "action_type": "Other modification",
+   "date": "2013-06-03T00:00:00.000+00:00",
+   "prd_id": "PRD_000193",
+   "processing_site": "RCSB"
+  },
+  {
+   "action_type": "Modify audit",
+   "date": "2023-09-20T00:00:00.000+00:00",
+   "prd_id": "PRD_000193",
+   "processing_site": "PDBE"
+  }
+ ],
+ "pdbx_reference_entity_list": [
+  {
+   "component_id": 1,
+   "details": "Capreomycin",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "type": "polymer"
+  }
+ ],
+ "pdbx_reference_entity_poly": [
+  {
+   "db_code": "NOR00638",
+   "db_name": "NOR",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "type": "peptide-like"
+  }
+ ],
+ "pdbx_reference_entity_poly_link": [
+  {
+   "atom_id_1": "C",
+   "atom_id_2": "NG",
+   "comp_id_1": "KBE",
+   "comp_id_2": "DPP",
+   "component_id": 1,
+   "entity_seq_num_1": 1,
+   "entity_seq_num_2": 2,
+   "link_id": 1,
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "value_order": "sing"
+  },
+  {
+   "atom_id_1": "C",
+   "atom_id_2": "N",
+   "comp_id_1": "DPP",
+   "comp_id_2": "UAL",
+   "component_id": 1,
+   "entity_seq_num_1": 2,
+   "entity_seq_num_2": 3,
+   "link_id": 2,
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "value_order": "sing"
+  },
+  {
+   "atom_id_1": "N",
+   "atom_id_2": "C",
+   "comp_id_1": "DPP",
+   "comp_id_2": "SER",
+   "component_id": 1,
+   "entity_seq_num_1": 2,
+   "entity_seq_num_2": 6,
+   "link_id": 3,
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "value_order": "sing"
+  },
+  {
+   "atom_id_1": "C",
+   "atom_id_2": "N",
+   "comp_id_1": "UAL",
+   "comp_id_2": "MYN",
+   "component_id": 1,
+   "entity_seq_num_1": 3,
+   "entity_seq_num_2": 4,
+   "link_id": 4,
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "value_order": "sing"
+  },
+  {
+   "atom_id_1": "C",
+   "atom_id_2": "NG",
+   "comp_id_1": "MYN",
+   "comp_id_2": "DPP",
+   "component_id": 1,
+   "entity_seq_num_1": 4,
+   "entity_seq_num_2": 5,
+   "link_id": 5,
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "value_order": "sing"
+  },
+  {
+   "atom_id_1": "C",
+   "atom_id_2": "N",
+   "comp_id_1": "DPP",
+   "comp_id_2": "SER",
+   "component_id": 1,
+   "entity_seq_num_1": 5,
+   "entity_seq_num_2": 6,
+   "link_id": 6,
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "value_order": "sing"
+  }
+ ],
+ "pdbx_reference_entity_poly_seq": [
+  {
+   "hetero": "N",
+   "mon_id": "KBE",
+   "num": 1,
+   "observed": "Y",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1"
+  },
+  {
+   "hetero": "N",
+   "mon_id": "DPP",
+   "num": 2,
+   "observed": "Y",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1"
+  },
+  {
+   "hetero": "N",
+   "mon_id": "UAL",
+   "num": 3,
+   "observed": "Y",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1"
+  },
+  {
+   "hetero": "N",
+   "mon_id": "MYN",
+   "num": 4,
+   "observed": "Y",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1"
+  },
+  {
+   "hetero": "N",
+   "mon_id": "DPP",
+   "num": 5,
+   "observed": "Y",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1"
+  },
+  {
+   "hetero": "N",
+   "mon_id": "SER",
+   "num": 6,
+   "observed": "Y",
+   "parent_mon_id": "SER",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1"
+  }
+ ],
+ "pdbx_reference_entity_sequence": [
+  {
+   "NRP_flag": "Y",
+   "one_letter_codes": "XXXXXS",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "type": "peptide-like"
+  }
+ ],
+ "pdbx_reference_entity_src_nat": [
+  {
+   "db_code": "NOR00638",
+   "db_name": "Norine",
+   "ordinal": 1,
+   "organism_scientific": "streptomyces puniceus",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "taxid": "67351"
+  },
+  {
+   "ordinal": 2,
+   "organism_scientific": "Streptomyces capreolus",
+   "prd_id": "PRD_000193",
+   "ref_entity_id": "1",
+   "source": "PubChem",
+   "taxid": "66854"
+  }
+ ],
+ "pdbx_reference_molecule": {
+  "class": "Inhibitor",
+  "formula": "C25 H44 N14 O8",
+  "formula_weight": 668.706,
+  "name": "Capreomycin IA",
+  "prd_id": "PRD_000193",
+  "release_status": "REL",
+  "represent_as": "polymer",
+  "representative_PDB_id_code": "3knl",
+  "type": "Cyclic peptide"
+ },
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "PRD_000193",
+  "prd_id": "PRD_000193",
+  "rcsb_id": "PRD_000193"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C25H44N14O8/c26-4-1-2-11(27)6-17(41)32-8-14-20(43)35-15(9-34-25(30)47)21(44)39-18(13-3-5-31-24(29)38-13)23(46)33-7-12(28)19(42)37-16(10-40)22(45)36-14/h9,11-14,16,18,40H,1-8,10,26-28H2,(H,32,41)(H,33,46)(H,35,43)(H,36,45)(H,37,42)(H,39,44)(H3,29,31,38)(H3,30,34,47)",
+  "InChIKey": "JNIIDKODPGHQSS-UHFFFAOYSA-N",
+  "SMILES": "C1CNC(=NC1C2C(=O)NCC(C(=O)NC(C(=O)NC(C(=O)NC(=CNC(=O)N)C(=O)N2)CNC(=O)CC(CCCN)N)CO)N)N",
+  "SMILES_stereo": "C1CNC(=N[C@H]1[C@H]2C(=O)NC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N/C(=C\\NC(=O)N)/C(=O)N2)CNC(=O)C[C@H](CCCN)N)CO)N)N",
+  "comp_id": "PRD_000193"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 91,
+  "atom_count_chiral": 6,
+  "atom_count_heavy": 47,
+  "bond_count": 92,
+  "bond_count_aromatic": 0,
+  "comp_id": "PRD_000193",
+  "initial_deposition_date": "2012-02-08T00:00:00.000+00:00",
+  "initial_release_date": "2012-12-12T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2023-09-20T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "PRD_000193",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "135564597",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "ordinal": 2,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "3032940",
+   "resource_name": "PubChem"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "PRD_000193",
+   "name": "Capreomycin IA",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "name": "(3S)-3,6-diamino-N-{[(2S,5R,8Z,11S,15R)-15-amino-11-[(4R)-2-amino-1,4,5,6-tetrahydropyrimidin-4-yl]-8-[(carbamoylamino)methylidene]-2-(hydroxymethyl)-3,6,9,12,16-pentaoxo-1,4,7,10,13-pentaazacyclohexadecan-5-yl]methyl}hexanamide",
+   "ordinal": 2,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "PRD_000193",
+   "name": "(3S)-N-[[(2S,5S,8Z,11S,15S)-8-[(aminocarbonylamino)methylidene]-15-azanyl-11-[(4R)-2-azanyl-1,4,5,6-tetrahydropyrimidin-4-yl]-2-(hydroxymethyl)-3,6,9,12,16-pentakis(oxidanylidene)-1,4,7,10,13-pentazacyclohexadec-5-yl]methyl]-3,6-bis(azanyl)hexanamide",
+   "ordinal": 3,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  }
+ ],
+ "rcsb_id": "PRD_000193"
+}

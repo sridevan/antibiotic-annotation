@@ -1,0 +1,105 @@
+{
+ "chebi_id": "CHEBI:38958",
+ "chebi_release": "255",
+ "definition": "An alkaloid containing an indole skeleton.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:22315"
+ ],
+ "name": "indole alkaloid",
+ "num_descendants": 571,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22315",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:50860",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:73398",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:40+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "indole alkaloid",
+   "chebi_accession": "CHEBI:38958",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An alkaloid containing an indole skeleton.",
+   "id": 38958,
+   "is_released": true,
+   "name": "indole alkaloid",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 73398,
+      "final_name": "indole skeleton",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 22315,
+      "final_name": "alkaloid",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5901",
+    "CHEBI:24795"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:38958",
+   "definition": [
+    "An alkaloid containing an indole skeleton."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_22315"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22315",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "isObsolete": false,
+   "label": [
+    "indole alkaloid"
+   ],
+   "numDescendants": 571.0,
+   "numHierarchicalDescendants": 571.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_73398"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

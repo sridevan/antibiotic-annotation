@@ -1,0 +1,95 @@
+{
+ "chebi_id": "CHEBI:24837",
+ "chebi_release": "255",
+ "definition": "Compounds of structure ROOR' in which R and R' are inorganic groups.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24836",
+  "CHEBI:25940"
+ ],
+ "name": "inorganic peroxide",
+ "num_descendants": 3,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:24836",
+  "CHEBI:25741",
+  "CHEBI:25806",
+  "CHEBI:25940",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:37577"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:45+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "inorganic peroxide",
+   "chebi_accession": "CHEBI:24837",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Compounds of structure ROOR' in which R and R' are inorganic groups.",
+   "id": 24837,
+   "is_released": true,
+   "name": "inorganic peroxide",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24836,
+      "final_name": "inorganic oxide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 25940,
+      "final_name": "peroxides",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:24837",
+   "definition": [
+    "Compounds of structure ROOR' in which R and R' are inorganic groups."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24836",
+    "http://purl.obolibrary.org/obo/CHEBI_25940"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24836",
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_25940",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "inorganic peroxide"
+   ],
+   "numDescendants": 3.0,
+   "numHierarchicalDescendants": 3.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

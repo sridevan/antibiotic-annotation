@@ -1,0 +1,359 @@
+{
+ "chebi_id": "CHEBI:8614",
+ "chebi_release": "255",
+ "definition": "A tryptamine alkaloid that is <em>N</em>,<em>N</em>-dimethyltryptamine carrying an additional phosphoryloxy substituent at position 4. The major hallucinogenic alkaloid isolated from <em>Psilocybe</em> mushrooms (also known as Teonanácatl or \"magic mushrooms\").",
+ "inchikey": "QVDSEJDULKLHCG-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:139072",
+   "target_name": "psilocybin(1−)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:25703",
+  "CHEBI:48274",
+  "CHEBI:50996"
+ ],
+ "name": "psilocybin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22315",
+  "CHEBI:22728",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:24828",
+  "CHEBI:25367",
+  "CHEBI:25703",
+  "CHEBI:25710",
+  "CHEBI:26020",
+  "CHEBI:26079",
+  "CHEBI:26082",
+  "CHEBI:27162",
+  "CHEBI:27171",
+  "CHEBI:33241",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33635",
+  "CHEBI:33636",
+  "CHEBI:33655",
+  "CHEBI:33659",
+  "CHEBI:33671",
+  "CHEBI:33672",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:33833",
+  "CHEBI:35352",
+  "CHEBI:36357",
+  "CHEBI:36359",
+  "CHEBI:36360",
+  "CHEBI:37577",
+  "CHEBI:38101",
+  "CHEBI:38166",
+  "CHEBI:38180",
+  "CHEBI:38958",
+  "CHEBI:48274",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:50996",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:139072",
+   "target_name": null
+  },
+  {
+   "relation": "RO_0018038",
+   "target_id": "CHEBI:8613",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:42+00:00",
+ "roles": [
+  "CHEBI:176497",
+  "CHEBI:35469",
+  "CHEBI:35474",
+  "CHEBI:35476",
+  "CHEBI:35480",
+  "CHEBI:35499",
+  "CHEBI:35610",
+  "CHEBI:35941",
+  "CHEBI:36047",
+  "CHEBI:50266",
+  "CHEBI:50779",
+  "CHEBI:73336",
+  "CHEBI:76946"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "psilocybin",
+   "chebi_accession": "CHEBI:8614",
+   "default_structure": {
+    "smiles": "CN(C)CCc1cnc2cccc(OP(=O)(O)O)c12",
+    "standard_inchi_key": "QVDSEJDULKLHCG-UHFFFAOYSA-N"
+   },
+   "definition": "A tryptamine alkaloid that is <em>N</em>,<em>N</em>-dimethyltryptamine carrying an additional phosphoryloxy substituent at position 4. The major hallucinogenic alkaloid isolated from <em>Psilocybe</em> mushrooms (also known as Teonanácatl or \"magic mushrooms\").",
+   "id": 8614,
+   "is_released": true,
+   "name": "psilocybin",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 139072,
+      "init_name": "psilocybin(1−)",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 8613,
+      "final_name": "psilocin",
+      "relation_type": "has functional parent"
+     },
+     {
+      "final_id": 73336,
+      "final_name": "vulnerary",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35610,
+      "final_name": "antineoplastic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35480,
+      "final_name": "analgesic",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35499,
+      "final_name": "hallucinogen",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76946,
+      "final_name": "fungal metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50266,
+      "final_name": "prodrug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35941,
+      "final_name": "serotonergic agonist",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 176497,
+      "final_name": "geroprotector",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50779,
+      "final_name": "appetite enhancer",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35474,
+      "final_name": "anxiolytic drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35476,
+      "final_name": "antipsychotic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35469,
+      "final_name": "antidepressant",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48274,
+      "final_name": "tryptamine alkaloid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 50996,
+      "final_name": "tertiary amino compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 25703,
+      "final_name": "organic phosphate",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 139072,
+      "final_name": "psilocybin(1−)",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:8614",
+   "definition": [
+    "A tryptamine alkaloid that is <em>N</em>,<em>N</em>-dimethyltryptamine carrying an additional phosphoryloxy substituent at position 4. The major hallucinogenic alkaloid isolated from <em>Psilocybe</em> mushrooms (also known as Teonanácatl or \"magic mushrooms\")."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25703",
+    "http://purl.obolibrary.org/obo/CHEBI_48274",
+    "http://purl.obolibrary.org/obo/CHEBI_50996"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22315",
+    "http://purl.obolibrary.org/obo/CHEBI_22728",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_24828",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25703",
+    "http://purl.obolibrary.org/obo/CHEBI_25710",
+    "http://purl.obolibrary.org/obo/CHEBI_26020",
+    "http://purl.obolibrary.org/obo/CHEBI_26079",
+    "http://purl.obolibrary.org/obo/CHEBI_26082",
+    "http://purl.obolibrary.org/obo/CHEBI_27162",
+    "http://purl.obolibrary.org/obo/CHEBI_27171",
+    "http://purl.obolibrary.org/obo/CHEBI_33241",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33635",
+    "http://purl.obolibrary.org/obo/CHEBI_33636",
+    "http://purl.obolibrary.org/obo/CHEBI_33655",
+    "http://purl.obolibrary.org/obo/CHEBI_33659",
+    "http://purl.obolibrary.org/obo/CHEBI_33671",
+    "http://purl.obolibrary.org/obo/CHEBI_33672",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_33833",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36359",
+    "http://purl.obolibrary.org/obo/CHEBI_36360",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_38101",
+    "http://purl.obolibrary.org/obo/CHEBI_38166",
+    "http://purl.obolibrary.org/obo/CHEBI_38180",
+    "http://purl.obolibrary.org/obo/CHEBI_38958",
+    "http://purl.obolibrary.org/obo/CHEBI_48274",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_50996",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "3-[2-(dimethylamino)ethyl]-1H-indol-4-yl dihydrogen phosphate"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "QVDSEJDULKLHCG-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "psilocybin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_176497"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35469"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35474"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35476"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35480"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35499"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35941"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50266"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50779"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_73336"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76946"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_139072"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018038",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_8613"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "3-[2-(dimethylamino)ethyl]-1H-indol-4-yl dihydrogen phosphate"
+ ]
+}

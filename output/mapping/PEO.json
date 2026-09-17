@@ -1,0 +1,152 @@
+{
+  "identity": {
+    "input_id": "PEO",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "HYDROGEN PEROXIDE",
+    "ccd_type": "non-polymer",
+    "formula": "H2 O2",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/H2O2/c1-2/h1-2H",
+    "inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+    "smiles": "OO",
+    "synonyms": [
+      "HYDROGEN PEROXIDE",
+      "hydrogen peroxide",
+      "Hydrogen peroxide"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB11091"
+      ],
+      "CCDC/CSD": [
+        "MUXHIX",
+        "JESXEN",
+        "KOXPHY11",
+        "BOHLOC",
+        "CAZHUH",
+        "KULMUA",
+        "KULMOU",
+        "TANCES",
+        "BONGIW",
+        "BAMXAR",
+        "OJOCOH",
+        "ANINAO",
+        "HOQSEO",
+        "KUMRER",
+        "TANCAO",
+        "NAOXAP11",
+        "ANIMUH",
+        "OHIJEX",
+        "ANINES",
+        "BAFGOH",
+        "BONGES",
+        "AMOXPH10",
+        "BAFJUQ",
+        "CELNIS",
+        "POMQIU",
+        "MAQRIH",
+        "OPHENB10",
+        "JOZZED",
+        "RIKJAW",
+        "QUYRUA",
+        "DOJMIZ",
+        "IGIHUD",
+        "HOJCAN",
+        "DATHIQ",
+        "HOQSIS",
+        "DOSPOT",
+        "CAXCAF",
+        "RASBAP",
+        "IGIJAL",
+        "POMQUG",
+        "GADOXP10",
+        "NAOXAP",
+        "KOXPHY10",
+        "JELQOJ",
+        "RBOXPH10",
+        "GUPMEL",
+        "QAGXAB",
+        "AYAQID",
+        "RUYDOH"
+      ],
+      "COD": [
+        "1008189"
+      ],
+      "PubChem": [
+        "784",
+        "22326046"
+      ],
+      "CAS": [
+        "7722-84-1",
+        "8007-30-5"
+      ],
+      "ChEBI": [
+        "CHEBI:16240"
+      ],
+      "ChEMBL": [
+        "CHEMBL71595"
+      ]
+    },
+    "atc_codes": [
+      "A01AB02",
+      "D08AX01",
+      "D11AX25",
+      "S02AA06"
+    ],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:45+00:00",
+    "inchikey_connectivity": "MHAJPDPJQMAIIY"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "direct_ccd_crossref",
+    "source_id": "PEO",
+    "primary_chebi_id": "CHEBI:16240",
+    "equivalent_chebi_ids": [
+      "CHEBI:16240"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:16240",
+        "inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
+      }
+    ],
+    "notes": [
+      "RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
+    ],
+    "resolved": true
+  },
+  "primary_name": "hydrogen peroxide",
+  "equivalent_names": {
+    "CHEBI:16240": "hydrogen peroxide"
+  },
+  "family": {
+    "member_of": [
+      {
+        "chebi_id": "CHEBI:75178",
+        "name": "urea hydrogen peroxide",
+        "relation": "has_part (incoming)"
+      }
+    ],
+    "forms": [
+      {
+        "chebi_id": "CHEBI:29192",
+        "name": "hydrogenperoxide(1-)",
+        "relation": "is_conjugate_acid_of"
+      },
+      {
+        "chebi_id": "CHEBI:29192",
+        "name": "hydrogenperoxide(1−)",
+        "relation": "is_conjugate_base_of"
+      }
+    ]
+  }
+}

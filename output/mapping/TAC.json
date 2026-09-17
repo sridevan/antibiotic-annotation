@@ -1,0 +1,108 @@
+{
+  "identity": {
+    "input_id": "TAC",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "TETRACYCLINE",
+    "ccd_type": "non-polymer",
+    "formula": "C22 H24 N2 O8",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C22H24N2O8/c1-21(31)8-5-4-6-11(25)12(8)16(26)13-9(21)7-10-15(24(2)3)17(27)14(20(23)30)19(29)22(10,32)18(13)28/h4-6,9-10,15,25,27-28,31-32H,7H2,1-3H3,(H2,23,30)/t9-,10-,15-,21+,22-/m0/s1",
+    "inchikey": "OFVLGDICTFRJMM-WESIUVDSSA-N",
+    "smiles": "C[C@]1(c2cccc(c2C(=O)C3=C([C@]4([C@@H](C[C@@H]31)C(C(=C(C4=O)C(=O)N)O)N(C)C)O)O)O)O",
+    "synonyms": [
+      "TETRACYCLINE",
+      "(4S,4aS,5aS,6S,12aS)-4-(dimethylamino)-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide",
+      "(4aS,5aS,6S,12aS)-4-dimethylamino-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide",
+      "(4S,4aS,5aS,12aS)-4-(Dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-2-naphthacenecarboxamide",
+      "Tetracycline hydrochloride",
+      "Tetracyclin",
+      "Deschlorobiomycin",
+      "Tétracycline",
+      "Tsiklomitsin",
+      "Tetracycline phosphate",
+      "Tetracyclinum",
+      "Tetrazyklin",
+      "Abramycin",
+      "Tetracycline",
+      "Anhydrotetracycline"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB00759"
+      ]
+    },
+    "atc_codes": [
+      "A01AB13",
+      "A02BD02",
+      "A02BD08",
+      "D06AA04",
+      "J01AA07",
+      "J01AA20",
+      "J01RA08",
+      "J01RA19",
+      "S01AA09",
+      "S02AA08",
+      "S03AA02"
+    ],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:32+00:00",
+    "inchikey_connectivity": "OFVLGDICTFRJMM"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "unichem_inchikey",
+    "source_id": "OFVLGDICTFRJMM-WESIUVDSSA-N",
+    "primary_chebi_id": "CHEBI:27902",
+    "equivalent_chebi_ids": [
+      "CHEBI:27902",
+      "CHEBI:77932"
+    ],
+    "evidence_unioned": true,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:27902",
+        "inchikey": "OFVLGDICTFRJMM-WESIUVDSSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "exact standard InChIKey match"
+      },
+      {
+        "chebi_id": "CHEBI:77932",
+        "inchikey": "OFVLGDICTFRJMM-WESIUVDSSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "exact standard InChIKey match"
+      }
+    ],
+    "notes": [
+      "2 ChEBI entries share standard InChIKey OFVLGDICTFRJMM-WESIUVDSSA-N; treated as the same standardised chemical identity for mapping purposes, primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id, ontology evidence unioned over all of them"
+    ],
+    "resolved": true
+  },
+  "primary_name": "tetracycline",
+  "equivalent_names": {
+    "CHEBI:27902": "tetracycline",
+    "CHEBI:77932": "tetracycline zwitterion"
+  },
+  "family": {
+    "member_of": [],
+    "forms": [
+      {
+        "chebi_id": "CHEBI:77932",
+        "name": "tetracycline zwitterion",
+        "relation": "is_tautomer_of"
+      },
+      {
+        "chebi_id": "CHEBI:77932",
+        "name": "tetracycline zwitterion",
+        "relation": "is_tautomer_of"
+      }
+    ]
+  }
+}

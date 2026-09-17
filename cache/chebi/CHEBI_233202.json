@@ -1,0 +1,124 @@
+{
+ "chebi_id": "CHEBI:233202",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "UOZODPSAJZTQNH-LSWIJEOBSA-S",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:233203",
+   "target_name": "4'-adenylylparomomycin(4+)"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:7934",
+   "target_name": "paromomycin"
+  }
+ ],
+ "is_a": [
+  "CHEBI:35274"
+ ],
+ "name": "paromomycin(5+)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:33702",
+  "CHEBI:35274",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36916",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:7934",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:29+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "paromomycin(5+)",
+   "chebi_accession": "CHEBI:233202",
+   "default_structure": {
+    "smiles": "[NH3+]C[C@@H]1O[C@H](O[C@H]2[C@@H](O)[C@H](O[C@@H]3[C@@H](O)[C@H]([NH3+])C[C@H]([NH3+])[C@H]3O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3[NH3+])O[C@@H]2CO)[C@H]([NH3+])[C@@H](O)[C@@H]1O",
+    "standard_inchi_key": "UOZODPSAJZTQNH-LSWIJEOBSA-S"
+   },
+   "definition": null,
+   "id": 233202,
+   "is_released": true,
+   "name": "paromomycin(5+)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 233203,
+      "init_name": "4'-adenylylparomomycin(4+)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 7934,
+      "init_name": "paromomycin",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 35274,
+      "final_name": "ammonium ion derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 7934,
+      "final_name": "paromomycin",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 2
+  },
+  "ols4": {
+   "curie": "CHEBI:233202",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35274"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33702",
+    "http://purl.obolibrary.org/obo/CHEBI_35274",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "UOZODPSAJZTQNH-LSWIJEOBSA-S",
+   "isObsolete": false,
+   "label": [
+    "paromomycin(5+)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_7934"
+    }
+   ]
+  }
+ },
+ "stars": 2,
+ "synonyms": []
+}

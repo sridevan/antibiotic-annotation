@@ -1,0 +1,118 @@
+{
+ "chebi_id": "CHEBI:50047",
+ "chebi_release": "255",
+ "definition": "A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35352",
+  "CHEBI:50860"
+ ],
+ "name": "organic amino compound",
+ "num_descendants": 22666,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:50860",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018040",
+   "target_id": "CHEBI:16134",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:00+00:00",
+ "roles": [
+  "CHEBI:39142"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "organic amino compound",
+   "chebi_accession": "CHEBI:50047",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.",
+   "id": 50047,
+   "is_released": true,
+   "name": "organic amino compound",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 16134,
+      "final_name": "ammonia",
+      "relation_type": "has parent hydride"
+     },
+     {
+      "final_id": 39142,
+      "final_name": "Brønsted base",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50860,
+      "final_name": "organic molecular entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35352,
+      "final_name": "organonitrogen compound",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:50047",
+   "definition": [
+    "A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "isObsolete": false,
+   "label": [
+    "organic amino compound"
+   ],
+   "numDescendants": 22666.0,
+   "numHierarchicalDescendants": 22666.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_39142"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018040",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16134"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

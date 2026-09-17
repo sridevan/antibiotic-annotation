@@ -1,0 +1,142 @@
+{
+ "chebi_id": "CHEBI:25106",
+ "chebi_release": "255",
+ "definition": "A macrocyclic lactone with a ring of twelve or more members derived from a polyketide.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:26188",
+  "CHEBI:63944"
+ ],
+ "name": "macrolide",
+ "num_descendants": 1619,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:25000",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:26188",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33308",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:35701",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:38104",
+  "CHEBI:50860",
+  "CHEBI:51026",
+  "CHEBI:5686",
+  "CHEBI:63944",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:02+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "macrolide",
+   "chebi_accession": "CHEBI:25106",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A macrocyclic lactone with a ring of twelve or more members derived from a polyketide.",
+   "id": 25106,
+   "is_released": true,
+   "name": "macrolide",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 63944,
+      "final_name": "macrocyclic lactone",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 26188,
+      "final_name": "polyketide",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25106",
+   "definition": [
+    "A macrocyclic lactone with a ring of twelve or more members derived from a polyketide."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_26188",
+    "http://purl.obolibrary.org/obo/CHEBI_63944"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_25000",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26188",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33308",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_35701",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_38104",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51026",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_63944",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "macrolides"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "macrolide"
+   ],
+   "numDescendants": 1619.0,
+   "numHierarchicalDescendants": 1619.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "macrolides"
+ ]
+}

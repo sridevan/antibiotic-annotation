@@ -1,0 +1,87 @@
+{
+ "chebi_id": "CHEBI:144644",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:26895"
+ ],
+ "name": "a tetracycline zwitterion",
+ "num_descendants": 3,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:26188",
+  "CHEBI:26895",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:08+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "a tetracycline zwitterion",
+   "chebi_accession": "CHEBI:144644",
+   "default_structure": {
+    "smiles": "*c1cc(*)c2c(c1O)C(=O)C1=C(O)[C@]3(O)C(=O)C(C(N)=O)=C([O-])[C@@H]([NH+](C)C)[C@]3([H])[C@@H](*)[C@]1([H])C2(*)*",
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 144644,
+   "is_released": true,
+   "name": "a tetracycline zwitterion",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 26895,
+      "final_name": "tetracyclines",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 2
+  },
+  "ols4": {
+   "curie": "CHEBI:144644",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_26895"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26188",
+    "http://purl.obolibrary.org/obo/CHEBI_26895",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "isObsolete": false,
+   "label": [
+    "a tetracycline zwitterion"
+   ],
+   "numDescendants": 3.0,
+   "numHierarchicalDescendants": 3.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 2,
+ "synonyms": []
+}

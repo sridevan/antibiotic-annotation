@@ -1,0 +1,114 @@
+{
+ "chebi_id": "CHEBI:36916",
+ "chebi_release": "255",
+ "definition": "A monoatomic or polyatomic species having one or more elementary charges of the proton.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:24866",
+   "target_name": "salt"
+  }
+ ],
+ "is_a": [
+  "CHEBI:24870"
+ ],
+ "name": "cation",
+ "num_descendants": 4526,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:09+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "cation",
+   "chebi_accession": "CHEBI:36916",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A monoatomic or polyatomic species having one or more elementary charges of the proton.",
+   "id": 36916,
+   "is_released": true,
+   "name": "cation",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 24866,
+      "init_name": "salt",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 24870,
+      "final_name": "ion",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:3473",
+    "CHEBI:23058"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:36916",
+   "definition": [
+    "A monoatomic or polyatomic species having one or more elementary charges of the proton."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24870"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Cation"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "cation"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "cation"
+   ],
+   "numDescendants": 4526.0,
+   "numHierarchicalDescendants": 4526.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "Cation",
+  "cation"
+ ]
+}

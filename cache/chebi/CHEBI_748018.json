@@ -1,0 +1,138 @@
+{
+ "chebi_id": "CHEBI:748018",
+ "chebi_release": "255",
+ "definition": "",
+ "inchikey": "UPADRKHAIMTUCC-OWALTSPQSA-N",
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25238"
+ ],
+ "name": "evernimicin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22712",
+  "CHEBI:22723",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24833",
+  "CHEBI:25238",
+  "CHEBI:25367",
+  "CHEBI:25698",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33575",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33597",
+  "CHEBI:33598",
+  "CHEBI:33608",
+  "CHEBI:33655",
+  "CHEBI:33659",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:33836",
+  "CHEBI:33859",
+  "CHEBI:35605",
+  "CHEBI:35618",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:51683",
+  "CHEBI:64709",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:23+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "evernimicin",
+   "chebi_accession": "CHEBI:748018",
+   "default_structure": {
+    "smiles": "[H][C@@]12OCO[C@@]1([H])[C@H](OC(=O)c1c(C)cc(O)cc1O)CO[C@]21O[C@@]2([H])[C@@H](O)[C@H](O[C@@H]3O[C@H](COC)[C@@H](O[C@@H]4O[C@H](C)[C@H](OC)[C@H](O[C@@H]5O[C@H](C)[C@@]6([H])O[C@]7(C[C@@H](O)[C@H](O[C@H]8C[C@@H](O[C@H]9C[C@](C)([N+](=O)[O-])[C@@H](OC)[C@H](C)O9)[C@H](OC(=O)c9c(C)c(Cl)c(O)c(Cl)c9OC)[C@@H](C)O8)[C@@H](C)O7)O[C@]6(C)[C@@H]5O)[C@H]4O)[C@H](O)[C@@H]3OC)OC[C@]2([H])O1",
+    "standard_inchi_key": "UPADRKHAIMTUCC-OWALTSPQSA-N"
+   },
+   "definition": "",
+   "id": 748018,
+   "is_released": true,
+   "name": "evernimicin",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 25238,
+      "final_name": "methoxybenzoic acid",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 2
+  },
+  "ols4": {
+   "curie": "CHEBI:748018",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25238"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22712",
+    "http://purl.obolibrary.org/obo/CHEBI_22723",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24833",
+    "http://purl.obolibrary.org/obo/CHEBI_25238",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25698",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33575",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33597",
+    "http://purl.obolibrary.org/obo/CHEBI_33598",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33655",
+    "http://purl.obolibrary.org/obo/CHEBI_33659",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_33836",
+    "http://purl.obolibrary.org/obo/CHEBI_33859",
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_35618",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51683",
+    "http://purl.obolibrary.org/obo/CHEBI_64709",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "UPADRKHAIMTUCC-OWALTSPQSA-N",
+   "isObsolete": false,
+   "label": [
+    "evernimicin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 2,
+ "synonyms": []
+}

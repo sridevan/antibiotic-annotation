@@ -1,0 +1,84 @@
+{
+  "identity": {
+    "input_id": "CLY",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "CLINDAMYCIN",
+    "ccd_type": "non-polymer",
+    "formula": "C18 H33 Cl N2 O5 S",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C18H33ClN2O5S/c1-5-6-10-7-11(21(3)8-10)17(25)20-12(9(2)19)16-14(23)13(22)15(24)18(26-16)27-4/h9-16,18,22-24H,5-8H2,1-4H3,(H,20,25)/t9-,10+,11-,12+,13-,14+,15+,16+,18+/m0/s1",
+    "inchikey": "KDLRVYVGXIQJDK-AWPVFWJPSA-N",
+    "smiles": "CCC[C@@H]1C[C@H]([N@@](C1)C)C(=O)N[C@@H]([C@@H]2[C@@H]([C@@H]([C@H]([C@H](O2)SC)O)O)O)[C@H](C)Cl",
+    "synonyms": [
+      "CLINDAMYCIN",
+      "methyl 7-chloro-6,7,8-trideoxy-6-{[(4R)-1-methyl-4-propyl-L-prolyl]amino}-1-thio-L-threo-alpha-D-galacto-octopyranoside",
+      "(1R,2S,4R)-N-[(1S,2S)-2-chloro-1-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-methylsulfanyl-oxan-2-yl]propyl]-1-methyl-4-propyl-pyrrolidine-2-carboxamide",
+      "Clindamycin",
+      "7-CDL",
+      "Clindamycine",
+      "7(S)-Chloro-7-deoxylincomycin",
+      "Clindamicina",
+      "Clindamycin hydrochloride",
+      "Clindamycin palmitate hydrochloride",
+      "Methyl 7-chloro-6,7,8-trideoxy-6-(1-methyl-trans-4-propyl-L-2-pyrrolidinecarboxamido)-1-thio-L-threo-alpha-D-galacto-octopyranoside",
+      "Clindamycin phosphate",
+      "Clindamycinum"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB01190"
+      ],
+      "PubChem": [
+        "446598"
+      ],
+      "CAS": [
+        "18323-44-9"
+      ],
+      "ChEMBL": [
+        "CHEMBL1753"
+      ]
+    },
+    "atc_codes": [
+      "D10AF01",
+      "D10AF51",
+      "G01AA10",
+      "J01FF01"
+    ],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:16+00:00",
+    "inchikey_connectivity": "KDLRVYVGXIQJDK"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "unichem_inchikey",
+    "source_id": "KDLRVYVGXIQJDK-AWPVFWJPSA-N",
+    "primary_chebi_id": "CHEBI:3745",
+    "equivalent_chebi_ids": [
+      "CHEBI:3745"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:3745",
+        "inchikey": "KDLRVYVGXIQJDK-AWPVFWJPSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "exact standard InChIKey match"
+      }
+    ],
+    "notes": [],
+    "resolved": true
+  },
+  "primary_name": "clindamycin",
+  "equivalent_names": {
+    "CHEBI:3745": "clindamycin"
+  },
+  "family": {
+    "member_of": [],
+    "forms": []
+  }
+}

@@ -1,0 +1,167 @@
+{
+ "chebi_id": "CHEBI:26355",
+ "chebi_release": "255",
+ "definition": "A metalloprotoporphyrin in which the four pyrrole nitrogens of the protoporphyrin moiety are coordinated to iron. It is the most abundant of the heme compounds.",
+ "inchikey": "KABFMIBPWCXCRK-RGGAHWMASA-L",
+ "incoming": [],
+ "is_a": [
+  "CHEBI:30413",
+  "CHEBI:36158"
+ ],
+ "name": "heme b",
+ "num_descendants": 5,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:24873",
+  "CHEBI:25216",
+  "CHEBI:25367",
+  "CHEBI:26214",
+  "CHEBI:26361",
+  "CHEBI:26932",
+  "CHEBI:30413",
+  "CHEBI:33240",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33497",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33655",
+  "CHEBI:33659",
+  "CHEBI:33675",
+  "CHEBI:33676",
+  "CHEBI:33744",
+  "CHEBI:33832",
+  "CHEBI:33833",
+  "CHEBI:33861",
+  "CHEBI:33892",
+  "CHEBI:33909",
+  "CHEBI:35352",
+  "CHEBI:36158",
+  "CHEBI:36309",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:38077",
+  "CHEBI:38101",
+  "CHEBI:47882",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:41+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "heme b",
+   "chebi_accession": "CHEBI:26355",
+   "default_structure": {
+    "smiles": "C=CC1=C(C)C2=Cc3c(C=C)c(C)c4[n]3[Fe]35[N]2=C1C=c1c(C)c(CCC(=O)O)c([n]13)=CC1=[N]5C(=C4)C(C)=C1CCC(=O)O",
+    "standard_inchi_key": "KABFMIBPWCXCRK-RGGAHWMASA-L"
+   },
+   "definition": "A metalloprotoporphyrin in which the four pyrrole nitrogens of the protoporphyrin moiety are coordinated to iron. It is the most abundant of the heme compounds.",
+   "id": 26355,
+   "is_released": true,
+   "name": "heme <em>b</em>",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 30413,
+      "final_name": "heme",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 36158,
+      "final_name": "metalloprotoporphyrin",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:26355",
+   "definition": [
+    "A metalloprotoporphyrin in which the four pyrrole nitrogens of the protoporphyrin moiety are coordinated to iron. It is the most abundant of the heme compounds."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_30413",
+    "http://purl.obolibrary.org/obo/CHEBI_36158"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_24873",
+    "http://purl.obolibrary.org/obo/CHEBI_25216",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_26214",
+    "http://purl.obolibrary.org/obo/CHEBI_26361",
+    "http://purl.obolibrary.org/obo/CHEBI_26932",
+    "http://purl.obolibrary.org/obo/CHEBI_30413",
+    "http://purl.obolibrary.org/obo/CHEBI_33240",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33497",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33655",
+    "http://purl.obolibrary.org/obo/CHEBI_33659",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33676",
+    "http://purl.obolibrary.org/obo/CHEBI_33744",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_33833",
+    "http://purl.obolibrary.org/obo/CHEBI_33861",
+    "http://purl.obolibrary.org/obo/CHEBI_33892",
+    "http://purl.obolibrary.org/obo/CHEBI_33909",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36158",
+    "http://purl.obolibrary.org/obo/CHEBI_36309",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_38077",
+    "http://purl.obolibrary.org/obo/CHEBI_38101",
+    "http://purl.obolibrary.org/obo/CHEBI_47882",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(protoporphyrinato)iron"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "KABFMIBPWCXCRK-RGGAHWMASA-L",
+   "isObsolete": false,
+   "label": [
+    "heme b"
+   ],
+   "numDescendants": 5.0,
+   "numHierarchicalDescendants": 5.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(protoporphyrinato)iron"
+ ]
+}

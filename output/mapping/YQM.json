@@ -1,0 +1,64 @@
+{
+  "identity": {
+    "input_id": "YQM",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "Eravacycline",
+    "ccd_type": "non-polymer",
+    "formula": "C27 H31 F N4 O8",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C27H31FN4O8/c1-31(2)20-13-8-11-7-12-14(28)9-15(30-16(33)10-32-5-3-4-6-32)21(34)18(12)22(35)17(11)24(37)27(13,40)25(38)19(23(20)36)26(29)39/h9,11,13,20,34-35,38,40H,3-8,10H2,1-2H3,(H2,29,39)(H,30,33)/t11-,13-,20-,27-/m0/s1",
+    "inchikey": "AKLMFDDQCHURPW-ISIOAQNYSA-N",
+    "smiles": "CN(C)[C@H]1[C@@H]2C[C@@H]3Cc4c(cc(c(c4C(=C3C(=O)[C@@]2(C(=C(C1=O)C(=O)N)O)O)O)O)NC(=O)CN5CCCC5)F",
+    "synonyms": [
+      "Eravacycline",
+      "(4S,4aS,5aR,12aR)-4-(dimethylamino)-7-fluoro-1,10,11,12a-tetrahydroxy-3,12-dioxo-9-[2-(pyrrolidin-1-yl)acetamido]-3,4,4a,5,5a,6,12,12a-octahydrotetracene-2-carboxamide",
+      "(4~{S},4~{a}~{S},5~{a}~{R},12~{a}~{R})-4-(dimethylamino)-7-fluoranyl-1,10,11,12~{a}-tetrakis(oxidanyl)-3,12-bis(oxidanylidene)-9-(2-pyrrolidin-1-ylethanoylamino)-4~{a},5,5~{a},6-tetrahydro-4~{H}-tetracene-2-carboxamide"
+    ],
+    "xrefs": {
+      "PubChem": [
+        "54726192"
+      ],
+      "ChEMBL": [
+        "CHEMBL4597183",
+        "CHEMBL1951095"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:46+00:00",
+    "inchikey_connectivity": "AKLMFDDQCHURPW"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "unichem_inchikey",
+    "source_id": "AKLMFDDQCHURPW-ISIOAQNYSA-N",
+    "primary_chebi_id": "CHEBI:177804",
+    "equivalent_chebi_ids": [
+      "CHEBI:177804"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:177804",
+        "inchikey": "AKLMFDDQCHURPW-ISIOAQNYSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "exact standard InChIKey match"
+      }
+    ],
+    "notes": [],
+    "resolved": true
+  },
+  "primary_name": "Eravacycline",
+  "equivalent_names": {
+    "CHEBI:177804": "Eravacycline"
+  },
+  "family": {
+    "member_of": [],
+    "forms": []
+  }
+}

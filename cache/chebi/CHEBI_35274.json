@@ -1,0 +1,121 @@
+{
+ "chebi_id": "CHEBI:35274",
+ "chebi_release": "255",
+ "definition": "A derivative of ammonium, NH<small><sub>4</sub></small><small><sup>+</small></sup>, in which one (or more) of the hydrogens bonded to the nitrogen have been replaced with univalent organyl groups. The substituting carbon of the organyl group must not itself be directly attached to a heteroatom (thereby excluding protonated amides, hemiaminals, etc).",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:35276",
+   "target_name": "ammonium compound"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33702",
+  "CHEBI:51143"
+ ],
+ "name": "ammonium ion derivative",
+ "num_descendants": 3397,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:33702",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36916",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018040",
+   "target_id": "CHEBI:28938",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:46:08+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ammonium ion derivative",
+   "chebi_accession": "CHEBI:35274",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A derivative of ammonium, NH<small><sub>4</sub></small><small><sup>+</small></sup>, in which one (or more) of the hydrogens bonded to the nitrogen have been replaced with univalent organyl groups. The substituting carbon of the organyl group must not itself be directly attached to a heteroatom (thereby excluding protonated amides, hemiaminals, etc).",
+   "id": 35274,
+   "is_released": true,
+   "name": "ammonium ion derivative",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 35276,
+      "init_name": "ammonium compound",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 28938,
+      "final_name": "ammonium",
+      "relation_type": "has parent hydride"
+     },
+     {
+      "final_id": 51143,
+      "final_name": "nitrogen molecular entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33702,
+      "final_name": "polyatomic cation",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35274",
+   "definition": [
+    "A derivative of ammonium, NH<small><sub>4</sub></small><small><sup>+</small></sup>, in which one (or more) of the hydrogens bonded to the nitrogen have been replaced with univalent organyl groups. The substituting carbon of the organyl group must not itself be directly attached to a heteroatom (thereby excluding protonated amides, hemiaminals, etc)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33702",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33702",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "isObsolete": false,
+   "label": [
+    "ammonium ion derivative"
+   ],
+   "numDescendants": 3397.0,
+   "numHierarchicalDescendants": 3397.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018040",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_28938"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

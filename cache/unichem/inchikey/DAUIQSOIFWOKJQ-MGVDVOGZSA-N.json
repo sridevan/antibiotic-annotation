@@ -1,0 +1,60 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "",
+    "connections": "1-32(2)22-18-8-15-7-14-6-13-4-3-12(9-33-10-16(30)11-33)5-17(13)23(34)19(14)24(35)20(15)26(37)29(18,40)27(38)21(25(22)36)28(31)39",
+    "formula": "C29H30FN3O7",
+    "hAtoms": "3-6,15-16,18,22,34,36-37,40H,7-11H2,1-2H3,(H2,31,39)",
+    "inchi": "InChI=1S/C29H30FN3O7/c1-32(2)22-18-8-15-7-14-6-13-4-3-12(9-33-10-16(30)11-33)5-17(13)23(34)19(14)24(35)20(15)26(37)29(18,40)27(38)21(25(22)36)28(31)39/h3-6,15-16,18,22,34,36-37,40H,7-11H2,1-2H3,(H2,31,39)/t15-,18-,22-,29-/m0/s1",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "",
+    "stereoDbond": "",
+    "stereoSP3": "15-,18-,22-,29-",
+    "stereoSP3inverted": "0",
+    "stereoType": "1",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEMBL1782463",
+     "id": 1,
+     "longName": "ChEMBL",
+     "shortName": "chembl",
+     "url": "https://www.ebi.ac.uk/chembldb/compound/inspect/CHEMBL1782463"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "P8F",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/P8F"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "P8F",
+     "id": 5,
+     "longName": "Protein Data Bank in Europe",
+     "shortName": "pdbe",
+     "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/P8F"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "10160742",
+     "id": 15,
+     "longName": "SureChEMBL",
+     "shortName": "surechembl",
+     "url": "https://www.surechembl.org/chemical/10160742"
+    }
+   ],
+   "standardInchiKey": "DAUIQSOIFWOKJQ-MGVDVOGZSA-N",
+   "uci": 200704740
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

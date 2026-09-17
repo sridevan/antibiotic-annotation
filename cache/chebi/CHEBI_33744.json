@@ -1,0 +1,92 @@
+{
+ "chebi_id": "CHEBI:33744",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33497",
+  "CHEBI:33676"
+ ],
+ "name": "iron group molecular entity",
+ "num_descendants": 282,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33497",
+  "CHEBI:33676"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33356",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:46:05+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "iron group molecular entity",
+   "chebi_accession": "CHEBI:33744",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33744,
+   "is_released": true,
+   "name": "iron group molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33356,
+      "final_name": "iron group element atom",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33676,
+      "final_name": "d-block molecular entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33497,
+      "final_name": "transition element molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33744",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33497",
+    "http://purl.obolibrary.org/obo/CHEBI_33676"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33497",
+    "http://purl.obolibrary.org/obo/CHEBI_33676"
+   ],
+   "isObsolete": false,
+   "label": [
+    "iron group molecular entity"
+   ],
+   "numDescendants": 282.0,
+   "numHierarchicalDescendants": 282.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33356"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

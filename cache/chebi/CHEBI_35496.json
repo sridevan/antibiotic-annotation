@@ -1,0 +1,119 @@
+{
+ "chebi_id": "CHEBI:35496",
+ "chebi_release": "255",
+ "definition": "Any fluoroarene that is a benzene or a substituted benzene carrying at least one fluoro group.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:22712",
+  "CHEBI:37143"
+ ],
+ "name": "fluorobenzenes",
+ "num_descendants": 299,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:17792",
+  "CHEBI:22712",
+  "CHEBI:23367",
+  "CHEBI:24062",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:25367",
+  "CHEBI:33285",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33597",
+  "CHEBI:33598",
+  "CHEBI:33655",
+  "CHEBI:33659",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:33836",
+  "CHEBI:36357",
+  "CHEBI:37143",
+  "CHEBI:37577",
+  "CHEBI:37578",
+  "CHEBI:50860",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:38+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "fluorobenzenes",
+   "chebi_accession": "CHEBI:35496",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any fluoroarene that is a benzene or a substituted benzene carrying at least one fluoro group.",
+   "id": 35496,
+   "is_released": true,
+   "name": "fluorobenzenes",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 22712,
+      "final_name": "benzenes",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 37143,
+      "final_name": "organofluorine compound",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35496",
+   "definition": [
+    "Any fluoroarene that is a benzene or a substituted benzene carrying at least one fluoro group."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_22712",
+    "http://purl.obolibrary.org/obo/CHEBI_37143"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_17792",
+    "http://purl.obolibrary.org/obo/CHEBI_22712",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24062",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33597",
+    "http://purl.obolibrary.org/obo/CHEBI_33598",
+    "http://purl.obolibrary.org/obo/CHEBI_33655",
+    "http://purl.obolibrary.org/obo/CHEBI_33659",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_33836",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37143",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37578",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "isObsolete": false,
+   "label": [
+    "fluorobenzenes"
+   ],
+   "numDescendants": 299.0,
+   "numHierarchicalDescendants": 299.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

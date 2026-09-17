@@ -1,0 +1,234 @@
+{
+ "chebi_id": "CHEBI:6472",
+ "chebi_release": "255",
+ "definition": "A carbohydrate-containing antibiotic produced by the actinomyces <em>Streptomyces lincolnensis</em>.",
+ "inchikey": "OJMMVQQUTAEWLP-KIDUDLJLSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:3745",
+   "target_name": "clindamycin"
+  }
+ ],
+ "is_a": [
+  "CHEBI:23007",
+  "CHEBI:29347",
+  "CHEBI:35275",
+  "CHEBI:46770",
+  "CHEBI:84186"
+ ],
+ "name": "lincomycin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23007",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:25367",
+  "CHEBI:25693",
+  "CHEBI:25806",
+  "CHEBI:26273",
+  "CHEBI:26835",
+  "CHEBI:29347",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33261",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33661",
+  "CHEBI:33670",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:35275",
+  "CHEBI:35352",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37622",
+  "CHEBI:38101",
+  "CHEBI:38260",
+  "CHEBI:46770",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:59792",
+  "CHEBI:59793",
+  "CHEBI:63161",
+  "CHEBI:63299",
+  "CHEBI:72695",
+  "CHEBI:73754",
+  "CHEBI:78616",
+  "CHEBI:83811",
+  "CHEBI:83821",
+  "CHEBI:84186"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:51+00:00",
+ "roles": [
+  "CHEBI:33281",
+  "CHEBI:76969"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "lincomycin",
+   "chebi_accession": "CHEBI:6472",
+   "default_structure": {
+    "smiles": "[H][C@@]1(C(=O)N[C@@H]([C@H]2O[C@H](SC)[C@H](O)[C@@H](O)[C@H]2O)[C@@H](C)O)C[C@@H](CCC)CN1C",
+    "standard_inchi_key": "OJMMVQQUTAEWLP-KIDUDLJLSA-N"
+   },
+   "definition": "A carbohydrate-containing antibiotic produced by the actinomyces <em>Streptomyces lincolnensis</em>.",
+   "id": 6472,
+   "is_released": true,
+   "name": "lincomycin",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 3745,
+      "init_name": "clindamycin",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 76969,
+      "final_name": "bacterial metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 29347,
+      "final_name": "monocarboxylic acid amide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 23007,
+      "final_name": "carbohydrate-containing antibiotic",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 84186,
+      "final_name": "<small>L</small>-proline derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 46770,
+      "final_name": "pyrrolidinecarboxamide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35275,
+      "final_name": "<em>S</em>-glycosyl compound",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:6472",
+   "definition": [
+    "A carbohydrate-containing antibiotic produced by the actinomyces <em>Streptomyces lincolnensis</em>."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23007",
+    "http://purl.obolibrary.org/obo/CHEBI_29347",
+    "http://purl.obolibrary.org/obo/CHEBI_35275",
+    "http://purl.obolibrary.org/obo/CHEBI_46770",
+    "http://purl.obolibrary.org/obo/CHEBI_84186"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23007",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25693",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26273",
+    "http://purl.obolibrary.org/obo/CHEBI_26835",
+    "http://purl.obolibrary.org/obo/CHEBI_29347",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33261",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33661",
+    "http://purl.obolibrary.org/obo/CHEBI_33670",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_35275",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_38101",
+    "http://purl.obolibrary.org/obo/CHEBI_38260",
+    "http://purl.obolibrary.org/obo/CHEBI_46770",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_59792",
+    "http://purl.obolibrary.org/obo/CHEBI_59793",
+    "http://purl.obolibrary.org/obo/CHEBI_63161",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_72695",
+    "http://purl.obolibrary.org/obo/CHEBI_73754",
+    "http://purl.obolibrary.org/obo/CHEBI_78616",
+    "http://purl.obolibrary.org/obo/CHEBI_83811",
+    "http://purl.obolibrary.org/obo/CHEBI_83821",
+    "http://purl.obolibrary.org/obo/CHEBI_84186"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "methyl 6,8-dideoxy-6-({[(2S,4R)-1-methyl-4-propylpyrrolidin-2-yl]carbonyl}amino)-1-thio-D-erythro-alpha-D-galacto-octopyranoside"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "OJMMVQQUTAEWLP-KIDUDLJLSA-N",
+   "isObsolete": false,
+   "label": [
+    "lincomycin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33281"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76969"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "methyl 6,8-dideoxy-6-({[(2S,4R)-1-methyl-4-propylpyrrolidin-2-yl]carbonyl}amino)-1-thio-D-erythro-alpha-D-galacto-octopyranoside"
+ ]
+}

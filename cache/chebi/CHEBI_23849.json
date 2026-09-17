@@ -1,0 +1,115 @@
+{
+ "chebi_id": "CHEBI:23849",
+ "chebi_release": "255",
+ "definition": "Any terpenoid derived from a diterpene. The term includes compounds in which the C20 skeleton of the parent diterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups).",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:26873"
+ ],
+ "name": "diterpenoid",
+ "num_descendants": 2435,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:18059",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24913",
+  "CHEBI:26873",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:50860"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018040",
+   "target_id": "CHEBI:35190",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:51+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "diterpenoid",
+   "chebi_accession": "CHEBI:23849",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any terpenoid derived from a diterpene. The term includes compounds in which the C20 skeleton of the parent diterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups).",
+   "id": 23849,
+   "is_released": true,
+   "name": "diterpenoid",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35190,
+      "final_name": "diterpene",
+      "relation_type": "has parent hydride"
+     },
+     {
+      "final_id": 26873,
+      "final_name": "terpenoid",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:23849",
+   "definition": [
+    "Any terpenoid derived from a diterpene. The term includes compounds in which the C20 skeleton of the parent diterpene has been rearranged or modified by the removal of one or more skeletal atoms (generally methyl groups)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_26873"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_18059",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24913",
+    "http://purl.obolibrary.org/obo/CHEBI_26873",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "diterpenoids"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "diterpenoid"
+   ],
+   "numDescendants": 2435.0,
+   "numHierarchicalDescendants": 2435.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018040",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35190"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "diterpenoids"
+ ]
+}

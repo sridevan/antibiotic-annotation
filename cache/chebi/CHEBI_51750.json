@@ -1,0 +1,98 @@
+{
+ "chebi_id": "CHEBI:51750",
+ "chebi_release": "255",
+ "definition": "A monocarboxylic amide of general formula R<small><sup>1</small></sup>R<small><sup>2</small></sup>C=CR<small><sup>3</small></sup>‒C(=O)NR<small><sup>4</small></sup>R<small><sup>5</small></sup>  or R<small><sup>1</small></sup>C≡C‒C(=O)NR<small><sup>2</small></sup>R<small><sup>3</small></sup> in which the amide C=O function is conjugated to an unsaturated C-C bond at the α,β position.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:37622"
+ ],
+ "name": "alpha,beta-unsaturated carboxylic acid amide",
+ "num_descendants": 204,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37622",
+  "CHEBI:50860",
+  "CHEBI:51143"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:00+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "alpha,beta-unsaturated carboxylic acid amide",
+   "chebi_accession": "CHEBI:51750",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A monocarboxylic amide of general formula R<small><sup>1</small></sup>R<small><sup>2</small></sup>C=CR<small><sup>3</small></sup>‒C(=O)NR<small><sup>4</small></sup>R<small><sup>5</small></sup>  or R<small><sup>1</small></sup>C≡C‒C(=O)NR<small><sup>2</small></sup>R<small><sup>3</small></sup> in which the amide C=O function is conjugated to an unsaturated C-C bond at the α,β position.",
+   "id": 51750,
+   "is_released": true,
+   "name": "α,β-unsaturated carboxylic acid amide",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 37622,
+      "final_name": "carboxamide",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:51750",
+   "definition": [
+    "A monocarboxylic amide of general formula R<small><sup>1</small></sup>R<small><sup>2</small></sup>C=CR<small><sup>3</small></sup>‒C(=O)NR<small><sup>4</small></sup>R<small><sup>5</small></sup>  or R<small><sup>1</small></sup>C≡C‒C(=O)NR<small><sup>2</small></sup>R<small><sup>3</small></sup> in which the amide C=O function is conjugated to an unsaturated C-C bond at the α,β position."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_37622"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "isObsolete": false,
+   "label": [
+    "alpha,beta-unsaturated carboxylic acid amide"
+   ],
+   "numDescendants": 204.0,
+   "numHierarchicalDescendants": 204.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

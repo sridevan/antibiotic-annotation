@@ -1,0 +1,78 @@
+{
+ "chebi_id": "CHEBI:79387",
+ "chebi_release": "255",
+ "definition": "Any inorganic anion with a valency of three.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24834"
+ ],
+ "name": "trivalent inorganic anion",
+ "num_descendants": 18,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24834",
+  "CHEBI:24835",
+  "CHEBI:24870",
+  "CHEBI:36914"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:22+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "trivalent inorganic anion",
+   "chebi_accession": "CHEBI:79387",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any inorganic anion with a valency of three.",
+   "id": 79387,
+   "is_released": true,
+   "name": "trivalent inorganic anion",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24834,
+      "final_name": "inorganic anion",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:79387",
+   "definition": [
+    "Any inorganic anion with a valency of three."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24834"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24834",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_36914"
+   ],
+   "isObsolete": false,
+   "label": [
+    "trivalent inorganic anion"
+   ],
+   "numDescendants": 18.0,
+   "numHierarchicalDescendants": 18.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

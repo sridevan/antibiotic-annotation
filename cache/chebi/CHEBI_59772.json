@@ -1,0 +1,96 @@
+{
+ "chebi_id": "CHEBI:59772",
+ "chebi_release": "255",
+ "definition": "A hemiacetal having the structure RR<small><sup>1</small></sup>C(OH)OR<small><sup>2</small></sup> (R, R<small><sup>1</small></sup>, R<small><sup>2</small></sup> ≠ H), derived from a ketone by formal addition of an alcohol to the carbonyl group.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:5653"
+ ],
+ "name": "hemiketal",
+ "num_descendants": 57,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:30879",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:5653"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:05+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "hemiketal",
+   "chebi_accession": "CHEBI:59772",
+   "default_structure": {
+    "smiles": "*C([1*])(O)O[2*]",
+    "standard_inchi_key": null
+   },
+   "definition": "A hemiacetal having the structure RR<small><sup>1</small></sup>C(OH)OR<small><sup>2</small></sup> (R, R<small><sup>1</small></sup>, R<small><sup>2</small></sup> ≠ H), derived from a ketone by formal addition of an alcohol to the carbonyl group.",
+   "id": 59772,
+   "is_released": true,
+   "name": "hemiketal",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 5653,
+      "final_name": "hemiacetal",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:59772",
+   "definition": [
+    "A hemiacetal having the structure RR<small><sup>1</small></sup>C(OH)OR<small><sup>2</small></sup> (R, R<small><sup>1</small></sup>, R<small><sup>2</small></sup> ≠ H), derived from a ketone by formal addition of an alcohol to the carbonyl group."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_5653"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_30879",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_5653"
+   ],
+   "isObsolete": false,
+   "label": [
+    "hemiketal"
+   ],
+   "numDescendants": 57.0,
+   "numHierarchicalDescendants": 57.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

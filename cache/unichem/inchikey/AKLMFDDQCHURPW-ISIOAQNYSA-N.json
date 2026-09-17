@@ -1,0 +1,84 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "",
+    "connections": "1-31(2)20-13-8-11-7-12-14(28)9-15(30-16(33)10-32-5-3-4-6-32)21(34)18(12)22(35)17(11)24(37)27(13,40)25(38)19(23(20)36)26(29)39",
+    "formula": "C27H31FN4O8",
+    "hAtoms": "9,11,13,20,34-35,38,40H,3-8,10H2,1-2H3,(H2,29,39)(H,30,33)",
+    "inchi": "InChI=1S/C27H31FN4O8/c1-31(2)20-13-8-11-7-12-14(28)9-15(30-16(33)10-32-5-3-4-6-32)21(34)18(12)22(35)17(11)24(37)27(13,40)25(38)19(23(20)36)26(29)39/h9,11,13,20,34-35,38,40H,3-8,10H2,1-2H3,(H2,29,39)(H,30,33)/t11-,13-,20-,27-/m0/s1",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "",
+    "stereoDbond": "",
+    "stereoSP3": "11-,13-,20-,27-",
+    "stereoSP3inverted": "0",
+    "stereoType": "1",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEMBL4597183",
+     "id": 1,
+     "longName": "ChEMBL",
+     "shortName": "chembl",
+     "url": "https://www.ebi.ac.uk/chembldb/compound/inspect/CHEMBL4597183"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "YQM",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/YQM"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "YQM",
+     "id": 5,
+     "longName": "Protein Data Bank in Europe",
+     "shortName": "pdbe",
+     "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/YQM"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEBI:177804",
+     "id": 7,
+     "longName": "ChEBI",
+     "shortName": "chebi",
+     "url": "https://www.ebi.ac.uk/chebi/CHEBI:177804"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "29359397",
+     "id": 15,
+     "longName": "SureChEMBL",
+     "shortName": "surechembl",
+     "url": "https://www.surechembl.org/chemical/29359397"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "54726192",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/54726192"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "PD095919",
+     "id": 49,
+     "longName": "Probes&Drugs",
+     "shortName": "probes_and_drugs",
+     "url": "https://www.probes-drugs.org/compounds/PD095919"
+    }
+   ],
+   "standardInchiKey": "AKLMFDDQCHURPW-ISIOAQNYSA-N",
+   "uci": 60789233
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

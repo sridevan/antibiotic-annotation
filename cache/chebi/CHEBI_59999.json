@@ -1,0 +1,66 @@
+{
+ "chebi_id": "CHEBI:59999",
+ "chebi_release": "255",
+ "definition": "A chemical substance is a portion of matter of constant composition, composed of molecular entities of the same type or of different types.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24431"
+ ],
+ "name": "chemical substance",
+ "num_descendants": 2870,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24431"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:15+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "chemical substance",
+   "chebi_accession": "CHEBI:59999",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A chemical substance is a portion of matter of constant composition, composed of molecular entities of the same type or of different types.",
+   "id": 59999,
+   "is_released": true,
+   "name": "chemical substance",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24431,
+      "final_name": "chemical entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:59999",
+   "definition": [
+    "A chemical substance is a portion of matter of constant composition, composed of molecular entities of the same type or of different types."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24431"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24431"
+   ],
+   "isObsolete": false,
+   "label": [
+    "chemical substance"
+   ],
+   "numDescendants": 2870.0,
+   "numHierarchicalDescendants": 2870.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

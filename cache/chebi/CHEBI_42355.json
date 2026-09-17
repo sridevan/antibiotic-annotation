@@ -1,0 +1,295 @@
+{
+ "chebi_id": "CHEBI:42355",
+ "chebi_release": "255",
+ "definition": "An erythromycin that consists of erythronolide A having 2,6-dideoxy-3-<em>C</em>-methyl-3-<em>O</em>-methyl-α-<small>L</small>-<i>ribo</i>-hexopyranosyl and 3,4,6-trideoxy-3-(dimethylamino)-β-<small>D</small>-<i>xylo</i>-hexopyranosyl residues attahced at positions 4 and 6 respectively.",
+ "inchikey": "ULGZDMOVFRHVEP-RWJQBGPGSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:31555",
+   "target_name": "erythromycin ethylsuccinate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:48913",
+   "target_name": "erythromycin A 2'-propanoate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:48844",
+   "target_name": "roxithromycin"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:28239",
+   "target_name": "erythromycin E"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:131719",
+   "target_name": "flurithromycin"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:64268",
+   "target_name": "erythromycin A(1+)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:3992",
+  "CHEBI:48923"
+ ],
+ "name": "erythromycin A",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:17087",
+  "CHEBI:23367",
+  "CHEBI:23953",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:25000",
+  "CHEBI:25105",
+  "CHEBI:25106",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:26188",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33308",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:35701",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:38104",
+  "CHEBI:3992",
+  "CHEBI:48923",
+  "CHEBI:50860",
+  "CHEBI:51026",
+  "CHEBI:5686",
+  "CHEBI:63944",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:64268",
+   "target_name": null
+  },
+  {
+   "relation": "RO_0018038",
+   "target_id": "CHEBI:48848",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:17+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "erythromycin A",
+   "chebi_accession": "CHEBI:42355",
+   "default_structure": {
+    "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O",
+    "standard_inchi_key": "ULGZDMOVFRHVEP-RWJQBGPGSA-N"
+   },
+   "definition": "An erythromycin that consists of erythronolide A having 2,6-dideoxy-3-<em>C</em>-methyl-3-<em>O</em>-methyl-α-<small>L</small>-<i>ribo</i>-hexopyranosyl and 3,4,6-trideoxy-3-(dimethylamino)-β-<small>D</small>-<i>xylo</i>-hexopyranosyl residues attahced at positions 4 and 6 respectively.",
+   "id": 42355,
+   "is_released": true,
+   "name": "erythromycin A",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 31555,
+      "init_name": "erythromycin ethylsuccinate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 48913,
+      "init_name": "erythromycin A 2'-propanoate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 48844,
+      "init_name": "roxithromycin",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 28239,
+      "init_name": "erythromycin E",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 131719,
+      "init_name": "flurithromycin",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 64268,
+      "init_name": "erythromycin A(1+)",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 48848,
+      "final_name": "erythronolide A",
+      "relation_type": "has functional parent"
+     },
+     {
+      "final_id": 48923,
+      "final_name": "erythromycin",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 3992,
+      "final_name": "cyclic ketone",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 64268,
+      "final_name": "erythromycin A(1+)",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:4841",
+    "CHEBI:4843",
+    "CHEBI:23950",
+    "CHEBI:28672",
+    "CHEBI:42352",
+    "CHEBI:112506"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:42355",
+   "definition": [
+    "An erythromycin that consists of erythronolide A having 2,6-dideoxy-3-<em>C</em>-methyl-3-<em>O</em>-methyl-α-<small>L</small>-<i>ribo</i>-hexopyranosyl and 3,4,6-trideoxy-3-(dimethylamino)-β-<small>D</small>-<i>xylo</i>-hexopyranosyl residues attahced at positions 4 and 6 respectively."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_3992",
+    "http://purl.obolibrary.org/obo/CHEBI_48923"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_17087",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23953",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_25000",
+    "http://purl.obolibrary.org/obo/CHEBI_25105",
+    "http://purl.obolibrary.org/obo/CHEBI_25106",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26188",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33308",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_35701",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_38104",
+    "http://purl.obolibrary.org/obo/CHEBI_3992",
+    "http://purl.obolibrary.org/obo/CHEBI_48923",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51026",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_63944",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(3R,4S,5S,6R,7R,9R,11R,12R,13S,14R)-4-(2,6-dideoxy-3-C-methyl-3-O-methyl-alpha-L-ribo-hexopyranosyloxy)-14-ethyl-7,12,13-trihydroxy-6-[3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylo-hexopyranosyloxy]-3,5,7,9,11,13-hexamethyloxacyclotetradecane-2,10-dione"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "ChEMBL"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "ERYTHROMYCIN"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "ChEMBL"
+      },
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Erythromycin"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "erythromycin"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "ULGZDMOVFRHVEP-RWJQBGPGSA-N",
+   "isObsolete": false,
+   "label": [
+    "erythromycin A"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_64268"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018038",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48848"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(3R,4S,5S,6R,7R,9R,11R,12R,13S,14R)-4-(2,6-dideoxy-3-C-methyl-3-O-methyl-alpha-L-ribo-hexopyranosyloxy)-14-ethyl-7,12,13-trihydroxy-6-[3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylo-hexopyranosyloxy]-3,5,7,9,11,13-hexamethyloxacyclotetradecane-2,10-dione",
+  "ERYTHROMYCIN",
+  "Erythromycin",
+  "erythromycin"
+ ]
+}

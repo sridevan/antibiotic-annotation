@@ -1,0 +1,95 @@
+{
+ "chebi_id": "CHEBI:33256",
+ "chebi_release": "255",
+ "definition": "A derivative of an oxoacid R<small><sub><em>k</em></sub></small>E(=O)<small><sub><em>l</em></sub></small>(OH)<small><sub><em>m</em></sub></small> (<em>l</em> ≠ 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:32988"
+ ],
+ "name": "primary amide",
+ "num_descendants": 38696,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:32988",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:51143"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:56+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "primary amide",
+   "chebi_accession": "CHEBI:33256",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A derivative of an oxoacid R<small><sub><em>k</em></sub></small>E(=O)<small><sub><em>l</em></sub></small>(OH)<small><sub><em>m</em></sub></small> (<em>l</em> ≠ 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group.",
+   "id": 33256,
+   "is_released": true,
+   "name": "primary amide",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 32988,
+      "final_name": "amide",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33256",
+   "definition": [
+    "A derivative of an oxoacid R<small><sub><em>k</em></sub></small>E(=O)<small><sub><em>l</em></sub></small>(OH)<small><sub><em>m</em></sub></small> (<em>l</em> ≠ 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_32988"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "primary amides"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "primary amide"
+   ],
+   "numDescendants": 38696.0,
+   "numHierarchicalDescendants": 38696.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "primary amides"
+ ]
+}

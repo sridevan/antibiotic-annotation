@@ -1,0 +1,220 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "",
+    "connections": "1-7-28(4)16-24(35-25(33)17-36-22-14-20-8-9-21(15-22)31(20)6)29(5)18(2)10-12-30(19(3)27(28)34)13-11-23(32)26(29)30",
+    "formula": "C30H47NO4S",
+    "hAtoms": "7,18-22,24,26-27,34H,1,8-17H2,2-6H3",
+    "inchi": "InChI=1S/C30H47NO4S/c1-7-28(4)16-24(35-25(33)17-36-22-14-20-8-9-21(15-22)31(20)6)29(5)18(2)10-12-30(19(3)27(28)34)13-11-23(32)26(29)30/h7,18-22,24,26-27,34H,1,8-17H2,2-6H3/t18-,19+,20-,21+,22-,24-,26+,27+,28-,29+,30+/m1/s1",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "",
+    "stereoDbond": "",
+    "stereoSP3": "18-,19+,20-,21+,22-,24-,26+,27+,28-,29+,30+",
+    "stereoSP3inverted": "1",
+    "stereoType": "1",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEMBL1658",
+     "id": 1,
+     "longName": "ChEMBL",
+     "shortName": "chembl",
+     "url": "https://www.ebi.ac.uk/chembldb/compound/inspect/CHEMBL1658"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DB01256",
+     "id": 2,
+     "longName": "DrugBank",
+     "shortName": "drugbank",
+     "url": "https://go.drugbank.com/drugs/DB01256"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "G34",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/G34"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "G34",
+     "id": 5,
+     "longName": "Protein Data Bank in Europe",
+     "shortName": "pdbe",
+     "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/G34"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "4MG6O8991R",
+     "id": 14,
+     "longName": "FDA/USP Substance Registration System (SRS)",
+     "shortName": "fdasrs",
+     "url": "https://d20b1koi85gdl2.cloudfront.net/uniisearch/srs/unii/4MG6O8991R"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "23977320",
+     "id": 15,
+     "longName": "SureChEMBL",
+     "shortName": "surechembl",
+     "url": "https://www.surechembl.org/chemical/23977320"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Molport-023-220-081",
+     "id": 28,
+     "longName": "MolPort",
+     "shortName": "molport",
+     "url": "https://www.molport.com/shop/compound/Molport-023-220-081"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "2371",
+     "id": 34,
+     "longName": "DrugCentral",
+     "shortName": "drugcentral",
+     "url": "https://drugcentral.org/drugcard/2371"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00133848",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00133848"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00133874",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00133874"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00539994",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00539994"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00555061",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00555061"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00684177",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00684177"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00856089",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00856089"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00871208",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00871208"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00903279",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00903279"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01064947",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01064947"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01126268",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01126268"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01397461",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01397461"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01461668",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01461668"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01812382",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01812382"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03304873",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03304873"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "PD016155",
+     "id": 49,
+     "longName": "Probes&Drugs",
+     "shortName": "probes_and_drugs",
+     "url": "https://www.probes-drugs.org/compounds/PD016155"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Retapamulin",
+     "id": 84,
+     "longName": "Wikipedia",
+     "shortName": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Retapamulin"
+    }
+   ],
+   "standardInchiKey": "STZYTFJPGGDRJD-NHUWBDDWSA-N",
+   "uci": 541796
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

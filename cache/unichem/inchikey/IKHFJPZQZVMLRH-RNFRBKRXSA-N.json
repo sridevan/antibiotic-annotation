@@ -1,0 +1,100 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "",
+    "connections": "1-13(5-9(16)17)12-8(15)3-6(11)2-7(14)4-10",
+    "formula": "C9H20N4O4",
+    "hAtoms": "6-7,14H,2-5,10-11H2,1H3,(H,12,15)(H,16,17)",
+    "inchi": "InChI=1S/C9H20N4O4/c1-13(5-9(16)17)12-8(15)3-6(11)2-7(14)4-10/h6-7,14H,2-5,10-11H2,1H3,(H,12,15)(H,16,17)/t6-,7-/m1/s1",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "",
+    "stereoDbond": "",
+    "stereoSP3": "6-,7-",
+    "stereoSP3inverted": "1",
+    "stereoType": "1",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEMBL78628",
+     "id": 1,
+     "longName": "ChEMBL",
+     "shortName": "chembl",
+     "url": "https://www.ebi.ac.uk/chembldb/compound/inspect/CHEMBL78628"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NEG",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/NEG"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NEG",
+     "id": 5,
+     "longName": "Protein Data Bank in Europe",
+     "shortName": "pdbe",
+     "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/NEG"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEBI:198310",
+     "id": 7,
+     "longName": "ChEBI",
+     "shortName": "chebi",
+     "url": "https://www.ebi.ac.uk/chebi/CHEBI:198310"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "B15L87Q2HQ",
+     "id": 14,
+     "longName": "FDA/USP Substance Registration System (SRS)",
+     "shortName": "fdasrs",
+     "url": "https://d20b1koi85gdl2.cloudfront.net/uniisearch/srs/unii/B15L87Q2HQ"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "564074",
+     "id": 15,
+     "longName": "SureChEMBL",
+     "shortName": "surechembl",
+     "url": "https://www.surechembl.org/chemical/564074"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "11118411",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11118411"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DTXSID701043349",
+     "id": 32,
+     "longName": "EPA (Environmental Protection Agency) CompTox Dashboard",
+     "shortName": "comptox",
+     "url": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID701043349"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "PD192544",
+     "id": 49,
+     "longName": "Probes&Drugs",
+     "shortName": "probes_and_drugs",
+     "url": "https://www.probes-drugs.org/compounds/PD192544"
+    }
+   ],
+   "standardInchiKey": "IKHFJPZQZVMLRH-RNFRBKRXSA-N",
+   "uci": 98013
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

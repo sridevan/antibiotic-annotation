@@ -1,0 +1,204 @@
+{
+ "chebi_id": "CHEBI:15740",
+ "chebi_release": "255",
+ "definition": "A monocarboxylic acid anion that is the conjugate base of formic acid. Induces severe metabolic acidosis and ocular injury in human subjects.",
+ "inchikey": "BDAGIHXWWSANSR-UHFFFAOYSA-M",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:190475",
+   "target_name": "caesium formate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:63880",
+   "target_name": "ethylammonium formate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:62965",
+   "target_name": "sodium formate"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:30751",
+   "target_name": "formic acid"
+  }
+ ],
+ "is_a": [
+  "CHEBI:35757"
+ ],
+ "name": "formate",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25696",
+  "CHEBI:25699",
+  "CHEBI:25741",
+  "CHEBI:25806",
+  "CHEBI:29067",
+  "CHEBI:33273",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35406",
+  "CHEBI:35757",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:37577",
+  "CHEBI:50860"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:30751",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:45+00:00",
+ "roles": [
+  "CHEBI:75772",
+  "CHEBI:77746"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "formate",
+   "chebi_accession": "CHEBI:15740",
+   "default_structure": {
+    "smiles": "[H]C(=O)[O-]",
+    "standard_inchi_key": "BDAGIHXWWSANSR-UHFFFAOYSA-M"
+   },
+   "definition": "A monocarboxylic acid anion that is the conjugate base of formic acid. Induces severe metabolic acidosis and ocular injury in human subjects.",
+   "id": 15740,
+   "is_released": true,
+   "name": "formate",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 190475,
+      "init_name": "caesium formate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 63880,
+      "init_name": "ethylammonium formate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 62965,
+      "init_name": "sodium formate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 30751,
+      "init_name": "formic acid",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35757,
+      "final_name": "monocarboxylic acid anion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 30751,
+      "final_name": "formic acid",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:14276",
+    "CHEBI:24081"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:15740",
+   "definition": [
+    "A monocarboxylic acid anion that is the conjugate base of formic acid. Induces severe metabolic acidosis and ocular injury in human subjects."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35757"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25696",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_29067",
+    "http://purl.obolibrary.org/obo/CHEBI_33273",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35406",
+    "http://purl.obolibrary.org/obo/CHEBI_35757",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "formate"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "BDAGIHXWWSANSR-UHFFFAOYSA-M",
+   "isObsolete": false,
+   "label": [
+    "formate"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_30751"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "formate"
+ ]
+}

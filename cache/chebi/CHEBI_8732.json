@@ -1,0 +1,130 @@
+{
+ "chebi_id": "CHEBI:8732",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "WTHRRGMBUAHGNI-MJWHERSYSA-N",
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35213"
+ ],
+ "name": "Quinupristin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16670",
+  "CHEBI:23367",
+  "CHEBI:23643",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:25000",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33308",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:35213",
+  "CHEBI:35352",
+  "CHEBI:35701",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37622",
+  "CHEBI:38104",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:31+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "Quinupristin",
+   "chebi_accession": "CHEBI:8732",
+   "default_structure": {
+    "smiles": "[H][C@@]12CCCN1C(=O)[C@@H](CC)NC(=O)[C@@H](NC(=O)c1ncccc1O)[C@@H](C)OC(=O)[C@H](c1ccccc1)NC(=O)C1CC(=O)C(CS[C@@H]3CN4CCC3CC4)CN1C(=O)[C@H](Cc1ccc(N(C)C)cc1)N(C)C2=O",
+    "standard_inchi_key": "WTHRRGMBUAHGNI-MJWHERSYSA-N"
+   },
+   "definition": null,
+   "id": 8732,
+   "is_released": true,
+   "name": "Quinupristin",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35213,
+      "final_name": "cyclodepsipeptide",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 2
+  },
+  "ols4": {
+   "curie": "CHEBI:8732",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35213"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16670",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23643",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_25000",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33308",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_35213",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35701",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_38104",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "WTHRRGMBUAHGNI-MJWHERSYSA-N",
+   "isObsolete": false,
+   "label": [
+    "Quinupristin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 2,
+ "synonyms": []
+}

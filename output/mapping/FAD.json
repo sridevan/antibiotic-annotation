@@ -1,0 +1,102 @@
+{
+  "identity": {
+    "input_id": "FAD",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "FLAVIN-ADENINE DINUCLEOTIDE",
+    "ccd_type": "non-polymer",
+    "formula": "C27 H33 N9 O15 P2",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C27H33N9O15P2/c1-10-3-12-13(4-11(10)2)35(24-18(32-12)25(42)34-27(43)33-24)5-14(37)19(39)15(38)6-48-52(44,45)51-53(46,47)49-7-16-20(40)21(41)26(50-16)36-9-31-17-22(28)29-8-30-23(17)36/h3-4,8-9,14-16,19-21,26,37-41H,5-7H2,1-2H3,(H,44,45)(H,46,47)(H2,28,29,30)(H,34,42,43)/t14-,15+,16+,19-,20+,21+,26+/m0/s1",
+    "inchikey": "VWWQXMAJTJZDQX-UYBVJOGSSA-N",
+    "smiles": "Cc1cc2c(cc1C)N(C3=NC(=O)NC(=O)C3=N2)C[C@@H]([C@@H]([C@@H](CO[P@@](=O)(O)O[P@](=O)(O)OC[C@@H]4[C@H]([C@H]([C@@H](O4)n5cnc6c5ncnc6N)O)O)O)O)O",
+    "synonyms": [
+      "FLAVIN-ADENINE DINUCLEOTIDE",
+      "[(2R,3S,4R,5R)-5-(6-amino-9H-purin-9-yl)-3,4-dihydroxytetrahydrofuran-2-yl]methyl (2R,3S,4S)-5-(7,8-dimethyl-2,4-dioxo-3,4-dihydrobenzo[g]pteridin-10(2H)-yl)-2,3,4-trihydroxypentyl dihydrogen diphosphate (non-preferred name)",
+      "[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxy-oxolan-2-yl]methyl [[(2R,3S,4S)-5-(7,8-dimethyl-2,4-dioxo-benzo[g]pteridin-10-yl)-2,3,4-trihydroxy-pentoxy]-hydroxy-phosphoryl] hydrogen phosphate",
+      "Flavine adenine dinucleotide",
+      "Adenosine 5'-(trihydrogen pyrophosphate), 5'-5'-ester with riboflavine",
+      "Flavin-Adenine Dinucleotide",
+      "FAD",
+      "Riboflavin 5'-(trihydrogen diphosphate), 5'-5'-ester with adenosine",
+      "Flavin adenine dinucleotide",
+      "adenosine 5'-[3-(riboflavin-5'-yl) dihydrogen diphosphate]",
+      "Riboflavin 5'-adenosine diphosphate",
+      "Flavin adenine dinucleotide disodium"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB03147"
+      ],
+      "RESID": [
+        "AA0143",
+        "AA0144",
+        "AA0145",
+        "AA0221",
+        "AA0436",
+        "AA0522"
+      ],
+      "PubChem": [
+        "643975"
+      ],
+      "CAS": [
+        "146-14-5"
+      ],
+      "ChEBI": [
+        "CHEBI:16238"
+      ],
+      "ChEMBL": [
+        "CHEMBL1232653"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:40+00:00",
+    "inchikey_connectivity": "VWWQXMAJTJZDQX"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "direct_ccd_crossref",
+    "source_id": "FAD",
+    "primary_chebi_id": "CHEBI:16238",
+    "equivalent_chebi_ids": [
+      "CHEBI:16238"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:16238",
+        "inchikey": "VWWQXMAJTJZDQX-UYBVJOGSSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
+      }
+    ],
+    "notes": [
+      "RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
+    ],
+    "resolved": true
+  },
+  "primary_name": "FAD",
+  "equivalent_names": {
+    "CHEBI:16238": "FAD"
+  },
+  "family": {
+    "member_of": [],
+    "forms": [
+      {
+        "chebi_id": "CHEBI:57692",
+        "name": "FAD(3-)",
+        "relation": "is_conjugate_acid_of"
+      },
+      {
+        "chebi_id": "CHEBI:57692",
+        "name": "FAD(3−)",
+        "relation": "is_conjugate_base_of"
+      }
+    ]
+  }
+}

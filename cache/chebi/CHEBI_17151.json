@@ -1,0 +1,261 @@
+{
+ "chebi_id": "CHEBI:17151",
+ "chebi_release": "255",
+ "definition": "A pentitol (five-carbon sugar alcohol) having <i>meso</i>-configuration, being derived from xylose by reduction of the carbonyl group.",
+ "inchikey": "HEBKCHPVOIAQTA-SCDXWVJYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16772",
+   "target_name": "xylitol 5-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:370252",
+   "target_name": "xylitol 5-phosphate(2−)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:25899"
+ ],
+ "name": "xylitol",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16646",
+  "CHEBI:17522",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:25899",
+  "CHEBI:26191",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:44+00:00",
+ "roles": [
+  "CHEBI:33282",
+  "CHEBI:35526",
+  "CHEBI:50505",
+  "CHEBI:50904",
+  "CHEBI:59174",
+  "CHEBI:75771",
+  "CHEBI:75772",
+  "CHEBI:77746",
+  "CHEBI:84735"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "xylitol",
+   "chebi_accession": "CHEBI:17151",
+   "default_structure": {
+    "smiles": "OC[C@@H](O)[C@H](O)[C@@H](O)CO",
+    "standard_inchi_key": "HEBKCHPVOIAQTA-SCDXWVJYSA-N"
+   },
+   "definition": "A pentitol (five-carbon sugar alcohol) having <i>meso</i>-configuration, being derived from xylose by reduction of the carbonyl group.",
+   "id": 17151,
+   "is_released": true,
+   "name": "xylitol",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 16772,
+      "init_name": "xylitol 5-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 370252,
+      "init_name": "xylitol 5-phosphate(2−)",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 35526,
+      "final_name": "hypoglycemic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 84735,
+      "final_name": "algal metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50505,
+      "final_name": "sweetening agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50904,
+      "final_name": "allergen",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 59174,
+      "final_name": "hapten",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25899,
+      "final_name": "pentitol",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:10078",
+    "CHEBI:15328",
+    "CHEBI:27339",
+    "CHEBI:46522",
+    "CHEBI:60939",
+    "CHEBI:253147"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17151",
+   "definition": [
+    "A pentitol (five-carbon sugar alcohol) having <i>meso</i>-configuration, being derived from xylose by reduction of the carbonyl group."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25899"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_17522",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_25899",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(2R,3r,4S)-pentane-1,2,3,4,5-pentol"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "meso-xylitol"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "HEBKCHPVOIAQTA-SCDXWVJYSA-N",
+   "isObsolete": false,
+   "label": [
+    "xylitol"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35526"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50505"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50904"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_59174"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_84735"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(2R,3r,4S)-pentane-1,2,3,4,5-pentol",
+  "meso-xylitol"
+ ]
+}

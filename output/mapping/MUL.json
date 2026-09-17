@@ -1,0 +1,76 @@
+{
+  "identity": {
+    "input_id": "MUL",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "TIAMULIN",
+    "ccd_type": "non-polymer",
+    "formula": "C28 H47 N O4 S",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C28H47NO4S/c1-8-26(6)17-22(33-23(31)18-34-16-15-29(9-2)10-3)27(7)19(4)11-13-28(20(5)25(26)32)14-12-21(30)24(27)28/h8,19-20,22,24-25,32H,1,9-18H2,2-7H3/t19-,20+,22-,24+,25+,26-,27+,28+/m1/s1",
+    "inchikey": "UURAUHCOJAIIRQ-QGLSALSOSA-N",
+    "smiles": "CCN(CC)CCSCC(=O)O[C@@H]1C[C@@]([C@H]([C@@H]([C@@]23CC[C@H]([C@@]1([C@@H]2C(=O)CC3)C)C)C)O)(C)C=C",
+    "synonyms": [
+      "TIAMULIN",
+      "(4R,5S,6S,8R,9AR,10R)-5-HYDROXY-4,6,9,10-TETRAMETHYL-1-OXO-6-VINYLDECAHYDRO-3A,9-PROPANOCYCLOPENTA[8]ANNULEN-8-YL {[2-(DIETHYLAMINO)ETHYL]SULFANYL}ACETATE",
+      "(3aS,4R,5S,6S,8R,9R,9aR,10R)-6-ethenyl-5-hydroxy-4,6,9,10-tetramethyl-1-oxodecahydro-3a,9-propanocyclopenta[8]annulen-8-yl {[2-(diethylamino)ethyl]sulfanyl}acetate",
+      "Tiamulinum",
+      "Tiamuline",
+      "Tiamulin hydrogen fumarate",
+      "Tiamulina",
+      "Tiamulin"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB11468"
+      ],
+      "PubChem": [
+        "656958"
+      ],
+      "ChEBI": [
+        "CHEBI:44137"
+      ],
+      "ChEMBL": [
+        "CHEMBL1234521"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:49+00:00",
+    "inchikey_connectivity": "UURAUHCOJAIIRQ"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "direct_ccd_crossref",
+    "source_id": "MUL",
+    "primary_chebi_id": "CHEBI:44137",
+    "equivalent_chebi_ids": [
+      "CHEBI:44137"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:44137",
+        "inchikey": "UURAUHCOJAIIRQ-QGLSALSOSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
+      }
+    ],
+    "notes": [
+      "RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
+    ],
+    "resolved": true
+  },
+  "primary_name": "tiamulin",
+  "equivalent_names": {
+    "CHEBI:44137": "tiamulin"
+  },
+  "family": {
+    "member_of": [],
+    "forms": []
+  }
+}

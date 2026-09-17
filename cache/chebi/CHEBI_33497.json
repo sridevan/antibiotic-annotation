@@ -1,0 +1,84 @@
+{
+ "chebi_id": "CHEBI:33497",
+ "chebi_release": "255",
+ "definition": "A molecular entity containing one or more atoms of a transition element.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23367"
+ ],
+ "name": "transition element molecular entity",
+ "num_descendants": 1136,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:27081",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:46:05+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "transition element molecular entity",
+   "chebi_accession": "CHEBI:33497",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A molecular entity containing one or more atoms of a transition element.",
+   "id": 33497,
+   "is_released": true,
+   "name": "transition element molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 27081,
+      "final_name": "transition element atom",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 23367,
+      "final_name": "molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33497",
+   "definition": [
+    "A molecular entity containing one or more atoms of a transition element."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431"
+   ],
+   "isObsolete": false,
+   "label": [
+    "transition element molecular entity"
+   ],
+   "numDescendants": 1136.0,
+   "numHierarchicalDescendants": 1136.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_27081"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

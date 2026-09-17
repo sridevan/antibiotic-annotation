@@ -1,0 +1,761 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:45+00:00",
+ "chem_comp": {
+  "formula": "H2 O2",
+  "formula_weight": 34.015,
+  "id": "PEO",
+  "name": "HYDROGEN PEROXIDE",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "1999-07-08T00:00:00.000+00:00",
+  "pdbx_modified_date": "2024-09-27T00:00:00.000+00:00",
+  "pdbx_pcm": "N",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "PEO",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "PEO",
+   "date": "1999-07-08T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "PEO",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Modify coordinates",
+   "comp_id": "PEO",
+   "date": "2021-06-23T00:00:00.000+00:00",
+   "ordinal": 3
+  },
+  {
+   "action_type": "Modify PCM",
+   "comp_id": "PEO",
+   "date": "2024-09-27T00:00:00.000+00:00",
+   "ordinal": 4
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "PEO",
+   "descriptor": "OO",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "PEO",
+   "descriptor": "InChI=1S/H2O2/c1-2/h1-2H",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "PEO",
+   "descriptor": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  },
+  {
+   "comp_id": "PEO",
+   "descriptor": "OO",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "PEO",
+   "descriptor": "OO",
+   "program": "CACTVS",
+   "program_version": "3.385",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "PEO",
+   "descriptor": "OO",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.7",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "PEO",
+   "descriptor": "OO",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.7",
+   "type": "SMILES"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "PEO",
+   "identifier": "hydrogen peroxide",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "PEO",
+   "identifier": "hydrogen peroxide",
+   "program": "OpenEye OEToolkits",
+   "program_version": "2.0.7",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_annotation": [
+  {
+   "annotation_id": "D08AX01",
+   "annotation_lineage": [
+    {
+     "id": "D",
+     "name": "DERMATOLOGICALS"
+    },
+    {
+     "depth": 1,
+     "id": "D08",
+     "name": "ANTISEPTICS AND DISINFECTANTS"
+    },
+    {
+     "depth": 2,
+     "id": "D08A",
+     "name": "ANTISEPTICS AND DISINFECTANTS"
+    },
+    {
+     "depth": 3,
+     "id": "D08AX",
+     "name": "Other antiseptics and disinfectants in ATC"
+    },
+    {
+     "depth": 4,
+     "id": "D08AX01",
+     "name": "hydrogen peroxide"
+    }
+   ],
+   "assignment_version": "5.1",
+   "description": "ATC matching InChIKey in DrugBank",
+   "name": "hydrogen peroxide",
+   "provenance_source": "DrugBank",
+   "type": "ATC"
+  },
+  {
+   "annotation_id": "S02AA06",
+   "annotation_lineage": [
+    {
+     "id": "S",
+     "name": "SENSORY ORGAN DRUGS"
+    },
+    {
+     "depth": 1,
+     "id": "S02",
+     "name": "OTOLOGICALS"
+    },
+    {
+     "depth": 2,
+     "id": "S02A",
+     "name": "ANTIINFECTIVE DRUGS, OTOLOGIC"
+    },
+    {
+     "depth": 3,
+     "id": "S02AA",
+     "name": "Antiinfectives"
+    },
+    {
+     "depth": 4,
+     "id": "S02AA06",
+     "name": "hydrogen peroxide"
+    }
+   ],
+   "assignment_version": "5.1",
+   "description": "ATC matching InChIKey in DrugBank",
+   "name": "hydrogen peroxide",
+   "provenance_source": "DrugBank",
+   "type": "ATC"
+  },
+  {
+   "annotation_id": "D11AX25",
+   "annotation_lineage": [
+    {
+     "id": "D",
+     "name": "DERMATOLOGICALS"
+    },
+    {
+     "depth": 1,
+     "id": "D11",
+     "name": "OTHER DERMATOLOGICAL PREPARATIONS in ATC"
+    },
+    {
+     "depth": 2,
+     "id": "D11A",
+     "name": "OTHER DERMATOLOGICAL PREPARATIONS in ATC"
+    },
+    {
+     "depth": 3,
+     "id": "D11AX",
+     "name": "OTHER DERMATOLOGICAL PREPARATIONS IN ATC"
+    },
+    {
+     "depth": 4,
+     "id": "D11AX25",
+     "name": "hydrogen peroxide"
+    }
+   ],
+   "assignment_version": "5.1",
+   "description": "ATC matching InChIKey in DrugBank",
+   "name": "hydrogen peroxide",
+   "provenance_source": "DrugBank",
+   "type": "ATC"
+  },
+  {
+   "annotation_id": "A01AB02",
+   "annotation_lineage": [
+    {
+     "id": "A",
+     "name": "ALIMENTARY TRACT AND METABOLISM DRUGS"
+    },
+    {
+     "depth": 1,
+     "id": "A01",
+     "name": "STOMATOLOGICAL PREPARATIONS"
+    },
+    {
+     "depth": 2,
+     "id": "A01A",
+     "name": "STOMATOLOGICAL PREPARATIONS"
+    },
+    {
+     "depth": 3,
+     "id": "A01AB",
+     "name": "Antiinfectives and antiseptics for local oral treatment"
+    },
+    {
+     "depth": 4,
+     "id": "A01AB02",
+     "name": "hydrogen peroxide"
+    }
+   ],
+   "assignment_version": "5.1",
+   "description": "ATC matching InChIKey in DrugBank",
+   "name": "hydrogen peroxide",
+   "provenance_source": "DrugBank",
+   "type": "ATC"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "atc_codes": [
+   "D08AX01",
+   "S02AA06",
+   "D11AX25",
+   "A01AB02"
+  ],
+  "comp_id": "PEO",
+  "drugbank_id": "DB11091",
+  "rcsb_id": "PEO"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/H2O2/c1-2/h1-2H",
+  "InChIKey": "MHAJPDPJQMAIIY-UHFFFAOYSA-N",
+  "SMILES": "OO",
+  "SMILES_stereo": "OO",
+  "comp_id": "PEO"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 4,
+  "atom_count_chiral": 0,
+  "atom_count_heavy": 2,
+  "bond_count": 3,
+  "bond_count_aromatic": 0,
+  "comp_id": "PEO",
+  "initial_deposition_date": "1999-07-08T00:00:00.000+00:00",
+  "initial_release_date": "1994-01-31T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2024-09-27T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "PEO",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB11091",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 2,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "MUXHIX",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 3,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "JESXEN",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 4,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "KOXPHY11",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 5,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BOHLOC",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 6,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "CAZHUH",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 7,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "KULMUA",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 8,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "KULMOU",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 9,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "TANCES",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 10,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BONGIW",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 11,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BAMXAR",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 12,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "OJOCOH",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 13,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ANINAO",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 14,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "HOQSEO",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 15,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "KUMRER",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 16,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "TANCAO",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 17,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "NAOXAP11",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 18,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ANIMUH",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 19,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "OHIJEX",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 20,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ANINES",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 21,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BAFGOH",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 22,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BONGES",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 23,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AMOXPH10",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 24,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BAFJUQ",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 25,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "CELNIS",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 26,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "POMQIU",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 27,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "MAQRIH",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 28,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "OPHENB10",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 29,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "JOZZED",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 30,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "RIKJAW",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 31,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "QUYRUA",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 32,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "DOJMIZ",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 33,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "IGIHUD",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 34,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "HOJCAN",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 35,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "DATHIQ",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 36,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "HOQSIS",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 37,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "DOSPOT",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 38,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "CAXCAF",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 39,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "RASBAP",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 40,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "IGIJAL",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 41,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "POMQUG",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 42,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "GADOXP10",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 43,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "NAOXAP",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 44,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "KOXPHY10",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 45,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "JELQOJ",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 46,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "RBOXPH10",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 47,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "GUPMEL",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 48,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "QAGXAB",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 49,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AYAQID",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 50,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "RUYDOH",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 51,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1008189",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 52,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "784",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 53,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "22326046",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 54,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "7722-84-1",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 55,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "8007-30-5",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 56,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEBI:16240",
+   "resource_name": "ChEBI"
+  },
+  {
+   "comp_id": "PEO",
+   "ordinal": 57,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEMBL71595",
+   "resource_name": "ChEMBL"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "PEO",
+   "name": "HYDROGEN PEROXIDE",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "PEO",
+   "name": "hydrogen peroxide",
+   "ordinal": 2,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "PEO",
+   "name": "hydrogen peroxide",
+   "ordinal": 3,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "PEO",
+   "name": "Hydrogen peroxide",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "PEO",
+   "interaction_type": "target",
+   "name": "Tyrosine-protein phosphatase non-receptor type 1",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P18031",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "PEO",
+   "interaction_type": "enzyme",
+   "name": "Glutathione peroxidase 1",
+   "ordinal": 2,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P07203",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "substrate"
+   ]
+  },
+  {
+   "comp_id": "PEO",
+   "interaction_type": "enzyme",
+   "name": "Catalase",
+   "ordinal": 3,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P04040",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "substrate"
+   ]
+  },
+  {
+   "comp_id": "PEO",
+   "interaction_type": "enzyme",
+   "name": "Alkaline phosphatase, germ cell type",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P10696",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "inhibitor"
+   ]
+  }
+ ],
+ "rcsb_id": "PEO"
+}

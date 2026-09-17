@@ -1,0 +1,268 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:48+00:00",
+ "chem_comp": {
+  "formula": "C21 H41 N5 O11",
+  "formula_weight": 539.577,
+  "id": "AM2",
+  "name": "APRAMYCIN",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "2005-02-17T00:00:00.000+00:00",
+  "pdbx_modified_date": "2020-05-26T00:00:00.000+00:00",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "AM2",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "AM2",
+   "date": "2005-02-17T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "AM2",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Modify synonyms",
+   "comp_id": "AM2",
+   "date": "2020-05-26T00:00:00.000+00:00",
+   "ordinal": 3
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "AM2",
+   "descriptor": "O3C(OC1OC(CO)C(N)C(O)C1O)C(NC)C(O)C4OC(OC2C(N)CC(N)C(O)C2O)C(N)CC34",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "AM2",
+   "descriptor": "CN[C@H]1[C@@H](O)[C@H]2O[C@H](O[C@@H]3[C@@H](N)C[C@@H](N)[C@H](O)[C@H]3O)[C@H](N)C[C@@H]2O[C@@H]1O[C@H]4O[C@H](CO)[C@@H](N)[C@H](O)[C@H]4O",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "AM2",
+   "descriptor": "CN[CH]1[CH](O)[CH]2O[CH](O[CH]3[CH](N)C[CH](N)[CH](O)[CH]3O)[CH](N)C[CH]2O[CH]1O[CH]4O[CH](CO)[CH](N)[CH](O)[CH]4O",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "AM2",
+   "descriptor": "CN[C@H]1[C@H]([C@@H]2[C@H](C[C@H]([C@H](O2)O[C@@H]3[C@H](C[C@H]([C@@H]([C@H]3O)O)N)N)N)O[C@@H]1O[C@@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)N)O)O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "AM2",
+   "descriptor": "CNC1C(C2C(CC(C(O2)OC3C(CC(C(C3O)O)N)N)N)OC1OC4C(C(C(C(O4)CO)N)O)O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "AM2",
+   "descriptor": "InChI=1S/C21H41N5O11/c1-26-11-14(30)18-8(33-20(11)37-21-16(32)13(29)10(25)9(4-27)34-21)3-7(24)19(36-18)35-17-6(23)2-5(22)12(28)15(17)31/h5-21,26-32H,2-4,22-25H2,1H3/t5-,6+,7-,8+,9-,10-,11+,12+,13+,14-,15-,16-,17-,18+,19+,20-,21-/m1/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "AM2",
+   "descriptor": "XZNUGFQTQHRASN-XQENGBIVSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "AM2",
+   "identifier": "(2R,3R,4S,5S,6S)-5-amino-2-{[(2R,3S,4R,4aR,6S,7R,8aS)-7-amino-6-{[(1R,2R,3S,4R,6S)-4,6-diamino-2,3-dihydroxycyclohexyl]oxy}-4-hydroxy-3-(methylamino)octahydropyrano[3,2-b]pyran-2-yl]oxy}-6-(hydroxymethyl)tetrahydro-2H-pyran-3,4-diol (non-preferred name)",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "AM2",
+   "identifier": "(2R,3R,4S,5S,6S)-2-[[(2R,3S,4R,4aR,6S,7R,8aS)-7-amino-6-[(1R,2R,3S,4R,6S)-4,6-diamino-2,3-dihydroxy-cyclohexyl]oxy-4-hydroxy-3-methylamino-2,3,4,4a,6,7,8,8a-octahydropyrano[2,3-e]pyran-2-yl]oxy]-5-amino-6-(hydroxymethyl)oxane-3,4-diol",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "AM2",
+  "drugbank_id": "DB04626",
+  "rcsb_id": "AM2"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C21H41N5O11/c1-26-11-14(30)18-8(33-20(11)37-21-16(32)13(29)10(25)9(4-27)34-21)3-7(24)19(36-18)35-17-6(23)2-5(22)12(28)15(17)31/h5-21,26-32H,2-4,22-25H2,1H3/t5-,6+,7-,8+,9-,10-,11+,12+,13+,14-,15-,16-,17-,18+,19+,20-,21-/m1/s1",
+  "InChIKey": "XZNUGFQTQHRASN-XQENGBIVSA-N",
+  "SMILES": "CNC1C(C2C(CC(C(O2)OC3C(CC(C(C3O)O)N)N)N)OC1OC4C(C(C(C(O4)CO)N)O)O)O",
+  "SMILES_stereo": "CN[C@H]1[C@H]([C@@H]2[C@H](C[C@H]([C@H](O2)O[C@@H]3[C@H](C[C@H]([C@@H]([C@H]3O)O)N)N)N)O[C@@H]1O[C@@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)N)O)O)O",
+  "comp_id": "AM2"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 78,
+  "atom_count_chiral": 17,
+  "atom_count_heavy": 37,
+  "bond_count": 81,
+  "bond_count_aromatic": 0,
+  "comp_id": "AM2",
+  "initial_deposition_date": "2005-02-17T00:00:00.000+00:00",
+  "initial_release_date": "2005-06-07T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2020-05-26T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "AM2",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB04626",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "AM2",
+   "ordinal": 2,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "3081545",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "AM2",
+   "ordinal": 3,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "37321-09-8",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "AM2",
+   "ordinal": 4,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEBI:2790",
+   "resource_name": "ChEBI"
+  },
+  {
+   "comp_id": "AM2",
+   "ordinal": 5,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEMBL1230961",
+   "resource_name": "ChEMBL"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "AM2",
+   "name": "APRAMYCIN",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "NEBRAMYCIN II",
+   "ordinal": 2,
+   "provenance_source": "PDB Reference Data",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "4-O-(3ALPHA-AMINO-6ALPHA-((4-AMINO-4-DEOXY-ALPHA-D-GLUCOPYRANOSYL)OXY)-2,3,4,5ABETA,6,7,8,8AALPHA-OCTAHYDRO-8BETA-HYDROXY-7BETA-(METHYLAMINO)PYRANO(3,2-B)PYRAN-2ALPHA-YL)-2-DEOXY-D-STREPTAMINE",
+   "ordinal": 3,
+   "provenance_source": "PDB Reference Data",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "(2R,3R,4S,5S,6S)-5-amino-2-{[(2R,3S,4R,4aR,6S,7R,8aS)-7-amino-6-{[(1R,2R,3S,4R,6S)-4,6-diamino-2,3-dihydroxycyclohexyl]oxy}-4-hydroxy-3-(methylamino)octahydropyrano[3,2-b]pyran-2-yl]oxy}-6-(hydroxymethyl)tetrahydro-2H-pyran-3,4-diol (non-preferred name)",
+   "ordinal": 4,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "(2R,3R,4S,5S,6S)-2-[[(2R,3S,4R,4aR,6S,7R,8aS)-7-amino-6-[(1R,2R,3S,4R,6S)-4,6-diamino-2,3-dihydroxy-cyclohexyl]oxy-4-hydroxy-3-methylamino-2,3,4,4a,6,7,8,8a-octahydropyrano[2,3-e]pyran-2-yl]oxy]-5-amino-6-(hydroxymethyl)oxane-3,4-diol",
+   "ordinal": 5,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "Apramycinum",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "Nebramycin II",
+   "ordinal": 7,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "Apramycin sulfate",
+   "ordinal": 8,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "4-O-((8R)-2-amino-8-O-(4-amino-4-deoxy-α-D-glucopyranosyl)-2,3,7-trideoxy-7-(methylamino)-D-glycero-α-D-allo-octodialdo-1,5:8,4-dipyranos-1-yl)-2-deoxy-D-streptamine",
+   "ordinal": 9,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "4-O-(3α-amino-6α-((4-amino-4-deoxy-α-D-glucopyranosyl)oxy)-2,3,4,5aβ,6,7,8,8aα-octahydro-8β-hydroxy-7β-(methylamino)pyrano(3,2-b)pyran-2α-yl)-2-deoxy-D-streptamine",
+   "ordinal": 10,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "Apramycine",
+   "ordinal": 11,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "Apramicina",
+   "ordinal": 12,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "AM2",
+   "name": "Apramycin",
+   "ordinal": 13,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "AM2",
+   "interaction_type": "target",
+   "name": "16S ribosomal RNA",
+   "ordinal": 1,
+   "provenance_source": "DrugBank"
+  }
+ ],
+ "rcsb_id": "AM2"
+}

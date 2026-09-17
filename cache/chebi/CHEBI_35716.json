@@ -1,0 +1,140 @@
+{
+ "chebi_id": "CHEBI:35716",
+ "chebi_release": "255",
+ "definition": "A nitro compound having the nitro group (‒NO<small><sub>2</sub></small>) attached to a carbon atom.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "is_tautomer_of",
+   "target_id": "CHEBI:136622",
+   "target_name": "<em>aci</em>-nitro compound"
+  }
+ ],
+ "is_a": [
+  "CHEBI:35715",
+  "CHEBI:72695"
+ ],
+ "name": "C-nitro compound",
+ "num_descendants": 966,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25367",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35715",
+  "CHEBI:36357",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_tautomer_of",
+   "target_id": "CHEBI:136622",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:46:57+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "C-nitro compound",
+   "chebi_accession": "CHEBI:35716",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A nitro compound having the nitro group (‒NO<small><sub>2</sub></small>) attached to a carbon atom.",
+   "id": 35716,
+   "is_released": true,
+   "name": "<em>C</em>-nitro compound",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 136622,
+      "init_name": "<em>aci</em>-nitro compound",
+      "relation_type": "is tautomer of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 35715,
+      "final_name": "nitro compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 72695,
+      "final_name": "organic molecule",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 136622,
+      "final_name": "<em>aci</em>-nitro compound",
+      "relation_type": "is tautomer of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35716",
+   "definition": [
+    "A nitro compound having the nitro group (‒NO<small><sub>2</sub></small>) attached to a carbon atom."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35715",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35715",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "C-nitro compounds"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "C-nitro compound"
+   ],
+   "numDescendants": 966.0,
+   "numHierarchicalDescendants": 966.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018036",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_136622"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "C-nitro compounds"
+ ]
+}

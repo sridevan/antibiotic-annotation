@@ -1,0 +1,133 @@
+{
+ "chebi_id": "CHEBI:4194",
+ "chebi_release": "255",
+ "definition": "A hexose that has <small>D</small>-configuration at position 5.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:4195",
+   "target_name": "<small>D</small>-hexose 6-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:63386",
+   "target_name": "<small>D</small>-hexose derivative"
+  }
+ ],
+ "is_a": [
+  "CHEBI:18133"
+ ],
+ "name": "D-hexose",
+ "num_descendants": 66,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16646",
+  "CHEBI:18133",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35381",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:51+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "D-hexose",
+   "chebi_accession": "CHEBI:4194",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A hexose that has <small>D</small>-configuration at position 5.",
+   "id": 4194,
+   "is_released": true,
+   "name": "<small>D</small>-hexose",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 4195,
+      "init_name": "<small>D</small>-hexose 6-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 63386,
+      "init_name": "<small>D</small>-hexose derivative",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 18133,
+      "final_name": "hexose",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:4194",
+   "definition": [
+    "A hexose that has <small>D</small>-configuration at position 5."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_18133"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_18133",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35381",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "D-hexopyranose"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "D-hexose"
+   ],
+   "numDescendants": 66.0,
+   "numHierarchicalDescendants": 66.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "D-hexopyranose"
+ ]
+}

@@ -1,0 +1,298 @@
+{
+ "chebi_id": "CHEBI:27902",
+ "chebi_release": "255",
+ "definition": "A broad-spectrum polyketide antibiotic produced by the <em>Streptomyces genus</em> of actinobacteria.",
+ "inchikey": "OFVLGDICTFRJMM-WESIUVDSSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:134017",
+   "target_name": "11a-hydroxytetracycline"
+  },
+  {
+   "relation": "is_tautomer_of",
+   "target_id": "CHEBI:77932",
+   "target_name": "tetracycline zwitterion"
+  }
+ ],
+ "is_a": [
+  "CHEBI:139592",
+  "CHEBI:26895"
+ ],
+ "name": "tetracycline",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:139588",
+  "CHEBI:139592",
+  "CHEBI:17087",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:26188",
+  "CHEBI:26878",
+  "CHEBI:26895",
+  "CHEBI:30879",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_tautomer_of",
+   "target_id": "CHEBI:77932",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:32+00:00",
+ "roles": [
+  "CHEBI:33281",
+  "CHEBI:33282",
+  "CHEBI:35441",
+  "CHEBI:35610",
+  "CHEBI:35705",
+  "CHEBI:35820",
+  "CHEBI:36047",
+  "CHEBI:48001",
+  "CHEBI:66981",
+  "CHEBI:76971",
+  "CHEBI:86327"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "tetracycline",
+   "chebi_accession": "CHEBI:27902",
+   "default_structure": {
+    "smiles": "[H][C@]12C[C@@]3([H])[C@H](N(C)C)C(O)=C(C(N)=O)C(=O)[C@@]3(O)C(O)=C1C(=O)c1c(O)cccc1[C@@]2(C)O",
+    "standard_inchi_key": "OFVLGDICTFRJMM-WESIUVDSSA-N"
+   },
+   "definition": "A broad-spectrum polyketide antibiotic produced by the <em>Streptomyces genus</em> of actinobacteria.",
+   "id": 27902,
+   "is_released": true,
+   "name": "tetracycline",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 134017,
+      "init_name": "11a-hydroxytetracycline",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 77932,
+      "init_name": "tetracycline zwitterion",
+      "relation_type": "is tautomer of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 35610,
+      "final_name": "antineoplastic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35705,
+      "final_name": "immunosuppressive agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35820,
+      "final_name": "antiprotozoal drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48001,
+      "final_name": "protein synthesis inhibitor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 66981,
+      "final_name": "ophthalmology drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 86327,
+      "final_name": "antifungal drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35441,
+      "final_name": "antiinfective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 139592,
+      "final_name": "tertiary α-hydroxy ketone",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 26895,
+      "final_name": "tetracyclines",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 77932,
+      "final_name": "tetracycline zwitterion",
+      "relation_type": "is tautomer of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:9474",
+    "CHEBI:26894",
+    "CHEBI:45729"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:27902",
+   "definition": [
+    "A broad-spectrum polyketide antibiotic produced by the <em>Streptomyces genus</em> of actinobacteria."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_139592",
+    "http://purl.obolibrary.org/obo/CHEBI_26895"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_139588",
+    "http://purl.obolibrary.org/obo/CHEBI_139592",
+    "http://purl.obolibrary.org/obo/CHEBI_17087",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26188",
+    "http://purl.obolibrary.org/obo/CHEBI_26878",
+    "http://purl.obolibrary.org/obo/CHEBI_26895",
+    "http://purl.obolibrary.org/obo/CHEBI_30879",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(4S,4aS,5aS,6S,12aS)-4-(dimethylamino)-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "OFVLGDICTFRJMM-WESIUVDSSA-N",
+   "isObsolete": false,
+   "label": [
+    "tetracycline"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33281"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35441"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35705"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35820"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48001"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_66981"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_86327"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018036",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77932"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(4S,4aS,5aS,6S,12aS)-4-(dimethylamino)-3,6,10,12,12a-pentahydroxy-6-methyl-1,11-dioxo-1,4,4a,5,5a,6,11,12a-octahydrotetracene-2-carboxamide"
+ ]
+}

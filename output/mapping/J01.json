@@ -1,0 +1,93 @@
+{
+  "identity": {
+    "input_id": "J01",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "(2R,3Z,5R)-3-(2-HYDROXYETHYLIDENE)-7-OXO-4-OXA-1-AZABICYCLO[3.2.0]HEPTANE-2-CARBOXYLIC ACID",
+    "ccd_type": "non-polymer",
+    "formula": "C8 H9 N O5",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C8H9NO5/c10-2-1-4-7(8(12)13)9-5(11)3-6(9)14-4/h1,6-7,10H,2-3H2,(H,12,13)/b4-1-/t6-,7-/m1/s1",
+    "inchikey": "HZZVJAQRINQKSD-PBFISZAISA-N",
+    "smiles": "C1[C@@H]2N(C1=O)[C@H](/C(=C/CO)/O2)C(=O)O",
+    "synonyms": [
+      "(2R,3Z,5R)-3-(2-HYDROXYETHYLIDENE)-7-OXO-4-OXA-1-AZABICYCLO[3.2.0]HEPTANE-2-CARBOXYLIC ACID",
+      "CLAVULANIC ACID",
+      "(2R,3Z,5R)-3-(2-hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo[3.2.0]heptane-2-carboxylic acid",
+      "ácido clavulánico",
+      "Clavulanic acid",
+      "Acidum clavulanicum",
+      "(Z)-(2R,5R)-3-(2-Hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo(3.2.0)heptane-2-carboxylic acid",
+      "Clavulanate",
+      "Clavulanate potassium",
+      "Clavulansäure",
+      "Acide clavulanique"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB00766"
+      ],
+      "PubChem": [
+        "5280980"
+      ],
+      "CAS": [
+        "58001-44-8"
+      ],
+      "ChEBI": [
+        "CHEBI:48947"
+      ],
+      "ChEMBL": [
+        "CHEMBL777"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:51+00:00",
+    "inchikey_connectivity": "HZZVJAQRINQKSD"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "direct_ccd_crossref",
+    "source_id": "J01",
+    "primary_chebi_id": "CHEBI:48947",
+    "equivalent_chebi_ids": [
+      "CHEBI:48947"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:48947",
+        "inchikey": "HZZVJAQRINQKSD-PBFISZAISA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
+      }
+    ],
+    "notes": [
+      "RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
+    ],
+    "resolved": true
+  },
+  "primary_name": "clavulanic acid",
+  "equivalent_names": {
+    "CHEBI:48947": "clavulanic acid"
+  },
+  "family": {
+    "member_of": [],
+    "forms": [
+      {
+        "chebi_id": "CHEBI:487869",
+        "name": "clavulanate",
+        "relation": "is_conjugate_acid_of"
+      },
+      {
+        "chebi_id": "CHEBI:487869",
+        "name": "clavulanate",
+        "relation": "is_conjugate_base_of"
+      }
+    ]
+  }
+}

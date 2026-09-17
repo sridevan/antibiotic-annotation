@@ -1,0 +1,320 @@
+{
+ "response": "Success",
+ "searchedCompound": {
+  "inchi": "InChI=1S/C25H46O11/c26-13-16-18(28)19(29)21(31)25(34-16)36-23-17(14-27)35-24(22(32)20(23)30)33-12-8-3-1-2-5-9-15-10-6-4-7-11-15/h15-32H,1-14H2/t16-,17-,18-,19+,20-,21-,22-,23-,24-,25-/m1/s1",
+  "standardInchiKey": "BEKAVONQUWHNMM-IYBATYGCSA-N",
+  "uci": 1077298
+ },
+ "sources": [
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": true,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "CA7",
+   "id": 3,
+   "longName": "RCSB PDB",
+   "shortName": "rcsb_pdb",
+   "typeOfSearch": "match",
+   "url": "https://www.rcsb.org/ligand/CA7"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": true,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "CA7",
+   "id": 5,
+   "longName": "Protein Data Bank in Europe",
+   "shortName": "pdbe",
+   "typeOfSearch": "match",
+   "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/CA7"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": false,
+    "stereoSp3Inverted": false,
+    "stereoType": false
+   },
+   "compoundId": "22445738",
+   "id": 15,
+   "longName": "SureChEMBL",
+   "shortName": "surechembl",
+   "typeOfSearch": "match",
+   "url": "https://www.surechembl.org/chemical/22445738"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": false,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "18680145",
+   "id": 15,
+   "longName": "SureChEMBL",
+   "shortName": "surechembl",
+   "typeOfSearch": "match",
+   "url": "https://www.surechembl.org/chemical/18680145"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": false,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "18685536",
+   "id": 15,
+   "longName": "SureChEMBL",
+   "shortName": "surechembl",
+   "typeOfSearch": "match",
+   "url": "https://www.surechembl.org/chemical/18685536"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": false,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "18685537",
+   "id": 15,
+   "longName": "SureChEMBL",
+   "shortName": "surechembl",
+   "typeOfSearch": "match",
+   "url": "https://www.surechembl.org/chemical/18685537"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": true,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "11620616",
+   "id": 22,
+   "longName": "PubChem Compounds",
+   "shortName": "pubchem",
+   "typeOfSearch": "match",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/11620616"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": false,
+    "stereoSp3Inverted": false,
+    "stereoType": false
+   },
+   "compoundId": "73032005",
+   "id": 22,
+   "longName": "PubChem Compounds",
+   "shortName": "pubchem",
+   "typeOfSearch": "match",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/73032005"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": false,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "126731027",
+   "id": 22,
+   "longName": "PubChem Compounds",
+   "shortName": "pubchem",
+   "typeOfSearch": "match",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/126731027"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": false,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "126735876",
+   "id": 22,
+   "longName": "PubChem Compounds",
+   "shortName": "pubchem",
+   "typeOfSearch": "match",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/126735876"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": false,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "126735877",
+   "id": 22,
+   "longName": "PubChem Compounds",
+   "shortName": "pubchem",
+   "typeOfSearch": "match",
+   "url": "https://pubchem.ncbi.nlm.nih.gov/compound/126735877"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": true,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "Molport-047-586-487",
+   "id": 28,
+   "longName": "MolPort",
+   "shortName": "molport",
+   "typeOfSearch": "match",
+   "url": "https://www.molport.com/shop/compound/Molport-047-586-487"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": true,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "DTXSID00469552",
+   "id": 32,
+   "longName": "EPA (Environmental Protection Agency) CompTox Dashboard",
+   "shortName": "comptox",
+   "typeOfSearch": "match",
+   "url": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID00469552"
+  },
+  {
+   "baseIDURLAvailable": true,
+   "comparison": {
+    "HAtoms": true,
+    "charge": true,
+    "connectivity": true,
+    "formula": true,
+    "isotope": true,
+    "isotopicExchangeableH": true,
+    "protonation": true,
+    "stereoDbond": true,
+    "stereoSp3": true,
+    "stereoSp3Inverted": true,
+    "stereoType": true
+   },
+   "compoundId": "209717",
+   "id": 37,
+   "longName": "Brenda",
+   "shortName": "brenda",
+   "typeOfSearch": "match",
+   "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=209717"
+  }
+ ],
+ "totalCompounds": 5,
+ "totalSources": 14
+}

@@ -1,0 +1,50 @@
+{
+ "chebi_id": "CHEBI:24431",
+ "chebi_release": "255",
+ "definition": "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [],
+ "name": "chemical entity",
+ "num_descendants": 216840,
+ "obsolete": false,
+ "ols4_ancestors": [],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:44+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "chemical entity",
+   "chebi_accession": "CHEBI:24431",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.",
+   "id": 24431,
+   "is_released": true,
+   "name": "chemical entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": []
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:24431",
+   "definition": [
+    "A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances."
+   ],
+   "isObsolete": false,
+   "label": [
+    "chemical entity"
+   ],
+   "numDescendants": 216840.0,
+   "numHierarchicalDescendants": 216840.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

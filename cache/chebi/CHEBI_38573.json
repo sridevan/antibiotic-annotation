@@ -1,0 +1,150 @@
+{
+ "chebi_id": "CHEBI:38573",
+ "chebi_release": "255",
+ "definition": "Any iron(II)—porphyrin coordination complex.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:15983",
+   "target_name": "ferrocytochrome"
+  }
+ ],
+ "is_a": [
+  "CHEBI:30413"
+ ],
+ "name": "ferroheme",
+ "num_descendants": 11,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:24873",
+  "CHEBI:25216",
+  "CHEBI:25367",
+  "CHEBI:26214",
+  "CHEBI:26932",
+  "CHEBI:30413",
+  "CHEBI:33240",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33497",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33655",
+  "CHEBI:33659",
+  "CHEBI:33675",
+  "CHEBI:33676",
+  "CHEBI:33744",
+  "CHEBI:33832",
+  "CHEBI:33833",
+  "CHEBI:33861",
+  "CHEBI:33892",
+  "CHEBI:33909",
+  "CHEBI:35352",
+  "CHEBI:36309",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:38077",
+  "CHEBI:38101",
+  "CHEBI:47882",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:57+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ferroheme",
+   "chebi_accession": "CHEBI:38573",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any iron(II)—porphyrin coordination complex.",
+   "id": 38573,
+   "is_released": true,
+   "name": "ferroheme",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 15983,
+      "init_name": "ferrocytochrome",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 30413,
+      "final_name": "heme",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:38573",
+   "definition": [
+    "Any iron(II)—porphyrin coordination complex."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_30413"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_24873",
+    "http://purl.obolibrary.org/obo/CHEBI_25216",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_26214",
+    "http://purl.obolibrary.org/obo/CHEBI_26932",
+    "http://purl.obolibrary.org/obo/CHEBI_30413",
+    "http://purl.obolibrary.org/obo/CHEBI_33240",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33497",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33655",
+    "http://purl.obolibrary.org/obo/CHEBI_33659",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33676",
+    "http://purl.obolibrary.org/obo/CHEBI_33744",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_33833",
+    "http://purl.obolibrary.org/obo/CHEBI_33861",
+    "http://purl.obolibrary.org/obo/CHEBI_33892",
+    "http://purl.obolibrary.org/obo/CHEBI_33909",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36309",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_38077",
+    "http://purl.obolibrary.org/obo/CHEBI_38101",
+    "http://purl.obolibrary.org/obo/CHEBI_47882",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "isObsolete": false,
+   "label": [
+    "ferroheme"
+   ],
+   "numDescendants": 11.0,
+   "numHierarchicalDescendants": 11.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

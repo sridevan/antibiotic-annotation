@@ -1,0 +1,47 @@
+{
+  "identity": {
+    "input_id": "5I0",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "[(2~{S},3~{S},4~{S},5~{R},6~{S})-2-[(2~{R},3~{R},4~{R},5~{S})-2-[(1~{R},2~{S},3~{R},4~{R},5~{S},6~{R})-2,4-bis[[azaniumylidene(azanyl)methyl]amino]-3,5,6-tris(oxidanyl)cyclohexyl]oxy-4-[bis(oxidanyl)methyl]-5-methyl-4-oxidanyl-oxolan-3-yl]oxy-6-(hydroxymethyl)-4,5-bis(oxidanyl)oxan-3-yl]-methyl-azanium",
+    "ccd_type": "non-polymer",
+    "formula": "C21 H44 N7 O13",
+    "formal_charge": 3,
+    "inchi": "InChI=1S/C21H41N7O13/c1-4-21(37,18(35)36)15(41-16-8(26-2)12(33)9(30)5(3-29)39-16)17(38-4)40-14-7(28-20(24)25)10(31)6(27-19(22)23)11(32)13(14)34/h4-18,26,29-37H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)/p+3/t4-,5-,6+,7-,8-,9-,10+,11-,12-,13+,14+,15-,16-,17-,21+/m0/s1",
+    "inchikey": "ATLHDHNZEMANQF-UQHZJGBMSA-Q",
+    "smiles": "C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)NC(=[NH2+])N)O)NC(=[NH2+])N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)[NH2+]C)(C(O)O)O",
+    "synonyms": [
+      "[(2~{S},3~{S},4~{S},5~{R},6~{S})-2-[(2~{R},3~{R},4~{R},5~{S})-2-[(1~{R},2~{S},3~{R},4~{R},5~{S},6~{R})-2,4-bis[[azaniumylidene(azanyl)methyl]amino]-3,5,6-tris(oxidanyl)cyclohexyl]oxy-4-[bis(oxidanyl)methyl]-5-methyl-4-oxidanyl-oxolan-3-yl]oxy-6-(hydroxymethyl)-4,5-bis(oxidanyl)oxan-3-yl]-methyl-azanium",
+      "hydrated form of streptomycin"
+    ],
+    "xrefs": {
+      "PubChem": [
+        "164575481"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:46+00:00",
+    "inchikey_connectivity": "ATLHDHNZEMANQF"
+  },
+  "mapping": {
+    "status": "unresolved_no_chebi",
+    "method": "unresolved",
+    "source_id": "ATLHDHNZEMANQF-UQHZJGBMSA-Q",
+    "primary_chebi_id": null,
+    "equivalent_chebi_ids": [],
+    "evidence_unioned": false,
+    "candidates": [],
+    "notes": [
+      "no ChEBI entry found by exact InChIKey or connectivity search"
+    ],
+    "resolved": false
+  },
+  "primary_name": null,
+  "equivalent_names": {},
+  "family": {
+    "member_of": [],
+    "forms": []
+  }
+}

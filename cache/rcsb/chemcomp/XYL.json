@@ -1,0 +1,824 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:44+00:00",
+ "chem_comp": {
+  "formula": "C5 H12 O5",
+  "formula_weight": 152.146,
+  "id": "XYL",
+  "name": "Xylitol",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "1999-07-08T00:00:00.000+00:00",
+  "pdbx_modified_date": "2020-07-17T00:00:00.000+00:00",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "XYL",
+  "type": "D-saccharide"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "XYL",
+   "date": "1999-07-08T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "XYL",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Other modification",
+   "comp_id": "XYL",
+   "date": "2020-07-03T00:00:00.000+00:00",
+   "ordinal": 3
+  },
+  {
+   "action_type": "Modify name",
+   "comp_id": "XYL",
+   "date": "2020-07-17T00:00:00.000+00:00",
+   "ordinal": 4
+  },
+  {
+   "action_type": "Modify synonyms",
+   "comp_id": "XYL",
+   "date": "2020-07-17T00:00:00.000+00:00",
+   "ordinal": 5
+  },
+  {
+   "action_type": "Modify linking type",
+   "comp_id": "XYL",
+   "date": "2020-07-17T00:00:00.000+00:00",
+   "ordinal": 6
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "XYL",
+   "descriptor": "OC(CO)C(O)C(O)CO",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "XYL",
+   "descriptor": "OC[C@H](O)[C@@H](O)[C@H](O)CO",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "XYL",
+   "descriptor": "OC[CH](O)[CH](O)[CH](O)CO",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "XYL",
+   "descriptor": "C([C@@H](C([C@@H](CO)O)O)O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "XYL",
+   "descriptor": "C(C(C(C(CO)O)O)O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "XYL",
+   "descriptor": "InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4+,5+",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "XYL",
+   "descriptor": "HEBKCHPVOIAQTA-SCDXWVJYSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  }
+ ],
+ "pdbx_chem_comp_feature": [
+  {
+   "comp_id": "XYL",
+   "source": "PDB",
+   "type": "CARBOHYDRATE ISOMER",
+   "value": "D"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "XYL",
+   "identifier": "D-xylitol",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "XYL",
+   "identifier": "(2S,4R)-pentane-1,2,3,4,5-pentol",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_annotation": [
+  {
+   "annotation_id": "XYL_1",
+   "assignment_version": "2020-07-17",
+   "name": "D",
+   "provenance_source": "PDB Reference Data",
+   "type": "Carbohydrate Isomer"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "XYL",
+  "drugbank_id": "DB11195",
+  "rcsb_id": "XYL"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C5H12O5/c6-1-3(8)5(10)4(9)2-7/h3-10H,1-2H2/t3-,4+,5+",
+  "InChIKey": "HEBKCHPVOIAQTA-SCDXWVJYSA-N",
+  "SMILES": "C(C(C(C(CO)O)O)O)O",
+  "SMILES_stereo": "C([C@@H](C([C@@H](CO)O)O)O)O",
+  "comp_id": "XYL"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 22,
+  "atom_count_chiral": 3,
+  "atom_count_heavy": 10,
+  "bond_count": 21,
+  "bond_count_aromatic": 0,
+  "comp_id": "XYL",
+  "initial_deposition_date": "1999-07-08T00:00:00.000+00:00",
+  "initial_release_date": "1990-04-15T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2020-07-17T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "XYL",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB11195",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 2,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 3,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL03",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 4,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL04",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 5,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "RIBTOL01",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 6,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL01",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 7,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "RIBTOL",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 8,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL20",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 9,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL19",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 10,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL28",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 11,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ARABOL01",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 12,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "INOYOC",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 13,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL21",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 14,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL22",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 15,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL23",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 16,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL27",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 17,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL18",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 18,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL16",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 19,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL25",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 20,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL09",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 21,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL26",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 22,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL08",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 23,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL07",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 24,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL29",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 25,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL24",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 26,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL14",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 27,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL17",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 28,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL05",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 29,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL06",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 30,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL10",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 31,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL11",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 32,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ENIBAH",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 33,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL13",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 34,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL12",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 35,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL15",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 36,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL36",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 37,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL37",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 38,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL35",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 39,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL40",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 40,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL30",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 41,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL41",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 42,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL39",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 43,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL32",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 44,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL31",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 45,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL34",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 46,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL42",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 47,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "XYLTOL33",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 48,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2103961",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 49,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566484",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 50,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566486",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 51,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566485",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 52,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566488",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 53,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566487",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 54,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566489",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 55,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566490",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 56,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566491",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 57,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566492",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 58,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566493",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 59,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566494",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 60,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566495",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 61,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566496",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 62,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566498",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 63,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566497",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 64,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566499",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 65,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "1566500",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 66,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2019352",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 67,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108773",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 68,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108772",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 69,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108774",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 70,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108775",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 71,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108777",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 72,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108776",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 73,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108778",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 74,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108779",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 75,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108780",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 76,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108781",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 77,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2108782",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 78,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2022044",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 79,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "8000469",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 80,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2300678",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "XYL",
+   "ordinal": 81,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2311089",
+   "resource_name": "COD"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "XYL",
+   "name": "Xylitol",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "XYL",
+   "name": "D-Xylitol",
+   "ordinal": 2,
+   "provenance_source": "PDB Reference Data",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "XYL",
+   "name": "D-xylitol",
+   "ordinal": 3,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "XYL",
+   "name": "(2S,4R)-pentane-1,2,3,4,5-pentol",
+   "ordinal": 4,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "XYL",
+   "name": "Xylitol",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "XYL",
+   "name": "D-Xylitol",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "XYL",
+   "interaction_type": "target",
+   "name": "Xylose isomerase",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P12070",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "XYL",
+   "interaction_type": "target",
+   "name": "Xylose isomerase",
+   "ordinal": 2,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P24300",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "XYL",
+   "interaction_type": "target",
+   "name": "Xylose isomerase",
+   "ordinal": 3,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P15587",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "XYL",
+   "interaction_type": "target",
+   "name": "Xylose isomerase",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P12851",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "XYL",
+   "interaction_type": "target",
+   "name": "Hyaluronate lyase",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "Q54873",
+   "reference_database_name": "UniProt"
+  }
+ ],
+ "rcsb_id": "XYL"
+}

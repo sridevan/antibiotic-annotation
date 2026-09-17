@@ -1,0 +1,189 @@
+{
+ "chebi_id": "CHEBI:16234",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "XLYOFNOQVPJJNP-UHFFFAOYSA-M",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:85062",
+   "target_name": "trimethylphenylammonium hydroxide"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:15377",
+   "target_name": "water"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33693"
+ ],
+ "name": "hydroxide",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:33242",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33692",
+  "CHEBI:33693",
+  "CHEBI:36357",
+  "CHEBI:36902",
+  "CHEBI:37577"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:15377",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:36+00:00",
+ "roles": [
+  "CHEBI:75771"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "hydroxide",
+   "chebi_accession": "CHEBI:16234",
+   "default_structure": {
+    "smiles": "[H][O-]",
+    "standard_inchi_key": "XLYOFNOQVPJJNP-UHFFFAOYSA-M"
+   },
+   "definition": null,
+   "id": 16234,
+   "is_released": true,
+   "name": "hydroxide",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 85062,
+      "init_name": "trimethylphenylammonium hydroxide",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 15377,
+      "init_name": "water",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33693,
+      "final_name": "oxygen hydride",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 15377,
+      "final_name": "water",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5594",
+    "CHEBI:13365",
+    "CHEBI:13419",
+    "CHEBI:44641"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:16234",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33693"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_33242",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33692",
+    "http://purl.obolibrary.org/obo/CHEBI_33693",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36902",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydridooxygenate(1-)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydroxide"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "oxidanide"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "XLYOFNOQVPJJNP-UHFFFAOYSA-M",
+   "isObsolete": false,
+   "label": [
+    "hydroxide"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_15377"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "hydridooxygenate(1-)",
+  "hydroxide",
+  "oxidanide"
+ ]
+}

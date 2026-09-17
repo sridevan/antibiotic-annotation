@@ -1,0 +1,116 @@
+{
+  "identity": {
+    "input_id": "GOL",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "GLYCEROL",
+    "ccd_type": "non-polymer",
+    "formula": "C3 H8 O3",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C3H8O3/c4-1-3(6)2-5/h3-6H,1-2H2",
+    "inchikey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+    "smiles": "C(C(CO)O)O",
+    "synonyms": [
+      "GLYCEROL",
+      "GLYCERIN",
+      "PROPANE-1,2,3-TRIOL",
+      "propane-1,2,3-triol",
+      "Glycerine",
+      "Glycerin",
+      "Glycerin,anhydrous",
+      "Glyzerin",
+      "glycérol",
+      "1,2,3-propanetriol",
+      "Ölsüß",
+      "Trihydroxypropane",
+      "Monoctanoin component D",
+      "Glycerol",
+      "Glycerin, anhydrous",
+      "glycérine",
+      "Propanetriol",
+      "1,2,3-trihydroxypropane",
+      "Glycerinum"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB09462"
+      ],
+      "CCDC/CSD": [
+        "GLCROL01"
+      ],
+      "PubChem": [
+        "753"
+      ],
+      "CAS": [
+        "56-81-5",
+        "8043-29-6"
+      ],
+      "ChEBI": [
+        "CHEBI:17522",
+        "CHEBI:17754"
+      ],
+      "ChEMBL": [
+        "CHEMBL692"
+      ]
+    },
+    "atc_codes": [
+      "A06AG04",
+      "A06AX01"
+    ],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:36+00:00",
+    "inchikey_connectivity": "PEDCQBHIVMGVHV"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "direct_ccd_crossref",
+    "source_id": "GOL",
+    "primary_chebi_id": "CHEBI:17754",
+    "equivalent_chebi_ids": [
+      "CHEBI:17522",
+      "CHEBI:17754"
+    ],
+    "evidence_unioned": true,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:17522",
+        "inchikey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
+      },
+      {
+        "chebi_id": "CHEBI:17754",
+        "inchikey": "PEDCQBHIVMGVHV-UHFFFAOYSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
+      }
+    ],
+    "notes": [
+      "RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id",
+      "several verified entries share the standard InChIKey: same standardised chemical identity for mapping purposes; ontology evidence unioned"
+    ],
+    "resolved": true
+  },
+  "primary_name": "glycerol",
+  "equivalent_names": {
+    "CHEBI:17522": "alditol",
+    "CHEBI:17754": "glycerol"
+  },
+  "family": {
+    "member_of": [
+      {
+        "chebi_id": "CHEBI:61995",
+        "name": "lecithin",
+        "relation": "has_part (incoming)"
+      }
+    ],
+    "forms": []
+  }
+}

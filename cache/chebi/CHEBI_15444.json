@@ -1,0 +1,140 @@
+{
+ "chebi_id": "CHEBI:15444",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "WQZGKKKJIJFFOK-DVKNGEFBSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:134401",
+   "target_name": "glucanotrehalose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:140574",
+   "target_name": "(1,4-α-<small>D</small>-glucosyl)<small><sub>(<em>n</em>)</sub></small>-<small>L</small>-tyrosyl residue"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:136602",
+   "target_name": "(1→4)-6-phospho-α-<small>D</small>-glucan"
+  }
+ ],
+ "is_a": [
+  "CHEBI:22385"
+ ],
+ "name": "(1->4)-alpha-D-glucan",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16646",
+  "CHEBI:167559",
+  "CHEBI:18154",
+  "CHEBI:22385",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33694",
+  "CHEBI:33839",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37163",
+  "CHEBI:37164",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:43+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "(1->4)-alpha-D-glucan",
+   "chebi_accession": "CHEBI:15444",
+   "default_structure": {
+    "smiles": "[H]O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O",
+    "standard_inchi_key": "WQZGKKKJIJFFOK-DVKNGEFBSA-N"
+   },
+   "definition": null,
+   "id": 15444,
+   "is_released": true,
+   "name": "(1→4)-α-<small>D</small>-glucan",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 134401,
+      "init_name": "glucanotrehalose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 140574,
+      "init_name": "(1,4-α-<small>D</small>-glucosyl)<small><sub>(<em>n</em>)</sub></small>-<small>L</small>-tyrosyl residue",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 136602,
+      "init_name": "(1→4)-6-phospho-α-<small>D</small>-glucan",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 22385,
+      "final_name": "α-<small>D</small>-glucan",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:138",
+    "CHEBI:10809",
+    "CHEBI:18503"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:15444",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_22385"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_167559",
+    "http://purl.obolibrary.org/obo/CHEBI_18154",
+    "http://purl.obolibrary.org/obo/CHEBI_22385",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33694",
+    "http://purl.obolibrary.org/obo/CHEBI_33839",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37163",
+    "http://purl.obolibrary.org/obo/CHEBI_37164",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "WQZGKKKJIJFFOK-DVKNGEFBSA-N",
+   "isObsolete": false,
+   "label": [
+    "(1->4)-alpha-D-glucan"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

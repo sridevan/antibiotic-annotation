@@ -1,0 +1,124 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "",
+    "connections": "1-7-37(8-2)16-17-48(44,45)28-13-15-38-31(28)34(43)47-32(22(3)4)24(6)11-12-29(41)35-14-9-10-23(5)18-25(39)19-26(40)20-30-36-27(21-46-30)33(38)42",
+    "formula": "C34H50N4O9S",
+    "hAtoms": "9-12,18,21-22,24-25,28,31-32,39H,7-8,13-17,19-20H2,1-6H3,(H,35,41)",
+    "inchi": "InChI=1S/C34H50N4O9S/c1-7-37(8-2)16-17-48(44,45)28-13-15-38-31(28)34(43)47-32(22(3)4)24(6)11-12-29(41)35-14-9-10-23(5)18-25(39)19-26(40)20-30-36-27(21-46-30)33(38)42/h9-12,18,21-22,24-25,28,31-32,39H,7-8,13-17,19-20H2,1-6H3,(H,35,41)/b10-9+,12-11+,23-18+/t24-,25-,28-,31-,32-/m1/s1",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "",
+    "stereoDbond": "10-9+,12-11+,23-18+",
+    "stereoSP3": "24-,25-,28-,31-,32-",
+    "stereoSP3inverted": "1",
+    "stereoType": "1",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEMBL1200937",
+     "id": 1,
+     "longName": "ChEMBL",
+     "shortName": "chembl",
+     "url": "https://www.ebi.ac.uk/chembldb/compound/inspect/CHEMBL1200937"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DB01764",
+     "id": 2,
+     "longName": "DrugBank",
+     "shortName": "drugbank",
+     "url": "https://go.drugbank.com/drugs/DB01764"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DOL",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/DOL"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DOL",
+     "id": 5,
+     "longName": "Protein Data Bank in Europe",
+     "shortName": "pdbe",
+     "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/DOL"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEBI:4309",
+     "id": 7,
+     "longName": "ChEBI",
+     "shortName": "chebi",
+     "url": "https://www.ebi.ac.uk/chebi/CHEBI:4309"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "R9M4FJE48E",
+     "id": 14,
+     "longName": "FDA/USP Substance Registration System (SRS)",
+     "shortName": "fdasrs",
+     "url": "https://d20b1koi85gdl2.cloudfront.net/uniisearch/srs/unii/R9M4FJE48E"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "40993",
+     "id": 15,
+     "longName": "SureChEMBL",
+     "shortName": "surechembl",
+     "url": "https://www.surechembl.org/chemical/40993"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Molport-047-659-659",
+     "id": 28,
+     "longName": "MolPort",
+     "shortName": "molport",
+     "url": "https://www.molport.com/shop/compound/Molport-047-659-659"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DTXSID10869549",
+     "id": 32,
+     "longName": "EPA (Environmental Protection Agency) CompTox Dashboard",
+     "shortName": "comptox",
+     "url": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID10869549"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "227765",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=227765"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT02099240",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT02099240"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Dalfopristin",
+     "id": 84,
+     "longName": "Wikipedia",
+     "shortName": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Dalfopristin"
+    }
+   ],
+   "standardInchiKey": "SUYRLXYYZQTJHF-VMBLUXKRSA-N",
+   "uci": 404850
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

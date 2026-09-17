@@ -1,0 +1,109 @@
+{
+ "chebi_id": "CHEBI:25940",
+ "chebi_release": "255",
+ "definition": "Compounds of structure ROOR'.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25741"
+ ],
+ "name": "peroxides",
+ "num_descendants": 53,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25741",
+  "CHEBI:25806",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:37577"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:29369",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:45+00:00",
+ "roles": [
+  "CHEBI:63248"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "peroxides",
+   "chebi_accession": "CHEBI:25940",
+   "default_structure": {
+    "smiles": "*OO*",
+    "standard_inchi_key": null
+   },
+   "definition": "Compounds of structure ROOR'.",
+   "id": 25940,
+   "is_released": true,
+   "name": "peroxides",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 29369,
+      "final_name": "peroxy group",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 63248,
+      "final_name": "oxidising agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25741,
+      "final_name": "oxide",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25940",
+   "definition": [
+    "Compounds of structure ROOR'."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25741"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "peroxides"
+   ],
+   "numDescendants": 53.0,
+   "numHierarchicalDescendants": 53.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_29369"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_63248"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

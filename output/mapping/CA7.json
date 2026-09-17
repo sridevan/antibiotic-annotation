@@ -1,0 +1,50 @@
+{
+  "identity": {
+    "input_id": "CA7",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "7-cyclohexylheptyl 4-O-alpha-D-glucopyranosyl-beta-D-glucopyranoside",
+    "ccd_type": "non-polymer",
+    "formula": "C25 H46 O11",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C25H46O11/c26-13-16-18(28)19(29)21(31)25(34-16)36-23-17(14-27)35-24(22(32)20(23)30)33-12-8-3-1-2-5-9-15-10-6-4-7-11-15/h15-32H,1-14H2/t16-,17-,18-,19+,20-,21-,22-,23-,24-,25-/m1/s1",
+    "inchikey": "BEKAVONQUWHNMM-IYBATYGCSA-N",
+    "smiles": "C1CCC(CC1)CCCCCCCO[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)CO)O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O",
+    "synonyms": [
+      "7-cyclohexylheptyl 4-O-alpha-D-glucopyranosyl-beta-D-glucopyranoside",
+      "(2R,3R,4S,5S,6R)-2-[(2R,3S,4R,5R,6R)-6-(7-cyclohexylheptoxy)-2-(hydroxymethyl)-4,5-bis(oxidanyl)oxan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol"
+    ],
+    "xrefs": {
+      "PubChem": [
+        "11620616"
+      ],
+      "CAS": [
+        "349477-49-2"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:48+00:00",
+    "inchikey_connectivity": "BEKAVONQUWHNMM"
+  },
+  "mapping": {
+    "status": "unresolved_no_chebi",
+    "method": "unresolved",
+    "source_id": "BEKAVONQUWHNMM-IYBATYGCSA-N",
+    "primary_chebi_id": null,
+    "equivalent_chebi_ids": [],
+    "evidence_unioned": false,
+    "candidates": [],
+    "notes": [
+      "no ChEBI entry found by exact InChIKey or connectivity search"
+    ],
+    "resolved": false
+  },
+  "primary_name": null,
+  "equivalent_names": {},
+  "family": {
+    "member_of": [],
+    "forms": []
+  }
+}

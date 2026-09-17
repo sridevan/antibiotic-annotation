@@ -1,0 +1,301 @@
+{
+ "chebi_id": "CHEBI:17698",
+ "chebi_release": "255",
+ "definition": "An organochlorine compound that is dichloro-substituted acetamide containing a nitrobenzene ring, an amide bond and two alcohol functions.",
+ "inchikey": "WIIZWVCIJKGZOK-RKDXNWHRSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16730",
+   "target_name": "chloramphenicol 3-acetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:3605",
+   "target_name": "chloramphenicol palmitate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:63766",
+   "target_name": "<em>O</em><small><sup>3</small></sup>-(2-<small>L</small>-lysino-2-oxoethyl)-<em>O</em><small><sup>1</small></sup>-[4-(trifluoroacetamido)benzylcarbonyl]chloramphenicol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:47691",
+   "target_name": "<em>O</em>-(4-trifluoroacetamidobenzylphosphonyl)chloramphenicol"
+  }
+ ],
+ "is_a": [
+  "CHEBI:23824",
+  "CHEBI:35716",
+  "CHEBI:36683",
+  "CHEBI:37622"
+ ],
+ "name": "chloramphenicol",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:17792",
+  "CHEBI:23117",
+  "CHEBI:23367",
+  "CHEBI:23824",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:24651",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:35352",
+  "CHEBI:35715",
+  "CHEBI:35716",
+  "CHEBI:36357",
+  "CHEBI:36683",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:37578",
+  "CHEBI:37622",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:16+00:00",
+ "roles": [
+  "CHEBI:131604",
+  "CHEBI:176497",
+  "CHEBI:33281",
+  "CHEBI:33282",
+  "CHEBI:36047",
+  "CHEBI:48001",
+  "CHEBI:66981",
+  "CHEBI:76971"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "chloramphenicol",
+   "chebi_accession": "CHEBI:17698",
+   "default_structure": {
+    "smiles": "O=C(N[C@H](CO)[C@H](O)c1ccc([N+](=O)[O-])cc1)C(Cl)Cl",
+    "standard_inchi_key": "WIIZWVCIJKGZOK-RKDXNWHRSA-N"
+   },
+   "definition": "An organochlorine compound that is dichloro-substituted acetamide containing a nitrobenzene ring, an amide bond and two alcohol functions.",
+   "id": 17698,
+   "is_released": true,
+   "name": "chloramphenicol",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 16730,
+      "init_name": "chloramphenicol 3-acetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 3605,
+      "init_name": "chloramphenicol palmitate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 63766,
+      "init_name": "<em>O</em><small><sup>3</small></sup>-(2-<small>L</small>-lysino-2-oxoethyl)-<em>O</em><small><sup>1</small></sup>-[4-(trifluoroacetamido)benzylcarbonyl]chloramphenicol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 47691,
+      "init_name": "<em>O</em>-(4-trifluoroacetamidobenzylphosphonyl)chloramphenicol",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 131604,
+      "final_name": "<em>Mycoplasma genitalium</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 176497,
+      "final_name": "geroprotector",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 66981,
+      "final_name": "ophthalmology drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48001,
+      "final_name": "protein synthesis inhibitor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36683,
+      "final_name": "organochlorine compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 37622,
+      "final_name": "carboxamide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 23824,
+      "final_name": "diol",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35716,
+      "final_name": "<em>C</em>-nitro compound",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:3603",
+    "CHEBI:13965",
+    "CHEBI:23106",
+    "CHEBI:23108",
+    "CHEBI:47327"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17698",
+   "definition": [
+    "An organochlorine compound that is dichloro-substituted acetamide containing a nitrobenzene ring, an amide bond and two alcohol functions."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23824",
+    "http://purl.obolibrary.org/obo/CHEBI_35716",
+    "http://purl.obolibrary.org/obo/CHEBI_36683",
+    "http://purl.obolibrary.org/obo/CHEBI_37622"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_17792",
+    "http://purl.obolibrary.org/obo/CHEBI_23117",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23824",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35715",
+    "http://purl.obolibrary.org/obo/CHEBI_35716",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36683",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37578",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "2,2-dichloro-N-[(1R,2R)-2-hydroxy-1-(hydroxymethyl)-2-(4-nitrophenyl)ethyl]acetamide"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "WIIZWVCIJKGZOK-RKDXNWHRSA-N",
+   "isObsolete": false,
+   "label": [
+    "chloramphenicol"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_131604"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_176497"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33281"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48001"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_66981"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "2,2-dichloro-N-[(1R,2R)-2-hydroxy-1-(hydroxymethyl)-2-(4-nitrophenyl)ethyl]acetamide"
+ ]
+}

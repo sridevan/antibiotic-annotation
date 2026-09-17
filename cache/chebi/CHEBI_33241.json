@@ -1,0 +1,85 @@
+{
+ "chebi_id": "CHEBI:33241",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:37577"
+ ],
+ "name": "oxoacid derivative",
+ "num_descendants": 20056,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:36357",
+  "CHEBI:37577"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018038",
+   "target_id": "CHEBI:24833",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:24+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "oxoacid derivative",
+   "chebi_accession": "CHEBI:33241",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33241,
+   "is_released": true,
+   "name": "oxoacid derivative",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24833,
+      "final_name": "oxoacid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "final_id": 37577,
+      "final_name": "heteroatomic molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33241",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "oxoacid derivative"
+   ],
+   "numDescendants": 20056.0,
+   "numHierarchicalDescendants": 20056.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018038",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_24833"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

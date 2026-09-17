@@ -1,0 +1,73 @@
+{
+  "identity": {
+    "input_id": "EM1",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "(3aS,4R,7S,9R,10R,11R,13R,15R,15aR)-1-{4-[4-(3-aminophenyl)-1H-1,2,3-triazol-1-yl]butyl}-4-ethyl-7-fluoro-11-methoxy-3a\n,7,9,11,13,15-hexamethyl-2,6,8,14-tetraoxotetradecahydro-2H-oxacyclotetradecino[4,3-d][1,3]oxazol-10-yl 3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylo-hexopyranoside",
+    "ccd_type": "non-polymer",
+    "formula": "C43 H65 F N6 O10",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C43H65FN6O10/c1-12-32-43(8)35(50(40(55)60-43)19-14-13-18-49-23-30(46-47-49)28-16-15-17-29(45)21-28)26(4)33(51)24(2)22-41(6,56-11)37(27(5)36(53)42(7,44)39(54)58-32)59-38-34(52)31(48(9)10)20-25(3)57-38/h15-17,21,23-27,31-32,34-35,37-38,52H,12-14,18-20,22,45H2,1-11H3/t24-,25-,26+,27+,31+,32-,34-,35-,37-,38+,41-,42+,43-/m1/s1",
+    "inchikey": "IXXFZUPTQVDPPK-ZAWHAJPISA-N",
+    "smiles": "CC[C@@H]1[C@@]2([C@@H]([C@H](C(=O)[C@@H](C[C@@]([C@@H]([C@H](C(=O)[C@](C(=O)O1)(C)F)C)O[C@H]3[C@@H]([C@H](C[C@H](O3)C)N(C)C)O)(C)OC)C)C)N(C(=O)O2)CCCCn4cc(nn4)c5cccc(c5)N)C",
+    "synonyms": [
+      "(3aS,4R,7S,9R,10R,11R,13R,15R,15aR)-1-{4-[4-(3-aminophenyl)-1H-1,2,3-triazol-1-yl]butyl}-4-ethyl-7-fluoro-11-methoxy-3a\n,7,9,11,13,15-hexamethyl-2,6,8,14-tetraoxotetradecahydro-2H-oxacyclotetradecino[4,3-d][1,3]oxazol-10-yl 3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylo-hexopyranoside",
+      "CEM-101",
+      "(3aS,4R,7S,9R,10R,11R,13R,15R,15aR)-1-{4-[4-(3-aminophenyl)-1H-1,2,3-triazol-1-yl]butyl}-4-ethyl-7-fluoro-11-methoxy-3a,7,9,11,13,15-hexamethyl-2,6,8,14-tetraoxotetradecahydro-2H-oxacyclotetradecino[4,3-d][1,3]oxazol-10-yl 3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylo-hexopyranoside",
+      "(1S,2R,5S,7R,8R,9R,11R,13R,14R)-15-[4-[4-(3-aminophenyl)-1,2,3-triazol-1-yl]butyl]-8-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyl-oxan-2-yl]oxy-2-ethyl-5-fluoro-9-methoxy-1,5,7,9,11,13-hexamethyl-3,17-dioxa-15-azabicyclo[12.3.0]heptadecane-4,6,12,16-tetrone",
+      "Solithromycin"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB09308"
+      ],
+      "COD": [
+        "1547550"
+      ],
+      "PubChem": [
+        "25242512"
+      ],
+      "ChEMBL": [
+        "CHEMBL1232510"
+      ]
+    },
+    "atc_codes": [
+      "J01FA16"
+    ],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:14+00:00",
+    "inchikey_connectivity": "IXXFZUPTQVDPPK"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "unichem_inchikey",
+    "source_id": "IXXFZUPTQVDPPK-ZAWHAJPISA-N",
+    "primary_chebi_id": "CHEBI:230261",
+    "equivalent_chebi_ids": [
+      "CHEBI:230261"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:230261",
+        "inchikey": "IXXFZUPTQVDPPK-ZAWHAJPISA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "exact standard InChIKey match"
+      }
+    ],
+    "notes": [],
+    "resolved": true
+  },
+  "primary_name": "Solithromycin",
+  "equivalent_names": {
+    "CHEBI:230261": "Solithromycin"
+  },
+  "family": {
+    "member_of": [],
+    "forms": []
+  }
+}

@@ -1,0 +1,122 @@
+{
+ "chebi_id": "CHEBI:25805",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "QVGXLLKOCUKJST-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:25806",
+   "target_name": "oxygen molecular entity"
+  }
+ ],
+ "is_a": [
+  "CHEBI:25585",
+  "CHEBI:33303"
+ ],
+ "name": "oxygen atom",
+ "num_descendants": 5,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24431",
+  "CHEBI:25585",
+  "CHEBI:33250",
+  "CHEBI:33303",
+  "CHEBI:33318",
+  "CHEBI:33560"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:35+00:00",
+ "roles": [
+  "CHEBI:33937"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "oxygen atom",
+   "chebi_accession": "CHEBI:25805",
+   "default_structure": {
+    "smiles": "[O]",
+    "standard_inchi_key": "QVGXLLKOCUKJST-UHFFFAOYSA-N"
+   },
+   "definition": null,
+   "id": 25805,
+   "is_released": true,
+   "name": "oxygen atom",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 25806,
+      "init_name": "oxygen molecular entity",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33937,
+      "final_name": "macronutrient",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25585,
+      "final_name": "nonmetal atom",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33303,
+      "final_name": "chalcogen",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25805",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25585",
+    "http://purl.obolibrary.org/obo/CHEBI_33303"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25585",
+    "http://purl.obolibrary.org/obo/CHEBI_33250",
+    "http://purl.obolibrary.org/obo/CHEBI_33303",
+    "http://purl.obolibrary.org/obo/CHEBI_33318",
+    "http://purl.obolibrary.org/obo/CHEBI_33560"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "oxygen"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "QVGXLLKOCUKJST-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "oxygen atom"
+   ],
+   "numDescendants": 5.0,
+   "numHierarchicalDescendants": 5.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33937"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "oxygen"
+ ]
+}

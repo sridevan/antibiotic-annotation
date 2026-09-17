@@ -1,0 +1,547 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:35+00:00",
+ "chem_comp": {
+  "formula": "C5 H12 N2 O2",
+  "formula_weight": 132.161,
+  "id": "ORN",
+  "mon_nstd_parent_comp_id": [
+   "ALA"
+  ],
+  "name": "L-ornithine",
+  "one_letter_code": "A",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "1999-07-08T00:00:00.000+00:00",
+  "pdbx_modified_date": "2024-09-27T00:00:00.000+00:00",
+  "pdbx_pcm": "Y",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "ORN",
+  "type": "L-peptide linking"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Other modification",
+   "comp_id": "ORN",
+   "date": "1999-07-08T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Other modification",
+   "comp_id": "ORN",
+   "date": "2010-11-15T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "ORN",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 3
+  },
+  {
+   "action_type": "Modify leaving atom flag",
+   "comp_id": "ORN",
+   "date": "2012-03-14T00:00:00.000+00:00",
+   "ordinal": 4
+  },
+  {
+   "action_type": "Modify backbone",
+   "comp_id": "ORN",
+   "date": "2023-11-03T00:00:00.000+00:00",
+   "ordinal": 5
+  },
+  {
+   "action_type": "Modify PCM",
+   "comp_id": "ORN",
+   "date": "2024-09-27T00:00:00.000+00:00",
+   "ordinal": 6
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "ORN",
+   "descriptor": "O=C(O)C(N)CCCN",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "ORN",
+   "descriptor": "InChI=1S/C5H12N2O2/c6-3-1-2-4(7)5(8)9/h4H,1-3,6-7H2,(H,8,9)/t4-/m0/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "ORN",
+   "descriptor": "AHLPHDHHMVZTML-BYPYZUCNSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  },
+  {
+   "comp_id": "ORN",
+   "descriptor": "NCCC[C@H](N)C(O)=O",
+   "program": "CACTVS",
+   "program_version": "3.370",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "ORN",
+   "descriptor": "NCCC[CH](N)C(O)=O",
+   "program": "CACTVS",
+   "program_version": "3.370",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "ORN",
+   "descriptor": "C(C[C@@H](C(=O)O)N)CN",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.6",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "ORN",
+   "descriptor": "C(CC(C(=O)O)N)CN",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.6",
+   "type": "SMILES"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "ORN",
+   "identifier": "L-ornithine",
+   "program": "ACDLabs",
+   "program_version": "12.01",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "ORN",
+   "identifier": "(2S)-2,5-bis(azanyl)pentanoic acid",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.6",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "pdbx_chem_comp_pcm": [
+  {
+   "category": "Named protein modification",
+   "polypeptide_position": "Any position",
+   "position": "Amino-acid side chain",
+   "type": "Ornithine"
+  }
+ ],
+ "rcsb_chem_comp_annotation": [
+  {
+   "annotation_id": "A05BA06",
+   "annotation_lineage": [
+    {
+     "id": "A",
+     "name": "ALIMENTARY TRACT AND METABOLISM DRUGS"
+    },
+    {
+     "depth": 1,
+     "id": "A05",
+     "name": "BILE AND LIVER THERAPY DRUGS"
+    },
+    {
+     "depth": 2,
+     "id": "A05B",
+     "name": "LIVER THERAPY, LIPOTROPICS"
+    },
+    {
+     "depth": 3,
+     "id": "A05BA",
+     "name": "Liver therapy drugs"
+    },
+    {
+     "depth": 4,
+     "id": "A05BA06",
+     "name": "ornithine oxoglurate"
+    }
+   ],
+   "assignment_version": "5.1",
+   "description": "ATC matching InChIKey in DrugBank",
+   "name": "ornithine oxoglurate",
+   "provenance_source": "DrugBank",
+   "type": "ATC"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "atc_codes": [
+   "A05BA06"
+  ],
+  "comp_id": "ORN",
+  "drugbank_id": "DB00129",
+  "rcsb_id": "ORN"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C5H12N2O2/c6-3-1-2-4(7)5(8)9/h4H,1-3,6-7H2,(H,8,9)/t4-/m0/s1",
+  "InChIKey": "AHLPHDHHMVZTML-BYPYZUCNSA-N",
+  "SMILES": "C(CC(C(=O)O)N)CN",
+  "SMILES_stereo": "C(C[C@@H](C(=O)O)N)CN",
+  "comp_id": "ORN"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 21,
+  "atom_count_chiral": 1,
+  "atom_count_heavy": 9,
+  "bond_count": 20,
+  "bond_count_aromatic": 0,
+  "comp_id": "ORN",
+  "initial_deposition_date": "1999-07-08T00:00:00.000+00:00",
+  "initial_release_date": "1995-07-10T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2024-09-27T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "ORN",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB00129",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 2,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BAPKOV",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 3,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "HIWJIJ",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 4,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BEZQOO",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 5,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "GOTFAY",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 6,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "DAHMAB",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 7,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "EVIJAU",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 8,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BAPKIP",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 9,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "EMENUG",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 10,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BIHYEX",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 11,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "EMENEQ",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 12,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "TEFMIA",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 13,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ORNBDL10",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 14,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BAPKUB",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 15,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "88747248",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 16,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "6262",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 17,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "70-26-8",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 18,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEBI:15729",
+   "resource_name": "ChEBI"
+  },
+  {
+   "comp_id": "ORN",
+   "ordinal": 19,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEMBL446143",
+   "resource_name": "ChEMBL"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "ORN",
+   "name": "L-ornithine",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "L-ornithine",
+   "ordinal": 2,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "(2S)-2,5-bis(azanyl)pentanoic acid",
+   "ordinal": 3,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "Ornithine",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "Ornithine aspartate",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "(S)-2,5-diaminovaleric acid",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "Ornithine dihydrochloride",
+   "ordinal": 7,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "Ornitina",
+   "ordinal": 8,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "Ornithine hydrochloride",
+   "ordinal": 9,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "Ornithine oxoglurate",
+   "ordinal": 10,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "L-Ornithine",
+   "ordinal": 11,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "(S)-2,5-Diaminopentanoic acid",
+   "ordinal": 12,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "Ornithinum",
+   "ordinal": 13,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "(S)-α,δ-diaminovaleric acid",
+   "ordinal": 14,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "(S)-2,5-Diaminopentanoate",
+   "ordinal": 15,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "(S)-ornithine",
+   "ordinal": 16,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ORN",
+   "name": "levo-ornithine",
+   "ordinal": 17,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "Ornithine aminotransferase, mitochondrial",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P04181",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "Ornithine transcarbamylase, mitochondrial",
+   "ordinal": 2,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P00480",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "Arginase-1",
+   "ordinal": 3,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P05089",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "Ornithine decarboxylase antizyme 1",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P54368",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "High affinity cationic amino acid transporter 1",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P30825",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "Cationic amino acid transporter 2",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P52569",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "Mitochondrial ornithine transporter 2",
+   "ordinal": 7,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "Q9BXI2",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "Arginase-2, mitochondrial",
+   "ordinal": 8,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P78540",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "Mitochondrial ornithine transporter 1",
+   "ordinal": 9,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "Q9Y619",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "ORN",
+   "interaction_type": "target",
+   "name": "Glycine amidinotransferase, mitochondrial",
+   "ordinal": 10,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P50440",
+   "reference_database_name": "UniProt"
+  }
+ ],
+ "rcsb_id": "ORN"
+}

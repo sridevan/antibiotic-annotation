@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:60004",
+ "chebi_release": "255",
+ "definition": "A mixture is a chemical substance composed of multiple molecules, at least two of which are of a different kind.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:59999"
+ ],
+ "name": "mixture",
+ "num_descendants": 2676,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24431",
+  "CHEBI:59999"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:14+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "mixture",
+   "chebi_accession": "CHEBI:60004",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A mixture is a chemical substance composed of multiple molecules, at least two of which are of a different kind.",
+   "id": 60004,
+   "is_released": true,
+   "name": "mixture",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 59999,
+      "final_name": "chemical substance",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:60004",
+   "definition": [
+    "A mixture is a chemical substance composed of multiple molecules, at least two of which are of a different kind."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_59999"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_59999"
+   ],
+   "isObsolete": false,
+   "label": [
+    "mixture"
+   ],
+   "numDescendants": 2676.0,
+   "numHierarchicalDescendants": 2676.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

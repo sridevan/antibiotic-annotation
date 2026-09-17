@@ -1,0 +1,163 @@
+{
+ "chebi_id": "CHEBI:29192",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "MHAJPDPJQMAIIY-UHFFFAOYSA-M",
+ "incoming": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:16240",
+   "target_name": "hydrogen peroxide"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33693"
+ ],
+ "name": "hydrogenperoxide(1-)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:33242",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33692",
+  "CHEBI:33693",
+  "CHEBI:36357",
+  "CHEBI:36902",
+  "CHEBI:37577"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:16240",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:45+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "hydrogenperoxide(1-)",
+   "chebi_accession": "CHEBI:29192",
+   "default_structure": {
+    "smiles": "[H]O[O-]",
+    "standard_inchi_key": "MHAJPDPJQMAIIY-UHFFFAOYSA-M"
+   },
+   "definition": null,
+   "id": 29192,
+   "is_released": true,
+   "name": "hydrogenperoxide(1−)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 16240,
+      "init_name": "hydrogen peroxide",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33693,
+      "final_name": "oxygen hydride",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 16240,
+      "final_name": "hydrogen peroxide",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:29192",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33693"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_33242",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33692",
+    "http://purl.obolibrary.org/obo/CHEBI_33693",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36902",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "dioxidanide"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydrogen(peroxide)(1-)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydrogendioxide(1-)"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "MHAJPDPJQMAIIY-UHFFFAOYSA-M",
+   "isObsolete": false,
+   "label": [
+    "hydrogenperoxide(1-)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16240"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "dioxidanide",
+  "hydrogen(peroxide)(1-)",
+  "hydrogendioxide(1-)"
+ ]
+}

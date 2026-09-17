@@ -1,0 +1,67 @@
+{
+  "identity": {
+    "input_id": "KIR",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "KIRROMYCIN",
+    "ccd_type": "non-polymer",
+    "formula": "C43 H60 N2 O12",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C43H60N2O12/c1-9-11-13-21-31-42(6,7)38(50)39(51)43(54,57-31)28(10-2)40(52)44-23-17-16-19-26(4)36(55-8)27(5)37-35(49)34(48)30(56-37)20-15-12-14-18-25(3)33(47)32-29(46)22-24-45-41(32)53/h9,11-22,24,27-28,30-31,34-39,48-51,54H,10,23H2,1-8H3,(H,44,52)(H2,45,46,53)/b11-9-,14-12+,17-16+,20-15+,21-13+,25-18+,26-19+/t27-,28-,30-,31+,34+,35+,36-,37+,38+,39-,43-/m1/s1",
+    "inchikey": "HMSYAPGFKGSXAJ-PAHGNTJYSA-N",
+    "smiles": "CC[C@H](C(=O)NC\\C=C\\C=C(/C)\\[C@H]([C@@H](C)[C@H]1[C@H]([C@H]([C@H](O1)\\C=C\\C=C\\C=C(/C)\\C(=O)C2=C(C=CNC2=O)O)O)O)OC)[C@@]3([C@@H]([C@@H](C([C@@H](O3)\\C=C\\C=C/C)(C)C)O)O)O",
+    "synonyms": [
+      "KIRROMYCIN",
+      "MOCIMYCIN",
+      "DELVOMYCIN",
+      "MYC-8003",
+      "(2S)-N-[(2E,4E,6S,7R)-7-{(2S,3S,4R,5R)-3,4-dihydroxy-5-[(1E,3E,5E)-7-(4-hydroxy-2-oxo-1,2-dihydropyridin-3-yl)-6-methyl-7-oxohepta-1,3,5-trien-1-yl]tetrahydrofuran-2-yl}-6-methoxy-5-methylocta-2,4-dien-1-yl]-2-{(2R,3R,4R,6S)-2,3,4-trihydroxy-5,5-dimethyl-6-[(1E,3Z)-penta-1,3-dien-1-yl]tetrahydro-2H-pyran-2-yl}butanamide (non-preferred name)",
+      "(2S)-N-[(2E,4E,6S,7R)-7-[(2S,3S,4R,5R)-3,4-dihydroxy-5-[(1E,3E,5E)-7-(4-hydroxy-2-oxo-1H-pyridin-3-yl)-6-methyl-7-oxo-hepta-1,3,5-trienyl]oxolan-2-yl]-6-methoxy-5-methyl-octa-2,4-dienyl]-2-[(2R,3R,4R,6S)-2,3,4-trihydroxy-5,5-dimethyl-6-[(1E,3Z)-penta-1,3-dienyl]oxan-2-yl]butanamide"
+    ],
+    "xrefs": {
+      "PubChem": [
+        "6323389",
+        "135484176"
+      ],
+      "CAS": [
+        "50935-71-2"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:27+00:00",
+    "inchikey_connectivity": "HMSYAPGFKGSXAJ"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "unichem_inchikey",
+    "source_id": "HMSYAPGFKGSXAJ-PAHGNTJYSA-N",
+    "primary_chebi_id": "CHEBI:190786",
+    "equivalent_chebi_ids": [
+      "CHEBI:190786"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:190786",
+        "inchikey": "HMSYAPGFKGSXAJ-PAHGNTJYSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "exact standard InChIKey match"
+      }
+    ],
+    "notes": [],
+    "resolved": true
+  },
+  "primary_name": "Mocimycin",
+  "equivalent_names": {
+    "CHEBI:190786": "Mocimycin"
+  },
+  "family": {
+    "member_of": [],
+    "forms": []
+  }
+}

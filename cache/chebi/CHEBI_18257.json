@@ -1,0 +1,299 @@
+{
+ "chebi_id": "CHEBI:18257",
+ "chebi_release": "255",
+ "definition": "An α-amino acid that is pentanoic acid bearing two amino substituents at positions 2 and 5.",
+ "inchikey": "AHLPHDHHMVZTML-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:25718",
+   "target_name": "ornithine derivative"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:41948",
+   "target_name": "eflornithine"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:46912",
+   "target_name": "ornithinium(1+)"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:32964",
+   "target_name": "ornithinate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:83925"
+ ],
+ "name": "ornithine",
+ "num_descendants": 3,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24833",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33575",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33704",
+  "CHEBI:33709",
+  "CHEBI:35352",
+  "CHEBI:35605",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:64709",
+  "CHEBI:72695",
+  "CHEBI:83820",
+  "CHEBI:83925"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:46912",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:32964",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:47:18+00:00",
+ "roles": [
+  "CHEBI:76971",
+  "CHEBI:77746",
+  "CHEBI:83056",
+  "CHEBI:84735"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ornithine",
+   "chebi_accession": "CHEBI:18257",
+   "default_structure": {
+    "smiles": "NCCCC(N)C(=O)O",
+    "standard_inchi_key": "AHLPHDHHMVZTML-UHFFFAOYSA-N"
+   },
+   "definition": "An α-amino acid that is pentanoic acid bearing two amino substituents at positions 2 and 5.",
+   "id": 18257,
+   "is_released": true,
+   "name": "ornithine",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 25718,
+      "init_name": "ornithine derivative",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 41948,
+      "init_name": "eflornithine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 46912,
+      "init_name": "ornithinium(1+)",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "init_id": 32964,
+      "init_name": "ornithinate",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 84735,
+      "final_name": "algal metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 83056,
+      "final_name": "<em>Daphnia magna</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 83925,
+      "final_name": "non-proteinogenic α-amino acid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 32964,
+      "final_name": "ornithinate",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "final_id": 46912,
+      "final_name": "ornithinium(1+)",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:7784"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:18257",
+   "definition": [
+    "An α-amino acid that is pentanoic acid bearing two amino substituents at positions 2 and 5."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_83925"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24833",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33575",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33704",
+    "http://purl.obolibrary.org/obo/CHEBI_33709",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_64709",
+    "http://purl.obolibrary.org/obo/CHEBI_72695",
+    "http://purl.obolibrary.org/obo/CHEBI_83820",
+    "http://purl.obolibrary.org/obo/CHEBI_83925"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "2,5-Diaminopentanoic acid"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "2,5-diaminopentanoic acid"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Ornithine"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "ornithine"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "AHLPHDHHMVZTML-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "ornithine"
+   ],
+   "numDescendants": 3.0,
+   "numHierarchicalDescendants": 3.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_83056"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_84735"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_46912"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_32964"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "2,5-Diaminopentanoic acid",
+  "2,5-diaminopentanoic acid",
+  "Ornithine",
+  "ornithine"
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "chebi_id": "CHEBI:33608",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33674"
+ ],
+ "name": "hydrogen molecular entity",
+ "num_descendants": 31133,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33579",
+  "CHEBI:33674"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:49637",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:45:52+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "hydrogen molecular entity",
+   "chebi_accession": "CHEBI:33608",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33608,
+   "is_released": true,
+   "name": "hydrogen molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 49637,
+      "final_name": "hydrogen atom",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33674,
+      "final_name": "s-block molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33608",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33674"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674"
+   ],
+   "isObsolete": false,
+   "label": [
+    "hydrogen molecular entity"
+   ],
+   "numDescendants": 31133.0,
+   "numHierarchicalDescendants": 31133.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_49637"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

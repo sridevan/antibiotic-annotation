@@ -1,0 +1,88 @@
+{
+ "chebi_id": "CHEBI:33302",
+ "chebi_release": "255",
+ "definition": "A p-block molecular entity containing any pnictogen.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33675"
+ ],
+ "name": "pnictogen molecular entity",
+ "num_descendants": 94875,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33579",
+  "CHEBI:33675"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33300",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:46:02+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "pnictogen molecular entity",
+   "chebi_accession": "CHEBI:33302",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A p-block molecular entity containing any pnictogen.",
+   "id": 33302,
+   "is_released": true,
+   "name": "pnictogen molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33300,
+      "final_name": "pnictogen",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33675,
+      "final_name": "p-block molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33302",
+   "definition": [
+    "A p-block molecular entity containing any pnictogen."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33675"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675"
+   ],
+   "isObsolete": false,
+   "label": [
+    "pnictogen molecular entity"
+   ],
+   "numDescendants": 94875.0,
+   "numHierarchicalDescendants": 94875.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33300"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

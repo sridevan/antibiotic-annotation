@@ -1,0 +1,187 @@
+{
+ "chebi_id": "CHEBI:15782",
+ "chebi_release": "255",
+ "definition": "A cyclic peptide antibiotic produced by the actinomycete <em>Streptomyces</em> <em>puniceus</em>, used in the treatment of tuberculosis.",
+ "inchikey": "GXFAIFRPOKBQRV-GHXCTMGLSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:17800",
+   "target_name": "<em>O</em>-phosphoviomycin"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:60081",
+   "target_name": "viomycin(3+)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:24533",
+  "CHEBI:25903"
+ ],
+ "name": "viomycin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16670",
+  "CHEBI:23367",
+  "CHEBI:23449",
+  "CHEBI:24431",
+  "CHEBI:24533",
+  "CHEBI:25806",
+  "CHEBI:25903",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37622",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:60081",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:34+00:00",
+ "roles": [
+  "CHEBI:33231"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "viomycin",
+   "chebi_accession": "CHEBI:15782",
+   "default_structure": {
+    "smiles": "[H][C@]1([C@]2([H])NC(=O)/C(=C/NC(N)=O)NC(=O)[C@H](CO)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)C[C@@H](N)CCCN)CNC2=O)C[C@H](O)NC(=N)N1",
+    "standard_inchi_key": "GXFAIFRPOKBQRV-GHXCTMGLSA-N"
+   },
+   "definition": "A cyclic peptide antibiotic produced by the actinomycete <em>Streptomyces</em> <em>puniceus</em>, used in the treatment of tuberculosis.",
+   "id": 15782,
+   "is_released": true,
+   "name": "viomycin",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 17800,
+      "init_name": "<em>O</em>-phosphoviomycin",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 60081,
+      "init_name": "viomycin(3+)",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33231,
+      "final_name": "antitubercular agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25903,
+      "final_name": "peptide antibiotic",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 24533,
+      "final_name": "heterodetic cyclic peptide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 60081,
+      "final_name": "viomycin(3+)",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:9995",
+    "CHEBI:15312",
+    "CHEBI:27296",
+    "CHEBI:579539"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:15782",
+   "definition": [
+    "A cyclic peptide antibiotic produced by the actinomycete <em>Streptomyces</em> <em>puniceus</em>, used in the treatment of tuberculosis."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24533",
+    "http://purl.obolibrary.org/obo/CHEBI_25903"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16670",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23449",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24533",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_25903",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(3S)-3,6-diamino-N-[(3S,6Z,9S,12S,15S)-6-[(carbamoylamino)methylene]-3-[(4R,6S)-6-hydroxy-2-iminohexahydropyrimidin-4-yl]-9,12-bis(hydroxymethyl)-2,5,8,11,14-pentaoxo-1,4,7,10,13-pentaazacyclohexadecan-15-yl]hexanamide"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "GXFAIFRPOKBQRV-GHXCTMGLSA-N",
+   "isObsolete": false,
+   "label": [
+    "viomycin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33231"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_60081"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(3S)-3,6-diamino-N-[(3S,6Z,9S,12S,15S)-6-[(carbamoylamino)methylene]-3-[(4R,6S)-6-hydroxy-2-iminohexahydropyrimidin-4-yl]-9,12-bis(hydroxymethyl)-2,5,8,11,14-pentaoxo-1,4,7,10,13-pentaazacyclohexadecan-15-yl]hexanamide"
+ ]
+}

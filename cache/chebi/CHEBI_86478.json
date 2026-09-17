@@ -1,0 +1,90 @@
+{
+ "chebi_id": "CHEBI:86478",
+ "chebi_release": "255",
+ "definition": "Heteroorganic entities that are microbial metabolites (or compounds derived from them) which have significant antifungal properties.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33285"
+ ],
+ "name": "antibiotic antifungal agent",
+ "num_descendants": 75,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33285",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:04+00:00",
+ "roles": [
+  "CHEBI:35718"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antibiotic antifungal agent",
+   "chebi_accession": "CHEBI:86478",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Heteroorganic entities that are microbial metabolites (or compounds derived from them) which have significant antifungal properties.",
+   "id": 86478,
+   "is_released": true,
+   "name": "antibiotic antifungal agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35718,
+      "final_name": "antifungal agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33285,
+      "final_name": "heteroorganic entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:86478",
+   "definition": [
+    "Heteroorganic entities that are microbial metabolites (or compounds derived from them) which have significant antifungal properties."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33285"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antibiotic antifungal agent"
+   ],
+   "numDescendants": 75.0,
+   "numHierarchicalDescendants": 75.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35718"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

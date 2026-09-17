@@ -1,0 +1,148 @@
+{
+ "chebi_id": "CHEBI:64268",
+ "chebi_release": "255",
+ "definition": "An erythromycin cation that is the conjugate acid of erythromycin A, arising from protonation of the tertiary amino group on the 3,4,6-trideoxy-3-(dimethylamino)-β-<small>D</small>-<i>xylo</i>-hexopyranosyl residue; major species at pH 7.3.",
+ "inchikey": "ULGZDMOVFRHVEP-RWJQBGPGSA-O",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:747764",
+   "target_name": "erythromycin A 2'-O-phosphate(1-)"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:42355",
+   "target_name": "erythromycin A"
+  }
+ ],
+ "is_a": [
+  "CHEBI:64290"
+ ],
+ "name": "erythromycin A(1+)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25697",
+  "CHEBI:25699",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33702",
+  "CHEBI:35274",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36916",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:64290"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:42355",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:18+00:00",
+ "roles": [
+  "CHEBI:76969"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "erythromycin A(1+)",
+   "chebi_accession": "CHEBI:64268",
+   "default_structure": {
+    "smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H]([NH+](C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O",
+    "standard_inchi_key": "ULGZDMOVFRHVEP-RWJQBGPGSA-O"
+   },
+   "definition": "An erythromycin cation that is the conjugate acid of erythromycin A, arising from protonation of the tertiary amino group on the 3,4,6-trideoxy-3-(dimethylamino)-β-<small>D</small>-<i>xylo</i>-hexopyranosyl residue; major species at pH 7.3.",
+   "id": 64268,
+   "is_released": true,
+   "name": "erythromycin A(1+)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 747764,
+      "init_name": "erythromycin A 2'-O-phosphate(1-)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 42355,
+      "init_name": "erythromycin A",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 76969,
+      "final_name": "bacterial metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 64290,
+      "final_name": "erythromycin cation",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 42355,
+      "final_name": "erythromycin A",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:64268",
+   "definition": [
+    "An erythromycin cation that is the conjugate acid of erythromycin A, arising from protonation of the tertiary amino group on the 3,4,6-trideoxy-3-(dimethylamino)-β-<small>D</small>-<i>xylo</i>-hexopyranosyl residue; major species at pH 7.3."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_64290"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25697",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33702",
+    "http://purl.obolibrary.org/obo/CHEBI_35274",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_64290"
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "ULGZDMOVFRHVEP-RWJQBGPGSA-O",
+   "isObsolete": false,
+   "label": [
+    "erythromycin A(1+)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76969"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_42355"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

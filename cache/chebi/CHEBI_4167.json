@@ -1,0 +1,857 @@
+{
+ "chebi_id": "CHEBI:4167",
+ "chebi_release": "255",
+ "definition": "A glucopyranose having <small>D</small>-configuration.",
+ "inchikey": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:60925",
+   "target_name": "glucose 6-monomycolate (C46)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:155227",
+   "target_name": "β-<small>D</small>-Xyl<em>p</em>-(1→3)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16077",
+   "target_name": "<small>D</small>-glucopyranose 1-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:15866",
+   "target_name": "2-deoxy-<small>D</small>-glucose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:17901",
+   "target_name": "6-<em>O</em>-acetyl-<small>D</small>-glucose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:157327",
+   "target_name": "<small>D</small>-Glc<em>p</em>-(1→2)-β-<small>D</small>-Gal<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:190013",
+   "target_name": "6-dehydro-<small>D</small>-glucose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:59474",
+   "target_name": "glucose 6-monomycolate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:154519",
+   "target_name": "β-<small>D</small>-Gal<em>p</em>-(1→2)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:47977",
+   "target_name": "2-amino-2-deoxy-<small>D</small>-glucopyranose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:4170",
+   "target_name": "<small>D</small>-glucopyranose 6-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:49126",
+   "target_name": "2-deoxy-2-fluoro-<small>D</small>-glucopyranose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:61548",
+   "target_name": "<small>D</small>-glucopyranose 6-phosphate(2−)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:146448",
+   "target_name": "β-<small>D</small>-Xyl<em>p</em>-(1→6)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:147569",
+   "target_name": "α-<small>L</small>-Fuc<em>p</em>-(1→2)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:157430",
+   "target_name": "<small>D</small>-glucopyranose 3-sulfate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:134469",
+   "target_name": "glucose 6-monomycolate (C36)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:150150",
+   "target_name": "α-<small>D</small>-Glc<em>p</em>NAc-(1→3)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:150550",
+   "target_name": "α-<small>L</small>-Fuc<em>p</em>-(1→6)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:151732",
+   "target_name": "α-<small>D</small>-Gal<em>p</em>-(1→3)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:133910",
+   "target_name": "2-<i>trans</i>-abscisic acid <small>D</small>-glucosyl ester"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:62436",
+   "target_name": "(+)-abscisic acid <small>D</small>-glucopyranosyl ester"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:77820",
+   "target_name": "glucose 6-monomycolate (C80)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:72781",
+   "target_name": "6-tuliposide A"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:90348",
+   "target_name": "glucose 6-monomycolate (C<small><sub>85</sub></small>)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:145436",
+   "target_name": "<small>D</small>-glucopyranose 6-sulfate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:21489",
+   "target_name": "<em>N</em>-<small>D</small>-glucosylarylamine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:156608",
+   "target_name": "<small>D</small>-Glc<em>p</em>-(1↔1)-<small>D</small>-Xyl<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:82807",
+   "target_name": "agrocinopine C"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:148946",
+   "target_name": "α-<small>L</small>-Fuc<em>p</em>-(1→3)-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:148954",
+   "target_name": "α-<small>D</small>-Gal<em>p</em>-(1→2)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:146908",
+   "target_name": "β-<small>D</small>-Gal<em>p</em>-(1→4)-β-<small>D</small>-Gal<em>p</em>-(1→3)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:84755",
+   "target_name": "2-deoxy-<small>D</small>-glucopyranose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:75150",
+   "target_name": "3-dehydro-<small>D</small>-glucose-6-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:87124",
+   "target_name": "6-tuliposide B"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:152485",
+   "target_name": "β-<small>D</small>-Gal<em>p</em>3S-(1→4)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:154556",
+   "target_name": "2-(<small>D</small>-glucopyranosyloxy)-3-hydroxypropyl <small>L</small>-fucopyranoside"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:154058",
+   "target_name": "<small>D</small>-Glc<em>p</em>-(1→2)-<small>D</small>-Gal<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:72725",
+   "target_name": "3-amino-3-deoxy-<small>D</small>-glucopyranose"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:74255",
+   "target_name": "C<small><sub>80</sub></small> <small>D</small>-glucose mono(keto-meromycolate)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:74256",
+   "target_name": "6-deoxy-<small>D</small>-glucos-6-yl corynomycolate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:147661",
+   "target_name": "α-<small>D</small>-Xyl<em>p</em>-(1→6)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:156983",
+   "target_name": "α-<small>D</small>-Xyl<em>p</em>-(1→3)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:154527",
+   "target_name": "β-<small>D</small>-Xyl<em>p</em>-(1→4)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:153793",
+   "target_name": "β-<small>D</small>-Xyl<em>p</em>-(1→2)-<small>D</small>-Glc<em>p</em>"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:167695",
+   "target_name": "punicalagin"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:157047",
+   "target_name": "1-<em>O</em>-<small>D</small>-glucopyranosyl-<small>D</small>-mannitol"
+  }
+ ],
+ "is_a": [
+  "CHEBI:17634",
+  "CHEBI:37661"
+ ],
+ "name": "D-glucopyranose",
+ "num_descendants": 3,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:15693",
+  "CHEBI:16646",
+  "CHEBI:17234",
+  "CHEBI:17608",
+  "CHEBI:17634",
+  "CHEBI:18133",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33917",
+  "CHEBI:35381",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37661",
+  "CHEBI:4194",
+  "CHEBI:50860",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:48+00:00",
+ "roles": [
+  "CHEBI:22587",
+  "CHEBI:231911",
+  "CHEBI:33281",
+  "CHEBI:33282",
+  "CHEBI:35441",
+  "CHEBI:35476",
+  "CHEBI:35480",
+  "CHEBI:35526",
+  "CHEBI:35554",
+  "CHEBI:35610",
+  "CHEBI:35623",
+  "CHEBI:35674",
+  "CHEBI:35705",
+  "CHEBI:35718",
+  "CHEBI:35821",
+  "CHEBI:55324",
+  "CHEBI:63726",
+  "CHEBI:64946",
+  "CHEBI:67079",
+  "CHEBI:74518",
+  "CHEBI:75771",
+  "CHEBI:75772",
+  "CHEBI:76916",
+  "CHEBI:76971",
+  "CHEBI:77746"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "D-glucopyranose",
+   "chebi_accession": "CHEBI:4167",
+   "default_structure": {
+    "smiles": "OC[C@H]1OC(O)[C@H](O)[C@@H](O)[C@@H]1O",
+    "standard_inchi_key": "WQZGKKKJIJFFOK-GASJEMHNSA-N"
+   },
+   "definition": "A glucopyranose having <small>D</small>-configuration.",
+   "id": 4167,
+   "is_released": true,
+   "name": "<small>D</small>-glucopyranose",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 60925,
+      "init_name": "glucose 6-monomycolate (C46)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 155227,
+      "init_name": "β-<small>D</small>-Xyl<em>p</em>-(1→3)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16077,
+      "init_name": "<small>D</small>-glucopyranose 1-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 15866,
+      "init_name": "2-deoxy-<small>D</small>-glucose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 17901,
+      "init_name": "6-<em>O</em>-acetyl-<small>D</small>-glucose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 157327,
+      "init_name": "<small>D</small>-Glc<em>p</em>-(1→2)-β-<small>D</small>-Gal<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 190013,
+      "init_name": "6-dehydro-<small>D</small>-glucose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 59474,
+      "init_name": "glucose 6-monomycolate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 154519,
+      "init_name": "β-<small>D</small>-Gal<em>p</em>-(1→2)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 47977,
+      "init_name": "2-amino-2-deoxy-<small>D</small>-glucopyranose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 4170,
+      "init_name": "<small>D</small>-glucopyranose 6-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 49126,
+      "init_name": "2-deoxy-2-fluoro-<small>D</small>-glucopyranose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 61548,
+      "init_name": "<small>D</small>-glucopyranose 6-phosphate(2−)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 146448,
+      "init_name": "β-<small>D</small>-Xyl<em>p</em>-(1→6)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 147569,
+      "init_name": "α-<small>L</small>-Fuc<em>p</em>-(1→2)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 157430,
+      "init_name": "<small>D</small>-glucopyranose 3-sulfate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 134469,
+      "init_name": "glucose 6-monomycolate (C36)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 150150,
+      "init_name": "α-<small>D</small>-Glc<em>p</em>NAc-(1→3)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 150550,
+      "init_name": "α-<small>L</small>-Fuc<em>p</em>-(1→6)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 151732,
+      "init_name": "α-<small>D</small>-Gal<em>p</em>-(1→3)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 133910,
+      "init_name": "2-<i>trans</i>-abscisic acid <small>D</small>-glucosyl ester",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 62436,
+      "init_name": "(+)-abscisic acid <small>D</small>-glucopyranosyl ester",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 77820,
+      "init_name": "glucose 6-monomycolate (C80)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 72781,
+      "init_name": "6-tuliposide A",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 90348,
+      "init_name": "glucose 6-monomycolate (C<small><sub>85</sub></small>)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 145436,
+      "init_name": "<small>D</small>-glucopyranose 6-sulfate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 21489,
+      "init_name": "<em>N</em>-<small>D</small>-glucosylarylamine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 156608,
+      "init_name": "<small>D</small>-Glc<em>p</em>-(1↔1)-<small>D</small>-Xyl<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 82807,
+      "init_name": "agrocinopine C",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 148946,
+      "init_name": "α-<small>L</small>-Fuc<em>p</em>-(1→3)-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 148954,
+      "init_name": "α-<small>D</small>-Gal<em>p</em>-(1→2)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 146908,
+      "init_name": "β-<small>D</small>-Gal<em>p</em>-(1→4)-β-<small>D</small>-Gal<em>p</em>-(1→3)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 84755,
+      "init_name": "2-deoxy-<small>D</small>-glucopyranose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 75150,
+      "init_name": "3-dehydro-<small>D</small>-glucose-6-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 87124,
+      "init_name": "6-tuliposide B",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 152485,
+      "init_name": "β-<small>D</small>-Gal<em>p</em>3S-(1→4)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 154556,
+      "init_name": "2-(<small>D</small>-glucopyranosyloxy)-3-hydroxypropyl <small>L</small>-fucopyranoside",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 154058,
+      "init_name": "<small>D</small>-Glc<em>p</em>-(1→2)-<small>D</small>-Gal<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 72725,
+      "init_name": "3-amino-3-deoxy-<small>D</small>-glucopyranose",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 74255,
+      "init_name": "C<small><sub>80</sub></small> <small>D</small>-glucose mono(keto-meromycolate)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 74256,
+      "init_name": "6-deoxy-<small>D</small>-glucos-6-yl corynomycolate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 147661,
+      "init_name": "α-<small>D</small>-Xyl<em>p</em>-(1→6)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 156983,
+      "init_name": "α-<small>D</small>-Xyl<em>p</em>-(1→3)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 154527,
+      "init_name": "β-<small>D</small>-Xyl<em>p</em>-(1→4)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 153793,
+      "init_name": "β-<small>D</small>-Xyl<em>p</em>-(1→2)-<small>D</small>-Glc<em>p</em>",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 167695,
+      "init_name": "punicalagin",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 157047,
+      "init_name": "1-<em>O</em>-<small>D</small>-glucopyranosyl-<small>D</small>-mannitol",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 67079,
+      "final_name": "anti-inflammatory agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 55324,
+      "final_name": "gastrointestinal drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35554,
+      "final_name": "cardiovascular drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35610,
+      "final_name": "antineoplastic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 63726,
+      "final_name": "neuroprotective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35526,
+      "final_name": "hypoglycemic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35623,
+      "final_name": "anticonvulsant",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35821,
+      "final_name": "anticholesteremic drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35674,
+      "final_name": "antihypertensive agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76916,
+      "final_name": "hyperglycemic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35441,
+      "final_name": "antiinfective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 22587,
+      "final_name": "antiviral agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 231911,
+      "final_name": "renoprotective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35705,
+      "final_name": "immunosuppressive agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35718,
+      "final_name": "antifungal agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 74518,
+      "final_name": "anti-obesity agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35480,
+      "final_name": "analgesic",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35476,
+      "final_name": "antipsychotic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 64946,
+      "final_name": "anti-HIV agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 37661,
+      "final_name": "glucopyranose",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 17634,
+      "final_name": "<small>D</small>-glucose",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:4167",
+   "definition": [
+    "A glucopyranose having <small>D</small>-configuration."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_17634",
+    "http://purl.obolibrary.org/obo/CHEBI_37661"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_15693",
+    "http://purl.obolibrary.org/obo/CHEBI_16646",
+    "http://purl.obolibrary.org/obo/CHEBI_17234",
+    "http://purl.obolibrary.org/obo/CHEBI_17608",
+    "http://purl.obolibrary.org/obo/CHEBI_17634",
+    "http://purl.obolibrary.org/obo/CHEBI_18133",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33917",
+    "http://purl.obolibrary.org/obo/CHEBI_35381",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37661",
+    "http://purl.obolibrary.org/obo/CHEBI_4194",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "D-glucopyranose"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "WQZGKKKJIJFFOK-GASJEMHNSA-N",
+   "isObsolete": false,
+   "label": [
+    "D-glucopyranose"
+   ],
+   "numDescendants": 3.0,
+   "numHierarchicalDescendants": 3.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_22587"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_231911"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33281"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35441"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35476"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35480"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35526"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35554"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35623"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35674"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35705"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35718"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35821"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_55324"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_63726"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_64946"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_67079"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_74518"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76916"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "D-glucopyranose"
+ ]
+}

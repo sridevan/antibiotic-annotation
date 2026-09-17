@@ -1,0 +1,193 @@
+{
+ "chebi_id": "CHEBI:77315",
+ "chebi_release": "255",
+ "definition": "An organic cation obtained by protonation of the secondary amino groups of spectinomycin.",
+ "inchikey": "UNFWWIHTNXNPBV-WXKVUWSESA-P",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:9217",
+   "target_name": "spectinomycin hydrochloride hydrate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:9216",
+   "target_name": "spectinomycin dihydrochloride"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:146260",
+   "target_name": "spectinomycin(1+)"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:9215",
+   "target_name": "spectinomycin"
+  }
+ ],
+ "is_a": [
+  "CHEBI:25697",
+  "CHEBI:35274"
+ ],
+ "name": "spectinomycin(2+)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25697",
+  "CHEBI:25699",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33702",
+  "CHEBI:35274",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36916",
+  "CHEBI:50860",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:146260",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:9215",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:31+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "spectinomycin(2+)",
+   "chebi_accession": "CHEBI:77315",
+   "default_structure": {
+    "smiles": "[H][C@]12O[C@@H]3[C@@H](O)[C@H]([NH2+]C)[C@H](O)[C@H]([NH2+]C)[C@H]3O[C@@]1(O)C(=O)C[C@@H](C)O2",
+    "standard_inchi_key": "UNFWWIHTNXNPBV-WXKVUWSESA-P"
+   },
+   "definition": "An organic cation obtained by protonation of the secondary amino groups of spectinomycin.",
+   "id": 77315,
+   "is_released": true,
+   "name": "spectinomycin(2+)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 9217,
+      "init_name": "spectinomycin hydrochloride hydrate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 9216,
+      "init_name": "spectinomycin dihydrochloride",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 146260,
+      "init_name": "spectinomycin(1+)",
+      "relation_type": "is conjugate base of"
+     },
+     {
+      "init_id": 9215,
+      "init_name": "spectinomycin",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 25697,
+      "final_name": "organic cation",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35274,
+      "final_name": "ammonium ion derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 146260,
+      "final_name": "spectinomycin(1+)",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "final_id": 9215,
+      "final_name": "spectinomycin",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:77315",
+   "definition": [
+    "An organic cation obtained by protonation of the secondary amino groups of spectinomycin."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25697",
+    "http://purl.obolibrary.org/obo/CHEBI_35274"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25697",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33702",
+    "http://purl.obolibrary.org/obo/CHEBI_35274",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(2R,4aR,5aR,6S,7S,8R,9S,9aR,10aS)-4a,7,9-trihydroxy-N,N',2-trimethyl-4-oxodecahydro-2H-pyrano[2,3-b][1,4]benzodioxine-6,8-diaminium"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "UNFWWIHTNXNPBV-WXKVUWSESA-P",
+   "isObsolete": false,
+   "label": [
+    "spectinomycin(2+)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_146260"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_9215"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(2R,4aR,5aR,6S,7S,8R,9S,9aR,10aS)-4a,7,9-trihydroxy-N,N',2-trimethyl-4-oxodecahydro-2H-pyrano[2,3-b][1,4]benzodioxine-6,8-diaminium"
+ ]
+}

@@ -1,0 +1,212 @@
+{
+ "chebi_id": "CHEBI:57299",
+ "chebi_release": "255",
+ "definition": "A ribonucleoside triphosphate oxoanion that is the trianion of adenosine 5'-triphosphate arising from deprotonation of three of the four free triphosphate OH groups.",
+ "inchikey": "ZKHQWZAMYRWXGA-KQYNXXCUSA-K",
+ "incoming": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:15422",
+   "target_name": "ATP"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:237958",
+   "target_name": "({[(2R,3S,4R,5R)-3,4-dihydroxy-5-(9H-purin-9-yl)oxolan-2-yl]methyl phosphonato}oxy)(phosphonatooxy)phosphinate"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:30616",
+   "target_name": "ATP(4−)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:59724"
+ ],
+ "name": "ATP(3-)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25696",
+  "CHEBI:25699",
+  "CHEBI:26079",
+  "CHEBI:26082",
+  "CHEBI:33241",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:36359",
+  "CHEBI:36360",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:58945",
+  "CHEBI:59724"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:15422",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:237958",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:30616",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:38+00:00",
+ "roles": [
+  "CHEBI:23357",
+  "CHEBI:77746",
+  "CHEBI:78675"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ATP(3-)",
+   "chebi_accession": "CHEBI:57299",
+   "default_structure": {
+    "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])O)[C@@H](O)[C@H]1O",
+    "standard_inchi_key": "ZKHQWZAMYRWXGA-KQYNXXCUSA-K"
+   },
+   "definition": "A ribonucleoside triphosphate oxoanion that is the trianion of adenosine 5'-triphosphate arising from deprotonation of three of the four free triphosphate OH groups.",
+   "id": 57299,
+   "is_released": true,
+   "name": "ATP(3−)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 15422,
+      "init_name": "ATP",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "init_id": 237958,
+      "init_name": "({[(2R,3S,4R,5R)-3,4-dihydroxy-5-(9H-purin-9-yl)oxolan-2-yl]methyl phosphonato}oxy)(phosphonatooxy)phosphinate",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "init_id": 30616,
+      "init_name": "ATP(4−)",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 78675,
+      "final_name": "fundamental metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 23357,
+      "final_name": "cofactor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 59724,
+      "final_name": "ribonucleoside triphosphate oxoanion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 30616,
+      "final_name": "ATP(4−)",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "final_id": 237958,
+      "final_name": "({[(2R,3S,4R,5R)-3,4-dihydroxy-5-(9H-purin-9-yl)oxolan-2-yl]methyl phosphonato}oxy)(phosphonatooxy)phosphinate",
+      "relation_type": "is conjugate base of"
+     },
+     {
+      "final_id": 15422,
+      "final_name": "ATP",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:57299",
+   "definition": [
+    "A ribonucleoside triphosphate oxoanion that is the trianion of adenosine 5'-triphosphate arising from deprotonation of three of the four free triphosphate OH groups."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_59724"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25696",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_26079",
+    "http://purl.obolibrary.org/obo/CHEBI_26082",
+    "http://purl.obolibrary.org/obo/CHEBI_33241",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36359",
+    "http://purl.obolibrary.org/obo/CHEBI_36360",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_58945",
+    "http://purl.obolibrary.org/obo/CHEBI_59724"
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "ZKHQWZAMYRWXGA-KQYNXXCUSA-K",
+   "isObsolete": false,
+   "label": [
+    "ATP(3-)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_23357"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_78675"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_15422"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_237958"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_30616"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,286 @@
+{
+ "chebi_id": "CHEBI:16189",
+ "chebi_release": "255",
+ "definition": "A sulfur oxoanion obtained by deprotonation of both OH groups of sulfuric acid.",
+ "inchikey": "QAOWNCQODCNURD-UHFFFAOYSA-L",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:58958",
+   "target_name": "organosulfate oxoanion"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:81836",
+   "target_name": "thallium sulfate"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:45696",
+   "target_name": "hydrogensulfate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:24834",
+  "CHEBI:33482",
+  "CHEBI:48154",
+  "CHEBI:79388"
+ ],
+ "name": "sulfate",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24834",
+  "CHEBI:24835",
+  "CHEBI:24836",
+  "CHEBI:24870",
+  "CHEBI:25741",
+  "CHEBI:25806",
+  "CHEBI:26835",
+  "CHEBI:33273",
+  "CHEBI:33304",
+  "CHEBI:33482",
+  "CHEBI:33485",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:35406",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36914",
+  "CHEBI:37577",
+  "CHEBI:48154",
+  "CHEBI:79388"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:45696",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:37+00:00",
+ "roles": [
+  "CHEBI:23357",
+  "CHEBI:75772",
+  "CHEBI:77746"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "sulfate",
+   "chebi_accession": "CHEBI:16189",
+   "default_structure": {
+    "smiles": "O=S(=O)([O-])[O-]",
+    "standard_inchi_key": "QAOWNCQODCNURD-UHFFFAOYSA-L"
+   },
+   "definition": "A sulfur oxoanion obtained by deprotonation of both OH groups of sulfuric acid.",
+   "id": 16189,
+   "is_released": true,
+   "name": "sulfate",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 58958,
+      "init_name": "organosulfate oxoanion",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 81836,
+      "init_name": "thallium sulfate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 45696,
+      "init_name": "hydrogensulfate",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 23357,
+      "final_name": "cofactor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48154,
+      "final_name": "sulfur oxide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 79388,
+      "final_name": "divalent inorganic anion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 24834,
+      "final_name": "inorganic anion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33482,
+      "final_name": "sulfur oxoanion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 45696,
+      "final_name": "hydrogensulfate",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:9335",
+    "CHEBI:15135",
+    "CHEBI:45687"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:16189",
+   "definition": [
+    "A sulfur oxoanion obtained by deprotonation of both OH groups of sulfuric acid."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24834",
+    "http://purl.obolibrary.org/obo/CHEBI_33482",
+    "http://purl.obolibrary.org/obo/CHEBI_48154",
+    "http://purl.obolibrary.org/obo/CHEBI_79388"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24834",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24836",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26835",
+    "http://purl.obolibrary.org/obo/CHEBI_33273",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33482",
+    "http://purl.obolibrary.org/obo/CHEBI_33485",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35406",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36914",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_48154",
+    "http://purl.obolibrary.org/obo/CHEBI_79388"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Sulfate"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "sulfate"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "tetraoxidosulfate(2-)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "tetraoxosulfate(2-)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "tetraoxosulfate(VI)"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "QAOWNCQODCNURD-UHFFFAOYSA-L",
+   "isObsolete": false,
+   "label": [
+    "sulfate"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_23357"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_45696"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "Sulfate",
+  "sulfate",
+  "tetraoxidosulfate(2-)",
+  "tetraoxosulfate(2-)",
+  "tetraoxosulfate(VI)"
+ ]
+}

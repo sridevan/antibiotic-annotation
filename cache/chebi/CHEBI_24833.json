@@ -1,0 +1,151 @@
+{
+ "chebi_id": "CHEBI:24833",
+ "chebi_release": "255",
+ "definition": "A compound which contains oxygen, at least one other element, and at least one hydrogen bound to oxygen, and which produces a conjugate base by loss of positive hydrogen ion(s) (hydrons).",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:33241",
+   "target_name": "oxoacid derivative"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:132183",
+   "target_name": "(3<i>S</i>)-hydroxyadipyl-CoA(5−)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:24651"
+ ],
+ "name": "oxoacid",
+ "num_descendants": 14593,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:37577"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:17+00:00",
+ "roles": [
+  "CHEBI:39141"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "oxoacid",
+   "chebi_accession": "CHEBI:24833",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A compound which contains oxygen, at least one other element, and at least one hydrogen bound to oxygen, and which produces a conjugate base by loss of positive hydrogen ion(s) (hydrons).",
+   "id": 24833,
+   "is_released": true,
+   "name": "oxoacid",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 33241,
+      "init_name": "oxoacid derivative",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 132183,
+      "init_name": "(3<i>S</i>)-hydroxyadipyl-CoA(5−)",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 39141,
+      "final_name": "Brønsted acid",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 24651,
+      "final_name": "hydroxides",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:24833",
+   "definition": [
+    "A compound which contains oxygen, at least one other element, and at least one hydrogen bound to oxygen, and which produces a conjugate base by loss of positive hydrogen ion(s) (hydrons)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24651"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "oxoacid"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "oxoacids"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "oxoacid"
+   ],
+   "numDescendants": 14593.0,
+   "numHierarchicalDescendants": 14593.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_39141"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "oxoacid",
+  "oxoacids"
+ ]
+}

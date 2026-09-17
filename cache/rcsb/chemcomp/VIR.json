@@ -1,0 +1,222 @@
+{
+ "_retrieved_at": "2026-09-17T11:43:35+00:00",
+ "chem_comp": {
+  "formula": "C28 H35 N3 O7",
+  "formula_weight": 525.593,
+  "id": "VIR",
+  "name": "VIRGINIAMYCIN M1",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "2001-12-04T00:00:00.000+00:00",
+  "pdbx_modified_date": "2011-06-04T00:00:00.000+00:00",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "VIR",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "VIR",
+   "date": "2001-12-04T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "VIR",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 2
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "VIR",
+   "descriptor": "O=C2N1C(=CCC1)C(=O)OC(C(C=CC(=O)NCC=CC(=CC(O)CC(=O)Cc3nc2co3)C)C)C(C)C",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "VIR",
+   "descriptor": "CC(C)[C@H]1OC(=O)C2=CCCN2C(=O)c3coc(CC(=O)C[C@H](O)\\C=C(C)\\C=C\\CNC(=O)\\C=C\\[C@H]1C)n3",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "VIR",
+   "descriptor": "CC(C)[CH]1OC(=O)C2=CCCN2C(=O)c3coc(CC(=O)C[CH](O)C=C(C)C=CCNC(=O)C=C[CH]1C)n3",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "VIR",
+   "descriptor": "C[C@@H]1\\C=C\\C(=O)NC\\C=C\\C(=C\\[C@H](CC(=O)Cc2nc(co2)C(=O)N3CCC=C3C(=O)O[C@@H]1C(C)C)O)\\C",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "VIR",
+   "descriptor": "CC1C=CC(=O)NCC=CC(=CC(CC(=O)Cc2nc(co2)C(=O)N3CCC=C3C(=O)OC1C(C)C)O)C",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "VIR",
+   "descriptor": "InChI=1S/C28H35N3O7/c1-17(2)26-19(4)9-10-24(34)29-11-5-7-18(3)13-20(32)14-21(33)15-25-30-22(16-37-25)27(35)31-12-6-8-23(31)28(36)38-26/h5,7-10,13,16-17,19-20,26,32H,6,11-12,14-15H2,1-4H3,(H,29,34)/b7-5+,10-9+,18-13+/t19-,20-,26-/m1/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "VIR",
+   "descriptor": "DAIKHDNSXMZDCU-FQTGFAPKSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "VIR",
+   "identifier": "(3R,4R,5E,10E,12E,14S)-14-hydroxy-4,12-dimethyl-3-(1-methylethyl)-8,9,14,15,24,25-hexahydro-1H,3H,22H-21,18-(azeno)pyrrolo[2,1-c][1,8,4,19]dioxadiazacyclotetracosine-1,7,16,22(4H,17H)-tetrone",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "VIR",
+  "drugbank_id": "DB01669",
+  "rcsb_id": "VIR"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C28H35N3O7/c1-17(2)26-19(4)9-10-24(34)29-11-5-7-18(3)13-20(32)14-21(33)15-25-30-22(16-37-25)27(35)31-12-6-8-23(31)28(36)38-26/h5,7-10,13,16-17,19-20,26,32H,6,11-12,14-15H2,1-4H3,(H,29,34)/b7-5+,10-9+,18-13+/t19-,20-,26-/m1/s1",
+  "InChIKey": "DAIKHDNSXMZDCU-FQTGFAPKSA-N",
+  "SMILES": "CC1C=CC(=O)NCC=CC(=CC(CC(=O)Cc2nc(co2)C(=O)N3CCC=C3C(=O)OC1C(C)C)O)C",
+  "SMILES_stereo": "C[C@@H]1\\C=C\\C(=O)NC\\C=C\\C(=C\\[C@H](CC(=O)Cc2nc(co2)C(=O)N3CCC=C3C(=O)O[C@@H]1C(C)C)O)\\C",
+  "comp_id": "VIR"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 73,
+  "atom_count_chiral": 3,
+  "atom_count_heavy": 38,
+  "bond_count": 75,
+  "bond_count_aromatic": 5,
+  "comp_id": "VIR",
+  "initial_deposition_date": "2001-12-04T00:00:00.000+00:00",
+  "initial_release_date": "2002-02-20T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2011-06-04T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "VIR",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB01669",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "VIR",
+   "ordinal": 2,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "5459319",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "VIR",
+   "ordinal": 3,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "21411-53-0",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "VIR",
+   "ordinal": 4,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEBI:9997",
+   "resource_name": "ChEBI"
+  },
+  {
+   "comp_id": "VIR",
+   "ordinal": 5,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEMBL1236670",
+   "resource_name": "ChEMBL"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "VIR",
+   "name": "VIRGINIAMYCIN M1",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "VIR",
+   "name": "(3R,4R,5E,10E,12E,14S)-14-hydroxy-4,12-dimethyl-3-(1-methylethyl)-8,9,14,15,24,25-hexahydro-1H,3H,22H-21,18-(azeno)pyrrolo[2,1-c][1,8,4,19]dioxadiazacyclotetracosine-1,7,16,22(4H,17H)-tetrone",
+   "ordinal": 2,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "VIR",
+   "name": "Virginiamycin factor M1",
+   "ordinal": 3,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "VIR",
+   "name": "Ostreogrycin A",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "VIR",
+   "name": "Pristinamycin IIA",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "VIR",
+   "name": "Streptogramin A",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "VIR",
+   "name": "Mikamycin A",
+   "ordinal": 7,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "VIR",
+   "name": "Virginiamycin M1",
+   "ordinal": 8,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "VIR",
+   "interaction_type": "target",
+   "name": "Streptogramin A acetyltransferase",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P50870",
+   "reference_database_name": "UniProt"
+  }
+ ],
+ "rcsb_id": "VIR"
+}

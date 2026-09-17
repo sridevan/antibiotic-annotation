@@ -1,0 +1,84 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "",
+    "connections": "1-17(2)26-19(4)9-10-24(34)30-11-5-7-18(3)13-21(33)14-20(29)15-25-31-22(16-37-25)27(35)32-12-6-8-23(32)28(36)38-26",
+    "formula": "C28H38FN3O6",
+    "hAtoms": "5,7,9-10,13,16-17,19-21,23,26,33H,6,8,11-12,14-15H2,1-4H3,(H,30,34)",
+    "inchi": "InChI=1S/C28H38FN3O6/c1-17(2)26-19(4)9-10-24(34)30-11-5-7-18(3)13-21(33)14-20(29)15-25-31-22(16-37-25)27(35)32-12-6-8-23(32)28(36)38-26/h5,7,9-10,13,16-17,19-21,23,26,33H,6,8,11-12,14-15H2,1-4H3,(H,30,34)/b7-5+,10-9+,18-13+/t19-,20-,21-,23-,26-/m1/s1",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "",
+    "stereoDbond": "7-5+,10-9+,18-13+",
+    "stereoSP3": "19-,20-,21-,23-,26-",
+    "stereoSP3inverted": "1",
+    "stereoType": "1",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEMBL4455473",
+     "id": 1,
+     "longName": "ChEMBL",
+     "shortName": "chembl",
+     "url": "https://www.ebi.ac.uk/chembldb/compound/inspect/CHEMBL4455473"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "VIF",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/VIF"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "VIF",
+     "id": 5,
+     "longName": "Protein Data Bank in Europe",
+     "shortName": "pdbe",
+     "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/VIF"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "OZV2QPB39M",
+     "id": 14,
+     "longName": "FDA/USP Substance Registration System (SRS)",
+     "shortName": "fdasrs",
+     "url": "https://d20b1koi85gdl2.cloudfront.net/uniisearch/srs/unii/OZV2QPB39M"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "20717886",
+     "id": 15,
+     "longName": "SureChEMBL",
+     "shortName": "surechembl",
+     "url": "https://www.surechembl.org/chemical/20717886"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DTXSID40953763",
+     "id": 32,
+     "longName": "EPA (Environmental Protection Agency) CompTox Dashboard",
+     "shortName": "comptox",
+     "url": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID40953763"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Flopristin",
+     "id": 84,
+     "longName": "Wikipedia",
+     "shortName": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Flopristin"
+    }
+   ],
+   "standardInchiKey": "DFSJQGCLWZVMOD-IQIMCDJDSA-N",
+   "uci": 27303735
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

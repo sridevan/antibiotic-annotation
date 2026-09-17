@@ -1,0 +1,147 @@
+{
+ "chebi_id": "CHEBI:17833",
+ "chebi_release": "255",
+ "definition": "Any of a group of aminoglycoside antibiotics produced by fermentation of some <em>Micromonospora</em> spp.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:22479",
+  "CHEBI:22507"
+ ],
+ "name": "gentamycin",
+ "num_descendants": 13,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22479",
+  "CHEBI:22507",
+  "CHEBI:23007",
+  "CHEBI:23367",
+  "CHEBI:23451",
+  "CHEBI:24400",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:47779",
+  "CHEBI:50860",
+  "CHEBI:63161",
+  "CHEBI:63299",
+  "CHEBI:78616"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:04+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "gentamycin",
+   "chebi_accession": "CHEBI:17833",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any of a group of aminoglycoside antibiotics produced by fermentation of some <em>Micromonospora</em> spp.",
+   "id": 17833,
+   "is_released": true,
+   "name": "gentamycin",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 22479,
+      "final_name": "amino cyclitol glycoside",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 22507,
+      "final_name": "aminoglycoside antibiotic",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5306",
+    "CHEBI:14293",
+    "CHEBI:24206",
+    "CHEBI:24212"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17833",
+   "definition": [
+    "Any of a group of aminoglycoside antibiotics produced by fermentation of some <em>Micromonospora</em> spp."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_22479",
+    "http://purl.obolibrary.org/obo/CHEBI_22507"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22479",
+    "http://purl.obolibrary.org/obo/CHEBI_22507",
+    "http://purl.obolibrary.org/obo/CHEBI_23007",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23451",
+    "http://purl.obolibrary.org/obo/CHEBI_24400",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_47779",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_63161",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "4,6-diamino-3-[3-deoxy-4-C-methyl-3-(methylamino)pentopyranosyloxy]-2-hydroxycyclohexyl 2-amino-2,3,4,6,7-pentadeoxy-6-(methylamino)heptopyranoside"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "gentamycin"
+   ],
+   "numDescendants": 13.0,
+   "numHierarchicalDescendants": 13.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "4,6-diamino-3-[3-deoxy-4-C-methyl-3-(methylamino)pentopyranosyloxy]-2-hydroxycyclohexyl 2-amino-2,3,4,6,7-pentadeoxy-6-(methylamino)heptopyranoside"
+ ]
+}

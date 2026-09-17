@@ -1,0 +1,105 @@
+{
+ "chebi_id": "CHEBI:177758",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "VJYKVCURWJGLPG-IQZGDKDPSA-N",
+ "incoming": [],
+ "is_a": [
+  "CHEBI:26895"
+ ],
+ "name": "Omadacycline",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:26188",
+  "CHEBI:26895",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:46+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "Omadacycline",
+   "chebi_accession": "CHEBI:177758",
+   "default_structure": {
+    "smiles": "[H][C@@]12Cc3c(N(C)C)cc(CNCC(C)(C)C)c(O)c3C(O)=C1C(=O)[C@]1(O)C(O)=C(C(N)=O)C(=O)[C@@H](N(C)C)[C@]1([H])C2",
+    "standard_inchi_key": "VJYKVCURWJGLPG-IQZGDKDPSA-N"
+   },
+   "definition": null,
+   "id": 177758,
+   "is_released": true,
+   "name": "Omadacycline",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 26895,
+      "final_name": "tetracyclines",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 2
+  },
+  "ols4": {
+   "curie": "CHEBI:177758",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_26895"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26188",
+    "http://purl.obolibrary.org/obo/CHEBI_26895",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "SUBMITTER",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(4S,4aS,5aR,12aR)-4,7-bis(dimethylamino)-9-[(2,2-dimethylpropylamino)methyl]-1,10,11,12a-tetrahydroxy-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "VJYKVCURWJGLPG-IQZGDKDPSA-N",
+   "isObsolete": false,
+   "label": [
+    "Omadacycline"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 2,
+ "synonyms": [
+  "(4S,4aS,5aR,12aR)-4,7-bis(dimethylamino)-9-[(2,2-dimethylpropylamino)methyl]-1,10,11,12a-tetrahydroxy-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide"
+ ]
+}

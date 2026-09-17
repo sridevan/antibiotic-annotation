@@ -1,0 +1,271 @@
+{
+ "chebi_id": "CHEBI:7934",
+ "chebi_release": "255",
+ "definition": "An amino cyclitol glycoside that is the 1-<em>O</em>-(2-amino-2-deoxy-α-<small>D</small>-glucopyranoside) and the 3-<em>O</em>-(2,6-diamino-2,6-dideoxy-β-<small>L</small>-idopyranosyl)-β-<small>D</small>-ribofuranoside of 4,6-diamino-2,3-dihydroxycyclohexane (the 1<i>R</i>,2<i>R</i>,3<i>S</i>,4<i>R</i>,6<i>S</i> diastereoisomer). It is obtained from various <em>Streptomyces</em> species. A broad-spectrum antibiotic, it is used (generally as the sulfate salt) for the treatment of acute and chronic intestinal protozoal infections, but is not effective for extraintestinal protozoal infections. It is also used as a therapeutic against visceral leishmaniasis.",
+ "inchikey": "UOZODPSAJZTQNH-LSWIJEOBSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:7935",
+   "target_name": "paromomycin sulfate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:71961",
+   "target_name": "lividomycin A"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:71962",
+   "target_name": "lividomycin B"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:233202",
+   "target_name": "paromomycin(5+)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:22479",
+  "CHEBI:22507"
+ ],
+ "name": "paromomycin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22479",
+  "CHEBI:22507",
+  "CHEBI:23007",
+  "CHEBI:23367",
+  "CHEBI:23451",
+  "CHEBI:24400",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:47779",
+  "CHEBI:50860",
+  "CHEBI:63161",
+  "CHEBI:63299",
+  "CHEBI:78616"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:233202",
+   "target_name": null
+  },
+  {
+   "relation": "RO_0018038",
+   "target_id": "CHEBI:27955",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:29+00:00",
+ "roles": [
+  "CHEBI:35442",
+  "CHEBI:35443",
+  "CHEBI:35820",
+  "CHEBI:36047",
+  "CHEBI:70868"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "paromomycin",
+   "chebi_accession": "CHEBI:7934",
+   "default_structure": {
+    "smiles": "NC[C@@H]1O[C@H](O[C@H]2[C@@H](O)[C@H](O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3N)O[C@@H]2CO)[C@H](N)[C@@H](O)[C@@H]1O",
+    "standard_inchi_key": "UOZODPSAJZTQNH-LSWIJEOBSA-N"
+   },
+   "definition": "An amino cyclitol glycoside that is the 1-<em>O</em>-(2-amino-2-deoxy-α-<small>D</small>-glucopyranoside) and the 3-<em>O</em>-(2,6-diamino-2,6-dideoxy-β-<small>L</small>-idopyranosyl)-β-<small>D</small>-ribofuranoside of 4,6-diamino-2,3-dihydroxycyclohexane (the 1<i>R</i>,2<i>R</i>,3<i>S</i>,4<i>R</i>,6<i>S</i> diastereoisomer). It is obtained from various <em>Streptomyces</em> species. A broad-spectrum antibiotic, it is used (generally as the sulfate salt) for the treatment of acute and chronic intestinal protozoal infections, but is not effective for extraintestinal protozoal infections. It is also used as a therapeutic against visceral leishmaniasis.",
+   "id": 7934,
+   "is_released": true,
+   "name": "paromomycin",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 7935,
+      "init_name": "paromomycin sulfate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 71961,
+      "init_name": "lividomycin A",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 71962,
+      "init_name": "lividomycin B",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 233202,
+      "init_name": "paromomycin(5+)",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 27955,
+      "final_name": "streptamine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "final_id": 70868,
+      "final_name": "antileishmanial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35820,
+      "final_name": "antiprotozoal drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35443,
+      "final_name": "anthelminthic drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35442,
+      "final_name": "antiparasitic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 22479,
+      "final_name": "amino cyclitol glycoside",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 22507,
+      "final_name": "aminoglycoside antibiotic",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 233202,
+      "final_name": "paromomycin(5+)",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:44703"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:7934",
+   "definition": [
+    "An amino cyclitol glycoside that is the 1-<em>O</em>-(2-amino-2-deoxy-α-<small>D</small>-glucopyranoside) and the 3-<em>O</em>-(2,6-diamino-2,6-dideoxy-β-<small>L</small>-idopyranosyl)-β-<small>D</small>-ribofuranoside of 4,6-diamino-2,3-dihydroxycyclohexane (the 1<i>R</i>,2<i>R</i>,3<i>S</i>,4<i>R</i>,6<i>S</i> diastereoisomer). It is obtained from various <em>Streptomyces</em> species. A broad-spectrum antibiotic, it is used (generally as the sulfate salt) for the treatment of acute and chronic intestinal protozoal infections, but is not effective for extraintestinal protozoal infections. It is also used as a therapeutic against visceral leishmaniasis."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_22479",
+    "http://purl.obolibrary.org/obo/CHEBI_22507"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22479",
+    "http://purl.obolibrary.org/obo/CHEBI_22507",
+    "http://purl.obolibrary.org/obo/CHEBI_23007",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23451",
+    "http://purl.obolibrary.org/obo/CHEBI_24400",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_47779",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_63161",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      },
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "PDBeChem"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(1R,2R,3S,4R,6S)-4,6-diamino-2-{[3-O-(2,6-diamino-2,6-dideoxy-beta-L-idopyranosyl)-beta-D-ribofuranosyl]oxy}-3-hydroxycyclohexyl 2-amino-2-deoxy-alpha-D-glucopyranoside"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "UOZODPSAJZTQNH-LSWIJEOBSA-N",
+   "isObsolete": false,
+   "label": [
+    "paromomycin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35442"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35443"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35820"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_70868"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_233202"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018038",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_27955"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(1R,2R,3S,4R,6S)-4,6-diamino-2-{[3-O-(2,6-diamino-2,6-dideoxy-beta-L-idopyranosyl)-beta-D-ribofuranosyl]oxy}-3-hydroxycyclohexyl 2-amino-2-deoxy-alpha-D-glucopyranoside"
+ ]
+}

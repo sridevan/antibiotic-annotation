@@ -1,0 +1,76 @@
+{
+ "chebi_id": "CHEBI:72588",
+ "chebi_release": "255",
+ "definition": "Any organic molecular entity derived from a natural product by partial chemical synthesis.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:50860"
+ ],
+ "name": "semisynthetic derivative",
+ "num_descendants": 55,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:46:57+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "semisynthetic derivative",
+   "chebi_accession": "CHEBI:72588",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any organic molecular entity derived from a natural product by partial chemical synthesis.",
+   "id": 72588,
+   "is_released": true,
+   "name": "semisynthetic derivative",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 50860,
+      "final_name": "organic molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:72588",
+   "definition": [
+    "Any organic molecular entity derived from a natural product by partial chemical synthesis."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "isObsolete": false,
+   "label": [
+    "semisynthetic derivative"
+   ],
+   "numDescendants": 55.0,
+   "numHierarchicalDescendants": 55.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,102 @@
+{
+ "chebi_id": "CHEBI:35681",
+ "chebi_release": "255",
+ "definition": "A secondary alcohol is a compound in which a hydroxy group, ‒OH, is attached to a saturated carbon atom which has two other carbon atoms attached to it.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:30879"
+ ],
+ "name": "secondary alcohol",
+ "num_descendants": 2450,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:30879",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:01+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "secondary alcohol",
+   "chebi_accession": "CHEBI:35681",
+   "default_structure": {
+    "smiles": "*C(*)O",
+    "standard_inchi_key": null
+   },
+   "definition": "A secondary alcohol is a compound in which a hydroxy group, ‒OH, is attached to a saturated carbon atom which has two other carbon atoms attached to it.",
+   "id": 35681,
+   "is_released": true,
+   "name": "secondary alcohol",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 30879,
+      "final_name": "alcohol",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:8741",
+    "CHEBI:9077",
+    "CHEBI:13425",
+    "CHEBI:13686",
+    "CHEBI:16339",
+    "CHEBI:26617",
+    "CHEBI:58662"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35681",
+   "definition": [
+    "A secondary alcohol is a compound in which a hydroxy group, ‒OH, is attached to a saturated carbon atom which has two other carbon atoms attached to it."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_30879"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_30879",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "isObsolete": false,
+   "label": [
+    "secondary alcohol"
+   ],
+   "numDescendants": 2450.0,
+   "numHierarchicalDescendants": 2450.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

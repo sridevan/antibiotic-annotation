@@ -1,0 +1,88 @@
+{
+ "chebi_id": "CHEBI:33304",
+ "chebi_release": "255",
+ "definition": "Any p-block molecular entity containing a chalcogen.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33675"
+ ],
+ "name": "chalcogen molecular entity",
+ "num_descendants": 143978,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33579",
+  "CHEBI:33675"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33303",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:45:47+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "chalcogen molecular entity",
+   "chebi_accession": "CHEBI:33304",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any p-block molecular entity containing a chalcogen.",
+   "id": 33304,
+   "is_released": true,
+   "name": "chalcogen molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33303,
+      "final_name": "chalcogen",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33675,
+      "final_name": "p-block molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33304",
+   "definition": [
+    "Any p-block molecular entity containing a chalcogen."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33675"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675"
+   ],
+   "isObsolete": false,
+   "label": [
+    "chalcogen molecular entity"
+   ],
+   "numDescendants": 143978.0,
+   "numHierarchicalDescendants": 143978.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33303"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

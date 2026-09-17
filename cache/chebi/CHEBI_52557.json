@@ -1,0 +1,84 @@
+{
+ "chebi_id": "CHEBI:52557",
+ "chebi_release": "255",
+ "definition": "A diterpenoid with a tetracyclic skeleton.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23849"
+ ],
+ "name": "tetracyclic diterpenoid",
+ "num_descendants": 114,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:18059",
+  "CHEBI:23367",
+  "CHEBI:23849",
+  "CHEBI:24431",
+  "CHEBI:24913",
+  "CHEBI:26873",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:51+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "tetracyclic diterpenoid",
+   "chebi_accession": "CHEBI:52557",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A diterpenoid with a tetracyclic skeleton.",
+   "id": 52557,
+   "is_released": true,
+   "name": "tetracyclic diterpenoid",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23849,
+      "final_name": "diterpenoid",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:52557",
+   "definition": [
+    "A diterpenoid with a tetracyclic skeleton."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23849"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_18059",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23849",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24913",
+    "http://purl.obolibrary.org/obo/CHEBI_26873",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "isObsolete": false,
+   "label": [
+    "tetracyclic diterpenoid"
+   ],
+   "numDescendants": 114.0,
+   "numHierarchicalDescendants": 114.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

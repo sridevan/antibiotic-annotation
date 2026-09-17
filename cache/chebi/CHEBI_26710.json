@@ -1,0 +1,643 @@
+{
+ "chebi_id": "CHEBI:26710",
+ "chebi_release": "255",
+ "definition": "An inorganic chloride salt having sodium(1+) as the counterion.",
+ "inchikey": "FAPWRFPIFSIZLT-UHFFFAOYSA-M",
+ "incoming": [],
+ "is_a": [
+  "CHEBI:36093",
+  "CHEBI:38702"
+ ],
+ "name": "sodium chloride",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23114",
+  "CHEBI:23117",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:24835",
+  "CHEBI:24839",
+  "CHEBI:24866",
+  "CHEBI:26712",
+  "CHEBI:26714",
+  "CHEBI:33296",
+  "CHEBI:33579",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33958",
+  "CHEBI:35479",
+  "CHEBI:36093",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:37578",
+  "CHEBI:38702"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:42+00:00",
+ "roles": [
+  "CHEBI:149552",
+  "CHEBI:149553",
+  "CHEBI:176497",
+  "CHEBI:22587",
+  "CHEBI:228364",
+  "CHEBI:231911",
+  "CHEBI:33231",
+  "CHEBI:33281",
+  "CHEBI:33282",
+  "CHEBI:35441",
+  "CHEBI:35469",
+  "CHEBI:35474",
+  "CHEBI:35476",
+  "CHEBI:35480",
+  "CHEBI:35526",
+  "CHEBI:35554",
+  "CHEBI:35610",
+  "CHEBI:35620",
+  "CHEBI:35623",
+  "CHEBI:35674",
+  "CHEBI:35705",
+  "CHEBI:35842",
+  "CHEBI:35845",
+  "CHEBI:36047",
+  "CHEBI:38068",
+  "CHEBI:38070",
+  "CHEBI:39456",
+  "CHEBI:48407",
+  "CHEBI:49201",
+  "CHEBI:50177",
+  "CHEBI:50247",
+  "CHEBI:50503",
+  "CHEBI:50748",
+  "CHEBI:50779",
+  "CHEBI:50864",
+  "CHEBI:50919",
+  "CHEBI:51177",
+  "CHEBI:55323",
+  "CHEBI:55324",
+  "CHEBI:62868",
+  "CHEBI:63726",
+  "CHEBI:64946",
+  "CHEBI:64951",
+  "CHEBI:65023",
+  "CHEBI:66981",
+  "CHEBI:67079",
+  "CHEBI:73336",
+  "CHEBI:74518",
+  "CHEBI:75835",
+  "CHEBI:76916",
+  "CHEBI:79314"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "sodium chloride",
+   "chebi_accession": "CHEBI:26710",
+   "default_structure": {
+    "smiles": "[Cl-].[Na+]",
+    "standard_inchi_key": "FAPWRFPIFSIZLT-UHFFFAOYSA-M"
+   },
+   "definition": "An inorganic chloride salt having sodium(1+) as the counterion.",
+   "id": 26710,
+   "is_released": true,
+   "name": "sodium chloride",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 55324,
+      "final_name": "gastrointestinal drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 64946,
+      "final_name": "anti-HIV agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 64951,
+      "final_name": "anti-HBV agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 149552,
+      "final_name": "emetic",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 79314,
+      "final_name": "flame retardant",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 228364,
+      "final_name": "NMR chemical shift reference compound",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35554,
+      "final_name": "cardiovascular drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35674,
+      "final_name": "antihypertensive agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50247,
+      "final_name": "antidote",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35610,
+      "final_name": "antineoplastic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 149553,
+      "final_name": "anticoronaviral agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 176497,
+      "final_name": "geroprotector",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35480,
+      "final_name": "analgesic",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75835,
+      "final_name": "anti-anaemic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50779,
+      "final_name": "appetite enhancer",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35474,
+      "final_name": "anxiolytic drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 38070,
+      "final_name": "anti-arrhythmia drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35842,
+      "final_name": "antirheumatic drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 65023,
+      "final_name": "anti-asthmatic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33282,
+      "final_name": "antibacterial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35476,
+      "final_name": "antipsychotic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 63726,
+      "final_name": "neuroprotective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 67079,
+      "final_name": "anti-inflammatory agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 66981,
+      "final_name": "ophthalmology drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50503,
+      "final_name": "laxative",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 51177,
+      "final_name": "antitussive",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 22587,
+      "final_name": "antiviral agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35469,
+      "final_name": "antidepressant",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50177,
+      "final_name": "dermatologic drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35526,
+      "final_name": "hypoglycemic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35623,
+      "final_name": "anticonvulsant",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 55323,
+      "final_name": "antidiarrhoeal drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 39456,
+      "final_name": "antiglaucoma drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35845,
+      "final_name": "gout suppressant",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76916,
+      "final_name": "hyperglycemic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35620,
+      "final_name": "vasodilator agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35441,
+      "final_name": "antiinfective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50864,
+      "final_name": "insulin-sensitizing drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 231911,
+      "final_name": "renoprotective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 62868,
+      "final_name": "hepatoprotective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 38068,
+      "final_name": "antimalarial",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35705,
+      "final_name": "immunosuppressive agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50919,
+      "final_name": "antiemetic",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 74518,
+      "final_name": "anti-obesity agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48407,
+      "final_name": "antiparkinson drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50748,
+      "final_name": "antipsoriatic",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 49201,
+      "final_name": "anti-ulcer drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 33231,
+      "final_name": "antitubercular agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 73336,
+      "final_name": "vulnerary",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 38702,
+      "final_name": "inorganic sodium salt",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 36093,
+      "final_name": "inorganic chloride",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:26710",
+   "definition": [
+    "An inorganic chloride salt having sodium(1+) as the counterion."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_36093",
+    "http://purl.obolibrary.org/obo/CHEBI_38702"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23114",
+    "http://purl.obolibrary.org/obo/CHEBI_23117",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24839",
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_26712",
+    "http://purl.obolibrary.org/obo/CHEBI_26714",
+    "http://purl.obolibrary.org/obo/CHEBI_33296",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33958",
+    "http://purl.obolibrary.org/obo/CHEBI_35479",
+    "http://purl.obolibrary.org/obo/CHEBI_36093",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37578",
+    "http://purl.obolibrary.org/obo/CHEBI_38702"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "sodium chloride"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "FAPWRFPIFSIZLT-UHFFFAOYSA-M",
+   "isObsolete": false,
+   "label": [
+    "sodium chloride"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_149552"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_149553"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_176497"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_22587"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_228364"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_231911"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33231"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33281"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33282"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35441"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35469"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35474"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35476"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35480"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35526"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35554"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35620"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35623"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35674"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35705"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35842"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35845"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_38068"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_38070"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_39456"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48407"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_49201"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50177"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50247"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50503"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50748"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50779"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50864"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50919"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_51177"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_55323"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_55324"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_62868"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_63726"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_64946"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_64951"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_65023"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_66981"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_67079"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_73336"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_74518"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75835"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76916"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_79314"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "sodium chloride"
+ ]
+}

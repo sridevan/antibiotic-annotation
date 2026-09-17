@@ -1,0 +1,71 @@
+{
+ "chebi_id": "CHEBI:33635",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33595"
+ ],
+ "name": "polycyclic compound",
+ "num_descendants": 38038,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25367",
+  "CHEBI:33595",
+  "CHEBI:36357"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:47:08+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "polycyclic compound",
+   "chebi_accession": "CHEBI:33635",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33635,
+   "is_released": true,
+   "name": "polycyclic compound",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33595,
+      "final_name": "cyclic compound",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33635",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33595"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_36357"
+   ],
+   "isObsolete": false,
+   "label": [
+    "polycyclic compound"
+   ],
+   "numDescendants": 38038.0,
+   "numHierarchicalDescendants": 38038.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

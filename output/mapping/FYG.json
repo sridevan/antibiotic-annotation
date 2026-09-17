@@ -1,0 +1,88 @@
+{
+  "identity": {
+    "input_id": "FYG",
+    "entity_kind": "ccd_nonpolymer",
+    "name": "(2S,5R)-7-oxo-6-(sulfooxy)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide",
+    "ccd_type": "non-polymer",
+    "formula": "C7 H11 N3 O6 S",
+    "formal_charge": 0,
+    "inchi": "InChI=1S/C7H11N3O6S/c8-6(11)5-2-1-4-3-9(5)7(12)10(4)16-17(13,14)15/h4-5H,1-3H2,(H2,8,11)(H,13,14,15)/t4-,5+/m1/s1",
+    "inchikey": "NDCUAPJVLWFHHB-UHNVWZDZSA-N",
+    "smiles": "C1C[C@H](N2C[C@@H]1N(C2=O)OS(=O)(=O)O)C(=O)N",
+    "synonyms": [
+      "(2S,5R)-7-oxo-6-(sulfooxy)-1,6-diazabicyclo[3.2.1]octane-2-carboxamide",
+      "Avibactam",
+      "[(2~{S},5~{R})-2-aminocarbonyl-7-oxidanylidene-1,6-diazabicyclo[3.2.1]octan-6-yl] hydrogen sulfate",
+      "Avibactam sodium"
+    ],
+    "xrefs": {
+      "DrugBank": [
+        "DB09060"
+      ],
+      "CCDC/CSD": [
+        "FUBDUE",
+        "FUBDEO"
+      ],
+      "PubChem": [
+        "9835049",
+        "90333665"
+      ],
+      "ChEBI": [
+        "CHEBI:85984"
+      ],
+      "ChEMBL": [
+        "CHEMBL1689063"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": null,
+    "bird_type": null,
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:43:45+00:00",
+    "inchikey_connectivity": "NDCUAPJVLWFHHB"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "direct_ccd_crossref",
+    "source_id": "FYG",
+    "primary_chebi_id": "CHEBI:85984",
+    "equivalent_chebi_ids": [
+      "CHEBI:85984"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:85984",
+        "inchikey": "NDCUAPJVLWFHHB-UHNVWZDZSA-N",
+        "name": null,
+        "comparison": {},
+        "mismatches": [],
+        "accepted": true,
+        "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
+      }
+    ],
+    "notes": [
+      "RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
+    ],
+    "resolved": true
+  },
+  "primary_name": "avibactam",
+  "equivalent_names": {
+    "CHEBI:85984": "avibactam"
+  },
+  "family": {
+    "member_of": [],
+    "forms": [
+      {
+        "chebi_id": "CHEBI:85988",
+        "name": "avibactam(1-)",
+        "relation": "is_conjugate_acid_of"
+      },
+      {
+        "chebi_id": "CHEBI:85988",
+        "name": "avibactam(1−)",
+        "relation": "is_conjugate_base_of"
+      }
+    ]
+  }
+}

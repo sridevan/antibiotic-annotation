@@ -1,0 +1,96 @@
+{
+ "chebi_id": "CHEBI:4454",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "GRRNUXAQVGOGFE-UHFFFAOYSA-N",
+ "incoming": [],
+ "is_a": [
+  "CHEBI:61689"
+ ],
+ "name": "Destomysin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:23451",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:61689"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:43:26+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "Destomysin",
+   "chebi_accession": "CHEBI:4454",
+   "default_structure": {
+    "smiles": "CNC1CC(N)C(O)C(OC2OC(CO)C(O)C3OC4(OC(C(N)CO)C(O)C(O)C4O)OC23)C1O",
+    "standard_inchi_key": "GRRNUXAQVGOGFE-UHFFFAOYSA-N"
+   },
+   "definition": null,
+   "id": 4454,
+   "is_released": true,
+   "name": "Destomysin",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 61689,
+      "final_name": "amino cyclitol",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 2
+  },
+  "ols4": {
+   "curie": "CHEBI:4454",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_61689"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23451",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_61689"
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "GRRNUXAQVGOGFE-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "Destomysin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 2,
+ "synonyms": []
+}

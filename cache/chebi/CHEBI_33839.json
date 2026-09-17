@@ -1,0 +1,99 @@
+{
+ "chebi_id": "CHEBI:33839",
+ "chebi_release": "255",
+ "definition": "A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:60027",
+   "target_name": "polymer"
+  }
+ ],
+ "is_a": [
+  "CHEBI:36357"
+ ],
+ "name": "macromolecule",
+ "num_descendants": 3888,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:36357"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:45:44+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "macromolecule",
+   "chebi_accession": "CHEBI:33839",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.",
+   "id": 33839,
+   "is_released": true,
+   "name": "macromolecule",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 60027,
+      "init_name": "polymer",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 36357,
+      "final_name": "polyatomic entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33839",
+   "definition": [
+    "A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_36357"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_36357"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "macromolecule"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "macromolecule"
+   ],
+   "numDescendants": 3888.0,
+   "numHierarchicalDescendants": 3888.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "macromolecule"
+ ]
+}

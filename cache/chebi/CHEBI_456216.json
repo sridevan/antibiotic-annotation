@@ -1,0 +1,215 @@
+{
+ "chebi_id": "CHEBI:456216",
+ "chebi_release": "255",
+ "definition": "A nucleoside 5'-diphosphate(3−) arising from deprotonation of all three diphosphate OH groups of adenosine 5'-diphosphate (ADP); major species present at pH 7.3.",
+ "inchikey": "XTWYTFMLZFPYCI-KQYNXXCUSA-K",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:139151",
+   "target_name": "ADP-5-ethyl-4-methylthiazole-2-carboxylate(3−)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:87950",
+   "target_name": "9-ribosyl-<i>trans</i>-zeatin 5'-diphosphate(3−)"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:87518",
+   "target_name": "ADP(2−)"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:16761",
+   "target_name": "ADP"
+  }
+ ],
+ "is_a": [
+  "CHEBI:57930"
+ ],
+ "name": "ADP(3-)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25696",
+  "CHEBI:25699",
+  "CHEBI:26079",
+  "CHEBI:26082",
+  "CHEBI:33241",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:36359",
+  "CHEBI:36360",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:57930",
+  "CHEBI:58945"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:16761",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:87518",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:39+00:00",
+ "roles": [
+  "CHEBI:77746",
+  "CHEBI:78675"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "ADP(3-)",
+   "chebi_accession": "CHEBI:456216",
+   "default_structure": {
+    "smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])[O-])[C@@H](O)[C@H]1O",
+    "standard_inchi_key": "XTWYTFMLZFPYCI-KQYNXXCUSA-K"
+   },
+   "definition": "A nucleoside 5'-diphosphate(3−) arising from deprotonation of all three diphosphate OH groups of adenosine 5'-diphosphate (ADP); major species present at pH 7.3.",
+   "id": 456216,
+   "is_released": true,
+   "name": "ADP(3−)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 139151,
+      "init_name": "ADP-5-ethyl-4-methylthiazole-2-carboxylate(3−)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 87950,
+      "init_name": "9-ribosyl-<i>trans</i>-zeatin 5'-diphosphate(3−)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 87518,
+      "init_name": "ADP(2−)",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "init_id": 16761,
+      "init_name": "ADP",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 78675,
+      "final_name": "fundamental metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 57930,
+      "final_name": "nucleoside 5'-diphosphate(3−)",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 87518,
+      "final_name": "ADP(2−)",
+      "relation_type": "is conjugate base of"
+     },
+     {
+      "final_id": 16761,
+      "final_name": "ADP",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:456216",
+   "definition": [
+    "A nucleoside 5'-diphosphate(3−) arising from deprotonation of all three diphosphate OH groups of adenosine 5'-diphosphate (ADP); major species present at pH 7.3."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_57930"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25696",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_26079",
+    "http://purl.obolibrary.org/obo/CHEBI_26082",
+    "http://purl.obolibrary.org/obo/CHEBI_33241",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36359",
+    "http://purl.obolibrary.org/obo/CHEBI_36360",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_57930",
+    "http://purl.obolibrary.org/obo/CHEBI_58945"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "adenosine 5'-diphosphate"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "XTWYTFMLZFPYCI-KQYNXXCUSA-K",
+   "isObsolete": false,
+   "label": [
+    "ADP(3-)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_78675"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16761"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_87518"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "adenosine 5'-diphosphate"
+ ]
+}

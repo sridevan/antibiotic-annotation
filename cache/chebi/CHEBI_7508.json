@@ -1,0 +1,215 @@
+{
+ "chebi_id": "CHEBI:7508",
+ "chebi_release": "255",
+ "definition": "A tetracyclic antibacterial agent derived from neomycin, being a glycoside ester of neamine and neobiosamine B.",
+ "inchikey": "PGBHMTALBVVCIT-VCIWKGPPSA-N",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:7507",
+   "target_name": "neomycin"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:53636",
+   "target_name": "neomycin B sulfate"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:87835",
+   "target_name": "framycetin(6+)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:47779"
+ ],
+ "name": "framycetin",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24400",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:47779",
+  "CHEBI:50860",
+  "CHEBI:63161",
+  "CHEBI:63299",
+  "CHEBI:78616"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:87835",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:43:28+00:00",
+ "roles": [
+  "CHEBI:36047",
+  "CHEBI:50904",
+  "CHEBI:66981",
+  "CHEBI:76971",
+  "CHEBI:77715"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "framycetin",
+   "chebi_accession": "CHEBI:7508",
+   "default_structure": {
+    "smiles": "NC[C@@H]1O[C@H](O[C@H]2[C@@H](O)[C@H](O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CN)[C@@H](O)[C@H](O)[C@H]3N)O[C@@H]2CO)[C@H](N)[C@@H](O)[C@@H]1O",
+    "standard_inchi_key": "PGBHMTALBVVCIT-VCIWKGPPSA-N"
+   },
+   "definition": "A tetracyclic antibacterial agent derived from neomycin, being a glycoside ester of neamine and neobiosamine B.",
+   "id": 7508,
+   "is_released": true,
+   "name": "framycetin",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 7507,
+      "init_name": "neomycin",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 53636,
+      "init_name": "neomycin B sulfate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 87835,
+      "init_name": "framycetin(6+)",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77715,
+      "final_name": "nasal decongestant",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 66981,
+      "final_name": "ophthalmology drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50904,
+      "final_name": "allergen",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 36047,
+      "final_name": "antibacterial drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 47779,
+      "final_name": "aminoglycoside",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 87835,
+      "final_name": "framycetin(6+)",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:44577"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:7508",
+   "definition": [
+    "A tetracyclic antibacterial agent derived from neomycin, being a glycoside ester of neamine and neobiosamine B."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_47779"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24400",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_47779",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_63161",
+    "http://purl.obolibrary.org/obo/CHEBI_63299",
+    "http://purl.obolibrary.org/obo/CHEBI_78616"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(1R,2R,3S,4R,6S)-4,6-diamino-2-{[3-O-(2,6-diamino-2,6-dideoxy-beta-L-idopyranosyl)-beta-D-ribofuranosyl]oxy}-3-hydroxycyclohexyl 2,6-diamino-2,6-dideoxy-alpha-D-glucopyranoside"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "PGBHMTALBVVCIT-VCIWKGPPSA-N",
+   "isObsolete": false,
+   "label": [
+    "framycetin"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_36047"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50904"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_66981"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77715"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_87835"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(1R,2R,3S,4R,6S)-4,6-diamino-2-{[3-O-(2,6-diamino-2,6-dideoxy-beta-L-idopyranosyl)-beta-D-ribofuranosyl]oxy}-3-hydroxycyclohexyl 2,6-diamino-2,6-dideoxy-alpha-D-glucopyranoside"
+ ]
+}
