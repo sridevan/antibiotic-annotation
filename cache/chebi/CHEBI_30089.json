@@ -1,0 +1,455 @@
+{
+ "chebi_id": "CHEBI:30089",
+ "chebi_release": "255",
+ "definition": "A monocarboxylic acid anion resulting from the removal of a proton from the carboxy group of acetic acid.",
+ "inchikey": "QTBSBXVTEAMEQO-UHFFFAOYSA-M",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:760836",
+   "target_name": "2-acetylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:23123",
+   "target_name": "chloroacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:28240",
+   "target_name": "dichloroacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:27455",
+   "target_name": "trichloroacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:23715",
+   "target_name": "difluoroacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:18172",
+   "target_name": "fluoroacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:27110",
+   "target_name": "trifluoroacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16237",
+   "target_name": "4-chlorophenylacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:28440",
+   "target_name": "(2,6-dihydroxyphenyl)acetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16169",
+   "target_name": "homogentisate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:18401",
+   "target_name": "phenylacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:19733",
+   "target_name": "(2,2,3-trimethyl-5-oxocyclopent-3-en-1-yl)acetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:48999",
+   "target_name": "4-hydroxyphenylacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:78385",
+   "target_name": "1-palmityl-2-acetyl-<em>sn</em>-glycero-3-phosphate(2−)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:85638",
+   "target_name": "haloacetate(1−)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:747879",
+   "target_name": "iodoacetacte"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:192408",
+   "target_name": "bromoacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:747888",
+   "target_name": "2-fluoro-2-hydroxyacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:29805",
+   "target_name": "glycolate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:25147",
+   "target_name": "mandelate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:20479",
+   "target_name": "(5-oxo-2-sulfonato-2,5-dihydrofuran-2-yl)acetate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:63879",
+   "target_name": "ethylammonium acetate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:63045",
+   "target_name": "lithium acetate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:32954",
+   "target_name": "sodium acetate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:77245",
+   "target_name": "lead tetraacetate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:132481",
+   "target_name": "guanidine acetate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:32029",
+   "target_name": "potassium acetate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:3310",
+   "target_name": "calcium acetate"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:15366",
+   "target_name": "acetic acid"
+  }
+ ],
+ "is_a": [
+  "CHEBI:35757"
+ ],
+ "name": "acetate",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25696",
+  "CHEBI:25699",
+  "CHEBI:25741",
+  "CHEBI:25806",
+  "CHEBI:29067",
+  "CHEBI:33273",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35406",
+  "CHEBI:35757",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:37577",
+  "CHEBI:50860"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:15366",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:23:56+00:00",
+ "roles": [
+  "CHEBI:75772",
+  "CHEBI:77746"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "acetate",
+   "chebi_accession": "CHEBI:30089",
+   "default_structure": {
+    "smiles": "CC(=O)[O-]",
+    "standard_inchi_key": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+   },
+   "definition": "A monocarboxylic acid anion resulting from the removal of a proton from the carboxy group of acetic acid.",
+   "id": 30089,
+   "is_released": true,
+   "name": "acetate",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 760836,
+      "init_name": "2-acetylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 23123,
+      "init_name": "chloroacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 28240,
+      "init_name": "dichloroacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 27455,
+      "init_name": "trichloroacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 23715,
+      "init_name": "difluoroacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 18172,
+      "init_name": "fluoroacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 27110,
+      "init_name": "trifluoroacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16237,
+      "init_name": "4-chlorophenylacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 28440,
+      "init_name": "(2,6-dihydroxyphenyl)acetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16169,
+      "init_name": "homogentisate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 18401,
+      "init_name": "phenylacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 19733,
+      "init_name": "(2,2,3-trimethyl-5-oxocyclopent-3-en-1-yl)acetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 48999,
+      "init_name": "4-hydroxyphenylacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 78385,
+      "init_name": "1-palmityl-2-acetyl-<em>sn</em>-glycero-3-phosphate(2−)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 85638,
+      "init_name": "haloacetate(1−)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 747879,
+      "init_name": "iodoacetacte",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 192408,
+      "init_name": "bromoacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 747888,
+      "init_name": "2-fluoro-2-hydroxyacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 29805,
+      "init_name": "glycolate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 25147,
+      "init_name": "mandelate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 20479,
+      "init_name": "(5-oxo-2-sulfonato-2,5-dihydrofuran-2-yl)acetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 63879,
+      "init_name": "ethylammonium acetate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 63045,
+      "init_name": "lithium acetate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 32954,
+      "init_name": "sodium acetate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 77245,
+      "init_name": "lead tetraacetate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 132481,
+      "init_name": "guanidine acetate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 32029,
+      "init_name": "potassium acetate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 3310,
+      "init_name": "calcium acetate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 15366,
+      "init_name": "acetic acid",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35757,
+      "final_name": "monocarboxylic acid anion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 15366,
+      "final_name": "acetic acid",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:13704",
+    "CHEBI:22165",
+    "CHEBI:40480"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:30089",
+   "definition": [
+    "A monocarboxylic acid anion resulting from the removal of a proton from the carboxy group of acetic acid."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35757"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25696",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_25741",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_29067",
+    "http://purl.obolibrary.org/obo/CHEBI_33273",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35406",
+    "http://purl.obolibrary.org/obo/CHEBI_35757",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "acetate"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "QTBSBXVTEAMEQO-UHFFFAOYSA-M",
+   "isObsolete": false,
+   "label": [
+    "acetate"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_15366"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "acetate"
+ ]
+}

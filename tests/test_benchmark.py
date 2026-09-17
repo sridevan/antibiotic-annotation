@@ -2,11 +2,7 @@ from pathlib import Path
 
 import pytest
 
-from antibiotic_annotation.benchmark import (
-    BenchmarkSet,
-    load_benchmark,
-    stratified_split,
-)
+from antibiotic_annotation.benchmark import BenchmarkSet, load_benchmark
 
 WORKBOOK = Path(__file__).resolve().parents[1] / "data" / "benchmark" / "antibiotic_ontology_rule_evaluation.xlsx"
 
@@ -82,22 +78,3 @@ def test_workbook_chebi_ids_are_carried(bench):
     by_name = {i.compound: i for i in bench.primary_positives}
     assert by_name["Tetracycline"].workbook_chebi_id == "CHEBI:27902"
     assert by_name["CEM-101"].workbook_chebi_id is None
-
-
-def test_split_is_deterministic_and_stratified(bench):
-    s1 = stratified_split(bench.primary_items, seed="v1", dev_fraction=0.7)
-    s2 = stratified_split(bench.primary_items, seed="v1", dev_fraction=0.7)
-    assert s1 == s2
-    dev = {i.input_id for i in bench.primary_items if s1[i.input_id] == "dev"}
-    hold = {i.input_id for i in bench.primary_items if s1[i.input_id] == "holdout"}
-    assert dev.isdisjoint(hold) and dev | hold == {i.input_id for i in bench.primary_items}
-    n = len(bench.primary_items)
-    assert 0.6 * n <= len(dev) <= 0.8 * n
-    # holdout contains several antibiotic classes, hard negatives and easy negatives
-    hold_items = [i for i in bench.primary_items if i.input_id in hold]
-    pos_strata = {i.stratum for i in hold_items if i.label == 1}
-    neg_strata = {i.stratum for i in hold_items if i.label == 0}
-    assert len(pos_strata) >= 3
-    assert {"easy", "hard_ontology"} <= neg_strata
-    # a different seed gives a different split
-    assert stratified_split(bench.primary_items, seed="v2", dev_fraction=0.7) != s1

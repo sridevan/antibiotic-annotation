@@ -1,0 +1,210 @@
+{
+ "_retrieved_at": "2026-09-17T13:24:04+00:00",
+ "chem_comp": {
+  "formula": "C6 H14 O2",
+  "formula_weight": 118.174,
+  "id": "MPD",
+  "name": "(4S)-2-METHYL-2,4-PENTANEDIOL",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "1999-07-08T00:00:00.000+00:00",
+  "pdbx_modified_date": "2011-06-04T00:00:00.000+00:00",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "three_letter_code": "MPD",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "MPD",
+   "date": "1999-07-08T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "MPD",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 2
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "MPD",
+   "descriptor": "OC(C)CC(O)(C)C",
+   "program": "ACDLabs",
+   "program_version": "11.02",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "MPD",
+   "descriptor": "C[C@H](O)CC(C)(C)O",
+   "program": "CACTVS",
+   "program_version": "3.352",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "MPD",
+   "descriptor": "C[CH](O)CC(C)(C)O",
+   "program": "CACTVS",
+   "program_version": "3.352",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "MPD",
+   "descriptor": "C[C@@H](CC(C)(C)O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.0",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "MPD",
+   "descriptor": "CC(CC(C)(C)O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.0",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "MPD",
+   "descriptor": "InChI=1S/C6H14O2/c1-5(7)4-6(2,3)8/h5,7-8H,4H2,1-3H3/t5-/m0/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "MPD",
+   "descriptor": "SVTBMSDMJJWYQN-YFKPBYRVSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "MPD",
+   "identifier": "(4S)-2-methylpentane-2,4-diol",
+   "program": "ACDLabs",
+   "program_version": "11.02",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "MPD",
+   "identifier": "(4S)-2-methylpentane-2,4-diol",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.6.1",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "MPD",
+  "drugbank_id": "DB03564",
+  "rcsb_id": "MPD"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C6H14O2/c1-5(7)4-6(2,3)8/h5,7-8H,4H2,1-3H3/t5-/m0/s1",
+  "InChIKey": "SVTBMSDMJJWYQN-YFKPBYRVSA-N",
+  "SMILES": "CC(CC(C)(C)O)O",
+  "SMILES_stereo": "C[C@@H](CC(C)(C)O)O",
+  "comp_id": "MPD"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 22,
+  "atom_count_chiral": 1,
+  "atom_count_heavy": 8,
+  "bond_count": 21,
+  "bond_count_aromatic": 0,
+  "comp_id": "MPD",
+  "initial_deposition_date": "1999-07-08T00:00:00.000+00:00",
+  "initial_release_date": "1981-05-21T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2011-06-04T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "MPD",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB03564",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "MPD",
+   "ordinal": 2,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "KOFPAW",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "MPD",
+   "ordinal": 3,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "5288834",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "MPD",
+   "ordinal": 4,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "99113-75-4",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "MPD",
+   "ordinal": 5,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEBI:44224",
+   "resource_name": "ChEBI"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "MPD",
+   "name": "(4S)-2-METHYL-2,4-PENTANEDIOL",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "MPD",
+   "name": "(4S)-2-methylpentane-2,4-diol",
+   "ordinal": 2,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "MPD",
+   "name": "(4S)-2-methylpentane-2,4-diol",
+   "ordinal": 3,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "MPD",
+   "name": "(4r)-2-Methylpentane-2,4-Diol",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "MPD",
+   "interaction_type": "target",
+   "name": "Xylose isomerase",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P24300",
+   "reference_database_name": "UniProt"
+  },
+  {
+   "comp_id": "MPD",
+   "interaction_type": "target",
+   "name": "L-glutamate gamma-semialdehyde dehydrogenase",
+   "ordinal": 2,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P83849",
+   "reference_database_name": "UniProt"
+  }
+ ],
+ "rcsb_id": "MPD"
+}

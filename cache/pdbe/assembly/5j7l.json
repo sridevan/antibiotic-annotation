@@ -1,0 +1,2007 @@
+{
+ "5j7l": [
+  {
+   "assembly_composition": "RNA/protein complex",
+   "assembly_id": "1",
+   "details": "author_defined_assembly",
+   "entities": [
+    {
+     "entity_id": 52,
+     "in_chains": [
+      "XC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL29"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 64,
+     "in_chains": [
+      "GY",
+      "OX",
+      "RW",
+      "VW"
+     ],
+     "molecule_name": [
+      "SPERMIDINE"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 4
+    },
+    {
+     "entity_id": 23,
+     "in_chains": [
+      "XA"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL33"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 50,
+     "in_chains": [
+      "VC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL27"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 27,
+     "in_chains": [
+      "BB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL30"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 6,
+     "in_chains": [
+      "F"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS6, non-modified isoform"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 57,
+     "in_chains": [
+      "AX",
+      "BP",
+      "CP",
+      "DP",
+      "MO",
+      "MX",
+      "NO",
+      "OO",
+      "PX",
+      "SO",
+      "SX",
+      "TF",
+      "YF",
+      "YW"
+     ],
+     "molecule_name": [
+      "(4S)-2-METHYL-2,4-PENTANEDIOL"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 14
+    },
+    {
+     "entity_id": 14,
+     "in_chains": [
+      "N"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS14"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 51,
+     "in_chains": [
+      "WC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL28"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 58,
+     "in_chains": [
+      "BY",
+      "DX",
+      "DY",
+      "EY",
+      "FY",
+      "NX",
+      "QO",
+      "SW",
+      "UF",
+      "UX",
+      "VF",
+      "VX",
+      "WF",
+      "WW",
+      "XF",
+      "XW"
+     ],
+     "molecule_name": [
+      "1,4-DIAMINOBUTANE"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 16
+    },
+    {
+     "entity_id": 68,
+     "in_chains": [
+      "CY"
+     ],
+     "molecule_name": [
+      "2-AMINO-2-HYDROXYMETHYL-PROPANE-1,3-DIOL"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 40,
+     "in_chains": [
+      "LC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL16"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 59,
+     "in_chains": [
+      "CG",
+      "DG"
+     ],
+     "molecule_name": [
+      "TETRACYCLINE"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 2
+    },
+    {
+     "entity_id": 1,
+     "in_chains": [
+      "A"
+     ],
+     "molecule_name": [
+      "16S ribosomal RNA"
+     ],
+     "molecule_type": "polyribonucleotide",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 15,
+     "in_chains": [
+      "O"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS15"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 42,
+     "in_chains": [
+      "NC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL18"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 43,
+     "in_chains": [
+      "OC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL19"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 36,
+     "in_chains": [
+      "HC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL11"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 7,
+     "in_chains": [
+      "G"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS7"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 45,
+     "in_chains": [
+      "QC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL21"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 62,
+     "in_chains": [
+      "CX",
+      "DI",
+      "FP",
+      "FX",
+      "GX",
+      "PP",
+      "QP",
+      "QX",
+      "RX",
+      "SP",
+      "TP",
+      "XX"
+     ],
+     "molecule_name": [
+      "1,2-ETHANEDIOL"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 12
+    },
+    {
+     "entity_id": 44,
+     "in_chains": [
+      "PC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL20"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 41,
+     "in_chains": [
+      "MC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL17"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 34,
+     "in_chains": [
+      "FC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL6"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 63,
+     "in_chains": [
+      "EI",
+      "EP",
+      "HY",
+      "LX",
+      "RP",
+      "UW",
+      "WX",
+      "ZO",
+      "ZX"
+     ],
+     "molecule_name": [
+      "TRIETHYLENE GLYCOL"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 9
+    },
+    {
+     "entity_id": 56,
+     "in_chains": [
+      "AP",
+      "BX",
+      "SF",
+      "VO",
+      "XO",
+      "YX"
+     ],
+     "molecule_name": [
+      "TETRAETHYLENE GLYCOL"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 6
+    },
+    {
+     "entity_id": 17,
+     "in_chains": [
+      "Q"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS17"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 11,
+     "in_chains": [
+      "K"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS11"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 54,
+     "in_chains": [
+      "AD"
+     ],
+     "molecule_name": [
+      "23S ribosomal RNA"
+     ],
+     "molecule_type": "polyribonucleotide",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 37,
+     "in_chains": [
+      "IC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL13"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 30,
+     "in_chains": [
+      "HB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL3"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 2,
+     "in_chains": [
+      "B"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS2"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 21,
+     "in_chains": [
+      "U"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS21"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 8,
+     "in_chains": [
+      "H"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS8"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 12,
+     "in_chains": [
+      "L"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS12"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 66,
+     "in_chains": [
+      "EX",
+      "JX",
+      "ZW"
+     ],
+     "molecule_name": [
+      "ACETIC ACID"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 3
+    },
+    {
+     "entity_id": 10,
+     "in_chains": [
+      "J"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS10"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 48,
+     "in_chains": [
+      "TC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL24"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 4,
+     "in_chains": [
+      "D"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS4"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 35,
+     "in_chains": [
+      "GC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL9"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 5,
+     "in_chains": [
+      "E"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS5"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 18,
+     "in_chains": [
+      "R"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS18"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 49,
+     "in_chains": [
+      "UC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL25"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 65,
+     "in_chains": [
+      "KX",
+      "TW"
+     ],
+     "molecule_name": [
+      "PENTAETHYLENE GLYCOL"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 2
+    },
+    {
+     "entity_id": 53,
+     "in_chains": [
+      "YC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL10"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 9,
+     "in_chains": [
+      "I"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS9"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 20,
+     "in_chains": [
+      "T"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS20"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 26,
+     "in_chains": [
+      "AB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL36A"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 22,
+     "in_chains": [
+      "WA"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL32"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 46,
+     "in_chains": [
+      "RC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL22"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 33,
+     "in_chains": [
+      "EC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL5"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 28,
+     "in_chains": [
+      "ZC"
+     ],
+     "molecule_name": [
+      "5S ribosomal RNA"
+     ],
+     "molecule_type": "polyribonucleotide",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 3,
+     "in_chains": [
+      "C"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS3"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 55,
+     "in_chains": [
+      "AE",
+      "AF",
+      "AG",
+      "AQ",
+      "AR",
+      "AS",
+      "AT",
+      "AU",
+      "AV",
+      "AW",
+      "BD",
+      "BE",
+      "BF",
+      "BG",
+      "BQ",
+      "BR",
+      "BS",
+      "BT",
+      "BU",
+      "BV",
+      "BW",
+      "CD",
+      "CE",
+      "CF",
+      "CQ",
+      "CR",
+      "CS",
+      "CT",
+      "CU",
+      "CV",
+      "CW",
+      "DD",
+      "DE",
+      "DF",
+      "DQ",
+      "DR",
+      "DS",
+      "DT",
+      "DU",
+      "DV",
+      "DW",
+      "ED",
+      "EE",
+      "EF",
+      "EQ",
+      "ER",
+      "ES",
+      "ET",
+      "EU",
+      "EV",
+      "EW",
+      "FD",
+      "FE",
+      "FF",
+      "FQ",
+      "FR",
+      "FS",
+      "FT",
+      "FU",
+      "FV",
+      "FW",
+      "GD",
+      "GE",
+      "GF",
+      "GP",
+      "GQ",
+      "GR",
+      "GS",
+      "GT",
+      "GU",
+      "GV",
+      "GW",
+      "HD",
+      "HE",
+      "HF",
+      "HP",
+      "HQ",
+      "HR",
+      "HS",
+      "HT",
+      "HU",
+      "HV",
+      "HW",
+      "ID",
+      "IE",
+      "IF",
+      "IP",
+      "IQ",
+      "IR",
+      "IS",
+      "IT",
+      "IU",
+      "IV",
+      "IW",
+      "JD",
+      "JE",
+      "JF",
+      "JP",
+      "JQ",
+      "JR",
+      "JS",
+      "JT",
+      "JU",
+      "JV",
+      "JW",
+      "KD",
+      "KE",
+      "KF",
+      "KP",
+      "KQ",
+      "KR",
+      "KS",
+      "KT",
+      "KU",
+      "KV",
+      "KW",
+      "KY",
+      "LD",
+      "LE",
+      "LF",
+      "LO",
+      "LP",
+      "LQ",
+      "LR",
+      "LS",
+      "LT",
+      "LU",
+      "LV",
+      "LW",
+      "LY",
+      "MD",
+      "ME",
+      "MF",
+      "MP",
+      "MQ",
+      "MR",
+      "MS",
+      "MT",
+      "MU",
+      "MV",
+      "MW",
+      "MY",
+      "ND",
+      "NE",
+      "NF",
+      "NP",
+      "NQ",
+      "NR",
+      "NS",
+      "NT",
+      "NU",
+      "NV",
+      "NW",
+      "NY",
+      "OD",
+      "OE",
+      "OF",
+      "OP",
+      "OQ",
+      "OR",
+      "OS",
+      "OT",
+      "OU",
+      "OV",
+      "OW",
+      "PD",
+      "PE",
+      "PF",
+      "PQ",
+      "PR",
+      "PS",
+      "PT",
+      "PU",
+      "PV",
+      "PW",
+      "QD",
+      "QE",
+      "QF",
+      "QQ",
+      "QR",
+      "QS",
+      "QT",
+      "QU",
+      "QV",
+      "QW",
+      "RD",
+      "RE",
+      "RF",
+      "RO",
+      "RQ",
+      "RR",
+      "RS",
+      "RT",
+      "RU",
+      "RV",
+      "SD",
+      "SE",
+      "SQ",
+      "SR",
+      "SS",
+      "ST",
+      "SU",
+      "SV",
+      "TD",
+      "TE",
+      "TQ",
+      "TR",
+      "TS",
+      "TT",
+      "TU",
+      "TV",
+      "UD",
+      "UE",
+      "UP",
+      "UQ",
+      "UR",
+      "US",
+      "UT",
+      "UU",
+      "UV",
+      "VD",
+      "VE",
+      "VP",
+      "VQ",
+      "VR",
+      "VS",
+      "VT",
+      "VU",
+      "VV",
+      "WD",
+      "WE",
+      "WO",
+      "WP",
+      "WQ",
+      "WR",
+      "WS",
+      "WT",
+      "WU",
+      "WV",
+      "XD",
+      "XE",
+      "XP",
+      "XQ",
+      "XR",
+      "XS",
+      "XT",
+      "XU",
+      "XV",
+      "YD",
+      "YE",
+      "YO",
+      "YP",
+      "YQ",
+      "YR",
+      "YS",
+      "YT",
+      "YU",
+      "YV",
+      "ZD",
+      "ZE",
+      "ZF",
+      "ZP",
+      "ZQ",
+      "ZR",
+      "ZS",
+      "ZT",
+      "ZU",
+      "ZV"
+     ],
+     "molecule_name": [
+      "MAGNESIUM ION"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 268
+    },
+    {
+     "entity_id": 67,
+     "in_chains": [
+      "TX"
+     ],
+     "molecule_name": [
+      "GUANINE"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 13,
+     "in_chains": [
+      "M"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS13"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 29,
+     "in_chains": [
+      "GB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL2"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 19,
+     "in_chains": [
+      "S"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS19"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 38,
+     "in_chains": [
+      "JC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL14"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 60,
+     "in_chains": [
+      "EG",
+      "HI"
+     ],
+     "molecule_name": [
+      "ZINC ION"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 2
+    },
+    {
+     "entity_id": 69,
+     "in_chains": [
+      "ABA",
+      "AZ",
+      "BAA",
+      "BBA",
+      "BZ",
+      "CAA",
+      "CBA",
+      "CZ",
+      "DBA",
+      "DZ",
+      "EBA",
+      "FBA",
+      "GBA",
+      "LAA",
+      "MAA",
+      "NAA",
+      "OAA",
+      "OY",
+      "PAA",
+      "PY",
+      "QAA",
+      "QY",
+      "RAA",
+      "RY",
+      "RZ",
+      "SAA",
+      "SY",
+      "SZ",
+      "TAA",
+      "TY",
+      "TZ",
+      "UAA",
+      "UY",
+      "UZ",
+      "VAA",
+      "VY",
+      "VZ",
+      "WAA",
+      "WY",
+      "WZ",
+      "XAA",
+      "XY",
+      "YAA",
+      "YY",
+      "ZAA",
+      "ZY"
+     ],
+     "molecule_name": [
+      "WATER"
+     ],
+     "molecule_type": "water",
+     "number_of_copies": 46
+    },
+    {
+     "entity_id": 16,
+     "in_chains": [
+      "P"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS16"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 24,
+     "in_chains": [
+      "YA"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL34"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 32,
+     "in_chains": [
+      "DC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL4"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 61,
+     "in_chains": [
+      "AY",
+      "FG",
+      "FI",
+      "GI",
+      "HX",
+      "IX",
+      "IY",
+      "JY",
+      "PO",
+      "TO",
+      "UO"
+     ],
+     "molecule_name": [
+      "DI(HYDROXYETHYL)ETHER"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 11
+    },
+    {
+     "entity_id": 25,
+     "in_chains": [
+      "ZA"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL35"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 39,
+     "in_chains": [
+      "KC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL15"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 47,
+     "in_chains": [
+      "SC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL23"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    }
+   ],
+   "molecular_weight": 2149.765,
+   "polymeric_count": 53
+  },
+  {
+   "assembly_composition": "RNA/protein complex",
+   "assembly_id": "2",
+   "details": "author_defined_assembly",
+   "entities": [
+    {
+     "entity_id": 52,
+     "in_chains": [
+      "CC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL29"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 23,
+     "in_chains": [
+      "W"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL33"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 50,
+     "in_chains": [
+      "AC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL27"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 27,
+     "in_chains": [
+      "AA"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL30"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 6,
+     "in_chains": [
+      "GA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS6, non-modified isoform"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 14,
+     "in_chains": [
+      "OA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS14"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 51,
+     "in_chains": [
+      "BC"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL28"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 40,
+     "in_chains": [
+      "QB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL16"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 59,
+     "in_chains": [
+      "XH",
+      "YH"
+     ],
+     "molecule_name": [
+      "TETRACYCLINE"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 2
+    },
+    {
+     "entity_id": 1,
+     "in_chains": [
+      "BA"
+     ],
+     "molecule_name": [
+      "16S ribosomal RNA"
+     ],
+     "molecule_type": "polyribonucleotide",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 15,
+     "in_chains": [
+      "PA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS15"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 42,
+     "in_chains": [
+      "SB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL18"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 43,
+     "in_chains": [
+      "TB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL19"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 31,
+     "in_chains": [
+      "FB"
+     ],
+     "molecule_name": [
+      "23S ribosomal RNA"
+     ],
+     "molecule_type": "polyribonucleotide",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 36,
+     "in_chains": [
+      "MB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL11"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 7,
+     "in_chains": [
+      "HA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS7"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 45,
+     "in_chains": [
+      "VB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL21"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 44,
+     "in_chains": [
+      "UB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL20"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 41,
+     "in_chains": [
+      "RB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL17"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 34,
+     "in_chains": [
+      "KB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL6"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 56,
+     "in_chains": [
+      "WH"
+     ],
+     "molecule_name": [
+      "TETRAETHYLENE GLYCOL"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 17,
+     "in_chains": [
+      "RA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS17"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 11,
+     "in_chains": [
+      "LA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS11"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 37,
+     "in_chains": [
+      "NB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL13"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 30,
+     "in_chains": [
+      "EB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL3"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 2,
+     "in_chains": [
+      "CA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS2"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 21,
+     "in_chains": [
+      "VA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS21"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 8,
+     "in_chains": [
+      "IA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS8"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 12,
+     "in_chains": [
+      "MA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS12"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 10,
+     "in_chains": [
+      "KA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS10"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 48,
+     "in_chains": [
+      "YB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL24"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 4,
+     "in_chains": [
+      "EA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS4"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 35,
+     "in_chains": [
+      "LB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL9"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 5,
+     "in_chains": [
+      "FA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS5"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 18,
+     "in_chains": [
+      "SA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS18"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 49,
+     "in_chains": [
+      "ZB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL25"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 9,
+     "in_chains": [
+      "JA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS9"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 20,
+     "in_chains": [
+      "UA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS20"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 26,
+     "in_chains": [
+      "Z"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL36A"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 22,
+     "in_chains": [
+      "V"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL32"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 46,
+     "in_chains": [
+      "WB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL22"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 33,
+     "in_chains": [
+      "JB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL5"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 28,
+     "in_chains": [
+      "CB"
+     ],
+     "molecule_name": [
+      "5S ribosomal RNA"
+     ],
+     "molecule_type": "polyribonucleotide",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 3,
+     "in_chains": [
+      "DA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS3"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 55,
+     "in_chains": [
+      "AH",
+      "AI",
+      "AJ",
+      "AK",
+      "AL",
+      "AM",
+      "AN",
+      "AO",
+      "BH",
+      "BI",
+      "BJ",
+      "BK",
+      "BL",
+      "BM",
+      "BN",
+      "BO",
+      "CH",
+      "CI",
+      "CJ",
+      "CK",
+      "CL",
+      "CM",
+      "CN",
+      "CO",
+      "DH",
+      "DJ",
+      "DK",
+      "DL",
+      "DM",
+      "DN",
+      "DO",
+      "EH",
+      "EJ",
+      "EK",
+      "EL",
+      "EM",
+      "EN",
+      "EO",
+      "FH",
+      "FJ",
+      "FK",
+      "FL",
+      "FM",
+      "FN",
+      "FO",
+      "GH",
+      "GJ",
+      "GK",
+      "GL",
+      "GM",
+      "GN",
+      "GO",
+      "HG",
+      "HH",
+      "HJ",
+      "HK",
+      "HL",
+      "HM",
+      "HN",
+      "HO",
+      "IG",
+      "IH",
+      "II",
+      "IJ",
+      "IK",
+      "IL",
+      "IM",
+      "IN",
+      "IO",
+      "JG",
+      "JH",
+      "JI",
+      "JJ",
+      "JK",
+      "JL",
+      "JM",
+      "JN",
+      "JO",
+      "KG",
+      "KH",
+      "KI",
+      "KJ",
+      "KK",
+      "KL",
+      "KM",
+      "KN",
+      "KO",
+      "LG",
+      "LH",
+      "LI",
+      "LJ",
+      "LK",
+      "LL",
+      "LM",
+      "LN",
+      "MG",
+      "MH",
+      "MI",
+      "MJ",
+      "MK",
+      "ML",
+      "MM",
+      "MN",
+      "NG",
+      "NH",
+      "NI",
+      "NJ",
+      "NK",
+      "NL",
+      "NM",
+      "NN",
+      "OG",
+      "OH",
+      "OI",
+      "OJ",
+      "OK",
+      "OL",
+      "OM",
+      "ON",
+      "PG",
+      "PH",
+      "PI",
+      "PJ",
+      "PK",
+      "PL",
+      "PM",
+      "PN",
+      "QG",
+      "QH",
+      "QI",
+      "QJ",
+      "QK",
+      "QL",
+      "QM",
+      "QN",
+      "RG",
+      "RH",
+      "RI",
+      "RJ",
+      "RK",
+      "RL",
+      "RM",
+      "RN",
+      "SG",
+      "SH",
+      "SI",
+      "SJ",
+      "SK",
+      "SL",
+      "SM",
+      "SN",
+      "TG",
+      "TH",
+      "TI",
+      "TJ",
+      "TK",
+      "TL",
+      "TM",
+      "TN",
+      "UG",
+      "UH",
+      "UI",
+      "UJ",
+      "UK",
+      "UL",
+      "UM",
+      "UN",
+      "VG",
+      "VH",
+      "VI",
+      "VJ",
+      "VK",
+      "VL",
+      "VM",
+      "VN",
+      "WG",
+      "WI",
+      "WJ",
+      "WK",
+      "WL",
+      "WM",
+      "WN",
+      "XG",
+      "XI",
+      "XJ",
+      "XK",
+      "XL",
+      "XM",
+      "XN",
+      "YG",
+      "YI",
+      "YJ",
+      "YK",
+      "YL",
+      "YM",
+      "YN",
+      "ZG",
+      "ZH",
+      "ZI",
+      "ZJ",
+      "ZK",
+      "ZL",
+      "ZM",
+      "ZN"
+     ],
+     "molecule_name": [
+      "MAGNESIUM ION"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 204
+    },
+    {
+     "entity_id": 13,
+     "in_chains": [
+      "NA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS13"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 29,
+     "in_chains": [
+      "DB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL2"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 19,
+     "in_chains": [
+      "TA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein uS19"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 38,
+     "in_chains": [
+      "OB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL14"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 60,
+     "in_chains": [
+      "GG"
+     ],
+     "molecule_name": [
+      "ZINC ION"
+     ],
+     "molecule_type": "bound",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 69,
+     "in_chains": [
+      "AAA",
+      "DAA",
+      "EAA",
+      "EZ",
+      "FAA",
+      "FZ",
+      "GAA",
+      "GZ",
+      "HAA",
+      "HZ",
+      "IAA",
+      "IZ",
+      "JAA",
+      "JZ",
+      "KAA",
+      "KZ",
+      "LZ",
+      "MZ",
+      "NZ",
+      "OZ",
+      "PZ",
+      "QZ",
+      "XZ",
+      "YZ",
+      "ZZ"
+     ],
+     "molecule_name": [
+      "WATER"
+     ],
+     "molecule_type": "water",
+     "number_of_copies": 25
+    },
+    {
+     "entity_id": 16,
+     "in_chains": [
+      "QA"
+     ],
+     "molecule_name": [
+      "Small ribosomal subunit protein bS16"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 24,
+     "in_chains": [
+      "X"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL34"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 32,
+     "in_chains": [
+      "IB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL4"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 25,
+     "in_chains": [
+      "Y"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein bL35"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 39,
+     "in_chains": [
+      "PB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL15"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    },
+    {
+     "entity_id": 47,
+     "in_chains": [
+      "XB"
+     ],
+     "molecule_name": [
+      "Large ribosomal subunit protein uL23"
+     ],
+     "molecule_type": "polypeptide(L)",
+     "number_of_copies": 1
+    }
+   ],
+   "molecular_weight": 2124.384,
+   "polymeric_count": 52
+  }
+ ]
+}

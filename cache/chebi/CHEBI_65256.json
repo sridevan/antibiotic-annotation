@@ -1,0 +1,91 @@
+{
+ "chebi_id": "CHEBI:65256",
+ "chebi_release": "255",
+ "definition": "A food preservative which prevents decomposition of food by preventing the growth of fungi or bacteria. In European countries, E-numbers for permitted food preservatives are from E200 to E299, divided into sorbates (E200-209), benzoates (E210-219), sulfites (E220-229), phenols and formates (E230-239), nitrates (E240-259), acetates (E260-269), lactates (E270-279), propionates (E280-289) and others (E290-299).",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33281",
+  "CHEBI:65255"
+ ],
+ "name": "antimicrobial food preservative",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:33232",
+  "CHEBI:33281",
+  "CHEBI:50906",
+  "CHEBI:51086",
+  "CHEBI:52211",
+  "CHEBI:64047",
+  "CHEBI:65255",
+  "CHEBI:747325",
+  "CHEBI:78295"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:23:58+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antimicrobial food preservative",
+   "chebi_accession": "CHEBI:65256",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A food preservative which prevents decomposition of food by preventing the growth of fungi or bacteria. In European countries, E-numbers for permitted food preservatives are from E200 to E299, divided into sorbates (E200-209), benzoates (E210-219), sulfites (E220-229), phenols and formates (E230-239), nitrates (E240-259), acetates (E260-269), lactates (E270-279), propionates (E280-289) and others (E290-299).",
+   "id": 65256,
+   "is_released": true,
+   "name": "antimicrobial food preservative",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 65255,
+      "final_name": "food preservative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:65256",
+   "definition": [
+    "A food preservative which prevents decomposition of food by preventing the growth of fungi or bacteria. In European countries, E-numbers for permitted food preservatives are from E200 to E299, divided into sorbates (E200-209), benzoates (E210-219), sulfites (E220-229), phenols and formates (E230-239), nitrates (E240-259), acetates (E260-269), lactates (E270-279), propionates (E280-289) and others (E290-299)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33281",
+    "http://purl.obolibrary.org/obo/CHEBI_65255"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_33281",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086",
+    "http://purl.obolibrary.org/obo/CHEBI_52211",
+    "http://purl.obolibrary.org/obo/CHEBI_64047",
+    "http://purl.obolibrary.org/obo/CHEBI_65255",
+    "http://purl.obolibrary.org/obo/CHEBI_747325",
+    "http://purl.obolibrary.org/obo/CHEBI_78295"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antimicrobial food preservative"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

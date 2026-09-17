@@ -1,0 +1,246 @@
+{
+ "chebi_id": "CHEBI:29105",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "PTFCDOFLOPIGGS-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:144323",
+   "target_name": "zinc dibutyldithiocarbamate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:144351",
+   "target_name": "zinc diethyldithiocarbamate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:35176",
+   "target_name": "zinc sulfate"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:79736",
+   "target_name": "ziram"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:231504",
+   "target_name": "zinc nitrate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:30412",
+  "CHEBI:60240",
+  "CHEBI:63056"
+ ],
+ "name": "zinc(2+)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:23906",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:24867",
+  "CHEBI:24870",
+  "CHEBI:25213",
+  "CHEBI:27364",
+  "CHEBI:27365",
+  "CHEBI:30412",
+  "CHEBI:33238",
+  "CHEBI:33259",
+  "CHEBI:33497",
+  "CHEBI:33515",
+  "CHEBI:33673",
+  "CHEBI:33676",
+  "CHEBI:36914",
+  "CHEBI:36915",
+  "CHEBI:36916",
+  "CHEBI:37253",
+  "CHEBI:60240",
+  "CHEBI:63056",
+  "CHEBI:64641"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:18+00:00",
+ "roles": [
+  "CHEBI:23357",
+  "CHEBI:77746"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "zinc(2+)",
+   "chebi_accession": "CHEBI:29105",
+   "default_structure": {
+    "smiles": "[Zn+2]",
+    "standard_inchi_key": "PTFCDOFLOPIGGS-UHFFFAOYSA-N"
+   },
+   "definition": null,
+   "id": 29105,
+   "is_released": true,
+   "name": "zinc(2+)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 144323,
+      "init_name": "zinc dibutyldithiocarbamate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 144351,
+      "init_name": "zinc diethyldithiocarbamate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 35176,
+      "init_name": "zinc sulfate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 79736,
+      "init_name": "ziram",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 231504,
+      "init_name": "zinc nitrate",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 23357,
+      "final_name": "cofactor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 30412,
+      "final_name": "monoatomic dication",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 63056,
+      "final_name": "zinc cation",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 60240,
+      "final_name": "divalent metal cation",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:10113",
+    "CHEBI:27368",
+    "CHEBI:49972",
+    "CHEBI:49982"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:29105",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_30412",
+    "http://purl.obolibrary.org/obo/CHEBI_60240",
+    "http://purl.obolibrary.org/obo/CHEBI_63056"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23906",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25213",
+    "http://purl.obolibrary.org/obo/CHEBI_27364",
+    "http://purl.obolibrary.org/obo/CHEBI_27365",
+    "http://purl.obolibrary.org/obo/CHEBI_30412",
+    "http://purl.obolibrary.org/obo/CHEBI_33238",
+    "http://purl.obolibrary.org/obo/CHEBI_33259",
+    "http://purl.obolibrary.org/obo/CHEBI_33497",
+    "http://purl.obolibrary.org/obo/CHEBI_33515",
+    "http://purl.obolibrary.org/obo/CHEBI_33673",
+    "http://purl.obolibrary.org/obo/CHEBI_33676",
+    "http://purl.obolibrary.org/obo/CHEBI_36914",
+    "http://purl.obolibrary.org/obo/CHEBI_36915",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_37253",
+    "http://purl.obolibrary.org/obo/CHEBI_60240",
+    "http://purl.obolibrary.org/obo/CHEBI_63056",
+    "http://purl.obolibrary.org/obo/CHEBI_64641"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "zinc(2+) ion"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "zinc(2+)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "zinc(II) cation"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "PTFCDOFLOPIGGS-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "zinc(2+)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_23357"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "zinc(2+) ion",
+  "zinc(2+)",
+  "zinc(II) cation"
+ ]
+}

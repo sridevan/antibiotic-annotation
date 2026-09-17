@@ -1,0 +1,355 @@
+{
+ "chebi_id": "CHEBI:16610",
+ "chebi_release": "255",
+ "definition": "A triamine that is the 1,5,10-triaza derivative of decane.",
+ "inchikey": "ATHGHQPFGPMSJY-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:138028",
+   "target_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis(caffeoyl)spermidine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:61233",
+   "target_name": "spermidine hydroxycinnamic acid conjugate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:38524",
+   "target_name": "spermidine alkaloid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:48008",
+   "target_name": "<em>N</em>-(3-aminopropyl)but-2-ene-1,4-diamine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:48007",
+   "target_name": "<em>N</em>-[(<i>E</i>)-4-aminobutylidene]propane-1,3-diamine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:22204",
+   "target_name": "acetylspermidine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16613",
+   "target_name": "glutathionylspermidine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:17842",
+   "target_name": "trypanothione"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:142881",
+   "target_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis-(dihydrocaffeoyl)spermidine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:138030",
+   "target_name": "<em>N</em>-caffeoylspermidine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:233088",
+   "target_name": "spermidine trihydrochloride"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:85300",
+   "target_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis(sinapoyl)-spermidine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:64901",
+   "target_name": "mygalin"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:83547",
+   "target_name": "<em>N</em><small><sup>4</small></sup>-aminopropylspermidine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:85530",
+   "target_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis(coumaroyl)spermidine"
+  },
+  {
+   "relation": "has_parent_hydride",
+   "target_id": "CHEBI:66868",
+   "target_name": "carboxyspermidine"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:57834",
+   "target_name": "spermidine(3+)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:38751",
+  "CHEBI:39474"
+ ],
+ "name": "spermidine",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:38751",
+  "CHEBI:39474",
+  "CHEBI:46686",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:88061"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:57834",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:24:14+00:00",
+ "roles": [
+  "CHEBI:138880",
+  "CHEBI:176497",
+  "CHEBI:35674",
+  "CHEBI:78675"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "spermidine",
+   "chebi_accession": "CHEBI:16610",
+   "default_structure": {
+    "smiles": "NCCCCNCCCN",
+    "standard_inchi_key": "ATHGHQPFGPMSJY-UHFFFAOYSA-N"
+   },
+   "definition": "A triamine that is the 1,5,10-triaza derivative of decane.",
+   "id": 16610,
+   "is_released": true,
+   "name": "spermidine",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 138028,
+      "init_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis(caffeoyl)spermidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 61233,
+      "init_name": "spermidine hydroxycinnamic acid conjugate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 38524,
+      "init_name": "spermidine alkaloid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 48008,
+      "init_name": "<em>N</em>-(3-aminopropyl)but-2-ene-1,4-diamine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 48007,
+      "init_name": "<em>N</em>-[(<i>E</i>)-4-aminobutylidene]propane-1,3-diamine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 22204,
+      "init_name": "acetylspermidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16613,
+      "init_name": "glutathionylspermidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 17842,
+      "init_name": "trypanothione",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 142881,
+      "init_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis-(dihydrocaffeoyl)spermidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 138030,
+      "init_name": "<em>N</em>-caffeoylspermidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 233088,
+      "init_name": "spermidine trihydrochloride",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 85300,
+      "init_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis(sinapoyl)-spermidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 64901,
+      "init_name": "mygalin",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 83547,
+      "init_name": "<em>N</em><small><sup>4</small></sup>-aminopropylspermidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 85530,
+      "init_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis(coumaroyl)spermidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 66868,
+      "init_name": "carboxyspermidine",
+      "relation_type": "has parent hydride"
+     },
+     {
+      "init_id": 57834,
+      "init_name": "spermidine(3+)",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 78675,
+      "final_name": "fundamental metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 176497,
+      "final_name": "geroprotector",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 138880,
+      "final_name": "autophagy inducer",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35674,
+      "final_name": "antihypertensive agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 38751,
+      "final_name": "triamine",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 39474,
+      "final_name": "polyazaalkane",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 57834,
+      "final_name": "spermidine(3+)",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:9218",
+    "CHEBI:15095",
+    "CHEBI:15097",
+    "CHEBI:26732",
+    "CHEBI:26733",
+    "CHEBI:45647"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:16610",
+   "definition": [
+    "A triamine that is the 1,5,10-triaza derivative of decane."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_38751",
+    "http://purl.obolibrary.org/obo/CHEBI_39474"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_38751",
+    "http://purl.obolibrary.org/obo/CHEBI_39474",
+    "http://purl.obolibrary.org/obo/CHEBI_46686",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_88061"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "N-(3-aminopropyl)butane-1,4-diamine"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "ATHGHQPFGPMSJY-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "spermidine"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_138880"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_176497"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35674"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_78675"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_57834"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "N-(3-aminopropyl)butane-1,4-diamine"
+ ]
+}

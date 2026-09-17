@@ -1,0 +1,87 @@
+{
+ "chebi_id": "CHEBI:25108",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33299"
+ ],
+ "name": "magnesium molecular entity",
+ "num_descendants": 93,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33299",
+  "CHEBI:33579",
+  "CHEBI:33674"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:25107",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:24:03+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "magnesium molecular entity",
+   "chebi_accession": "CHEBI:25108",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 25108,
+   "is_released": true,
+   "name": "magnesium molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 25107,
+      "final_name": "magnesium atom",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33299,
+      "final_name": "alkaline earth molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25108",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33299"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33299",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674"
+   ],
+   "isObsolete": false,
+   "label": [
+    "magnesium molecular entity"
+   ],
+   "numDescendants": 93.0,
+   "numHierarchicalDescendants": 93.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_25107"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

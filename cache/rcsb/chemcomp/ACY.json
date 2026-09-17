@@ -1,0 +1,805 @@
+{
+ "_retrieved_at": "2026-09-17T13:23:56+00:00",
+ "chem_comp": {
+  "formula": "C2 H4 O2",
+  "formula_weight": 60.052,
+  "id": "ACY",
+  "name": "ACETIC ACID",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "1999-07-08T00:00:00.000+00:00",
+  "pdbx_modified_date": "2024-09-27T00:00:00.000+00:00",
+  "pdbx_pcm": "N",
+  "pdbx_processing_site": "EBI",
+  "pdbx_release_status": "REL",
+  "pdbx_replaces": "CBM",
+  "three_letter_code": "ACY",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "ACY",
+   "date": "1999-07-08T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "ACY",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 2
+  },
+  {
+   "action_type": "Modify PCM",
+   "comp_id": "ACY",
+   "date": "2024-09-27T00:00:00.000+00:00",
+   "ordinal": 3
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "ACY",
+   "descriptor": "O=C(O)C",
+   "program": "ACDLabs",
+   "program_version": "11.02",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "ACY",
+   "descriptor": "CC(O)=O",
+   "program": "CACTVS",
+   "program_version": "3.352",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "ACY",
+   "descriptor": "CC(O)=O",
+   "program": "CACTVS",
+   "program_version": "3.352",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "ACY",
+   "descriptor": "CC(=O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.0",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "ACY",
+   "descriptor": "CC(=O)O",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.7.0",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "ACY",
+   "descriptor": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "ACY",
+   "descriptor": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "ACY",
+   "identifier": "acetic acid",
+   "program": "ACDLabs",
+   "program_version": "11.02",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "ACY",
+   "identifier": "ethanoic acid",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.6.1",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_annotation": [
+  {
+   "annotation_id": "S02AA10",
+   "annotation_lineage": [
+    {
+     "id": "S",
+     "name": "SENSORY ORGAN DRUGS"
+    },
+    {
+     "depth": 1,
+     "id": "S02",
+     "name": "OTOLOGICALS"
+    },
+    {
+     "depth": 2,
+     "id": "S02A",
+     "name": "ANTIINFECTIVE DRUGS, OTOLOGIC"
+    },
+    {
+     "depth": 3,
+     "id": "S02AA",
+     "name": "Antiinfectives"
+    },
+    {
+     "depth": 4,
+     "id": "S02AA10",
+     "name": "acetic acid"
+    }
+   ],
+   "assignment_version": "5.1",
+   "description": "ATC matching InChIKey in DrugBank",
+   "name": "acetic acid",
+   "provenance_source": "DrugBank",
+   "type": "ATC"
+  },
+  {
+   "annotation_id": "G01AD02",
+   "annotation_lineage": [
+    {
+     "id": "G",
+     "name": "GENITO URINARY SYSTEM AND SEX HORMONES"
+    },
+    {
+     "depth": 1,
+     "id": "G01",
+     "name": "GYNECOLOGICAL ANTIINFECTIVES AND ANTISEPTICS"
+    },
+    {
+     "depth": 2,
+     "id": "G01A",
+     "name": "ANTIINFECTIVES AND ANTISEPTICS, EXCL. COMBINATIONS WITH CORTICOSTEROIDS"
+    },
+    {
+     "depth": 3,
+     "id": "G01AD",
+     "name": "Organic acids, Gynecological"
+    },
+    {
+     "depth": 4,
+     "id": "G01AD02",
+     "name": "acetic acid"
+    }
+   ],
+   "assignment_version": "5.1",
+   "description": "ATC matching InChIKey in DrugBank",
+   "name": "acetic acid",
+   "provenance_source": "DrugBank",
+   "type": "ATC"
+  },
+  {
+   "annotation_id": "enzyme_1",
+   "assignment_version": "76.00",
+   "name": "autocatalytic",
+   "provenance_source": "RESID",
+   "type": "Generating Enzyme"
+  },
+  {
+   "annotation_id": "MOD:00952",
+   "annotation_lineage": [
+    {
+     "depth": 1,
+     "id": "MOD:00952",
+     "name": "(2-aminosuccinimidyl)acetic acid (Asp)"
+    },
+    {
+     "depth": 2,
+     "id": "MOD:01157",
+     "name": "protein modification categorized by amino acid modified"
+    },
+    {
+     "depth": 3,
+     "id": "MOD:00000",
+     "name": "protein modification"
+    },
+    {
+     "depth": 4,
+     "id": "MOD:00954",
+     "name": "crosslinked residues with loss of water"
+    },
+    {
+     "depth": 5,
+     "id": "MOD:00033",
+     "name": "crosslinked residues"
+    },
+    {
+     "depth": 6,
+     "id": "MOD:01628",
+     "name": "(2-aminosuccinimidyl)acetic acid"
+    },
+    {
+     "depth": 7,
+     "id": "MOD:01944",
+     "name": "2-aminosuccinimide ring crosslinked residues"
+    },
+    {
+     "depth": 8,
+     "id": "MOD:01156",
+     "name": "protein modification categorized by chemical process"
+    },
+    {
+     "depth": 9,
+     "id": "MOD:00904",
+     "name": "modified L-aspartic acid residue"
+    },
+    {
+     "depth": 10,
+     "id": "MOD:00859",
+     "name": "modified residue that can arise from different natural residues"
+    },
+    {
+     "depth": 11,
+     "id": "MOD:00908",
+     "name": "modified glycine residue"
+    }
+   ],
+   "assignment_version": "76.00",
+   "name": "(2-aminosuccinimidyl)acetic acid (Asp)",
+   "provenance_source": "RESID",
+   "type": "PSI-MOD"
+  },
+  {
+   "annotation_id": "MOD:01624",
+   "annotation_lineage": [
+    {
+     "depth": 1,
+     "id": "MOD:01624",
+     "name": "(2-aminosuccinimidyl)acetic acid (Asn)"
+    },
+    {
+     "depth": 2,
+     "id": "MOD:01157",
+     "name": "protein modification categorized by amino acid modified"
+    },
+    {
+     "depth": 3,
+     "id": "MOD:00000",
+     "name": "protein modification"
+    },
+    {
+     "depth": 4,
+     "id": "MOD:00946",
+     "name": "crosslinked residues with loss of ammonia"
+    },
+    {
+     "depth": 5,
+     "id": "MOD:00033",
+     "name": "crosslinked residues"
+    },
+    {
+     "depth": 6,
+     "id": "MOD:01628",
+     "name": "(2-aminosuccinimidyl)acetic acid"
+    },
+    {
+     "depth": 7,
+     "id": "MOD:01944",
+     "name": "2-aminosuccinimide ring crosslinked residues"
+    },
+    {
+     "depth": 8,
+     "id": "MOD:01156",
+     "name": "protein modification categorized by chemical process"
+    },
+    {
+     "depth": 9,
+     "id": "MOD:00859",
+     "name": "modified residue that can arise from different natural residues"
+    },
+    {
+     "depth": 10,
+     "id": "MOD:00903",
+     "name": "modified L-asparagine residue"
+    },
+    {
+     "depth": 11,
+     "id": "MOD:00908",
+     "name": "modified glycine residue"
+    }
+   ],
+   "assignment_version": "76.00",
+   "name": "(2-aminosuccinimidyl)acetic acid (Asn)",
+   "provenance_source": "RESID",
+   "type": "PSI-MOD"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "atc_codes": [
+   "S02AA10",
+   "G01AD02"
+  ],
+  "comp_id": "ACY",
+  "drugbank_id": "DB03166",
+  "rcsb_id": "ACY"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
+  "InChIKey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+  "SMILES": "CC(=O)O",
+  "SMILES_stereo": "CC(=O)O",
+  "comp_id": "ACY"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 8,
+  "atom_count_chiral": 0,
+  "atom_count_heavy": 4,
+  "bond_count": 7,
+  "bond_count_aromatic": 0,
+  "comp_id": "ACY",
+  "initial_deposition_date": "1999-07-08T00:00:00.000+00:00",
+  "initial_release_date": "1993-10-31T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2024-09-27T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "ACY",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB03166",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 2,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AHESEO",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 3,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AHEQOW",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 4,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AHERUD",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 5,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AHEQUC",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 6,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AHERAJ",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 7,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AHERIR",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 8,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AGAZIT",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 9,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AHESAK",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 10,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ACEQOQ",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 11,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ACETAC09",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 12,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ACETAC07",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 13,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ANAGUS",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 14,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ANULUR",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 15,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BASXOJ",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 16,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AVEQEY",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 17,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ACETAC02",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 18,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AHABUI",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 19,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "BACQOL",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 20,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AWIKOH",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 21,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AQUYIW",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 22,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AKUZIR",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 23,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AHEXAP",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 24,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ANIJAK",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 25,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ACETAC01",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 26,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ACNSPT",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 27,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ACEQUW",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 28,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "APIVIF",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 29,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ACETAC03",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 30,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AVAKEO",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 31,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "ASEDAG",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 32,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "APOVAF",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 33,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "APOVIN",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 34,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "APOYOW",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 35,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "AKEBEA",
+   "resource_name": "CCDC/CSD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 36,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2300042",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 37,
+   "related_mapping_method": "assigned by PDB",
+   "resource_accession_code": "2008187",
+   "resource_name": "COD"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 38,
+   "related_mapping_method": "matching by RESID resource",
+   "resource_accession_code": "AA0441",
+   "resource_name": "RESID"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 39,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "21980959",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 40,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "176",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 41,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "6233-83-6",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 42,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "64-19-7",
+   "resource_name": "CAS"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 43,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEBI:15366",
+   "resource_name": "ChEBI"
+  },
+  {
+   "comp_id": "ACY",
+   "ordinal": 44,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEMBL539",
+   "resource_name": "ChEMBL"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "ACY",
+   "name": "ACETIC ACID",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "acetic acid",
+   "ordinal": 2,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "ethanoic acid",
+   "ordinal": 3,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Ethanoat",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Ethanoic acid",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "ácido acético",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Essigsäure",
+   "ordinal": 7,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Acetic acid",
+   "ordinal": 8,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Ethylic acid",
+   "ordinal": 9,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Ethoic acid",
+   "ordinal": 10,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Glacial acetic acid",
+   "ordinal": 11,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Acetic acid, glacial",
+   "ordinal": 12,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Ethanoate",
+   "ordinal": 13,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "acide acétique",
+   "ordinal": 14,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Methanecarboxylic acid",
+   "ordinal": 15,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "HOAc",
+   "ordinal": 16,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Aceticum acidum",
+   "ordinal": 17,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "ACY",
+   "name": "Vinegar",
+   "ordinal": 18,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "ACY",
+   "interaction_type": "transporter",
+   "name": "Solute carrier organic anion transporter family member 2B1",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "O94956",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "substrate",
+    "inhibitor"
+   ]
+  },
+  {
+   "comp_id": "ACY",
+   "interaction_type": "transporter",
+   "name": "Monocarboxylate transporter 1",
+   "ordinal": 2,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "P53985",
+   "reference_database_name": "UniProt",
+   "target_actions": [
+    "substrate"
+   ]
+  }
+ ],
+ "rcsb_id": "ACY"
+}

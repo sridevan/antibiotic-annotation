@@ -1,0 +1,244 @@
+{
+ "_retrieved_at": "2026-09-17T13:24:20+00:00",
+ "chem_comp": {
+  "formula": "C10 H17 N6 O13 P3",
+  "formula_weight": 522.196,
+  "id": "GNP",
+  "name": "PHOSPHOAMINOPHOSPHONIC ACID-GUANYLATE ESTER",
+  "pdbx_ambiguous_flag": "N",
+  "pdbx_formal_charge": 0,
+  "pdbx_initial_date": "1999-07-08T00:00:00.000+00:00",
+  "pdbx_modified_date": "2011-06-04T00:00:00.000+00:00",
+  "pdbx_processing_site": "RCSB",
+  "pdbx_release_status": "REL",
+  "pdbx_replaces": "GTN",
+  "three_letter_code": "GNP",
+  "type": "non-polymer"
+ },
+ "pdbx_chem_comp_audit": [
+  {
+   "action_type": "Create component",
+   "comp_id": "GNP",
+   "date": "1999-07-08T00:00:00.000+00:00",
+   "ordinal": 1
+  },
+  {
+   "action_type": "Modify descriptor",
+   "comp_id": "GNP",
+   "date": "2011-06-04T00:00:00.000+00:00",
+   "ordinal": 2
+  }
+ ],
+ "pdbx_chem_comp_descriptor": [
+  {
+   "comp_id": "GNP",
+   "descriptor": "O=P(O)(O)NP(=O)(O)OP(=O)(O)OCC3OC(n2cnc1c2N=C(N)NC1=O)C(O)C3O",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "GNP",
+   "descriptor": "NC1=Nc2n(cnc2C(=O)N1)[C@@H]3O[C@H](CO[P@@](O)(=O)O[P@@](O)(=O)N[P](O)(O)=O)[C@@H](O)[C@H]3O",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "GNP",
+   "descriptor": "NC1=Nc2n(cnc2C(=O)N1)[CH]3O[CH](CO[P](O)(=O)O[P](O)(=O)N[P](O)(O)=O)[CH](O)[CH]3O",
+   "program": "CACTVS",
+   "program_version": "3.341",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "GNP",
+   "descriptor": "c1nc2c(n1[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@](=O)(O)O[P@@](=O)(NP(=O)(O)O)O)O)O)N=C(NC2=O)N",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES_CANONICAL"
+  },
+  {
+   "comp_id": "GNP",
+   "descriptor": "c1nc2c(n1C3C(C(C(O3)COP(=O)(O)OP(=O)(NP(=O)(O)O)O)O)O)N=C(NC2=O)N",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SMILES"
+  },
+  {
+   "comp_id": "GNP",
+   "descriptor": "InChI=1S/C10H17N6O13P3/c11-10-13-7-4(8(19)14-10)12-2-16(7)9-6(18)5(17)3(28-9)1-27-32(25,26)29-31(23,24)15-30(20,21)22/h2-3,5-6,9,17-18H,1H2,(H,25,26)(H3,11,13,14,19)(H4,15,20,21,22,23,24)/t3-,5-,6-,9-/m1/s1",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChI"
+  },
+  {
+   "comp_id": "GNP",
+   "descriptor": "UQABYHGXWYXDTK-UUOKFMHZSA-N",
+   "program": "InChI",
+   "program_version": "1.03",
+   "type": "InChIKey"
+  }
+ ],
+ "pdbx_chem_comp_identifier": [
+  {
+   "comp_id": "GNP",
+   "identifier": "5'-O-[(S)-hydroxy{[(R)-hydroxy(phosphonoamino)phosphoryl]oxy}phosphoryl]guanosine",
+   "program": "ACDLabs",
+   "program_version": "10.04",
+   "type": "SYSTEMATIC NAME"
+  },
+  {
+   "comp_id": "GNP",
+   "identifier": "[[[[(2R,3S,4R,5R)-5-(2-amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxy-oxolan-2-yl]methoxy-hydroxy-phosphoryl]oxy-hydroxy-phosphoryl]amino]phosphonic acid",
+   "program": "OpenEye OEToolkits",
+   "program_version": "1.5.0",
+   "type": "SYSTEMATIC NAME"
+  }
+ ],
+ "rcsb_chem_comp_container_identifiers": {
+  "comp_id": "GNP",
+  "drugbank_id": "DB02082",
+  "rcsb_id": "GNP"
+ },
+ "rcsb_chem_comp_descriptor": {
+  "InChI": "InChI=1S/C10H17N6O13P3/c11-10-13-7-4(8(19)14-10)12-2-16(7)9-6(18)5(17)3(28-9)1-27-32(25,26)29-31(23,24)15-30(20,21)22/h2-3,5-6,9,17-18H,1H2,(H,25,26)(H3,11,13,14,19)(H4,15,20,21,22,23,24)/t3-,5-,6-,9-/m1/s1",
+  "InChIKey": "UQABYHGXWYXDTK-UUOKFMHZSA-N",
+  "SMILES": "c1nc2c(n1C3C(C(C(O3)COP(=O)(O)OP(=O)(NP(=O)(O)O)O)O)O)N=C(NC2=O)N",
+  "SMILES_stereo": "c1nc2c(n1[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@](=O)(O)O[P@@](=O)(NP(=O)(O)O)O)O)O)N=C(NC2=O)N",
+  "comp_id": "GNP"
+ },
+ "rcsb_chem_comp_info": {
+  "atom_count": 49,
+  "atom_count_chiral": 6,
+  "atom_count_heavy": 32,
+  "bond_count": 51,
+  "bond_count_aromatic": 10,
+  "comp_id": "GNP",
+  "initial_deposition_date": "1999-07-08T00:00:00.000+00:00",
+  "initial_release_date": "1992-01-15T00:00:00.000+00:00",
+  "release_status": "REL",
+  "revision_date": "2011-06-04T00:00:00.000+00:00"
+ },
+ "rcsb_chem_comp_related": [
+  {
+   "comp_id": "GNP",
+   "ordinal": 1,
+   "related_mapping_method": "matching InChIKey in DrugBank",
+   "resource_accession_code": "DB02082",
+   "resource_name": "DrugBank"
+  },
+  {
+   "comp_id": "GNP",
+   "ordinal": 2,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "135403657",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "GNP",
+   "ordinal": 3,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "5288455",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "GNP",
+   "ordinal": 4,
+   "related_mapping_method": "matching InChIKey in PubChem",
+   "resource_accession_code": "36735",
+   "resource_name": "PubChem"
+  },
+  {
+   "comp_id": "GNP",
+   "ordinal": 5,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEBI:78408",
+   "resource_name": "ChEBI"
+  },
+  {
+   "comp_id": "GNP",
+   "ordinal": 6,
+   "related_mapping_method": "assigned by PubChem resource",
+   "resource_accession_code": "CHEMBL1233085",
+   "resource_name": "ChEMBL"
+  }
+ ],
+ "rcsb_chem_comp_synonyms": [
+  {
+   "comp_id": "GNP",
+   "name": "PHOSPHOAMINOPHOSPHONIC ACID-GUANYLATE ESTER",
+   "ordinal": 1,
+   "provenance_source": "PDB Reference Data",
+   "type": "Preferred Name"
+  },
+  {
+   "comp_id": "GNP",
+   "name": "5'-O-[(S)-hydroxy{[(R)-hydroxy(phosphonoamino)phosphoryl]oxy}phosphoryl]guanosine",
+   "ordinal": 2,
+   "provenance_source": "ACDLabs",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "GNP",
+   "name": "[[[[(2R,3S,4R,5R)-5-(2-amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxy-oxolan-2-yl]methoxy-hydroxy-phosphoryl]oxy-hydroxy-phosphoryl]amino]phosphonic acid",
+   "ordinal": 3,
+   "provenance_source": "OpenEye OEToolkits",
+   "type": "Systematic Name"
+  },
+  {
+   "comp_id": "GNP",
+   "name": "Guanosine 5'-[beta,gamma-imido]triphosphate",
+   "ordinal": 4,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "GNP",
+   "name": "Phosphoaminophosphonic acid guanylate ester",
+   "ordinal": 5,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "GNP",
+   "name": "Guanylyl imidodiphosphate",
+   "ordinal": 6,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "GNP",
+   "name": "Gpp(NH)p",
+   "ordinal": 7,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "GNP",
+   "name": "5'-guanylylimidodiphosphate",
+   "ordinal": 8,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  },
+  {
+   "comp_id": "GNP",
+   "name": "GMP-PNP",
+   "ordinal": 9,
+   "provenance_source": "DrugBank",
+   "type": "Synonym"
+  }
+ ],
+ "rcsb_chem_comp_target": [
+  {
+   "comp_id": "GNP",
+   "interaction_type": "target",
+   "name": "Ras-related protein Rab-8B",
+   "ordinal": 1,
+   "provenance_source": "DrugBank",
+   "reference_database_accession_code": "Q92930",
+   "reference_database_name": "UniProt"
+  }
+ ],
+ "rcsb_id": "GNP"
+}

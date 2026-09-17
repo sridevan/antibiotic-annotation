@@ -1,0 +1,110 @@
+{
+ "chebi_id": "CHEBI:35410",
+ "chebi_release": "255",
+ "definition": "A primary diamine is a compound derived from a hydrocarbon by replacing two hydrogen atoms by amino groups.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23666"
+ ],
+ "name": "primary diamine",
+ "num_descendants": 16,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:23666",
+  "CHEBI:24431",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:88061"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:08+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "primary diamine",
+   "chebi_accession": "CHEBI:35410",
+   "default_structure": {
+    "smiles": "N*N",
+    "standard_inchi_key": null
+   },
+   "definition": "A primary diamine is a compound derived from a hydrocarbon by replacing two hydrogen atoms by amino groups.",
+   "id": 35410,
+   "is_released": true,
+   "name": "primary diamine",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23666,
+      "final_name": "diamine",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:8408",
+    "CHEBI:26264"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35410",
+   "definition": [
+    "A primary diamine is a compound derived from a hydrocarbon by replacing two hydrogen atoms by amino groups."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23666"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23666",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_88061"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "primary diamines"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "primary diamine"
+   ],
+   "numDescendants": 16.0,
+   "numHierarchicalDescendants": 16.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "primary diamines"
+ ]
+}

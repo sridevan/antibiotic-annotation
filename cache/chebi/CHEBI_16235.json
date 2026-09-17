@@ -1,0 +1,529 @@
+{
+ "chebi_id": "CHEBI:16235",
+ "chebi_release": "255",
+ "definition": "A 2-aminopurine carrying a 6-oxo substituent.",
+ "inchikey": "UYTPUPDQBNUYGX-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:60801",
+   "target_name": "guanyl deoxyribonucleotide residue"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16750",
+   "target_name": "guanosine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:7880",
+   "target_name": "9-[2-(phosphonomethoxy)ethyl]guanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:25305",
+   "target_name": "methylguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:42701",
+   "target_name": "9-(2-deoxy-2-fluoro-5-<em>O</em>-phosphono-β-<small>D</small>-arabinofuranosyl)guanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:24458",
+   "target_name": "guanosines"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:52617",
+   "target_name": "7,8-dihydro-8-oxoguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:35854",
+   "target_name": "valacyclovir"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:44605",
+   "target_name": "8-oxoguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:465284",
+   "target_name": "ganciclovir"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:134095",
+   "target_name": "<em>N</em><small><sup>2</small></sup>,3-ethenoguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:134096",
+   "target_name": "1,<em>N</em><small><sup>2</small></sup>-ethenoguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:2453",
+   "target_name": "acyclovir"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:27549",
+   "target_name": "<em>O</em><small><sup>6</small></sup>-methyl-2'-deoxyguanosine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:61292",
+   "target_name": "guanyl nucleotide"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:15318",
+   "target_name": "xanthine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:63612",
+   "target_name": "nelarabine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:62032",
+   "target_name": "<em>N</em><small><sup>2</small></sup>-carboxyethylguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:233251",
+   "target_name": "3H,5H-pyrimido[1,2-α]purin-6,10-dione"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:233252",
+   "target_name": "1H,3H,5H-pyrimido[1,2-α]purin-2,6,10-trione"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:7956",
+   "target_name": "penciclovir"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:63635",
+   "target_name": "valganciclovir"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:74064",
+   "target_name": "8-hydroxy-7-methylguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:142716",
+   "target_name": "N<small><sup>2</small></sup>-(ADP-<small>D</small>-ribosyl)-guanine(2−)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:233228",
+   "target_name": "7-(2'-oxo-heptyl)-2-oxo-ethenoguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:233227",
+   "target_name": "7-(2'-oxo-heptyl)-1,<em>N</em><small><sup>2</small></sup>-ethenoguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:233226",
+   "target_name": "2-oxo-ethenoguanine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:233250",
+   "target_name": "pyrimido[1,2-α]purin-10(3H)-one"
+  }
+ ],
+ "is_a": [
+  "CHEBI:20702",
+  "CHEBI:25810",
+  "CHEBI:26386"
+ ],
+ "name": "guanine",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:18282",
+  "CHEBI:20702",
+  "CHEBI:22527",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:25367",
+  "CHEBI:25810",
+  "CHEBI:26386",
+  "CHEBI:26401",
+  "CHEBI:27171",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33635",
+  "CHEBI:33636",
+  "CHEBI:33655",
+  "CHEBI:33659",
+  "CHEBI:33671",
+  "CHEBI:33672",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:33833",
+  "CHEBI:35352",
+  "CHEBI:35875",
+  "CHEBI:36357",
+  "CHEBI:38101",
+  "CHEBI:38166",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018040",
+   "target_id": "CHEBI:35589",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:23:58+00:00",
+ "roles": [
+  "CHEBI:35610",
+  "CHEBI:75771",
+  "CHEBI:75772",
+  "CHEBI:76971",
+  "CHEBI:77746",
+  "CHEBI:84735"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "guanine",
+   "chebi_accession": "CHEBI:16235",
+   "default_structure": {
+    "smiles": "Nc1nc(=O)c2ncnc2n1",
+    "standard_inchi_key": "UYTPUPDQBNUYGX-UHFFFAOYSA-N"
+   },
+   "definition": "A 2-aminopurine carrying a 6-oxo substituent.",
+   "id": 16235,
+   "is_released": true,
+   "name": "guanine",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 60801,
+      "init_name": "guanyl deoxyribonucleotide residue",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16750,
+      "init_name": "guanosine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 7880,
+      "init_name": "9-[2-(phosphonomethoxy)ethyl]guanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 25305,
+      "init_name": "methylguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 42701,
+      "init_name": "9-(2-deoxy-2-fluoro-5-<em>O</em>-phosphono-β-<small>D</small>-arabinofuranosyl)guanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 24458,
+      "init_name": "guanosines",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 52617,
+      "init_name": "7,8-dihydro-8-oxoguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 35854,
+      "init_name": "valacyclovir",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 44605,
+      "init_name": "8-oxoguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 465284,
+      "init_name": "ganciclovir",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 134095,
+      "init_name": "<em>N</em><small><sup>2</small></sup>,3-ethenoguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 134096,
+      "init_name": "1,<em>N</em><small><sup>2</small></sup>-ethenoguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 2453,
+      "init_name": "acyclovir",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 27549,
+      "init_name": "<em>O</em><small><sup>6</small></sup>-methyl-2'-deoxyguanosine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 61292,
+      "init_name": "guanyl nucleotide",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 15318,
+      "init_name": "xanthine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 63612,
+      "init_name": "nelarabine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 62032,
+      "init_name": "<em>N</em><small><sup>2</small></sup>-carboxyethylguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 233251,
+      "init_name": "3H,5H-pyrimido[1,2-α]purin-6,10-dione",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 233252,
+      "init_name": "1H,3H,5H-pyrimido[1,2-α]purin-2,6,10-trione",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 7956,
+      "init_name": "penciclovir",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 63635,
+      "init_name": "valganciclovir",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 74064,
+      "init_name": "8-hydroxy-7-methylguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 142716,
+      "init_name": "N<small><sup>2</small></sup>-(ADP-<small>D</small>-ribosyl)-guanine(2−)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 233228,
+      "init_name": "7-(2'-oxo-heptyl)-2-oxo-ethenoguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 233227,
+      "init_name": "7-(2'-oxo-heptyl)-1,<em>N</em><small><sup>2</small></sup>-ethenoguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 233226,
+      "init_name": "2-oxo-ethenoguanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 233250,
+      "init_name": "pyrimido[1,2-α]purin-10(3H)-one",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 35589,
+      "final_name": "9<em>H</em>-purine",
+      "relation_type": "has parent hydride"
+     },
+     {
+      "final_id": 35610,
+      "final_name": "antineoplastic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75772,
+      "final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 84735,
+      "final_name": "algal metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 20702,
+      "final_name": "2-aminopurines",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 25810,
+      "final_name": "oxopurine",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 26386,
+      "final_name": "purine nucleobase",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5563",
+    "CHEBI:14371",
+    "CHEBI:14372",
+    "CHEBI:24443",
+    "CHEBI:42948"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:16235",
+   "definition": [
+    "A 2-aminopurine carrying a 6-oxo substituent."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_20702",
+    "http://purl.obolibrary.org/obo/CHEBI_25810",
+    "http://purl.obolibrary.org/obo/CHEBI_26386"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_18282",
+    "http://purl.obolibrary.org/obo/CHEBI_20702",
+    "http://purl.obolibrary.org/obo/CHEBI_22527",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25810",
+    "http://purl.obolibrary.org/obo/CHEBI_26386",
+    "http://purl.obolibrary.org/obo/CHEBI_26401",
+    "http://purl.obolibrary.org/obo/CHEBI_27171",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33635",
+    "http://purl.obolibrary.org/obo/CHEBI_33636",
+    "http://purl.obolibrary.org/obo/CHEBI_33655",
+    "http://purl.obolibrary.org/obo/CHEBI_33659",
+    "http://purl.obolibrary.org/obo/CHEBI_33671",
+    "http://purl.obolibrary.org/obo/CHEBI_33672",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_33833",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35875",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_38101",
+    "http://purl.obolibrary.org/obo/CHEBI_38166",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "2-amino-1,9-dihydro-6H-purin-6-one"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "UYTPUPDQBNUYGX-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "guanine"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75772"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_84735"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018040",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35589"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "2-amino-1,9-dihydro-6H-purin-6-one"
+ ]
+}

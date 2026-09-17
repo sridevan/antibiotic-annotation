@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:79056",
+ "chebi_release": "255",
+ "definition": "Any compound that is used as an additive to increase the plasticity or fluidity of a substance, particularly but not exclusively to synthetic polymers.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33232"
+ ],
+ "name": "plasticiser",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:33232",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:06+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "plasticiser",
+   "chebi_accession": "CHEBI:79056",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any compound that is used as an additive to increase the plasticity or fluidity of a substance, particularly but not exclusively to synthetic polymers.",
+   "id": 79056,
+   "is_released": true,
+   "name": "plasticiser",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33232,
+      "final_name": "application",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:79056",
+   "definition": [
+    "Any compound that is used as an additive to increase the plasticity or fluidity of a substance, particularly but not exclusively to synthetic polymers."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "plasticiser"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

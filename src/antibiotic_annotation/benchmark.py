@@ -1,4 +1,4 @@
-"""Benchmark construction from the curated workbook (Phase 2) and the deterministic split (Phase 9).
+"""Benchmark construction from the curated workbook, used for validation only (the production API never reads it).
 
 The workbook is the source of truth for compound names, labels and strata. The mapping from
 compound name to the deposited PDB chemical species (CCD id, PRD id, or a ChEBI id for
@@ -9,8 +9,6 @@ matching, and is checked in so the benchmark is reproducible and auditable.
 from __future__ import annotations
 
 import csv
-import hashlib
-import math
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -256,26 +254,6 @@ def _paper_class_to_stratum(cls: str | None) -> str:
     if "lincosamide" in c:
         return "lincosamide"
     return "other"
-
-
-def stratified_split(items: list[BenchmarkItem], seed: str = "v1", dev_fraction: float = 0.7) -> dict[str, str]:
-    """Deterministic stratified split. Returns {input_id: 'dev' | 'holdout'}.
-
-    Within each (label, stratum) group the items are ordered by the SHA-256 of
-    ``seed + input_id`` and the first ``round(dev_fraction * n)`` go to development.
-    Groups of size one go entirely to development (nothing to hold out).
-    """
-    groups: dict[tuple, list[BenchmarkItem]] = {}
-    for it in items:
-        groups.setdefault((it.label, it.stratum), []).append(it)
-    assignment: dict[str, str] = {}
-    for _, members in sorted(groups.items(), key=lambda kv: str(kv[0])):
-        ordered = sorted(members, key=lambda it: hashlib.sha256(f"{seed}:{it.input_id}".encode()).hexdigest())
-        n = len(ordered)
-        n_dev = max(1, int(math.floor(dev_fraction * n + 0.5))) if n > 1 else 1
-        for i, it in enumerate(ordered):
-            assignment[it.input_id] = "dev" if i < n_dev else "holdout"
-    return assignment
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,190 @@
+{
+ "chebi_id": "CHEBI:57834",
+ "chebi_release": "255",
+ "definition": "An ammonium ion that is the trication of spermidine, formed by protonation at all three nitrogens.",
+ "inchikey": "ATHGHQPFGPMSJY-UHFFFAOYSA-Q",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:180913",
+   "target_name": "<em>N</em>-(2-carboxyethyl)spermidine(2+)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:149586",
+   "target_name": "<em>N</em>-citryl-spermidine zwitterion"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:16610",
+   "target_name": "spermidine"
+  }
+ ],
+ "is_a": [
+  "CHEBI:25697",
+  "CHEBI:35274"
+ ],
+ "name": "spermidine(3+)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25697",
+  "CHEBI:25699",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33702",
+  "CHEBI:35274",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36916",
+  "CHEBI:50860",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:16610",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:24:15+00:00",
+ "roles": [
+  "CHEBI:77746",
+  "CHEBI:78675"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "spermidine(3+)",
+   "chebi_accession": "CHEBI:57834",
+   "default_structure": {
+    "smiles": "[NH3+]CCCC[NH2+]CCC[NH3+]",
+    "standard_inchi_key": "ATHGHQPFGPMSJY-UHFFFAOYSA-Q"
+   },
+   "definition": "An ammonium ion that is the trication of spermidine, formed by protonation at all three nitrogens.",
+   "id": 57834,
+   "is_released": true,
+   "name": "spermidine(3+)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 180913,
+      "init_name": "<em>N</em>-(2-carboxyethyl)spermidine(2+)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 149586,
+      "init_name": "<em>N</em>-citryl-spermidine zwitterion",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16610,
+      "init_name": "spermidine",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 78675,
+      "final_name": "fundamental metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25697,
+      "final_name": "organic cation",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35274,
+      "final_name": "ammonium ion derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 16610,
+      "final_name": "spermidine",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:57834",
+   "definition": [
+    "An ammonium ion that is the trication of spermidine, formed by protonation at all three nitrogens."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25697",
+    "http://purl.obolibrary.org/obo/CHEBI_35274"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25697",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33702",
+    "http://purl.obolibrary.org/obo/CHEBI_35274",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(4-azaniumylbutyl)(3-azaniumylpropyl)azanium"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "ATHGHQPFGPMSJY-UHFFFAOYSA-Q",
+   "isObsolete": false,
+   "label": [
+    "spermidine(3+)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_78675"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16610"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(4-azaniumylbutyl)(3-azaniumylpropyl)azanium"
+ ]
+}

@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "antibiotic-annotation"
 version = "0.1.0"
-description = "Annotate PDB chemical components as antibacterial antibiotics using ChEBI ontology evidence"
+description = "Antibiotic-like CCD and PRD entities in a PDB biological assembly, via ChEBI ontology evidence"
 requires-python = ">=3.11"
 dependencies = [
     "requests>=2.31",

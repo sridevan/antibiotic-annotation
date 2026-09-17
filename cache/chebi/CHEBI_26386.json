@@ -1,0 +1,153 @@
+{
+ "chebi_id": "CHEBI:26386",
+ "chebi_release": "255",
+ "definition": "A nucleobase whose skeleton is derived from purine.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:142355",
+   "target_name": "purines <small>D</small>-ribonucleoside"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:142198",
+   "target_name": "purine 2'-deoxyribonucleoside 5'-phosphate(2−)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:18282",
+  "CHEBI:26401"
+ ],
+ "name": "purine nucleobase",
+ "num_descendants": 8,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:18282",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24532",
+  "CHEBI:25367",
+  "CHEBI:26401",
+  "CHEBI:27171",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33595",
+  "CHEBI:33635",
+  "CHEBI:33636",
+  "CHEBI:33655",
+  "CHEBI:33659",
+  "CHEBI:33671",
+  "CHEBI:33672",
+  "CHEBI:33675",
+  "CHEBI:33832",
+  "CHEBI:33833",
+  "CHEBI:35352",
+  "CHEBI:35875",
+  "CHEBI:36357",
+  "CHEBI:38101",
+  "CHEBI:38166",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:5686",
+  "CHEBI:72695"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:23:59+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "purine nucleobase",
+   "chebi_accession": "CHEBI:26386",
+   "default_structure": {
+    "smiles": "*C1=Nc2ncnc2C(=*)N1",
+    "standard_inchi_key": null
+   },
+   "definition": "A nucleobase whose skeleton is derived from purine.",
+   "id": 26386,
+   "is_released": true,
+   "name": "purine nucleobase",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 142355,
+      "init_name": "purines <small>D</small>-ribonucleoside",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 142198,
+      "init_name": "purine 2'-deoxyribonucleoside 5'-phosphate(2−)",
+      "relation_type": "has functional parent"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 26401,
+      "final_name": "purines",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 18282,
+      "final_name": "nucleobase",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:26386",
+   "definition": [
+    "A nucleobase whose skeleton is derived from purine."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_18282",
+    "http://purl.obolibrary.org/obo/CHEBI_26401"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_18282",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24532",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_26401",
+    "http://purl.obolibrary.org/obo/CHEBI_27171",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33595",
+    "http://purl.obolibrary.org/obo/CHEBI_33635",
+    "http://purl.obolibrary.org/obo/CHEBI_33636",
+    "http://purl.obolibrary.org/obo/CHEBI_33655",
+    "http://purl.obolibrary.org/obo/CHEBI_33659",
+    "http://purl.obolibrary.org/obo/CHEBI_33671",
+    "http://purl.obolibrary.org/obo/CHEBI_33672",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33832",
+    "http://purl.obolibrary.org/obo/CHEBI_33833",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35875",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_38101",
+    "http://purl.obolibrary.org/obo/CHEBI_38166",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_5686",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "isObsolete": false,
+   "label": [
+    "purine nucleobase"
+   ],
+   "numDescendants": 8.0,
+   "numHierarchicalDescendants": 8.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

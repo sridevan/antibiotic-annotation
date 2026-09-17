@@ -1,0 +1,73 @@
+{
+ "chebi_id": "CHEBI:33973",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25108"
+ ],
+ "name": "elemental magnesium",
+ "num_descendants": 4,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25108",
+  "CHEBI:33299",
+  "CHEBI:33579",
+  "CHEBI:33674"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:03+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "elemental magnesium",
+   "chebi_accession": "CHEBI:33973",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33973,
+   "is_released": true,
+   "name": "elemental magnesium",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 25108,
+      "final_name": "magnesium molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33973",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25108"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25108",
+    "http://purl.obolibrary.org/obo/CHEBI_33299",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674"
+   ],
+   "isObsolete": false,
+   "label": [
+    "elemental magnesium"
+   ],
+   "numDescendants": 4.0,
+   "numHierarchicalDescendants": 4.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

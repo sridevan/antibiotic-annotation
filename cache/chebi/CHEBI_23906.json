@@ -1,0 +1,82 @@
+{
+ "chebi_id": "CHEBI:23906",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24867",
+  "CHEBI:36916"
+ ],
+ "name": "monoatomic cation",
+ "num_descendants": 175,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24867",
+  "CHEBI:24870",
+  "CHEBI:33238",
+  "CHEBI:33259",
+  "CHEBI:36916"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:02+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "monoatomic cation",
+   "chebi_accession": "CHEBI:23906",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 23906,
+   "is_released": true,
+   "name": "monoatomic cation",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24867,
+      "final_name": "monoatomic ion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 36916,
+      "final_name": "cation",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:23906",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_36916"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_33238",
+    "http://purl.obolibrary.org/obo/CHEBI_33259",
+    "http://purl.obolibrary.org/obo/CHEBI_36916"
+   ],
+   "isObsolete": false,
+   "label": [
+    "monoatomic cation"
+   ],
+   "numDescendants": 175.0,
+   "numHierarchicalDescendants": 175.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

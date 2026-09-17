@@ -1,0 +1,167 @@
+{
+ "chebi_id": "CHEBI:78409",
+ "chebi_release": "255",
+ "definition": "An organophosphate oxoanion obtained by deprotonation of the phosphate and phosphonate OH groups of guanosine 5'-[β,γ-imido]triphosphate.",
+ "inchikey": "UQABYHGXWYXDTK-UUOKFMHZSA-J",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:78374",
+   "target_name": "trisodium guanosine 5'-[β,γ-imido]triphosphate"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:78408",
+   "target_name": "guanosine 5'-[β,γ-imido]triphosphate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:58945",
+  "CHEBI:59635"
+ ],
+ "name": "guanosine 5'-[beta,gamma-imido]triphosphate(4-)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25696",
+  "CHEBI:25699",
+  "CHEBI:26079",
+  "CHEBI:26082",
+  "CHEBI:33241",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:36359",
+  "CHEBI:36360",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:58945",
+  "CHEBI:59635"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:78408",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:24:22+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "guanosine 5'-[beta,gamma-imido]triphosphate(4-)",
+   "chebi_accession": "CHEBI:78409",
+   "default_structure": {
+    "smiles": "Nc1nc(=O)c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])NP(=O)([O-])[O-])[C@@H](O)[C@H]3O)c2n1",
+    "standard_inchi_key": "UQABYHGXWYXDTK-UUOKFMHZSA-J"
+   },
+   "definition": "An organophosphate oxoanion obtained by deprotonation of the phosphate and phosphonate OH groups of guanosine 5'-[β,γ-imido]triphosphate.",
+   "id": 78409,
+   "is_released": true,
+   "name": "guanosine 5'-[β,γ-imido]triphosphate(4−)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 78374,
+      "init_name": "trisodium guanosine 5'-[β,γ-imido]triphosphate",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 78408,
+      "init_name": "guanosine 5'-[β,γ-imido]triphosphate",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 58945,
+      "final_name": "organophosphate oxoanion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 59635,
+      "final_name": "organophosphonate oxoanion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 78408,
+      "final_name": "guanosine 5'-[β,γ-imido]triphosphate",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:78409",
+   "definition": [
+    "An organophosphate oxoanion obtained by deprotonation of the phosphate and phosphonate OH groups of guanosine 5'-[β,γ-imido]triphosphate."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_58945",
+    "http://purl.obolibrary.org/obo/CHEBI_59635"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25696",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_26079",
+    "http://purl.obolibrary.org/obo/CHEBI_26082",
+    "http://purl.obolibrary.org/obo/CHEBI_33241",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36359",
+    "http://purl.obolibrary.org/obo/CHEBI_36360",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_58945",
+    "http://purl.obolibrary.org/obo/CHEBI_59635"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "5'-O-({[(phosphonatoamino)phosphinato]oxy}phosphinato)guanosine"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "UQABYHGXWYXDTK-UUOKFMHZSA-J",
+   "isObsolete": false,
+   "label": [
+    "guanosine 5'-[beta,gamma-imido]triphosphate(4-)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_78408"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "5'-O-({[(phosphonatoamino)phosphinato]oxy}phosphinato)guanosine"
+ ]
+}

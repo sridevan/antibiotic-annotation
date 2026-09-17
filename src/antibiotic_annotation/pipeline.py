@@ -108,39 +108,3 @@ class Pipeline:
             if r.relation in FORM_RELATIONS:
                 fc.forms.append({"chebi_id": r.target_id, "name": r.target_name or self.chebi.name(r.target_id), "relation": r.relation})
         return fc
-
-
-    # ------------------------------------------------------------------ ontology
-    def ontology_summary(self, mapping: MappingResult) -> dict[str, Any]:
-        """Complete ChEBI graph evidence for a resolved mapping (Phase 4 deliverable).
-
-        Evidence is unioned over the equivalent ids (same standardised identity); each entry
-        records which id it came from.
-        """
-        ids = mapping.chebi_ids_for_evidence
-        anc: dict[str, dict[str, Any]] = {}
-        direct_roles: dict[str, list[str]] = {}
-        inherited: dict[str, dict[str, Any]] = {}
-        for cid in ids:
-            for a, d in self.chebi.ancestor_depths(cid).items():
-                cur = anc.get(a)
-                if cur is None or d < cur["min_depth"]:
-                    anc[a] = {"chebi_id": a, "name": self.chebi.name(a), "min_depth": d, "via": cid}
-            for r in self.chebi.direct_roles(cid):
-                direct_roles.setdefault(r, []).append(cid)
-            for r, via in self.chebi.inherited_roles(cid).items():
-                inherited.setdefault(r, {"chebi_id": r, "name": self.chebi.name(r), "asserted_on": []})
-                for v in via:
-                    if v not in inherited[r]["asserted_on"]:
-                        inherited[r]["asserted_on"].append(v)
-        closure = self.chebi.role_closure(inherited.keys())
-        implied = sorted(closure - set(inherited))
-        return {
-            "chebi_ids": ids,
-            "terms": {cid: {"name": self.chebi.name(cid), "definition": self.chebi.term(cid).definition, "stars": self.chebi.term(cid).stars, "is_a": self.chebi.term(cid).is_a} for cid in ids},
-            "is_a_ancestors": sorted(anc.values(), key=lambda x: (x["min_depth"], x["chebi_id"])),
-            "direct_roles": {r: {"name": self.chebi.name(r), "on": v} for r, v in sorted(direct_roles.items())},
-            "inherited_roles": dict(sorted(inherited.items())),
-            "roles_implied_by_role_hierarchy": [{"chebi_id": r, "name": self.chebi.name(r)} for r in implied],
-            "chebi_release": self.chebi.release(),
-        }

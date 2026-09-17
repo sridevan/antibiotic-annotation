@@ -1,0 +1,924 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "+2",
+    "connections": "",
+    "formula": "Zn",
+    "hAtoms": "",
+    "inchi": "InChI=1S/Zn/q+2",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "",
+    "stereoDbond": "",
+    "stereoSP3": "",
+    "stereoSP3inverted": "",
+    "stereoType": "",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEMBL1236970",
+     "id": 1,
+     "longName": "ChEMBL",
+     "shortName": "chembl",
+     "url": "https://www.ebi.ac.uk/chembldb/compound/inspect/CHEMBL1236970"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DB14532",
+     "id": 2,
+     "longName": "DrugBank",
+     "shortName": "drugbank",
+     "url": "https://go.drugbank.com/drugs/DB14532"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "ZN",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/ZN"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "ZN2",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/ZN2"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "ZN",
+     "id": 5,
+     "longName": "Protein Data Bank in Europe",
+     "shortName": "pdbe",
+     "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/ZN"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEBI:29105",
+     "id": 7,
+     "longName": "ChEBI",
+     "shortName": "chebi",
+     "url": "https://www.ebi.ac.uk/chebi/CHEBI:29105"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "13S1S8SF37",
+     "id": 14,
+     "longName": "FDA/USP Substance Registration System (SRS)",
+     "shortName": "fdasrs",
+     "url": "https://d20b1koi85gdl2.cloudfront.net/uniisearch/srs/unii/13S1S8SF37"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "29356898",
+     "id": 15,
+     "longName": "SureChEMBL",
+     "shortName": "surechembl",
+     "url": "https://www.surechembl.org/chemical/29356898"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "HMDB0015532",
+     "id": 18,
+     "longName": "HMDB",
+     "shortName": "hmdb",
+     "url": "https://www.hmdb.ca/metabolites/HMDB0015532"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "32051",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/32051"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "60020613",
+     "id": 24,
+     "longName": "NMRShiftDB",
+     "shortName": "nmrshiftdb2",
+     "url": "https://nmrshiftdb.nmr.uni-koeln.de/molecule/60020613"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "16",
+     "id": 31,
+     "longName": "BindingDB",
+     "shortName": "bindingdb",
+     "url": "https://www.bindingdb.org/rwd/bind/chemsearch/marvin/SDFdownload.jsp?download_file=/rwd/bind/downloads/BindingDB_All_202601_tsv.zip16"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DTXSID40920495",
+     "id": 32,
+     "longName": "EPA (Environmental Protection Agency) CompTox Dashboard",
+     "shortName": "comptox",
+     "url": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID40920495"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "14",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=14"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "150",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=150"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "228543",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=228543"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "228544",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=228544"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "242813",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=242813"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "32427",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=32427"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "32428",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=32428"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "932",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=932"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00098202",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00098202"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00133406",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00133406"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00133419",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00133419"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00133432",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00133432"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00138047",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00138047"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00148733",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00148733"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00198666",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00198666"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00210470",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00210470"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00226616",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00226616"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00228254",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00228254"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00255385",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00255385"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00278681",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00278681"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00321126",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00321126"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00325247",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00325247"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00325572",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00325572"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00395161",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00395161"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00408356",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00408356"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00421668",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00421668"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00446758",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00446758"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00449592",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00449592"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00459732",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00459732"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00470158",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00470158"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00530829",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00530829"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00536133",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00536133"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00623857",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00623857"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00683644",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00683644"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00698386",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00698386"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00704990",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00704990"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00705445",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00705445"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00801606",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00801606"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00809809",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00809809"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00875927",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00875927"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00944398",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00944398"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00944723",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00944723"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00944814",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00944814"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00944853",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00944853"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT00967551",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT00967551"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01062347",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01062347"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01265849",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01265849"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01468636",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01468636"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01472211",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01472211"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01505803",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01505803"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01599572",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01599572"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01616693",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01616693"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01662089",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01662089"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01772680",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01772680"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01791608",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01791608"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT01911260",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT01911260"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT02116725",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT02116725"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT02126293",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT02126293"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT02130388",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT02130388"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT02319499",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT02319499"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT02428647",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT02428647"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT02601742",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT02601742"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT02609386",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT02609386"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT02716415",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT02716415"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03005496",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03005496"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03095326",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03095326"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03112382",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03112382"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03283813",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03283813"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03366584",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03366584"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03528434",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03528434"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03626298",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03626298"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03717987",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03717987"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT03851055",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT03851055"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04072822",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04072822"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04278599",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04278599"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04334512",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04334512"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04335084",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04335084"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04446104",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04446104"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04447534",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04447534"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04472585",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04472585"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04482686",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04482686"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04528927",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04528927"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04574544",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04574544"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04780061",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04780061"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04898023",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04898023"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT04959786",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT04959786"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT05002101",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT05002101"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT05116098",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT05116098"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT05453227",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT05453227"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT05465434",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT05465434"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT05605886",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT05605886"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT05628571",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT05628571"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT05661682",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT05661682"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT05677126",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT05677126"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT05680662",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT05680662"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT06102044",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT06102044"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "NCT06151392",
+     "id": 46,
+     "longName": "Clinical Trials",
+     "shortName": "clinicaltrials",
+     "url": "https://clinicaltrials.gov/study/NCT06151392"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "PD013418",
+     "id": 49,
+     "longName": "Probes&Drugs",
+     "shortName": "probes_and_drugs",
+     "url": "https://www.probes-drugs.org/compounds/PD013418"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "FDB031256",
+     "id": 51,
+     "longName": "The Food Database",
+     "shortName": "foodb",
+     "url": "https://foodb.ca/compounds/FDB031256"
+    }
+   ],
+   "standardInchiKey": "PTFCDOFLOPIGGS-UHFFFAOYSA-N",
+   "uci": 642668
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

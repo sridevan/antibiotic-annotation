@@ -1,0 +1,97 @@
+{
+ "chebi_id": "CHEBI:39474",
+ "chebi_release": "255",
+ "definition": "Any azaalkane in which two or more carbons in the chain are replaced by nitrogen.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:46686",
+  "CHEBI:88061"
+ ],
+ "name": "polyazaalkane",
+ "num_descendants": 36,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:46686",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:88061"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:07+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "polyazaalkane",
+   "chebi_accession": "CHEBI:39474",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any azaalkane in which two or more carbons in the chain are replaced by nitrogen.",
+   "id": 39474,
+   "is_released": true,
+   "name": "polyazaalkane",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 46686,
+      "final_name": "azaalkane",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 88061,
+      "final_name": "polyamine",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:39474",
+   "definition": [
+    "Any azaalkane in which two or more carbons in the chain are replaced by nitrogen."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_46686",
+    "http://purl.obolibrary.org/obo/CHEBI_88061"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_46686",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_88061"
+   ],
+   "isObsolete": false,
+   "label": [
+    "polyazaalkane"
+   ],
+   "numDescendants": 36.0,
+   "numHierarchicalDescendants": 36.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

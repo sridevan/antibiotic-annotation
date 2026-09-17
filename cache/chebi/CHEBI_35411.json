@@ -1,0 +1,150 @@
+{
+ "chebi_id": "CHEBI:35411",
+ "chebi_release": "255",
+ "definition": "A primary diamine that is ethane or a higher alkane in which a hydrogen of each of the terminal methyl groups has been replaced by an amino group. H<small><sub>2</sub></small>NCH<small><sub>2</sub></small>(CH<small><sub>2</sub></small>)<small><sub>n</sub></small>CH<small><sub>2</sub></small>NH<small><sub>2</sub></small>, where n = 0, 1, 2, etc.",
+ "inchikey": "XFNJVJPLKCPIBV-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:35414",
+   "target_name": "<em>N</em>-monoacetylalkane-α,ω-diamine"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:70977",
+   "target_name": "alkane-α,ω-diammonium(2+)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:35410",
+  "CHEBI:46687"
+ ],
+ "name": "alkane-alpha,omega-diamine",
+ "num_descendants": 9,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:23666",
+  "CHEBI:24431",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:35410",
+  "CHEBI:39474",
+  "CHEBI:46686",
+  "CHEBI:46687",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:88061"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:70977",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:24:07+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "alkane-alpha,omega-diamine",
+   "chebi_accession": "CHEBI:35411",
+   "default_structure": {
+    "smiles": "NCCCN",
+    "standard_inchi_key": "XFNJVJPLKCPIBV-UHFFFAOYSA-N"
+   },
+   "definition": "A primary diamine that is ethane or a higher alkane in which a hydrogen of each of the terminal methyl groups has been replaced by an amino group. H<small><sub>2</sub></small>NCH<small><sub>2</sub></small>(CH<small><sub>2</sub></small>)<small><sub>n</sub></small>CH<small><sub>2</sub></small>NH<small><sub>2</sub></small>, where n = 0, 1, 2, etc.",
+   "id": 35411,
+   "is_released": true,
+   "name": "alkane-α,ω-diamine",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 35414,
+      "init_name": "<em>N</em>-monoacetylalkane-α,ω-diamine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 70977,
+      "init_name": "alkane-α,ω-diammonium(2+)",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 35410,
+      "final_name": "primary diamine",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 46687,
+      "final_name": "diazaalkane",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 70977,
+      "final_name": "alkane-α,ω-diammonium(2+)",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:2577",
+    "CHEBI:10204",
+    "CHEBI:13775",
+    "CHEBI:13808",
+    "CHEBI:22316"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35411",
+   "definition": [
+    "A primary diamine that is ethane or a higher alkane in which a hydrogen of each of the terminal methyl groups has been replaced by an amino group. H<small><sub>2</sub></small>NCH<small><sub>2</sub></small>(CH<small><sub>2</sub></small>)<small><sub>n</sub></small>CH<small><sub>2</sub></small>NH<small><sub>2</sub></small>, where n = 0, 1, 2, etc."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35410",
+    "http://purl.obolibrary.org/obo/CHEBI_46687"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23666",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35410",
+    "http://purl.obolibrary.org/obo/CHEBI_39474",
+    "http://purl.obolibrary.org/obo/CHEBI_46686",
+    "http://purl.obolibrary.org/obo/CHEBI_46687",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_88061"
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "XFNJVJPLKCPIBV-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "alkane-alpha,omega-diamine"
+   ],
+   "numDescendants": 9.0,
+   "numHierarchicalDescendants": 9.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_70977"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

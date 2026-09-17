@@ -1,0 +1,262 @@
+{
+ "chebi_id": "CHEBI:9754",
+ "chebi_release": "255",
+ "definition": "A primary amino compound that is <em>tert</em>-butylamine in which one hydrogen attached to each methyl group is replaced by a hydroxy group. A compound widely used as a biological buffer substance in the pH range 7—9; p<em>K</em><small><sub>a</sub></small> = 8.3 at 20 °C; p<em>K</em><small><sub>a</sub></small> = 7.82 at 37 °C.",
+ "inchikey": "LENZDBCJOHFCAS-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:41250",
+   "target_name": "bis-tris"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:40947",
+   "target_name": "bis-tris propane"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:39063",
+   "target_name": "<em>N</em>-tris(hydroxymethyl)methylglycine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:39035",
+   "target_name": "TES"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:46097",
+   "target_name": "Htris"
+  }
+ ],
+ "is_a": [
+  "CHEBI:27136",
+  "CHEBI:50994"
+ ],
+ "name": "tris",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:25806",
+  "CHEBI:26191",
+  "CHEBI:27136",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33822",
+  "CHEBI:35352",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:50994",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:46097",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:24:16+00:00",
+ "roles": [
+  "CHEBI:35225",
+  "CHEBI:35441",
+  "CHEBI:35480",
+  "CHEBI:35610",
+  "CHEBI:38068",
+  "CHEBI:66981"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "tris",
+   "chebi_accession": "CHEBI:9754",
+   "default_structure": {
+    "smiles": "NC(CO)(CO)CO",
+    "standard_inchi_key": "LENZDBCJOHFCAS-UHFFFAOYSA-N"
+   },
+   "definition": "A primary amino compound that is <em>tert</em>-butylamine in which one hydrogen attached to each methyl group is replaced by a hydroxy group. A compound widely used as a biological buffer substance in the pH range 7—9; p<em>K</em><small><sub>a</sub></small> = 8.3 at 20 °C; p<em>K</em><small><sub>a</sub></small> = 7.82 at 37 °C.",
+   "id": 9754,
+   "is_released": true,
+   "name": "tris",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 41250,
+      "init_name": "bis-tris",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 40947,
+      "init_name": "bis-tris propane",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 39063,
+      "init_name": "<em>N</em>-tris(hydroxymethyl)methylglycine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 39035,
+      "init_name": "TES",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 46097,
+      "init_name": "Htris",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 35441,
+      "final_name": "antiinfective agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35610,
+      "final_name": "antineoplastic agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35480,
+      "final_name": "analgesic",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 35225,
+      "final_name": "buffer",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 66981,
+      "final_name": "ophthalmology drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 38068,
+      "final_name": "antimalarial",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 27136,
+      "final_name": "triol",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 50994,
+      "final_name": "primary amino compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 46097,
+      "final_name": "Htris",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:9754",
+   "definition": [
+    "A primary amino compound that is <em>tert</em>-butylamine in which one hydrogen attached to each methyl group is replaced by a hydroxy group. A compound widely used as a biological buffer substance in the pH range 7—9; p<em>K</em><small><sub>a</sub></small> = 8.3 at 20 °C; p<em>K</em><small><sub>a</sub></small> = 7.82 at 37 °C."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_27136",
+    "http://purl.obolibrary.org/obo/CHEBI_50994"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26191",
+    "http://purl.obolibrary.org/obo/CHEBI_27136",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33822",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_50994",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "2-amino-2-(hydroxymethyl)propane-1,3-diol"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "LENZDBCJOHFCAS-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "tris"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35225"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35441"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35480"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_35610"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_38068"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_66981"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_46097"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "2-amino-2-(hydroxymethyl)propane-1,3-diol"
+ ]
+}

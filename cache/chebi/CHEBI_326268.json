@@ -1,0 +1,185 @@
+{
+ "chebi_id": "CHEBI:326268",
+ "chebi_release": "255",
+ "definition": "An alkane-α,ω-diammonium(2+) that is the dication of putrescine (1,4-butanediamine) arising from protonation of both primary amino groups; major species at pH 7.3.",
+ "inchikey": "KIDHWZJUCRJVML-UHFFFAOYSA-P",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:180908",
+   "target_name": "2-hydroxyputrescine(2+)"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:180909",
+   "target_name": "<em>N</em>-hydroxyputrescine(1+)"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:17148",
+   "target_name": "putrescine"
+  }
+ ],
+ "is_a": [
+  "CHEBI:70977"
+ ],
+ "name": "1,4-butanediammonium",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25697",
+  "CHEBI:25699",
+  "CHEBI:33302",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:33702",
+  "CHEBI:35274",
+  "CHEBI:36357",
+  "CHEBI:36358",
+  "CHEBI:36916",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:70977"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:17148",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:24:09+00:00",
+ "roles": [
+  "CHEBI:77746",
+  "CHEBI:78675"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "1,4-butanediammonium",
+   "chebi_accession": "CHEBI:326268",
+   "default_structure": {
+    "smiles": "[NH3+]CCCC[NH3+]",
+    "standard_inchi_key": "KIDHWZJUCRJVML-UHFFFAOYSA-P"
+   },
+   "definition": "An alkane-α,ω-diammonium(2+) that is the dication of putrescine (1,4-butanediamine) arising from protonation of both primary amino groups; major species at pH 7.3.",
+   "id": 326268,
+   "is_released": true,
+   "name": "1,4-butanediammonium",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 180908,
+      "init_name": "2-hydroxyputrescine(2+)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 180909,
+      "init_name": "<em>N</em>-hydroxyputrescine(1+)",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 17148,
+      "init_name": "putrescine",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 78675,
+      "final_name": "fundamental metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 70977,
+      "final_name": "alkane-α,ω-diammonium(2+)",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 17148,
+      "final_name": "putrescine",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:326268",
+   "definition": [
+    "An alkane-α,ω-diammonium(2+) that is the dication of putrescine (1,4-butanediamine) arising from protonation of both primary amino groups; major species at pH 7.3."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_70977"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25697",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33702",
+    "http://purl.obolibrary.org/obo/CHEBI_35274",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36358",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_70977"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "butane-1,4-bis(aminium)"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "KIDHWZJUCRJVML-UHFFFAOYSA-P",
+   "isObsolete": false,
+   "label": [
+    "1,4-butanediammonium"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_78675"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_17148"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "butane-1,4-bis(aminium)"
+ ]
+}

@@ -22,6 +22,7 @@ from antibiotic_annotation.mapping import Mapper, UniChemClient  # noqa: E402
 FIX = ROOT / "tests" / "fixtures" / "http"
 
 IDS = ["PRD_000505", "PRD_000193", "5I0", "GLC", "TAC", "KSG", "SCM", "GTP", "ORN", "TPF", "X8Q", "FYG", "T1C", "HY0", "6UQ", "NMY", "LLL", "VIR", "KIR", "PRD_000226", "EM1", "HOH", "CHEBI:26710", "ZZZZ9"]
+ASSEMBLIES = [("5J7L", 1), ("5J7L", 2), ("4V7T", 1), ("4V7T", 2), ("4V7U", 1), ("4V85", 1), ("4U1U", 1), ("4V64", 1), ("5AFI", 1), ("1ATP", 1)]
 EXTRA_CHEBI = ["CHEBI:36047", "CHEBI:33282", "CHEBI:33281", "CHEBI:22507", "CHEBI:25105", "CHEBI:27933", "CHEBI:26895", "CHEBI:7507", "CHEBI:17833", "CHEBI:87209", "CHEBI:48947", "CHEBI:48001", "CHEBI:24835", "CHEBI:9999999"]
 
 
@@ -30,6 +31,8 @@ def request_key(method: str, url: str, payload) -> str:
 
 
 def bundle_name(url: str) -> str:
+    if "pdbe" in url:
+        return "pdbe"
     if "ols4" in url:
         return "ols4"
     if "chebi/backend" in url:
@@ -113,6 +116,18 @@ def main():
         for r in chebi.term(cid).relations + chebi.term(cid).incoming:
             chebi.term(r.target_id)
         print(cid, chebi.name(cid), "ancestors", len(chebi.ancestors(cid)), "roles", len(roles))
+    tr.flush()
+    from antibiotic_annotation.api import inspect_assembly
+    from antibiotic_annotation.assembly import AssemblyClient, AssemblyNotFound, EntryNotFound
+
+    for pdb, asm in ASSEMBLIES:
+        r = inspect_assembly(pdb, asm, pipeline=pipe)
+        print(pdb, asm, "inspected", [e.entity_id for e in r.entities_inspected], "hits", [h.entity_id for h in r.hits])
+    for pdb, asm in [("5J7L", 9), ("XXXX", 1)]:
+        try:
+            AssemblyClient(tr, cache).entities(pdb, asm)
+        except (AssemblyNotFound, EntryNotFound) as exc:
+            print("expected error recorded:", exc)
     tr.flush()
     print("fixtures:", {k: len(v) for k, v in tr.bundles.items()})
 

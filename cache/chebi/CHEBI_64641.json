@@ -1,0 +1,78 @@
+{
+ "chebi_id": "CHEBI:64641",
+ "chebi_release": "255",
+ "definition": "An inorganic cation with a valency of two.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:36915"
+ ],
+ "name": "divalent inorganic cation",
+ "num_descendants": 27,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:24870",
+  "CHEBI:36914",
+  "CHEBI:36915",
+  "CHEBI:36916"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:01+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "divalent inorganic cation",
+   "chebi_accession": "CHEBI:64641",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An inorganic cation with a valency of two.",
+   "id": 64641,
+   "is_released": true,
+   "name": "divalent inorganic cation",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 36915,
+      "final_name": "inorganic cation",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:64641",
+   "definition": [
+    "An inorganic cation with a valency of two."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_36915"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_36914",
+    "http://purl.obolibrary.org/obo/CHEBI_36915",
+    "http://purl.obolibrary.org/obo/CHEBI_36916"
+   ],
+   "isObsolete": false,
+   "label": [
+    "divalent inorganic cation"
+   ],
+   "numDescendants": 27.0,
+   "numHierarchicalDescendants": 27.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

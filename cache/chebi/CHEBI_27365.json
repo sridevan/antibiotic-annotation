@@ -1,0 +1,90 @@
+{
+ "chebi_id": "CHEBI:27365",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24867",
+  "CHEBI:37253"
+ ],
+ "name": "zinc ion",
+ "num_descendants": 4,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24867",
+  "CHEBI:24870",
+  "CHEBI:27364",
+  "CHEBI:33238",
+  "CHEBI:33259",
+  "CHEBI:33497",
+  "CHEBI:33673",
+  "CHEBI:33676",
+  "CHEBI:37253"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:18+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "zinc ion",
+   "chebi_accession": "CHEBI:27365",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 27365,
+   "is_released": true,
+   "name": "zinc ion",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 37253,
+      "final_name": "elemental zinc",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 24867,
+      "final_name": "monoatomic ion",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:27365",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_37253"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_27364",
+    "http://purl.obolibrary.org/obo/CHEBI_33238",
+    "http://purl.obolibrary.org/obo/CHEBI_33259",
+    "http://purl.obolibrary.org/obo/CHEBI_33497",
+    "http://purl.obolibrary.org/obo/CHEBI_33673",
+    "http://purl.obolibrary.org/obo/CHEBI_33676",
+    "http://purl.obolibrary.org/obo/CHEBI_37253"
+   ],
+   "isObsolete": false,
+   "label": [
+    "zinc ion"
+   ],
+   "numDescendants": 4.0,
+   "numHierarchicalDescendants": 4.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

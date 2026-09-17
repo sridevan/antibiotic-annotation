@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:22586",
+ "chebi_release": "255",
+ "definition": "A substance that opposes oxidation or inhibits reactions brought about by dioxygen or peroxides.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:51086"
+ ],
+ "name": "antioxidant",
+ "num_descendants": 2,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:50906",
+  "CHEBI:51086"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:14+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antioxidant",
+   "chebi_accession": "CHEBI:22586",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A substance that opposes oxidation or inhibits reactions brought about by dioxygen or peroxides.",
+   "id": 22586,
+   "is_released": true,
+   "name": "antioxidant",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 51086,
+      "final_name": "chemical role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:22586",
+   "definition": [
+    "A substance that opposes oxidation or inhibits reactions brought about by dioxygen or peroxides."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antioxidant"
+   ],
+   "numDescendants": 2.0,
+   "numHierarchicalDescendants": 2.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

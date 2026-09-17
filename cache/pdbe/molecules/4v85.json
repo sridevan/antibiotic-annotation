@@ -1,0 +1,3231 @@
+{
+ "4v85": [
+  {
+   "ca_p_only": false,
+   "entity_id": 1,
+   "gene_name": null,
+   "in_chains": [
+    "AA"
+   ],
+   "in_struct_asyms": [
+    "A"
+   ],
+   "length": 1533,
+   "molecule_name": [
+    "16S ribosomal RNA"
+   ],
+   "molecule_type": "polyribonucleotide",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "AAUUGAAGAGUUUGAUCAUGGCUCAGAUUGAACGCUGGCGGCAGGCCUAACACAUGCAAGUCGAACGGUAACAGGAAGAAGCUUGCUUCUUUGCUGACGAGUGGCGGACGGGUGAGUAAUGUCUGGGAAACUGCCUGAUGGAGGGGGAUAACUACUGGAAACGGUAGCUAAUACCGCAUAACGUCGCAAGACCAAAGAGGGGGACCUUCGGGCCUCUUGCCAUCGGAUGUGCCCAGAUGGGAUUAGCUAGUAGGUGGGGUAACGGCUCACCUAGGCGACGAUCCCUAGCUGGUCUGAGAGGAUGACCAGCCACACUGGAACUGAGACACGGUCCAGACUCCUACGGGAGGCAGCAGUGGGGAAUAUUGCACAAUGGGCGCAAGCCUGAUGCAGCCAUGCCGCGUGUAUGAAGAAGGCCUUCGGGUUGUAAAGUACUUUCAGCGGGGAGGAAGGGAGUAAAGUUAAUACCUUUGCUCAUUGACGUUACCCGCAGAAGAAGCACCGGCUAACUCCGUGCCAGCAGCCGCGGUAAUACGGAGGGUGCAAGCGUUAAUCGGAAUUACUGGGCGUAAAGCGCACGCAGGCGGUUUGUUAAGUCAGAUGUGAAAUCCCCGGGCUCAACCUGGGAACUGCAUCUGAUACUGGCAAGCUUGAGUCUCGUAGAGGGGGGUAGAAUUCCAGGUGUAGCGGUGAAAUGCGUAGAGAUCUGGAGGAAUACCGGUGGCGAAGGCGGCCCCCUGGACGAAGACUGACGCUCAGGUGCGAAAGCGUGGGGAGCAAACAGGAUUAGAUACCCUGGUAGUCCACGCCGUAAACGAUGUCGACUUGGAGGUUGUGCCCUUGAGGCGUGGCUUCCGGAGCUAACGCGUUAAGUCGACCGCCUGGGGAGUACGGCCGCAAGGUUAAAACUCAAAUGAAUUGACGGGGGCCCGCACAAGCGGUGGAGCAUGUGGUUUAAUUCGAUGCAACGCGAAGAACCUUACCUGGUCUUGACAUCCACGGAAGUUUUCAGAGAUGAGAAUGUGCCUUCGGGAACCGUGAGACAGGUGCUGCAUGGCUGUCGUCAGCUCGUGUUGUGAAAUGUUGGGUUAAGUCCCGCAACGAGCGCAACCCUUAUCCUUUGUUGCCAGCGGUCCGGCCGGGAACUCAAAGGAGACUGCCAGUGAUAAACUGGAGGAAGGUGGGGAUGACGUCAAGUCAUCAUGGCCCUUACGACCAGGGCUACACACGUGCUACAAUGGCGCAUACAAAGAGAAGCGACCUCGCGAGAGCAAGCGGACCUCAUAAAGUGCGUCGUAGUCCGGAUUGGAGUCUGCAACUCGACUCCAUGAAGUCGGAAUCGCUAGUAAUCGUGGAUCAGAAUGCCACGGUGAAUACGUUCCCGGGCCUUGUACACACCGCCCGUCACACCAUGGGAGUGGGUUGCAAAAGAAGUAGGUAGCUUAACCUUCGGGAGGGCGCUUACCACUUUGUGAUUCAUGACUGGGGUGAAGUCGUAACAAGGUAACCGUAGGGGAACCUGCGGUUGGAUCA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "AAUUGAAGAGUUUGAUCAUGGCUCAGAUUGAACGCUGGCGGCAGGCCUAACACAUGCAAGUCGAACGGUAACAGGAAGAAGCUUGCUUCUUUGCUGACGAGUGGCGGACGGGUGAGUAAUGUCUGGGAAACUGCCUGAUGGAGGGGGAUAACUACUGGAAACGGUAGCUAAUACCGCAUAACGUCGCAAGACCAAAGAGGGGGACCUUCGGGCCUCUUGCCAUCGGAUGUGCCCAGAUGGGAUUAGCUAGUAGGUGGGGUAACGGCUCACCUAGGCGACGAUCCCUAGCUGGUCUGAGAGGAUGACCAGCCACACUGGAACUGAGACACGGUCCAGACUCCUACGGGAGGCAGCAGUGGGGAAUAUUGCACAAUGGGCGCAAGCCUGAUGCAGCCAUGCCGCGUGUAUGAAGAAGGCCUUCGGGUUGUAAAGUACUUUCAGCGGGGAGGAAGGGAGUAAAGUUAAUACCUUUGCUCAUUGACGUUACCCGCAGAAGAAGCACCGGCUAACUCCGUGCCAGCAGCCGCGGUAAUACGGAGGGUGCAAGCGUUAAUCGGAAUUACUGGGCGUAAAGCGCACGCAGGCGGUUUGUUAAGUCAGAUGUGAAAUCCCCGGGCUCAACCUGGGAACUGCAUCUGAUACUGGCAAGCUUGAGUCUCGUAGAGGGGGGUAGAAUUCCAGGUGUAGCGGUGAAAUGCGUAGAGAUCUGGAGGAAUACCGGUGGCGAAGGCGGCCCCCUGGACGAAGACUGACGCUCAGGUGCGAAAGCGUGGGGAGCAAACAGGAUUAGAUACCCUGGUAGUCCACGCCGUAAACGAUGUCGACUUGGAGGUUGUGCCCUUGAGGCGUGGCUUCCGGAGCUAACGCGUUAAGUCGACCGCCUGGGGAGUACGGCCGCAAGGUUAAAACUCAAAUGAAUUGACGGGGGCCCGCACAAGCGGUGGAGCAUGUGGUUUAAUUCGAUGCAACGCGAAGAACCUUACCUGGUCUUGACAUCCACGGAAGUUUUCAGAGAUGAGAAUGUGCCUUCGGGAACCGUGAGACAGGUGCUGCAUGGCUGUCGUCAGCUCGUGUUGUGAAAUGUUGGGUUAAGUCCCGCAACGAGCGCAACCCUUAUCCUUUGUUGCCAGCGGUCCGGCCGGGAACUCAAAGGAGACUGCCAGUGAUAAACUGGAGGAAGGUGGGGAUGACGUCAAGUCAUCAUGGCCCUUACGACCAGGGCUACACACGUGCUACAAUGGCGCAUACAAAGAGAAGCGACCUCGCGAGAGCAAGCGGACCUCAUAAAGUGCGUCGUAGUCCGGAUUGGAGUCUGCAACUCGACUCCAUGAAGUCGGAAUCGCUAGUAAUCGUGGAUCAGAAUGCCACGGUGAAUACGUUCCCGGGCCUUGUACACACCGCCCGUCACACCAUGGGAGUGGGUUGCAAAAGAAGUAGGUAGCUUAACCUUCGGGAGGGCGCUUACCACUUUGUGAUUCAUGACUGGGGUGAAGUCGUAACAAGGUAACCGUAGGGGAACCUGCGGUUGGAUCA",
+   "source": [],
+   "synonym": "16S ribosomal RNA",
+   "weight": 496892.375
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 2,
+   "gene_name": [
+    "JW0164",
+    "b0169",
+    "rpsB"
+   ],
+   "in_chains": [
+    "AB"
+   ],
+   "in_struct_asyms": [
+    "B"
+   ],
+   "length": 241,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS2"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MATVSMRDMLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAVKDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDALFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVREGRSQDLASQAEESFVEAE",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MATVSMRDMLKAGVHFGHQTRYWNPKMKPFIFGARNKVHIINLEKTVPMFNEALAELNKIASRKGKILFVGTKRAASEAVKDAALSCDQFFVNHRWLGGMLTNWKTVRQSIKRLKDLETQSQDGTFDKLTKKEALMRTRELEKLENSLGGIKDMGGLPDALFVIDADHEHIAIKEANNLGIPVFAIVDTNSDPDGVDFVIPGNDDAIRAVTLYLGAVAATVREGRSQDLASQAEESFVEAE",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 241
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S2",
+   "weight": 26781.67
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 3,
+   "gene_name": [
+    "JW3276",
+    "b3314",
+    "rpsC"
+   ],
+   "in_chains": [
+    "AC"
+   ],
+   "in_struct_asyms": [
+    "C"
+   ],
+   "length": 233,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS3"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MGQKVHPNGIRLGIVKPWNSTWFANTKEFADNLDSDFKVRQYLTKELAKASVSRIVIERPAKSIRVTIHTARPGIVIGKKGEDVEKLRKVVADIAGVPAQINIAEVRKPELDAKLVADSITSQLERRVMFRRAMKRAVQNAMRLGAKGIKVEVSGRLGGAEIARTEWYREGRVPLHTLRADIDYNTSEAHTTYGVIGVKVWIFKGEILGGMAAVEQPEKPAAQPKKQQRKGRK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MGQKVHPNGIRLGIVKPWNSTWFANTKEFADNLDSDFKVRQYLTKELAKASVSRIVIERPAKSIRVTIHTARPGIVIGKKGEDVEKLRKVVADIAGVPAQINIAEVRKPELDAKLVADSITSQLERRVMFRRAMKRAVQNAMRLGAKGIKVEVSGRLGGAEIARTEWYREGRVPLHTLRADIDYNTSEAHTTYGVIGVKVWIFKGEILGGMAAVEQPEKPAAQPKKQQRKGRK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 233
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S3",
+   "weight": 26031.316
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 4,
+   "gene_name": [
+    "JW3258",
+    "b3296",
+    "ramA",
+    "rpsD"
+   ],
+   "in_chains": [
+    "AD"
+   ],
+   "in_struct_asyms": [
+    "D"
+   ],
+   "length": 206,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS4"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MARYLGPKLKLSRREGTDLFLKSGVRAIDTKCKIEQAPGQHGARKPRLSDYGVQLREKQKVRRIYGVLERQFRNYYKEAARLKGNTGENLLALLEGRLDNVVYRMGFGATRAEARQLVSHKAIMVNGRVVNIASYQVSPNDVVSIREKAKKQSRVKAALELAEQREKPTWLEVDAGKMEGTFKRKPERSDLSADINEHLIVELYSK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MARYLGPKLKLSRREGTDLFLKSGVRAIDTKCKIEQAPGQHGARKPRLSDYGVQLREKQKVRRIYGVLERQFRNYYKEAARLKGNTGENLLALLEGRLDNVVYRMGFGATRAEARQLVSHKAIMVNGRVVNIASYQVSPNDVVSIREKAKKQSRVKAALELAEQREKPTWLEVDAGKMEGTFKRKPERSDLSADINEHLIVELYSK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 206
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S4",
+   "weight": 23514.199
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 5,
+   "gene_name": [
+    "JW3265",
+    "b3303",
+    "rpsE",
+    "spc"
+   ],
+   "in_chains": [
+    "AE"
+   ],
+   "in_struct_asyms": [
+    "E"
+   ],
+   "length": 167,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS5"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAHIEKQAGELQEKLIAVNRVSKTVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKARRNMINVALNNGTLQHPVKGVHTGSRVFMQPASEGTGIIAGGAMRAVLEVAGVHNVLAKAYGSTNPINVVRATIDGLENMNSPEMVAAKRGKSVEEILGK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAHIEKQAGELQEKLIAVNRVSKTVKGGRIFSFTALTVVGDGNGRVGFGYGKAREVPAAIQKAMEKARRNMINVALNNGTLQHPVKGVHTGSRVFMQPASEGTGIIAGGAMRAVLEVAGVHNVLAKAYGSTNPINVVRATIDGLENMNSPEMVAAKRGKSVEEILGK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 167
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S5",
+   "weight": 17629.398
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 6,
+   "gene_name": [
+    "JW4158",
+    "b4200",
+    "rpsF"
+   ],
+   "in_chains": [
+    "AF"
+   ],
+   "in_struct_asyms": [
+    "F"
+   ],
+   "length": 131,
+   "molecule_name": [
+    "Small ribosomal subunit protein bS6"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MRHYEIVFMVHPDQSEQVPGMIERYTAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRFNDAVIRSMVMRTKHAVTEASPMVKAKDERRERRDDFANETADDAEAGDSEE",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MRHYEIVFMVHPDQSEQVPGMIERYTAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRFNDAVIRSMVMRTKHAVTEASPMVKAKDERRERRDDFANETADDAEAGDSEE",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 131
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S6 1",
+   "weight": 15211.058
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 7,
+   "gene_name": [
+    "JW3303",
+    "b3341",
+    "rpsG"
+   ],
+   "in_chains": [
+    "AG"
+   ],
+   "in_struct_asyms": [
+    "G"
+   ],
+   "length": 156,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS7"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MPRRRVIGQRKILPDPKFGSELLAKFVNILMVDGKKSTAESIVYSALETLAQRSGKSELEAFEVALENVRPTVEVKSRRVGGSTYQVPVEVRPVRRNALAMRWIVEAARKRGDKSMALRLANELSDAAENKGTAVKKREDVHRMAEANKAFAHYRW",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MPRRRVIGQRKILPDPKFGSELLAKFVNILMVDGKKSTAESIVYSALETLAQRSGKSELEAFEVALENVRPTVEVKSRRVGGSTYQVPVEVRPVRRNALAMRWIVEAARKRGDKSMALRLANELSDAAENKGTAVKKREDVHRMAEANKAFAHYRW",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 156
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S7",
+   "weight": 17637.445
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 8,
+   "gene_name": [
+    "JW3268",
+    "b3306",
+    "rpsH"
+   ],
+   "in_chains": [
+    "AH"
+   ],
+   "in_struct_asyms": [
+    "H"
+   ],
+   "length": 130,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS8"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MSMQDPIADMLTRIRNGQAANKAAVTMPSSKLKVAIANVLKEEGFIEDFKVEGDTKPELELTLKYFQGKAVVESIQRVSRPGLRIYKRKDELPKVMAGLGIAVVSTSKGVMTDRAARQAGLGGEIICYVA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MSMQDPIADMLTRIRNGQAANKAAVTMPSSKLKVAIANVLKEEGFIEDFKVEGDTKPELELTLKYFQGKAVVESIQRVSRPGLRIYKRKDELPKVMAGLGIAVVSTSKGVMTDRAARQAGLGGEIICYVA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 130
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S8",
+   "weight": 14146.557
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 9,
+   "gene_name": [
+    "JW3199",
+    "b3230",
+    "rpsI"
+   ],
+   "in_chains": [
+    "AI"
+   ],
+   "in_struct_asyms": [
+    "I"
+   ],
+   "length": 130,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS9"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAENQYYGTGRRKSSAARVFIKPGNGKIVINQRSLEQYFGRETARMVVRQPLELVDMVEKLDLYITVKGGGISGQAGAIRHGITRALMEYDESLRSELRKAGFVTRDARQVERKKVGLRKARRRPQFSKR",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAENQYYGTGRRKSSAARVFIKPGNGKIVINQRSLEQYFGRETARMVVRQPLELVDMVEKLDLYITVKGGGISGQAGAIRHGITRALMEYDESLRSELRKAGFVTRDARQVERKKVGLRKARRRPQFSKR",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 130
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S9",
+   "weight": 14886.27
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 10,
+   "gene_name": [
+    "JW3283",
+    "b3321",
+    "nusE",
+    "rpsJ"
+   ],
+   "in_chains": [
+    "AJ"
+   ],
+   "in_struct_asyms": [
+    "J"
+   ],
+   "length": 103,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS10"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MQNQRIRIRLKAFDHRLIDQATAEIVETAKRTGAQVRGPIPLPTRKERFTVLISPHVNKDARDQYEIRTHLRLVDIVEPTEKTVDALMRLDLAAGVDVQISLG",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MQNQRIRIRLKAFDHRLIDQATAEIVETAKRTGAQVRGPIPLPTRKERFTVLISPHVNKDARDQYEIRTHLRLVDIVEPTEKTVDALMRLDLAAGVDVQISLG",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 103
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S10",
+   "weight": 11755.597
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 11,
+   "gene_name": [
+    "JW3259",
+    "b3297",
+    "rpsK"
+   ],
+   "in_chains": [
+    "AK"
+   ],
+   "in_struct_asyms": [
+    "K"
+   ],
+   "length": 129,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS11"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAKAPIRARKRVRKQVSDGVAHIHASFNNTIVTITDRQGNALGWATAGGSGFRGSRKSTPFAAQVAAERCADAVKEYGIKNLEVMVKGPGPGRESTIRALNAAGFRITNITDVTPIPHNGCRPPKKRRV",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAKAPIRARKRVRKQVSDGVAHIHASFNNTIVTITDRQGNALGWATAGGSGFRGSRKSTPFAAQVAAERCADAVKEYGIKNLEVMVKGPGPGRESTIRALNAAGFRITNITDVTPIPHNGCRPPKKRRV",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 129
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S11",
+   "weight": 13870.975
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 12,
+   "gene_name": [
+    "JW3304",
+    "b3342",
+    "rpsL",
+    "strA"
+   ],
+   "in_chains": [
+    "AL"
+   ],
+   "in_struct_asyms": [
+    "L"
+   ],
+   "length": 124,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS12"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MATVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVILIRGGRVKDLPGVRYHTVRGALDCSGVKDRKQARSKYGVKRPKA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MATVNQLVRKPRARKVAKSNVPALEACPQKRGVCTRVYTTTPKKPNSALRKVCRVRLTNGFEVTSYIGGEGHNLQEHSVILIRGGRVKDLPGVRYHTVRGALDCSGVKDRKQARSKYGVKRPKA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 124
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S12 1",
+   "weight": 13768.157
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 13,
+   "gene_name": [
+    "JW3260",
+    "b3298",
+    "rpsM"
+   ],
+   "in_chains": [
+    "AM"
+   ],
+   "in_struct_asyms": [
+    "M"
+   ],
+   "length": 118,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS13"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MARIAGINIPDHKHAVIALTSIYGVGKTRSKAILAAAGIAEDVKISELSEGQIDTLRDEVAKFVVEGDLRREISMSIKRLMDLGCYRGLRHRRGLPVRGQRTKTNARTRKGPRKPIKK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MARIAGINIPDHKHAVIALTSIYGVGKTRSKAILAAAGIAEDVKISELSEGQIDTLRDEVAKFVVEGDLRREISMSIKRLMDLGCYRGLRHRRGLPVRGQRTKTNARTRKGPRKPIKK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 118
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S13",
+   "weight": 13128.467
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 14,
+   "gene_name": [
+    "JW3269",
+    "b3307",
+    "rpsN"
+   ],
+   "in_chains": [
+    "AN"
+   ],
+   "in_struct_asyms": [
+    "N"
+   ],
+   "length": 101,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS14"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAKQSMKAREVKRVALADKYFAKRAELKAIISDVNASDEDRWNAVLKLQTLPRDSSPSRQRNRCRQTGRPHGFLRKFGLSRIKVREAAMRGEIPGLKKASW",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAKQSMKAREVKRVALADKYFAKRAELKAIISDVNASDEDRWNAVLKLQTLPRDSSPSRQRNRCRQTGRPHGFLRKFGLSRIKVREAAMRGEIPGLKKASW",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 101
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S14",
+   "weight": 11606.56
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 15,
+   "gene_name": [
+    "JW3134",
+    "b3165",
+    "rpsO",
+    "secC"
+   ],
+   "in_chains": [
+    "AO"
+   ],
+   "in_struct_asyms": [
+    "O"
+   ],
+   "length": 89,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS15"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MSLSTEATAKIVSEFGRDANDTGSTEVQVALLTAQINHLQGHFAEHKKDHHSRRGLLRMVSQRRKLLDYLKRKDVARYTQLIERLGLRR",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MSLSTEATAKIVSEFGRDANDTGSTEVQVALLTAQINHLQGHFAEHKKDHHSRRGLLRMVSQRRKLLDYLKRKDVARYTQLIERLGLRR",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 89
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S15 1",
+   "weight": 10290.816
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 16,
+   "gene_name": [
+    "JW2590",
+    "b2609",
+    "rpsP"
+   ],
+   "in_chains": [
+    "AP"
+   ],
+   "in_struct_asyms": [
+    "P"
+   ],
+   "length": 82,
+   "molecule_name": [
+    "Small ribosomal subunit protein bS16"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MVTIRLARHGAKKRPFYQVVVADSRNARNGRFIERVGFFNPIASEKEEGTRLDLDRIAHWVGQGATISDRVAALIKEVNKAA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MVTIRLARHGAKKRPFYQVVVADSRNARNGRFIERVGFFNPIASEKEEGTRLDLDRIAHWVGQGATISDRVAALIKEVNKAA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 82
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S16",
+   "weight": 9207.572
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 17,
+   "gene_name": [
+    "JW3273",
+    "b3311",
+    "neaA",
+    "rpsQ"
+   ],
+   "in_chains": [
+    "AQ"
+   ],
+   "in_struct_asyms": [
+    "Q"
+   ],
+   "length": 84,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS17"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MTDKIRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIRECRPLSKTKSWTLVRVVEKAVL",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MTDKIRTLQGRVVSDKMEKSIVVAIERFVKHPIYGKFIKRTTKLHVHDENNECGIGDVVEIRECRPLSKTKSWTLVRVVEKAVL",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 84
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S17",
+   "weight": 9724.491
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 18,
+   "gene_name": [
+    "JW4160",
+    "b4202",
+    "rpsR"
+   ],
+   "in_chains": [
+    "AR"
+   ],
+   "in_struct_asyms": [
+    "R"
+   ],
+   "length": 75,
+   "molecule_name": [
+    "Small ribosomal subunit protein bS18"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MARYFRRRKFCRFTAEGVQEIDYKDIATLKNYITESGKIVPSRITGTRAKYQRQLARAIKRARYLSLLPYTDRHQ",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MARYFRRRKFCRFTAEGVQEIDYKDIATLKNYITESGKIVPSRITGTRAKYQRQLARAIKRARYLSLLPYTDRHQ",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 75
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S18",
+   "weight": 9005.472
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 19,
+   "gene_name": [
+    "JW3278",
+    "b3316",
+    "rpsS"
+   ],
+   "in_chains": [
+    "AS"
+   ],
+   "in_struct_asyms": [
+    "S"
+   ],
+   "length": 92,
+   "molecule_name": [
+    "Small ribosomal subunit protein uS19"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MPRSLKKGPFIDLHLLKKVEKAVESGDKKPLRTWSRRSTIFPNMIGLTIAVHNGRQHVPVFVTDEMVGHKLGEFAPTRTYRGHAADKKAKKK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MPRSLKKGPFIDLHLLKKVEKAVESGDKKPLRTWSRRSTIFPNMIGLTIAVHNGRQHVPVFVTDEMVGHKLGEFAPTRTYRGHAADKKAKKK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 92
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S19",
+   "weight": 10455.355
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 20,
+   "gene_name": [
+    "JW0022",
+    "b0023",
+    "rpsT"
+   ],
+   "in_chains": [
+    "AT"
+   ],
+   "in_struct_asyms": [
+    "T"
+   ],
+   "length": 87,
+   "molecule_name": [
+    "Small ribosomal subunit protein bS20"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MANIKSAKKRAIQSEKARKHNASRRSMMRTFIKKVYAAIEAGDKAAAQKAFNEMQPIVDRQAAKGLIHKNKAARHKANLTAQINKLA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MANIKSAKKRAIQSEKARKHNASRRSMMRTFIKKVYAAIEAGDKAAAQKAFNEMQPIVDRQAAKGLIHKNKAARHKANLTAQINKLA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 87
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S20",
+   "weight": 9708.464
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 21,
+   "gene_name": [
+    "JW3037",
+    "b3065",
+    "rpsU"
+   ],
+   "in_chains": [
+    "AU"
+   ],
+   "in_struct_asyms": [
+    "U"
+   ],
+   "length": 71,
+   "molecule_name": [
+    "Small ribosomal subunit protein bS21"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MPVIKVRENEPFDVALRRFKRSCEKAGVLAEVRRREFYEKPTTERKRAKASAVKRHAKKLARENARRTRLY",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MPVIKVRENEPFDVALRRFKRSCEKAGVLAEVRRREFYEKPTTERKRAKASAVKRHAKKLARENARRTRLY",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 71
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "30S ribosomal protein S21",
+   "weight": 8524.039
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 22,
+   "gene_name": null,
+   "in_chains": [
+    "AV"
+   ],
+   "in_struct_asyms": [
+    "V"
+   ],
+   "length": 27,
+   "molecule_name": [
+    "Messenger RNA"
+   ],
+   "molecule_type": "polyribonucleotide",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "GGCAAGGAGGUAAAAAUGUAAAAAAAA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Synthetically obtained",
+   "sequence": "GGCAAGGAGGUAAAAAUGUAAAAAAAA",
+   "source": [],
+   "synonym": "Messenger RNA",
+   "weight": 8862.456
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 23,
+   "gene_name": [
+    "JW5873",
+    "b4375",
+    "miaD",
+    "prfC",
+    "tos"
+   ],
+   "in_chains": [
+    "AW"
+   ],
+   "in_struct_asyms": [
+    "W"
+   ],
+   "length": 529,
+   "molecule_name": [
+    "Peptide chain release factor RF3"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MTLSPYLQEVAKRRTFAIISHPDAGKTTITEKVLLFGQAIQTAGTVKGRGSNQHAKSDWMEMEKQRGISITTSVMQFPYHDCLVNLLDTPGHEDFSEDTYRTLTAVDCCLMVIDAAKGVEDRTRKLMEVTRLRDTPILTFMNKLDRDIRDPMELLDEVENELKIGCAPITWPIGCGKLFKGVYHLYKDETYLYQSGKGHTIQEVRIVKGLNNPDLDAAVGEDLAQQLRDELELVKGASNEFDKELFLAGEITPVFFGTALGNFGVDHMLDGLVEWAPAPMPRQTDTRTVEASEDKFTGFVFKIQANMDPKHRDRVAFMRVVSGKYEKGMKLRQVRTAKDVVISDALTFMAGDRSHVEEAYPGDILGLHNHGTIQIGDTFTQGEMMKFTGIPNFAPELFRRIRLKDPLKQKQLLKGLVQLSEEGAVQVFRPISNNDLIVGAVGVLQFDVVVARLKSEYNVEAVYESVNVATARWVECADAKKFEEFKRKNESQLALDGGDNLAYIATSMVNLRLAQERYPDVQFHQTREH",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Genetically manipulated",
+   "sequence": "MTLSPYLQEVAKRRTFAIISHPDAGKTTITEKVLLFGQAIQTAGTVKGRGSNQHAKSDWMEMEKQRGISITTSVMQFPYHDCLVNLLDTPGHEDFSEDTYRTLTAVDCCLMVIDAAKGVEDRTRKLMEVTRLRDTPILTFMNKLDRDIRDPMELLDEVENELKIGCAPITWPIGCGKLFKGVYHLYKDETYLYQSGKGHTIQEVRIVKGLNNPDLDAAVGEDLAQQLRDELELVKGASNEFDKELFLAGEITPVFFGTALGNFGVDHMLDGLVEWAPAPMPRQTDTRTVEASEDKFTGFVFKIQANMDPKHRDRVAFMRVVSGKYEKGMKLRQVRTAKDVVISDALTFMAGDRSHVEEAYPGDILGLHNHGTIQIGDTFTQGEMMKFTGIPNFAPELFRRIRLKDPLKQKQLLKGLVQLSEEGAVQVFRPISNNDLIVGAVGVLQFDVVVARLKSEYNVEAVYESVNVATARWVECADAKKFEEFKRKNESQLALDGGDNLAYIATSMVNLRLAQERYPDVQFHQTREH",
+   "source": [
+    {
+     "expression_host_scientific_name": "Escherichia coli BL21(DE3)",
+     "expression_host_tax_id": 469008,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 529
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "Peptide chain release factor 3",
+   "weight": 59651.934
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 24,
+   "gene_name": null,
+   "in_chains": [
+    "AY"
+   ],
+   "in_struct_asyms": [
+    "X"
+   ],
+   "length": 6,
+   "molecule_name": [
+    "Viomycin"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "(KBE)(DPP)SS(UAL)(5OH)",
+   "pdb_sequence_indices_with_multiple_residues": {
+    "1": {
+     "one_letter_code": "K",
+     "parent_chem_comp_ids": [
+      "LYS"
+     ],
+     "three_letter_code": "KBE"
+    },
+    "2": {
+     "one_letter_code": "A",
+     "parent_chem_comp_ids": [
+      "ALA"
+     ],
+     "three_letter_code": "DPP"
+    },
+    "5": {
+     "one_letter_code": "X",
+     "parent_chem_comp_ids": [],
+     "three_letter_code": "UAL"
+    },
+    "6": {
+     "one_letter_code": "A",
+     "parent_chem_comp_ids": [
+      "ALA"
+     ],
+     "three_letter_code": "5OH"
+    }
+   },
+   "sample_preparation": "Synthetically obtained",
+   "sequence": "KASSXA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 6
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Streptomyces",
+     "strain": null,
+     "tax_id": 1883
+    }
+   ],
+   "synonym": "Viomycin",
+   "weight": 703.707
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 25,
+   "gene_name": [
+    "JW3152",
+    "b3185",
+    "rpmA"
+   ],
+   "in_chains": [
+    "B0"
+   ],
+   "in_struct_asyms": [
+    "Y"
+   ],
+   "length": 85,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL27"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAHKKAGGSTRNGRDSEAKRLGVKRFGGESVLAGSIIVRQRGTKFHAGANVGCGRDHTLFAKADGKVKFEVKGPKNRKFISIEAE",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAHKKAGGSTRNGRDSEAKRLGVKRFGGESVLAGSIIVRQRGTKFHAGANVGCGRDHTLFAKADGKVKFEVKGPKNRKFISIEAE",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 85
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L27",
+   "weight": 9146.54
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 26,
+   "gene_name": [
+    "JW3612",
+    "b3637",
+    "rpmB"
+   ],
+   "in_chains": [
+    "B1"
+   ],
+   "in_struct_asyms": [
+    "Z"
+   ],
+   "length": 78,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL28"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MSRVCQVTGKRPVTGNNRSHALNATKRRFLPNLHSHRFWVESEKRFVTLRVSAKGMRVIDKKGIDTVLAELRARGEKY",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MSRVCQVTGKRPVTGNNRSHALNATKRRFLPNLHSHRFWVESEKRFVTLRVSAKGMRVIDKKGIDTVLAELRARGEKY",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 78
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L28",
+   "weight": 9027.551
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 27,
+   "gene_name": [
+    "JW3274",
+    "b3312",
+    "rpmC"
+   ],
+   "in_chains": [
+    "B2"
+   ],
+   "in_struct_asyms": [
+    "AA"
+   ],
+   "length": 63,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL29"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MKAKELREKSVEELNTELLNLLREQFNLRMQAASGQLQQSHLLKQVRRDVARVKTLLNEKAGA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MKAKELREKSVEELNTELLNLLREQFNLRMQAASGQLQQSHLLKQVRRDVARVKTLLNEKAGA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 63
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L29",
+   "weight": 7286.464
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 28,
+   "gene_name": [
+    "JW3264",
+    "b3302",
+    "rpmD"
+   ],
+   "in_chains": [
+    "B3"
+   ],
+   "in_struct_asyms": [
+    "BA"
+   ],
+   "length": 59,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL30"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAKTIKITQTRSAIGRLPKHKATLLGLGLRRIGHTVEREDTPAIRGMINAVSFMVKVEE",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAKTIKITQTRSAIGRLPKHKATLLGLGLRRIGHTVEREDTPAIRGMINAVSFMVKVEE",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 59
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L30",
+   "weight": 6554.82
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 29,
+   "gene_name": [
+    "JW1075",
+    "b1089",
+    "rpmF"
+   ],
+   "in_chains": [
+    "B4"
+   ],
+   "in_struct_asyms": [
+    "CA"
+   ],
+   "length": 57,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL32"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAVQQNKPTRSKRGMRRSHDALTAVTSLSVDKTSGEKHLRHHITADGYYRGRKVIAK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAVQQNKPTRSKRGMRRSHDALTAVTSLSVDKTSGEKHLRHHITADGYYRGRKVIAK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 57
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L32",
+   "weight": 6463.445
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 30,
+   "gene_name": [
+    "JW3611",
+    "b3636",
+    "rpmG"
+   ],
+   "in_chains": [
+    "B5"
+   ],
+   "in_struct_asyms": [
+    "DA"
+   ],
+   "length": 55,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL33"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAKGIREKIKLVSSAGTGHFYTTTKNKRTKPEKLELKKFDPVVRQHVIYKEAKIK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAKGIREKIKLVSSAGTGHFYTTTKNKRTKPEKLELKKFDPVVRQHVIYKEAKIK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 55
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L33",
+   "weight": 6388.631
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 31,
+   "gene_name": [
+    "JW3680",
+    "b3703",
+    "rimA",
+    "rpmH",
+    "ssaF"
+   ],
+   "in_chains": [
+    "B6"
+   ],
+   "in_struct_asyms": [
+    "EA"
+   ],
+   "length": 46,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL34"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MKRTFQPSVLKRNRSHGFRARMATKNGRQVLARRRAKGRARLTVSK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MKRTFQPSVLKRNRSHGFRARMATKNGRQVLARRRAKGRARLTVSK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 46
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L34",
+   "weight": 5397.463
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 32,
+   "gene_name": [
+    "JW1707",
+    "b1717",
+    "rpmI"
+   ],
+   "in_chains": [
+    "B7"
+   ],
+   "in_struct_asyms": [
+    "FA"
+   ],
+   "length": 65,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL35"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MPKIKTVRGAAKRFKKTGKGGFKHKHANLRHILTKKATKRKRHLRPKAMVSKGDLGLVIACLPYA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MPKIKTVRGAAKRFKKTGKGGFKHKHANLRHILTKKATKRKRHLRPKAMVSKGDLGLVIACLPYA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 65
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L35",
+   "weight": 7313.032
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 33,
+   "gene_name": [
+    "JW3261",
+    "b3299",
+    "rpmJ1"
+   ],
+   "in_chains": [
+    "B8"
+   ],
+   "in_struct_asyms": [
+    "GA"
+   ],
+   "length": 38,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL36A"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MKVRASVKKLCRNCKIVKRDGVIRVICSAEPKHKQRQG",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MKVRASVKKLCRNCKIVKRDGVIRVICSAEPKHKQRQG",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 38
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L36 1",
+   "weight": 4377.39
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 34,
+   "gene_name": null,
+   "in_chains": [
+    "BA"
+   ],
+   "in_struct_asyms": [
+    "HA"
+   ],
+   "length": 2903,
+   "molecule_name": [
+    "23S ribosomal RNA"
+   ],
+   "molecule_type": "polyribonucleotide",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "GGUUAAGCGACUAAGCGUACACGGUGGAUGCCCUGGCAGUCAGAGGCGAUGAAGGACGUGCUAAUCUGCGAUAAGCGUCGGUAAGGUGAUAUGAACCGUUAUAACCGGCGAUUUCCGAAUGGGGAAACCCAGUGUGUUUCGACACACUAUCAUUAACUGAAUCCAUAGGUUAAUGAGGCGAACCGGGGGAACUGAAACAUCUAAGUACCCCGAGGAAAAGAAAUCAACCGAGAUUCCCCCAGUAGCGGCGAGCGAACGGGGAGCAGCCCAGAGCCUGAAUCAGUGUGUGUGUUAGUGGAAGCGUCUGGAAAGGCGCGCGAUACAGGGUGACAGCCCCGUACACAAAAAUGCACAUGCUGUGAGCUCGAUGAGUAGGGCGGGACACGUGGUAUCCUGUCUGAAUAUGGGGGGACCAUCCUCCAAGGCUAAAUACUCCUGACUGACCGAUAGUGAACCAGUACCGUGAGGGAAAGGCGAAAAGAACCCCGGCGAGGGGAGUGAAAAAGAACCUGAAACCGUGUACGUACAAGCAGUGGGAGCACGCUUAGGCGUGUGACUGCGUACCUUUUGUAUAAUGGGUCAGCGACUUAUAUUCUGUAGCAAGGUUAACCGAAUAGGGGAGCCGAAGGGAAACCGAGUCUUAACUGGGCGUUAAGUUGCAGGGUAUAGACCCGAAACCCGGUGAUCUAGCCAUGGGCAGGUUGAAGGUUGGGUAACACUAACUGGAGGACCGAACCGACUAAUGUUGAAAAAUUAGCGGAUGACUUGUGGCUGGGGGUGAAAGGCCAAUCAAACCGGGAGAUAGCUGGUUCUCCCCGAAAGCUAUUUAGGUAGCGCCUCGUGAAUUCAUCUCCGGGGGUAGAGCACUGUUUCGGCAAGGGGGUCAUCCCGACUUACCAACCCGAUGCAAACUGCGAAUACCGGAGAAUGUUAUCACGGGAGACACACGGCGGGUGCUAACGUCCGUCGUGAAGAGGGAAACAACCCAGACCGCCAGCUAAGGUCCCAAAGUCAUGGUUAAGUGGGAAACGAUGUGGGAAGGCCCAGACAGCCAGGAUGUUGGCUUAGAAGCAGCCAUCAUUUAAAGAAAGCGUAAUAGCUCACUGGUCGAGUCGGCCUGCGCGGAAGAUGUAACGGGGCUAAACCAUGCACCGAAGCUGCGGCAGCGACGCUUAUGCGUUGUUGGGUAGGGGAGCGUUCUGUAAGCCUGCGAAGGUGUGCUGUGAGGCAUGCUGGAGGUAUCAGAAGUGCGAAUGCUGACAUAAGUAACGAUAAAGCGGGUGAAAAGCCCGCUCGCCGGAAGACCAAGGGUUCCUGUCCAACGUUAAUCGGGGCAGGGUGAGUCGACCCCUAAGGCGAGGCCGAAAGGCGUAGUCGAUGGGAAACAGGUUAAUAUUCCUGUACUUGGUGUUACUGCGAAGGGGGGACGGAGAAGGCUAUGUUGGCCGGGCGACGGUUGUCCCGGUUUAAGCGUGUAGGCUGGUUUUCCAGGCAAAUCCGGAAAAUCAAGGCUGAGGCGUGAUGACGAGGCACUACGGUGCUGAAGCAACAAAUGCCCUGCUUCCAGGAAAAGCCUCUAAGCAUCAGGUAACAUCAAAUCGUACCCCAAACCGACACAGGUGGUCAGGUAGAGAAUACCAAGGCGCUUGAGAGAACUCGGGUGAAGGAACUAGGCAAAAUGGUGCCGUAACUUCGGGAGAAGGCACGCUGAUAUGUAGGUGAGGUCCCUCGCGGAUGGAGCUGAAAUCAGUCGAAGAUACCAGCUGGCUGCAACUGUUUAUUAAAAACACAGCACUGUGCAAACACGAAAGUGGACGUAUACGGUGUGACGCCUGCCCGGUGCCGGAAGGUUAAUUGAUGGGGUUAGCGCAAGCGAAGCUCUUGAUCGAAGCCCCGGUAAACGGCGGCCGUAACUAUAACGGUCCUAAGGUAGCGAAAUUCCUUGUCGGGUAAGUUCCGACCUGCACGAAUGGCGUAAUGAUGGCCAGGCUGUCUCCACCCGAGACUCAGUGAAAUUGAACUCGCUGUGAAGAUGCAGUGUACCCGCGGCAAGACGGAAAGACCCCGUGAACCUUUACUAUAGCUUGACACUGAACAUUGAGCCUUGAUGUGUAGGAUAGGUGGGAGGCUUUGAAGUGUGGACGCCAGUCUGCAUGGAGCCGACCUUGAAAUACCACCCUUUAAUGUUUGAUGUUCUAACGUUGACCCGUAAUCCGGGUUGCGGACAGUGUCUGGUGGGUAGUUUGACUGGGGCGGUCUCCUCCUAAAGAGUAACGGAGGAGCACGAAGGUUGGCUAAUCCUGGUCGGACAUCAGGAGGUUAGUGCAAUGGCAUAAGCCAGCUUGACUGCGAGCGUGACGGCGCGAGCAGGUGCGAAAGCAGGUCAUAGUGAUCCGGUGGUUCUGAAUGGAAGGGCCAUCGCUCAACGGAUAAAAGGUACUCCGGGGAUAACAGGCUGAUACCGCCCAAGAGUUCAUAUCGACGGCGGUGUUUGGCACCUCGAUGUCGGCUCAUCACAUCCUGGGGCUGAAGUAGGUCCCAAGGGUAUGGCUGUUCGCCAUUUAAAGUGGUACGCGAGCUGGGUUUAGAACGUCGUGAGACAGUUCGGUCCCUAUCUGCCGUGGGCGCUGGAGAACUGAGGGGGGCUGCUCCUAGUACGAGAGGACCGGAGUGGACGCAUCACUGGUGUUCGGGUUGUCAUGCCAAUGGCACUGCCCGGUAGCUAAAUGCGGAAGAGAUAAGUGCUGAAAGCAUCUAAGCACGAAACUUGCCCCGAGAUGAGUUCUCCCUGACCCUUUAAGGGUCCUGAAGGAACGUUGAAGACGACGACGUUGAUAGGCCGGGUGUGUAAGCGCAGCGAUGCGUUGAGCUAACCGGUACUAAUGAACCGUGAGGCUUAACCU",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "GGUUAAGCGACUAAGCGUACACGGUGGAUGCCCUGGCAGUCAGAGGCGAUGAAGGACGUGCUAAUCUGCGAUAAGCGUCGGUAAGGUGAUAUGAACCGUUAUAACCGGCGAUUUCCGAAUGGGGAAACCCAGUGUGUUUCGACACACUAUCAUUAACUGAAUCCAUAGGUUAAUGAGGCGAACCGGGGGAACUGAAACAUCUAAGUACCCCGAGGAAAAGAAAUCAACCGAGAUUCCCCCAGUAGCGGCGAGCGAACGGGGAGCAGCCCAGAGCCUGAAUCAGUGUGUGUGUUAGUGGAAGCGUCUGGAAAGGCGCGCGAUACAGGGUGACAGCCCCGUACACAAAAAUGCACAUGCUGUGAGCUCGAUGAGUAGGGCGGGACACGUGGUAUCCUGUCUGAAUAUGGGGGGACCAUCCUCCAAGGCUAAAUACUCCUGACUGACCGAUAGUGAACCAGUACCGUGAGGGAAAGGCGAAAAGAACCCCGGCGAGGGGAGUGAAAAAGAACCUGAAACCGUGUACGUACAAGCAGUGGGAGCACGCUUAGGCGUGUGACUGCGUACCUUUUGUAUAAUGGGUCAGCGACUUAUAUUCUGUAGCAAGGUUAACCGAAUAGGGGAGCCGAAGGGAAACCGAGUCUUAACUGGGCGUUAAGUUGCAGGGUAUAGACCCGAAACCCGGUGAUCUAGCCAUGGGCAGGUUGAAGGUUGGGUAACACUAACUGGAGGACCGAACCGACUAAUGUUGAAAAAUUAGCGGAUGACUUGUGGCUGGGGGUGAAAGGCCAAUCAAACCGGGAGAUAGCUGGUUCUCCCCGAAAGCUAUUUAGGUAGCGCCUCGUGAAUUCAUCUCCGGGGGUAGAGCACUGUUUCGGCAAGGGGGUCAUCCCGACUUACCAACCCGAUGCAAACUGCGAAUACCGGAGAAUGUUAUCACGGGAGACACACGGCGGGUGCUAACGUCCGUCGUGAAGAGGGAAACAACCCAGACCGCCAGCUAAGGUCCCAAAGUCAUGGUUAAGUGGGAAACGAUGUGGGAAGGCCCAGACAGCCAGGAUGUUGGCUUAGAAGCAGCCAUCAUUUAAAGAAAGCGUAAUAGCUCACUGGUCGAGUCGGCCUGCGCGGAAGAUGUAACGGGGCUAAACCAUGCACCGAAGCUGCGGCAGCGACGCUUAUGCGUUGUUGGGUAGGGGAGCGUUCUGUAAGCCUGCGAAGGUGUGCUGUGAGGCAUGCUGGAGGUAUCAGAAGUGCGAAUGCUGACAUAAGUAACGAUAAAGCGGGUGAAAAGCCCGCUCGCCGGAAGACCAAGGGUUCCUGUCCAACGUUAAUCGGGGCAGGGUGAGUCGACCCCUAAGGCGAGGCCGAAAGGCGUAGUCGAUGGGAAACAGGUUAAUAUUCCUGUACUUGGUGUUACUGCGAAGGGGGGACGGAGAAGGCUAUGUUGGCCGGGCGACGGUUGUCCCGGUUUAAGCGUGUAGGCUGGUUUUCCAGGCAAAUCCGGAAAAUCAAGGCUGAGGCGUGAUGACGAGGCACUACGGUGCUGAAGCAACAAAUGCCCUGCUUCCAGGAAAAGCCUCUAAGCAUCAGGUAACAUCAAAUCGUACCCCAAACCGACACAGGUGGUCAGGUAGAGAAUACCAAGGCGCUUGAGAGAACUCGGGUGAAGGAACUAGGCAAAAUGGUGCCGUAACUUCGGGAGAAGGCACGCUGAUAUGUAGGUGAGGUCCCUCGCGGAUGGAGCUGAAAUCAGUCGAAGAUACCAGCUGGCUGCAACUGUUUAUUAAAAACACAGCACUGUGCAAACACGAAAGUGGACGUAUACGGUGUGACGCCUGCCCGGUGCCGGAAGGUUAAUUGAUGGGGUUAGCGCAAGCGAAGCUCUUGAUCGAAGCCCCGGUAAACGGCGGCCGUAACUAUAACGGUCCUAAGGUAGCGAAAUUCCUUGUCGGGUAAGUUCCGACCUGCACGAAUGGCGUAAUGAUGGCCAGGCUGUCUCCACCCGAGACUCAGUGAAAUUGAACUCGCUGUGAAGAUGCAGUGUACCCGCGGCAAGACGGAAAGACCCCGUGAACCUUUACUAUAGCUUGACACUGAACAUUGAGCCUUGAUGUGUAGGAUAGGUGGGAGGCUUUGAAGUGUGGACGCCAGUCUGCAUGGAGCCGACCUUGAAAUACCACCCUUUAAUGUUUGAUGUUCUAACGUUGACCCGUAAUCCGGGUUGCGGACAGUGUCUGGUGGGUAGUUUGACUGGGGCGGUCUCCUCCUAAAGAGUAACGGAGGAGCACGAAGGUUGGCUAAUCCUGGUCGGACAUCAGGAGGUUAGUGCAAUGGCAUAAGCCAGCUUGACUGCGAGCGUGACGGCGCGAGCAGGUGCGAAAGCAGGUCAUAGUGAUCCGGUGGUUCUGAAUGGAAGGGCCAUCGCUCAACGGAUAAAAGGUACUCCGGGGAUAACAGGCUGAUACCGCCCAAGAGUUCAUAUCGACGGCGGUGUUUGGCACCUCGAUGUCGGCUCAUCACAUCCUGGGGCUGAAGUAGGUCCCAAGGGUAUGGCUGUUCGCCAUUUAAAGUGGUACGCGAGCUGGGUUUAGAACGUCGUGAGACAGUUCGGUCCCUAUCUGCCGUGGGCGCUGGAGAACUGAGGGGGGCUGCUCCUAGUACGAGAGGACCGGAGUGGACGCAUCACUGGUGUUCGGGUUGUCAUGCCAAUGGCACUGCCCGGUAGCUAAAUGCGGAAGAGAUAAGUGCUGAAAGCAUCUAAGCACGAAACUUGCCCCGAGAUGAGUUCUCCCUGACCCUUUAAGGGUCCUGAAGGAACGUUGAAGACGACGACGUUGAUAGGCCGGGUGUGUAAGCGCAGCGAUGCGUUGAGCUAACCGGUACUAAUGAACCGUGAGGCUUAACCU",
+   "source": [],
+   "synonym": "23S ribosomal RNA",
+   "weight": 941306.188
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 35,
+   "gene_name": null,
+   "in_chains": [
+    "BB"
+   ],
+   "in_struct_asyms": [
+    "IA"
+   ],
+   "length": 118,
+   "molecule_name": [
+    "5S ribosomal RNA"
+   ],
+   "molecule_type": "polyribonucleotide",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "GCCUGGCGGCCGUAGCGCGGUGGUCCCACCUGACCCCAUGCCGAACUCAGAAGUGAAACGCCGUAGCGCCGAUGGUAGUGUGGGGUCUCCCCAUGCGAGAGUAGGGAACUGCCAGGCA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "GCCUGGCGGCCGUAGCGCGGUGGUCCCACCUGACCCCAUGCCGAACUCAGAAGUGAAACGCCGUAGCGCCGAUGGUAGUGUGGGGUCUCCCCAUGCGAGAGUAGGGAACUGCCAGGCA",
+   "source": [],
+   "synonym": "5S ribosomal RNA",
+   "weight": 38177.762
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 36,
+   "gene_name": [
+    "JW3279",
+    "b3317",
+    "rplB"
+   ],
+   "in_chains": [
+    "BC"
+   ],
+   "in_struct_asyms": [
+    "JA"
+   ],
+   "length": 273,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL2"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAVVKCKPTSPGRRHVVKVVNPELHKGKPFAPLLEKNSKSGGRNNNGRITTRHIGGGHKQAYRIVDFKRNKDGIPAVVERLEYDPNRSANIALVLYKDGERRYILAPKGLKAGDQIQSGVDAAIKPGNTLPMRNIPVGSTVHNVEMKPGKGGQLARSAGTYVQIVARDGAYVTLRLRSGEMRKVEADCRATLGEVGNAEHMLRVLGKAGAARWRGVRPTVRGTAMNPVDHPHGGGEGRNFGKHPVTPWGVQTKGKKTRSNKRTDKFIVRRRSK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAVVKCKPTSPGRRHVVKVVNPELHKGKPFAPLLEKNSKSGGRNNNGRITTRHIGGGHKQAYRIVDFKRNKDGIPAVVERLEYDPNRSANIALVLYKDGERRYILAPKGLKAGDQIQSGVDAAIKPGNTLPMRNIPVGSTVHNVEMKPGKGGQLARSAGTYVQIVARDGAYVTLRLRSGEMRKVEADCRATLGEVGNAEHMLRVLGKAGAARWRGVRPTVRGTAMNPVDHPHGGGEGRNFGKHPVTPWGVQTKGKKTRSNKRTDKFIVRRRSK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 273
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L2",
+   "weight": 29923.619
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 37,
+   "gene_name": [
+    "JW3282",
+    "b3320",
+    "rplC"
+   ],
+   "in_chains": [
+    "BD"
+   ],
+   "in_struct_asyms": [
+    "KA"
+   ],
+   "length": 209,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL3"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MIGLVGKKVGMTRIFTEDGVSIPVTVIEVEANRVTQVKDLANDGYRAIQVTTGAKKANRVTKPEAGHFAKAGVEAGRGLWEFRLAEGEEFTVGQSISVELFADVKKVDVTGTSKGKGFAGTVKRWNFRTQDATHGNSLSHRVPGSIGQNQTPGKVFKGKKMAGQMGNERVTVQSLDVVRVDAERNLLLVKGAVPGATGSDLIVKPAVKA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MIGLVGKKVGMTRIFTEDGVSIPVTVIEVEANRVTQVKDLANDGYRAIQVTTGAKKANRVTKPEAGHFAKAGVEAGRGLWEFRLAEGEEFTVGQSISVELFADVKKVDVTGTSKGKGFAGTVKRWNFRTQDATHGNSLSHRVPGSIGQNQTPGKVFKGKKMAGQMGNERVTVQSLDVVRVDAERNLLLVKGAVPGATGSDLIVKPAVKA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 209
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L3",
+   "weight": 22277.535
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 38,
+   "gene_name": [
+    "JW3281",
+    "b3319",
+    "eryA",
+    "rplD"
+   ],
+   "in_chains": [
+    "BE"
+   ],
+   "in_struct_asyms": [
+    "LA"
+   ],
+   "length": 201,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL4"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MELVLKDAQSALTVSETTFGRDFNEALVHQVVVAYAAGARQGTRAQKTRAEVTGSGKKPWRQKGTGRARSGSIKSPIWRSGGVTFAARPQDHSQKVNKKMYRGALKSILSELVRQDRLIVVEKFSVEAPKTKLLAQKLKDMALEDVLIITGELDENLFLAARNLHKVDVRDATGIDPVSLIAFDKVVMTADAVKQVEEMLA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MELVLKDAQSALTVSETTFGRDFNEALVHQVVVAYAAGARQGTRAQKTRAEVTGSGKKPWRQKGTGRARSGSIKSPIWRSGGVTFAARPQDHSQKVNKKMYRGALKSILSELVRQDRLIVVEKFSVEAPKTKLLAQKLKDMALEDVLIITGELDENLFLAARNLHKVDVRDATGIDPVSLIAFDKVVMTADAVKQVEEMLA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 201
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L4",
+   "weight": 22121.566
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 39,
+   "gene_name": [
+    "JW3270",
+    "b3308",
+    "rplE"
+   ],
+   "in_chains": [
+    "BF"
+   ],
+   "in_struct_asyms": [
+    "MA"
+   ],
+   "length": 179,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL5"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAKLHDYYKDEVVKKLMTEFNYNSVMQVPRVEKITLNMGVGEAIADKKLLDNAAADLAAISGQKPLITKARKSVAGFKIRQGYPIGCKVTLRGERMWEFFERLITIAVPRIRDFRGLSAKSFDGRGNYSMGVREQIIFPEIDYDKVDRVRGLDITITTTAKSDEEGRALLAAFDFPFRK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAKLHDYYKDEVVKKLMTEFNYNSVMQVPRVEKITLNMGVGEAIADKKLLDNAAADLAAISGQKPLITKARKSVAGFKIRQGYPIGCKVTLRGERMWEFFERLITIAVPRIRDFRGLSAKSFDGRGNYSMGVREQIIFPEIDYDKVDRVRGLDITITTTAKSDEEGRALLAAFDFPFRK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 179
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L5",
+   "weight": 20333.611
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 40,
+   "gene_name": [
+    "JW3267",
+    "b3305",
+    "rplF"
+   ],
+   "in_chains": [
+    "BG"
+   ],
+   "in_struct_asyms": [
+    "NA"
+   ],
+   "length": 177,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL6"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MSRVAKAPVVVPAGVDVKINGQVITIKGKNGELTRTLNDAVEVKHADNTLTFGPRDGYADGWAQAGTARALLNSMVIGVTEGFTKKLQLVGVGYRAAVKGNVINLSLGFSHPVDHQLPAGITAECPTQTEIVLKGADKQVIGQVAADLRAYRRPEPYKGKGVRYADEVVRTKEAKKK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MSRVAKAPVVVPAGVDVKINGQVITIKGKNGELTRTLNDAVEVKHADNTLTFGPRDGYADGWAQAGTARALLNSMVIGVTEGFTKKLQLVGVGYRAAVKGNVINLSLGFSHPVDHQLPAGITAECPTQTEIVLKGADKQVIGQVAADLRAYRRPEPYKGKGVRYADEVVRTKEAKKK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 177
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L6",
+   "weight": 18932.791
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 41,
+   "gene_name": [
+    "JW3948",
+    "b3985",
+    "rplJ"
+   ],
+   "in_chains": [
+    "BH"
+   ],
+   "in_struct_asyms": [
+    "OA"
+   ],
+   "length": 165,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL10"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MALNLQDKQAIVAEVSEVAKGALSAVVADSRGVTVDKMTELRKAGREAGVYMRVVRNTLLRRAVEGTPFECLKDAFVGPTLIAYSMEHPGAAARLFKEFAKANAKFEVKAAAFEGELIPASQIDRLATLPTYEEAIARLMATMKEASAGKLVRTLAAVRDAKEAA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MALNLQDKQAIVAEVSEVAKGALSAVVADSRGVTVDKMTELRKAGREAGVYMRVVRNTLLRRAVEGTPFECLKDAFVGPTLIAYSMEHPGAAARLFKEFAKANAKFEVKAAAFEGELIPASQIDRLATLPTYEEAIARLMATMKEASAGKLVRTLAAVRDAKEAA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 165
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L10",
+   "weight": 17736.596
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 42,
+   "gene_name": [
+    "JW3946",
+    "b3983",
+    "relC",
+    "rplK"
+   ],
+   "in_chains": [
+    "BI"
+   ],
+   "in_struct_asyms": [
+    "PA"
+   ],
+   "length": 142,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL11"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAKKVQAYVKLQVAAGMANPSPPVGPALGQQGVNIMEFCKAFNAKTDSIEKGLPIPVVITVYADRSFTFVTKTPPAAVLLKKAAGIKSGSGKPNKDKVGKISRAQLQEIAQTKAADMTGADIEAMTRSIEGTARSMGLVVED",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAKKVQAYVKLQVAAGMANPSPPVGPALGQQGVNIMEFCKAFNAKTDSIEKGLPIPVVITVYADRSFTFVTKTPPAAVLLKKAAGIKSGSGKPNKDKVGKISRAQLQEIAQTKAADMTGADIEAMTRSIEGTARSMGLVVED",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 142
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L11",
+   "weight": 14894.362
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 43,
+   "gene_name": [
+    "JW3949",
+    "b3986",
+    "rplL"
+   ],
+   "in_chains": [
+    "BJ",
+    "BK",
+    "BL",
+    "BM"
+   ],
+   "in_struct_asyms": [
+    "QA",
+    "RA",
+    "SA",
+    "TA"
+   ],
+   "length": 121,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL12"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 4,
+   "pdb_sequence": "MSITKDQIIEAVAAMSVMDVVELISAMEEKFGVSAAAAVAVAAGPVEAAEEKTEFDVILKAAGANKVAVIKAVRGATGLGLKEAKDLVESAPAALKEGVSKDDAEALKKALEEAGAEVEVK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MSITKDQIIEAVAAMSVMDVVELISAMEEKFGVSAAAAVAVAAGPVEAAEEKTEFDVILKAAGANKVAVIKAVRGATGLGLKEAKDLVESAPAALKEGVSKDDAEALKKALEEAGAEVEVK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 121
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L7/L12",
+   "weight": 12309.155
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 44,
+   "gene_name": [
+    "JW3200",
+    "b3231",
+    "rplM"
+   ],
+   "in_chains": [
+    "BN"
+   ],
+   "in_struct_asyms": [
+    "UA"
+   ],
+   "length": 142,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL13"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MKTFTAKPETVKRDWYVVDATGKTLGRLATELARRLRGKHKAEYTPHVDTGDYIIVLNADKVAVTGNKRTDKVYYHHTGHIGGIKQATFEEMIARRPERVIEIAVKGMLPKGPLGRAMFRKLKVYAGNEHNHAAQQPQVLDI",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MKTFTAKPETVKRDWYVVDATGKTLGRLATELARRLRGKHKAEYTPHVDTGDYIIVLNADKVAVTGNKRTDKVYYHHTGHIGGIKQATFEEMIARRPERVIEIAVKGMLPKGPLGRAMFRKLKVYAGNEHNHAAQQPQVLDI",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 142
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L13",
+   "weight": 16050.606
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 45,
+   "gene_name": [
+    "JW3272",
+    "b3310",
+    "rplN"
+   ],
+   "in_chains": [
+    "BO"
+   ],
+   "in_struct_asyms": [
+    "VA"
+   ],
+   "length": 123,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL14"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MIQEQTMLNVADNSGARRVMCIKVLGGSHRRYAGVGDIIKITIKEAIPRGKVKKGDVLKAVVVRTKKGVRRPDGSVIRFDGNACVLLNNNSEQPIGTRIFGPVTRELRSEKFMKIISLAPEVL",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MIQEQTMLNVADNSGARRVMCIKVLGGSHRRYAGVGDIIKITIKEAIPRGKVKKGDVLKAVVVRTKKGVRRPDGSVIRFDGNACVLLNNNSEQPIGTRIFGPVTRELRSEKFMKIISLAPEVL",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 123
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L14",
+   "weight": 13565.067
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 46,
+   "gene_name": [
+    "JW3263",
+    "b3301",
+    "rplO"
+   ],
+   "in_chains": [
+    "BP"
+   ],
+   "in_struct_asyms": [
+    "WA"
+   ],
+   "length": 144,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL15"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MRLNTLSPAEGSKKAGKRLGRGIGSGLGKTGGRGHKGQKSRSGGGVRRGFEGGQMPLYRRLPKFGFTSRKAAITAEIRLSDLAKVEGGVVDLNTLKAANIIGIQIEFAKVILAGEVTTPVTVRGLRVTKGARAAIEAAGGKIEE",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MRLNTLSPAEGSKKAGKRLGRGIGSGLGKTGGRGHKGQKSRSGGGVRRGFEGGQMPLYRRLPKFGFTSRKAAITAEIRLSDLAKVEGGVVDLNTLKAANIIGIQIEFAKVILAGEVTTPVTVRGLRVTKGARAAIEAAGGKIEE",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 144
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L15",
+   "weight": 15008.471
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 47,
+   "gene_name": [
+    "JW3275",
+    "b3313",
+    "rplP"
+   ],
+   "in_chains": [
+    "BQ"
+   ],
+   "in_struct_asyms": [
+    "XA"
+   ],
+   "length": 136,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL16"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MLQPKRTKFRKMHKGRNRGLAQGTDVSFGSFGLKAVGRGRLTARQIEAARRAMTRAVKRQGKIWIRVFPDKPITEKPLAVRMGKGKGNVEYWVALIQPGKVLYEMDGVPEELAREAFKLAAAKLPIKTTFVTKTVM",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MLQPKRTKFRKMHKGRNRGLAQGTDVSFGSFGLKAVGRGRLTARQIEAARRAMTRAVKRQGKIWIRVFPDKPITEKPLAVRMGKGKGNVEYWVALIQPGKVLYEMDGVPEELAREAFKLAAAKLPIKTTFVTKTVM",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 136
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L16",
+   "weight": 15312.269
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 48,
+   "gene_name": [
+    "JW3256",
+    "b3294",
+    "rplQ"
+   ],
+   "in_chains": [
+    "BR"
+   ],
+   "in_struct_asyms": [
+    "YA"
+   ],
+   "length": 127,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL17"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MRHRKSGRQLNRNSSHRQAMFRNMAGSLVRHEIIKTTLPKAKELRRVVEPLITLAKTDSVANRRLAFARTRDNEIVAKLFNELGPRFASRAGGYTRILKCGFRAGDNAPMAYIELVDRSEKAEAAAE",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MRHRKSGRQLNRNSSHRQAMFRNMAGSLVRHEIIKTTLPKAKELRRVVEPLITLAKTDSVANRRLAFARTRDNEIVAKLFNELGPRFASRAGGYTRILKCGFRAGDNAPMAYIELVDRSEKAEAAAE",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 127
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L17",
+   "weight": 14393.657
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 49,
+   "gene_name": [
+    "JW3266",
+    "b3304",
+    "rplR"
+   ],
+   "in_chains": [
+    "BS"
+   ],
+   "in_struct_asyms": [
+    "ZA"
+   ],
+   "length": 117,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL18"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MDKKSARIRRATRARRKLQELGATRLVVHRTPRHIYAQVIAPNGSEVLVAASTVEKAIAEQLKYTGNKDAAAAVGKAVAERALEKGIKDVSFDRSGFQYHGRVQALADAAREAGLQF",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MDKKSARIRRATRARRKLQELGATRLVVHRTPRHIYAQVIAPNGSEVLVAASTVEKAIAEQLKYTGNKDAAAAVGKAVAERALEKGIKDVSFDRSGFQYHGRVQALADAAREAGLQF",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 117
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L18",
+   "weight": 12794.668
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 50,
+   "gene_name": [
+    "JW2587",
+    "b2606",
+    "rplS"
+   ],
+   "in_chains": [
+    "BT"
+   ],
+   "in_struct_asyms": [
+    "AB"
+   ],
+   "length": 115,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL19"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MSNIIKQLEQEQMKQDVPSFRPGDTVEVKVWVVEGSKKRLQAFEGVVIAIRNRGLHSAFTVRKISNGEGVERVFQTHSPVVDSISVKRRGAVRKAKLYYLRERTGKAARIKERLN",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MSNIIKQLEQEQMKQDVPSFRPGDTVEVKVWVVEGSKKRLQAFEGVVIAIRNRGLHSAFTVRKISNGEGVERVFQTHSPVVDSISVKRRGAVRKAKLYYLRERTGKAARIKERLN",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 115
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L19",
+   "weight": 13159.278
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 51,
+   "gene_name": [
+    "JW1706",
+    "b1716",
+    "pdzA",
+    "rplT"
+   ],
+   "in_chains": [
+    "BU"
+   ],
+   "in_struct_asyms": [
+    "BB"
+   ],
+   "length": 118,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL20"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MARVKRGVIARARHKKILKQAKGYYGARSRVYRVAFQAVIKAGQYAYRDRRQRKRQFRQLWIARINAAARQNGISYSKFINGLKKASVEIDRKILADIAVFDKVAFTALVEKAKAALA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MARVKRGVIARARHKKILKQAKGYYGARSRVYRVAFQAVIKAGQYAYRDRRQRKRQFRQLWIARINAAARQNGISYSKFINGLKKASVEIDRKILADIAVFDKVAFTALVEKAKAALA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 118
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L20",
+   "weight": 13528.024
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 52,
+   "gene_name": [
+    "JW3153",
+    "b3186",
+    "rplU"
+   ],
+   "in_chains": [
+    "BV"
+   ],
+   "in_struct_asyms": [
+    "CB"
+   ],
+   "length": 103,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL21"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MYAVFQSGGKQHRVSEGQTVRLEKLDIATGETVEFAEVLMIANGEEVKIGVPFVDGGVIKAEVVAHGRGEKVKIVKFRRRKHYRKQQGHRQWFTDVKITGISA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MYAVFQSGGKQHRVSEGQTVRLEKLDIATGETVEFAEVLMIANGEEVKIGVPFVDGGVIKAEVVAHGRGEKVKIVKFRRRKHYRKQQGHRQWFTDVKITGISA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 103
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L21",
+   "weight": 11586.374
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 53,
+   "gene_name": [
+    "JW3277",
+    "b3315",
+    "eryB",
+    "rplV"
+   ],
+   "in_chains": [
+    "BW"
+   ],
+   "in_struct_asyms": [
+    "DB"
+   ],
+   "length": 116,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL22"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "METIAKHRHARSSAQKVRLVADLIRGKKVSQALDILTYTNKKAAVLVKKVLESAIANAEHNDGADIDDLKVTKIFVDEGPSMKRIMPRAKGRADRILKRTSHITVVVSDRHHHHHH",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "METIAKHRHARSSAQKVRLVADLIRGKKVSQALDILTYTNKKAAVLVKKVLESAIANAEHNDGADIDDLKVTKIFVDEGPSMKRIMPRAKGRADRILKRTSHITVVVSDRHHHHHH",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 110
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L22",
+   "weight": 13082.241
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 54,
+   "gene_name": [
+    "JW3280",
+    "b3318",
+    "rplW"
+   ],
+   "in_chains": [
+    "BX"
+   ],
+   "in_struct_asyms": [
+    "EB"
+   ],
+   "length": 100,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL23"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MIREERLLKVLRAPHVSEKASTAMEKSNTIVLKVAKDATKAEIKAAVQKLFEVEVEVVNTLVVKGKVKRHGQRIGRRSDWKKAYVTLKEGQNLDFVGGAE",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MIREERLLKVLRAPHVSEKASTAMEKSNTIVLKVAKDATKAEIKAAVQKLFEVEVEVVNTLVVKGKVKRHGQRIGRRSDWKKAYVTLKEGQNLDFVGGAE",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 100
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L23",
+   "weight": 11222.16
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 55,
+   "gene_name": [
+    "JW3271",
+    "b3309",
+    "rplX"
+   ],
+   "in_chains": [
+    "BY"
+   ],
+   "in_struct_asyms": [
+    "FB"
+   ],
+   "length": 104,
+   "molecule_name": [
+    "Large ribosomal subunit protein uL24"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MAAKIRRDDEVIVLTGKDKGKRGKVKNVLSSGKVIVEGINLVKKHQKPVPALNQPGGIVEKEAAIQVSNVAIFNAATGKADRVGFRFEDGKKVRFFKSNSETIK",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MAAKIRRDDEVIVLTGKDKGKRGKVKNVLSSGKVIVEGINLVKKHQKPVPALNQPGGIVEKEAAIQVSNVAIFNAATGKADRVGFRFEDGKKVRFFKSNSETIK",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 104
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L24 1",
+   "weight": 11339.25
+  },
+  {
+   "ca_p_only": false,
+   "entity_id": 56,
+   "gene_name": [
+    "JW2173",
+    "b2185",
+    "rplY"
+   ],
+   "in_chains": [
+    "BZ"
+   ],
+   "in_struct_asyms": [
+    "GB"
+   ],
+   "length": 94,
+   "molecule_name": [
+    "Large ribosomal subunit protein bL25"
+   ],
+   "molecule_type": "polypeptide(L)",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "pdb_sequence": "MFTINAEVRKEQGKGASRRLRAANKFPAIIYGGKEAPLAIELDHDKVMNMQAKAEFYSEVLTIVVDGKEIKVKAQDVQRHPYKPKLQHIDFVRA",
+   "pdb_sequence_indices_with_multiple_residues": {},
+   "sample_preparation": "Natural source",
+   "sequence": "MFTINAEVRKEQGKGASRRLRAANKFPAIIYGGKEAPLAIELDHDKVMNMQAKAEFYSEVLTIVVDGKEIKVKAQDVQRHPYKPKLQHIDFVRA",
+   "source": [
+    {
+     "expression_host_scientific_name": null,
+     "expression_host_tax_id": null,
+     "mappings": [
+      {
+       "end": {
+        "residue_number": 94
+       },
+       "start": {
+        "residue_number": 1
+       }
+      }
+     ],
+     "organism_scientific_name": "Escherichia coli",
+     "strain": null,
+     "tax_id": 562
+    }
+   ],
+   "synonym": "50S ribosomal protein L25 1",
+   "weight": 10713.465
+  },
+  {
+   "bound_details": [
+    {
+     "chem_comp_id": "MG",
+     "formula": "Mg",
+     "synonyms": [
+      {
+       "origin": "DrugBank",
+       "value": "Magnesium cation"
+      },
+      {
+       "origin": "DrugBank",
+       "value": "Magnesium, ion(Mg2+)"
+      },
+      {
+       "origin": "DrugBank",
+       "value": "Magnesium ion"
+      }
+     ]
+    }
+   ],
+   "ca_p_only": false,
+   "chem_comp_ids": [
+    "MG"
+   ],
+   "entity_id": 57,
+   "in_chains": [
+    "AA",
+    "AF",
+    "AH",
+    "AL",
+    "AM",
+    "AW",
+    "B0",
+    "B2",
+    "B4",
+    "BA",
+    "BB",
+    "BC",
+    "BD",
+    "BE",
+    "BN",
+    "BO",
+    "BQ",
+    "BR",
+    "BT",
+    "BX"
+   ],
+   "in_struct_asyms": [
+    "AC",
+    "AD",
+    "AE",
+    "AF",
+    "AG",
+    "AH",
+    "AI",
+    "AJ",
+    "AK",
+    "AL",
+    "AM",
+    "AN",
+    "AO",
+    "AP",
+    "AQ",
+    "AR",
+    "AS",
+    "AT",
+    "AU",
+    "BC",
+    "BD",
+    "BE",
+    "BF",
+    "BG",
+    "BH",
+    "BI",
+    "BJ",
+    "BK",
+    "BL",
+    "BM",
+    "BN",
+    "BO",
+    "BP",
+    "BQ",
+    "BR",
+    "BS",
+    "BT",
+    "BU",
+    "CC",
+    "CD",
+    "CE",
+    "CF",
+    "CG",
+    "CH",
+    "CI",
+    "CJ",
+    "CK",
+    "CL",
+    "CM",
+    "CN",
+    "CO",
+    "CP",
+    "CQ",
+    "CR",
+    "CS",
+    "CT",
+    "CU",
+    "DC",
+    "DD",
+    "DE",
+    "DF",
+    "DG",
+    "DH",
+    "DI",
+    "DJ",
+    "DK",
+    "DL",
+    "DM",
+    "DN",
+    "DO",
+    "DP",
+    "DQ",
+    "DR",
+    "DS",
+    "DT",
+    "DU",
+    "EC",
+    "ED",
+    "EE",
+    "EF",
+    "EG",
+    "EH",
+    "EI",
+    "EJ",
+    "EK",
+    "EL",
+    "EM",
+    "EN",
+    "EO",
+    "EP",
+    "EQ",
+    "ER",
+    "ES",
+    "ET",
+    "EU",
+    "FC",
+    "FD",
+    "FE",
+    "FF",
+    "FG",
+    "FH",
+    "FI",
+    "FJ",
+    "FK",
+    "FL",
+    "FM",
+    "FN",
+    "FO",
+    "FP",
+    "FQ",
+    "FR",
+    "FS",
+    "FT",
+    "FU",
+    "GC",
+    "GD",
+    "GE",
+    "GF",
+    "GG",
+    "GH",
+    "GI",
+    "GJ",
+    "GK",
+    "GL",
+    "GM",
+    "GN",
+    "GO",
+    "GP",
+    "GQ",
+    "GR",
+    "GS",
+    "GT",
+    "GU",
+    "HB",
+    "HC",
+    "HD",
+    "HE",
+    "HF",
+    "HG",
+    "HH",
+    "HI",
+    "HJ",
+    "HK",
+    "HL",
+    "HM",
+    "HN",
+    "HO",
+    "HP",
+    "HQ",
+    "HR",
+    "HS",
+    "HT",
+    "IB",
+    "IC",
+    "ID",
+    "IE",
+    "IF",
+    "IG",
+    "IH",
+    "II",
+    "IJ",
+    "IK",
+    "IL",
+    "IM",
+    "IN",
+    "IO",
+    "IP",
+    "IQ",
+    "IR",
+    "IS",
+    "IT",
+    "JB",
+    "JC",
+    "JD",
+    "JE",
+    "JF",
+    "JG",
+    "JH",
+    "JI",
+    "JJ",
+    "JK",
+    "JL",
+    "JM",
+    "JN",
+    "JO",
+    "JP",
+    "JQ",
+    "JR",
+    "JS",
+    "JT",
+    "KB",
+    "KC",
+    "KD",
+    "KE",
+    "KF",
+    "KG",
+    "KH",
+    "KI",
+    "KJ",
+    "KK",
+    "KL",
+    "KM",
+    "KN",
+    "KO",
+    "KP",
+    "KQ",
+    "KR",
+    "KS",
+    "KT",
+    "LB",
+    "LC",
+    "LD",
+    "LE",
+    "LG",
+    "LH",
+    "LI",
+    "LJ",
+    "LK",
+    "LL",
+    "LM",
+    "LN",
+    "LO",
+    "LP",
+    "LQ",
+    "LR",
+    "LS",
+    "LT",
+    "MB",
+    "MC",
+    "MD",
+    "ME",
+    "MF",
+    "MG",
+    "MH",
+    "MI",
+    "MJ",
+    "MK",
+    "ML",
+    "MM",
+    "MN",
+    "MO",
+    "MP",
+    "MQ",
+    "MR",
+    "MS",
+    "MT",
+    "NB",
+    "NC",
+    "ND",
+    "NE",
+    "NF",
+    "NG",
+    "NH",
+    "NI",
+    "NJ",
+    "NK",
+    "NL",
+    "NM",
+    "NN",
+    "NO",
+    "NP",
+    "NQ",
+    "NR",
+    "NS",
+    "NT",
+    "OB",
+    "OC",
+    "OD",
+    "OE",
+    "OF",
+    "OG",
+    "OH",
+    "OI",
+    "OJ",
+    "OK",
+    "OL",
+    "OM",
+    "ON",
+    "OO",
+    "OP",
+    "OQ",
+    "OR",
+    "OS",
+    "OT",
+    "PB",
+    "PC",
+    "PD",
+    "PE",
+    "PF",
+    "PG",
+    "PH",
+    "PI",
+    "PJ",
+    "PK",
+    "PL",
+    "PM",
+    "PN",
+    "PO",
+    "PP",
+    "PQ",
+    "PR",
+    "PS",
+    "PT",
+    "QB",
+    "QC",
+    "QD",
+    "QE",
+    "QF",
+    "QG",
+    "QH",
+    "QI",
+    "QJ",
+    "QK",
+    "QL",
+    "QM",
+    "QN",
+    "QO",
+    "QP",
+    "QQ",
+    "QR",
+    "QS",
+    "QT",
+    "RB",
+    "RC",
+    "RD",
+    "RE",
+    "RF",
+    "RG",
+    "RH",
+    "RI",
+    "RJ",
+    "RK",
+    "RL",
+    "RM",
+    "RN",
+    "RO",
+    "RP",
+    "RQ",
+    "RR",
+    "RS",
+    "RT",
+    "SB",
+    "SC",
+    "SD",
+    "SE",
+    "SF",
+    "SG",
+    "SH",
+    "SI",
+    "SJ",
+    "SK",
+    "SL",
+    "SM",
+    "SN",
+    "SO",
+    "SP",
+    "SQ",
+    "SR",
+    "SS",
+    "ST",
+    "TB",
+    "TC",
+    "TD",
+    "TE",
+    "TF",
+    "TG",
+    "TH",
+    "TI",
+    "TJ",
+    "TK",
+    "TL",
+    "TM",
+    "TN",
+    "TO",
+    "TP",
+    "TQ",
+    "TR",
+    "TS",
+    "TT",
+    "UB",
+    "UC",
+    "UD",
+    "UE",
+    "UF",
+    "UG",
+    "UH",
+    "UI",
+    "UJ",
+    "UK",
+    "UL",
+    "UM",
+    "UN",
+    "UO",
+    "UP",
+    "UQ",
+    "UR",
+    "US",
+    "UT",
+    "VB",
+    "VC",
+    "VD",
+    "VE",
+    "VF",
+    "VG",
+    "VH",
+    "VI",
+    "VJ",
+    "VK",
+    "VL",
+    "VM",
+    "VN",
+    "VO",
+    "VP",
+    "VQ",
+    "VR",
+    "VS",
+    "VT",
+    "WB",
+    "WC",
+    "WD",
+    "WE",
+    "WF",
+    "WG",
+    "WH",
+    "WI",
+    "WJ",
+    "WK",
+    "WL",
+    "WM",
+    "WN",
+    "WO",
+    "WP",
+    "WQ",
+    "WR",
+    "WS",
+    "WT",
+    "XB",
+    "XC",
+    "XD",
+    "XE",
+    "XF",
+    "XG",
+    "XH",
+    "XI",
+    "XJ",
+    "XK",
+    "XL",
+    "XM",
+    "XN",
+    "XO",
+    "XP",
+    "XQ",
+    "XR",
+    "XS",
+    "XT",
+    "YB",
+    "YC",
+    "YD",
+    "YE",
+    "YF",
+    "YG",
+    "YH",
+    "YI",
+    "YJ",
+    "YK",
+    "YL",
+    "YM",
+    "YN",
+    "YO",
+    "YP",
+    "YQ",
+    "YR",
+    "YS",
+    "YT",
+    "ZB",
+    "ZC",
+    "ZD",
+    "ZE",
+    "ZF",
+    "ZG",
+    "ZH",
+    "ZI",
+    "ZJ",
+    "ZK",
+    "ZL",
+    "ZM",
+    "ZN",
+    "ZO",
+    "ZP",
+    "ZQ",
+    "ZR",
+    "ZS",
+    "ZT"
+   ],
+   "molecule_name": [
+    "MAGNESIUM ION"
+   ],
+   "molecule_type": "bound",
+   "mutation_flag": null,
+   "number_of_copies": 493,
+   "sample_preparation": "Synthetically obtained",
+   "weight": 24.305
+  },
+  {
+   "bound_details": [
+    {
+     "chem_comp_id": "GNP",
+     "formula": "C10 H17 N6 O13 P3",
+     "synonyms": [
+      {
+       "origin": "DrugBank",
+       "value": "5'-guanylylimidodiphosphate"
+      },
+      {
+       "origin": "DrugBank",
+       "value": "Phosphoaminophosphonic acid guanylate ester"
+      },
+      {
+       "origin": "DrugBank",
+       "value": "Guanylyl imidodiphosphate"
+      },
+      {
+       "origin": "DrugBank",
+       "value": "Guanosine 5'-[beta,gamma-imido]triphosphate"
+      },
+      {
+       "origin": "DrugBank",
+       "value": "Gpp(NH)p"
+      },
+      {
+       "origin": "DrugBank",
+       "value": "GMP-PNP"
+      }
+     ]
+    }
+   ],
+   "ca_p_only": false,
+   "chem_comp_ids": [
+    "GNP"
+   ],
+   "entity_id": 58,
+   "in_chains": [
+    "AW"
+   ],
+   "in_struct_asyms": [
+    "LF"
+   ],
+   "molecule_name": [
+    "PHOSPHOAMINOPHOSPHONIC ACID-GUANYLATE ESTER"
+   ],
+   "molecule_type": "bound",
+   "mutation_flag": null,
+   "number_of_copies": 1,
+   "sample_preparation": "Synthetically obtained",
+   "weight": 522.196
+  },
+  {
+   "ca_p_only": false,
+   "chem_comp_ids": [
+    "HOH"
+   ],
+   "entity_id": 59,
+   "in_chains": [
+    "AW",
+    "B8",
+    "BA",
+    "BC",
+    "BD",
+    "BF",
+    "BG",
+    "BW"
+   ],
+   "in_struct_asyms": [
+    "HU",
+    "IU",
+    "JU",
+    "KU",
+    "LU",
+    "MU",
+    "NU",
+    "OU"
+   ],
+   "molecule_name": [
+    "water"
+   ],
+   "molecule_type": "water",
+   "mutation_flag": null,
+   "number_of_copies": 17,
+   "sample_preparation": "Natural source",
+   "weight": 18.015
+  }
+ ]
+}

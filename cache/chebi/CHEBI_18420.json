@@ -1,0 +1,220 @@
+{
+ "chebi_id": "CHEBI:18420",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": "JLVVSXFLKOJNIY-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:90993",
+   "target_name": "MgADP(1−)"
+  }
+ ],
+ "is_a": [
+  "CHEBI:30412",
+  "CHEBI:39127",
+  "CHEBI:60240"
+ ],
+ "name": "magnesium(2+)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:23906",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:24867",
+  "CHEBI:24870",
+  "CHEBI:25108",
+  "CHEBI:25213",
+  "CHEBI:30412",
+  "CHEBI:33238",
+  "CHEBI:33259",
+  "CHEBI:33299",
+  "CHEBI:33513",
+  "CHEBI:33579",
+  "CHEBI:33674",
+  "CHEBI:33973",
+  "CHEBI:36914",
+  "CHEBI:36915",
+  "CHEBI:36916",
+  "CHEBI:39127",
+  "CHEBI:39128",
+  "CHEBI:60240",
+  "CHEBI:64641"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:00+00:00",
+ "roles": [
+  "CHEBI:176497",
+  "CHEBI:23357"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "magnesium(2+)",
+   "chebi_accession": "CHEBI:18420",
+   "default_structure": {
+    "smiles": "[Mg+2]",
+    "standard_inchi_key": "JLVVSXFLKOJNIY-UHFFFAOYSA-N"
+   },
+   "definition": null,
+   "id": 18420,
+   "is_released": true,
+   "name": "magnesium(2+)",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 90993,
+      "init_name": "MgADP(1−)",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 23357,
+      "final_name": "cofactor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 176497,
+      "final_name": "geroprotector",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 39127,
+      "final_name": "magnesium cation",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 60240,
+      "final_name": "divalent metal cation",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 30412,
+      "final_name": "monoatomic dication",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:6635",
+    "CHEBI:13379",
+    "CHEBI:25112",
+    "CHEBI:49736"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:18420",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_30412",
+    "http://purl.obolibrary.org/obo/CHEBI_39127",
+    "http://purl.obolibrary.org/obo/CHEBI_60240"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23906",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25108",
+    "http://purl.obolibrary.org/obo/CHEBI_25213",
+    "http://purl.obolibrary.org/obo/CHEBI_30412",
+    "http://purl.obolibrary.org/obo/CHEBI_33238",
+    "http://purl.obolibrary.org/obo/CHEBI_33259",
+    "http://purl.obolibrary.org/obo/CHEBI_33299",
+    "http://purl.obolibrary.org/obo/CHEBI_33513",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33973",
+    "http://purl.obolibrary.org/obo/CHEBI_36914",
+    "http://purl.obolibrary.org/obo/CHEBI_36915",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_39127",
+    "http://purl.obolibrary.org/obo/CHEBI_39128",
+    "http://purl.obolibrary.org/obo/CHEBI_60240",
+    "http://purl.obolibrary.org/obo/CHEBI_64641"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "magnesium cation"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "magnesium(2+) ion"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "magnesium(2+)"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "magnesium(II) cation"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "JLVVSXFLKOJNIY-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "magnesium(2+)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_176497"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_23357"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "magnesium cation",
+  "magnesium(2+) ion",
+  "magnesium(2+)",
+  "magnesium(II) cation"
+ ]
+}

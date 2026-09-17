@@ -1,0 +1,1109 @@
+{
+ "chebi_id": "CHEBI:15366",
+ "chebi_release": "255",
+ "definition": "A simple monocarboxylic acid containing two carbons.",
+ "inchikey": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:60702",
+   "target_name": "(2,2,2-trifluoroethoxy)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:22634",
+   "target_name": "arsenoacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:27869",
+   "target_name": "chloroacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:36386",
+   "target_name": "dichloroacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:30956",
+   "target_name": "trichloroacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:30749",
+   "target_name": "4-chlorophenylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:23716",
+   "target_name": "difluoroacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:45892",
+   "target_name": "trifluoroacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:9352",
+   "target_name": "sulindac"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:30745",
+   "target_name": "phenylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:18101",
+   "target_name": "4-hydroxyphenylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:28478",
+   "target_name": "(2-hydroxyphenyl)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:35825",
+   "target_name": "mandelic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:35859",
+   "target_name": "zomepirac"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:73024",
+   "target_name": "<em>O</em>-acetylcarnitine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:42530",
+   "target_name": "peracetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:59660",
+   "target_name": "[5-fluoro-1-(4-isopropylbenzylidene)-2-methylinden-3-yl]acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:31483",
+   "target_name": "diflorasone diacetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:17497",
+   "target_name": "glycolic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:28045",
+   "target_name": "(2,2,3-trimethyl-5-oxocyclopent-3-en-1-yl)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:17445",
+   "target_name": "3-hydroxyphenylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:50519",
+   "target_name": "sulfoacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:37277",
+   "target_name": "cyclohexylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:37276",
+   "target_name": "(1-hydroxycyclohexyl)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:61316",
+   "target_name": "(3<i>Z</i>)-hex-3-en-1-yl acetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:15732",
+   "target_name": "phosphonoacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:15351",
+   "target_name": "acetyl-CoA"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:37580",
+   "target_name": "acetyl chloride"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:24803",
+   "target_name": "indole-3-acetic acids"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:38478",
+   "target_name": "acetamidine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:35629",
+   "target_name": "naphthylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:32509",
+   "target_name": "pirinixic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:46520",
+   "target_name": "(2<i>S</i>)-({(5<i>Z</i>)-5-[(5-ethylfuran-2-yl)methylidene]-4-oxo-4,5-dihydro-1,3-thiazol-2-yl}amino)(4-fluorophenyl)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:41383",
+   "target_name": "[(2<i>S</i>,4<i>S</i>)-2-[(1<i>R</i>)-1-amino-2-sulfanylethyl]-4-(4-hydroxybenzyl)-5-oxoimidazolidin-1-yl]acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:41608",
+   "target_name": "{(2<i>R</i>)-2-[(1<i>S</i>)-1-aminoethyl]-2-hydroxy-4-methylidene-5-oxoimidazolidin-1-yl}acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:41707",
+   "target_name": "[(2<i>S</i>,4<i>S</i>)-2-[(1<i>R</i>)-1-amino-2-hydroxyethyl]-4-(1<em>H</em>-imidazol-4-ylmethyl)-5-oxoimidazolidin-1-yl]acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:41749",
+   "target_name": "[(2<i>S</i>,4<i>S</i>)-2-[(1<i>R</i>)-1-amino-2-hydroxyethyl]-4-(4-hydroxybenzyl)-5-oxoimidazolidin-1-yl]acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:41360",
+   "target_name": "{(2<i>R</i>)-2-[(1<i>S</i>,2<i>R</i>)-1-amino-2-hydroxypropyl]-2-hydroxy-4,5-dioxoimidazolidin-1-yl}acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:47182",
+   "target_name": "{[5-(3-{[1-(benzylsulfonyl)piperidin-4-yl]amino}phenyl)-4-bromo-2-(2<em>H</em>-tetrazol-5-yl)thiophen-3-yl]oxy}acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:45890",
+   "target_name": "(3-amino-2,5-dioxopyrrolidin-1-yl)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:46371",
+   "target_name": "uracil-6-ylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:46609",
+   "target_name": "(4-oxo-3-{[5-(trifluoromethyl)-1,3-benzothiazol-2-yl]methyl}-3,4-dihydrophthalazin-1-yl)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:43741",
+   "target_name": "{[5-(5-nitro-2-furyl)-1,3,4-oxadiazol-2-yl]thio}acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:47622",
+   "target_name": "acetate ester"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:40145",
+   "target_name": "6-{[1-(benzylsulfonyl)piperidin-4-yl]amino}-3-(carboxymethoxy)thieno[3,2-<em>b</em>][1]benzothiophene-2-carboxylic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:40208",
+   "target_name": "(2<i>S</i>)-[(2<i>S</i>,3<i>S</i>,4<i>S</i>,5<i>S</i>)-1,3,4,5-tetrahydroxy-4-(hydroxymethyl)piperidin-2-yl](<small>L</small>-tyrosylamino)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:40833",
+   "target_name": "(3-{(1<i>R</i>)-3-(3,4-dimethoxyphenyl)-1-[({(2<i>S</i>)-1-[(2<i>S</i>)-2-(3,4,5-trimethoxyphenyl)butanoyl]piperidin-2-yl}carbonyl)oxy]propyl}phenoxy)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:952",
+   "target_name": "(2,6-dihydroxyphenyl)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:4876",
+   "target_name": "etacrynic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:43485",
+   "target_name": "{4-[(carboxymethoxy)carbonyl]-3,3-dioxido-1-oxonaphtho[1,2-<em>d</em>]-1,2-thiazol-2(1<em>H</em>)-yl}acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:43373",
+   "target_name": "(5-fluoro-2-{[(4,5,7-trifluoro-1,3-benzothiazol-2-yl)methyl]carbamoyl}phenoxy)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:51889",
+   "target_name": "cyanoacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:45807",
+   "target_name": "2-thienylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:49028",
+   "target_name": "acetimidic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:75882",
+   "target_name": "1-alkyl-2-acetylglycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:21575",
+   "target_name": "<em>N</em>-acetyl-amino acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:44692",
+   "target_name": "phosphonoacetohydroxamic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:9661",
+   "target_name": "triacetin"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:72814",
+   "target_name": "indole-1-acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:75936",
+   "target_name": "1-<em>O</em>-palmityl-2-acetyl-<em>sn</em>-glycerol"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:75219",
+   "target_name": "1-palmitoyl-2-acetyl-<em>sn</em>-glycero-3-phosphocholine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:75220",
+   "target_name": "1-stearoyl-2-acetyl-<em>sn</em>-glycero-3-phosphocholine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:132098",
+   "target_name": "methoxyacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:76158",
+   "target_name": "ibufenac"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:64444",
+   "target_name": "hydroxy(phenyl)2-thienylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:90124",
+   "target_name": "dibromoacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:1606",
+   "target_name": "1-methyl-4-imidazoleacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:70806",
+   "target_name": "imidazol-2-ylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16277",
+   "target_name": "haloacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:70801",
+   "target_name": "imidazol-1-ylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:28884",
+   "target_name": "<em>N</em>-phenylacetamide"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:78045",
+   "target_name": "2-acetyl-<em>sn</em>-glycero-3-phosphocholine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:16974",
+   "target_name": "imidazol-4-ylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:70804",
+   "target_name": "imidazol-5-ylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:43615",
+   "target_name": "2<em>H</em>-imidazol-4-ylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:47106",
+   "target_name": "(3-chloro-4-hydroxyphenyl)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:79277",
+   "target_name": "1-palmityl-2-acetyl-<em>sn</em>-glycero-3-phosphate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:79280",
+   "target_name": "1-hexadecyl-2-acetyl-<em>sn</em>-glycero-3-phosphoethanolamine"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:76164",
+   "target_name": "lonazolac"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:41967",
+   "target_name": "diphenylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:64899",
+   "target_name": "[(1<i>S</i>)-4-hydroxy-2,2,3-trimethylcyclopent-3-enyl]acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:31597",
+   "target_name": "biphenyl-4-ylacetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:62964",
+   "target_name": "magnesium acetate"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:28139",
+   "target_name": "bis(4-chlorophenyl)acetic acid"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:88356",
+   "target_name": "3-methylphenylacetic acid"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:30089",
+   "target_name": "acetate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:25384"
+ ],
+ "name": "acetic acid",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24833",
+  "CHEBI:25367",
+  "CHEBI:25384",
+  "CHEBI:25806",
+  "CHEBI:33285",
+  "CHEBI:33304",
+  "CHEBI:33575",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:35605",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:50860",
+  "CHEBI:64709",
+  "CHEBI:72695"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:30089",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:23:56+00:00",
+ "roles": [
+  "CHEBI:48356",
+  "CHEBI:49201",
+  "CHEBI:64049",
+  "CHEBI:65256",
+  "CHEBI:67079",
+  "CHEBI:73336",
+  "CHEBI:83056"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "acetic acid",
+   "chebi_accession": "CHEBI:15366",
+   "default_structure": {
+    "smiles": "CC(=O)O",
+    "standard_inchi_key": "QTBSBXVTEAMEQO-UHFFFAOYSA-N"
+   },
+   "definition": "A simple monocarboxylic acid containing two carbons.",
+   "id": 15366,
+   "is_released": true,
+   "name": "acetic acid",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 60702,
+      "init_name": "(2,2,2-trifluoroethoxy)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 22634,
+      "init_name": "arsenoacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 27869,
+      "init_name": "chloroacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 36386,
+      "init_name": "dichloroacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 30956,
+      "init_name": "trichloroacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 30749,
+      "init_name": "4-chlorophenylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 23716,
+      "init_name": "difluoroacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 45892,
+      "init_name": "trifluoroacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 9352,
+      "init_name": "sulindac",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 30745,
+      "init_name": "phenylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 18101,
+      "init_name": "4-hydroxyphenylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 28478,
+      "init_name": "(2-hydroxyphenyl)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 35825,
+      "init_name": "mandelic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 35859,
+      "init_name": "zomepirac",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 73024,
+      "init_name": "<em>O</em>-acetylcarnitine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 42530,
+      "init_name": "peracetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 59660,
+      "init_name": "[5-fluoro-1-(4-isopropylbenzylidene)-2-methylinden-3-yl]acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 31483,
+      "init_name": "diflorasone diacetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 17497,
+      "init_name": "glycolic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 28045,
+      "init_name": "(2,2,3-trimethyl-5-oxocyclopent-3-en-1-yl)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 17445,
+      "init_name": "3-hydroxyphenylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 50519,
+      "init_name": "sulfoacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 37277,
+      "init_name": "cyclohexylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 37276,
+      "init_name": "(1-hydroxycyclohexyl)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 61316,
+      "init_name": "(3<i>Z</i>)-hex-3-en-1-yl acetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 15732,
+      "init_name": "phosphonoacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 15351,
+      "init_name": "acetyl-CoA",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 37580,
+      "init_name": "acetyl chloride",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 24803,
+      "init_name": "indole-3-acetic acids",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 38478,
+      "init_name": "acetamidine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 35629,
+      "init_name": "naphthylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 32509,
+      "init_name": "pirinixic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 46520,
+      "init_name": "(2<i>S</i>)-({(5<i>Z</i>)-5-[(5-ethylfuran-2-yl)methylidene]-4-oxo-4,5-dihydro-1,3-thiazol-2-yl}amino)(4-fluorophenyl)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 41383,
+      "init_name": "[(2<i>S</i>,4<i>S</i>)-2-[(1<i>R</i>)-1-amino-2-sulfanylethyl]-4-(4-hydroxybenzyl)-5-oxoimidazolidin-1-yl]acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 41608,
+      "init_name": "{(2<i>R</i>)-2-[(1<i>S</i>)-1-aminoethyl]-2-hydroxy-4-methylidene-5-oxoimidazolidin-1-yl}acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 41707,
+      "init_name": "[(2<i>S</i>,4<i>S</i>)-2-[(1<i>R</i>)-1-amino-2-hydroxyethyl]-4-(1<em>H</em>-imidazol-4-ylmethyl)-5-oxoimidazolidin-1-yl]acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 41749,
+      "init_name": "[(2<i>S</i>,4<i>S</i>)-2-[(1<i>R</i>)-1-amino-2-hydroxyethyl]-4-(4-hydroxybenzyl)-5-oxoimidazolidin-1-yl]acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 41360,
+      "init_name": "{(2<i>R</i>)-2-[(1<i>S</i>,2<i>R</i>)-1-amino-2-hydroxypropyl]-2-hydroxy-4,5-dioxoimidazolidin-1-yl}acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 47182,
+      "init_name": "{[5-(3-{[1-(benzylsulfonyl)piperidin-4-yl]amino}phenyl)-4-bromo-2-(2<em>H</em>-tetrazol-5-yl)thiophen-3-yl]oxy}acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 45890,
+      "init_name": "(3-amino-2,5-dioxopyrrolidin-1-yl)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 46371,
+      "init_name": "uracil-6-ylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 46609,
+      "init_name": "(4-oxo-3-{[5-(trifluoromethyl)-1,3-benzothiazol-2-yl]methyl}-3,4-dihydrophthalazin-1-yl)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 43741,
+      "init_name": "{[5-(5-nitro-2-furyl)-1,3,4-oxadiazol-2-yl]thio}acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 47622,
+      "init_name": "acetate ester",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 40145,
+      "init_name": "6-{[1-(benzylsulfonyl)piperidin-4-yl]amino}-3-(carboxymethoxy)thieno[3,2-<em>b</em>][1]benzothiophene-2-carboxylic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 40208,
+      "init_name": "(2<i>S</i>)-[(2<i>S</i>,3<i>S</i>,4<i>S</i>,5<i>S</i>)-1,3,4,5-tetrahydroxy-4-(hydroxymethyl)piperidin-2-yl](<small>L</small>-tyrosylamino)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 40833,
+      "init_name": "(3-{(1<i>R</i>)-3-(3,4-dimethoxyphenyl)-1-[({(2<i>S</i>)-1-[(2<i>S</i>)-2-(3,4,5-trimethoxyphenyl)butanoyl]piperidin-2-yl}carbonyl)oxy]propyl}phenoxy)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 952,
+      "init_name": "(2,6-dihydroxyphenyl)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 4876,
+      "init_name": "etacrynic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 43485,
+      "init_name": "{4-[(carboxymethoxy)carbonyl]-3,3-dioxido-1-oxonaphtho[1,2-<em>d</em>]-1,2-thiazol-2(1<em>H</em>)-yl}acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 43373,
+      "init_name": "(5-fluoro-2-{[(4,5,7-trifluoro-1,3-benzothiazol-2-yl)methyl]carbamoyl}phenoxy)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 51889,
+      "init_name": "cyanoacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 45807,
+      "init_name": "2-thienylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 49028,
+      "init_name": "acetimidic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 75882,
+      "init_name": "1-alkyl-2-acetylglycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 21575,
+      "init_name": "<em>N</em>-acetyl-amino acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 44692,
+      "init_name": "phosphonoacetohydroxamic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 9661,
+      "init_name": "triacetin",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 72814,
+      "init_name": "indole-1-acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 75936,
+      "init_name": "1-<em>O</em>-palmityl-2-acetyl-<em>sn</em>-glycerol",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 75219,
+      "init_name": "1-palmitoyl-2-acetyl-<em>sn</em>-glycero-3-phosphocholine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 75220,
+      "init_name": "1-stearoyl-2-acetyl-<em>sn</em>-glycero-3-phosphocholine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 132098,
+      "init_name": "methoxyacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 76158,
+      "init_name": "ibufenac",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 64444,
+      "init_name": "hydroxy(phenyl)2-thienylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 90124,
+      "init_name": "dibromoacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 1606,
+      "init_name": "1-methyl-4-imidazoleacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 70806,
+      "init_name": "imidazol-2-ylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16277,
+      "init_name": "haloacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 70801,
+      "init_name": "imidazol-1-ylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 28884,
+      "init_name": "<em>N</em>-phenylacetamide",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 78045,
+      "init_name": "2-acetyl-<em>sn</em>-glycero-3-phosphocholine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 16974,
+      "init_name": "imidazol-4-ylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 70804,
+      "init_name": "imidazol-5-ylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 43615,
+      "init_name": "2<em>H</em>-imidazol-4-ylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 47106,
+      "init_name": "(3-chloro-4-hydroxyphenyl)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 79277,
+      "init_name": "1-palmityl-2-acetyl-<em>sn</em>-glycero-3-phosphate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 79280,
+      "init_name": "1-hexadecyl-2-acetyl-<em>sn</em>-glycero-3-phosphoethanolamine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 76164,
+      "init_name": "lonazolac",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 41967,
+      "init_name": "diphenylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 64899,
+      "init_name": "[(1<i>S</i>)-4-hydroxy-2,2,3-trimethylcyclopent-3-enyl]acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 31597,
+      "init_name": "biphenyl-4-ylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 62964,
+      "init_name": "magnesium acetate",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 28139,
+      "init_name": "bis(4-chlorophenyl)acetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 88356,
+      "init_name": "3-methylphenylacetic acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 30089,
+      "init_name": "acetate",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 73336,
+      "final_name": "vulnerary",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 67079,
+      "final_name": "anti-inflammatory agent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 49201,
+      "final_name": "anti-ulcer drug",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 64049,
+      "final_name": "food acidity regulator",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 48356,
+      "final_name": "protic solvent",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 83056,
+      "final_name": "<em>Daphnia magna</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 65256,
+      "final_name": "antimicrobial food preservative",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 25384,
+      "final_name": "monocarboxylic acid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 30089,
+      "final_name": "acetate",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:2387",
+    "CHEBI:22169",
+    "CHEBI:40486"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:15366",
+   "definition": [
+    "A simple monocarboxylic acid containing two carbons."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25384"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24833",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25384",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33575",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_64709",
+    "http://purl.obolibrary.org/obo/CHEBI_72695"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "PDBeChem"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "ACETIC ACID"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Acetic acid"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "acetic acid"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "acetic acid"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_48356"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_49201"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_64049"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_65256"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_67079"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_73336"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_83056"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_30089"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "ACETIC ACID",
+  "Acetic acid",
+  "acetic acid"
+ ]
+}

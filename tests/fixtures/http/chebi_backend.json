@@ -74,6 +74,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/148178/"
 },
+"0122cf8197c89de8": {
+"data": {
+"ascii_name": "monoatomic monoanion",
+"chebi_accession": "CHEBI:33429",
+"default_structure": {
+"smiles": "[*-]",
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33429,
+"is_released": true,
+"name": "monoatomic monoanion",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 23905,
+"final_name": "monoatomic anion",
+"relation_type": "is a"
+},
+{
+"final_id": 36830,
+"final_name": "monoanion",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33429/"
+},
 "0140a91473e5ed4e": {
 "data": {
 "ascii_name": "zwitterion",
@@ -346,6 +381,46 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/26712/"
 },
+"03559fde4f1b3923": {
+"data": {
+"ascii_name": "purine ribonucleoside 5'-diphosphate",
+"chebi_accession": "CHEBI:37038",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 37038,
+"is_released": true,
+"name": "purine ribonucleoside 5'-diphosphate",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 37075,
+"final_name": "ribonucleoside 5'-diphosphate",
+"relation_type": "is a"
+},
+{
+"final_id": 26396,
+"final_name": "purine ribonucleoside diphosphate",
+"relation_type": "is a"
+},
+{
+"final_id": 26400,
+"final_name": "purine ribonucleotide",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/37038/"
+},
 "0360d5b39c7cc220": {
 "data": {
 "ascii_name": "peptide",
@@ -517,6 +592,47 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/139072/"
+},
+"03d3f6d1c2ae5dcc": {
+"data": {
+"ascii_name": "tetraethylene glycol",
+"chebi_accession": "CHEBI:44920",
+"default_structure": {
+"smiles": "OCCOCCOCCOCCO",
+"standard_inchi_key": "UWHCKJMYHZGTIT-UHFFFAOYSA-N"
+},
+"definition": null,
+"id": 44920,
+"is_released": true,
+"name": "tetraethylene glycol",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 41323,
+"init_name": "tetraethylene glycol monooctyl ether",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 88172,
+"init_name": "2,2-dimethyl-3,6,9,12,15-pentaoxa-2-silahexadecane",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 46793,
+"final_name": "poly(ethylene glycol)",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/44920/"
 },
 "044df043ecf69ee7": {
 "data": {
@@ -738,6 +854,71 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/17792/"
+},
+"0741f904611ba372": {
+"data": {
+"ascii_name": "alkaline earth cation",
+"chebi_accession": "CHEBI:33513",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33513,
+"is_released": true,
+"name": "alkaline earth cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 25213,
+"final_name": "metal cation",
+"relation_type": "is a"
+},
+{
+"final_id": 33299,
+"final_name": "alkaline earth molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33513/"
+},
+"07bdd9e1616b5c3b": {
+"data": {
+"ascii_name": "azaalkane",
+"chebi_accession": "CHEBI:46686",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 46686,
+"is_released": true,
+"name": "azaalkane",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 50047,
+"final_name": "organic amino compound",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/46686/"
 },
 "08a455060b459990": {
 "data": {
@@ -1088,6 +1269,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/28100/"
 },
+"0cf2c77243702f67": {
+"data": {
+"ascii_name": "magnesium molecular entity",
+"chebi_accession": "CHEBI:25108",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 25108,
+"is_released": true,
+"name": "magnesium molecular entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 25107,
+"final_name": "magnesium atom",
+"relation_type": "has part"
+},
+{
+"final_id": 33299,
+"final_name": "alkaline earth molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25108/"
+},
 "0d2abde79a0a465f": {
 "data": {
 "ascii_name": "heterobicyclic compound",
@@ -1122,6 +1338,71 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33672/"
+},
+"0d9d2f0761070253": {
+"data": {
+"ascii_name": "elemental chlorine",
+"chebi_accession": "CHEBI:33431",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33431,
+"is_released": true,
+"name": "elemental chlorine",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33434,
+"final_name": "elemental halogen",
+"relation_type": "is a"
+},
+{
+"final_id": 23117,
+"final_name": "chlorine molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33431/"
+},
+"0dd603a9355f3076": {
+"data": {
+"ascii_name": "monoatomic halogen",
+"chebi_accession": "CHEBI:33433",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33433,
+"is_released": true,
+"name": "monoatomic halogen",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33238,
+"final_name": "monoatomic entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33433/"
 },
 "0f4645c28bdbd1af": {
 "data": {
@@ -1381,6 +1662,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/64951/"
+},
+"11941f8e65778e98": {
+"data": {
+"ascii_name": "inorganic cation",
+"chebi_accession": "CHEBI:36915",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 36915,
+"is_released": true,
+"name": "inorganic cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 36914,
+"final_name": "inorganic ion",
+"relation_type": "is a"
+},
+{
+"final_id": 36916,
+"final_name": "cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/36915/"
 },
 "123be2046ecfd527": {
 "data": {
@@ -2164,6 +2480,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/30879/"
 },
+"195ac2550faa81d5": {
+"data": {
+"ascii_name": "ether",
+"chebi_accession": "CHEBI:25698",
+"default_structure": {
+"smiles": "[1*]O[2*]",
+"standard_inchi_key": null
+},
+"definition": "An organooxygen compound with formula ROR, where R is not hydrogen.",
+"id": 25698,
+"is_released": true,
+"name": "ether",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 36963,
+"final_name": "organooxygen compound",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25698/"
+},
 "1984a1fc68c1284f": {
 "data": {
 "ascii_name": "nucleotide",
@@ -2514,6 +2860,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/59780/"
 },
+"1d56e75a807dce7a": {
+"data": {
+"ascii_name": "metal cation",
+"chebi_accession": "CHEBI:25213",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 25213,
+"is_released": true,
+"name": "metal cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 23906,
+"final_name": "monoatomic cation",
+"relation_type": "is a"
+},
+{
+"final_id": 36915,
+"final_name": "inorganic cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25213/"
+},
 "1d6912441be59cf3": {
 "data": {
 "ascii_name": "phosphorus molecular entity",
@@ -2584,6 +2965,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35480/"
 },
+"1f0ede2ee8c309e1": {
+"data": {
+"ascii_name": "monoatomic ion",
+"chebi_accession": "CHEBI:24867",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 24867,
+"is_released": true,
+"name": "monoatomic ion",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 24870,
+"final_name": "ion",
+"relation_type": "is a"
+},
+{
+"final_id": 33238,
+"final_name": "monoatomic entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/24867/"
+},
 "1f4059f19ef599f4": {
 "data": {
 "ascii_name": "dipolar compound",
@@ -2644,6 +3060,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35941/"
 },
+"1f986653936b41de": {
+"data": {
+"ascii_name": "elemental zinc",
+"chebi_accession": "CHEBI:37253",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 37253,
+"is_released": true,
+"name": "elemental zinc",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 27364,
+"final_name": "zinc molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/37253/"
+},
 "201c20124e7890c0": {
 "data": {
 "ascii_name": "bacterial metabolite",
@@ -2676,6 +3122,209 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/76969/"
+},
+"205bd430ed344bc2": {
+"data": {
+"ascii_name": "1,4-butanediammonium",
+"chebi_accession": "CHEBI:326268",
+"default_structure": {
+"smiles": "[NH3+]CCCC[NH3+]",
+"standard_inchi_key": "KIDHWZJUCRJVML-UHFFFAOYSA-P"
+},
+"definition": "An alkane-α,ω-diammonium(2+) that is the dication of putrescine (1,4-butanediamine) arising from protonation of both primary amino groups; major species at pH 7.3.",
+"id": 326268,
+"is_released": true,
+"name": "1,4-butanediammonium",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 180908,
+"init_name": "2-hydroxyputrescine(2+)",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 180909,
+"init_name": "<em>N</em>-hydroxyputrescine(1+)",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 17148,
+"init_name": "putrescine",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 77746,
+"final_name": "human metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 78675,
+"final_name": "fundamental metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 70977,
+"final_name": "alkane-α,ω-diammonium(2+)",
+"relation_type": "is a"
+},
+{
+"final_id": 17148,
+"final_name": "putrescine",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/326268/"
+},
+"207bb846b5a72c65": {
+"data": {
+"ascii_name": "micronutrient",
+"chebi_accession": "CHEBI:27027",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any nutrient required in small quantities by organisms throughout their life in order to orchestrate a range of physiological functions.",
+"id": 27027,
+"is_released": true,
+"name": "micronutrient",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33284,
+"final_name": "nutrient",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/27027/"
+},
+"2175dbc84f61c7f6": {
+"data": {
+"ascii_name": "adenosine phosphate",
+"chebi_accession": "CHEBI:22256",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 22256,
+"is_released": true,
+"name": "adenosine phosphate",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 16335,
+"final_name": "adenosine",
+"relation_type": "has functional parent"
+},
+{
+"final_id": 25608,
+"final_name": "nucleoside phosphate",
+"relation_type": "is a"
+},
+{
+"final_id": 61296,
+"final_name": "adenyl ribonucleotide",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/22256/"
+},
+"21e7e74029954ba5": {
+"data": {
+"ascii_name": "diazaalkane",
+"chebi_accession": "CHEBI:46687",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 46687,
+"is_released": true,
+"name": "diazaalkane",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 39474,
+"final_name": "polyazaalkane",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/46687/"
+},
+"2210ac5e263e8a49": {
+"data": {
+"ascii_name": "primary alcohol",
+"chebi_accession": "CHEBI:15734",
+"default_structure": {
+"smiles": "*C([H])([H])O",
+"standard_inchi_key": null
+},
+"definition": "A primary alcohol is a compound in which a hydroxy group, ‒OH, is attached to a saturated carbon atom which has either three hydrogen atoms attached to it or only one other carbon atom and two hydrogen atoms attached to it.",
+"id": 15734,
+"is_released": true,
+"name": "primary alcohol",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 140854,
+"init_name": "aryllmethyl dialkyl phosphate",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 30879,
+"final_name": "alcohol",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:8406",
+"CHEBI:13676",
+"CHEBI:14887",
+"CHEBI:26262",
+"CHEBI:57489"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/15734/"
 },
 "23094d4b1ce9e592": {
 "data": {
@@ -2762,6 +3411,71 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35705/"
+},
+"235a60679773b97b": {
+"data": {
+"ascii_name": "sodium(1+)",
+"chebi_accession": "CHEBI:29101",
+"default_structure": {
+"smiles": "[Na+]",
+"standard_inchi_key": "FKNQFGJONOIPTF-UHFFFAOYSA-N"
+},
+"definition": "A monoatomic monocation obtained from sodium.",
+"id": 29101,
+"is_released": true,
+"name": "sodium(1+)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 26714,
+"init_name": "sodium salt",
+"relation_type": "has part"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 23357,
+"final_name": "cofactor",
+"relation_type": "has role"
+},
+{
+"final_id": 77746,
+"final_name": "human metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 25414,
+"final_name": "monoatomic monocation",
+"relation_type": "is a"
+},
+{
+"final_id": 33504,
+"final_name": "alkali metal cation",
+"relation_type": "is a"
+},
+{
+"final_id": 37246,
+"final_name": "elemental sodium",
+"relation_type": "is a"
+},
+{
+"final_id": 60242,
+"final_name": "monovalent inorganic cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:9175",
+"CHEBI:26717",
+"CHEBI:49766"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/29101/"
 },
 "2374305b1166ea91": {
 "data": {
@@ -2903,6 +3617,57 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33958/"
+},
+"24d6b7fbb4697af0": {
+"data": {
+"ascii_name": "triethylene glycol",
+"chebi_accession": "CHEBI:44926",
+"default_structure": {
+"smiles": "OCCOCCOCCO",
+"standard_inchi_key": "ZIBGPFATKBEMQZ-UHFFFAOYSA-N"
+},
+"definition": "A poly(ethylene glycol) that is octane-1,8-diol in which the carbon atoms at positions 3 and 6 have been replaced by oxygen atoms.",
+"id": 44926,
+"is_released": true,
+"name": "triethylene glycol",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 84233,
+"init_name": "triethylene glycol monomethyl ether",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 79056,
+"final_name": "plasticiser",
+"relation_type": "has role"
+},
+{
+"final_id": 46793,
+"final_name": "poly(ethylene glycol)",
+"relation_type": "is a"
+},
+{
+"final_id": 23824,
+"final_name": "diol",
+"relation_type": "is a"
+},
+{
+"final_id": 15734,
+"final_name": "primary alcohol",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/44926/"
 },
 "2545e654048ff341": {
 "data": {
@@ -3272,6 +4037,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/28017/"
 },
+"27648107b8c2dc29": {
+"data": {
+"ascii_name": "zinc ion",
+"chebi_accession": "CHEBI:27365",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 27365,
+"is_released": true,
+"name": "zinc ion",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 37253,
+"final_name": "elemental zinc",
+"relation_type": "is a"
+},
+{
+"final_id": 24867,
+"final_name": "monoatomic ion",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/27365/"
+},
 "2775bfa1338298a7": {
 "data": {
 "ascii_name": "monocyclic heteroarene",
@@ -3301,6 +4101,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/38179/"
+},
+"27b38c3294a4c902": {
+"data": {
+"ascii_name": "manganese cation",
+"chebi_accession": "CHEBI:25155",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 25155,
+"is_released": true,
+"name": "manganese cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33515,
+"final_name": "transition element cation",
+"relation_type": "is a"
+},
+{
+"final_id": 35115,
+"final_name": "elemental manganese",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25155/"
 },
 "281975b5609a1e84": {
 "data": {
@@ -3685,6 +4520,87 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/26878/"
 },
+"2ec7d51dc7ffdb35": {
+"data": {
+"ascii_name": "zinc(2+)",
+"chebi_accession": "CHEBI:29105",
+"default_structure": {
+"smiles": "[Zn+2]",
+"standard_inchi_key": "PTFCDOFLOPIGGS-UHFFFAOYSA-N"
+},
+"definition": null,
+"id": 29105,
+"is_released": true,
+"name": "zinc(2+)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 144323,
+"init_name": "zinc dibutyldithiocarbamate",
+"relation_type": "has part"
+},
+{
+"init_id": 144351,
+"init_name": "zinc diethyldithiocarbamate",
+"relation_type": "has part"
+},
+{
+"init_id": 35176,
+"init_name": "zinc sulfate",
+"relation_type": "has part"
+},
+{
+"init_id": 79736,
+"init_name": "ziram",
+"relation_type": "has part"
+},
+{
+"init_id": 231504,
+"init_name": "zinc nitrate",
+"relation_type": "has part"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 23357,
+"final_name": "cofactor",
+"relation_type": "has role"
+},
+{
+"final_id": 77746,
+"final_name": "human metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 30412,
+"final_name": "monoatomic dication",
+"relation_type": "is a"
+},
+{
+"final_id": 63056,
+"final_name": "zinc cation",
+"relation_type": "is a"
+},
+{
+"final_id": 60240,
+"final_name": "divalent metal cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:10113",
+"CHEBI:27368",
+"CHEBI:49972",
+"CHEBI:49982"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/29105/"
+},
 "2f20f0f08b411605": {
 "data": {
 "ascii_name": "antihypertensive agent",
@@ -3814,6 +4730,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/76759/"
+},
+"305c1266da7a46ce": {
+"data": {
+"ascii_name": "zinc group molecular entity",
+"chebi_accession": "CHEBI:33673",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33673,
+"is_released": true,
+"name": "zinc group molecular entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33340,
+"final_name": "zinc group element atom",
+"relation_type": "has part"
+},
+{
+"final_id": 33676,
+"final_name": "d-block molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33673/"
 },
 "3090f539522daf22": {
 "data": {
@@ -4031,6 +4982,118 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/38101/"
 },
+"32a0500268a081e3": {
+"data": {
+"ascii_name": "chloramphenicol",
+"chebi_accession": "CHEBI:17698",
+"default_structure": {
+"smiles": "O=C(N[C@H](CO)[C@H](O)c1ccc([N+](=O)[O-])cc1)C(Cl)Cl",
+"standard_inchi_key": "WIIZWVCIJKGZOK-RKDXNWHRSA-N"
+},
+"definition": "An organochlorine compound that is dichloro-substituted acetamide containing a nitrobenzene ring, an amide bond and two alcohol functions.",
+"id": 17698,
+"is_released": true,
+"name": "chloramphenicol",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 16730,
+"init_name": "chloramphenicol 3-acetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 3605,
+"init_name": "chloramphenicol palmitate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 63766,
+"init_name": "<em>O</em><small><sup>3</small></sup>-(2-<small>L</small>-lysino-2-oxoethyl)-<em>O</em><small><sup>1</small></sup>-[4-(trifluoroacetamido)benzylcarbonyl]chloramphenicol",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 47691,
+"init_name": "<em>O</em>-(4-trifluoroacetamidobenzylphosphonyl)chloramphenicol",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 33281,
+"final_name": "antimicrobial agent",
+"relation_type": "has role"
+},
+{
+"final_id": 131604,
+"final_name": "<em>Mycoplasma genitalium</em> metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 176497,
+"final_name": "geroprotector",
+"relation_type": "has role"
+},
+{
+"final_id": 33282,
+"final_name": "antibacterial agent",
+"relation_type": "has role"
+},
+{
+"final_id": 66981,
+"final_name": "ophthalmology drug",
+"relation_type": "has role"
+},
+{
+"final_id": 48001,
+"final_name": "protein synthesis inhibitor",
+"relation_type": "has role"
+},
+{
+"final_id": 36047,
+"final_name": "antibacterial drug",
+"relation_type": "has role"
+},
+{
+"final_id": 76971,
+"final_name": "<em>Escherichia coli</em> metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 36683,
+"final_name": "organochlorine compound",
+"relation_type": "is a"
+},
+{
+"final_id": 37622,
+"final_name": "carboxamide",
+"relation_type": "is a"
+},
+{
+"final_id": 23824,
+"final_name": "diol",
+"relation_type": "is a"
+},
+{
+"final_id": 35716,
+"final_name": "<em>C</em>-nitro compound",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:3603",
+"CHEBI:13965",
+"CHEBI:23106",
+"CHEBI:23108",
+"CHEBI:47327"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/17698/"
+},
 "3364bf35de11fa0f": {
 "data": {
 "ascii_name": "anti-asthmatic agent",
@@ -4125,6 +5188,66 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/24471/"
+},
+"346f140e051f714c": {
+"data": {
+"ascii_name": "polyamine",
+"chebi_accession": "CHEBI:88061",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any organic amino compound that contains two or more amino groups.",
+"id": 88061,
+"is_released": true,
+"name": "polyamine",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 50047,
+"final_name": "organic amino compound",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/88061/"
+},
+"3505b3fb9b2f1cb2": {
+"data": {
+"ascii_name": "autophagy inducer",
+"chebi_accession": "CHEBI:138880",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any compound that induces the process of autophagy (the self-digestion of one or more components of a cell through the action of enzymes originating within the same cell).",
+"id": 138880,
+"is_released": true,
+"name": "autophagy inducer",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 52206,
+"final_name": "biochemical role",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/138880/"
 },
 "351379f1abb00e71": {
 "data": {
@@ -4230,6 +5353,185 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/134705/"
+},
+"35ba3e7478fe1910": {
+"data": {
+"ascii_name": "C-nitro compound",
+"chebi_accession": "CHEBI:35716",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A nitro compound having the nitro group (‒NO<small><sub>2</sub></small>) attached to a carbon atom.",
+"id": 35716,
+"is_released": true,
+"name": "<em>C</em>-nitro compound",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 136622,
+"init_name": "<em>aci</em>-nitro compound",
+"relation_type": "is tautomer of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 35715,
+"final_name": "nitro compound",
+"relation_type": "is a"
+},
+{
+"final_id": 72695,
+"final_name": "organic molecule",
+"relation_type": "is a"
+},
+{
+"final_id": 136622,
+"final_name": "<em>aci</em>-nitro compound",
+"relation_type": "is tautomer of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35716/"
+},
+"35da3829dd1f701f": {
+"data": {
+"ascii_name": "poly(ethylene glycol)",
+"chebi_accession": "CHEBI:46793",
+"default_structure": {
+"smiles": "[H]OCCO",
+"standard_inchi_key": "LYCAIKOWRPUZTN-UHFFFAOYSA-N"
+},
+"definition": "A polymer composed of repeating ethyleneoxy units.",
+"id": 46793,
+"is_released": true,
+"name": "poly(ethylene glycol)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 139322,
+"init_name": "poly(ethylene glycol) derivative",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 46792,
+"final_name": "hydroxypolyether",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:53230"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/46793/"
+},
+"35e4667e58874d92": {
+"data": {
+"ascii_name": "monoatomic chlorine",
+"chebi_accession": "CHEBI:33432",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33432,
+"is_released": true,
+"name": "monoatomic chlorine",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33433,
+"final_name": "monoatomic halogen",
+"relation_type": "is a"
+},
+{
+"final_id": 33431,
+"final_name": "elemental chlorine",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33432/"
+},
+"3623c705311d27f3": {
+"data": {
+"ascii_name": "adenyl nucleotide",
+"chebi_accession": "CHEBI:61293",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A  nucleotide having adenine as the base.",
+"id": 61293,
+"is_released": true,
+"name": "adenyl nucleotide",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 26395,
+"final_name": "purine nucleotide",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/61293/"
+},
+"363bf2d791b48be7": {
+"data": {
+"ascii_name": "food acidity regulator",
+"chebi_accession": "CHEBI:64049",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A food additive that is used to change or otherwise control the acidity or alkalinity of foods. They may be acids, bases, neutralising agents or buffering agents.",
+"id": 64049,
+"is_released": true,
+"name": "food acidity regulator",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 64047,
+"final_name": "food additive",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/64049/"
 },
 "3674125751e6435d": {
 "data": {
@@ -9280,6 +10582,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33704/"
 },
+"399f275c657a2545": {
+"data": {
+"ascii_name": "inorganic anion",
+"chebi_accession": "CHEBI:24834",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 24834,
+"is_released": true,
+"name": "inorganic anion",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 22563,
+"final_name": "anion",
+"relation_type": "is a"
+},
+{
+"final_id": 36914,
+"final_name": "inorganic ion",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/24834/"
+},
 "39cfca78e9063d74": {
 "data": {
 "ascii_name": "prokaryotic metabolite",
@@ -9873,6 +11210,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/17608/"
 },
+"41b9511b11955450": {
+"data": {
+"ascii_name": "buffer",
+"chebi_accession": "CHEBI:35225",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any substance or mixture of substances that, in solution (typically aqueous), resists change in pH upon addition of small amounts of acid or base.",
+"id": 35225,
+"is_released": true,
+"name": "buffer",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 51086,
+"final_name": "chemical role",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35225/"
+},
 "4211fda65e8d9885": {
 "data": {
 "ascii_name": "plant metabolite",
@@ -9940,6 +11307,71 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/747204/"
+},
+"4268d9a6ac42b18a": {
+"data": {
+"ascii_name": "triol",
+"chebi_accession": "CHEBI:27136",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A chemical compound containing three hydroxy groups.",
+"id": 27136,
+"is_released": true,
+"name": "triol",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 26191,
+"final_name": "polyol",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/27136/"
+},
+"431e72c931690e2a": {
+"data": {
+"ascii_name": "transition element molecular entity",
+"chebi_accession": "CHEBI:33497",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A molecular entity containing one or more atoms of a transition element.",
+"id": 33497,
+"is_released": true,
+"name": "transition element molecular entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 27081,
+"final_name": "transition element atom",
+"relation_type": "has part"
+},
+{
+"final_id": 23367,
+"final_name": "molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33497/"
 },
 "436a8272a42f99ad": {
 "data": {
@@ -10010,6 +11442,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33675/"
+},
+"441a18f4d4444205": {
+"data": {
+"ascii_name": "nitro compound",
+"chebi_accession": "CHEBI:35715",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A compound having a nitro group, ‒NO<small><sub>2</sub></small> (free valence on nitrogen), which may be attached to carbon, nitrogen (as in nitramines), or oxygen (as in nitrates), among other elements (in the absence of specification, <em>C</em>-nitro compounds are usually implied).",
+"id": 35715,
+"is_released": true,
+"name": "nitro compound",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 29785,
+"final_name": "nitro group",
+"relation_type": "has part"
+},
+{
+"final_id": 51143,
+"final_name": "nitrogen molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35715/"
 },
 "445c2510d0ee29b7": {
 "data": {
@@ -10161,6 +11628,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33674/"
 },
+"4564774f227f4e08": {
+"data": {
+"ascii_name": "divalent inorganic cation",
+"chebi_accession": "CHEBI:64641",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "An inorganic cation with a valency of two.",
+"id": 64641,
+"is_released": true,
+"name": "divalent inorganic cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 36915,
+"final_name": "inorganic cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/64641/"
+},
 "458b721d5f2aa590": {
 "data": {
 "ascii_name": "organic heteromonocyclic compound",
@@ -10195,6 +11692,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25693/"
+},
+"45b897586cb73960": {
+"data": {
+"ascii_name": "diamine",
+"chebi_accession": "CHEBI:23666",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any polyamine that contains two amino groups.",
+"id": 23666,
+"is_released": true,
+"name": "diamine",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 88061,
+"final_name": "polyamine",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/23666/"
 },
 "45dfb355d3aa9415": {
 "data": {
@@ -10449,6 +11976,76 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/150654/"
 },
+"48a2dfa5dc11cf60": {
+"data": {
+"ascii_name": "food preservative",
+"chebi_accession": "CHEBI:65255",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Substances which are added to food in order to prevent decomposition caused by  microbial growth or by undesirable chemical changes.",
+"id": 65255,
+"is_released": true,
+"name": "food preservative",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 64047,
+"final_name": "food additive",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/65255/"
+},
+"493b2945ca649ac6": {
+"data": {
+"ascii_name": "food additive",
+"chebi_accession": "CHEBI:64047",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any substance which is added to food to preserve or enhance its flavour and/or appearance.",
+"id": 64047,
+"is_released": true,
+"name": "food additive",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 78295,
+"final_name": "food component",
+"relation_type": "is a"
+},
+{
+"final_id": 33232,
+"final_name": "application",
+"relation_type": "is a"
+},
+{
+"final_id": 747325,
+"final_name": "additive",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/64047/"
+},
 "498490281bcd316a": {
 "data": {
 "ascii_name": "organic heteropolycyclic compound",
@@ -10486,6 +12083,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/38166/"
+},
+"499c02b67901578a": {
+"data": {
+"ascii_name": "inorganic ion",
+"chebi_accession": "CHEBI:36914",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 36914,
+"is_released": true,
+"name": "inorganic ion",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 24870,
+"final_name": "ion",
+"relation_type": "is a"
+},
+{
+"final_id": 24835,
+"final_name": "inorganic molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/36914/"
 },
 "49b9a217b6d92fa3": {
 "data": {
@@ -10619,6 +12251,57 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35274/"
 },
+"4a07c798ce445874": {
+"data": {
+"ascii_name": "guanosine 5'-[beta,gamma-imido]triphosphate(4-)",
+"chebi_accession": "CHEBI:78409",
+"default_structure": {
+"smiles": "Nc1nc(=O)c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])NP(=O)([O-])[O-])[C@@H](O)[C@H]3O)c2n1",
+"standard_inchi_key": "UQABYHGXWYXDTK-UUOKFMHZSA-J"
+},
+"definition": "An organophosphate oxoanion obtained by deprotonation of the phosphate and phosphonate OH groups of guanosine 5'-[β,γ-imido]triphosphate.",
+"id": 78409,
+"is_released": true,
+"name": "guanosine 5'-[β,γ-imido]triphosphate(4−)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 78374,
+"init_name": "trisodium guanosine 5'-[β,γ-imido]triphosphate",
+"relation_type": "has part"
+},
+{
+"init_id": 78408,
+"init_name": "guanosine 5'-[β,γ-imido]triphosphate",
+"relation_type": "is conjugate acid of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 58945,
+"final_name": "organophosphate oxoanion",
+"relation_type": "is a"
+},
+{
+"final_id": 59635,
+"final_name": "organophosphonate oxoanion",
+"relation_type": "is a"
+},
+{
+"final_id": 78408,
+"final_name": "guanosine 5'-[β,γ-imido]triphosphate",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/78409/"
+},
 "4a1739a82285b1cd": {
 "data": {
 "ascii_name": "benzenes",
@@ -10648,6 +12331,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/22712/"
+},
+"4a3401a9a0a23e1f": {
+"data": {
+"ascii_name": "nutraceutical",
+"chebi_accession": "CHEBI:50733",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A product in capsule, tablet or liquid form that provide essential nutrients, such as a vitamin, an essential mineral, a protein, an herb, or similar nutritional substance.",
+"id": 50733,
+"is_released": true,
+"name": "nutraceutical",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 23888,
+"final_name": "drug",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/50733/"
 },
 "4a85d67ffa391d59": {
 "data": {
@@ -10699,6 +12412,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/37630/"
+},
+"4a8f372e69c48e70": {
+"data": {
+"ascii_name": "zinc molecular entity",
+"chebi_accession": "CHEBI:27364",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 27364,
+"is_released": true,
+"name": "zinc molecular entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 27363,
+"final_name": "zinc atom",
+"relation_type": "has part"
+},
+{
+"final_id": 33673,
+"final_name": "zinc group molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/27364/"
 },
 "4ac31a724d19366b": {
 "data": {
@@ -11260,6 +13008,60 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/34674/"
 },
+"4ba3f47bbbfd9d0e": {
+"data": {
+"ascii_name": "diethylene glycol",
+"chebi_accession": "CHEBI:46807",
+"default_structure": {
+"smiles": "OCCOCCO",
+"standard_inchi_key": "MTHSVFCYNBDYFN-UHFFFAOYSA-N"
+},
+"definition": null,
+"id": 46807,
+"is_released": true,
+"name": "diethylene glycol",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 40572,
+"init_name": "diethylene glycol monoethyl ether",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 46784,
+"init_name": "diglyme",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 87344,
+"init_name": "diethylene glycol diacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 44836,
+"init_name": "2-(2-methoxyethoxy)ethanol",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 46789,
+"final_name": "hydroxyether",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:34700",
+"CHEBI:44774"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/46807/"
+},
 "4bcaf047d6a87c4b": {
 "data": {
 "ascii_name": "antidyskinesia agent",
@@ -11414,6 +13216,77 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/24651/"
+},
+"4cde95b352445160": {
+"data": {
+"ascii_name": "glycol",
+"chebi_accession": "CHEBI:13643",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A diol in which the two hydroxy groups are on different carbon atoms, usually but not necessarily adjacent.",
+"id": 13643,
+"is_released": true,
+"name": "glycol",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 172390,
+"init_name": "glycol ether",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 23824,
+"final_name": "diol",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/13643/"
+},
+"4cf942145c89728d": {
+"data": {
+"ascii_name": "erythromycins",
+"chebi_accession": "CHEBI:23953",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 23953,
+"is_released": true,
+"name": "erythromycins",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 23955,
+"final_name": "erythronolide",
+"relation_type": "has functional parent"
+},
+{
+"final_id": 25105,
+"final_name": "macrolide antibiotic",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 1
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/23953/"
 },
 "4d3cf0d3b6d0df41": {
 "data": {
@@ -11670,6 +13543,57 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33575/"
 },
+"4e717fe2f5795d7d": {
+"data": {
+"ascii_name": "erythromycin A(1+)",
+"chebi_accession": "CHEBI:64268",
+"default_structure": {
+"smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H]([NH+](C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O",
+"standard_inchi_key": "ULGZDMOVFRHVEP-RWJQBGPGSA-O"
+},
+"definition": "An erythromycin cation that is the conjugate acid of erythromycin A, arising from protonation of the tertiary amino group on the 3,4,6-trideoxy-3-(dimethylamino)-β-<small>D</small>-<i>xylo</i>-hexopyranosyl residue; major species at pH 7.3.",
+"id": 64268,
+"is_released": true,
+"name": "erythromycin A(1+)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 747764,
+"init_name": "erythromycin A 2'-O-phosphate(1-)",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 42355,
+"init_name": "erythromycin A",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 76969,
+"final_name": "bacterial metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 64290,
+"final_name": "erythromycin cation",
+"relation_type": "is a"
+},
+{
+"final_id": 42355,
+"final_name": "erythromycin A",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/64268/"
+},
 "4f03b95138f7745d": {
 "data": {
 "ascii_name": "cyclic amide",
@@ -11701,6 +13625,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/23443/"
+},
+"4f35fe3e25ed4f75": {
+"data": {
+"ascii_name": "elemental magnesium",
+"chebi_accession": "CHEBI:33973",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33973,
+"is_released": true,
+"name": "elemental magnesium",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 25108,
+"final_name": "magnesium molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33973/"
 },
 "4f7fc60912229717": {
 "data": {
@@ -11844,6 +13798,81 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/23114/"
+},
+"515406ac554cb085": {
+"data": {
+"ascii_name": "hydrogen chloride",
+"chebi_accession": "CHEBI:17883",
+"default_structure": {
+"smiles": "[H]Cl",
+"standard_inchi_key": "VEXZGXHMUGYJMC-UHFFFAOYSA-N"
+},
+"definition": "A mononuclear parent hydride consisting of covalently bonded hydrogen and chlorine atoms.",
+"id": 17883,
+"is_released": true,
+"name": "hydrogen chloride",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 50315,
+"init_name": "chloronium",
+"relation_type": "is conjugate acid of"
+},
+{
+"init_id": 17996,
+"init_name": "chloride",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 75771,
+"final_name": "mouse metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 23117,
+"final_name": "chlorine molecular entity",
+"relation_type": "is a"
+},
+{
+"final_id": 37176,
+"final_name": "mononuclear parent hydride",
+"relation_type": "is a"
+},
+{
+"final_id": 18140,
+"final_name": "hydrogen halide",
+"relation_type": "is a"
+},
+{
+"final_id": 138675,
+"final_name": "gas molecular entity",
+"relation_type": "is a"
+},
+{
+"final_id": 17996,
+"final_name": "chloride",
+"relation_type": "is conjugate acid of"
+},
+{
+"final_id": 50315,
+"final_name": "chloronium",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:5590",
+"CHEBI:13364",
+"CHEBI:24635"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/17883/"
 },
 "51670521241dfb8c": {
 "data": {
@@ -12384,6 +14413,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/44678/"
 },
+"595cd0bc1403f60e": {
+"data": {
+"ascii_name": "hydroxypolyether",
+"chebi_accession": "CHEBI:46792",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A hydroxyether compound containing more than one ether group.",
+"id": 46792,
+"is_released": true,
+"name": "hydroxypolyether",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 46789,
+"final_name": "hydroxyether",
+"relation_type": "is a"
+},
+{
+"final_id": 46774,
+"final_name": "polyether",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/46792/"
+},
 "59d3cfb4b894f32d": {
 "data": {
 "ascii_name": "kasugamycin",
@@ -12584,6 +14648,46 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/72336/"
 },
+"5af48025b8d3c03e": {
+"data": {
+"ascii_name": "manganese group molecular entity",
+"chebi_accession": "CHEBI:33743",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33743,
+"is_released": true,
+"name": "manganese group molecular entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33352,
+"final_name": "manganese group element atom",
+"relation_type": "has part"
+},
+{
+"final_id": 33676,
+"final_name": "d-block molecular entity",
+"relation_type": "is a"
+},
+{
+"final_id": 33497,
+"final_name": "transition element molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33743/"
+},
 "5b3d830127b05621": {
 "data": {
 "ascii_name": "phosphorus oxoacid derivative",
@@ -12624,6 +14728,83 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/36359/"
 },
+"5b4667fcb64297db": {
+"data": {
+"ascii_name": "chloride",
+"chebi_accession": "CHEBI:17996",
+"default_structure": {
+"smiles": "[Cl-]",
+"standard_inchi_key": "VEXZGXHMUGYJMC-UHFFFAOYSA-M"
+},
+"definition": "A halide anion formed when chlorine picks up an electron to form an an anion.",
+"id": 17996,
+"is_released": true,
+"name": "chloride",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 23114,
+"init_name": "chloride salt",
+"relation_type": "has part"
+},
+{
+"init_id": 61040,
+"init_name": "phosphorylcholine chloride",
+"relation_type": "has part"
+},
+{
+"init_id": 17883,
+"init_name": "hydrogen chloride",
+"relation_type": "is conjugate acid of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 23357,
+"final_name": "cofactor",
+"relation_type": "has role"
+},
+{
+"final_id": 77746,
+"final_name": "human metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 76971,
+"final_name": "<em>Escherichia coli</em> metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 16042,
+"final_name": "halide anion",
+"relation_type": "is a"
+},
+{
+"final_id": 33432,
+"final_name": "monoatomic chlorine",
+"relation_type": "is a"
+},
+{
+"final_id": 17883,
+"final_name": "hydrogen chloride",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:3616",
+"CHEBI:3731",
+"CHEBI:13291",
+"CHEBI:13970",
+"CHEBI:48804"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/17996/"
+},
 "5bc3e54bfa2a5113": {
 "data": {
 "ascii_name": "antiglaucoma drug",
@@ -12653,6 +14834,77 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/39456/"
+},
+"5c1b3489391b07d0": {
+"data": {
+"ascii_name": "monocarboxylic acid",
+"chebi_accession": "CHEBI:25384",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "An oxoacid containing a single carboxy group.",
+"id": 25384,
+"is_released": true,
+"name": "monocarboxylic acid",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 35757,
+"init_name": "monocarboxylic acid anion",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 33575,
+"final_name": "carboxylic acid",
+"relation_type": "is a"
+},
+{
+"final_id": 35757,
+"final_name": "monocarboxylic acid anion",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25384/"
+},
+"5ca12dbcea93b97f": {
+"data": {
+"ascii_name": "elemental sodium",
+"chebi_accession": "CHEBI:37246",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 37246,
+"is_released": true,
+"name": "elemental sodium",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 26712,
+"final_name": "sodium molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/37246/"
 },
 "5ce982c0e8e04b75": {
 "data": {
@@ -13231,6 +15483,159 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/37163/"
 },
+"653e9f56d08eae71": {
+"data": {
+"ascii_name": "spermidine",
+"chebi_accession": "CHEBI:16610",
+"default_structure": {
+"smiles": "NCCCCNCCCN",
+"standard_inchi_key": "ATHGHQPFGPMSJY-UHFFFAOYSA-N"
+},
+"definition": "A triamine that is the 1,5,10-triaza derivative of decane.",
+"id": 16610,
+"is_released": true,
+"name": "spermidine",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 138028,
+"init_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis(caffeoyl)spermidine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 61233,
+"init_name": "spermidine hydroxycinnamic acid conjugate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 38524,
+"init_name": "spermidine alkaloid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 48008,
+"init_name": "<em>N</em>-(3-aminopropyl)but-2-ene-1,4-diamine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 48007,
+"init_name": "<em>N</em>-[(<i>E</i>)-4-aminobutylidene]propane-1,3-diamine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 22204,
+"init_name": "acetylspermidine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 16613,
+"init_name": "glutathionylspermidine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 17842,
+"init_name": "trypanothione",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 142881,
+"init_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis-(dihydrocaffeoyl)spermidine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 138030,
+"init_name": "<em>N</em>-caffeoylspermidine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 233088,
+"init_name": "spermidine trihydrochloride",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 85300,
+"init_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis(sinapoyl)-spermidine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 64901,
+"init_name": "mygalin",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 83547,
+"init_name": "<em>N</em><small><sup>4</small></sup>-aminopropylspermidine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 85530,
+"init_name": "<em>N</em><small><sup>1</small></sup>,<em>N</em><small><sup>8</small></sup>-bis(coumaroyl)spermidine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 66868,
+"init_name": "carboxyspermidine",
+"relation_type": "has parent hydride"
+},
+{
+"init_id": 57834,
+"init_name": "spermidine(3+)",
+"relation_type": "is conjugate acid of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 78675,
+"final_name": "fundamental metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 176497,
+"final_name": "geroprotector",
+"relation_type": "has role"
+},
+{
+"final_id": 138880,
+"final_name": "autophagy inducer",
+"relation_type": "has role"
+},
+{
+"final_id": 35674,
+"final_name": "antihypertensive agent",
+"relation_type": "has role"
+},
+{
+"final_id": 38751,
+"final_name": "triamine",
+"relation_type": "is a"
+},
+{
+"final_id": 39474,
+"final_name": "polyazaalkane",
+"relation_type": "is a"
+},
+{
+"final_id": 57834,
+"final_name": "spermidine(3+)",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:9218",
+"CHEBI:15095",
+"CHEBI:15097",
+"CHEBI:26732",
+"CHEBI:26733",
+"CHEBI:45647"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/16610/"
+},
 "655c4efb982b182b": {
 "data": {
 "ascii_name": "alpha-D-glucoside",
@@ -13270,6 +15675,157 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/22390/"
+},
+"656ffbbb11bf82a9": {
+"data": {
+"ascii_name": "antioxidant",
+"chebi_accession": "CHEBI:22586",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A substance that opposes oxidation or inhibits reactions brought about by dioxygen or peroxides.",
+"id": 22586,
+"is_released": true,
+"name": "antioxidant",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 51086,
+"final_name": "chemical role",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/22586/"
+},
+"65d6e6307a6532d6": {
+"data": {
+"ascii_name": "adenyl ribonucleotide",
+"chebi_accession": "CHEBI:61296",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A purine riboncleotide where adenine is the purine.",
+"id": 61296,
+"is_released": true,
+"name": "adenyl ribonucleotide",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 26400,
+"final_name": "purine ribonucleotide",
+"relation_type": "is a"
+},
+{
+"final_id": 61293,
+"final_name": "adenyl nucleotide",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/61296/"
+},
+"6618cdd2a1498f58": {
+"data": {
+"ascii_name": "ethanediol",
+"chebi_accession": "CHEBI:23976",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any diol that is ethane or substituted ethane carrying two hydroxy groups.",
+"id": 23976,
+"is_released": true,
+"name": "ethanediol",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 23824,
+"final_name": "diol",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/23976/"
+},
+"6670f1e014cc76b1": {
+"data": {
+"ascii_name": "erythromycin",
+"chebi_accession": "CHEBI:48923",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any of several wide-spectrum macrolide antibiotics obtained from actinomycete <em>Saccharopolyspora erythraea</em> (formerly known as <em>Streptomyces erythraeus</em>).",
+"id": 48923,
+"is_released": true,
+"name": "erythromycin",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 64290,
+"init_name": "erythromycin cation",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 76969,
+"final_name": "bacterial metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 78298,
+"final_name": "environmental contaminant",
+"relation_type": "has role"
+},
+{
+"final_id": 35703,
+"final_name": "xenobiotic",
+"relation_type": "has role"
+},
+{
+"final_id": 23953,
+"final_name": "erythromycins",
+"relation_type": "is a"
+},
+{
+"final_id": 64290,
+"final_name": "erythromycin cation",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/48923/"
 },
 "670e6b8b355d753c": {
 "data": {
@@ -13742,6 +16298,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35718/"
 },
+"6d13ac9176de4f75": {
+"data": {
+"ascii_name": "elemental molecular entity",
+"chebi_accession": "CHEBI:33259",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A molecular entity all atoms of which have the same atomic number.",
+"id": 33259,
+"is_released": true,
+"name": "elemental molecular entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 23367,
+"final_name": "molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33259/"
+},
 "6d521bc6100f33c4": {
 "data": {
 "ascii_name": "protic solvent",
@@ -13811,6 +16397,46 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33694/"
+},
+"6e150ae74d90eaa0": {
+"data": {
+"ascii_name": "nucleobase",
+"chebi_accession": "CHEBI:18282",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "That part of DNA or RNA that may be involved in pairing.",
+"id": 18282,
+"is_released": true,
+"name": "nucleobase",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 61120,
+"init_name": "nucleobase-containing molecular entity",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 38101,
+"final_name": "organonitrogen heterocyclic compound",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:2995",
+"CHEBI:13873",
+"CHEBI:25598"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/18282/"
 },
 "6e4bb6d6adceff68": {
 "data": {
@@ -14054,6 +16680,201 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/62868/"
 },
+"7004b9b2cea20c13": {
+"data": {
+"ascii_name": "acetate",
+"chebi_accession": "CHEBI:30089",
+"default_structure": {
+"smiles": "CC(=O)[O-]",
+"standard_inchi_key": "QTBSBXVTEAMEQO-UHFFFAOYSA-M"
+},
+"definition": "A monocarboxylic acid anion resulting from the removal of a proton from the carboxy group of acetic acid.",
+"id": 30089,
+"is_released": true,
+"name": "acetate",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 760836,
+"init_name": "2-acetylglycerol",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 23123,
+"init_name": "chloroacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 28240,
+"init_name": "dichloroacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 27455,
+"init_name": "trichloroacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 23715,
+"init_name": "difluoroacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 18172,
+"init_name": "fluoroacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 27110,
+"init_name": "trifluoroacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 16237,
+"init_name": "4-chlorophenylacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 28440,
+"init_name": "(2,6-dihydroxyphenyl)acetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 16169,
+"init_name": "homogentisate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 18401,
+"init_name": "phenylacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 19733,
+"init_name": "(2,2,3-trimethyl-5-oxocyclopent-3-en-1-yl)acetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 48999,
+"init_name": "4-hydroxyphenylacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 78385,
+"init_name": "1-palmityl-2-acetyl-<em>sn</em>-glycero-3-phosphate(2−)",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 85638,
+"init_name": "haloacetate(1−)",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 747879,
+"init_name": "iodoacetacte",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 192408,
+"init_name": "bromoacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 747888,
+"init_name": "2-fluoro-2-hydroxyacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 29805,
+"init_name": "glycolate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 25147,
+"init_name": "mandelate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 20479,
+"init_name": "(5-oxo-2-sulfonato-2,5-dihydrofuran-2-yl)acetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 63879,
+"init_name": "ethylammonium acetate",
+"relation_type": "has part"
+},
+{
+"init_id": 63045,
+"init_name": "lithium acetate",
+"relation_type": "has part"
+},
+{
+"init_id": 32954,
+"init_name": "sodium acetate",
+"relation_type": "has part"
+},
+{
+"init_id": 77245,
+"init_name": "lead tetraacetate",
+"relation_type": "has part"
+},
+{
+"init_id": 132481,
+"init_name": "guanidine acetate",
+"relation_type": "has part"
+},
+{
+"init_id": 32029,
+"init_name": "potassium acetate",
+"relation_type": "has part"
+},
+{
+"init_id": 3310,
+"init_name": "calcium acetate",
+"relation_type": "has part"
+},
+{
+"init_id": 15366,
+"init_name": "acetic acid",
+"relation_type": "is conjugate acid of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 77746,
+"final_name": "human metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 75772,
+"final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 35757,
+"final_name": "monocarboxylic acid anion",
+"relation_type": "is a"
+},
+{
+"final_id": 15366,
+"final_name": "acetic acid",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:13704",
+"CHEBI:22165",
+"CHEBI:40480"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/30089/"
+},
 "701d80832d260e68": {
 "data": {
 "ascii_name": "anthelminthic drug",
@@ -14163,6 +16984,92 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/139588/"
+},
+"70887ec58c9f6802": {
+"data": {
+"ascii_name": "putrescine",
+"chebi_accession": "CHEBI:17148",
+"default_structure": {
+"smiles": "NCCCCN",
+"standard_inchi_key": "KIDHWZJUCRJVML-UHFFFAOYSA-N"
+},
+"definition": "A four-carbon alkane-α,ω-diamine. It is obtained by the breakdown of amino acids and is responsible for the foul odour of putrefying flesh.",
+"id": 17148,
+"is_released": true,
+"name": "putrescine",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 48006,
+"init_name": "γ-glutamylputrescine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 26406,
+"init_name": "<em>N</em>-substituted putrescine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 180907,
+"init_name": "2-hydroxyputrescine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 73197,
+"init_name": "<em>N</em>-(4-aminobutyl)dabigatranamide",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 232519,
+"init_name": "N-butyrylputrescine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 232520,
+"init_name": "N-isobutyrylputrescine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 326268,
+"init_name": "1,4-butanediammonium",
+"relation_type": "is conjugate acid of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 22586,
+"final_name": "antioxidant",
+"relation_type": "has role"
+},
+{
+"final_id": 78675,
+"final_name": "fundamental metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 35411,
+"final_name": "alkane-α,ω-diamine",
+"relation_type": "is a"
+},
+{
+"final_id": 326268,
+"final_name": "1,4-butanediammonium",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:8650",
+"CHEBI:14972",
+"CHEBI:26405",
+"CHEBI:45092"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/17148/"
 },
 "709ef080ebc9064a": {
 "data": {
@@ -14284,6 +17191,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/51177/"
 },
+"72f974154eb70bdd": {
+"data": {
+"ascii_name": "monovalent inorganic cation",
+"chebi_accession": "CHEBI:60242",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "An atom or small molecule with a positive charge that does not contain carbon in covalent linkage, with a valency of one.",
+"id": 60242,
+"is_released": true,
+"name": "monovalent inorganic cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 36915,
+"final_name": "inorganic cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/60242/"
+},
 "736ac65a3bc4f855": {
 "data": {
 "ascii_name": "Destomysin",
@@ -14313,6 +17250,228 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/4454/"
+},
+"74590df04c3a3ea9": {
+"data": {
+"ascii_name": "guanine",
+"chebi_accession": "CHEBI:16235",
+"default_structure": {
+"smiles": "Nc1nc(=O)c2ncnc2n1",
+"standard_inchi_key": "UYTPUPDQBNUYGX-UHFFFAOYSA-N"
+},
+"definition": "A 2-aminopurine carrying a 6-oxo substituent.",
+"id": 16235,
+"is_released": true,
+"name": "guanine",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 60801,
+"init_name": "guanyl deoxyribonucleotide residue",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 16750,
+"init_name": "guanosine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 7880,
+"init_name": "9-[2-(phosphonomethoxy)ethyl]guanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 25305,
+"init_name": "methylguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 42701,
+"init_name": "9-(2-deoxy-2-fluoro-5-<em>O</em>-phosphono-β-<small>D</small>-arabinofuranosyl)guanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 24458,
+"init_name": "guanosines",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 52617,
+"init_name": "7,8-dihydro-8-oxoguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 35854,
+"init_name": "valacyclovir",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 44605,
+"init_name": "8-oxoguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 465284,
+"init_name": "ganciclovir",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 134095,
+"init_name": "<em>N</em><small><sup>2</small></sup>,3-ethenoguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 134096,
+"init_name": "1,<em>N</em><small><sup>2</small></sup>-ethenoguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 2453,
+"init_name": "acyclovir",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 27549,
+"init_name": "<em>O</em><small><sup>6</small></sup>-methyl-2'-deoxyguanosine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 61292,
+"init_name": "guanyl nucleotide",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 15318,
+"init_name": "xanthine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 63612,
+"init_name": "nelarabine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 62032,
+"init_name": "<em>N</em><small><sup>2</small></sup>-carboxyethylguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 233251,
+"init_name": "3H,5H-pyrimido[1,2-α]purin-6,10-dione",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 233252,
+"init_name": "1H,3H,5H-pyrimido[1,2-α]purin-2,6,10-trione",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 7956,
+"init_name": "penciclovir",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 63635,
+"init_name": "valganciclovir",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 74064,
+"init_name": "8-hydroxy-7-methylguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 142716,
+"init_name": "N<small><sup>2</small></sup>-(ADP-<small>D</small>-ribosyl)-guanine(2−)",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 233228,
+"init_name": "7-(2'-oxo-heptyl)-2-oxo-ethenoguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 233227,
+"init_name": "7-(2'-oxo-heptyl)-1,<em>N</em><small><sup>2</small></sup>-ethenoguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 233226,
+"init_name": "2-oxo-ethenoguanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 233250,
+"init_name": "pyrimido[1,2-α]purin-10(3H)-one",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 35589,
+"final_name": "9<em>H</em>-purine",
+"relation_type": "has parent hydride"
+},
+{
+"final_id": 35610,
+"final_name": "antineoplastic agent",
+"relation_type": "has role"
+},
+{
+"final_id": 75772,
+"final_name": "<em>Saccharomyces cerevisiae </em> metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 84735,
+"final_name": "algal metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 75771,
+"final_name": "mouse metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 76971,
+"final_name": "<em>Escherichia coli</em> metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 77746,
+"final_name": "human metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 20702,
+"final_name": "2-aminopurines",
+"relation_type": "is a"
+},
+{
+"final_id": 25810,
+"final_name": "oxopurine",
+"relation_type": "is a"
+},
+{
+"final_id": 26386,
+"final_name": "purine nucleobase",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:5563",
+"CHEBI:14371",
+"CHEBI:14372",
+"CHEBI:24443",
+"CHEBI:42948"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/16235/"
 },
 "746a6218e7b4e362": {
 "data": {
@@ -14636,6 +17795,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/152022/"
 },
+"76058ffef1f80f88": {
+"data": {
+"ascii_name": "proteinogenic amino acid derivative",
+"chebi_accession": "CHEBI:83811",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any derivative of a proteinogenic amino acid resulting from reaction at an amino group, carboxy group, or a side-chain functional group, or from the replacement of any hydrogen by a heteroatom.",
+"id": 83811,
+"is_released": true,
+"name": "proteinogenic amino acid derivative",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 83813,
+"final_name": "proteinogenic amino acid",
+"relation_type": "has functional parent"
+},
+{
+"final_id": 83821,
+"final_name": "amino-acid derivative",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/83811/"
+},
 "769957f9afb3361d": {
 "data": {
 "ascii_name": "anti-HIV agent",
@@ -14918,6 +18112,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/76092/"
+},
+"77c9f1d6af17af0e": {
+"data": {
+"ascii_name": "d-block molecular entity",
+"chebi_accession": "CHEBI:33676",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A d-block molecular entity is a molecular entity containing one or more atoms of a d-block element.",
+"id": 33676,
+"is_released": true,
+"name": "d-block molecular entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33561,
+"final_name": "d-block element atom",
+"relation_type": "has part"
+},
+{
+"final_id": 33497,
+"final_name": "transition element molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33676/"
 },
 "784789f76f0d8d1d": {
 "data": {
@@ -15475,6 +18704,87 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/70868/"
 },
+"7edf2db9c077df82": {
+"data": {
+"ascii_name": "GDP(2-)",
+"chebi_accession": "CHEBI:65180",
+"default_structure": {
+"smiles": "Nc1nc(=O)c2ncn([C@@H]3O[C@H](COP(=O)([O-])OP(=O)([O-])O)[C@@H](O)[C@H]3O)c2n1",
+"standard_inchi_key": "QGWNDRXFNXRZMB-UUOKFMHZSA-L"
+},
+"definition": "An organophosphate oxoanion arising from deprotonation of two of the the three diphosphate OH groups of guanosine 5'-diphosphate.",
+"id": 65180,
+"is_released": true,
+"name": "GDP(2−)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 17552,
+"init_name": "GDP",
+"relation_type": "is conjugate acid of"
+},
+{
+"init_id": 58189,
+"init_name": "GDP(3−)",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 58945,
+"final_name": "organophosphate oxoanion",
+"relation_type": "is a"
+},
+{
+"final_id": 58189,
+"final_name": "GDP(3−)",
+"relation_type": "is conjugate acid of"
+},
+{
+"final_id": 17552,
+"final_name": "GDP",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/65180/"
+},
+"7ee710cb5e7f2af1": {
+"data": {
+"ascii_name": "monovalent inorganic anion",
+"chebi_accession": "CHEBI:79389",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any inorganic anion with a valency of one.",
+"id": 79389,
+"is_released": true,
+"name": "monovalent inorganic anion",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 24834,
+"final_name": "inorganic anion",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/79389/"
+},
 "7f98959516e49fd0": {
 "data": {
 "ascii_name": "glucopyranose",
@@ -15539,6 +18849,47 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/87101/"
+},
+"80258de81b53648d": {
+"data": {
+"ascii_name": "N-formyl-L-methioninate",
+"chebi_accession": "CHEBI:57809",
+"default_structure": {
+"smiles": "[H]C(=O)N[C@@H](CCSC)C(=O)[O-]",
+"standard_inchi_key": "PYUSHNKNPOHWEZ-YFKPBYRVSA-M"
+},
+"definition": "The conjugate base of <em>N</em>-formyl-<small>L</small>-methionine; major species at pH 7.3.",
+"id": 57809,
+"is_released": true,
+"name": "<em>N</em>-formyl-<small>L</small>-methioninate",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 16552,
+"init_name": "<em>N</em>-formyl-<small>L</small>-methionine",
+"relation_type": "is conjugate acid of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 59874,
+"final_name": "<em>N</em>-acyl-<small>L</small>-α-amino acid anion",
+"relation_type": "is a"
+},
+{
+"final_id": 16552,
+"final_name": "<em>N</em>-formyl-<small>L</small>-methionine",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/57809/"
 },
 "803d45f31b6ed4ea": {
 "data": {
@@ -16222,6 +19573,576 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/26393/"
 },
+"85bde30e30b4b845": {
+"data": {
+"ascii_name": "monoatomic cation",
+"chebi_accession": "CHEBI:23906",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 23906,
+"is_released": true,
+"name": "monoatomic cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 24867,
+"final_name": "monoatomic ion",
+"relation_type": "is a"
+},
+{
+"final_id": 36916,
+"final_name": "cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/23906/"
+},
+"85ddbb2883f00874": {
+"data": {
+"ascii_name": "triamine",
+"chebi_accession": "CHEBI:38751",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any polyamine that contained three amino groups.",
+"id": 38751,
+"is_released": true,
+"name": "triamine",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 88061,
+"final_name": "polyamine",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/38751/"
+},
+"8675ff834a555485": {
+"data": {
+"ascii_name": "acetic acid",
+"chebi_accession": "CHEBI:15366",
+"default_structure": {
+"smiles": "CC(=O)O",
+"standard_inchi_key": "QTBSBXVTEAMEQO-UHFFFAOYSA-N"
+},
+"definition": "A simple monocarboxylic acid containing two carbons.",
+"id": 15366,
+"is_released": true,
+"name": "acetic acid",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 60702,
+"init_name": "(2,2,2-trifluoroethoxy)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 22634,
+"init_name": "arsenoacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 27869,
+"init_name": "chloroacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 36386,
+"init_name": "dichloroacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 30956,
+"init_name": "trichloroacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 30749,
+"init_name": "4-chlorophenylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 23716,
+"init_name": "difluoroacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 45892,
+"init_name": "trifluoroacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 9352,
+"init_name": "sulindac",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 30745,
+"init_name": "phenylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 18101,
+"init_name": "4-hydroxyphenylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 28478,
+"init_name": "(2-hydroxyphenyl)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 35825,
+"init_name": "mandelic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 35859,
+"init_name": "zomepirac",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 73024,
+"init_name": "<em>O</em>-acetylcarnitine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 42530,
+"init_name": "peracetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 59660,
+"init_name": "[5-fluoro-1-(4-isopropylbenzylidene)-2-methylinden-3-yl]acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 31483,
+"init_name": "diflorasone diacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 17497,
+"init_name": "glycolic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 28045,
+"init_name": "(2,2,3-trimethyl-5-oxocyclopent-3-en-1-yl)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 17445,
+"init_name": "3-hydroxyphenylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 50519,
+"init_name": "sulfoacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 37277,
+"init_name": "cyclohexylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 37276,
+"init_name": "(1-hydroxycyclohexyl)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 61316,
+"init_name": "(3<i>Z</i>)-hex-3-en-1-yl acetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 15732,
+"init_name": "phosphonoacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 15351,
+"init_name": "acetyl-CoA",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 37580,
+"init_name": "acetyl chloride",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 24803,
+"init_name": "indole-3-acetic acids",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 38478,
+"init_name": "acetamidine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 35629,
+"init_name": "naphthylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 32509,
+"init_name": "pirinixic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 46520,
+"init_name": "(2<i>S</i>)-({(5<i>Z</i>)-5-[(5-ethylfuran-2-yl)methylidene]-4-oxo-4,5-dihydro-1,3-thiazol-2-yl}amino)(4-fluorophenyl)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 41383,
+"init_name": "[(2<i>S</i>,4<i>S</i>)-2-[(1<i>R</i>)-1-amino-2-sulfanylethyl]-4-(4-hydroxybenzyl)-5-oxoimidazolidin-1-yl]acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 41608,
+"init_name": "{(2<i>R</i>)-2-[(1<i>S</i>)-1-aminoethyl]-2-hydroxy-4-methylidene-5-oxoimidazolidin-1-yl}acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 41707,
+"init_name": "[(2<i>S</i>,4<i>S</i>)-2-[(1<i>R</i>)-1-amino-2-hydroxyethyl]-4-(1<em>H</em>-imidazol-4-ylmethyl)-5-oxoimidazolidin-1-yl]acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 41749,
+"init_name": "[(2<i>S</i>,4<i>S</i>)-2-[(1<i>R</i>)-1-amino-2-hydroxyethyl]-4-(4-hydroxybenzyl)-5-oxoimidazolidin-1-yl]acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 41360,
+"init_name": "{(2<i>R</i>)-2-[(1<i>S</i>,2<i>R</i>)-1-amino-2-hydroxypropyl]-2-hydroxy-4,5-dioxoimidazolidin-1-yl}acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 47182,
+"init_name": "{[5-(3-{[1-(benzylsulfonyl)piperidin-4-yl]amino}phenyl)-4-bromo-2-(2<em>H</em>-tetrazol-5-yl)thiophen-3-yl]oxy}acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 45890,
+"init_name": "(3-amino-2,5-dioxopyrrolidin-1-yl)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 46371,
+"init_name": "uracil-6-ylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 46609,
+"init_name": "(4-oxo-3-{[5-(trifluoromethyl)-1,3-benzothiazol-2-yl]methyl}-3,4-dihydrophthalazin-1-yl)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 43741,
+"init_name": "{[5-(5-nitro-2-furyl)-1,3,4-oxadiazol-2-yl]thio}acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 47622,
+"init_name": "acetate ester",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 40145,
+"init_name": "6-{[1-(benzylsulfonyl)piperidin-4-yl]amino}-3-(carboxymethoxy)thieno[3,2-<em>b</em>][1]benzothiophene-2-carboxylic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 40208,
+"init_name": "(2<i>S</i>)-[(2<i>S</i>,3<i>S</i>,4<i>S</i>,5<i>S</i>)-1,3,4,5-tetrahydroxy-4-(hydroxymethyl)piperidin-2-yl](<small>L</small>-tyrosylamino)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 40833,
+"init_name": "(3-{(1<i>R</i>)-3-(3,4-dimethoxyphenyl)-1-[({(2<i>S</i>)-1-[(2<i>S</i>)-2-(3,4,5-trimethoxyphenyl)butanoyl]piperidin-2-yl}carbonyl)oxy]propyl}phenoxy)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 952,
+"init_name": "(2,6-dihydroxyphenyl)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 4876,
+"init_name": "etacrynic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 43485,
+"init_name": "{4-[(carboxymethoxy)carbonyl]-3,3-dioxido-1-oxonaphtho[1,2-<em>d</em>]-1,2-thiazol-2(1<em>H</em>)-yl}acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 43373,
+"init_name": "(5-fluoro-2-{[(4,5,7-trifluoro-1,3-benzothiazol-2-yl)methyl]carbamoyl}phenoxy)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 51889,
+"init_name": "cyanoacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 45807,
+"init_name": "2-thienylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 49028,
+"init_name": "acetimidic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 75882,
+"init_name": "1-alkyl-2-acetylglycerol",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 21575,
+"init_name": "<em>N</em>-acetyl-amino acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 44692,
+"init_name": "phosphonoacetohydroxamic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 9661,
+"init_name": "triacetin",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 72814,
+"init_name": "indole-1-acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 75936,
+"init_name": "1-<em>O</em>-palmityl-2-acetyl-<em>sn</em>-glycerol",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 75219,
+"init_name": "1-palmitoyl-2-acetyl-<em>sn</em>-glycero-3-phosphocholine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 75220,
+"init_name": "1-stearoyl-2-acetyl-<em>sn</em>-glycero-3-phosphocholine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 132098,
+"init_name": "methoxyacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 76158,
+"init_name": "ibufenac",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 64444,
+"init_name": "hydroxy(phenyl)2-thienylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 90124,
+"init_name": "dibromoacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 1606,
+"init_name": "1-methyl-4-imidazoleacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 70806,
+"init_name": "imidazol-2-ylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 16277,
+"init_name": "haloacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 70801,
+"init_name": "imidazol-1-ylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 28884,
+"init_name": "<em>N</em>-phenylacetamide",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 78045,
+"init_name": "2-acetyl-<em>sn</em>-glycero-3-phosphocholine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 16974,
+"init_name": "imidazol-4-ylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 70804,
+"init_name": "imidazol-5-ylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 43615,
+"init_name": "2<em>H</em>-imidazol-4-ylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 47106,
+"init_name": "(3-chloro-4-hydroxyphenyl)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 79277,
+"init_name": "1-palmityl-2-acetyl-<em>sn</em>-glycero-3-phosphate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 79280,
+"init_name": "1-hexadecyl-2-acetyl-<em>sn</em>-glycero-3-phosphoethanolamine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 76164,
+"init_name": "lonazolac",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 41967,
+"init_name": "diphenylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 64899,
+"init_name": "[(1<i>S</i>)-4-hydroxy-2,2,3-trimethylcyclopent-3-enyl]acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 31597,
+"init_name": "biphenyl-4-ylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 62964,
+"init_name": "magnesium acetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 28139,
+"init_name": "bis(4-chlorophenyl)acetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 88356,
+"init_name": "3-methylphenylacetic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 30089,
+"init_name": "acetate",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 73336,
+"final_name": "vulnerary",
+"relation_type": "has role"
+},
+{
+"final_id": 67079,
+"final_name": "anti-inflammatory agent",
+"relation_type": "has role"
+},
+{
+"final_id": 49201,
+"final_name": "anti-ulcer drug",
+"relation_type": "has role"
+},
+{
+"final_id": 64049,
+"final_name": "food acidity regulator",
+"relation_type": "has role"
+},
+{
+"final_id": 48356,
+"final_name": "protic solvent",
+"relation_type": "has role"
+},
+{
+"final_id": 83056,
+"final_name": "<em>Daphnia magna</em> metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 65256,
+"final_name": "antimicrobial food preservative",
+"relation_type": "has role"
+},
+{
+"final_id": 25384,
+"final_name": "monocarboxylic acid",
+"relation_type": "is a"
+},
+{
+"final_id": 30089,
+"final_name": "acetate",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:2387",
+"CHEBI:22169",
+"CHEBI:40486"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/15366/"
+},
 "8699850759f2ec71": {
 "data": {
 "ascii_name": "p-block element atom",
@@ -16542,6 +20463,85 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/50266/"
 },
+"89f6d2f70afacb5c": {
+"data": {
+"ascii_name": "halide anion",
+"chebi_accession": "CHEBI:16042",
+"default_structure": {
+"smiles": "[*-]",
+"standard_inchi_key": null
+},
+"definition": "A monoatomic monoanion resulting from the addition of an electron to any halogen atom.",
+"id": 16042,
+"is_released": true,
+"name": "halide anion",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 33958,
+"init_name": "halide salt",
+"relation_type": "has part"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 33429,
+"final_name": "monoatomic monoanion",
+"relation_type": "is a"
+},
+{
+"final_id": 79389,
+"final_name": "monovalent inorganic anion",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:5605",
+"CHEBI:14384"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/16042/"
+},
+"8af667380e76d81a": {
+"data": {
+"ascii_name": "additive",
+"chebi_accession": "CHEBI:747325",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "a role for a chemical additive to a mixture",
+"id": 747325,
+"is_released": true,
+"name": "additive",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 51086,
+"final_name": "chemical role",
+"relation_type": "is a"
+},
+{
+"final_id": 33232,
+"final_name": "application",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 2
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/747325/"
+},
 "8b237be72a653e4a": {
 "data": {
 "ascii_name": "antifungal agrochemical",
@@ -16582,6 +20582,139 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/86328/"
 },
+"8b2e8417e9bdfc21": {
+"data": {
+"ascii_name": "ATP",
+"chebi_accession": "CHEBI:15422",
+"default_structure": {
+"smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+"standard_inchi_key": "ZKHQWZAMYRWXGA-KQYNXXCUSA-N"
+},
+"definition": "An adenosine 5'-phosphate in which the 5'-phosphate is a triphosphate group. It is involved in the transportation of chemical energy during metabolic pathways.",
+"id": 15422,
+"is_released": true,
+"name": "ATP",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 189101,
+"init_name": "8-hydroxy-ATP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 27575,
+"init_name": "adenosine 5'-[γ-thio]triphosphate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 189100,
+"init_name": "8-oxo-ATP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 27782,
+"init_name": "3'-dehydro-ATP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 20855,
+"init_name": "ATP-sugar",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 50104,
+"init_name": "TNP-ATP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 71394,
+"init_name": "adenosine thiamine triphosphate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 62910,
+"init_name": "ethyl-ATP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 71679,
+"init_name": "<em>N</em><small><sup>6</small></sup>-(dimethylallyl)adenosine 5'-triphosphate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 71938,
+"init_name": "9-ribosyl-<i>trans</i>-zeatin 5'-triphosphate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 65119,
+"init_name": "2-hydroxy-ATP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 50732,
+"init_name": "adenosine triphosphate disodium",
+"relation_type": "has part"
+},
+{
+"init_id": 57299,
+"init_name": "ATP(3−)",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 78675,
+"final_name": "fundamental metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 23357,
+"final_name": "cofactor",
+"relation_type": "has role"
+},
+{
+"final_id": 50733,
+"final_name": "nutraceutical",
+"relation_type": "has role"
+},
+{
+"final_id": 27027,
+"final_name": "micronutrient",
+"relation_type": "has role"
+},
+{
+"final_id": 37096,
+"final_name": "adenosine 5'-phosphate",
+"relation_type": "is a"
+},
+{
+"final_id": 37045,
+"final_name": "purine ribonucleoside 5'-triphosphate",
+"relation_type": "is a"
+},
+{
+"final_id": 57299,
+"final_name": "ATP(3−)",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:2359",
+"CHEBI:10789",
+"CHEBI:10841",
+"CHEBI:13236",
+"CHEBI:22249",
+"CHEBI:40938"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/15422/"
+},
 "8b5fd47d2b256873": {
 "data": {
 "ascii_name": "pyranobenzodioxin",
@@ -16617,6 +20750,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/146295/"
 },
+"8beb107757e77dc5": {
+"data": {
+"ascii_name": "monoatomic entity",
+"chebi_accession": "CHEBI:33238",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A monoatomic entity is a molecular entity consisting of a single atom.",
+"id": 33238,
+"is_released": true,
+"name": "monoatomic entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33259,
+"final_name": "elemental molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33238/"
+},
 "8c39200650a8982c": {
 "data": {
 "ascii_name": "organic acid",
@@ -16647,6 +20810,44 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/64709/"
 },
+"8c6a25570da6d830": {
+"data": {
+"ascii_name": "N-formyl amino acid",
+"chebi_accession": "CHEBI:50759",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any <em>N</em>-acyl amino acid which has formyl as the acyl group.",
+"id": 50759,
+"is_released": true,
+"name": "<em>N</em>-formyl amino acid",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 30751,
+"final_name": "formic acid",
+"relation_type": "has functional parent"
+},
+{
+"final_id": 51569,
+"final_name": "<em>N</em>-acyl-amino acid",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:7276",
+"CHEBI:21715"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/50759/"
+},
 "8c9135725cca1df8": {
 "data": {
 "ascii_name": "base",
@@ -16676,6 +20877,42 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/22695/"
+},
+"8c9e7a575731c3a1": {
+"data": {
+"ascii_name": "anion",
+"chebi_accession": "CHEBI:22563",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A monoatomic or polyatomic species having one or more elementary charges of the electron.",
+"id": 22563,
+"is_released": true,
+"name": "anion",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 24866,
+"init_name": "salt",
+"relation_type": "has part"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 24870,
+"final_name": "ion",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/22563/"
 },
 "8d6dda7b1a47e535": {
 "data": {
@@ -16802,6 +21039,118 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33833/"
+},
+"8f5343790f184b20": {
+"data": {
+"ascii_name": "GDP",
+"chebi_accession": "CHEBI:17552",
+"default_structure": {
+"smiles": "Nc1nc(=O)c2ncn([C@@H]3O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]3O)c2n1",
+"standard_inchi_key": "QGWNDRXFNXRZMB-UUOKFMHZSA-N"
+},
+"definition": "A  purine ribonucleoside 5'-diphosphate resulting from the formal condensation of the hydroxy group at the 5' position of guanosine with pyrophosphoric acid.",
+"id": 17552,
+"is_released": true,
+"name": "GDP",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 128754,
+"init_name": "GDP-valienol",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 21169,
+"init_name": "GDP-sugar",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 38309,
+"init_name": "GDP-β-S",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 63729,
+"init_name": "7-methylguanosine 5'-diphosphate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 63730,
+"init_name": "7-methylguanosine 5'-diphosphate(1+)",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 84677,
+"init_name": "MANT-GDP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 85432,
+"init_name": "2'-MANT-GDP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 85434,
+"init_name": "3'-MANT-GDP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 65134,
+"init_name": "8-oxo-GDP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 65180,
+"init_name": "GDP(2−)",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 75771,
+"final_name": "mouse metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 76971,
+"final_name": "<em>Escherichia coli</em> metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 145437,
+"final_name": "uncoupling protein inhibitor",
+"relation_type": "has role"
+},
+{
+"final_id": 37121,
+"final_name": "guanosine 5'-phosphate",
+"relation_type": "is a"
+},
+{
+"final_id": 37038,
+"final_name": "purine ribonucleoside 5'-diphosphate",
+"relation_type": "is a"
+},
+{
+"final_id": 65180,
+"final_name": "GDP(2−)",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:5212",
+"CHEBI:13327",
+"CHEBI:14379",
+"CHEBI:24448",
+"CHEBI:42738"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/17552/"
 },
 "8fa6a2861cb5f780": {
 "data": {
@@ -17032,6 +21381,44 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/26191/"
 },
+"9337c44da65dbfea": {
+"data": {
+"ascii_name": "organosulfur compound",
+"chebi_accession": "CHEBI:33261",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "An organosulfur compound is a compound containing at least one carbon-sulfur bond.",
+"id": 33261,
+"is_released": true,
+"name": "organosulfur compound",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 26835,
+"final_name": "sulfur molecular entity",
+"relation_type": "is a"
+},
+{
+"final_id": 36962,
+"final_name": "organochalcogen compound",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:23010",
+"CHEBI:25714"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33261/"
+},
 "93cd971e90b45b1b": {
 "data": {
 "ascii_name": "nutrient",
@@ -17092,6 +21479,84 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/22587/"
 },
+"943ce5d5b089e53e": {
+"data": {
+"ascii_name": "N-acyl-amino acid",
+"chebi_accession": "CHEBI:51569",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A carboxamide resulting from the formal condensation of a carboxylic acid with the amino group of an amino acid.",
+"id": 51569,
+"is_released": true,
+"name": "<em>N</em>-acyl-amino acid",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33709,
+"final_name": "amino acid",
+"relation_type": "has functional parent"
+},
+{
+"final_id": 37622,
+"final_name": "carboxamide",
+"relation_type": "is a"
+},
+{
+"final_id": 83821,
+"final_name": "amino-acid derivative",
+"relation_type": "is a"
+},
+{
+"final_id": 33575,
+"final_name": "carboxylic acid",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:21653",
+"CHEBI:22226"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/51569/"
+},
+"94912821d8bc4217": {
+"data": {
+"ascii_name": "pentaethylene glycol",
+"chebi_accession": "CHEBI:39631",
+"default_structure": {
+"smiles": "OCCOCCOCCOCCOCCO",
+"standard_inchi_key": "JLFNLZLINWHATN-UHFFFAOYSA-N"
+},
+"definition": null,
+"id": 39631,
+"is_released": true,
+"name": "pentaethylene glycol",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 46793,
+"final_name": "poly(ethylene glycol)",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/39631/"
+},
 "94df2909cf5cd94a": {
 "data": {
 "ascii_name": "(1->4)-6-phospho-alpha-D-glucan",
@@ -17138,6 +21603,146 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/136602/"
 },
+"94ff406f188d94c1": {
+"data": {
+"ascii_name": "ethylene glycol",
+"chebi_accession": "CHEBI:30742",
+"default_structure": {
+"smiles": "OCCO",
+"standard_inchi_key": "LYCAIKOWRPUZTN-UHFFFAOYSA-N"
+},
+"definition": "A 1,2-glycol compound produced via reaction of ethylene oxide with water.",
+"id": 30742,
+"is_released": true,
+"name": "ethylene glycol",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 30741,
+"init_name": "ethylene glycol bis(2-aminoethyl)tetraacetate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 131735,
+"init_name": "4-[(2-hydroxyethoxy)carbonyl]benzoic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 84086,
+"init_name": "6-(2-hydroxyethoxy)-6-oxohexanoic acid",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 76609,
+"init_name": "ACT-132577",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 167626,
+"init_name": "2-hydroxyethyl octadecanoate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 136809,
+"init_name": "2-hydroxyethyl hexadecanoate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 46788,
+"init_name": "2-ethoxyethanol",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 78770,
+"init_name": "ethylene glycol monododecyl ether",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 82269,
+"init_name": "TCA-ethadyl",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 42263,
+"init_name": "1,2-dimethoxyethane",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 86541,
+"init_name": "2-hydroxyethyl salicylate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 131362,
+"init_name": "2-hydroxyethyl sulfonate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 111507,
+"init_name": "ethylene glycol monophosphate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 76607,
+"init_name": "macitentan",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 53436,
+"init_name": "ethylene glycol dimethacrylate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 34288,
+"init_name": "2-hydroxyethyl methacrylate",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 75771,
+"final_name": "mouse metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 25212,
+"final_name": "metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 27026,
+"final_name": "toxin",
+"relation_type": "has role"
+},
+{
+"final_id": 46787,
+"final_name": "solvent",
+"relation_type": "has role"
+},
+{
+"final_id": 23976,
+"final_name": "ethanediol",
+"relation_type": "is a"
+},
+{
+"final_id": 13643,
+"final_name": "glycol",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:5473",
+"CHEBI:21317",
+"CHEBI:42277"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/30742/"
+},
 "952de55638763360": {
 "data": {
 "ascii_name": "antilipemic drug",
@@ -17167,6 +21772,39 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35679/"
+},
+"955c0fe7038c9096": {
+"data": {
+"ascii_name": "primary diamine",
+"chebi_accession": "CHEBI:35410",
+"default_structure": {
+"smiles": "N*N",
+"standard_inchi_key": null
+},
+"definition": "A primary diamine is a compound derived from a hydrocarbon by replacing two hydrogen atoms by amino groups.",
+"id": 35410,
+"is_released": true,
+"name": "primary diamine",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 23666,
+"final_name": "diamine",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:8408",
+"CHEBI:26264"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35410/"
 },
 "95fff8993e41bd2f": {
 "data": {
@@ -17307,6 +21945,110 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35703/"
 },
+"96b5d3b4aa0e8123": {
+"data": {
+"ascii_name": "magnesium ion",
+"chebi_accession": "CHEBI:39128",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 39128,
+"is_released": true,
+"name": "magnesium ion",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33973,
+"final_name": "elemental magnesium",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 1
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/39128/"
+},
+"96bf09bec9d50b3b": {
+"data": {
+"ascii_name": "Htris",
+"chebi_accession": "CHEBI:46097",
+"default_structure": {
+"smiles": "[NH3+]C(CO)(CO)CO",
+"standard_inchi_key": "LENZDBCJOHFCAS-UHFFFAOYSA-O"
+},
+"definition": null,
+"id": 46097,
+"is_released": true,
+"name": "Htris",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 66869,
+"init_name": "tris acetate",
+"relation_type": "has part"
+},
+{
+"init_id": 67098,
+"init_name": "tris phosphate",
+"relation_type": "has part"
+},
+{
+"init_id": 6130,
+"init_name": "ketorolac tromethamine",
+"relation_type": "has part"
+},
+{
+"init_id": 67100,
+"init_name": "tris maleate",
+"relation_type": "has part"
+},
+{
+"init_id": 3404,
+"init_name": "carboprost tromethamine",
+"relation_type": "has part"
+},
+{
+"init_id": 9754,
+"init_name": "tris",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 35225,
+"final_name": "buffer",
+"relation_type": "has role"
+},
+{
+"final_id": 27136,
+"final_name": "triol",
+"relation_type": "is a"
+},
+{
+"final_id": 9754,
+"final_name": "tris",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:37213",
+"CHEBI:46096"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/46097/"
+},
 "96c029204bdb4eab": {
 "data": {
 "ascii_name": "organic amino compound",
@@ -17402,6 +22144,77 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/31634/"
 },
+"974f8d289fe51c79": {
+"data": {
+"ascii_name": "manganese molecular entity",
+"chebi_accession": "CHEBI:25154",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 25154,
+"is_released": true,
+"name": "manganese molecular entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 18291,
+"final_name": "manganese atom",
+"relation_type": "has part"
+},
+{
+"final_id": 33743,
+"final_name": "manganese group molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25154/"
+},
+"97b0ced43d722216": {
+"data": {
+"ascii_name": "proteinogenic amino acid",
+"chebi_accession": "CHEBI:83813",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any of the 23 α-amino acids that are precursors to proteins, and are incorporated into proteins during translation. The group includes the 20 amino acids encoded by the nuclear genes of eukaryotes together with selenocysteine, pyrrolysine, and <em>N</em>-formylmethionine. Apart from glycine, which is non-chiral, all have <small>L</small> configuration.",
+"id": 83813,
+"is_released": true,
+"name": "proteinogenic amino acid",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 83811,
+"init_name": "proteinogenic amino acid derivative",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 33709,
+"final_name": "amino acid",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/83813/"
+},
 "99c252f7cb7fa5ab": {
 "data": {
 "ascii_name": "alpha-L-Fucp-(1->3)-alpha-D-Glcp",
@@ -17441,6 +22254,61 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/152009/"
+},
+"9aa8aa138cc96a07": {
+"data": {
+"ascii_name": "manganese(2+)",
+"chebi_accession": "CHEBI:29035",
+"default_structure": {
+"smiles": "[Mn+2]",
+"standard_inchi_key": "WAEMQWOKJMHJLA-UHFFFAOYSA-N"
+},
+"definition": "A divalent metal cation in which the metal is manganese.",
+"id": 29035,
+"is_released": true,
+"name": "manganese(2+)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 86360,
+"init_name": "manganese(II) sulfate",
+"relation_type": "has part"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 23357,
+"final_name": "cofactor",
+"relation_type": "has role"
+},
+{
+"final_id": 25155,
+"final_name": "manganese cation",
+"relation_type": "is a"
+},
+{
+"final_id": 30412,
+"final_name": "monoatomic dication",
+"relation_type": "is a"
+},
+{
+"final_id": 60240,
+"final_name": "divalent metal cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:21435",
+"CHEBI:25156",
+"CHEBI:49749"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/29035/"
 },
 "9ad17b9817e9eea4": {
 "data": {
@@ -17849,6 +22717,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/76971/"
 },
+"9f682e5c4b5341dd": {
+"data": {
+"ascii_name": "hydroxyether",
+"chebi_accession": "CHEBI:46789",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any ether carrying a hydroxy group at unspecified position.",
+"id": 46789,
+"is_released": true,
+"name": "hydroxyether",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 25698,
+"final_name": "ether",
+"relation_type": "is a"
+},
+{
+"final_id": 30879,
+"final_name": "alcohol",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/46789/"
+},
 "9f9895e52d366991": {
 "data": {
 "ascii_name": "antiparasitic agent",
@@ -17983,6 +22886,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/78616/"
+},
+"a11c31783d806c9f": {
+"data": {
+"ascii_name": "oxopurine",
+"chebi_accession": "CHEBI:25810",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 25810,
+"is_released": true,
+"name": "oxopurine",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 26401,
+"final_name": "purines",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25810/"
 },
 "a121141cc79fe5e6": {
 "data": {
@@ -18124,6 +23057,179 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/155379/"
 },
+"a1835c62e83cef78": {
+"data": {
+"ascii_name": "poison",
+"chebi_accession": "CHEBI:64909",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any substance that causes disturbance to organisms by chemical reaction or other activity on the molecular scale, when a sufficient quantity is absorbed by the organism.",
+"id": 64909,
+"is_released": true,
+"name": "poison",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 24432,
+"final_name": "biological role",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/64909/"
+},
+"a1a60ef0d330edf7": {
+"data": {
+"ascii_name": "elemental halogen",
+"chebi_accession": "CHEBI:33434",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33434,
+"is_released": true,
+"name": "elemental halogen",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33259,
+"final_name": "elemental molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33434/"
+},
+"a1ba3c07b1707b3e": {
+"data": {
+"ascii_name": "guanosine 5'-[beta,gamma-imido]triphosphate",
+"chebi_accession": "CHEBI:78408",
+"default_structure": {
+"smiles": "Nc1nc(=O)c2ncn([C@@H]3O[C@H](COP(=O)(O)OP(=O)(O)NP(=O)(O)O)[C@@H](O)[C@H]3O)c2n1",
+"standard_inchi_key": "UQABYHGXWYXDTK-UUOKFMHZSA-N"
+},
+"definition": "A nucleoside triphosphate analogue that is GTP in which the oxygen atom bridging the β- to the γ- phosphate is replaced by a nitrogen atom A non-hydrolyzable analog of GTP, it binds tightly to G-protein in the presence of Mg<small><sup>2+</small></sup>.",
+"id": 78408,
+"is_released": true,
+"name": "guanosine 5'-[β,γ-imido]triphosphate",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 78409,
+"init_name": "guanosine 5'-[β,γ-imido]triphosphate(4−)",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 37413,
+"final_name": "nucleoside triphosphate analogue",
+"relation_type": "is a"
+},
+{
+"final_id": 78409,
+"final_name": "guanosine 5'-[β,γ-imido]triphosphate(4−)",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:42862"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/78408/"
+},
+"a1fbd861821f7992": {
+"data": {
+"ascii_name": "ribonucleoside 5'-diphosphate",
+"chebi_accession": "CHEBI:37075",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 37075,
+"is_released": true,
+"name": "ribonucleoside 5'-diphosphate",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 37015,
+"final_name": "ribonucleoside 5'-phosphate",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/37075/"
+},
+"a2fbbfd3c7e9ce0b": {
+"data": {
+"ascii_name": "L-methionine derivative",
+"chebi_accession": "CHEBI:84121",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A proteinogenic amino acid derivative resulting from reaction of <small>L</small>-methionine  at the amino group or the carboxy group, or from the replacement of any hydrogen of <small>L</small>-methionine by a heteroatom.",
+"id": 84121,
+"is_released": true,
+"name": "<small>L</small>-methionine derivative",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 16643,
+"final_name": "<small>L</small>-methionine",
+"relation_type": "has functional parent"
+},
+{
+"final_id": 83811,
+"final_name": "proteinogenic amino acid derivative",
+"relation_type": "is a"
+},
+{
+"final_id": 25230,
+"final_name": "methionine derivative",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/84121/"
+},
 "a3404d2f030fa29f": {
 "data": {
 "ascii_name": "alpha-D-Glcp-(1<->1)-alpha-D-Xylp",
@@ -18193,6 +23299,60 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/63726/"
+},
+"a3c01c8afe82ec60": {
+"data": {
+"ascii_name": "nucleoside 5'-diphosphate",
+"chebi_accession": "CHEBI:16862",
+"default_structure": {
+"smiles": "[1*][C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O",
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 16862,
+"is_released": true,
+"name": "nucleoside 5'-diphosphate",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 57930,
+"init_name": "nucleoside 5'-diphosphate(3−)",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 75771,
+"final_name": "mouse metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 25608,
+"final_name": "nucleoside phosphate",
+"relation_type": "is a"
+},
+{
+"final_id": 57930,
+"final_name": "nucleoside 5'-diphosphate(3−)",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:7428",
+"CHEBI:7652",
+"CHEBI:13401",
+"CHEBI:13662",
+"CHEBI:14675",
+"CHEBI:18181",
+"CHEBI:25606"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/16862/"
 },
 "a4311f18033f320c": {
 "data": {
@@ -18453,6 +23613,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/86426/"
+},
+"a60057b59fbbe9c2": {
+"data": {
+"ascii_name": "2-aminopurines",
+"chebi_accession": "CHEBI:20702",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any aminopurine having the amino substituent at the 2-position.",
+"id": 20702,
+"is_released": true,
+"name": "2-aminopurines",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 22527,
+"final_name": "aminopurine",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/20702/"
 },
 "a672e2c167257617": {
 "data": {
@@ -18766,6 +23956,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/85988/"
+},
+"a8f3ccf8eb126265": {
+"data": {
+"ascii_name": "adenosine 5'-phosphate",
+"chebi_accession": "CHEBI:37096",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 37096,
+"is_released": true,
+"name": "adenosine 5'-phosphate",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 22256,
+"final_name": "adenosine phosphate",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/37096/"
 },
 "a949004162c8a774": {
 "data": {
@@ -19515,6 +24735,112 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/146668/"
 },
+"adbfa2944eb2dda7": {
+"data": {
+"ascii_name": "spermidine(3+)",
+"chebi_accession": "CHEBI:57834",
+"default_structure": {
+"smiles": "[NH3+]CCCC[NH2+]CCC[NH3+]",
+"standard_inchi_key": "ATHGHQPFGPMSJY-UHFFFAOYSA-Q"
+},
+"definition": "An ammonium ion that is the trication of spermidine, formed by protonation at all three nitrogens.",
+"id": 57834,
+"is_released": true,
+"name": "spermidine(3+)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 180913,
+"init_name": "<em>N</em>-(2-carboxyethyl)spermidine(2+)",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 149586,
+"init_name": "<em>N</em>-citryl-spermidine zwitterion",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 16610,
+"init_name": "spermidine",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 77746,
+"final_name": "human metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 78675,
+"final_name": "fundamental metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 25697,
+"final_name": "organic cation",
+"relation_type": "is a"
+},
+{
+"final_id": 35274,
+"final_name": "ammonium ion derivative",
+"relation_type": "is a"
+},
+{
+"final_id": 16610,
+"final_name": "spermidine",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/57834/"
+},
+"adcf3948c59cd393": {
+"data": {
+"ascii_name": "methionine derivative",
+"chebi_accession": "CHEBI:25230",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "An amino acid derivative resulting from reaction of methionine at the amino group or the carboxy group, or from the replacement of any hydrogen of methionine  by a heteroatom. The definition normally excludes peptides containing methionine residues.",
+"id": 25230,
+"is_released": true,
+"name": "methionine derivative",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 16811,
+"final_name": "methionine",
+"relation_type": "has functional parent"
+},
+{
+"final_id": 33261,
+"final_name": "organosulfur compound",
+"relation_type": "is a"
+},
+{
+"final_id": 83821,
+"final_name": "amino-acid derivative",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25230/"
+},
 "ade9b26f6dc2b5ae": {
 "data": {
 "ascii_name": "ureas",
@@ -19838,6 +25164,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35222/"
 },
+"b11eba765c730c2b": {
+"data": {
+"ascii_name": "toxin",
+"chebi_accession": "CHEBI:27026",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Poisonous substance produced by a biological organism such as a microbe, animal or plant.",
+"id": 27026,
+"is_released": true,
+"name": "toxin",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 64909,
+"final_name": "poison",
+"relation_type": "is a"
+},
+{
+"final_id": 25212,
+"final_name": "metabolite",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/27026/"
+},
 "b1672a76e9af02bd": {
 "data": {
 "ascii_name": "pharmaceutical",
@@ -20053,6 +25414,82 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/85984/"
 },
+"b384f32f94b6686b": {
+"data": {
+"ascii_name": "ATP(3-)",
+"chebi_accession": "CHEBI:57299",
+"default_structure": {
+"smiles": "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)([O-])OP(=O)([O-])OP(=O)([O-])O)[C@@H](O)[C@H]1O",
+"standard_inchi_key": "ZKHQWZAMYRWXGA-KQYNXXCUSA-K"
+},
+"definition": "A ribonucleoside triphosphate oxoanion that is the trianion of adenosine 5'-triphosphate arising from deprotonation of three of the four free triphosphate OH groups.",
+"id": 57299,
+"is_released": true,
+"name": "ATP(3−)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 15422,
+"init_name": "ATP",
+"relation_type": "is conjugate acid of"
+},
+{
+"init_id": 237958,
+"init_name": "({[(2R,3S,4R,5R)-3,4-dihydroxy-5-(9H-purin-9-yl)oxolan-2-yl]methyl phosphonato}oxy)(phosphonatooxy)phosphinate",
+"relation_type": "is conjugate acid of"
+},
+{
+"init_id": 30616,
+"init_name": "ATP(4−)",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 78675,
+"final_name": "fundamental metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 77746,
+"final_name": "human metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 23357,
+"final_name": "cofactor",
+"relation_type": "has role"
+},
+{
+"final_id": 59724,
+"final_name": "ribonucleoside triphosphate oxoanion",
+"relation_type": "is a"
+},
+{
+"final_id": 30616,
+"final_name": "ATP(4−)",
+"relation_type": "is conjugate acid of"
+},
+{
+"final_id": 237958,
+"final_name": "({[(2R,3S,4R,5R)-3,4-dihydroxy-5-(9H-purin-9-yl)oxolan-2-yl]methyl phosphonato}oxy)(phosphonatooxy)phosphinate",
+"relation_type": "is conjugate base of"
+},
+{
+"final_id": 15422,
+"final_name": "ATP",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/57299/"
+},
 "b409a127c103d8c9": {
 "data": {
 "ascii_name": "methane clathrate",
@@ -20148,6 +25585,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/46914/"
+},
+"b592d6699f76a25b": {
+"data": {
+"ascii_name": "monoatomic monocation",
+"chebi_accession": "CHEBI:25414",
+"default_structure": {
+"smiles": "[*+]",
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 25414,
+"is_released": true,
+"name": "monoatomic monocation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 23906,
+"final_name": "monoatomic cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/25414/"
 },
 "b62afed657a7430d": {
 "data": {
@@ -20696,6 +26163,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/140574/"
 },
+"b83d641096c0c751": {
+"data": {
+"ascii_name": "alkaline earth molecular entity",
+"chebi_accession": "CHEBI:33299",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "An alkaline earth molecular entity is a molecular entity containing one or more atoms of an alkaline earth metal.",
+"id": 33299,
+"is_released": true,
+"name": "alkaline earth molecular entity",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 22313,
+"final_name": "alkaline earth metal atom",
+"relation_type": "has part"
+},
+{
+"final_id": 33674,
+"final_name": "s-block molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33299/"
+},
 "b89e936a59a3c850": {
 "data": {
 "ascii_name": "purines",
@@ -20797,6 +26299,63 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35474/"
+},
+"b9690ca0141e8c0b": {
+"data": {
+"ascii_name": "alkane-alpha,omega-diamine",
+"chebi_accession": "CHEBI:35411",
+"default_structure": {
+"smiles": "NCCCN",
+"standard_inchi_key": "XFNJVJPLKCPIBV-UHFFFAOYSA-N"
+},
+"definition": "A primary diamine that is ethane or a higher alkane in which a hydrogen of each of the terminal methyl groups has been replaced by an amino group. H<small><sub>2</sub></small>NCH<small><sub>2</sub></small>(CH<small><sub>2</sub></small>)<small><sub>n</sub></small>CH<small><sub>2</sub></small>NH<small><sub>2</sub></small>, where n = 0, 1, 2, etc.",
+"id": 35411,
+"is_released": true,
+"name": "alkane-α,ω-diamine",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 35414,
+"init_name": "<em>N</em>-monoacetylalkane-α,ω-diamine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 70977,
+"init_name": "alkane-α,ω-diammonium(2+)",
+"relation_type": "is conjugate acid of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 35410,
+"final_name": "primary diamine",
+"relation_type": "is a"
+},
+{
+"final_id": 46687,
+"final_name": "diazaalkane",
+"relation_type": "is a"
+},
+{
+"final_id": 70977,
+"final_name": "alkane-α,ω-diammonium(2+)",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:2577",
+"CHEBI:10204",
+"CHEBI:13775",
+"CHEBI:13808",
+"CHEBI:22316"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35411/"
 },
 "ba0ff25771610259": {
 "data": {
@@ -21114,6 +26673,52 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/62908/"
+},
+"bca4b6b69c6dd822": {
+"data": {
+"ascii_name": "purine nucleobase",
+"chebi_accession": "CHEBI:26386",
+"default_structure": {
+"smiles": "*C1=Nc2ncnc2C(=*)N1",
+"standard_inchi_key": null
+},
+"definition": "A nucleobase whose skeleton is derived from purine.",
+"id": 26386,
+"is_released": true,
+"name": "purine nucleobase",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 142355,
+"init_name": "purines <small>D</small>-ribonucleoside",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 142198,
+"init_name": "purine 2'-deoxyribonucleoside 5'-phosphate(2−)",
+"relation_type": "has functional parent"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 26401,
+"final_name": "purines",
+"relation_type": "is a"
+},
+{
+"final_id": 18282,
+"final_name": "nucleobase",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/26386/"
 },
 "bdc136b9df36225e": {
 "data": {
@@ -21611,6 +27216,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33447/"
 },
+"c34757826a444226": {
+"data": {
+"ascii_name": "divalent metal cation",
+"chebi_accession": "CHEBI:60240",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A metal cation with a valence of two.",
+"id": 60240,
+"is_released": true,
+"name": "divalent metal cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 64641,
+"final_name": "divalent inorganic cation",
+"relation_type": "is a"
+},
+{
+"final_id": 25213,
+"final_name": "metal cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/60240/"
+},
 "c42b3a979f53d541": {
 "data": {
 "ascii_name": "mixture",
@@ -21753,6 +27393,77 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33242/"
+},
+"c64eb990d8ac163e": {
+"data": {
+"ascii_name": "N-formyl-L-methionine",
+"chebi_accession": "CHEBI:16552",
+"default_structure": {
+"smiles": "[H]C(=O)N[C@@H](CCSC)C(=O)O",
+"standard_inchi_key": "PYUSHNKNPOHWEZ-YFKPBYRVSA-N"
+},
+"definition": "A <small>L</small>-methionine derivative in which one of the hydrogens attached to the nitrogen is replaced by a formyl group.",
+"id": 16552,
+"is_released": true,
+"name": "<em>N</em>-formyl-<small>L</small>-methionine",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 131556,
+"init_name": "3'-(<em>N</em>-formyl-<small>L</small>-methionyl)-AMP",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 53490,
+"init_name": "<em>N</em>-formyl-<small>L</small>-methionyl-<small>L</small>-leucyl-<small>L</small>-phenylalanine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 57809,
+"init_name": "<em>N</em>-formyl-<small>L</small>-methioninate",
+"relation_type": "is conjugate base of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 25212,
+"final_name": "metabolite",
+"relation_type": "has role"
+},
+{
+"final_id": 50759,
+"final_name": "<em>N</em>-formyl amino acid",
+"relation_type": "is a"
+},
+{
+"final_id": 84121,
+"final_name": "<small>L</small>-methionine derivative",
+"relation_type": "is a"
+},
+{
+"final_id": 83813,
+"final_name": "proteinogenic amino acid",
+"relation_type": "is a"
+},
+{
+"final_id": 57809,
+"final_name": "<em>N</em>-formyl-<small>L</small>-methioninate",
+"relation_type": "is conjugate acid of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:5153",
+"CHEBI:7279",
+"CHEBI:12506",
+"CHEBI:21714"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/16552/"
 },
 "c6dbd18f2f547611": {
 "data": {
@@ -21923,6 +27634,39 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/76946/"
 },
+"c88560d02e5b7c16": {
+"data": {
+"ascii_name": "monoatomic dication",
+"chebi_accession": "CHEBI:30412",
+"default_structure": {
+"smiles": "[*+2]",
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 30412,
+"is_released": true,
+"name": "monoatomic dication",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 23906,
+"final_name": "monoatomic cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:4665",
+"CHEBI:23856"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/30412/"
+},
 "c8c61a7e6425b355": {
 "data": {
 "ascii_name": "antiparkinson drug",
@@ -21952,6 +27696,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/48407/"
+},
+"c93302e33bc1b8b1": {
+"data": {
+"ascii_name": "polyether",
+"chebi_accession": "CHEBI:46774",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any ether that contains more than one ether linkage.",
+"id": 46774,
+"is_released": true,
+"name": "polyether",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 25698,
+"final_name": "ether",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/46774/"
 },
 "c960b5b875607cad": {
 "data": {
@@ -22156,6 +27930,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/36688/"
+},
+"cc3e31038c0a205d": {
+"data": {
+"ascii_name": "zinc cation",
+"chebi_accession": "CHEBI:63056",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any zinc ion that is positively charged.",
+"id": 63056,
+"is_released": true,
+"name": "zinc cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 27365,
+"final_name": "zinc ion",
+"relation_type": "is a"
+},
+{
+"final_id": 33515,
+"final_name": "transition element cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/63056/"
 },
 "ccce4efe773d3e47": {
 "data": {
@@ -22506,6 +28315,102 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/75823/"
 },
+"cea07a822b8c8546": {
+"data": {
+"ascii_name": "tris",
+"chebi_accession": "CHEBI:9754",
+"default_structure": {
+"smiles": "NC(CO)(CO)CO",
+"standard_inchi_key": "LENZDBCJOHFCAS-UHFFFAOYSA-N"
+},
+"definition": "A primary amino compound that is <em>tert</em>-butylamine in which one hydrogen attached to each methyl group is replaced by a hydroxy group. A compound widely used as a biological buffer substance in the pH range 7—9; p<em>K</em><small><sub>a</sub></small> = 8.3 at 20 °C; p<em>K</em><small><sub>a</sub></small> = 7.82 at 37 °C.",
+"id": 9754,
+"is_released": true,
+"name": "tris",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 41250,
+"init_name": "bis-tris",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 40947,
+"init_name": "bis-tris propane",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 39063,
+"init_name": "<em>N</em>-tris(hydroxymethyl)methylglycine",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 39035,
+"init_name": "TES",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 46097,
+"init_name": "Htris",
+"relation_type": "is conjugate acid of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 35441,
+"final_name": "antiinfective agent",
+"relation_type": "has role"
+},
+{
+"final_id": 35610,
+"final_name": "antineoplastic agent",
+"relation_type": "has role"
+},
+{
+"final_id": 35480,
+"final_name": "analgesic",
+"relation_type": "has role"
+},
+{
+"final_id": 35225,
+"final_name": "buffer",
+"relation_type": "has role"
+},
+{
+"final_id": 66981,
+"final_name": "ophthalmology drug",
+"relation_type": "has role"
+},
+{
+"final_id": 38068,
+"final_name": "antimalarial",
+"relation_type": "has role"
+},
+{
+"final_id": 27136,
+"final_name": "triol",
+"relation_type": "is a"
+},
+{
+"final_id": 50994,
+"final_name": "primary amino compound",
+"relation_type": "is a"
+},
+{
+"final_id": 46097,
+"final_name": "Htris",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/9754/"
+},
 "cf42c61c27b7079c": {
 "data": {
 "ascii_name": "oxonium",
@@ -22703,6 +28608,71 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/15705/"
+},
+"d177c8b16685a6b8": {
+"data": {
+"ascii_name": "polyazaalkane",
+"chebi_accession": "CHEBI:39474",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any azaalkane in which two or more carbons in the chain are replaced by nitrogen.",
+"id": 39474,
+"is_released": true,
+"name": "polyazaalkane",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 46686,
+"final_name": "azaalkane",
+"relation_type": "is a"
+},
+{
+"final_id": 88061,
+"final_name": "polyamine",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/39474/"
+},
+"d1f81c51e0e985e6": {
+"data": {
+"ascii_name": "diol",
+"chebi_accession": "CHEBI:23824",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A compound that contains two hydroxy groups, generally assumed to be, but not necessarily, alcoholic. Aliphatic diols are also called glycols.",
+"id": 23824,
+"is_released": true,
+"name": "diol",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 26191,
+"final_name": "polyol",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/23824/"
 },
 "d21b844418f34f57": {
 "data": {
@@ -23428,6 +29398,40 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/75768/"
 },
+"d7d044b718a8d1a8": {
+"data": {
+"ascii_name": "ribonucleoside diphosphat",
+"chebi_accession": "CHEBI:17668",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 17668,
+"is_released": true,
+"name": "ribonucleoside diphosphate",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 16862,
+"final_name": "nucleoside 5'-diphosphate",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:8845",
+"CHEBI:15046",
+"CHEBI:26557"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/17668/"
+},
 "d7f0ff0558a3973c": {
 "data": {
 "ascii_name": "anti-obesity agent",
@@ -23608,6 +29612,67 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33282/"
 },
+"da0861feea52960c": {
+"data": {
+"ascii_name": "magnesium(2+)",
+"chebi_accession": "CHEBI:18420",
+"default_structure": {
+"smiles": "[Mg+2]",
+"standard_inchi_key": "JLVVSXFLKOJNIY-UHFFFAOYSA-N"
+},
+"definition": null,
+"id": 18420,
+"is_released": true,
+"name": "magnesium(2+)",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 90993,
+"init_name": "MgADP(1−)",
+"relation_type": "has part"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 23357,
+"final_name": "cofactor",
+"relation_type": "has role"
+},
+{
+"final_id": 176497,
+"final_name": "geroprotector",
+"relation_type": "has role"
+},
+{
+"final_id": 39127,
+"final_name": "magnesium cation",
+"relation_type": "is a"
+},
+{
+"final_id": 60240,
+"final_name": "divalent metal cation",
+"relation_type": "is a"
+},
+{
+"final_id": 30412,
+"final_name": "monoatomic dication",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:6635",
+"CHEBI:13379",
+"CHEBI:25112",
+"CHEBI:49736"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/18420/"
+},
 "da5cb31b049ce3ea": {
 "data": {
 "ascii_name": "1,3-difluorobenzene",
@@ -23663,6 +29728,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/38584/"
+},
+"da6dff54d4f7f13c": {
+"data": {
+"ascii_name": "monoatomic anion",
+"chebi_accession": "CHEBI:23905",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 23905,
+"is_released": true,
+"name": "monoatomic anion",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 24867,
+"final_name": "monoatomic ion",
+"relation_type": "is a"
+},
+{
+"final_id": 22563,
+"final_name": "anion",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/23905/"
 },
 "da9d6beaeb794765": {
 "data": {
@@ -23744,6 +29844,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/50996/"
+},
+"db5dc26fee070d6b": {
+"data": {
+"ascii_name": "epitope",
+"chebi_accession": "CHEBI:53000",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "The biological role played by a material entity when bound by a receptor of the adaptive immune system. Specific site on an antigen to which an antibody binds.",
+"id": 53000,
+"is_released": true,
+"name": "epitope",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 24432,
+"final_name": "biological role",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/53000/"
 },
 "dc867f5061f82096": {
 "data": {
@@ -24035,6 +30165,66 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/61292/"
 },
+"dfbdb5fd09972ca3": {
+"data": {
+"ascii_name": "monoanion",
+"chebi_accession": "CHEBI:36830",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 36830,
+"is_released": true,
+"name": "monoanion",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 22563,
+"final_name": "anion",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/36830/"
+},
+"dff5e7969af0648d": {
+"data": {
+"ascii_name": "plasticiser",
+"chebi_accession": "CHEBI:79056",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any compound that is used as an additive to increase the plasticity or fluidity of a substance, particularly but not exclusively to synthetic polymers.",
+"id": 79056,
+"is_released": true,
+"name": "plasticiser",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33232,
+"final_name": "application",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/79056/"
+},
 "e03d1b7b253280d8": {
 "data": {
 "ascii_name": "ester",
@@ -24097,6 +30287,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/8732/"
+},
+"e0b019598ad19873": {
+"data": {
+"ascii_name": "aminopurine",
+"chebi_accession": "CHEBI:22527",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any purine having at least one amino substituent.",
+"id": 22527,
+"is_released": true,
+"name": "aminopurine",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 26401,
+"final_name": "purines",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/22527/"
 },
 "e0fb9d5de5242ad4": {
 "data": {
@@ -24594,6 +30814,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/75767/"
 },
+"e6875c7883d1a83a": {
+"data": {
+"ascii_name": "transition element cation",
+"chebi_accession": "CHEBI:33515",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33515,
+"is_released": true,
+"name": "transition element cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 25213,
+"final_name": "metal cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33515/"
+},
 "e699861b408d2a96": {
 "data": {
 "ascii_name": "Saccharomyces cerevisiae metabolite",
@@ -24626,6 +30876,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/75772/"
+},
+"e6c07f2d35d6ab14": {
+"data": {
+"ascii_name": "organochlorine compound",
+"chebi_accession": "CHEBI:36683",
+"default_structure": {
+"smiles": "*Cl",
+"standard_inchi_key": null
+},
+"definition": "An organochlorine compound is a compound containing at least one carbon-chlorine bond.",
+"id": 36683,
+"is_released": true,
+"name": "organochlorine compound",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 17792,
+"final_name": "organohalogen compound",
+"relation_type": "is a"
+},
+{
+"final_id": 23117,
+"final_name": "chlorine molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/36683/"
 },
 "e73690ad61e74282": {
 "data": {
@@ -24788,6 +31073,38 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/15377/"
+},
+"e86e23d772ca79b8": {
+"data": {
+"ascii_name": "amino-acid derivative",
+"chebi_accession": "CHEBI:83821",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any derivative of an amino acid resulting from reaction at an amino group, carboxy group, side-chain functional group, or from the replacement of any hydrogen by a heteroatom. The definition normally excludes peptides containing amino acid residues.",
+"id": 83821,
+"is_released": true,
+"name": "amino-acid derivative",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 35352,
+"final_name": "organonitrogen compound",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:25359"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/83821/"
 },
 "e94e54da9604cbbb": {
 "data": {
@@ -25316,6 +31633,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/154924/"
 },
+"ed286cf3c86d850f": {
+"data": {
+"ascii_name": "purine nucleoside diphosphate",
+"chebi_accession": "CHEBI:26391",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 26391,
+"is_released": true,
+"name": "purine nucleoside diphosphate",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 16862,
+"final_name": "nucleoside 5'-diphosphate",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/26391/"
+},
 "eda4f6ab9a44d562": {
 "data": {
 "ascii_name": "benzopyrrole",
@@ -25390,6 +31737,36 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33241/"
+},
+"ee37dd12a994597a": {
+"data": {
+"ascii_name": "alkali metal cation",
+"chebi_accession": "CHEBI:33504",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 33504,
+"is_released": true,
+"name": "alkali metal cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 25213,
+"final_name": "metal cation",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/33504/"
 },
 "eeed9e23024b32b1": {
 "data": {
@@ -25516,6 +31893,71 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/154730/"
+},
+"effb7b9b0adf6b6c": {
+"data": {
+"ascii_name": "nucleoside triphosphate analogue",
+"chebi_accession": "CHEBI:37413",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 37413,
+"is_released": true,
+"name": "nucleoside triphosphate analogue",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 25608,
+"final_name": "nucleoside phosphate",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/37413/"
+},
+"f0280a51c5a1a17b": {
+"data": {
+"ascii_name": "antimicrobial food preservative",
+"chebi_accession": "CHEBI:65256",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "A food preservative which prevents decomposition of food by preventing the growth of fungi or bacteria. In European countries, E-numbers for permitted food preservatives are from E200 to E299, divided into sorbates (E200-209), benzoates (E210-219), sulfites (E220-229), phenols and formates (E230-239), nitrates (E240-259), acetates (E260-269), lactates (E270-279), propionates (E280-289) and others (E290-299).",
+"id": 65256,
+"is_released": true,
+"name": "antimicrobial food preservative",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 65255,
+"final_name": "food preservative",
+"relation_type": "is a"
+},
+{
+"final_id": 33281,
+"final_name": "antimicrobial agent",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/65256/"
 },
 "f05ac8dc32661199": {
 "data": {
@@ -25923,6 +32365,36 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/64915/"
 },
+"f60a03c749b764e6": {
+"data": {
+"ascii_name": "elemental manganese",
+"chebi_accession": "CHEBI:35115",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 35115,
+"is_released": true,
+"name": "elemental manganese",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 25154,
+"final_name": "manganese molecular entity",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/35115/"
+},
 "f6221ee2f075563a": {
 "data": {
 "ascii_name": "fluorobenzenes",
@@ -26018,6 +32490,41 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/83056/"
 },
+"f6771c4dc81dc881": {
+"data": {
+"ascii_name": "magnesium cation",
+"chebi_accession": "CHEBI:39127",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "Any magnesium ion that is positively charged.",
+"id": 39127,
+"is_released": true,
+"name": "magnesium cation",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 33513,
+"final_name": "alkaline earth cation",
+"relation_type": "is a"
+},
+{
+"final_id": 39128,
+"final_name": "magnesium ion",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/39127/"
+},
 "f67e95d724e931b6": {
 "data": {
 "ascii_name": "Capreomycin IA",
@@ -26047,6 +32554,41 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/218527/"
+},
+"f6eadc7fd8e1bf6d": {
+"data": {
+"ascii_name": "(4S)-2-methylpentane-2,4-diol",
+"chebi_accession": "CHEBI:44224",
+"default_structure": {
+"smiles": "C[C@H](O)CC(C)(C)O",
+"standard_inchi_key": "SVTBMSDMJJWYQN-YFKPBYRVSA-N"
+},
+"definition": "A glycol that is the (<i>S</i>)-enantiomer of 2-methylpentane-2,4-diol.",
+"id": 44224,
+"is_released": true,
+"name": "(4<i>S</i>)-2-methylpentane-2,4-diol",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 53000,
+"final_name": "epitope",
+"relation_type": "has role"
+},
+{
+"final_id": 13643,
+"final_name": "glycol",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/44224/"
 },
 "f786789f95d431a0": {
 "data": {
@@ -26950,6 +33492,154 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/76413/"
+},
+"feec397cb2cc5dd8": {
+"data": {
+"ascii_name": "purine ribonucleoside diphosphate",
+"chebi_accession": "CHEBI:26396",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": null,
+"id": 26396,
+"is_released": true,
+"name": "purine ribonucleoside diphosphate",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 26391,
+"final_name": "purine nucleoside diphosphate",
+"relation_type": "is a"
+},
+{
+"final_id": 17668,
+"final_name": "ribonucleoside diphosphate",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/26396/"
+},
+"ff2eff4127813d13": {
+"data": {
+"ascii_name": "erythromycin A",
+"chebi_accession": "CHEBI:42355",
+"default_structure": {
+"smiles": "CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O",
+"standard_inchi_key": "ULGZDMOVFRHVEP-RWJQBGPGSA-N"
+},
+"definition": "An erythromycin that consists of erythronolide A having 2,6-dideoxy-3-<em>C</em>-methyl-3-<em>O</em>-methyl-α-<small>L</small>-<i>ribo</i>-hexopyranosyl and 3,4,6-trideoxy-3-(dimethylamino)-β-<small>D</small>-<i>xylo</i>-hexopyranosyl residues attahced at positions 4 and 6 respectively.",
+"id": 42355,
+"is_released": true,
+"name": "erythromycin A",
+"ontology_relations": {
+"incoming_relations": [
+{
+"init_id": 31555,
+"init_name": "erythromycin ethylsuccinate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 48913,
+"init_name": "erythromycin A 2'-propanoate",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 48844,
+"init_name": "roxithromycin",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 28239,
+"init_name": "erythromycin E",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 131719,
+"init_name": "flurithromycin",
+"relation_type": "has functional parent"
+},
+{
+"init_id": 64268,
+"init_name": "erythromycin A(1+)",
+"relation_type": "is conjugate acid of"
+}
+],
+"outgoing_relations": [
+{
+"final_id": 48848,
+"final_name": "erythronolide A",
+"relation_type": "has functional parent"
+},
+{
+"final_id": 48923,
+"final_name": "erythromycin",
+"relation_type": "is a"
+},
+{
+"final_id": 3992,
+"final_name": "cyclic ketone",
+"relation_type": "is a"
+},
+{
+"final_id": 64268,
+"final_name": "erythromycin A(1+)",
+"relation_type": "is conjugate base of"
+}
+]
+},
+"secondary_ids": [
+"CHEBI:4841",
+"CHEBI:4843",
+"CHEBI:23950",
+"CHEBI:28672",
+"CHEBI:42352",
+"CHEBI:112506"
+],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/42355/"
+},
+"ffa2f480709fec1a": {
+"data": {
+"ascii_name": "cofactor",
+"chebi_accession": "CHEBI:23357",
+"default_structure": {
+"smiles": null,
+"standard_inchi_key": null
+},
+"definition": "An organic molecule or ion (usually a metal ion) that is required by an enzyme for its activity. It may be attached either loosely (coenzyme) or tightly (prosthetic group).",
+"id": 23357,
+"is_released": true,
+"name": "cofactor",
+"ontology_relations": {
+"incoming_relations": [],
+"outgoing_relations": [
+{
+"final_id": 52206,
+"final_name": "biochemical role",
+"relation_type": "is a"
+}
+]
+},
+"secondary_ids": [],
+"stars": 3
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/chebi/backend/api/public/compound/23357/"
 },
 "ffa92239a8aa35eb": {
 "data": {

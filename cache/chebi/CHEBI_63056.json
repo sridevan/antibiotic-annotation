@@ -1,0 +1,109 @@
+{
+ "chebi_id": "CHEBI:63056",
+ "chebi_release": "255",
+ "definition": "Any zinc ion that is positively charged.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:27365",
+  "CHEBI:33515"
+ ],
+ "name": "zinc cation",
+ "num_descendants": 2,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:23906",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:24867",
+  "CHEBI:24870",
+  "CHEBI:25213",
+  "CHEBI:27364",
+  "CHEBI:27365",
+  "CHEBI:33238",
+  "CHEBI:33259",
+  "CHEBI:33497",
+  "CHEBI:33515",
+  "CHEBI:33673",
+  "CHEBI:33676",
+  "CHEBI:36914",
+  "CHEBI:36915",
+  "CHEBI:36916",
+  "CHEBI:37253"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:18+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "zinc cation",
+   "chebi_accession": "CHEBI:63056",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any zinc ion that is positively charged.",
+   "id": 63056,
+   "is_released": true,
+   "name": "zinc cation",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 27365,
+      "final_name": "zinc ion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33515,
+      "final_name": "transition element cation",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:63056",
+   "definition": [
+    "Any zinc ion that is positively charged."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_27365",
+    "http://purl.obolibrary.org/obo/CHEBI_33515"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23906",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25213",
+    "http://purl.obolibrary.org/obo/CHEBI_27364",
+    "http://purl.obolibrary.org/obo/CHEBI_27365",
+    "http://purl.obolibrary.org/obo/CHEBI_33238",
+    "http://purl.obolibrary.org/obo/CHEBI_33259",
+    "http://purl.obolibrary.org/obo/CHEBI_33497",
+    "http://purl.obolibrary.org/obo/CHEBI_33515",
+    "http://purl.obolibrary.org/obo/CHEBI_33673",
+    "http://purl.obolibrary.org/obo/CHEBI_33676",
+    "http://purl.obolibrary.org/obo/CHEBI_36914",
+    "http://purl.obolibrary.org/obo/CHEBI_36915",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_37253"
+   ],
+   "isObsolete": false,
+   "label": [
+    "zinc cation"
+   ],
+   "numDescendants": 2.0,
+   "numHierarchicalDescendants": 2.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

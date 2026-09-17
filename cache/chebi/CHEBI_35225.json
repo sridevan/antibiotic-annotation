@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:35225",
+ "chebi_release": "255",
+ "definition": "Any substance or mixture of substances that, in solution (typically aqueous), resists change in pH upon addition of small amounts of acid or base.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:51086"
+ ],
+ "name": "buffer",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:50906",
+  "CHEBI:51086"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:16+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "buffer",
+   "chebi_accession": "CHEBI:35225",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any substance or mixture of substances that, in solution (typically aqueous), resists change in pH upon addition of small amounts of acid or base.",
+   "id": 35225,
+   "is_released": true,
+   "name": "buffer",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 51086,
+      "final_name": "chemical role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35225",
+   "definition": [
+    "Any substance or mixture of substances that, in solution (typically aqueous), resists change in pH upon addition of small amounts of acid or base."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "isObsolete": false,
+   "label": [
+    "buffer"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,98 @@
+{
+ "chebi_id": "CHEBI:33513",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25213",
+  "CHEBI:33299"
+ ],
+ "name": "alkaline earth cation",
+ "num_descendants": 15,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:23906",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:24867",
+  "CHEBI:24870",
+  "CHEBI:25213",
+  "CHEBI:33238",
+  "CHEBI:33259",
+  "CHEBI:33299",
+  "CHEBI:33579",
+  "CHEBI:33674",
+  "CHEBI:36914",
+  "CHEBI:36915",
+  "CHEBI:36916"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:24:03+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "alkaline earth cation",
+   "chebi_accession": "CHEBI:33513",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33513,
+   "is_released": true,
+   "name": "alkaline earth cation",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 25213,
+      "final_name": "metal cation",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33299,
+      "final_name": "alkaline earth molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33513",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25213",
+    "http://purl.obolibrary.org/obo/CHEBI_33299"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23906",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25213",
+    "http://purl.obolibrary.org/obo/CHEBI_33238",
+    "http://purl.obolibrary.org/obo/CHEBI_33259",
+    "http://purl.obolibrary.org/obo/CHEBI_33299",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_36914",
+    "http://purl.obolibrary.org/obo/CHEBI_36915",
+    "http://purl.obolibrary.org/obo/CHEBI_36916"
+   ],
+   "isObsolete": false,
+   "label": [
+    "alkaline earth cation"
+   ],
+   "numDescendants": 15.0,
+   "numHierarchicalDescendants": 15.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}
