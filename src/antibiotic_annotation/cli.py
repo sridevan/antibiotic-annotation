@@ -57,7 +57,7 @@ def cmd_assembly(args) -> int:
     _print_table(rows, header) if rows else print(f"{result.pdb_id} assembly {result.assembly_id}: no antibiotic-like entities among {len(result.entities_inspected)} inspected")
     if args.all:
         print()
-        _print_table([[d["entity_id"], d["entity_kind"], (d.get("name") or "")[:40], d["status"], d.get("chebi_id") or "-"] for d in result.diagnostics], ["ID", "Type", "Name", "Status", "ChEBI"])
+        _print_table([[d["entity_id"], d["entity_kind"], (d.get("name") or "")[:40], d["status"], d.get("chebi_id") or "-", ",".join("-" + s for s in d["naming_stems"]) or "-"] for d in result.diagnostics], ["ID", "Type", "Name", "Status", "ChEBI", "Name stem"])
     return 0
 
 
@@ -89,6 +89,9 @@ def cmd_annotate(args) -> int:
         print(f"  - BIRD class: {ev.bird_class}" + (" (antibiotic)" if ev.bird_antibiotic else ""))
     for x in ev.antibiotic_named_ancestors_excluded:
         print(f"  - (excluded) {x['name']}: {x['excluded_because']}")
+    if rec.name_flags.get("antibiotic_naming_stem"):
+        for x in rec.name_flags["matches"][:3]:
+            print(f"name stem (diagnostic only): '{x['name']}' ends in -{x['stem']}: {x['meaning']}")
     for f in rec.family.get("member_of", []):
         print(f"family: component of {f['name']} ({f['chebi_id']})")
     for c in rec.mapping["candidates"]:

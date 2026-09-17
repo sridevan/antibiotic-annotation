@@ -1,0 +1,228 @@
+{
+ "chebi_id": "CHEBI:17883",
+ "chebi_release": "255",
+ "definition": "A mononuclear parent hydride consisting of covalently bonded hydrogen and chlorine atoms.",
+ "inchikey": "VEXZGXHMUGYJMC-UHFFFAOYSA-N",
+ "incoming": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:50315",
+   "target_name": "chloronium"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:17996",
+   "target_name": "chloride"
+  }
+ ],
+ "is_a": [
+  "CHEBI:138675",
+  "CHEBI:18140",
+  "CHEBI:23117",
+  "CHEBI:37176"
+ ],
+ "name": "hydrogen chloride",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:138675",
+  "CHEBI:18140",
+  "CHEBI:23117",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:33405",
+  "CHEBI:33579",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33692",
+  "CHEBI:36357",
+  "CHEBI:37176",
+  "CHEBI:37577"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:50315",
+   "target_name": null
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:17996",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:29:50+00:00",
+ "roles": [
+  "CHEBI:75771"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "hydrogen chloride",
+   "chebi_accession": "CHEBI:17883",
+   "default_structure": {
+    "smiles": "[H]Cl",
+    "standard_inchi_key": "VEXZGXHMUGYJMC-UHFFFAOYSA-N"
+   },
+   "definition": "A mononuclear parent hydride consisting of covalently bonded hydrogen and chlorine atoms.",
+   "id": 17883,
+   "is_released": true,
+   "name": "hydrogen chloride",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 50315,
+      "init_name": "chloronium",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "init_id": 17996,
+      "init_name": "chloride",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 75771,
+      "final_name": "mouse metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 23117,
+      "final_name": "chlorine molecular entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 37176,
+      "final_name": "mononuclear parent hydride",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 18140,
+      "final_name": "hydrogen halide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 138675,
+      "final_name": "gas molecular entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 17996,
+      "final_name": "chloride",
+      "relation_type": "is conjugate acid of"
+     },
+     {
+      "final_id": 50315,
+      "final_name": "chloronium",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5590",
+    "CHEBI:13364",
+    "CHEBI:24635"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17883",
+   "definition": [
+    "A mononuclear parent hydride consisting of covalently bonded hydrogen and chlorine atoms."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_138675",
+    "http://purl.obolibrary.org/obo/CHEBI_18140",
+    "http://purl.obolibrary.org/obo/CHEBI_23117",
+    "http://purl.obolibrary.org/obo/CHEBI_37176"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_138675",
+    "http://purl.obolibrary.org/obo/CHEBI_18140",
+    "http://purl.obolibrary.org/obo/CHEBI_23117",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_33405",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33692",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37176",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "chlorane"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "chloridohydrogen"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "hydrogen chloride"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "VEXZGXHMUGYJMC-UHFFFAOYSA-N",
+   "isObsolete": false,
+   "label": [
+    "hydrogen chloride"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_75771"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_50315"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_17996"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "chlorane",
+  "chloridohydrogen",
+  "hydrogen chloride"
+ ]
+}

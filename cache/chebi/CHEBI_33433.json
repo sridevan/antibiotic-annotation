@@ -1,0 +1,69 @@
+{
+ "chebi_id": "CHEBI:33433",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33238"
+ ],
+ "name": "monoatomic halogen",
+ "num_descendants": 4,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33238",
+  "CHEBI:33259"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:29:46+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "monoatomic halogen",
+   "chebi_accession": "CHEBI:33433",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33433,
+   "is_released": true,
+   "name": "monoatomic halogen",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33238,
+      "final_name": "monoatomic entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33433",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33238"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33238",
+    "http://purl.obolibrary.org/obo/CHEBI_33259"
+   ],
+   "isObsolete": false,
+   "label": [
+    "monoatomic halogen"
+   ],
+   "numDescendants": 4.0,
+   "numHierarchicalDescendants": 4.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

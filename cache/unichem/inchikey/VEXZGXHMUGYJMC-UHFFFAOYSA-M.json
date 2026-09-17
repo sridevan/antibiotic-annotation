@@ -1,0 +1,188 @@
+{
+ "compounds": [
+  {
+   "inchi": {
+    "charge": "",
+    "connections": "",
+    "formula": "ClH",
+    "hAtoms": "1H",
+    "inchi": "InChI=1S/ClH/h1H/p-1",
+    "isotopicAtoms": "",
+    "isotopicExchangeableH": "",
+    "protons": "-1",
+    "stereoDbond": "",
+    "stereoSP3": "",
+    "stereoSP3inverted": "",
+    "stereoType": "",
+    "version": "1S"
+   },
+   "sources": [
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DB14547",
+     "id": 2,
+     "longName": "DrugBank",
+     "shortName": "drugbank",
+     "url": "https://go.drugbank.com/drugs/DB14547"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CL",
+     "id": 3,
+     "longName": "RCSB PDB",
+     "shortName": "rcsb_pdb",
+     "url": "https://www.rcsb.org/ligand/CL"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CL",
+     "id": 5,
+     "longName": "Protein Data Bank in Europe",
+     "shortName": "pdbe",
+     "url": "https://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/CL"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "CHEBI:17996",
+     "id": 7,
+     "longName": "ChEBI",
+     "shortName": "chebi",
+     "url": "https://www.ebi.ac.uk/chebi/CHEBI:17996"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Q32ZN48698",
+     "id": 14,
+     "longName": "FDA/USP Substance Registration System (SRS)",
+     "shortName": "fdasrs",
+     "url": "https://d20b1koi85gdl2.cloudfront.net/uniisearch/srs/unii/Q32ZN48698"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "HMDB0000492",
+     "id": 18,
+     "longName": "HMDB",
+     "shortName": "hmdb",
+     "url": "https://www.hmdb.ca/metabolites/HMDB0000492"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "312",
+     "id": 22,
+     "longName": "PubChem Compounds",
+     "shortName": "pubchem",
+     "url": "https://pubchem.ncbi.nlm.nih.gov/compound/312"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "26979",
+     "id": 31,
+     "longName": "BindingDB",
+     "shortName": "bindingdb",
+     "url": "https://www.bindingdb.org/rwd/bind/chemsearch/marvin/SDFdownload.jsp?download_file=/rwd/bind/downloads/BindingDB_All_202601_tsv.zip26979"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "DTXSID6043969",
+     "id": 32,
+     "longName": "EPA (Environmental Protection Agency) CompTox Dashboard",
+     "shortName": "comptox",
+     "url": "https://comptox.epa.gov/dashboard/chemical/details/DTXSID6043969"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "111979",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=111979"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "141",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=141"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "177353",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=177353"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "183260",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=183260"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "183261",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=183261"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "298",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=298"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "32179",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=32179"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "32180",
+     "id": 37,
+     "longName": "Brenda",
+     "shortName": "brenda",
+     "url": "https://www.brenda-enzymes.org/ligand.php?brenda_ligand_id=32180"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "PD094508",
+     "id": 49,
+     "longName": "Probes&Drugs",
+     "shortName": "probes_and_drugs",
+     "url": "https://www.probes-drugs.org/compounds/PD094508"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "FDB006557",
+     "id": 51,
+     "longName": "The Food Database",
+     "shortName": "foodb",
+     "url": "https://foodb.ca/compounds/FDB006557"
+    },
+    {
+     "baseIDURLAvailable": true,
+     "compoundId": "Chloride",
+     "id": 84,
+     "longName": "Wikipedia",
+     "shortName": "wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Chloride"
+    }
+   ],
+   "standardInchiKey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M",
+   "uci": 301835
+  }
+ ],
+ "notFound": [],
+ "response": "Success",
+ "totalCompounds": "1"
+}

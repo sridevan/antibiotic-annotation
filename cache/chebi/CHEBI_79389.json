@@ -1,0 +1,78 @@
+{
+ "chebi_id": "CHEBI:79389",
+ "chebi_release": "255",
+ "definition": "Any inorganic anion with a valency of one.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24834"
+ ],
+ "name": "monovalent inorganic anion",
+ "num_descendants": 60,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24834",
+  "CHEBI:24835",
+  "CHEBI:24870",
+  "CHEBI:36914"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:29:48+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "monovalent inorganic anion",
+   "chebi_accession": "CHEBI:79389",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any inorganic anion with a valency of one.",
+   "id": 79389,
+   "is_released": true,
+   "name": "monovalent inorganic anion",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24834,
+      "final_name": "inorganic anion",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:79389",
+   "definition": [
+    "Any inorganic anion with a valency of one."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24834"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24834",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_36914"
+   ],
+   "isObsolete": false,
+   "label": [
+    "monovalent inorganic anion"
+   ],
+   "numDescendants": 60.0,
+   "numHierarchicalDescendants": 60.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

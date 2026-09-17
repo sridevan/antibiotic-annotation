@@ -1,0 +1,249 @@
+{
+ "chebi_id": "CHEBI:17996",
+ "chebi_release": "255",
+ "definition": "A halide anion formed when chlorine picks up an electron to form an an anion.",
+ "inchikey": "VEXZGXHMUGYJMC-UHFFFAOYSA-M",
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:23114",
+   "target_name": "chloride salt"
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:61040",
+   "target_name": "phosphorylcholine chloride"
+  },
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:17883",
+   "target_name": "hydrogen chloride"
+  }
+ ],
+ "is_a": [
+  "CHEBI:16042",
+  "CHEBI:33432"
+ ],
+ "name": "chloride",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16042",
+  "CHEBI:22563",
+  "CHEBI:23117",
+  "CHEBI:23367",
+  "CHEBI:23905",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:24834",
+  "CHEBI:24835",
+  "CHEBI:24867",
+  "CHEBI:24870",
+  "CHEBI:33238",
+  "CHEBI:33259",
+  "CHEBI:33429",
+  "CHEBI:33431",
+  "CHEBI:33432",
+  "CHEBI:33433",
+  "CHEBI:33434",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:36830",
+  "CHEBI:36914",
+  "CHEBI:79389"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:17883",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:29:46+00:00",
+ "roles": [
+  "CHEBI:23357",
+  "CHEBI:76971",
+  "CHEBI:77746"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "chloride",
+   "chebi_accession": "CHEBI:17996",
+   "default_structure": {
+    "smiles": "[Cl-]",
+    "standard_inchi_key": "VEXZGXHMUGYJMC-UHFFFAOYSA-M"
+   },
+   "definition": "A halide anion formed when chlorine picks up an electron to form an an anion.",
+   "id": 17996,
+   "is_released": true,
+   "name": "chloride",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 23114,
+      "init_name": "chloride salt",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 61040,
+      "init_name": "phosphorylcholine chloride",
+      "relation_type": "has part"
+     },
+     {
+      "init_id": 17883,
+      "init_name": "hydrogen chloride",
+      "relation_type": "is conjugate acid of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 23357,
+      "final_name": "cofactor",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 76971,
+      "final_name": "<em>Escherichia coli</em> metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 16042,
+      "final_name": "halide anion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33432,
+      "final_name": "monoatomic chlorine",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 17883,
+      "final_name": "hydrogen chloride",
+      "relation_type": "is conjugate base of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:3616",
+    "CHEBI:3731",
+    "CHEBI:13291",
+    "CHEBI:13970",
+    "CHEBI:48804"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17996",
+   "definition": [
+    "A halide anion formed when chlorine picks up an electron to form an an anion."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_16042",
+    "http://purl.obolibrary.org/obo/CHEBI_33432"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16042",
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23117",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23905",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_24834",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_33238",
+    "http://purl.obolibrary.org/obo/CHEBI_33259",
+    "http://purl.obolibrary.org/obo/CHEBI_33429",
+    "http://purl.obolibrary.org/obo/CHEBI_33431",
+    "http://purl.obolibrary.org/obo/CHEBI_33432",
+    "http://purl.obolibrary.org/obo/CHEBI_33433",
+    "http://purl.obolibrary.org/obo/CHEBI_33434",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36830",
+    "http://purl.obolibrary.org/obo/CHEBI_36914",
+    "http://purl.obolibrary.org/obo/CHEBI_79389"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Chloride"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      },
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "UniProt"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "chloride"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "chloride(1-)"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "VEXZGXHMUGYJMC-UHFFFAOYSA-M",
+   "isObsolete": false,
+   "label": [
+    "chloride"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_23357"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_76971"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_77746"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018033",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_17883"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "Chloride",
+  "chloride",
+  "chloride(1-)"
+ ]
+}

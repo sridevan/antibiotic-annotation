@@ -1,0 +1,117 @@
+{
+ "chebi_id": "CHEBI:25230",
+ "chebi_release": "255",
+ "definition": "An amino acid derivative resulting from reaction of methionine at the amino group or the carboxy group, or from the replacement of any hydrogen of methionine  by a heteroatom. The definition normally excludes peptides containing methionine residues.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33261",
+  "CHEBI:83821"
+ ],
+ "name": "methionine derivative",
+ "num_descendants": 61,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:26835",
+  "CHEBI:33261",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:36962",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:83821"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018038",
+   "target_id": "CHEBI:16811",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:29:51+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "methionine derivative",
+   "chebi_accession": "CHEBI:25230",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An amino acid derivative resulting from reaction of methionine at the amino group or the carboxy group, or from the replacement of any hydrogen of methionine  by a heteroatom. The definition normally excludes peptides containing methionine residues.",
+   "id": 25230,
+   "is_released": true,
+   "name": "methionine derivative",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 16811,
+      "final_name": "methionine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "final_id": 33261,
+      "final_name": "organosulfur compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 83821,
+      "final_name": "amino-acid derivative",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25230",
+   "definition": [
+    "An amino acid derivative resulting from reaction of methionine at the amino group or the carboxy group, or from the replacement of any hydrogen of methionine  by a heteroatom. The definition normally excludes peptides containing methionine residues."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33261",
+    "http://purl.obolibrary.org/obo/CHEBI_83821"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_26835",
+    "http://purl.obolibrary.org/obo/CHEBI_33261",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_83821"
+   ],
+   "isObsolete": false,
+   "label": [
+    "methionine derivative"
+   ],
+   "numDescendants": 61.0,
+   "numHierarchicalDescendants": 61.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018038",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16811"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

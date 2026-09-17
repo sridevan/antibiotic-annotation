@@ -10,7 +10,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from .assembly import KIND_CCD, KIND_PRD, AssemblyClient, AssemblyEntity
-from .classifier import Evidence, chebi_evidence, decide
+from .classifier import Evidence, chebi_evidence, decide, name_stem_flags
 from .models import ENTITY_BIRD, ENTITY_CCD
 from .pipeline import Pipeline
 
@@ -31,12 +31,14 @@ class AnnotationRecord:
     mapping: dict[str, Any]
     status: str                          # antibiotic_like | not_antibiotic | <mapping status when unresolved>
     family: dict[str, Any] = field(default_factory=dict)
+    name_flags: dict[str, Any] = field(default_factory=dict)  # diagnostic only: naming stems such as -mycin
 
     def to_dict(self) -> dict[str, Any]:
         return {
             "entity_id": self.entity_id, "entity_kind": self.entity_kind, "name": self.name,
             "chebi_id": self.chebi_id, "chebi_name": self.chebi_name, "antibiotic_like": self.antibiotic_like,
             "evidence": self.evidence.to_dict(), "reason": self.reason, "mapping": self.mapping, "status": self.status, "family": self.family,
+            "name_flags": self.name_flags,
         }
 
 
@@ -117,10 +119,14 @@ def annotate_entity(entity_id: str, entity_kind: str, pipeline: Pipeline | None 
         "candidates": [c.to_dict() for c in m.candidates], "related_parent": m.related_parent, "notes": m.notes,
         "inchikey": ident.inchikey,
     }
+    names: dict[str, list[str]] = {"deposited_name": [ident.name] if ident.name else [], "deposited_synonyms": ident.synonyms}
+    if m.resolved:
+        names["chebi_name"] = [res.primary_name] if res.primary_name else []
+        names["chebi_synonyms"] = [syn for cid in m.chebi_ids_for_evidence for syn in pipe.chebi.term(cid).synonyms]
     return AnnotationRecord(
         entity_id=ident.input_id, entity_kind=kind, name=res.primary_name or ident.name,
         chebi_id=m.primary_chebi_id, chebi_name=res.primary_name, antibiotic_like=hit, evidence=ev,
-        reason=reasons, mapping=mapping, status=status, family=res.family.to_dict(),
+        reason=reasons, mapping=mapping, status=status, family=res.family.to_dict(), name_flags=name_stem_flags(names),
     )
 
 
@@ -134,7 +140,8 @@ def inspect_assembly(pdb_id: str, assembly_id: str | int, pipeline: Pipeline | N
     diagnostics: list[dict[str, Any]] = []
     for ent in entities:
         rec = annotate_entity(ent.entity_id, ent.entity_kind, pipeline=pipe)
-        diag = {"entity_id": ent.entity_id, "entity_kind": ent.entity_kind, "name": rec.name, "status": rec.status, "chebi_id": rec.chebi_id, "mapping_method": rec.mapping["method"]}
+        diag = {"entity_id": ent.entity_id, "entity_kind": ent.entity_kind, "name": rec.name, "status": rec.status, "chebi_id": rec.chebi_id, "mapping_method": rec.mapping["method"],
+                "antibiotic_naming_stem": rec.name_flags["antibiotic_naming_stem"], "naming_stems": sorted({x["stem"] for x in rec.name_flags["matches"]})}
         if rec.reason:
             diag["reason"] = rec.reason
         diagnostics.append(diag)

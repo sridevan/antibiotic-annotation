@@ -95,6 +95,19 @@ def test_known_antibiotic_without_chebi_evidence_is_reported_not_antibiotic(pipe
     r = inspect_assembly("5AFI", 1, pipeline=pipe)
     d = next(d for d in r.diagnostics if d["entity_id"] == "KIR")
     assert d["status"] == "not_antibiotic" and d["chebi_id"] == "CHEBI:190786"
+    # the naming-stem diagnostic still flags it for review, without changing the decision
+    assert d["antibiotic_naming_stem"] is True and d["naming_stems"] == ["mycin"]
+    gdp = next(d for d in r.diagnostics if d["entity_id"] == "GDP")
+    assert gdp["antibiotic_naming_stem"] is False and gdp["naming_stems"] == []
+
+
+def test_name_stem_flag_on_unresolved_and_prd_entities(pipe):
+    rec = annotate_entity("HYG", "CCD", pipeline=pipe)  # unresolved, deposited name HYGROMYCIN B
+    assert rec.name_flags["antibiotic_naming_stem"] and rec.name_flags["matches"][0]["source"] == "deposited_name"
+    v = find_antibiotic_entities("4V85", 1, pipeline=pipe)[0]  # viomycin
+    assert v.name_flags["antibiotic_naming_stem"] and v.to_dict()["name_flags"]["matches"][0]["stem"] == "mycin"
+    tac = find_antibiotic_entities("5J7L", 1, pipeline=pipe)[0]
+    assert {m["stem"] for m in tac.name_flags["matches"]} == {"cycline"}
 
 
 def test_annotate_entity_validates_kind(pipe):

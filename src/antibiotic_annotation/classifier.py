@@ -102,3 +102,43 @@ def decide(ev: Evidence) -> tuple[bool, list[str]]:
     if ev.bird_antibiotic:
         reasons.append("BIRD class Antibiotic")
     return bool(reasons), reasons
+
+
+# ---------------------------------------------------------------------------
+# Name-stem diagnostic (never used for the decision)
+# ---------------------------------------------------------------------------
+
+# Naming conventions / INN stems that often, but not always, indicate an antibiotic. "-mycin"
+# only means "produced by an actinomycete": mitomycin, rapamycin, natamycin, bleomycin and
+# nigericin all carry it without being antibacterial drugs. "-bactam" marks beta-lactamase
+# inhibitors, i.e. adjuvants rather than antibiotics.
+NAME_STEMS = {
+    "mycin": "actinomycete (Streptomyces) product naming; not necessarily antibacterial",
+    "micin": "Micromonospora product naming; not necessarily antibacterial",
+    "cidin": "peptide antibiotic naming (e.g. gramicidin)",
+    "cillin": "INN stem: penicillins",
+    "oxacin": "INN stem: quinolone antibacterials",
+    "cycline": "INN stem: tetracyclines",
+    "penem": "INN stem: penems / carbapenems",
+    "planin": "INN stem: glycopeptide antibiotics",
+    "bactam": "INN stem: beta-lactamase inhibitors (antibiotic adjuvants, not antibiotics)",
+}
+_STEM_RES = {stem: re.compile(r"[a-z]" + stem + r"s?\b", re.IGNORECASE) for stem in NAME_STEMS}
+
+
+def name_stem_flags(names: dict[str, list[str]]) -> dict[str, Any]:
+    """Diagnostic only. ``names`` maps a source label to the names/synonyms it provides.
+
+    Returns {"antibiotic_naming_stem": bool, "matches": [{"name", "stem", "source", "meaning"}]}.
+    """
+    matches: list[dict[str, str]] = []
+    seen: set[tuple[str, str]] = set()
+    for source, values in names.items():
+        for value in values or []:
+            if not value:
+                continue
+            for stem, rx in _STEM_RES.items():
+                if rx.search(value) and (value.lower(), stem) not in seen:
+                    seen.add((value.lower(), stem))
+                    matches.append({"name": value, "stem": stem, "source": source, "meaning": NAME_STEMS[stem]})
+    return {"antibiotic_naming_stem": bool(matches), "matches": matches}

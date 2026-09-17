@@ -1,4 +1,4 @@
-from antibiotic_annotation.classifier import chebi_evidence, decide, is_antibiotic_class_label
+from antibiotic_annotation.classifier import chebi_evidence, decide, is_antibiotic_class_label, name_stem_flags
 
 
 def test_antibiotic_class_label_rule():
@@ -53,3 +53,14 @@ def test_bird_antibiotic_is_a_reason_on_its_own(chebi):
 
     ev = Evidence(bird_antibiotic=True, bird_class="Antibiotic")
     assert decide(ev) == (True, ["BIRD class Antibiotic"])
+
+
+def test_name_stem_flags_are_diagnostic_only():
+    f = name_stem_flags({"deposited_name": ["KIRROMYCIN"], "chebi_name": ["Mocimycin"]})
+    assert f["antibiotic_naming_stem"] and {m["stem"] for m in f["matches"]} == {"mycin"}
+    assert {m["source"] for m in f["matches"]} == {"deposited_name", "chebi_name"}
+    assert name_stem_flags({"deposited_name": ["GUANOSINE-5'-TRIPHOSPHATE"]}) == {"antibiotic_naming_stem": False, "matches": []}
+    assert name_stem_flags({"deposited_name": ["avibactam"]})["matches"][0]["stem"] == "bactam"
+    assert name_stem_flags({"deposited_name": ["tetracycline"]})["matches"][0]["stem"] == "cycline"
+    assert name_stem_flags({"deposited_name": ["rapamycin"]})["antibiotic_naming_stem"] is True  # immunosuppressant: why it is only a flag
+    assert not name_stem_flags({"deposited_name": ["Mycin"]})["antibiotic_naming_stem"]  # needs a preceding letter

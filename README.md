@@ -80,6 +80,13 @@ antibiotic-named ancestors that were excluded because their label restricts them
 non-antibacterial use (e.g. "antibiotic fungicide"), `bird_class` and `bird_antibiotic`.
 `reason` lists which evidence caused the match.
 
+`name_flags` is a **diagnostic only**: naming stems such as -mycin, -micin, -cidin, -cillin,
+-oxacin, -cycline, -penem, -planin and -bactam found in the deposited name, ChEBI name or their
+synonyms, each with its meaning. "-mycin" only means "actinomycete product" (mitomycin,
+rapamycin, natamycin and nigericin carry it too) and "-bactam" marks adjuvants, so the flag never
+influences `antibiotic_like`; it exists to review `not_antibiotic` and unresolved entities such as
+kirromycin or hygromycin B. The `--all` table shows it in the "Name stem" column.
+
 `inspect_assembly(...).diagnostics` has one row per inspected entity with `status`:
 `antibiotic_like`, `not_antibiotic` (mapped, rule not met), or the mapping status when the
 entity could not be mapped (`unresolved_identity_conflict`, `unresolved_no_chebi`, ...), so

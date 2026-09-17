@@ -1,0 +1,268 @@
+{
+ "chebi_id": "CHEBI:16552",
+ "chebi_release": "255",
+ "definition": "A <small>L</small>-methionine derivative in which one of the hydrogens attached to the nitrogen is replaced by a formyl group.",
+ "inchikey": "PYUSHNKNPOHWEZ-YFKPBYRVSA-N",
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:131556",
+   "target_name": "3'-(<em>N</em>-formyl-<small>L</small>-methionyl)-AMP"
+  },
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:53490",
+   "target_name": "<em>N</em>-formyl-<small>L</small>-methionyl-<small>L</small>-leucyl-<small>L</small>-phenylalanine"
+  },
+  {
+   "relation": "is_conjugate_base_of",
+   "target_id": "CHEBI:57809",
+   "target_name": "<em>N</em>-formyl-<small>L</small>-methioninate"
+  }
+ ],
+ "is_a": [
+  "CHEBI:50759",
+  "CHEBI:83813",
+  "CHEBI:84121"
+ ],
+ "name": "N-formyl-L-methionine",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24833",
+  "CHEBI:25230",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:26835",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33261",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33575",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:33709",
+  "CHEBI:35352",
+  "CHEBI:35605",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:37622",
+  "CHEBI:50047",
+  "CHEBI:50759",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:51569",
+  "CHEBI:64709",
+  "CHEBI:72695",
+  "CHEBI:83811",
+  "CHEBI:83813",
+  "CHEBI:83821",
+  "CHEBI:84121"
+ ],
+ "relations": [
+  {
+   "relation": "is_conjugate_acid_of",
+   "target_id": "CHEBI:57809",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:29:50+00:00",
+ "roles": [
+  "CHEBI:25212"
+ ],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "N-formyl-L-methionine",
+   "chebi_accession": "CHEBI:16552",
+   "default_structure": {
+    "smiles": "[H]C(=O)N[C@@H](CCSC)C(=O)O",
+    "standard_inchi_key": "PYUSHNKNPOHWEZ-YFKPBYRVSA-N"
+   },
+   "definition": "A <small>L</small>-methionine derivative in which one of the hydrogens attached to the nitrogen is replaced by a formyl group.",
+   "id": 16552,
+   "is_released": true,
+   "name": "<em>N</em>-formyl-<small>L</small>-methionine",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 131556,
+      "init_name": "3'-(<em>N</em>-formyl-<small>L</small>-methionyl)-AMP",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 53490,
+      "init_name": "<em>N</em>-formyl-<small>L</small>-methionyl-<small>L</small>-leucyl-<small>L</small>-phenylalanine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 57809,
+      "init_name": "<em>N</em>-formyl-<small>L</small>-methioninate",
+      "relation_type": "is conjugate base of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 25212,
+      "final_name": "metabolite",
+      "relation_type": "has role"
+     },
+     {
+      "final_id": 50759,
+      "final_name": "<em>N</em>-formyl amino acid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 84121,
+      "final_name": "<small>L</small>-methionine derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 83813,
+      "final_name": "proteinogenic amino acid",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 57809,
+      "final_name": "<em>N</em>-formyl-<small>L</small>-methioninate",
+      "relation_type": "is conjugate acid of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5153",
+    "CHEBI:7279",
+    "CHEBI:12506",
+    "CHEBI:21714"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:16552",
+   "definition": [
+    "A <small>L</small>-methionine derivative in which one of the hydrogens attached to the nitrogen is replaced by a formyl group."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_50759",
+    "http://purl.obolibrary.org/obo/CHEBI_83813",
+    "http://purl.obolibrary.org/obo/CHEBI_84121"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24833",
+    "http://purl.obolibrary.org/obo/CHEBI_25230",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_26835",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33261",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33575",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33709",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50759",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_51569",
+    "http://purl.obolibrary.org/obo/CHEBI_64709",
+    "http://purl.obolibrary.org/obo/CHEBI_72695",
+    "http://purl.obolibrary.org/obo/CHEBI_83811",
+    "http://purl.obolibrary.org/obo/CHEBI_83813",
+    "http://purl.obolibrary.org/obo/CHEBI_83821",
+    "http://purl.obolibrary.org/obo/CHEBI_84121"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "(2S)-2-formamido-4-(methylsulfanyl)butanoic acid"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "KEGG_COMPOUND"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "N-Formyl-L-methionine"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "N-formyl-L-methionine"
+    }
+   ],
+   "https://w3id.org/chemrof/inchi_key_string": "PYUSHNKNPOHWEZ-YFKPBYRVSA-N",
+   "isObsolete": false,
+   "label": [
+    "N-formyl-L-methionine"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0000087",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_25212"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018034",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_57809"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "(2S)-2-formamido-4-(methylsulfanyl)butanoic acid",
+  "N-Formyl-L-methionine",
+  "N-formyl-L-methionine"
+ ]
+}

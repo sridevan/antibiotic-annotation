@@ -1,0 +1,131 @@
+{
+ "chebi_id": "CHEBI:16042",
+ "chebi_release": "255",
+ "definition": "A monoatomic monoanion resulting from the addition of an electron to any halogen atom.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33958",
+   "target_name": "halide salt"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33429",
+  "CHEBI:79389"
+ ],
+ "name": "halide anion",
+ "num_descendants": 5,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22563",
+  "CHEBI:23367",
+  "CHEBI:23905",
+  "CHEBI:24431",
+  "CHEBI:24834",
+  "CHEBI:24835",
+  "CHEBI:24867",
+  "CHEBI:24870",
+  "CHEBI:33238",
+  "CHEBI:33259",
+  "CHEBI:33429",
+  "CHEBI:36830",
+  "CHEBI:36914",
+  "CHEBI:79389"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:29:48+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "halide anion",
+   "chebi_accession": "CHEBI:16042",
+   "default_structure": {
+    "smiles": "[*-]",
+    "standard_inchi_key": null
+   },
+   "definition": "A monoatomic monoanion resulting from the addition of an electron to any halogen atom.",
+   "id": 16042,
+   "is_released": true,
+   "name": "halide anion",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 33958,
+      "init_name": "halide salt",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33429,
+      "final_name": "monoatomic monoanion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 79389,
+      "final_name": "monovalent inorganic anion",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:5605",
+    "CHEBI:14384"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:16042",
+   "definition": [
+    "A monoatomic monoanion resulting from the addition of an electron to any halogen atom."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33429",
+    "http://purl.obolibrary.org/obo/CHEBI_79389"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22563",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23905",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24834",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24867",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_33238",
+    "http://purl.obolibrary.org/obo/CHEBI_33259",
+    "http://purl.obolibrary.org/obo/CHEBI_33429",
+    "http://purl.obolibrary.org/obo/CHEBI_36830",
+    "http://purl.obolibrary.org/obo/CHEBI_36914",
+    "http://purl.obolibrary.org/obo/CHEBI_79389"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "halide ions"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "halide anion"
+   ],
+   "numDescendants": 5.0,
+   "numHierarchicalDescendants": 5.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "halide ions"
+ ]
+}

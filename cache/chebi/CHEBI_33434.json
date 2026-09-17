@@ -1,0 +1,67 @@
+{
+ "chebi_id": "CHEBI:33434",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33259"
+ ],
+ "name": "elemental halogen",
+ "num_descendants": 36,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33259"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T13:29:47+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "elemental halogen",
+   "chebi_accession": "CHEBI:33434",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33434,
+   "is_released": true,
+   "name": "elemental halogen",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33259,
+      "final_name": "elemental molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33434",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33259"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33259"
+   ],
+   "isObsolete": false,
+   "label": [
+    "elemental halogen"
+   ],
+   "numDescendants": 36.0,
+   "numHierarchicalDescendants": 36.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,159 @@
+{
+ "chebi_id": "CHEBI:51569",
+ "chebi_release": "255",
+ "definition": "A carboxamide resulting from the formal condensation of a carboxylic acid with the amino group of an amino acid.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33575",
+  "CHEBI:37622",
+  "CHEBI:83821"
+ ],
+ "name": "N-acyl-amino acid",
+ "num_descendants": 1212,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24651",
+  "CHEBI:24833",
+  "CHEBI:25367",
+  "CHEBI:25806",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33575",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33608",
+  "CHEBI:33674",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:35605",
+  "CHEBI:36357",
+  "CHEBI:36586",
+  "CHEBI:36587",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37577",
+  "CHEBI:37622",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:64709",
+  "CHEBI:72695",
+  "CHEBI:83821"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018038",
+   "target_id": "CHEBI:33709",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:29:51+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "N-acyl-amino acid",
+   "chebi_accession": "CHEBI:51569",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A carboxamide resulting from the formal condensation of a carboxylic acid with the amino group of an amino acid.",
+   "id": 51569,
+   "is_released": true,
+   "name": "<em>N</em>-acyl-amino acid",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33709,
+      "final_name": "amino acid",
+      "relation_type": "has functional parent"
+     },
+     {
+      "final_id": 37622,
+      "final_name": "carboxamide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 83821,
+      "final_name": "amino-acid derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33575,
+      "final_name": "carboxylic acid",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:21653",
+    "CHEBI:22226"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:51569",
+   "definition": [
+    "A carboxamide resulting from the formal condensation of a carboxylic acid with the amino group of an amino acid."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33575",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_83821"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24651",
+    "http://purl.obolibrary.org/obo/CHEBI_24833",
+    "http://purl.obolibrary.org/obo/CHEBI_25367",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33575",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33608",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_35605",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_36586",
+    "http://purl.obolibrary.org/obo/CHEBI_36587",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_64709",
+    "http://purl.obolibrary.org/obo/CHEBI_72695",
+    "http://purl.obolibrary.org/obo/CHEBI_83821"
+   ],
+   "isObsolete": false,
+   "label": [
+    "N-acyl-amino acid"
+   ],
+   "numDescendants": 1212.0,
+   "numHierarchicalDescendants": 1212.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018038",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33709"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

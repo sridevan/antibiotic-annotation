@@ -1,0 +1,121 @@
+{
+ "chebi_id": "CHEBI:84121",
+ "chebi_release": "255",
+ "definition": "A proteinogenic amino acid derivative resulting from reaction of <small>L</small>-methionine  at the amino group or the carboxy group, or from the replacement of any hydrogen of <small>L</small>-methionine by a heteroatom.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25230",
+  "CHEBI:83811"
+ ],
+ "name": "L-methionine derivative",
+ "num_descendants": 24,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25230",
+  "CHEBI:26835",
+  "CHEBI:33261",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:36962",
+  "CHEBI:50860",
+  "CHEBI:51143",
+  "CHEBI:83811",
+  "CHEBI:83821"
+ ],
+ "relations": [
+  {
+   "relation": "RO_0018038",
+   "target_id": "CHEBI:16643",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T13:29:50+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "L-methionine derivative",
+   "chebi_accession": "CHEBI:84121",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A proteinogenic amino acid derivative resulting from reaction of <small>L</small>-methionine  at the amino group or the carboxy group, or from the replacement of any hydrogen of <small>L</small>-methionine by a heteroatom.",
+   "id": 84121,
+   "is_released": true,
+   "name": "<small>L</small>-methionine derivative",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 16643,
+      "final_name": "<small>L</small>-methionine",
+      "relation_type": "has functional parent"
+     },
+     {
+      "final_id": 83811,
+      "final_name": "proteinogenic amino acid derivative",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 25230,
+      "final_name": "methionine derivative",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:84121",
+   "definition": [
+    "A proteinogenic amino acid derivative resulting from reaction of <small>L</small>-methionine  at the amino group or the carboxy group, or from the replacement of any hydrogen of <small>L</small>-methionine by a heteroatom."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25230",
+    "http://purl.obolibrary.org/obo/CHEBI_83811"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25230",
+    "http://purl.obolibrary.org/obo/CHEBI_26835",
+    "http://purl.obolibrary.org/obo/CHEBI_33261",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143",
+    "http://purl.obolibrary.org/obo/CHEBI_83811",
+    "http://purl.obolibrary.org/obo/CHEBI_83821"
+   ],
+   "isObsolete": false,
+   "label": [
+    "L-methionine derivative"
+   ],
+   "numDescendants": 24.0,
+   "numHierarchicalDescendants": 24.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018038",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16643"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}
