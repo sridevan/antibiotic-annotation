@@ -107,9 +107,9 @@ def test_name_stem_flag_on_unresolved_and_prd_entities(pipe):
     v = find_antibiotic_entities("4V85", 1, pipeline=pipe)[0]  # viomycin
     assert v.name_flags["antibiotic_naming_stem"] and v.to_dict()["name_flags"]["matches"][0]["stem"] == "mycin"
     tac = find_antibiotic_entities("5J7L", 1, pipeline=pipe)[0]
-    stems = {m["stem"]: m for m in tac.name_flags["matches"]}
-    assert stems["cycline"]["source"] == "deposited_name"
-    assert stems["mycin"]["source"] == "deposited_synonyms" and stems["mycin"]["name"] == "Deschlorobiomycin"  # synonym hits are labelled by source
+    matches = tac.name_flags["matches"]
+    assert any(m["stem"] == "cycline" and m["source"] == "deposited_name" and m["name"] == "TETRACYCLINE" for m in matches)
+    assert any(m["stem"] == "mycin" and m["source"] == "deposited_synonyms" and m["name"] == "Deschlorobiomycin" for m in matches)  # synonym hits carry their source
 
 
 def test_annotate_entity_validates_kind(pipe):
