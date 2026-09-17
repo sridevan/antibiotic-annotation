@@ -1,0 +1,115 @@
+{
+ "chebi_id": "CHEBI:33303",
+ "chebi_release": "255",
+ "definition": "Any p-block element belonging to the group 16 family of the periodic table.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33304",
+   "target_name": "chalcogen molecular entity"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33560"
+ ],
+ "name": "chalcogen",
+ "num_descendants": 50,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24431",
+  "CHEBI:33250",
+  "CHEBI:33318",
+  "CHEBI:33560"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:06+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "chalcogen",
+   "chebi_accession": "CHEBI:33303",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any p-block element belonging to the group 16 family of the periodic table.",
+   "id": 33303,
+   "is_released": true,
+   "name": "chalcogen",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 33304,
+      "init_name": "chalcogen molecular entity",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33560,
+      "final_name": "p-block element atom",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33303",
+   "definition": [
+    "Any p-block element belonging to the group 16 family of the periodic table."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33560"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33250",
+    "http://purl.obolibrary.org/obo/CHEBI_33318",
+    "http://purl.obolibrary.org/obo/CHEBI_33560"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "chalcogen"
+    },
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "chalcogens"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "chalcogen"
+   ],
+   "numDescendants": 50.0,
+   "numHierarchicalDescendants": 50.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "chalcogen",
+  "chalcogens"
+ ]
+}

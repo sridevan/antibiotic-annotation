@@ -1,0 +1,80 @@
+{
+ "chebi_id": "CHEBI:35474",
+ "chebi_release": "255",
+ "definition": "Anxiolytic drugs are agents that alleviate anxiety, tension, and anxiety disorders, promote sedation, and have a calming effect without affecting clarity of consciousness or neurologic conditions.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35473"
+ ],
+ "name": "anxiolytic drug",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:35470",
+  "CHEBI:35471",
+  "CHEBI:35473",
+  "CHEBI:35488",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:37+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "anxiolytic drug",
+   "chebi_accession": "CHEBI:35474",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Anxiolytic drugs are agents that alleviate anxiety, tension, and anxiety disorders, promote sedation, and have a calming effect without affecting clarity of consciousness or neurologic conditions.",
+   "id": 35474,
+   "is_released": true,
+   "name": "anxiolytic drug",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35473,
+      "final_name": "tranquilizing drug",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35474",
+   "definition": [
+    "Anxiolytic drugs are agents that alleviate anxiety, tension, and anxiety disorders, promote sedation, and have a calming effect without affecting clarity of consciousness or neurologic conditions."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35473"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35470",
+    "http://purl.obolibrary.org/obo/CHEBI_35471",
+    "http://purl.obolibrary.org/obo/CHEBI_35473",
+    "http://purl.obolibrary.org/obo/CHEBI_35488",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "anxiolytic drug"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

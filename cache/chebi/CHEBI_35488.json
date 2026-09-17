@@ -1,0 +1,74 @@
+{
+ "chebi_id": "CHEBI:35488",
+ "chebi_release": "255",
+ "definition": "A loosely defined group of drugs that tend to reduce the activity of the central nervous system.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35470"
+ ],
+ "name": "central nervous system depressant",
+ "num_descendants": 9,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:35470",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:38+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "central nervous system depressant",
+   "chebi_accession": "CHEBI:35488",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A loosely defined group of drugs that tend to reduce the activity of the central nervous system.",
+   "id": 35488,
+   "is_released": true,
+   "name": "central nervous system depressant",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35470,
+      "final_name": "central nervous system drug",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35488",
+   "definition": [
+    "A loosely defined group of drugs that tend to reduce the activity of the central nervous system."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35470"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35470",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "central nervous system depressant"
+   ],
+   "numDescendants": 9.0,
+   "numHierarchicalDescendants": 9.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

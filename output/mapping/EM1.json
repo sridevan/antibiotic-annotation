@@ -59,6 +59,8 @@
         "note": "exact standard InChIKey match"
       }
     ],
+    "confidence": "high",
+    "related_parent": null,
     "notes": [],
     "resolved": true
   },

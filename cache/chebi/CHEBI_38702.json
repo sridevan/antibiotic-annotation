@@ -1,0 +1,94 @@
+{
+ "chebi_id": "CHEBI:38702",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24839",
+  "CHEBI:26714"
+ ],
+ "name": "inorganic sodium salt",
+ "num_descendants": 61,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:24839",
+  "CHEBI:24866",
+  "CHEBI:26712",
+  "CHEBI:26714",
+  "CHEBI:33296",
+  "CHEBI:33579",
+  "CHEBI:33674",
+  "CHEBI:35479",
+  "CHEBI:36357",
+  "CHEBI:37577"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:39+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "inorganic sodium salt",
+   "chebi_accession": "CHEBI:38702",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 38702,
+   "is_released": true,
+   "name": "inorganic sodium salt",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24839,
+      "final_name": "inorganic salt",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 26714,
+      "final_name": "sodium salt",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:38702",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24839",
+    "http://purl.obolibrary.org/obo/CHEBI_26714"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24839",
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_26712",
+    "http://purl.obolibrary.org/obo/CHEBI_26714",
+    "http://purl.obolibrary.org/obo/CHEBI_33296",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_35479",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "inorganic sodium salt"
+   ],
+   "numDescendants": 61.0,
+   "numHierarchicalDescendants": 61.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

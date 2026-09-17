@@ -1,0 +1,89 @@
+{
+ "chebi_id": "CHEBI:65259",
+ "chebi_release": "255",
+ "definition": "A compound that inhibits the action of γ-aminobutyric acid.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:48706",
+  "CHEBI:51374"
+ ],
+ "name": "GABA antagonist",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:24432",
+  "CHEBI:33232",
+  "CHEBI:35942",
+  "CHEBI:48706",
+  "CHEBI:50906",
+  "CHEBI:51374",
+  "CHEBI:52210",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:53+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "GABA antagonist",
+   "chebi_accession": "CHEBI:65259",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A compound that inhibits the action of γ-aminobutyric acid.",
+   "id": 65259,
+   "is_released": true,
+   "name": "GABA antagonist",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 48706,
+      "final_name": "antagonist",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 51374,
+      "final_name": "GABA agent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:65259",
+   "definition": [
+    "A compound that inhibits the action of γ-aminobutyric acid."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_48706",
+    "http://purl.obolibrary.org/obo/CHEBI_51374"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35942",
+    "http://purl.obolibrary.org/obo/CHEBI_48706",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51374",
+    "http://purl.obolibrary.org/obo/CHEBI_52210",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "GABA antagonist"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

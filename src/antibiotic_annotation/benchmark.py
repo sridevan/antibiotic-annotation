@@ -218,14 +218,22 @@ def load_benchmark(workbook: str | Path, id_table: str | Path | None = None) -> 
         key = _norm_name(compound)
         row = ids.get(key)
         stratum = row.stratum if row else _paper_class_to_stratum(r.get("Class in paper"))
+        input_id, kind, note = ccd, ENTITY_CCD, f"Class in paper: {r.get('Class in paper')}"
+        if row and row.resolved_from_pdb_entry.startswith("paper") and row.input_id.upper() != ccd:
+            # audited correction of a wrong identifier in the workbook (see benchmark_ids.tsv note);
+            # only id-table rows sourced from the paper sheet may override the paper's CCD code
+            input_id, kind = row.input_id, row.entity_kind
+            note += f" | benchmark identifier corrected from {ccd} to {row.input_id}: {row.note}"
+            if input_id in primary_ids:
+                continue
         item = BenchmarkItem(
             compound=compound,
             label=1,
             benchmark_set=SET_PAPER_POS,
             stratum=stratum,
-            input_id=ccd,
-            entity_kind=ENTITY_CCD,
-            note=f"Class in paper: {r.get('Class in paper')}",
+            input_id=input_id,
+            entity_kind=kind,
+            note=note,
             source_sheet=SHEET_PAPER,
         )
         bench.paper_positives.append(item)
@@ -276,8 +284,8 @@ def stratified_split(items: list[BenchmarkItem], seed: str = "v1", dev_fraction:
 
 MAPPING_REPORT_COLUMNS = [
     "compound", "benchmark_set", "label", "stratum", "input_id", "entity_kind", "deposited_name", "formal_charge",
-    "inchikey", "mapping_status", "mapping_method", "primary_chebi_id", "primary_name", "equivalent_chebi_ids",
-    "evidence_unioned", "family_context", "candidates", "workbook_chebi_id", "workbook_agreement", "bird_class", "notes",
+    "inchikey", "mapping_status", "mapping_method", "mapping_confidence", "primary_chebi_id", "primary_name", "equivalent_chebi_ids",
+    "evidence_unioned", "family_context", "related_parent", "candidates", "workbook_chebi_id", "workbook_agreement", "bird_class", "notes",
 ]
 
 
@@ -307,11 +315,13 @@ def run_mapping(bench: "BenchmarkSet", pipeline) -> list[dict]:
             "inchikey": ident.inchikey or "",
             "mapping_status": m.status,
             "mapping_method": m.method,
+            "mapping_confidence": m.confidence,
             "primary_chebi_id": m.primary_chebi_id or "",
             "primary_name": res.primary_name or "",
             "equivalent_chebi_ids": ";".join(f"{c} ({res.equivalent_names.get(c, '?')})" for c in m.equivalent_chebi_ids),
             "evidence_unioned": m.evidence_unioned,
             "family_context": ";".join(f"{f['name']} ({f['chebi_id']})" for f in res.family.member_of),
+            "related_parent": f"{m.related_parent.get('name')} ({m.related_parent.get('chebi_id')}): {m.related_parent.get('relation')}" if m.related_parent else "",
             "candidates": ";".join(f"{c.chebi_id} {c.name or ''} [{'accepted' if c.accepted else 'rejected'}: {','.join(c.mismatches) or 'exact'}]" for c in m.candidates),
             "workbook_chebi_id": item.workbook_chebi_id or "",
             "workbook_agreement": agreement,

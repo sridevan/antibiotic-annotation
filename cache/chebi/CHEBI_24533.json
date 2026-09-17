@@ -1,0 +1,121 @@
+{
+ "chebi_id": "CHEBI:24533",
+ "chebi_release": "255",
+ "definition": "A heterodetic cyclic peptide is a peptide consisting only of amino-acid residues, but in which the linkages forming the ring are not solely peptide bonds; one or more is an isopeptide, disulfide, ester, or other bond.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23449"
+ ],
+ "name": "heterodetic cyclic peptide",
+ "num_descendants": 76,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:16670",
+  "CHEBI:23367",
+  "CHEBI:23449",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37622",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T11:58:00+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "heterodetic cyclic peptide",
+   "chebi_accession": "CHEBI:24533",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A heterodetic cyclic peptide is a peptide consisting only of amino-acid residues, but in which the linkages forming the ring are not solely peptide bonds; one or more is an isopeptide, disulfide, ester, or other bond.",
+   "id": 24533,
+   "is_released": true,
+   "name": "heterodetic cyclic peptide",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23449,
+      "final_name": "cyclic peptide",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:24533",
+   "definition": [
+    "A heterodetic cyclic peptide is a peptide consisting only of amino-acid residues, but in which the linkages forming the ring are not solely peptide bonds; one or more is an isopeptide, disulfide, ester, or other bond."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23449"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_16670",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_23449",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "heterodetic cyclic peptide"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "heterodetic cyclic peptide"
+   ],
+   "numDescendants": 76.0,
+   "numHierarchicalDescendants": 76.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "heterodetic cyclic peptide"
+ ]
+}

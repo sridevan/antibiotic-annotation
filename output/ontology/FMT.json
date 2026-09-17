@@ -1,0 +1,290 @@
+{
+ "chebi_ids": [
+  "CHEBI:30751"
+ ],
+ "terms": {
+  "CHEBI:30751": {
+   "name": "formic acid",
+   "definition": "The simplest carboxylic acid, containing a single carbon. Occurs naturally in various sources including the venom of bee and ant stings, and is a useful organic synthetic reagent. Principally used as a preservative and antibacterial agent in livestock feed. Induces severe metabolic acidosis and ocular injury in human subjects.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:25384"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:25384",
+   "name": "monocarboxylic acid",
+   "min_depth": 1,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:33575",
+   "name": "carboxylic acid",
+   "min_depth": 2,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:35605",
+   "name": "carbon oxoacid",
+   "min_depth": 3,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:36586",
+   "name": "carbonyl compound",
+   "min_depth": 3,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:64709",
+   "name": "organic acid",
+   "min_depth": 3,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:24833",
+   "name": "oxoacid",
+   "min_depth": 4,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:36587",
+   "name": "organic oxo compound",
+   "min_depth": 4,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:36963",
+   "name": "organooxygen compound",
+   "min_depth": 4,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:24651",
+   "name": "hydroxides",
+   "min_depth": 5,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:36962",
+   "name": "organochalcogen compound",
+   "min_depth": 5,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:72695",
+   "name": "organic molecule",
+   "min_depth": 5,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:25367",
+   "name": "molecule",
+   "min_depth": 6,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 6,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:33608",
+   "name": "hydrogen molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:33674",
+   "name": "s-block molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 7,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:30751"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 9,
+   "via": "CHEBI:30751"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:25212": {
+   "name": "metabolite",
+   "on": [
+    "CHEBI:30751"
+   ]
+  },
+  "CHEBI:33282": {
+   "name": "antibacterial agent",
+   "on": [
+    "CHEBI:30751"
+   ]
+  },
+  "CHEBI:46787": {
+   "name": "solvent",
+   "on": [
+    "CHEBI:30751"
+   ]
+  },
+  "CHEBI:48356": {
+   "name": "protic solvent",
+   "on": [
+    "CHEBI:30751"
+   ]
+  },
+  "CHEBI:74783": {
+   "name": "astringent",
+   "on": [
+    "CHEBI:30751"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:25212": {
+   "chebi_id": "CHEBI:25212",
+   "name": "metabolite",
+   "asserted_on": [
+    "CHEBI:30751"
+   ]
+  },
+  "CHEBI:33282": {
+   "chebi_id": "CHEBI:33282",
+   "name": "antibacterial agent",
+   "asserted_on": [
+    "CHEBI:30751"
+   ]
+  },
+  "CHEBI:39141": {
+   "chebi_id": "CHEBI:39141",
+   "name": "Bronsted acid",
+   "asserted_on": [
+    "CHEBI:24833"
+   ]
+  },
+  "CHEBI:46787": {
+   "chebi_id": "CHEBI:46787",
+   "name": "solvent",
+   "asserted_on": [
+    "CHEBI:30751"
+   ]
+  },
+  "CHEBI:48356": {
+   "chebi_id": "CHEBI:48356",
+   "name": "protic solvent",
+   "asserted_on": [
+    "CHEBI:30751"
+   ]
+  },
+  "CHEBI:74783": {
+   "chebi_id": "CHEBI:74783",
+   "name": "astringent",
+   "asserted_on": [
+    "CHEBI:30751"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:17891",
+   "name": "donor"
+  },
+  {
+   "chebi_id": "CHEBI:23888",
+   "name": "drug"
+  },
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:33232",
+   "name": "application"
+  },
+  {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent"
+  },
+  {
+   "chebi_id": "CHEBI:37527",
+   "name": "acid"
+  },
+  {
+   "chebi_id": "CHEBI:48354",
+   "name": "polar solvent"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:51086",
+   "name": "chemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52217",
+   "name": "pharmaceutical"
+  }
+ ],
+ "chebi_release": "255"
+}

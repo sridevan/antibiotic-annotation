@@ -1,0 +1,906 @@
+{
+ "chebi_ids": [
+  "CHEBI:26710"
+ ],
+ "terms": {
+  "CHEBI:26710": {
+   "name": "sodium chloride",
+   "definition": "An inorganic chloride salt having sodium(1+) as the counterion.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:36093",
+    "CHEBI:38702"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:36093",
+   "name": "inorganic chloride",
+   "min_depth": 1,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:38702",
+   "name": "inorganic sodium salt",
+   "min_depth": 1,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:23114",
+   "name": "chloride salt",
+   "min_depth": 2,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:24839",
+   "name": "inorganic salt",
+   "min_depth": 2,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:26714",
+   "name": "sodium salt",
+   "min_depth": 2,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:23117",
+   "name": "chlorine molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:24835",
+   "name": "inorganic molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:24866",
+   "name": "salt",
+   "min_depth": 3,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:26712",
+   "name": "sodium molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:33958",
+   "name": "halide salt",
+   "min_depth": 3,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:35479",
+   "name": "alkali metal salt",
+   "min_depth": 3,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:24471",
+   "name": "halogen molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:33296",
+   "name": "alkali metal molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:37578",
+   "name": "halide",
+   "min_depth": 4,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 5,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:33674",
+   "name": "s-block molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 5,
+   "via": "CHEBI:26710"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:26710"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:149552": {
+   "name": "emetic",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:149553": {
+   "name": "anticoronaviral agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:176497": {
+   "name": "geroprotector",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:22587": {
+   "name": "antiviral agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:228364": {
+   "name": "NMR chemical shift reference compound",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:231911": {
+   "name": "renoprotective agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:33231": {
+   "name": "antitubercular agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:33281": {
+   "name": "antimicrobial agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:33282": {
+   "name": "antibacterial agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35441": {
+   "name": "antiinfective agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35469": {
+   "name": "antidepressant",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35474": {
+   "name": "anxiolytic drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35476": {
+   "name": "antipsychotic agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35480": {
+   "name": "analgesic",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35526": {
+   "name": "hypoglycemic agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35554": {
+   "name": "cardiovascular drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35610": {
+   "name": "antineoplastic agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35620": {
+   "name": "vasodilator agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35623": {
+   "name": "anticonvulsant",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35674": {
+   "name": "antihypertensive agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35705": {
+   "name": "immunosuppressive agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35842": {
+   "name": "antirheumatic drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35845": {
+   "name": "gout suppressant",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:36047": {
+   "name": "antibacterial drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:38068": {
+   "name": "antimalarial",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:38070": {
+   "name": "anti-arrhythmia drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:39456": {
+   "name": "antiglaucoma drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:48407": {
+   "name": "antiparkinson drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:49201": {
+   "name": "anti-ulcer drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50177": {
+   "name": "dermatologic drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50247": {
+   "name": "antidote",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50503": {
+   "name": "laxative",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50748": {
+   "name": "antipsoriatic",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50779": {
+   "name": "appetite enhancer",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50864": {
+   "name": "insulin-sensitizing drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50919": {
+   "name": "antiemetic",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:51177": {
+   "name": "antitussive",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:55323": {
+   "name": "antidiarrhoeal drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:55324": {
+   "name": "gastrointestinal drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:62868": {
+   "name": "hepatoprotective agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:63726": {
+   "name": "neuroprotective agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:64946": {
+   "name": "anti-HIV agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:64951": {
+   "name": "anti-HBV agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:65023": {
+   "name": "anti-asthmatic agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:66981": {
+   "name": "ophthalmology drug",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:67079": {
+   "name": "anti-inflammatory agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:73336": {
+   "name": "vulnerary",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:74518": {
+   "name": "anti-obesity agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:75835": {
+   "name": "anti-anaemic agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:76916": {
+   "name": "hyperglycemic agent",
+   "on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:79314": {
+   "name": "flame retardant",
+   "on": [
+    "CHEBI:26710"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:149552": {
+   "chebi_id": "CHEBI:149552",
+   "name": "emetic",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:149553": {
+   "chebi_id": "CHEBI:149553",
+   "name": "anticoronaviral agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:176497": {
+   "chebi_id": "CHEBI:176497",
+   "name": "geroprotector",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:22587": {
+   "chebi_id": "CHEBI:22587",
+   "name": "antiviral agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:228364": {
+   "chebi_id": "CHEBI:228364",
+   "name": "NMR chemical shift reference compound",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:231911": {
+   "chebi_id": "CHEBI:231911",
+   "name": "renoprotective agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:33231": {
+   "chebi_id": "CHEBI:33231",
+   "name": "antitubercular agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:33281": {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:33282": {
+   "chebi_id": "CHEBI:33282",
+   "name": "antibacterial agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35441": {
+   "chebi_id": "CHEBI:35441",
+   "name": "antiinfective agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35469": {
+   "chebi_id": "CHEBI:35469",
+   "name": "antidepressant",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35474": {
+   "chebi_id": "CHEBI:35474",
+   "name": "anxiolytic drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35476": {
+   "chebi_id": "CHEBI:35476",
+   "name": "antipsychotic agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35480": {
+   "chebi_id": "CHEBI:35480",
+   "name": "analgesic",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35526": {
+   "chebi_id": "CHEBI:35526",
+   "name": "hypoglycemic agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35554": {
+   "chebi_id": "CHEBI:35554",
+   "name": "cardiovascular drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35610": {
+   "chebi_id": "CHEBI:35610",
+   "name": "antineoplastic agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35620": {
+   "chebi_id": "CHEBI:35620",
+   "name": "vasodilator agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35623": {
+   "chebi_id": "CHEBI:35623",
+   "name": "anticonvulsant",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35674": {
+   "chebi_id": "CHEBI:35674",
+   "name": "antihypertensive agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35705": {
+   "chebi_id": "CHEBI:35705",
+   "name": "immunosuppressive agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35842": {
+   "chebi_id": "CHEBI:35842",
+   "name": "antirheumatic drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:35845": {
+   "chebi_id": "CHEBI:35845",
+   "name": "gout suppressant",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:36047": {
+   "chebi_id": "CHEBI:36047",
+   "name": "antibacterial drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:38068": {
+   "chebi_id": "CHEBI:38068",
+   "name": "antimalarial",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:38070": {
+   "chebi_id": "CHEBI:38070",
+   "name": "anti-arrhythmia drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:39456": {
+   "chebi_id": "CHEBI:39456",
+   "name": "antiglaucoma drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:48407": {
+   "chebi_id": "CHEBI:48407",
+   "name": "antiparkinson drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:49201": {
+   "chebi_id": "CHEBI:49201",
+   "name": "anti-ulcer drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50177": {
+   "chebi_id": "CHEBI:50177",
+   "name": "dermatologic drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50247": {
+   "chebi_id": "CHEBI:50247",
+   "name": "antidote",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50503": {
+   "chebi_id": "CHEBI:50503",
+   "name": "laxative",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50748": {
+   "chebi_id": "CHEBI:50748",
+   "name": "antipsoriatic",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50779": {
+   "chebi_id": "CHEBI:50779",
+   "name": "appetite enhancer",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50864": {
+   "chebi_id": "CHEBI:50864",
+   "name": "insulin-sensitizing drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:50919": {
+   "chebi_id": "CHEBI:50919",
+   "name": "antiemetic",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:51177": {
+   "chebi_id": "CHEBI:51177",
+   "name": "antitussive",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:55323": {
+   "chebi_id": "CHEBI:55323",
+   "name": "antidiarrhoeal drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:55324": {
+   "chebi_id": "CHEBI:55324",
+   "name": "gastrointestinal drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:62868": {
+   "chebi_id": "CHEBI:62868",
+   "name": "hepatoprotective agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:63726": {
+   "chebi_id": "CHEBI:63726",
+   "name": "neuroprotective agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:64946": {
+   "chebi_id": "CHEBI:64946",
+   "name": "anti-HIV agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:64951": {
+   "chebi_id": "CHEBI:64951",
+   "name": "anti-HBV agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:65023": {
+   "chebi_id": "CHEBI:65023",
+   "name": "anti-asthmatic agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:66981": {
+   "chebi_id": "CHEBI:66981",
+   "name": "ophthalmology drug",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:67079": {
+   "chebi_id": "CHEBI:67079",
+   "name": "anti-inflammatory agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:73336": {
+   "chebi_id": "CHEBI:73336",
+   "name": "vulnerary",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:74518": {
+   "chebi_id": "CHEBI:74518",
+   "name": "anti-obesity agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:75835": {
+   "chebi_id": "CHEBI:75835",
+   "name": "anti-anaemic agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:76916": {
+   "chebi_id": "CHEBI:76916",
+   "name": "hyperglycemic agent",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  },
+  "CHEBI:79314": {
+   "chebi_id": "CHEBI:79314",
+   "name": "flame retardant",
+   "asserted_on": [
+    "CHEBI:26710"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:23888",
+   "name": "drug"
+  },
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:33232",
+   "name": "application"
+  },
+  {
+   "chebi_id": "CHEBI:35442",
+   "name": "antiparasitic agent"
+  },
+  {
+   "chebi_id": "CHEBI:35470",
+   "name": "central nervous system drug"
+  },
+  {
+   "chebi_id": "CHEBI:35471",
+   "name": "psychotropic drug"
+  },
+  {
+   "chebi_id": "CHEBI:35473",
+   "name": "tranquilizing drug"
+  },
+  {
+   "chebi_id": "CHEBI:35488",
+   "name": "central nervous system depressant"
+  },
+  {
+   "chebi_id": "CHEBI:35820",
+   "name": "antiprotozoal drug"
+  },
+  {
+   "chebi_id": "CHEBI:36043",
+   "name": "antimicrobial drug"
+  },
+  {
+   "chebi_id": "CHEBI:48705",
+   "name": "agonist"
+  },
+  {
+   "chebi_id": "CHEBI:50267",
+   "name": "protective agent"
+  },
+  {
+   "chebi_id": "CHEBI:50780",
+   "name": "appetite regulator"
+  },
+  {
+   "chebi_id": "CHEBI:50846",
+   "name": "immunomodulator"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:51086",
+   "name": "chemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52210",
+   "name": "pharmacological role"
+  },
+  {
+   "chebi_id": "CHEBI:52217",
+   "name": "pharmaceutical"
+  },
+  {
+   "chebi_id": "CHEBI:64912",
+   "name": "antimycobacterial drug"
+  },
+  {
+   "chebi_id": "CHEBI:64915",
+   "name": "antiplasmodial drug"
+  },
+  {
+   "chebi_id": "CHEBI:66956",
+   "name": "antidyskinesia agent"
+  },
+  {
+   "chebi_id": "CHEBI:70781",
+   "name": "PPAR modulator"
+  },
+  {
+   "chebi_id": "CHEBI:747204",
+   "name": "reference compound"
+  }
+ ],
+ "chebi_release": "255"
+}

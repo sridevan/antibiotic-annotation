@@ -1,0 +1,101 @@
+{
+ "chebi_id": "CHEBI:27780",
+ "chebi_release": "255",
+ "definition": "A surfactant (or a mixture containing one or more surfactants) having cleaning properties in dilute solutions.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33232",
+  "CHEBI:35195"
+ ],
+ "name": "detergent",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:33232",
+  "CHEBI:35195",
+  "CHEBI:50906",
+  "CHEBI:51086",
+  "CHEBI:63046"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:33+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "detergent",
+   "chebi_accession": "CHEBI:27780",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A surfactant (or a mixture containing one or more surfactants) having cleaning properties in dilute solutions.",
+   "id": 27780,
+   "is_released": true,
+   "name": "detergent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33232,
+      "final_name": "application",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35195,
+      "final_name": "surfactant",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:4456",
+    "CHEBI:23648"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:27780",
+   "definition": [
+    "A surfactant (or a mixture containing one or more surfactants) having cleaning properties in dilute solutions."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35195"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35195",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086",
+    "http://purl.obolibrary.org/obo/CHEBI_63046"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "detergent"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "detergent"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "detergent"
+ ]
+}

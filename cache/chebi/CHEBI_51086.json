@@ -1,0 +1,66 @@
+{
+ "chebi_id": "CHEBI:51086",
+ "chebi_release": "255",
+ "definition": "A role played by the molecular entity or part thereof within a chemical context.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:50906"
+ ],
+ "name": "chemical role",
+ "num_descendants": 127,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:23+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "chemical role",
+   "chebi_accession": "CHEBI:51086",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A role played by the molecular entity or part thereof within a chemical context.",
+   "id": 51086,
+   "is_released": true,
+   "name": "chemical role",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 50906,
+      "final_name": "role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:51086",
+   "definition": [
+    "A role played by the molecular entity or part thereof within a chemical context."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "chemical role"
+   ],
+   "numDescendants": 127.0,
+   "numHierarchicalDescendants": 127.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

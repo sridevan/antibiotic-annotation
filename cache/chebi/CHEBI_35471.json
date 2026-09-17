@@ -1,0 +1,74 @@
+{
+ "chebi_id": "CHEBI:35471",
+ "chebi_release": "255",
+ "definition": "A loosely defined grouping of drugs that have effects on psychological function.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35470"
+ ],
+ "name": "psychotropic drug",
+ "num_descendants": 12,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:35470",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:38+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "psychotropic drug",
+   "chebi_accession": "CHEBI:35471",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A loosely defined grouping of drugs that have effects on psychological function.",
+   "id": 35471,
+   "is_released": true,
+   "name": "psychotropic drug",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35470,
+      "final_name": "central nervous system drug",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35471",
+   "definition": [
+    "A loosely defined grouping of drugs that have effects on psychological function."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35470"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35470",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "psychotropic drug"
+   ],
+   "numDescendants": 12.0,
+   "numHierarchicalDescendants": 12.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

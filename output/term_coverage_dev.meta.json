@@ -1,0 +1,15 @@
+{
+ "n_dev_positives_mapped": 12,
+ "n_dev_negatives_mapped": 16,
+ "unmapped": {
+  "positive": [
+   "Evernimycin (EVN: unresolved_identity_conflict)",
+   "Flopristin (VIF: unresolved_no_chebi)",
+   "Hygromycin B (HYG: unresolved_identity_conflict)",
+   "Linopristin (PRD_002101: unresolved_no_chebi)",
+   "Viomycin (PRD_000226: unresolved_identity_conflict)"
+  ],
+  "negative": []
+ },
+ "chebi_release": "255"
+}

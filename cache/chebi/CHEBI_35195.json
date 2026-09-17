@@ -1,0 +1,87 @@
+{
+ "chebi_id": "CHEBI:35195",
+ "chebi_release": "255",
+ "definition": "A substance which lowers the surface tension of the medium in which it is dissolved, and/or the interfacial tension with other phases, and, accordingly, is positively adsorbed at the liquid/vapour and/or at other interfaces.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:63046"
+ ],
+ "name": "surfactant",
+ "num_descendants": 4,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:50906",
+  "CHEBI:51086",
+  "CHEBI:63046"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:33+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "surfactant",
+   "chebi_accession": "CHEBI:35195",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A substance which lowers the surface tension of the medium in which it is dissolved, and/or the interfacial tension with other phases, and, accordingly, is positively adsorbed at the liquid/vapour and/or at other interfaces.",
+   "id": 35195,
+   "is_released": true,
+   "name": "surfactant",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 63046,
+      "final_name": "emulsifier",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35195",
+   "definition": [
+    "A substance which lowers the surface tension of the medium in which it is dissolved, and/or the interfacial tension with other phases, and, accordingly, is positively adsorbed at the liquid/vapour and/or at other interfaces."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_63046"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086",
+    "http://purl.obolibrary.org/obo/CHEBI_63046"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "surfactant"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "surfactant"
+   ],
+   "numDescendants": 4.0,
+   "numHierarchicalDescendants": 4.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "surfactant"
+ ]
+}

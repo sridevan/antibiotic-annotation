@@ -1,0 +1,438 @@
+{
+ "chebi_ids": [
+  "CHEBI:17754",
+  "CHEBI:17522"
+ ],
+ "terms": {
+  "CHEBI:17754": {
+   "name": "glycerol",
+   "definition": "A triol with a structure of propane substituted at positions 1, 2 and 3 by hydroxy groups.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:17522",
+    "CHEBI:27136"
+   ]
+  },
+  "CHEBI:17522": {
+   "name": "alditol",
+   "definition": "A carbohydrate that is an acyclic polyol having the general formula HOCH<small><sub>2</sub></small>[CH(OH)]<small><sub><em>n</em></sub></small>CH<small><sub>2</sub></small>OH (formally derivable from an aldose by reduction of the carbonyl group).",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:16646",
+    "CHEBI:26191"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:16646",
+   "name": "carbohydrate",
+   "min_depth": 1,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:17522",
+   "name": "alditol",
+   "min_depth": 1,
+   "via": "CHEBI:17754"
+  },
+  {
+   "chebi_id": "CHEBI:26191",
+   "name": "polyol",
+   "min_depth": 1,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:27136",
+   "name": "triol",
+   "min_depth": 1,
+   "via": "CHEBI:17754"
+  },
+  {
+   "chebi_id": "CHEBI:33822",
+   "name": "organic hydroxy compound",
+   "min_depth": 2,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:78616",
+   "name": "carbohydrates and carbohydrate derivatives",
+   "min_depth": 2,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:24651",
+   "name": "hydroxides",
+   "min_depth": 3,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:36963",
+   "name": "organooxygen compound",
+   "min_depth": 3,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:33608",
+   "name": "hydrogen molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:36962",
+   "name": "organochalcogen compound",
+   "min_depth": 4,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 5,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:33674",
+   "name": "s-block molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 5,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:17522"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 7,
+   "via": "CHEBI:17522"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:176497": {
+   "name": "geroprotector",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:25728": {
+   "name": "osmolyte",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:27780": {
+   "name": "detergent",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:33282": {
+   "name": "antibacterial agent",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:35610": {
+   "name": "antineoplastic agent",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:46787": {
+   "name": "solvent",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:49201": {
+   "name": "anti-ulcer drug",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:50503": {
+   "name": "laxative",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:64946": {
+   "name": "anti-HIV agent",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:66981": {
+   "name": "ophthalmology drug",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:75771": {
+   "name": "mouse metabolite",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:75772": {
+   "name": "Saccharomyces cerevisiae metabolite",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:76971": {
+   "name": "Escherichia coli metabolite",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:77746": {
+   "name": "human metabolite",
+   "on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:84735": {
+   "name": "algal metabolite",
+   "on": [
+    "CHEBI:17754"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:176497": {
+   "chebi_id": "CHEBI:176497",
+   "name": "geroprotector",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:25728": {
+   "chebi_id": "CHEBI:25728",
+   "name": "osmolyte",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:27780": {
+   "chebi_id": "CHEBI:27780",
+   "name": "detergent",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:33282": {
+   "chebi_id": "CHEBI:33282",
+   "name": "antibacterial agent",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:35610": {
+   "chebi_id": "CHEBI:35610",
+   "name": "antineoplastic agent",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:46787": {
+   "chebi_id": "CHEBI:46787",
+   "name": "solvent",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:49201": {
+   "chebi_id": "CHEBI:49201",
+   "name": "anti-ulcer drug",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:50503": {
+   "chebi_id": "CHEBI:50503",
+   "name": "laxative",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:64946": {
+   "chebi_id": "CHEBI:64946",
+   "name": "anti-HIV agent",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:66981": {
+   "chebi_id": "CHEBI:66981",
+   "name": "ophthalmology drug",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:75771": {
+   "chebi_id": "CHEBI:75771",
+   "name": "mouse metabolite",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:75772": {
+   "chebi_id": "CHEBI:75772",
+   "name": "Saccharomyces cerevisiae metabolite",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:76971": {
+   "chebi_id": "CHEBI:76971",
+   "name": "Escherichia coli metabolite",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:77746": {
+   "chebi_id": "CHEBI:77746",
+   "name": "human metabolite",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  },
+  "CHEBI:84735": {
+   "chebi_id": "CHEBI:84735",
+   "name": "algal metabolite",
+   "asserted_on": [
+    "CHEBI:17754"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:22587",
+   "name": "antiviral agent"
+  },
+  {
+   "chebi_id": "CHEBI:23888",
+   "name": "drug"
+  },
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:25212",
+   "name": "metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:33232",
+   "name": "application"
+  },
+  {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent"
+  },
+  {
+   "chebi_id": "CHEBI:35195",
+   "name": "surfactant"
+  },
+  {
+   "chebi_id": "CHEBI:50267",
+   "name": "protective agent"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:51086",
+   "name": "chemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52217",
+   "name": "pharmaceutical"
+  },
+  {
+   "chebi_id": "CHEBI:63046",
+   "name": "emulsifier"
+  },
+  {
+   "chebi_id": "CHEBI:75763",
+   "name": "eukaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75767",
+   "name": "animal metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75768",
+   "name": "mammalian metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75787",
+   "name": "prokaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:76946",
+   "name": "fungal metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:76969",
+   "name": "bacterial metabolite"
+  }
+ ],
+ "chebi_release": "255"
+}

@@ -73,11 +73,34 @@ def test_avilamycin_c_is_never_substituted_by_avilamycin_a(rcsb, mapper):
     assert "CHEBI:85646" not in [c.chebi_id for c in m.candidates]
 
 
-def test_bird_entity_without_stereo_layer_is_flagged_not_mapped(rcsb, mapper):
-    m = mapper.map(rcsb.identity("PRD_000226"))
+def test_bird_entity_with_several_stereo_candidates_stays_unresolved(rcsb, mapper):
+    m = mapper.map(rcsb.identity("PRD_000226"))  # viomycin: CHEBI:15782 (+ its 3+ conjugate) vs a 2-star stereoisomer entry
     assert m.status == "unresolved_identity_conflict"
     assert "conflict_reason=stereo_undefined_in_query" in m.notes
+    assert any(n.startswith("multiple_stereo_candidates=2") for n in m.notes)
     assert "CHEBI:15782" in [c.chebi_id for c in m.candidates]
+    assert m.confidence == "none"
+
+
+def test_bird_entity_with_single_plausible_candidate_maps_at_medium_confidence(rcsb, mapper):
+    m = mapper.map(rcsb.identity("PRD_000505"))  # quinupristin
+    assert m.resolved
+    assert m.method == "unichem_connectivity_stereo_undefined"
+    assert m.confidence == "medium"
+    assert m.primary_chebi_id == "CHEBI:8732"
+    m = mapper.map(rcsb.identity("PRD_000193"))  # capreomycin IA
+    assert m.resolved and m.method == "unichem_connectivity_stereo_undefined" and m.primary_chebi_id == "CHEBI:218527"
+
+
+def test_stereo_undefined_rule_only_applies_to_stereo_less_queries(rcsb, mapper):
+    m = mapper.map(rcsb.identity("HY0"))  # has a stereo layer that conflicts -> never accepted
+    assert m.status == "unresolved_identity_conflict" and m.method == "unresolved"
+
+
+def test_mapping_confidence_levels(rcsb, mapper):
+    assert mapper.map(rcsb.identity("TAC")).confidence == "high"
+    assert mapper.map(rcsb.identity("T1C")).confidence == "medium"
+    assert mapper.map(rcsb.identity("6UQ")).confidence == "none"
 
 
 def test_chebi_input_bypasses_mapping(rcsb, mapper):
@@ -95,6 +118,7 @@ def test_network_failure_is_reported_not_negative(rcsb, cache):
 def test_manual_synonym_only_without_structural_identifier(cache, transport):
     table = {"XXX": {"chebi_id": "CHEBI:27902", "note": "test entry"}, "TAC": {"chebi_id": "CHEBI:1", "note": "must be ignored"}}
     mapper = Mapper(UniChemClient(transport, cache), synonym_table=table)
+    assert mapper.map(ChemicalIdentity(input_id="XXX", entity_kind="ccd_nonpolymer", name="mystery")).confidence == "low"
     no_structure = ChemicalIdentity(input_id="XXX", entity_kind="ccd_nonpolymer", name="mystery")
     m = mapper.map(no_structure)
     assert m.resolved and m.method == "manual_synonym" and m.primary_chebi_id == "CHEBI:27902"
@@ -137,6 +161,20 @@ def test_pipeline_reports_family_context_for_components(tmp_path, transport):
     res = pipe.resolve("NMY")
     assert res.mapping.primary_chebi_id == "CHEBI:7508"
     assert any(f["chebi_id"] == "CHEBI:7507" for f in res.family.member_of)
+
+
+def test_related_parent_is_attached_but_never_used_as_identity(tmp_path, transport):
+    import json
+
+    from antibiotic_annotation.pipeline import Pipeline
+
+    cfg = tmp_path / "related.json"
+    cfg.write_text(json.dumps({"5I0": {"chebi_id": "CHEBI:17076", "name": "streptomycin", "relation": "hydrated, protonated covalent form of"}}))
+    pipe = Pipeline(cache_dir=tmp_path / "cache", transport=transport, synonyms=None, related_parents=cfg)
+    res = pipe.resolve("5I0")
+    assert res.mapping.status == "unresolved_no_chebi"
+    assert res.mapping.primary_chebi_id is None
+    assert res.mapping.related_parent["chebi_id"] == "CHEBI:17076"
 
 
 def test_pipeline_unknown_id(tmp_path, transport):

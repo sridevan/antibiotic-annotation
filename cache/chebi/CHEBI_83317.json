@@ -1,0 +1,79 @@
+{
+ "chebi_id": "CHEBI:83317",
+ "chebi_release": "255",
+ "definition": "Any compound that inhibits the biosynthesis of any sterol.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35222",
+  "CHEBI:52206"
+ ],
+ "name": "sterol biosynthesis inhibitor",
+ "num_descendants": 3,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:35222",
+  "CHEBI:50906",
+  "CHEBI:52206"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:36+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "sterol biosynthesis inhibitor",
+   "chebi_accession": "CHEBI:83317",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any compound that inhibits the biosynthesis of any sterol.",
+   "id": 83317,
+   "is_released": true,
+   "name": "sterol biosynthesis inhibitor",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 52206,
+      "final_name": "biochemical role",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35222,
+      "final_name": "inhibitor",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:83317",
+   "definition": [
+    "Any compound that inhibits the biosynthesis of any sterol."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35222",
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_35222",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "isObsolete": false,
+   "label": [
+    "sterol biosynthesis inhibitor"
+   ],
+   "numDescendants": 3.0,
+   "numHierarchicalDescendants": 3.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

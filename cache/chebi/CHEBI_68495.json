@@ -1,0 +1,70 @@
+{
+ "chebi_id": "CHEBI:68495",
+ "chebi_release": "255",
+ "definition": "Any substance that induces the process of apoptosis (programmed cell death) in multi-celled organisms.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:52206"
+ ],
+ "name": "apoptosis inducer",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:50906",
+  "CHEBI:52206"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:53+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "apoptosis inducer",
+   "chebi_accession": "CHEBI:68495",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any substance that induces the process of apoptosis (programmed cell death) in multi-celled organisms.",
+   "id": 68495,
+   "is_released": true,
+   "name": "apoptosis inducer",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 52206,
+      "final_name": "biochemical role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:68495",
+   "definition": [
+    "Any substance that induces the process of apoptosis (programmed cell death) in multi-celled organisms."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "isObsolete": false,
+   "label": [
+    "apoptosis inducer"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

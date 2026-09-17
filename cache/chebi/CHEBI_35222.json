@@ -1,0 +1,85 @@
+{
+ "chebi_id": "CHEBI:35222",
+ "chebi_release": "255",
+ "definition": "A substance that diminishes the rate of a chemical reaction.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24432"
+ ],
+ "name": "inhibitor",
+ "num_descendants": 692,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:22+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "inhibitor",
+   "chebi_accession": "CHEBI:35222",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A substance that diminishes the rate of a chemical reaction.",
+   "id": 35222,
+   "is_released": true,
+   "name": "inhibitor",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24432,
+      "final_name": "biological role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35222",
+   "definition": [
+    "A substance that diminishes the rate of a chemical reaction."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "inhibitor"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "inhibitor"
+   ],
+   "numDescendants": 692.0,
+   "numHierarchicalDescendants": 692.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "inhibitor"
+ ]
+}

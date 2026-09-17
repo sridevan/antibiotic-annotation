@@ -1,7 +1,7 @@
 {
 "29089c0ceba7c775": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:29+00:00",
+"_retrieved_at": "2026-09-17T12:03:04+00:00",
 "chem_comp": {
 "formula": "C28 H35 N3 O7",
 "formula_weight": 525.593,
@@ -229,7 +229,7 @@
 },
 "30198426f3b09f83": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:27+00:00",
+"_retrieved_at": "2026-09-17T12:03:00+00:00",
 "chem_comp": {
 "formula": "C20 H37 N3 O13",
 "formula_weight": 527.52,
@@ -402,7 +402,7 @@
 },
 "4647bfeca47c387c": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:22+00:00",
+"_retrieved_at": "2026-09-17T12:02:16+00:00",
 "chem_comp": {
 "formula": "C14 H25 N3 O9",
 "formula_weight": 379.363,
@@ -565,7 +565,7 @@
 },
 "49d93663d421b0ef": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:21+00:00",
+"_retrieved_at": "2026-09-17T12:02:12+00:00",
 "chem_comp": {
 "formula": "C22 H24 N2 O8",
 "formula_weight": 444.435,
@@ -1366,7 +1366,7 @@
 },
 "4c859defbd732ebd": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:25+00:00",
+"_retrieved_at": "2026-09-17T12:02:43+00:00",
 "chem_comp": {
 "formula": "C13 H12 F2 N6 O",
 "formula_weight": 306.271,
@@ -2001,9 +2001,377 @@
 "status": 200,
 "url": "https://data.rcsb.org/rest/v1/core/chemcomp/TPF"
 },
+"4e68e9dee559d84a": {
+"data": {
+"_retrieved_at": "2026-09-17T12:01:50+00:00",
+"chem_comp": {
+"formula": "C25 H44 N14 O8",
+"formula_weight": 668.706,
+"id": "PRD_000193",
+"name": "Capreomycin IA",
+"pdbx_release_status": "REF_ONLY",
+"type": "peptide-like"
+},
+"pdbx_chem_comp_descriptor": [
+{
+"comp_id": "PRD_000193",
+"descriptor": "O=C1NC(C(=O)NC(C(=O)NC(\\C(=O)NC(C(=O)NCC1N)C2N=C(N)NCC2)=C/NC(=O)N)CNC(=O)CC(N)CCCN)CO",
+"program": "ACDLabs",
+"program_version": "12.01",
+"type": "SMILES"
+},
+{
+"comp_id": "PRD_000193",
+"descriptor": "InChI=1S/C25H44N14O8/c26-4-1-2-11(27)6-17(41)32-8-14-20(43)35-15(9-34-25(30)47)21(44)39-18(13-3-5-31-24(29)38-13)23(46)33-7-12(28)19(42)37-16(10-40)22(45)36-14/h9,11-14,16,18,40H,1-8,10,26-28H2,(H,32,41)(H,33,46)(H,35,43)(H,36,45)(H,37,42)(H,39,44)(H3,29,31,38)(H3,30,34,47)",
+"program": "InChI",
+"program_version": "1.03",
+"type": "InChI"
+},
+{
+"comp_id": "PRD_000193",
+"descriptor": "JNIIDKODPGHQSS-UHFFFAOYSA-N",
+"program": "InChI",
+"program_version": "1.03",
+"type": "InChIKey"
+},
+{
+"comp_id": "PRD_000193",
+"descriptor": "NCCC[C@H](N)CC(=O)NC[C@@H]1NC(=O)[C@H](CO)NC(=O)[C@@H](N)CNC(=O)[C@@H](NC(=O)\\C(NC1=O)=C\\NC(N)=O)[C@H]2CCNC(=N2)N",
+"program": "CACTVS",
+"program_version": "3.370",
+"type": "SMILES_CANONICAL"
+},
+{
+"comp_id": "PRD_000193",
+"descriptor": "NCCC[CH](N)CC(=O)NC[CH]1NC(=O)[CH](CO)NC(=O)[CH](N)CNC(=O)[CH](NC(=O)C(NC1=O)=CNC(N)=O)[CH]2CCNC(=N2)N",
+"program": "CACTVS",
+"program_version": "3.370",
+"type": "SMILES"
+},
+{
+"comp_id": "PRD_000193",
+"descriptor": "C1CNC(=N[C@H]1[C@H]2C(=O)NC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N/C(=C\\NC(=O)N)/C(=O)N2)CNC(=O)C[C@H](CCCN)N)CO)N)N",
+"program": "OpenEye OEToolkits",
+"program_version": "1.7.6",
+"type": "SMILES_CANONICAL"
+},
+{
+"comp_id": "PRD_000193",
+"descriptor": "C1CNC(=NC1C2C(=O)NCC(C(=O)NC(C(=O)NC(C(=O)NC(=CNC(=O)N)C(=O)N2)CNC(=O)CC(CCCN)N)CO)N)N",
+"program": "OpenEye OEToolkits",
+"program_version": "1.7.6",
+"type": "SMILES"
+}
+],
+"pdbx_chem_comp_identifier": [
+{
+"comp_id": "PRD_000193",
+"identifier": "(3S)-3,6-diamino-N-{[(2S,5R,8Z,11S,15R)-15-amino-11-[(4R)-2-amino-1,4,5,6-tetrahydropyrimidin-4-yl]-8-[(carbamoylamino)methylidene]-2-(hydroxymethyl)-3,6,9,12,16-pentaoxo-1,4,7,10,13-pentaazacyclohexadecan-5-yl]methyl}hexanamide",
+"program": "ACDLabs",
+"program_version": "12.01",
+"type": "SYSTEMATIC NAME"
+},
+{
+"comp_id": "PRD_000193",
+"identifier": "(3S)-N-[[(2S,5S,8Z,11S,15S)-8-[(aminocarbonylamino)methylidene]-15-azanyl-11-[(4R)-2-azanyl-1,4,5,6-tetrahydropyrimidin-4-yl]-2-(hydroxymethyl)-3,6,9,12,16-pentakis(oxidanylidene)-1,4,7,10,13-pentazacyclohexadec-5-yl]methyl]-3,6-bis(azanyl)hexanamide",
+"program": "OpenEye OEToolkits",
+"program_version": "1.7.6",
+"type": "SYSTEMATIC NAME"
+}
+],
+"pdbx_prd_audit": [
+{
+"action_type": "Create molecule",
+"date": "2012-02-08T00:00:00.000+00:00",
+"prd_id": "PRD_000193",
+"processing_site": "RCSB"
+},
+{
+"action_type": "Other modification",
+"date": "2012-07-09T00:00:00.000+00:00",
+"prd_id": "PRD_000193",
+"processing_site": "PDBE"
+},
+{
+"action_type": "Initial release",
+"date": "2012-12-12T00:00:00.000+00:00",
+"prd_id": "PRD_000193",
+"processing_site": "RCSB"
+},
+{
+"action_type": "Other modification",
+"date": "2013-06-03T00:00:00.000+00:00",
+"prd_id": "PRD_000193",
+"processing_site": "RCSB"
+},
+{
+"action_type": "Modify audit",
+"date": "2023-09-20T00:00:00.000+00:00",
+"prd_id": "PRD_000193",
+"processing_site": "PDBE"
+}
+],
+"pdbx_reference_entity_list": [
+{
+"component_id": 1,
+"details": "Capreomycin",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"type": "polymer"
+}
+],
+"pdbx_reference_entity_poly": [
+{
+"db_code": "NOR00638",
+"db_name": "NOR",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"type": "peptide-like"
+}
+],
+"pdbx_reference_entity_poly_link": [
+{
+"atom_id_1": "C",
+"atom_id_2": "NG",
+"comp_id_1": "KBE",
+"comp_id_2": "DPP",
+"component_id": 1,
+"entity_seq_num_1": 1,
+"entity_seq_num_2": 2,
+"link_id": 1,
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "C",
+"atom_id_2": "N",
+"comp_id_1": "DPP",
+"comp_id_2": "UAL",
+"component_id": 1,
+"entity_seq_num_1": 2,
+"entity_seq_num_2": 3,
+"link_id": 2,
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "N",
+"atom_id_2": "C",
+"comp_id_1": "DPP",
+"comp_id_2": "SER",
+"component_id": 1,
+"entity_seq_num_1": 2,
+"entity_seq_num_2": 6,
+"link_id": 3,
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "C",
+"atom_id_2": "N",
+"comp_id_1": "UAL",
+"comp_id_2": "MYN",
+"component_id": 1,
+"entity_seq_num_1": 3,
+"entity_seq_num_2": 4,
+"link_id": 4,
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "C",
+"atom_id_2": "NG",
+"comp_id_1": "MYN",
+"comp_id_2": "DPP",
+"component_id": 1,
+"entity_seq_num_1": 4,
+"entity_seq_num_2": 5,
+"link_id": 5,
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "C",
+"atom_id_2": "N",
+"comp_id_1": "DPP",
+"comp_id_2": "SER",
+"component_id": 1,
+"entity_seq_num_1": 5,
+"entity_seq_num_2": 6,
+"link_id": 6,
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"value_order": "sing"
+}
+],
+"pdbx_reference_entity_poly_seq": [
+{
+"hetero": "N",
+"mon_id": "KBE",
+"num": 1,
+"observed": "Y",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "DPP",
+"num": 2,
+"observed": "Y",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "UAL",
+"num": 3,
+"observed": "Y",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "MYN",
+"num": 4,
+"observed": "Y",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "DPP",
+"num": 5,
+"observed": "Y",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "SER",
+"num": 6,
+"observed": "Y",
+"parent_mon_id": "SER",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1"
+}
+],
+"pdbx_reference_entity_sequence": [
+{
+"NRP_flag": "Y",
+"one_letter_codes": "XXXXXS",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"type": "peptide-like"
+}
+],
+"pdbx_reference_entity_src_nat": [
+{
+"db_code": "NOR00638",
+"db_name": "Norine",
+"ordinal": 1,
+"organism_scientific": "streptomyces puniceus",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"taxid": "67351"
+},
+{
+"ordinal": 2,
+"organism_scientific": "Streptomyces capreolus",
+"prd_id": "PRD_000193",
+"ref_entity_id": "1",
+"source": "PubChem",
+"taxid": "66854"
+}
+],
+"pdbx_reference_molecule": {
+"class": "Inhibitor",
+"formula": "C25 H44 N14 O8",
+"formula_weight": 668.706,
+"name": "Capreomycin IA",
+"prd_id": "PRD_000193",
+"release_status": "REL",
+"represent_as": "polymer",
+"representative_PDB_id_code": "3knl",
+"type": "Cyclic peptide"
+},
+"rcsb_chem_comp_container_identifiers": {
+"comp_id": "PRD_000193",
+"prd_id": "PRD_000193",
+"rcsb_id": "PRD_000193"
+},
+"rcsb_chem_comp_descriptor": {
+"InChI": "InChI=1S/C25H44N14O8/c26-4-1-2-11(27)6-17(41)32-8-14-20(43)35-15(9-34-25(30)47)21(44)39-18(13-3-5-31-24(29)38-13)23(46)33-7-12(28)19(42)37-16(10-40)22(45)36-14/h9,11-14,16,18,40H,1-8,10,26-28H2,(H,32,41)(H,33,46)(H,35,43)(H,36,45)(H,37,42)(H,39,44)(H3,29,31,38)(H3,30,34,47)",
+"InChIKey": "JNIIDKODPGHQSS-UHFFFAOYSA-N",
+"SMILES": "C1CNC(=NC1C2C(=O)NCC(C(=O)NC(C(=O)NC(C(=O)NC(=CNC(=O)N)C(=O)N2)CNC(=O)CC(CCCN)N)CO)N)N",
+"SMILES_stereo": "C1CNC(=N[C@H]1[C@H]2C(=O)NC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N/C(=C\\NC(=O)N)/C(=O)N2)CNC(=O)C[C@H](CCCN)N)CO)N)N",
+"comp_id": "PRD_000193"
+},
+"rcsb_chem_comp_info": {
+"atom_count": 91,
+"atom_count_chiral": 6,
+"atom_count_heavy": 47,
+"bond_count": 92,
+"bond_count_aromatic": 0,
+"comp_id": "PRD_000193",
+"initial_deposition_date": "2012-02-08T00:00:00.000+00:00",
+"initial_release_date": "2012-12-12T00:00:00.000+00:00",
+"release_status": "REL",
+"revision_date": "2023-09-20T00:00:00.000+00:00"
+},
+"rcsb_chem_comp_related": [
+{
+"comp_id": "PRD_000193",
+"ordinal": 1,
+"related_mapping_method": "matching InChIKey in PubChem",
+"resource_accession_code": "135564597",
+"resource_name": "PubChem"
+},
+{
+"comp_id": "PRD_000193",
+"ordinal": 2,
+"related_mapping_method": "matching InChIKey in PubChem",
+"resource_accession_code": "3032940",
+"resource_name": "PubChem"
+}
+],
+"rcsb_chem_comp_synonyms": [
+{
+"comp_id": "PRD_000193",
+"name": "Capreomycin IA",
+"ordinal": 1,
+"provenance_source": "PDB Reference Data",
+"type": "Preferred Name"
+},
+{
+"comp_id": "PRD_000193",
+"name": "(3S)-3,6-diamino-N-{[(2S,5R,8Z,11S,15R)-15-amino-11-[(4R)-2-amino-1,4,5,6-tetrahydropyrimidin-4-yl]-8-[(carbamoylamino)methylidene]-2-(hydroxymethyl)-3,6,9,12,16-pentaoxo-1,4,7,10,13-pentaazacyclohexadecan-5-yl]methyl}hexanamide",
+"ordinal": 2,
+"provenance_source": "ACDLabs",
+"type": "Systematic Name"
+},
+{
+"comp_id": "PRD_000193",
+"name": "(3S)-N-[[(2S,5S,8Z,11S,15S)-8-[(aminocarbonylamino)methylidene]-15-azanyl-11-[(4R)-2-azanyl-1,4,5,6-tetrahydropyrimidin-4-yl]-2-(hydroxymethyl)-3,6,9,12,16-pentakis(oxidanylidene)-1,4,7,10,13-pentazacyclohexadec-5-yl]methyl]-3,6-bis(azanyl)hexanamide",
+"ordinal": 3,
+"provenance_source": "OpenEye OEToolkits",
+"type": "Systematic Name"
+}
+],
+"rcsb_id": "PRD_000193"
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://data.rcsb.org/rest/v1/core/chemcomp/PRD_000193"
+},
 "588830f4c6556d17": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:25+00:00",
+"_retrieved_at": "2026-09-17T12:02:59+00:00",
 "chem_comp": {
 "formula": "C29 H41 N5 O8",
 "formula_weight": 587.665,
@@ -2158,9 +2526,427 @@
 "status": 200,
 "url": "https://data.rcsb.org/rest/v1/core/chemcomp/T1C"
 },
+"58c8b76039d924b3": {
+"data": {
+"_retrieved_at": "2026-09-17T12:01:29+00:00",
+"chem_comp": {
+"formula": "C53 H67 N9 O10 S",
+"formula_weight": 1022.218,
+"id": "PRD_000505",
+"name": "Quinupristin",
+"pdbx_release_status": "REF_ONLY",
+"type": "peptide-like"
+},
+"pdbx_chem_comp_descriptor": [
+{
+"comp_id": "PRD_000505",
+"descriptor": "O=C3OC(C(C(=O)NC(C(=O)N1CCCC1C(=O)N(C)C(C(=O)N6C(C(=O)NC3c2ccccc2)CC(=O)C(CSC5C4CCN(CC4)C5)C6)Cc7ccc(N(C)C)cc7)CC)NC(=O)c8ncccc8O)C",
+"program": "ACDLabs",
+"program_version": "12.01",
+"type": "SMILES"
+},
+{
+"comp_id": "PRD_000505",
+"descriptor": "InChI=1S/C53H67N9O10S/c1-6-37-50(68)61-23-11-14-38(61)51(69)59(5)40(26-32-16-18-36(19-17-32)58(3)4)52(70)62-28-35(30-73-43-29-60-24-20-33(43)21-25-60)42(64)27-39(62)47(65)57-45(34-12-8-7-9-13-34)53(71)72-31(2)44(48(66)55-37)56-49(67)46-41(63)15-10-22-54-46/h7-10,12-13,15-19,22,31,33,35,37-40,43-45,63H,6,11,14,20-21,23-30H2,1-5H3,(H,55,66)(H,56,67)(H,57,65)",
+"program": "InChI",
+"program_version": "1.03",
+"type": "InChI"
+},
+{
+"comp_id": "PRD_000505",
+"descriptor": "WTHRRGMBUAHGNI-UHFFFAOYSA-N",
+"program": "InChI",
+"program_version": "1.03",
+"type": "InChIKey"
+},
+{
+"comp_id": "PRD_000505",
+"descriptor": "CC[C@H]1NC(=O)[C@@H](NC(=O)c2ncccc2O)[C@@H](C)OC(=O)[C@@H](NC(=O)[C@@H]3CC(=O)[C@H](CS[C@@H]4CN5CCC4CC5)CN3C(=O)[C@H](Cc6ccc(cc6)N(C)C)N(C)C(=O)[C@@H]7CCCN7C1=O)c8ccccc8",
+"program": "CACTVS",
+"program_version": "3.370",
+"type": "SMILES_CANONICAL"
+},
+{
+"comp_id": "PRD_000505",
+"descriptor": "CC[CH]1NC(=O)[CH](NC(=O)c2ncccc2O)[CH](C)OC(=O)[CH](NC(=O)[CH]3CC(=O)[CH](CS[CH]4CN5CCC4CC5)CN3C(=O)[CH](Cc6ccc(cc6)N(C)C)N(C)C(=O)[CH]7CCCN7C1=O)c8ccccc8",
+"program": "CACTVS",
+"program_version": "3.370",
+"type": "SMILES"
+},
+{
+"comp_id": "PRD_000505",
+"descriptor": "CC[C@@H]1C(=O)N2CCC[C@H]2C(=O)N([C@H](C(=O)N3CC(C(=O)C[C@H]3C(=O)N[C@H](C(=O)O[C@@H]([C@@H](C(=O)N1)NC(=O)c4c(cccn4)O)C)c5ccccc5)CS[C@@H]6CN7CCC6CC7)Cc8ccc(cc8)N(C)C)C",
+"program": "OpenEye OEToolkits",
+"program_version": "1.7.6",
+"type": "SMILES_CANONICAL"
+},
+{
+"comp_id": "PRD_000505",
+"descriptor": "CCC1C(=O)N2CCCC2C(=O)N(C(C(=O)N3CC(C(=O)CC3C(=O)NC(C(=O)OC(C(C(=O)N1)NC(=O)c4c(cccn4)O)C)c5ccccc5)CSC6CN7CCC6CC7)Cc8ccc(cc8)N(C)C)C",
+"program": "OpenEye OEToolkits",
+"program_version": "1.7.6",
+"type": "SMILES"
+}
+],
+"pdbx_chem_comp_identifier": [
+{
+"comp_id": "PRD_000505",
+"identifier": "N-{(6S,9S,10S,13R,15aS,18R,22S,24aS)-18-{[(3R)-1-azabicyclo[2.2.2]oct-3-ylsulfanyl]methyl}-22-[4-(dimethylamino)benzyl]-6-ethyl-10,23-dimethyl-5,8,12,15,17,21,24-heptaoxo-13-phenyldocosahydro-12H-pyrido[2,1-f]pyrrolo[2,1-l][1,4,7,10,13,16]oxapentaazacyclononadecin-9-yl}-3-hydroxypyridine-2-carboxamide",
+"program": "ACDLabs",
+"program_version": "12.01",
+"type": "SYSTEMATIC NAME"
+}
+],
+"pdbx_prd_audit": [
+{
+"action_type": "Create molecule",
+"date": "2012-02-08T00:00:00.000+00:00",
+"prd_id": "PRD_000505",
+"processing_site": "RCSB"
+},
+{
+"action_type": "Other modification",
+"date": "2012-07-09T00:00:00.000+00:00",
+"prd_id": "PRD_000505",
+"processing_site": "PDBE"
+},
+{
+"action_type": "Initial release",
+"date": "2012-12-12T00:00:00.000+00:00",
+"prd_id": "PRD_000505",
+"processing_site": "RCSB"
+},
+{
+"action_type": "Other modification",
+"date": "2013-06-03T00:00:00.000+00:00",
+"prd_id": "PRD_000505",
+"processing_site": "RCSB"
+},
+{
+"action_type": "Other modification",
+"date": "2015-04-15T00:00:00.000+00:00",
+"prd_id": "PRD_000505",
+"processing_site": "RCSB"
+},
+{
+"action_type": "Other modification",
+"date": "2017-05-04T00:00:00.000+00:00",
+"prd_id": "PRD_000505",
+"processing_site": "RCSB"
+},
+{
+"action_type": "Other modification",
+"date": "2020-07-29T00:00:00.000+00:00",
+"prd_id": "PRD_000505",
+"processing_site": "RCSB"
+},
+{
+"action_type": "Modify audit",
+"date": "2023-09-20T00:00:00.000+00:00",
+"prd_id": "PRD_000505",
+"processing_site": "PDBE"
+}
+],
+"pdbx_reference_entity_list": [
+{
+"component_id": 1,
+"details": "PEPTIDE LIKE SEQUENCE RESIDUES 1 TO 7",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"type": "polymer"
+}
+],
+"pdbx_reference_entity_poly": [
+{
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"type": "peptide-like"
+}
+],
+"pdbx_reference_entity_poly_link": [
+{
+"atom_id_1": "C",
+"atom_id_2": "N",
+"comp_id_1": "MHW",
+"comp_id_2": "THR",
+"component_id": 1,
+"entity_seq_num_1": 1,
+"entity_seq_num_2": 2,
+"link_id": 1,
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "C",
+"atom_id_2": "N",
+"comp_id_1": "THR",
+"comp_id_2": "DBB",
+"component_id": 1,
+"entity_seq_num_1": 2,
+"entity_seq_num_2": 3,
+"link_id": 2,
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "OG1",
+"atom_id_2": "C",
+"comp_id_1": "THR",
+"comp_id_2": "004",
+"component_id": 1,
+"entity_seq_num_1": 2,
+"entity_seq_num_2": 7,
+"link_id": 3,
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "C",
+"atom_id_2": "N",
+"comp_id_1": "DBB",
+"comp_id_2": "PRO",
+"component_id": 1,
+"entity_seq_num_1": 3,
+"entity_seq_num_2": 4,
+"link_id": 4,
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "C",
+"atom_id_2": "N",
+"comp_id_1": "PRO",
+"comp_id_2": "MHU",
+"component_id": 1,
+"entity_seq_num_1": 4,
+"entity_seq_num_2": 5,
+"link_id": 5,
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "C",
+"atom_id_2": "N",
+"comp_id_1": "MHU",
+"comp_id_2": "MHV",
+"component_id": 1,
+"entity_seq_num_1": 5,
+"entity_seq_num_2": 6,
+"link_id": 6,
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "CD2",
+"atom_id_2": "CM",
+"comp_id_1": "MHV",
+"comp_id_2": "MHT",
+"component_id": 1,
+"entity_seq_num_1": 6,
+"entity_seq_num_2": 8,
+"link_id": 7,
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"value_order": "sing"
+},
+{
+"atom_id_1": "C",
+"atom_id_2": "N",
+"comp_id_1": "MHV",
+"comp_id_2": "004",
+"component_id": 1,
+"entity_seq_num_1": 6,
+"entity_seq_num_2": 7,
+"link_id": 8,
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"value_order": "sing"
+}
+],
+"pdbx_reference_entity_poly_seq": [
+{
+"hetero": "N",
+"mon_id": "MHW",
+"num": 1,
+"observed": "Y",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "THR",
+"num": 2,
+"observed": "Y",
+"parent_mon_id": "THR",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "DBB",
+"num": 3,
+"observed": "Y",
+"parent_mon_id": "ALA",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "PRO",
+"num": 4,
+"observed": "Y",
+"parent_mon_id": "PRO",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "MHU",
+"num": 5,
+"observed": "Y",
+"parent_mon_id": "PHE",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "MHV",
+"num": 6,
+"observed": "Y",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "004",
+"num": 7,
+"observed": "Y",
+"parent_mon_id": "GLY",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1"
+},
+{
+"hetero": "N",
+"mon_id": "MHT",
+"num": 8,
+"observed": "Y",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1"
+}
+],
+"pdbx_reference_entity_sequence": [
+{
+"NRP_flag": "Y",
+"one_letter_codes": "XTXPXXXX",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"type": "peptide-like"
+}
+],
+"pdbx_reference_entity_src_nat": [
+{
+"db_code": "D00852",
+"db_name": "KEGG",
+"ordinal": 1,
+"organism_scientific": "Streptomyces pristinaespiralis",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"taxid": "457429"
+},
+{
+"ordinal": 2,
+"organism_scientific": "Streptomyces graminofaciens",
+"prd_id": "PRD_000505",
+"ref_entity_id": "1",
+"source": "Merck",
+"taxid": "68212"
+}
+],
+"pdbx_reference_molecule": {
+"class": "Antibiotic",
+"compound_details": "QUINUPRISTIN IS A STREPTOGRAMIN ANTIBIOTIC. HERE, QUINUPRISTIN IS REPRESENTED BY SEQUENCE (SEQRES).",
+"description": "QUINUPRISTIN IS A CYLIC HEPTAPEPTIDE. THE RING GENERATED BY LINKING RESIDUE 2 SIDE-CHAIN IS AND MAIN-CHAIN RESIDUE 7.",
+"formula": "C53 H67 N9 O10 S",
+"formula_weight": 1022.218,
+"name": "Quinupristin",
+"prd_id": "PRD_000505",
+"release_status": "REL",
+"represent_as": "polymer",
+"representative_PDB_id_code": "1yjw",
+"type": "Oligopeptide"
+},
+"rcsb_chem_comp_container_identifiers": {
+"comp_id": "PRD_000505",
+"prd_id": "PRD_000505",
+"rcsb_id": "PRD_000505"
+},
+"rcsb_chem_comp_descriptor": {
+"InChI": "InChI=1S/C53H67N9O10S/c1-6-37-50(68)61-23-11-14-38(61)51(69)59(5)40(26-32-16-18-36(19-17-32)58(3)4)52(70)62-28-35(30-73-43-29-60-24-20-33(43)21-25-60)42(64)27-39(62)47(65)57-45(34-12-8-7-9-13-34)53(71)72-31(2)44(48(66)55-37)56-49(67)46-41(63)15-10-22-54-46/h7-10,12-13,15-19,22,31,33,35,37-40,43-45,63H,6,11,14,20-21,23-30H2,1-5H3,(H,55,66)(H,56,67)(H,57,65)",
+"InChIKey": "WTHRRGMBUAHGNI-UHFFFAOYSA-N",
+"SMILES": "CCC1C(=O)N2CCCC2C(=O)N(C(C(=O)N3CC(C(=O)CC3C(=O)NC(C(=O)OC(C(C(=O)N1)NC(=O)c4c(cccn4)O)C)c5ccccc5)CSC6CN7CCC6CC7)Cc8ccc(cc8)N(C)C)C",
+"SMILES_stereo": "CC[C@@H]1C(=O)N2CCC[C@H]2C(=O)N([C@H](C(=O)N3CC(C(=O)C[C@H]3C(=O)N[C@H](C(=O)O[C@@H]([C@@H](C(=O)N1)NC(=O)c4c(cccn4)O)C)c5ccccc5)CS[C@@H]6CN7CCC6CC7)Cc8ccc(cc8)N(C)C)C",
+"comp_id": "PRD_000505"
+},
+"rcsb_chem_comp_info": {
+"atom_count": 140,
+"atom_count_chiral": 8,
+"atom_count_heavy": 73,
+"bond_count": 147,
+"bond_count_aromatic": 18,
+"comp_id": "PRD_000505",
+"initial_deposition_date": "2012-02-08T00:00:00.000+00:00",
+"initial_release_date": "2012-12-12T00:00:00.000+00:00",
+"release_status": "REL",
+"revision_date": "2023-09-20T00:00:00.000+00:00"
+},
+"rcsb_chem_comp_related": [
+{
+"comp_id": "PRD_000505",
+"ordinal": 1,
+"related_mapping_method": "matching InChIKey in PubChem",
+"resource_accession_code": "5388937",
+"resource_name": "PubChem"
+},
+{
+"comp_id": "PRD_000505",
+"ordinal": 2,
+"related_mapping_method": "assigned by PubChem resource",
+"resource_accession_code": "CHEMBL1200649",
+"resource_name": "ChEMBL"
+}
+],
+"rcsb_chem_comp_synonyms": [
+{
+"comp_id": "PRD_000505",
+"name": "Quinupristin",
+"ordinal": 1,
+"provenance_source": "PDB Reference Data",
+"type": "Preferred Name"
+},
+{
+"comp_id": "PRD_000505",
+"name": "N-{(6S,9S,10S,13R,15aS,18R,22S,24aS)-18-{[(3R)-1-azabicyclo[2.2.2]oct-3-ylsulfanyl]methyl}-22-[4-(dimethylamino)benzyl]-6-ethyl-10,23-dimethyl-5,8,12,15,17,21,24-heptaoxo-13-phenyldocosahydro-12H-pyrido[2,1-f]pyrrolo[2,1-l][1,4,7,10,13,16]oxapentaazacyclononadecin-9-yl}-3-hydroxypyridine-2-carboxamide",
+"ordinal": 2,
+"provenance_source": "ACDLabs",
+"type": "Systematic Name"
+}
+],
+"rcsb_id": "PRD_000505"
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://data.rcsb.org/rest/v1/core/chemcomp/PRD_000505"
+},
 "688c67016f5a9fdf": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:25+00:00",
+"_retrieved_at": "2026-09-17T12:02:49+00:00",
 "chem_comp": {
 "formula": "C12 H17 N2 O4 P",
 "formula_weight": 284.248,
@@ -2399,7 +3185,7 @@
 },
 "8e32ccfca300f066": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:19+00:00",
+"_retrieved_at": "2026-09-17T12:01:51+00:00",
 "chem_comp": {
 "formula": "C6 H12 O6",
 "formula_weight": 180.156,
@@ -3075,7 +3861,7 @@
 },
 "93b931a23f20fbf0": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:24+00:00",
+"_retrieved_at": "2026-09-17T12:02:38+00:00",
 "chem_comp": {
 "formula": "C5 H12 N2 O2",
 "formula_weight": 132.161,
@@ -3628,7 +4414,7 @@
 },
 "95244caa5bab8319": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:34+00:00",
+"_retrieved_at": "2026-09-17T12:03:16+00:00",
 "chem_comp": {
 "formula": "H2 O",
 "formula_weight": 18.015,
@@ -4077,7 +4863,7 @@
 },
 "a4bb86159cd6c9f6": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:29+00:00",
+"_retrieved_at": "2026-09-17T12:03:03+00:00",
 "chem_comp": {
 "formula": "C19 H39 N5 O7",
 "formula_weight": 449.542,
@@ -4324,7 +5110,7 @@
 },
 "acb9af12c4d74ef0": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:25+00:00",
+"_retrieved_at": "2026-09-17T12:02:54+00:00",
 "chem_comp": {
 "formula": "C7 H11 N3 O6 S",
 "formula_weight": 265.244,
@@ -4700,7 +5486,7 @@
 },
 "c03f469405657631": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:30+00:00",
+"_retrieved_at": "2026-09-17T12:03:09+00:00",
 "chem_comp": {
 "formula": "C43 H60 N2 O12",
 "formula_weight": 796.943,
@@ -4899,9 +5685,161 @@
 "status": 200,
 "url": "https://data.rcsb.org/rest/v1/core/chemcomp/KIR"
 },
+"c04c920dec71b722": {
+"data": {
+"_retrieved_at": "2026-09-17T12:01:51+00:00",
+"chem_comp": {
+"formula": "C21 H44 N7 O13",
+"formula_weight": 602.613,
+"id": "5I0",
+"name": "[(2~{S},3~{S},4~{S},5~{R},6~{S})-2-[(2~{R},3~{R},4~{R},5~{S})-2-[(1~{R},2~{S},3~{R},4~{R},5~{S},6~{R})-2,4-bis[[azaniumylidene(azanyl)methyl]amino]-3,5,6-tris(oxidanyl)cyclohexyl]oxy-4-[bis(oxidanyl)methyl]-5-methyl-4-oxidanyl-oxolan-3-yl]oxy-6-(hydroxymethyl)-4,5-bis(oxidanyl)oxan-3-yl]-methyl-azanium",
+"pdbx_ambiguous_flag": "N",
+"pdbx_formal_charge": 3,
+"pdbx_initial_date": "2021-07-09T00:00:00.000+00:00",
+"pdbx_modified_date": "2022-11-23T00:00:00.000+00:00",
+"pdbx_processing_site": "PDBE",
+"pdbx_release_status": "REL",
+"three_letter_code": "5I0",
+"type": "non-polymer"
+},
+"pdbx_chem_comp_audit": [
+{
+"action_type": "Create component",
+"comp_id": "5I0",
+"date": "2021-07-09T00:00:00.000+00:00",
+"ordinal": 1
+},
+{
+"action_type": "Initial release",
+"comp_id": "5I0",
+"date": "2022-07-27T00:00:00.000+00:00",
+"ordinal": 2
+},
+{
+"action_type": "Modify synonyms",
+"comp_id": "5I0",
+"date": "2022-11-23T00:00:00.000+00:00",
+"ordinal": 3
+}
+],
+"pdbx_chem_comp_descriptor": [
+{
+"comp_id": "5I0",
+"descriptor": "InChI=1S/C21H41N7O13/c1-4-21(37,18(35)36)15(41-16-8(26-2)12(33)9(30)5(3-29)39-16)17(38-4)40-14-7(28-20(24)25)10(31)6(27-19(22)23)11(32)13(14)34/h4-18,26,29-37H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)/p+3/t4-,5-,6+,7-,8-,9-,10+,11-,12-,13+,14+,15-,16-,17-,21+/m0/s1",
+"program": "InChI",
+"program_version": "1.03",
+"type": "InChI"
+},
+{
+"comp_id": "5I0",
+"descriptor": "ATLHDHNZEMANQF-UQHZJGBMSA-Q",
+"program": "InChI",
+"program_version": "1.03",
+"type": "InChIKey"
+},
+{
+"comp_id": "5I0",
+"descriptor": "C[NH2+][C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]2[C@@H](O[C@@H](C)[C@]2(O)C(O)O)O[C@H]3[C@H](O)[C@@H](O)[C@H](NC(N)=[NH2+])[C@@H](O)[C@@H]3NC(N)=[NH2+]",
+"program": "CACTVS",
+"program_version": "3.385",
+"type": "SMILES_CANONICAL"
+},
+{
+"comp_id": "5I0",
+"descriptor": "C[NH2+][CH]1[CH](O)[CH](O)[CH](CO)O[CH]1O[CH]2[CH](O[CH](C)[C]2(O)C(O)O)O[CH]3[CH](O)[CH](O)[CH](NC(N)=[NH2+])[CH](O)[CH]3NC(N)=[NH2+]",
+"program": "CACTVS",
+"program_version": "3.385",
+"type": "SMILES"
+},
+{
+"comp_id": "5I0",
+"descriptor": "C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)NC(=[NH2+])N)O)NC(=[NH2+])N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)[NH2+]C)(C(O)O)O",
+"program": "OpenEye OEToolkits",
+"program_version": "2.0.7",
+"type": "SMILES_CANONICAL"
+},
+{
+"comp_id": "5I0",
+"descriptor": "CC1C(C(C(O1)OC2C(C(C(C(C2O)O)NC(=[NH2+])N)O)NC(=[NH2+])N)OC3C(C(C(C(O3)CO)O)O)[NH2+]C)(C(O)O)O",
+"program": "OpenEye OEToolkits",
+"program_version": "2.0.7",
+"type": "SMILES"
+}
+],
+"pdbx_chem_comp_identifier": [
+{
+"comp_id": "5I0",
+"identifier": "[(2~{S},3~{S},4~{S},5~{R},6~{S})-2-[(2~{R},3~{R},4~{R},5~{S})-2-[(1~{R},2~{S},3~{R},4~{R},5~{S},6~{R})-2,4-bis[[azaniumylidene(azanyl)methyl]amino]-3,5,6-tris(oxidanyl)cyclohexyl]oxy-4-[bis(oxidanyl)methyl]-5-methyl-4-oxidanyl-oxolan-3-yl]oxy-6-(hydroxymethyl)-4,5-bis(oxidanyl)oxan-3-yl]-methyl-azanium",
+"program": "OpenEye OEToolkits",
+"program_version": "2.0.7",
+"type": "SYSTEMATIC NAME"
+}
+],
+"rcsb_chem_comp_container_identifiers": {
+"comp_id": "5I0",
+"rcsb_id": "5I0"
+},
+"rcsb_chem_comp_descriptor": {
+"InChI": "InChI=1S/C21H41N7O13/c1-4-21(37,18(35)36)15(41-16-8(26-2)12(33)9(30)5(3-29)39-16)17(38-4)40-14-7(28-20(24)25)10(31)6(27-19(22)23)11(32)13(14)34/h4-18,26,29-37H,3H2,1-2H3,(H4,22,23,27)(H4,24,25,28)/p+3/t4-,5-,6+,7-,8-,9-,10+,11-,12-,13+,14+,15-,16-,17-,21+/m0/s1",
+"InChIKey": "ATLHDHNZEMANQF-UQHZJGBMSA-Q",
+"SMILES": "CC1C(C(C(O1)OC2C(C(C(C(C2O)O)NC(=[NH2+])N)O)NC(=[NH2+])N)OC3C(C(C(C(O3)CO)O)O)[NH2+]C)(C(O)O)O",
+"SMILES_stereo": "C[C@H]1[C@@]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@@H]([C@H]([C@@H]([C@H]2O)O)NC(=[NH2+])N)O)NC(=[NH2+])N)O[C@H]3[C@H]([C@@H]([C@H]([C@@H](O3)CO)O)O)[NH2+]C)(C(O)O)O",
+"comp_id": "5I0"
+},
+"rcsb_chem_comp_info": {
+"atom_count": 85,
+"atom_count_chiral": 15,
+"atom_count_heavy": 41,
+"bond_count": 87,
+"bond_count_aromatic": 0,
+"comp_id": "5I0",
+"initial_deposition_date": "2021-07-09T00:00:00.000+00:00",
+"initial_release_date": "2022-07-27T00:00:00.000+00:00",
+"release_status": "REL",
+"revision_date": "2022-11-23T00:00:00.000+00:00"
+},
+"rcsb_chem_comp_related": [
+{
+"comp_id": "5I0",
+"ordinal": 1,
+"related_mapping_method": "matching InChIKey in PubChem",
+"resource_accession_code": "164575481",
+"resource_name": "PubChem"
+}
+],
+"rcsb_chem_comp_synonyms": [
+{
+"comp_id": "5I0",
+"name": "[(2~{S},3~{S},4~{S},5~{R},6~{S})-2-[(2~{R},3~{R},4~{R},5~{S})-2-[(1~{R},2~{S},3~{R},4~{R},5~{S},6~{R})-2,4-bis[[azaniumylidene(azanyl)methyl]amino]-3,5,6-tris(oxidanyl)cyclohexyl]oxy-4-[bis(oxidanyl)methyl]-5-methyl-4-oxidanyl-oxolan-3-yl]oxy-6-(hydroxymethyl)-4,5-bis(oxidanyl)oxan-3-yl]-methyl-azanium",
+"ordinal": 1,
+"provenance_source": "PDB Reference Data",
+"type": "Preferred Name"
+},
+{
+"comp_id": "5I0",
+"name": "hydrated form of streptomycin",
+"ordinal": 2,
+"provenance_source": "PDB Reference Data",
+"type": "Synonym"
+},
+{
+"comp_id": "5I0",
+"name": "[(2~{S},3~{S},4~{S},5~{R},6~{S})-2-[(2~{R},3~{R},4~{R},5~{S})-2-[(1~{R},2~{S},3~{R},4~{R},5~{S},6~{R})-2,4-bis[[azaniumylidene(azanyl)methyl]amino]-3,5,6-tris(oxidanyl)cyclohexyl]oxy-4-[bis(oxidanyl)methyl]-5-methyl-4-oxidanyl-oxolan-3-yl]oxy-6-(hydroxymethyl)-4,5-bis(oxidanyl)oxan-3-yl]-methyl-azanium",
+"ordinal": 3,
+"provenance_source": "OpenEye OEToolkits",
+"type": "Systematic Name"
+}
+],
+"rcsb_id": "5I0"
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://data.rcsb.org/rest/v1/core/chemcomp/5I0"
+},
 "c36ffb492e14f227": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:28+00:00",
+"_retrieved_at": "2026-09-17T12:03:03+00:00",
 "chem_comp": {
 "formula": "C23 H46 N6 O13",
 "formula_weight": 614.644,
@@ -5324,7 +6262,7 @@
 },
 "e0c8050d2587de78": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:24+00:00",
+"_retrieved_at": "2026-09-17T12:02:20+00:00",
 "chem_comp": {
 "formula": "C14 H24 N2 O7",
 "formula_weight": 332.35,
@@ -5663,7 +6601,7 @@
 },
 "ec3a18b6504bc8e8": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:33+00:00",
+"_retrieved_at": "2026-09-17T12:03:16+00:00",
 "chem_comp": {
 "formula": "C43 H65 F N6 O10",
 "formula_weight": 845.009,
@@ -5924,7 +6862,7 @@
 },
 "ee1803b7ca224a4e": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:28+00:00",
+"_retrieved_at": "2026-09-17T12:03:02+00:00",
 "chem_comp": {
 "formula": "C61 H90 Cl2 O32",
 "formula_weight": 1406.254,
@@ -6109,7 +7047,7 @@
 },
 "f052e18b4364756b": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:30+00:00",
+"_retrieved_at": "2026-09-17T12:03:10+00:00",
 "chem_comp": {
 "formula": "C25 H43 N13 O10",
 "formula_weight": 685.69,
@@ -6510,7 +7448,7 @@
 },
 "f69c207ab491d444": {
 "data": {
-"_retrieved_at": "2026-09-17T11:48:24+00:00",
+"_retrieved_at": "2026-09-17T12:02:29+00:00",
 "chem_comp": {
 "formula": "C10 H16 N5 O14 P3",
 "formula_weight": 523.18,

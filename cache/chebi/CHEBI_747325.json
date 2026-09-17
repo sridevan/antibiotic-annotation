@@ -1,0 +1,77 @@
+{
+ "chebi_id": "CHEBI:747325",
+ "chebi_release": "255",
+ "definition": "a role for a chemical additive to a mixture",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33232",
+  "CHEBI:51086"
+ ],
+ "name": "additive",
+ "num_descendants": 48,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:33232",
+  "CHEBI:50906",
+  "CHEBI:51086"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:50+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "additive",
+   "chebi_accession": "CHEBI:747325",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "a role for a chemical additive to a mixture",
+   "id": 747325,
+   "is_released": true,
+   "name": "additive",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 51086,
+      "final_name": "chemical role",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 33232,
+      "final_name": "application",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 2
+  },
+  "ols4": {
+   "curie": "CHEBI:747325",
+   "definition": [
+    "a role for a chemical additive to a mixture"
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "isObsolete": false,
+   "label": [
+    "additive"
+   ],
+   "numDescendants": 48.0,
+   "numHierarchicalDescendants": 48.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 2,
+ "synonyms": []
+}

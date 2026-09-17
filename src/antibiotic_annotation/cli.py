@@ -11,7 +11,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from .benchmark import MAPPING_REPORT_COLUMNS, load_benchmark, run_mapping, write_tsv
+from .benchmark import MAPPING_REPORT_COLUMNS, load_benchmark, run_mapping, stratified_split, write_tsv
+from .coverage import COVERAGE_COLUMNS, build_term_coverage
 from .pipeline import Pipeline
 
 
@@ -60,6 +61,56 @@ def cmd_map_benchmark(args: argparse.Namespace) -> int:
     return 0
 
 
+def _load_or_make_split(bench, out: Path, seed: str) -> dict[str, str]:
+    path = out / "split.json"
+    if path.exists():
+        return json.loads(path.read_text())["assignment"]
+    assignment = stratified_split(bench.primary_items, seed=seed, dev_fraction=0.7)
+    out.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps({"seed": seed, "dev_fraction": 0.7, "assignment": assignment, "items": {i.input_id: {"compound": i.compound, "label": i.label, "stratum": i.stratum} for i in bench.primary_items}}, indent=1, sort_keys=True))
+    return assignment
+
+
+def cmd_split(args: argparse.Namespace) -> int:
+    bench = load_benchmark(args.input)
+    out = Path(args.output)
+    if (out / "split.json").exists() and not args.force:
+        print(f"{out / 'split.json'} already exists (use --force to regenerate)")
+        return 0
+    if args.force and (out / "split.json").exists():
+        (out / "split.json").unlink()
+    assignment = _load_or_make_split(bench, out, args.seed)
+    for part in ("dev", "holdout"):
+        items = [i for i in bench.primary_items if assignment[i.input_id] == part]
+        print(f"{part}: {len(items)} items, {sum(i.label == 1 for i in items)} positives, {sum(i.label == 0 for i in items)} negatives")
+        for i in sorted(items, key=lambda x: (-(x.label or 0), x.stratum, x.compound)):
+            print(f"   {i.label} {i.stratum:18} {i.compound} ({i.input_id})")
+    return 0
+
+
+def cmd_coverage(args: argparse.Namespace) -> int:
+    bench = load_benchmark(args.input)
+    out = Path(args.output)
+    assignment = _load_or_make_split(bench, out, args.seed)
+    pipe = Pipeline(cache_dir=args.cache)
+    # ontology records for every resolved compound (all sets) -- retrieval only, no tuning
+    (out / "ontology").mkdir(parents=True, exist_ok=True)
+    n_ont = 0
+    for item in bench.annotatable_items:
+        res = pipe.resolve(item.input_id)
+        if res.mapping.resolved:
+            (out / "ontology" / f"{item.input_id.replace(':', '_')}.json").write_text(json.dumps(pipe.ontology_summary(res.mapping), indent=1, ensure_ascii=False))
+            n_ont += 1
+    dev_pos = [i for i in bench.primary_positives if assignment[i.input_id] == "dev"]
+    dev_neg = [i for i in bench.primary_negatives if assignment[i.input_id] == "dev"]
+    rows, meta = build_term_coverage(pipe, dev_pos, dev_neg)
+    write_tsv(rows, out / "term_coverage_dev.tsv", COVERAGE_COLUMNS)
+    (out / "term_coverage_dev.meta.json").write_text(json.dumps(meta, indent=1))
+    print(f"ontology records written: {n_ont}; coverage rows: {len(rows)} -> {out / 'term_coverage_dev.tsv'}")
+    print(json.dumps(meta, indent=1))
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="antibiotic_annotation")
     p.add_argument("--cache", default="cache", help="cache directory (default: cache/)")
@@ -72,6 +123,17 @@ def build_parser() -> argparse.ArgumentParser:
     b.add_argument("--input", default="data/benchmark/antibiotic_ontology_rule_evaluation.xlsx")
     b.add_argument("--output", default="output")
     b.set_defaults(func=cmd_map_benchmark)
+    c = sub.add_parser("split", help="create the deterministic dev/holdout split (output/split.json)")
+    c.add_argument("--input", default="data/benchmark/antibiotic_ontology_rule_evaluation.xlsx")
+    c.add_argument("--output", default="output")
+    c.add_argument("--seed", default="v1")
+    c.add_argument("--force", action="store_true")
+    c.set_defaults(func=cmd_split)
+    d = sub.add_parser("coverage", help="retrieve ontology for resolved compounds and write the DEV term-coverage report")
+    d.add_argument("--input", default="data/benchmark/antibiotic_ontology_rule_evaluation.xlsx")
+    d.add_argument("--output", default="output")
+    d.add_argument("--seed", default="v1")
+    d.set_defaults(func=cmd_coverage)
     return p
 
 

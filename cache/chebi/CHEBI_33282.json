@@ -1,0 +1,70 @@
+{
+ "chebi_id": "CHEBI:33282",
+ "chebi_release": "255",
+ "definition": "A substance (or active part thereof) that kills or slows the growth of bacteria.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33281"
+ ],
+ "name": "antibacterial agent",
+ "num_descendants": 7,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:33281",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:09+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antibacterial agent",
+   "chebi_accession": "CHEBI:33282",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A substance (or active part thereof) that kills or slows the growth of bacteria.",
+   "id": 33282,
+   "is_released": true,
+   "name": "antibacterial agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33282",
+   "definition": [
+    "A substance (or active part thereof) that kills or slows the growth of bacteria."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33281"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33281",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antibacterial agent"
+   ],
+   "numDescendants": 7.0,
+   "numHierarchicalDescendants": 7.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

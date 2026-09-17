@@ -1,0 +1,212 @@
+{
+ "chebi_ids": [
+  "CHEBI:27784"
+ ],
+ "terms": {
+  "CHEBI:27784": {
+   "name": "gentamycin C1a",
+   "definition": null,
+   "stars": 3,
+   "is_a": [
+    "CHEBI:28417"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:28417",
+   "name": "gentamycin C",
+   "min_depth": 1,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:17833",
+   "name": "gentamycin",
+   "min_depth": 2,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:22479",
+   "name": "amino cyclitol glycoside",
+   "min_depth": 3,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:22507",
+   "name": "aminoglycoside antibiotic",
+   "min_depth": 3,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:23007",
+   "name": "carbohydrate-containing antibiotic",
+   "min_depth": 4,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:23451",
+   "name": "cyclitol",
+   "min_depth": 4,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:24400",
+   "name": "glycoside",
+   "min_depth": 4,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:47779",
+   "name": "aminoglycoside",
+   "min_depth": 4,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:26191",
+   "name": "polyol",
+   "min_depth": 5,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:63161",
+   "name": "glycosyl compound",
+   "min_depth": 5,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:63299",
+   "name": "carbohydrate derivative",
+   "min_depth": 5,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:33822",
+   "name": "organic hydroxy compound",
+   "min_depth": 6,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:78616",
+   "name": "carbohydrates and carbohydrate derivatives",
+   "min_depth": 6,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:24651",
+   "name": "hydroxides",
+   "min_depth": 7,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:36963",
+   "name": "organooxygen compound",
+   "min_depth": 7,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:33608",
+   "name": "hydrogen molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:36962",
+   "name": "organochalcogen compound",
+   "min_depth": 8,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 9,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 9,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:33674",
+   "name": "s-block molecular entity",
+   "min_depth": 9,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 9,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 9,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 10,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 10,
+   "via": "CHEBI:27784"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 11,
+   "via": "CHEBI:27784"
+  }
+ ],
+ "direct_roles": {},
+ "inherited_roles": {
+  "CHEBI:33281": {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent",
+   "asserted_on": [
+    "CHEBI:23007"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  }
+ ],
+ "chebi_release": "255"
+}

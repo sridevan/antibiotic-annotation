@@ -1,0 +1,72 @@
+{
+ "chebi_id": "CHEBI:35441",
+ "chebi_release": "255",
+ "definition": "A substance used in the prophylaxis or therapy of infectious diseases.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23888"
+ ],
+ "name": "antiinfective agent",
+ "num_descendants": 27,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:22+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antiinfective agent",
+   "chebi_accession": "CHEBI:35441",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A substance used in the prophylaxis or therapy of infectious diseases.",
+   "id": 35441,
+   "is_released": true,
+   "name": "antiinfective agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23888,
+      "final_name": "drug",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35441",
+   "definition": [
+    "A substance used in the prophylaxis or therapy of infectious diseases."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antiinfective agent"
+   ],
+   "numDescendants": 27.0,
+   "numHierarchicalDescendants": 27.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

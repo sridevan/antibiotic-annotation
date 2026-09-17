@@ -1,0 +1,81 @@
+{
+ "chebi_id": "CHEBI:77746",
+ "chebi_release": "255",
+ "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:75768"
+ ],
+ "name": "human metabolite",
+ "num_descendants": 4,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:25212",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:75763",
+  "CHEBI:75767",
+  "CHEBI:75768"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:30+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "human metabolite",
+   "chebi_accession": "CHEBI:77746",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>).",
+   "id": 77746,
+   "is_released": true,
+   "name": "human metabolite",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 75768,
+      "final_name": "mammalian metabolite",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:75770",
+    "CHEBI:77123"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:77746",
+   "definition": [
+    "Any mammalian metabolite  produced during a metabolic reaction in humans (<em>Homo sapiens</em>)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_75768"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_25212",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_75763",
+    "http://purl.obolibrary.org/obo/CHEBI_75767",
+    "http://purl.obolibrary.org/obo/CHEBI_75768"
+   ],
+   "isObsolete": false,
+   "label": [
+    "human metabolite"
+   ],
+   "numDescendants": 4.0,
+   "numHierarchicalDescendants": 4.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

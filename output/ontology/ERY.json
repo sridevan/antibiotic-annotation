@@ -1,0 +1,274 @@
+{
+ "chebi_ids": [
+  "CHEBI:42355"
+ ],
+ "terms": {
+  "CHEBI:42355": {
+   "name": "erythromycin A",
+   "definition": "An erythromycin that consists of erythronolide A having 2,6-dideoxy-3-<em>C</em>-methyl-3-<em>O</em>-methyl-α-<small>L</small>-<i>ribo</i>-hexopyranosyl and 3,4,6-trideoxy-3-(dimethylamino)-β-<small>D</small>-<i>xylo</i>-hexopyranosyl residues attahced at positions 4 and 6 respectively.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:3992",
+    "CHEBI:48923"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:3992",
+   "name": "cyclic ketone",
+   "min_depth": 1,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:48923",
+   "name": "erythromycin",
+   "min_depth": 1,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:17087",
+   "name": "ketone",
+   "min_depth": 2,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:23953",
+   "name": "erythromycins",
+   "min_depth": 2,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:25105",
+   "name": "macrolide antibiotic",
+   "min_depth": 3,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:36586",
+   "name": "carbonyl compound",
+   "min_depth": 3,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:25106",
+   "name": "macrolide",
+   "min_depth": 4,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:36587",
+   "name": "organic oxo compound",
+   "min_depth": 4,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:36963",
+   "name": "organooxygen compound",
+   "min_depth": 4,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:26188",
+   "name": "polyketide",
+   "min_depth": 5,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:36962",
+   "name": "organochalcogen compound",
+   "min_depth": 5,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:63944",
+   "name": "macrocyclic lactone",
+   "min_depth": 5,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:72695",
+   "name": "organic molecule",
+   "min_depth": 5,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:25000",
+   "name": "lactone",
+   "min_depth": 6,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:25367",
+   "name": "molecule",
+   "min_depth": 6,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 6,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:51026",
+   "name": "macrocycle",
+   "min_depth": 6,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:33308",
+   "name": "carboxylic ester",
+   "min_depth": 7,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:33595",
+   "name": "cyclic compound",
+   "min_depth": 7,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:35701",
+   "name": "ester",
+   "min_depth": 7,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 7,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:38104",
+   "name": "oxacycle",
+   "min_depth": 7,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:24532",
+   "name": "organic heterocyclic compound",
+   "min_depth": 8,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 9,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:33832",
+   "name": "organic cyclic compound",
+   "min_depth": 9,
+   "via": "CHEBI:42355"
+  },
+  {
+   "chebi_id": "CHEBI:5686",
+   "name": "heterocyclic compound",
+   "min_depth": 9,
+   "via": "CHEBI:42355"
+  }
+ ],
+ "direct_roles": {},
+ "inherited_roles": {
+  "CHEBI:33281": {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent",
+   "asserted_on": [
+    "CHEBI:25105"
+   ]
+  },
+  "CHEBI:35703": {
+   "chebi_id": "CHEBI:35703",
+   "name": "xenobiotic",
+   "asserted_on": [
+    "CHEBI:48923"
+   ]
+  },
+  "CHEBI:76969": {
+   "chebi_id": "CHEBI:76969",
+   "name": "bacterial metabolite",
+   "asserted_on": [
+    "CHEBI:48923"
+   ]
+  },
+  "CHEBI:78298": {
+   "chebi_id": "CHEBI:78298",
+   "name": "environmental contaminant",
+   "asserted_on": [
+    "CHEBI:48923"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:25212",
+   "name": "metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:51086",
+   "name": "chemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:75787",
+   "name": "prokaryotic metabolite"
+  }
+ ],
+ "chebi_release": "255"
+}

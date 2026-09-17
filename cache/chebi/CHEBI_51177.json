@@ -1,0 +1,72 @@
+{
+ "chebi_id": "CHEBI:51177",
+ "chebi_release": "255",
+ "definition": "An agent that suppresses cough. Antitussives have a central or a peripheral action on the cough reflex, or a combination of both. Compare with  <em>expectorants</em>, which are considered to increase the volume of secretions in the respiratory tract, so facilitating their removal by ciliary action and coughing, and <em>mucolytics</em>, which decrease the viscosity of mucus, facilitating its removal by ciliary action and expectoration.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23888"
+ ],
+ "name": "antitussive",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:43+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antitussive",
+   "chebi_accession": "CHEBI:51177",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An agent that suppresses cough. Antitussives have a central or a peripheral action on the cough reflex, or a combination of both. Compare with  <em>expectorants</em>, which are considered to increase the volume of secretions in the respiratory tract, so facilitating their removal by ciliary action and coughing, and <em>mucolytics</em>, which decrease the viscosity of mucus, facilitating its removal by ciliary action and expectoration.",
+   "id": 51177,
+   "is_released": true,
+   "name": "antitussive",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23888,
+      "final_name": "drug",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:51177",
+   "definition": [
+    "An agent that suppresses cough. Antitussives have a central or a peripheral action on the cough reflex, or a combination of both. Compare with  <em>expectorants</em>, which are considered to increase the volume of secretions in the respiratory tract, so facilitating their removal by ciliary action and coughing, and <em>mucolytics</em>, which decrease the viscosity of mucus, facilitating its removal by ciliary action and expectoration."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antitussive"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

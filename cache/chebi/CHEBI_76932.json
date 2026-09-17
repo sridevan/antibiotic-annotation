@@ -1,0 +1,74 @@
+{
+ "chebi_id": "CHEBI:76932",
+ "chebi_release": "255",
+ "definition": "An enzyme inhibitor that interferes with one or more steps in a metabolic pathway.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23924"
+ ],
+ "name": "pathway inhibitor",
+ "num_descendants": 22,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23924",
+  "CHEBI:24432",
+  "CHEBI:35222",
+  "CHEBI:50906",
+  "CHEBI:52206"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:22+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "pathway inhibitor",
+   "chebi_accession": "CHEBI:76932",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An enzyme inhibitor that interferes with one or more steps in a metabolic pathway.",
+   "id": 76932,
+   "is_released": true,
+   "name": "pathway inhibitor",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23924,
+      "final_name": "enzyme inhibitor",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:76932",
+   "definition": [
+    "An enzyme inhibitor that interferes with one or more steps in a metabolic pathway."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23924"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23924",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_35222",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "isObsolete": false,
+   "label": [
+    "pathway inhibitor"
+   ],
+   "numDescendants": 22.0,
+   "numHierarchicalDescendants": 22.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,96 @@
+{
+ "chebi_id": "CHEBI:36093",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23114",
+  "CHEBI:24839"
+ ],
+ "name": "inorganic chloride",
+ "num_descendants": 41,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23114",
+  "CHEBI:23117",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:24835",
+  "CHEBI:24839",
+  "CHEBI:24866",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:33958",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:37578"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:39+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "inorganic chloride",
+   "chebi_accession": "CHEBI:36093",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 36093,
+   "is_released": true,
+   "name": "inorganic chloride",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24839,
+      "final_name": "inorganic salt",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 23114,
+      "final_name": "chloride salt",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:36093",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23114",
+    "http://purl.obolibrary.org/obo/CHEBI_24839"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23114",
+    "http://purl.obolibrary.org/obo/CHEBI_23117",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24839",
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33958",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37578"
+   ],
+   "isObsolete": false,
+   "label": [
+    "inorganic chloride"
+   ],
+   "numDescendants": 41.0,
+   "numHierarchicalDescendants": 41.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

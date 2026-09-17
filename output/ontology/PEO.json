@@ -1,0 +1,414 @@
+{
+ "chebi_ids": [
+  "CHEBI:16240"
+ ],
+ "terms": {
+  "CHEBI:16240": {
+   "name": "hydrogen peroxide",
+   "definition": "An inorganic peroxide consisting of two hydroxy groups joined by a covalent oxygen-oxygen single bond.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:24837",
+    "CHEBI:26523"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:24837",
+   "name": "inorganic peroxide",
+   "min_depth": 1,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:26523",
+   "name": "reactive oxygen species",
+   "min_depth": 1,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:24836",
+   "name": "inorganic oxide",
+   "min_depth": 2,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 2,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:25940",
+   "name": "peroxides",
+   "min_depth": 2,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:24835",
+   "name": "inorganic molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:25741",
+   "name": "oxide",
+   "min_depth": 3,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 5,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:16240"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 5,
+   "via": "CHEBI:16240"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:132717": {
+   "name": "bleaching agent",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:149552": {
+   "name": "emetic",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:23357": {
+   "name": "cofactor",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:33281": {
+   "name": "antimicrobial agent",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:48219": {
+   "name": "disinfectant",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:50902": {
+   "name": "genotoxin",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:50910": {
+   "name": "neurotoxin",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:59163": {
+   "name": "biomarker",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:63248": {
+   "name": "oxidising agent",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:63490": {
+   "name": "explosive",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:65259": {
+   "name": "GABA antagonist",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:68495": {
+   "name": "apoptosis inducer",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:75771": {
+   "name": "mouse metabolite",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:75772": {
+   "name": "Saccharomyces cerevisiae metabolite",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:76967": {
+   "name": "human xenobiotic metabolite",
+   "on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:76971": {
+   "name": "Escherichia coli metabolite",
+   "on": [
+    "CHEBI:16240"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:132717": {
+   "chebi_id": "CHEBI:132717",
+   "name": "bleaching agent",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:149552": {
+   "chebi_id": "CHEBI:149552",
+   "name": "emetic",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:23357": {
+   "chebi_id": "CHEBI:23357",
+   "name": "cofactor",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:33281": {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:48219": {
+   "chebi_id": "CHEBI:48219",
+   "name": "disinfectant",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:50902": {
+   "chebi_id": "CHEBI:50902",
+   "name": "genotoxin",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:50910": {
+   "chebi_id": "CHEBI:50910",
+   "name": "neurotoxin",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:59163": {
+   "chebi_id": "CHEBI:59163",
+   "name": "biomarker",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:63248": {
+   "chebi_id": "CHEBI:63248",
+   "name": "oxidising agent",
+   "asserted_on": [
+    "CHEBI:16240",
+    "CHEBI:25940"
+   ]
+  },
+  "CHEBI:63490": {
+   "chebi_id": "CHEBI:63490",
+   "name": "explosive",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:65259": {
+   "chebi_id": "CHEBI:65259",
+   "name": "GABA antagonist",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:68495": {
+   "chebi_id": "CHEBI:68495",
+   "name": "apoptosis inducer",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:75771": {
+   "chebi_id": "CHEBI:75771",
+   "name": "mouse metabolite",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:75772": {
+   "chebi_id": "CHEBI:75772",
+   "name": "Saccharomyces cerevisiae metabolite",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:76967": {
+   "chebi_id": "CHEBI:76967",
+   "name": "human xenobiotic metabolite",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  },
+  "CHEBI:76971": {
+   "chebi_id": "CHEBI:76971",
+   "name": "Escherichia coli metabolite",
+   "asserted_on": [
+    "CHEBI:16240"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:23888",
+   "name": "drug"
+  },
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:25212",
+   "name": "metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:33232",
+   "name": "application"
+  },
+  {
+   "chebi_id": "CHEBI:33893",
+   "name": "reagent"
+  },
+  {
+   "chebi_id": "CHEBI:35942",
+   "name": "neurotransmitter agent"
+  },
+  {
+   "chebi_id": "CHEBI:47867",
+   "name": "indicator"
+  },
+  {
+   "chebi_id": "CHEBI:48706",
+   "name": "antagonist"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:51086",
+   "name": "chemical role"
+  },
+  {
+   "chebi_id": "CHEBI:51374",
+   "name": "GABA agent"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52209",
+   "name": "aetiopathogenetic role"
+  },
+  {
+   "chebi_id": "CHEBI:52210",
+   "name": "pharmacological role"
+  },
+  {
+   "chebi_id": "CHEBI:52217",
+   "name": "pharmaceutical"
+  },
+  {
+   "chebi_id": "CHEBI:64909",
+   "name": "poison"
+  },
+  {
+   "chebi_id": "CHEBI:75763",
+   "name": "eukaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75767",
+   "name": "animal metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75768",
+   "name": "mammalian metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75787",
+   "name": "prokaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:76206",
+   "name": "xenobiotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:76946",
+   "name": "fungal metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:76969",
+   "name": "bacterial metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:77746",
+   "name": "human metabolite"
+  }
+ ],
+ "chebi_release": "255"
+}

@@ -1,0 +1,236 @@
+{
+ "chebi_ids": [
+  "CHEBI:16189"
+ ],
+ "terms": {
+  "CHEBI:16189": {
+   "name": "sulfate",
+   "definition": "A sulfur oxoanion obtained by deprotonation of both OH groups of sulfuric acid.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:24834",
+    "CHEBI:33482",
+    "CHEBI:48154",
+    "CHEBI:79388"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:24834",
+   "name": "inorganic anion",
+   "min_depth": 1,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:33482",
+   "name": "sulfur oxoanion",
+   "min_depth": 1,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:48154",
+   "name": "sulfur oxide",
+   "min_depth": 1,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:79388",
+   "name": "divalent inorganic anion",
+   "min_depth": 1,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:22563",
+   "name": "anion",
+   "min_depth": 2,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:24836",
+   "name": "inorganic oxide",
+   "min_depth": 2,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:26835",
+   "name": "sulfur molecular entity",
+   "min_depth": 2,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:33485",
+   "name": "chalcogen oxoanion",
+   "min_depth": 2,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:36914",
+   "name": "inorganic ion",
+   "min_depth": 2,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:24835",
+   "name": "inorganic molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:24870",
+   "name": "ion",
+   "min_depth": 3,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:25741",
+   "name": "oxide",
+   "min_depth": 3,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:35406",
+   "name": "oxoanion",
+   "min_depth": 3,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:33273",
+   "name": "polyatomic anion",
+   "min_depth": 4,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 5,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 5,
+   "via": "CHEBI:16189"
+  },
+  {
+   "chebi_id": "CHEBI:36358",
+   "name": "polyatomic ion",
+   "min_depth": 5,
+   "via": "CHEBI:16189"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:23357": {
+   "name": "cofactor",
+   "on": [
+    "CHEBI:16189"
+   ]
+  },
+  "CHEBI:75772": {
+   "name": "Saccharomyces cerevisiae metabolite",
+   "on": [
+    "CHEBI:16189"
+   ]
+  },
+  "CHEBI:77746": {
+   "name": "human metabolite",
+   "on": [
+    "CHEBI:16189"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:23357": {
+   "chebi_id": "CHEBI:23357",
+   "name": "cofactor",
+   "asserted_on": [
+    "CHEBI:16189"
+   ]
+  },
+  "CHEBI:75772": {
+   "chebi_id": "CHEBI:75772",
+   "name": "Saccharomyces cerevisiae metabolite",
+   "asserted_on": [
+    "CHEBI:16189"
+   ]
+  },
+  "CHEBI:77746": {
+   "chebi_id": "CHEBI:77746",
+   "name": "human metabolite",
+   "asserted_on": [
+    "CHEBI:16189"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:25212",
+   "name": "metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:75763",
+   "name": "eukaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75767",
+   "name": "animal metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75768",
+   "name": "mammalian metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:76946",
+   "name": "fungal metabolite"
+  }
+ ],
+ "chebi_release": "255"
+}

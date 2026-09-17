@@ -80,6 +80,8 @@
         "note": null
       }
     ],
+    "confidence": "medium",
+    "related_parent": null,
     "notes": [
       "no exact InChIKey match; accepted connectivity match differing only in ['protonation']; primary chosen by fewest InChIKey-layer differences, then most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id",
       "evidence unioned over accepted protonation/charge variants"

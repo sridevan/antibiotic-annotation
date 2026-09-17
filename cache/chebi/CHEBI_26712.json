@@ -1,0 +1,87 @@
+{
+ "chebi_id": "CHEBI:26712",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33296"
+ ],
+ "name": "sodium molecular entity",
+ "num_descendants": 444,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:33296",
+  "CHEBI:33579",
+  "CHEBI:33674"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:26708",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T12:05:40+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "sodium molecular entity",
+   "chebi_accession": "CHEBI:26712",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 26712,
+   "is_released": true,
+   "name": "sodium molecular entity",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 26708,
+      "final_name": "sodium atom",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33296,
+      "final_name": "alkali metal molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:26712",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33296"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33296",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674"
+   ],
+   "isObsolete": false,
+   "label": [
+    "sodium molecular entity"
+   ],
+   "numDescendants": 444.0,
+   "numHierarchicalDescendants": 444.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_26708"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

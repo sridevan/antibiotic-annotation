@@ -1,0 +1,85 @@
+{
+ "chebi_id": "CHEBI:25944",
+ "chebi_release": "255",
+ "definition": "Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33232"
+ ],
+ "name": "pesticide",
+ "num_descendants": 66,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:33232",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:25+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "pesticide",
+   "chebi_accession": "CHEBI:25944",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests.",
+   "id": 25944,
+   "is_released": true,
+   "name": "pesticide",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33232,
+      "final_name": "application",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25944",
+   "definition": [
+    "Strictly, a substance intended to kill pests. In common usage, any substance used for controlling, preventing, or destroying animal, microbiological or plant pests."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "pesticide"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "pesticide"
+   ],
+   "numDescendants": 66.0,
+   "numHierarchicalDescendants": 66.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "pesticide"
+ ]
+}

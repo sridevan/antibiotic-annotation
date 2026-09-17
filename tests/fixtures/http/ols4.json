@@ -2699,6 +2699,62 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/ols4/api/v2/ontologies/chebi/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCHEBI_76916"
 },
+"1b8033a04f37e68b": {
+"data": {
+"curie": "CHEBI:8732",
+"directParent": [
+"http://purl.obolibrary.org/obo/CHEBI_35213"
+],
+"hierarchicalAncestor": [
+"http://purl.obolibrary.org/obo/CHEBI_16670",
+"http://purl.obolibrary.org/obo/CHEBI_23367",
+"http://purl.obolibrary.org/obo/CHEBI_23643",
+"http://purl.obolibrary.org/obo/CHEBI_24431",
+"http://purl.obolibrary.org/obo/CHEBI_24532",
+"http://purl.obolibrary.org/obo/CHEBI_25000",
+"http://purl.obolibrary.org/obo/CHEBI_25367",
+"http://purl.obolibrary.org/obo/CHEBI_25806",
+"http://purl.obolibrary.org/obo/CHEBI_32988",
+"http://purl.obolibrary.org/obo/CHEBI_33256",
+"http://purl.obolibrary.org/obo/CHEBI_33285",
+"http://purl.obolibrary.org/obo/CHEBI_33302",
+"http://purl.obolibrary.org/obo/CHEBI_33304",
+"http://purl.obolibrary.org/obo/CHEBI_33308",
+"http://purl.obolibrary.org/obo/CHEBI_33579",
+"http://purl.obolibrary.org/obo/CHEBI_33582",
+"http://purl.obolibrary.org/obo/CHEBI_33595",
+"http://purl.obolibrary.org/obo/CHEBI_33675",
+"http://purl.obolibrary.org/obo/CHEBI_33832",
+"http://purl.obolibrary.org/obo/CHEBI_35213",
+"http://purl.obolibrary.org/obo/CHEBI_35352",
+"http://purl.obolibrary.org/obo/CHEBI_35701",
+"http://purl.obolibrary.org/obo/CHEBI_36357",
+"http://purl.obolibrary.org/obo/CHEBI_36586",
+"http://purl.obolibrary.org/obo/CHEBI_36587",
+"http://purl.obolibrary.org/obo/CHEBI_36962",
+"http://purl.obolibrary.org/obo/CHEBI_36963",
+"http://purl.obolibrary.org/obo/CHEBI_37622",
+"http://purl.obolibrary.org/obo/CHEBI_38104",
+"http://purl.obolibrary.org/obo/CHEBI_50047",
+"http://purl.obolibrary.org/obo/CHEBI_50860",
+"http://purl.obolibrary.org/obo/CHEBI_51143",
+"http://purl.obolibrary.org/obo/CHEBI_5686",
+"http://purl.obolibrary.org/obo/CHEBI_72695"
+],
+"https://w3id.org/chemrof/inchi_key_string": "WTHRRGMBUAHGNI-MJWHERSYSA-N",
+"isObsolete": false,
+"label": [
+"Quinupristin"
+],
+"numDescendants": 0.0,
+"numHierarchicalDescendants": 0.0,
+"relatedTo": []
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/ols4/api/v2/ontologies/chebi/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCHEBI_8732"
+},
 "1ca595ff9cd5fd14": {
 "data": {
 "curie": "CHEBI:33608",
@@ -4849,6 +4905,63 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/ols4/api/v2/ontologies/chebi/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCHEBI_140574"
+},
+"33a648dce9893a42": {
+"data": {
+"curie": "CHEBI:218527",
+"directParent": [
+"http://purl.obolibrary.org/obo/CHEBI_23449"
+],
+"hierarchicalAncestor": [
+"http://purl.obolibrary.org/obo/CHEBI_16670",
+"http://purl.obolibrary.org/obo/CHEBI_23367",
+"http://purl.obolibrary.org/obo/CHEBI_23449",
+"http://purl.obolibrary.org/obo/CHEBI_24431",
+"http://purl.obolibrary.org/obo/CHEBI_25806",
+"http://purl.obolibrary.org/obo/CHEBI_32988",
+"http://purl.obolibrary.org/obo/CHEBI_33256",
+"http://purl.obolibrary.org/obo/CHEBI_33285",
+"http://purl.obolibrary.org/obo/CHEBI_33302",
+"http://purl.obolibrary.org/obo/CHEBI_33304",
+"http://purl.obolibrary.org/obo/CHEBI_33579",
+"http://purl.obolibrary.org/obo/CHEBI_33582",
+"http://purl.obolibrary.org/obo/CHEBI_33675",
+"http://purl.obolibrary.org/obo/CHEBI_35352",
+"http://purl.obolibrary.org/obo/CHEBI_36962",
+"http://purl.obolibrary.org/obo/CHEBI_36963",
+"http://purl.obolibrary.org/obo/CHEBI_37622",
+"http://purl.obolibrary.org/obo/CHEBI_50047",
+"http://purl.obolibrary.org/obo/CHEBI_50860",
+"http://purl.obolibrary.org/obo/CHEBI_51143"
+],
+"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+{
+"axioms": [
+{
+"http://www.geneontology.org/formats/oboInOwl#hasDbXref": "SUBMITTER",
+"http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+"oboSynonymTypeName": "IUPAC NAME"
+}
+],
+"type": [
+"reification"
+],
+"value": "(3R)-3,6-diamino-N-[[(2S,5S,8Z,11S,15S)-15-amino-11-[(6R)-2-amino-1,4,5,6-tetrahydropyrimidin-6-yl]-8-[(carbamoylamino)methylidene]-2-(hydroxymethyl)-3,6,9,12,16-pentaoxo-1,4,7,10,13-pentazacyclohexadec-5-yl]methyl]hexanamide"
+}
+],
+"https://w3id.org/chemrof/inchi_key_string": "JNIIDKODPGHQSS-CGLFUZANSA-N",
+"isObsolete": false,
+"label": [
+"Capreomycin IA"
+],
+"numDescendants": 0.0,
+"numHierarchicalDescendants": 0.0,
+"relatedTo": []
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/ols4/api/v2/ontologies/chebi/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCHEBI_218527"
 },
 "33e89a90014b1a03": {
 "data": {
@@ -14096,6 +14209,79 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/ols4/api/v2/ontologies/chebi/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCHEBI_24432"
+},
+"895824da1d971847": {
+"data": {
+"curie": "CHEBI:35213",
+"definition": [
+"A depsipeptide in which the amino and hydroxy carboxylic acid residues are connected in a ring."
+],
+"directParent": [
+"http://purl.obolibrary.org/obo/CHEBI_23643",
+"http://purl.obolibrary.org/obo/CHEBI_25000"
+],
+"hierarchicalAncestor": [
+"http://purl.obolibrary.org/obo/CHEBI_16670",
+"http://purl.obolibrary.org/obo/CHEBI_23367",
+"http://purl.obolibrary.org/obo/CHEBI_23643",
+"http://purl.obolibrary.org/obo/CHEBI_24431",
+"http://purl.obolibrary.org/obo/CHEBI_24532",
+"http://purl.obolibrary.org/obo/CHEBI_25000",
+"http://purl.obolibrary.org/obo/CHEBI_25367",
+"http://purl.obolibrary.org/obo/CHEBI_25806",
+"http://purl.obolibrary.org/obo/CHEBI_32988",
+"http://purl.obolibrary.org/obo/CHEBI_33256",
+"http://purl.obolibrary.org/obo/CHEBI_33285",
+"http://purl.obolibrary.org/obo/CHEBI_33302",
+"http://purl.obolibrary.org/obo/CHEBI_33304",
+"http://purl.obolibrary.org/obo/CHEBI_33308",
+"http://purl.obolibrary.org/obo/CHEBI_33579",
+"http://purl.obolibrary.org/obo/CHEBI_33582",
+"http://purl.obolibrary.org/obo/CHEBI_33595",
+"http://purl.obolibrary.org/obo/CHEBI_33675",
+"http://purl.obolibrary.org/obo/CHEBI_33832",
+"http://purl.obolibrary.org/obo/CHEBI_35352",
+"http://purl.obolibrary.org/obo/CHEBI_35701",
+"http://purl.obolibrary.org/obo/CHEBI_36357",
+"http://purl.obolibrary.org/obo/CHEBI_36586",
+"http://purl.obolibrary.org/obo/CHEBI_36587",
+"http://purl.obolibrary.org/obo/CHEBI_36962",
+"http://purl.obolibrary.org/obo/CHEBI_36963",
+"http://purl.obolibrary.org/obo/CHEBI_37622",
+"http://purl.obolibrary.org/obo/CHEBI_38104",
+"http://purl.obolibrary.org/obo/CHEBI_50047",
+"http://purl.obolibrary.org/obo/CHEBI_50860",
+"http://purl.obolibrary.org/obo/CHEBI_51143",
+"http://purl.obolibrary.org/obo/CHEBI_5686",
+"http://purl.obolibrary.org/obo/CHEBI_72695"
+],
+"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+{
+"axioms": [
+{
+"http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+"http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+"oboSynonymTypeName": "IUPAC NAME"
+}
+],
+"type": [
+"reification"
+],
+"value": "cyclodepsipeptides"
+}
+],
+"isObsolete": false,
+"label": [
+"cyclodepsipeptide"
+],
+"numDescendants": 1487.0,
+"numHierarchicalDescendants": 1487.0,
+"relatedTo": []
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/ols4/api/v2/ontologies/chebi/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCHEBI_35213"
 },
 "89b08bd4920ac7f3": {
 "data": {
@@ -23761,6 +23947,64 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/ols4/api/v2/ontologies/chebi/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCHEBI_37163"
+},
+"dbf88d716804114d": {
+"data": {
+"curie": "CHEBI:23643",
+"definition": [
+"A natural or synthetic compound having a sequence of amino and hydroxy carboxylic acid residues (usually α-amino and α-hydroxy acids), commonly but not necessarily regularly alternating."
+],
+"directParent": [
+"http://purl.obolibrary.org/obo/CHEBI_16670"
+],
+"hierarchicalAncestor": [
+"http://purl.obolibrary.org/obo/CHEBI_16670",
+"http://purl.obolibrary.org/obo/CHEBI_23367",
+"http://purl.obolibrary.org/obo/CHEBI_24431",
+"http://purl.obolibrary.org/obo/CHEBI_25806",
+"http://purl.obolibrary.org/obo/CHEBI_32988",
+"http://purl.obolibrary.org/obo/CHEBI_33256",
+"http://purl.obolibrary.org/obo/CHEBI_33285",
+"http://purl.obolibrary.org/obo/CHEBI_33302",
+"http://purl.obolibrary.org/obo/CHEBI_33304",
+"http://purl.obolibrary.org/obo/CHEBI_33579",
+"http://purl.obolibrary.org/obo/CHEBI_33582",
+"http://purl.obolibrary.org/obo/CHEBI_33675",
+"http://purl.obolibrary.org/obo/CHEBI_35352",
+"http://purl.obolibrary.org/obo/CHEBI_36962",
+"http://purl.obolibrary.org/obo/CHEBI_36963",
+"http://purl.obolibrary.org/obo/CHEBI_37622",
+"http://purl.obolibrary.org/obo/CHEBI_50047",
+"http://purl.obolibrary.org/obo/CHEBI_50860",
+"http://purl.obolibrary.org/obo/CHEBI_51143"
+],
+"http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+{
+"axioms": [
+{
+"http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+"http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+"oboSynonymTypeName": "IUPAC NAME"
+}
+],
+"type": [
+"reification"
+],
+"value": "depsipeptides"
+}
+],
+"isObsolete": false,
+"label": [
+"depsipeptide"
+],
+"numDescendants": 1620.0,
+"numHierarchicalDescendants": 1620.0,
+"relatedTo": []
+},
+"method": "GET",
+"payload": null,
+"status": 200,
+"url": "https://www.ebi.ac.uk/ols4/api/v2/ontologies/chebi/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCHEBI_23643"
 },
 "dccc08a0c7ea98cc": {
 "data": {

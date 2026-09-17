@@ -1,0 +1,80 @@
+{
+ "chebi_id": "CHEBI:35476",
+ "chebi_release": "255",
+ "definition": "Antipsychotic drugs are agents that control agitated psychotic behaviour, alleviate acute psychotic states, reduce psychotic symptoms, and exert a quieting effect.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35473"
+ ],
+ "name": "antipsychotic agent",
+ "num_descendants": 3,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:35470",
+  "CHEBI:35471",
+  "CHEBI:35473",
+  "CHEBI:35488",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:37+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antipsychotic agent",
+   "chebi_accession": "CHEBI:35476",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Antipsychotic drugs are agents that control agitated psychotic behaviour, alleviate acute psychotic states, reduce psychotic symptoms, and exert a quieting effect.",
+   "id": 35476,
+   "is_released": true,
+   "name": "antipsychotic agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35473,
+      "final_name": "tranquilizing drug",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35476",
+   "definition": [
+    "Antipsychotic drugs are agents that control agitated psychotic behaviour, alleviate acute psychotic states, reduce psychotic symptoms, and exert a quieting effect."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35473"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35470",
+    "http://purl.obolibrary.org/obo/CHEBI_35471",
+    "http://purl.obolibrary.org/obo/CHEBI_35473",
+    "http://purl.obolibrary.org/obo/CHEBI_35488",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antipsychotic agent"
+   ],
+   "numDescendants": 3.0,
+   "numHierarchicalDescendants": 3.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,90 @@
+{
+ "chebi_id": "CHEBI:25212",
+ "chebi_release": "255",
+ "definition": "Any intermediate or product resulting from metabolism. The term 'metabolite' subsumes the classes commonly known as primary and secondary metabolites.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:52206"
+ ],
+ "name": "metabolite",
+ "num_descendants": 59,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:50906",
+  "CHEBI:52206"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:16+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "metabolite",
+   "chebi_accession": "CHEBI:25212",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any intermediate or product resulting from metabolism. The term 'metabolite' subsumes the classes commonly known as primary and secondary metabolites.",
+   "id": 25212,
+   "is_released": true,
+   "name": "metabolite",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 52206,
+      "final_name": "biochemical role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:26619",
+    "CHEBI:35220"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25212",
+   "definition": [
+    "Any intermediate or product resulting from metabolism. The term 'metabolite' subsumes the classes commonly known as primary and secondary metabolites."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "metabolite"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "metabolite"
+   ],
+   "numDescendants": 59.0,
+   "numHierarchicalDescendants": 59.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "metabolite"
+ ]
+}

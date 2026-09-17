@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:79314",
+ "chebi_release": "255",
+ "definition": "Any compound that is added to manufactured materials to inhibit, suppress, or delay the production of flames and so prevent the spread of fire.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33232"
+ ],
+ "name": "flame retardant",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:33232",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:45+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "flame retardant",
+   "chebi_accession": "CHEBI:79314",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any compound that is added to manufactured materials to inhibit, suppress, or delay the production of flames and so prevent the spread of fire.",
+   "id": 79314,
+   "is_released": true,
+   "name": "flame retardant",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33232,
+      "final_name": "application",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:79314",
+   "definition": [
+    "Any compound that is added to manufactured materials to inhibit, suppress, or delay the production of flames and so prevent the spread of fire."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "flame retardant"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

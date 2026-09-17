@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "input_id": "PRD_000193",
+    "entity_kind": "bird_peptide_like",
+    "name": "Capreomycin IA",
+    "ccd_type": "peptide-like",
+    "formula": "C25 H44 N14 O8",
+    "formal_charge": null,
+    "inchi": "InChI=1S/C25H44N14O8/c26-4-1-2-11(27)6-17(41)32-8-14-20(43)35-15(9-34-25(30)47)21(44)39-18(13-3-5-31-24(29)38-13)23(46)33-7-12(28)19(42)37-16(10-40)22(45)36-14/h9,11-14,16,18,40H,1-8,10,26-28H2,(H,32,41)(H,33,46)(H,35,43)(H,36,45)(H,37,42)(H,39,44)(H3,29,31,38)(H3,30,34,47)",
+    "inchikey": "JNIIDKODPGHQSS-UHFFFAOYSA-N",
+    "smiles": "C1CNC(=N[C@H]1[C@H]2C(=O)NC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N/C(=C\\NC(=O)N)/C(=O)N2)CNC(=O)C[C@H](CCCN)N)CO)N)N",
+    "synonyms": [
+      "Capreomycin IA",
+      "(3S)-3,6-diamino-N-{[(2S,5R,8Z,11S,15R)-15-amino-11-[(4R)-2-amino-1,4,5,6-tetrahydropyrimidin-4-yl]-8-[(carbamoylamino)methylidene]-2-(hydroxymethyl)-3,6,9,12,16-pentaoxo-1,4,7,10,13-pentaazacyclohexadecan-5-yl]methyl}hexanamide",
+      "(3S)-N-[[(2S,5S,8Z,11S,15S)-8-[(aminocarbonylamino)methylidene]-15-azanyl-11-[(4R)-2-azanyl-1,4,5,6-tetrahydropyrimidin-4-yl]-2-(hydroxymethyl)-3,6,9,12,16-pentakis(oxidanylidene)-1,4,7,10,13-pentazacyclohexadec-5-yl]methyl]-3,6-bis(azanyl)hexanamide"
+    ],
+    "xrefs": {
+      "PubChem": [
+        "135564597",
+        "3032940"
+      ]
+    },
+    "atc_codes": [],
+    "bird_class": "Inhibitor",
+    "bird_type": "Cyclic peptide",
+    "source": "RCSB",
+    "retrieved_at": "2026-09-17T11:48:11+00:00",
+    "inchikey_connectivity": "JNIIDKODPGHQSS"
+  },
+  "mapping": {
+    "status": "resolved",
+    "method": "unichem_connectivity_stereo_undefined",
+    "source_id": "JNIIDKODPGHQSS-UHFFFAOYSA-N",
+    "primary_chebi_id": "CHEBI:218527",
+    "equivalent_chebi_ids": [
+      "CHEBI:218527"
+    ],
+    "evidence_unioned": false,
+    "candidates": [
+      {
+        "chebi_id": "CHEBI:218527",
+        "inchikey": null,
+        "name": null,
+        "comparison": {
+          "HAtoms": true,
+          "charge": true,
+          "connectivity": true,
+          "formula": true,
+          "isotope": true,
+          "isotopicExchangeableH": true,
+          "protonation": true,
+          "stereoDbond": false,
+          "stereoSp3": false,
+          "stereoSp3Inverted": false,
+          "stereoType": false
+        },
+        "mismatches": [
+          "stereoDbond",
+          "stereoSp3",
+          "stereoSp3Inverted",
+          "stereoType"
+        ],
+        "accepted": true,
+        "note": "stereo-undefined query: accepted as the single plausible connectivity candidate"
+      }
+    ],
+    "confidence": "medium",
+    "related_parent": null,
+    "notes": [
+      "deposited descriptor has no stereo layer; connectivity matches exactly one plausible non-class ChEBI identity; NOT equivalent to an exact InChIKey mapping; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
+    ],
+    "resolved": true
+  },
+  "primary_name": "Capreomycin IA",
+  "equivalent_names": {
+    "CHEBI:218527": "Capreomycin IA"
+  },
+  "family": {
+    "member_of": [],
+    "forms": []
+  }
+}

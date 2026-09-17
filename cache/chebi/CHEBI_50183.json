@@ -1,0 +1,82 @@
+{
+ "chebi_id": "CHEBI:50183",
+ "chebi_release": "255",
+ "definition": "An enzyme inhibitor that interferes with the activity of cytochrome P450 involved in catalysis of organic substances.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:76898"
+ ],
+ "name": "P450 inhibitor",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23924",
+  "CHEBI:24432",
+  "CHEBI:35222",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:76725",
+  "CHEBI:76741",
+  "CHEBI:76838",
+  "CHEBI:76898"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:35+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "P450 inhibitor",
+   "chebi_accession": "CHEBI:50183",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An enzyme inhibitor that interferes with the activity of cytochrome P450 involved in catalysis of organic substances.",
+   "id": 50183,
+   "is_released": true,
+   "name": "P450 inhibitor",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 76898,
+      "final_name": "EC 1.14.14.1 (unspecific monooxygenase) inhibitor",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:50183",
+   "definition": [
+    "An enzyme inhibitor that interferes with the activity of cytochrome P450 involved in catalysis of organic substances."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_76898"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23924",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_35222",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_76725",
+    "http://purl.obolibrary.org/obo/CHEBI_76741",
+    "http://purl.obolibrary.org/obo/CHEBI_76838",
+    "http://purl.obolibrary.org/obo/CHEBI_76898"
+   ],
+   "isObsolete": false,
+   "label": [
+    "P450 inhibitor"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

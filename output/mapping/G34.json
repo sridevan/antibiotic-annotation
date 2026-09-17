@@ -85,6 +85,8 @@
         "note": null
       }
     ],
+    "confidence": "none",
+    "related_parent": null,
     "notes": [
       "ChEBI entries share the InChIKey connectivity layer but differ in CHEBI:166679: stereoSp3; CHEBI:181008: stereoSp3,stereoSp3Inverted -- not mapped automatically"
     ],

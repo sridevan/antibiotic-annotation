@@ -1,0 +1,89 @@
+{
+ "chebi_id": "CHEBI:48354",
+ "chebi_release": "255",
+ "definition": "A solvent that is composed of polar molecules. Polar solvents can dissolve ionic compounds or ionisable covalent compounds.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:46787"
+ ],
+ "name": "polar solvent",
+ "num_descendants": 4,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:33232",
+  "CHEBI:46787",
+  "CHEBI:50906",
+  "CHEBI:51086"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:32+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "polar solvent",
+   "chebi_accession": "CHEBI:48354",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A solvent that is composed of polar molecules. Polar solvents can dissolve ionic compounds or ionisable covalent compounds.",
+   "id": 48354,
+   "is_released": true,
+   "name": "polar solvent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 46787,
+      "final_name": "solvent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:48354",
+   "definition": [
+    "A solvent that is composed of polar molecules. Polar solvents can dissolve ionic compounds or ionisable covalent compounds."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_46787"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_46787",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "polar solvent"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "polar solvent"
+   ],
+   "numDescendants": 4.0,
+   "numHierarchicalDescendants": 4.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "polar solvent"
+ ]
+}

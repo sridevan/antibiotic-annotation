@@ -1,0 +1,71 @@
+{
+ "chebi_id": "CHEBI:17891",
+ "chebi_release": "255",
+ "definition": "A molecular entity that can transfer (\"donate\") an electron, a pair of electrons, an atom or a group to another molecular entity.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:51086"
+ ],
+ "name": "donor",
+ "num_descendants": 9,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:50906",
+  "CHEBI:51086"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:32+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "donor",
+   "chebi_accession": "CHEBI:17891",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A molecular entity that can transfer (\"donate\") an electron, a pair of electrons, an atom or a group to another molecular entity.",
+   "id": 17891,
+   "is_released": true,
+   "name": "donor",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 51086,
+      "final_name": "chemical role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:4697",
+    "CHEBI:14202"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:17891",
+   "definition": [
+    "A molecular entity that can transfer (\"donate\") an electron, a pair of electrons, an atom or a group to another molecular entity."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "isObsolete": false,
+   "label": [
+    "donor"
+   ],
+   "numDescendants": 9.0,
+   "numHierarchicalDescendants": 9.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

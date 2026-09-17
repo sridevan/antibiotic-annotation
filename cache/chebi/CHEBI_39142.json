@@ -1,0 +1,96 @@
+{
+ "chebi_id": "CHEBI:39142",
+ "chebi_release": "255",
+ "definition": "A molecular entity capable of accepting a hydron from a donor (Brønsted acid).",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:15339",
+  "CHEBI:22695"
+ ],
+ "name": "Bronsted base",
+ "num_descendants": 2,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:15339",
+  "CHEBI:22695",
+  "CHEBI:50906",
+  "CHEBI:51086"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:23+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "Bronsted base",
+   "chebi_accession": "CHEBI:39142",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A molecular entity capable of accepting a hydron from a donor (Brønsted acid).",
+   "id": 39142,
+   "is_released": true,
+   "name": "Brønsted base",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 22695,
+      "final_name": "base",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 15339,
+      "final_name": "acceptor",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:39142",
+   "definition": [
+    "A molecular entity capable of accepting a hydron from a donor (Brønsted acid)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_15339",
+    "http://purl.obolibrary.org/obo/CHEBI_22695"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_15339",
+    "http://purl.obolibrary.org/obo/CHEBI_22695",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "Bronsted base"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "Bronsted base"
+   ],
+   "numDescendants": 2.0,
+   "numHierarchicalDescendants": 2.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "Bronsted base"
+ ]
+}

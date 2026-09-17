@@ -1,0 +1,107 @@
+{
+ "chebi_id": "CHEBI:26714",
+ "chebi_release": "255",
+ "definition": "Any alkali metal salt having sodium(1+) as the cation.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:26712",
+  "CHEBI:35479"
+ ],
+ "name": "sodium salt",
+ "num_descendants": 438,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24866",
+  "CHEBI:26712",
+  "CHEBI:33296",
+  "CHEBI:33579",
+  "CHEBI:33674",
+  "CHEBI:35479",
+  "CHEBI:36357",
+  "CHEBI:37577"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:29101",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T12:05:39+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "sodium salt",
+   "chebi_accession": "CHEBI:26714",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any alkali metal salt having sodium(1+) as the cation.",
+   "id": 26714,
+   "is_released": true,
+   "name": "sodium salt",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 29101,
+      "final_name": "sodium(1+)",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 35479,
+      "final_name": "alkali metal salt",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 26712,
+      "final_name": "sodium molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:26714",
+   "definition": [
+    "Any alkali metal salt having sodium(1+) as the cation."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_26712",
+    "http://purl.obolibrary.org/obo/CHEBI_35479"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_26712",
+    "http://purl.obolibrary.org/obo/CHEBI_33296",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_35479",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "sodium salt"
+   ],
+   "numDescendants": 438.0,
+   "numHierarchicalDescendants": 438.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_29101"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

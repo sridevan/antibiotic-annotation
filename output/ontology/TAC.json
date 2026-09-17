@@ -1,0 +1,439 @@
+{
+ "chebi_ids": [
+  "CHEBI:27902",
+  "CHEBI:77932"
+ ],
+ "terms": {
+  "CHEBI:27902": {
+   "name": "tetracycline",
+   "definition": "A broad-spectrum polyketide antibiotic produced by the <em>Streptomyces genus</em> of actinobacteria.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:139592",
+    "CHEBI:26895"
+   ]
+  },
+  "CHEBI:77932": {
+   "name": "tetracycline zwitterion",
+   "definition": "A zwitterion obtained by transfer of a proton from the 2-hydroxy group to the 1-amino group of tetracycline. It is the major microspecies at pH 7.3 (according to Marvin v 6.2.0.).",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:144644",
+    "CHEBI:27369"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:139592",
+   "name": "tertiary alpha-hydroxy ketone",
+   "min_depth": 1,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:144644",
+   "name": "a tetracycline zwitterion",
+   "min_depth": 1,
+   "via": "CHEBI:77932"
+  },
+  {
+   "chebi_id": "CHEBI:26895",
+   "name": "tetracyclines",
+   "min_depth": 1,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:27369",
+   "name": "zwitterion",
+   "min_depth": 1,
+   "via": "CHEBI:77932"
+  },
+  {
+   "chebi_id": "CHEBI:139588",
+   "name": "alpha-hydroxy ketone",
+   "min_depth": 2,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:26188",
+   "name": "polyketide",
+   "min_depth": 2,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:26878",
+   "name": "tertiary alcohol",
+   "min_depth": 2,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:51151",
+   "name": "dipolar compound",
+   "min_depth": 2,
+   "via": "CHEBI:77932"
+  },
+  {
+   "chebi_id": "CHEBI:17087",
+   "name": "ketone",
+   "min_depth": 3,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:30879",
+   "name": "alcohol",
+   "min_depth": 3,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:33822",
+   "name": "organic hydroxy compound",
+   "min_depth": 3,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:36963",
+   "name": "organooxygen compound",
+   "min_depth": 3,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:72695",
+   "name": "organic molecule",
+   "min_depth": 3,
+   "via": "CHEBI:77932"
+  },
+  {
+   "chebi_id": "CHEBI:24651",
+   "name": "hydroxides",
+   "min_depth": 4,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:25367",
+   "name": "molecule",
+   "min_depth": 4,
+   "via": "CHEBI:77932"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:36586",
+   "name": "carbonyl compound",
+   "min_depth": 4,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:36962",
+   "name": "organochalcogen compound",
+   "min_depth": 4,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 5,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:33608",
+   "name": "hydrogen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 5,
+   "via": "CHEBI:77932"
+  },
+  {
+   "chebi_id": "CHEBI:36587",
+   "name": "organic oxo compound",
+   "min_depth": 5,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:77932"
+  },
+  {
+   "chebi_id": "CHEBI:33674",
+   "name": "s-block molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:27902"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 7,
+   "via": "CHEBI:77932"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:27902"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:33281": {
+   "name": "antimicrobial agent",
+   "on": [
+    "CHEBI:27902",
+    "CHEBI:77932"
+   ]
+  },
+  "CHEBI:33282": {
+   "name": "antibacterial agent",
+   "on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:35441": {
+   "name": "antiinfective agent",
+   "on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:35610": {
+   "name": "antineoplastic agent",
+   "on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:35705": {
+   "name": "immunosuppressive agent",
+   "on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:35820": {
+   "name": "antiprotozoal drug",
+   "on": [
+    "CHEBI:27902",
+    "CHEBI:77932"
+   ]
+  },
+  "CHEBI:36047": {
+   "name": "antibacterial drug",
+   "on": [
+    "CHEBI:27902",
+    "CHEBI:77932"
+   ]
+  },
+  "CHEBI:48001": {
+   "name": "protein synthesis inhibitor",
+   "on": [
+    "CHEBI:27902",
+    "CHEBI:77932"
+   ]
+  },
+  "CHEBI:66981": {
+   "name": "ophthalmology drug",
+   "on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:76971": {
+   "name": "Escherichia coli metabolite",
+   "on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:86327": {
+   "name": "antifungal drug",
+   "on": [
+    "CHEBI:27902"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:25212": {
+   "chebi_id": "CHEBI:25212",
+   "name": "metabolite",
+   "asserted_on": [
+    "CHEBI:26895"
+   ]
+  },
+  "CHEBI:33281": {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent",
+   "asserted_on": [
+    "CHEBI:27902",
+    "CHEBI:77932"
+   ]
+  },
+  "CHEBI:33282": {
+   "chebi_id": "CHEBI:33282",
+   "name": "antibacterial agent",
+   "asserted_on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:35441": {
+   "chebi_id": "CHEBI:35441",
+   "name": "antiinfective agent",
+   "asserted_on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:35610": {
+   "chebi_id": "CHEBI:35610",
+   "name": "antineoplastic agent",
+   "asserted_on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:35705": {
+   "chebi_id": "CHEBI:35705",
+   "name": "immunosuppressive agent",
+   "asserted_on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:35820": {
+   "chebi_id": "CHEBI:35820",
+   "name": "antiprotozoal drug",
+   "asserted_on": [
+    "CHEBI:27902",
+    "CHEBI:77932"
+   ]
+  },
+  "CHEBI:36047": {
+   "chebi_id": "CHEBI:36047",
+   "name": "antibacterial drug",
+   "asserted_on": [
+    "CHEBI:27902",
+    "CHEBI:77932"
+   ]
+  },
+  "CHEBI:48001": {
+   "chebi_id": "CHEBI:48001",
+   "name": "protein synthesis inhibitor",
+   "asserted_on": [
+    "CHEBI:27902",
+    "CHEBI:77932"
+   ]
+  },
+  "CHEBI:66981": {
+   "chebi_id": "CHEBI:66981",
+   "name": "ophthalmology drug",
+   "asserted_on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:76971": {
+   "chebi_id": "CHEBI:76971",
+   "name": "Escherichia coli metabolite",
+   "asserted_on": [
+    "CHEBI:27902"
+   ]
+  },
+  "CHEBI:86327": {
+   "chebi_id": "CHEBI:86327",
+   "name": "antifungal drug",
+   "asserted_on": [
+    "CHEBI:27902"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:23888",
+   "name": "drug"
+  },
+  {
+   "chebi_id": "CHEBI:23924",
+   "name": "enzyme inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:33232",
+   "name": "application"
+  },
+  {
+   "chebi_id": "CHEBI:35222",
+   "name": "inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:35442",
+   "name": "antiparasitic agent"
+  },
+  {
+   "chebi_id": "CHEBI:35718",
+   "name": "antifungal agent"
+  },
+  {
+   "chebi_id": "CHEBI:36043",
+   "name": "antimicrobial drug"
+  },
+  {
+   "chebi_id": "CHEBI:50846",
+   "name": "immunomodulator"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52217",
+   "name": "pharmaceutical"
+  },
+  {
+   "chebi_id": "CHEBI:75787",
+   "name": "prokaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:76932",
+   "name": "pathway inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:76969",
+   "name": "bacterial metabolite"
+  }
+ ],
+ "chebi_release": "255"
+}

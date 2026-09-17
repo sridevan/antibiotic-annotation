@@ -1,0 +1,86 @@
+{
+ "chebi_id": "CHEBI:38068",
+ "chebi_release": "255",
+ "definition": "A drug used in the treatment of malaria. Antimalarials are usually classified on the basis of their action against <em>Plasmodia</em> at different stages in their life cycle in the human.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:64915"
+ ],
+ "name": "antimalarial",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:24432",
+  "CHEBI:33232",
+  "CHEBI:33281",
+  "CHEBI:35441",
+  "CHEBI:35442",
+  "CHEBI:35820",
+  "CHEBI:36043",
+  "CHEBI:50906",
+  "CHEBI:52217",
+  "CHEBI:64915"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:41+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antimalarial",
+   "chebi_accession": "CHEBI:38068",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A drug used in the treatment of malaria. Antimalarials are usually classified on the basis of their action against <em>Plasmodia</em> at different stages in their life cycle in the human.",
+   "id": 38068,
+   "is_released": true,
+   "name": "antimalarial",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 64915,
+      "final_name": "antiplasmodial drug",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:38068",
+   "definition": [
+    "A drug used in the treatment of malaria. Antimalarials are usually classified on the basis of their action against <em>Plasmodia</em> at different stages in their life cycle in the human."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_64915"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_33281",
+    "http://purl.obolibrary.org/obo/CHEBI_35441",
+    "http://purl.obolibrary.org/obo/CHEBI_35442",
+    "http://purl.obolibrary.org/obo/CHEBI_35820",
+    "http://purl.obolibrary.org/obo/CHEBI_36043",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217",
+    "http://purl.obolibrary.org/obo/CHEBI_64915"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antimalarial"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

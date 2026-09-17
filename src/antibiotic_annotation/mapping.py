@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from dataclasses import dataclass
 from typing import Any, Callable
 
 from .cache import HttpError, JsonFileCache, NetworkUnavailable
@@ -30,6 +31,7 @@ from .models import (
     METHOD_MANUAL_SYNONYM,
     METHOD_UNICHEM_CONNECTIVITY,
     METHOD_UNICHEM_INCHIKEY,
+    METHOD_UNICHEM_STEREO_UNDEFINED,
     ChemicalIdentity,
     MappingCandidate,
     MappingResult,
@@ -45,6 +47,28 @@ CACHE_NS_CONN = "unichem/connectivity"
 # protonation state / salt form" match. Anything else (connectivity, stereo, isotope, formula)
 # is an identity conflict.
 ACCEPTABLE_MISMATCHES = frozenset({"protonation", "charge", "HAtoms", "isotopicExchangeableH"})
+# UniChem flags that concern only the stereo layer of the InChIKey
+STEREO_MISMATCHES = frozenset({"stereoSp3", "stereoSp3Inverted", "stereoType", "stereoDbond"})
+
+CONFIDENCE = {
+    METHOD_DIRECT_XREF: "high",
+    METHOD_UNICHEM_INCHIKEY: "high",
+    METHOD_CHEBI_INPUT: "high",
+    METHOD_UNICHEM_CONNECTIVITY: "medium",
+    METHOD_UNICHEM_STEREO_UNDEFINED: "medium",
+    METHOD_MANUAL_SYNONYM: "low",
+}
+
+
+@dataclass
+class ChebiLookup:
+    """What the mapper needs to know about a ChEBI id (supplied by the ontology layer)."""
+
+    stars: int | None = None
+    inchikey: str | None = None
+    is_class_like: bool = False       # macromolecule / polymer / mixture class, not a single species
+    num_descendants: int | None = None
+    forms: frozenset[str] = frozenset()  # ids linked by conjugate acid/base or tautomer relations
 
 
 class UniChemClient:
@@ -122,11 +146,22 @@ class Mapper:
     """Maps a :class:`ChemicalIdentity` to ChEBI. ``rank`` optionally supplies (stars) per ChEBI id
     so the deterministic primary among equivalent ids prefers better-curated entries."""
 
-    def __init__(self, unichem: UniChemClient, rank: Callable[[str], tuple] | None = None, inchikey_of: Callable[[str], str | None] | None = None, synonym_table: dict[str, dict[str, str]] | None = None):
+    def __init__(self, unichem: UniChemClient, lookup: Callable[[str], ChebiLookup] | None = None, synonym_table: dict[str, dict[str, str]] | None = None):
         self.unichem = unichem
-        self.rank = rank  # ChEBI id -> sortable tuple, smaller = preferred primary (see Pipeline.rank_key)
-        self.inchikey_of = inchikey_of  # ChEBI id -> standard InChIKey (used to verify cross-references)
+        self.lookup = lookup  # ChEBI id -> ChebiLookup (verification of cross-references, ranking, form grouping)
         self.synonyms = synonym_table or {}
+
+    def _info(self, cid: str) -> ChebiLookup:
+        return self.lookup(cid) if self.lookup else ChebiLookup()
+
+    def _rank(self, cid: str) -> tuple:
+        i = self._info(cid)
+        return (int(i.is_class_like), i.num_descendants if i.num_descendants is not None else 10**6, -(i.stars or 0), _num(cid))
+
+    @staticmethod
+    def _finish(res: MappingResult) -> MappingResult:
+        res.confidence = CONFIDENCE.get(res.method, "none") if res.resolved else "none"
+        return res
 
     # -- helpers ---------------------------------------------------------------
     def _choose_primary(self, ids: list[str]) -> tuple[str, str]:
@@ -135,14 +170,15 @@ class Mapper:
         With a ranker: most specific entity first (not a macromolecule/mixture class, fewest
         is_a descendants), then highest star rating, then lowest numeric id. Without: lowest id.
         """
-        def key(cid: str):
-            return (tuple(self.rank(cid)) if self.rank else ()) + (_num(cid),)
-        ordered = sorted(ids, key=key)
-        how = "most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id" if self.rank else "lowest numeric id"
+        ordered = sorted(ids, key=self._rank)
+        how = "most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id" if self.lookup else "lowest numeric id"
         return ordered[0], how
 
     # -- main ------------------------------------------------------------------
     def map(self, ident: ChemicalIdentity) -> MappingResult:
+        return self._finish(self._map(ident))
+
+    def _map(self, ident: ChemicalIdentity) -> MappingResult:
         res = MappingResult()
         if ident.entity_kind == ENTITY_CHEBI_INPUT:
             cid = normalise_chebi_id(ident.input_id)
@@ -156,7 +192,7 @@ class Mapper:
         xref_candidates: list[MappingCandidate] = []
         verified: list[str] = []
         for cid in xref_ids:
-            key = self.inchikey_of(cid) if self.inchikey_of else None
+            key = self._info(cid).inchikey
             cand = MappingCandidate(chebi_id=cid, inchikey=key, note="RCSB cross-reference (assigned by PubChem resource)")
             if ident.inchikey and key == ident.inchikey:
                 cand.accepted = True
@@ -222,13 +258,52 @@ class Mapper:
                 res.evidence_unioned = True
                 res.notes.append("evidence unioned over accepted protonation/charge variants")
             return res
+        if cands and query_stereo_undefined:
+            # The deposited descriptor carries no stereo layer, so stereo cannot be compared.
+            # Accept only when exactly one plausible identity remains: connectivity matches, the
+            # differences are limited to stereo (+ protonation) flags, the entry is a single
+            # species (not a class), and protonation variants of one entity count as one group.
+            plausible = [c for c in cands if c.mismatches and set(c.mismatches) <= (STEREO_MISMATCHES | ACCEPTABLE_MISMATCHES) and not self._info(c.chebi_id).is_class_like]
+            groups = self._group_forms([c.chebi_id for c in plausible])
+            if len(groups) == 1:
+                ids = sorted(groups[0], key=self._rank)
+                for c in cands:
+                    c.accepted = c.chebi_id in ids
+                    if c.accepted:
+                        c.note = "stereo-undefined query: accepted as the single plausible connectivity candidate"
+                primary, how = self._choose_primary(ids)
+                res = MappingResult(status=MAP_RESOLVED, method=METHOD_UNICHEM_STEREO_UNDEFINED, source_id=ident.inchikey, primary_chebi_id=primary, equivalent_chebi_ids=ids, candidates=cands)
+                res.notes.append(f"deposited descriptor has no stereo layer; connectivity matches exactly one plausible non-class ChEBI identity; NOT equivalent to an exact InChIKey mapping; primary chosen by {how}")
+                if len(ids) > 1:
+                    res.evidence_unioned = True
+                    res.notes.append("evidence unioned over protonation variants of that identity")
+                return res
+            res = MappingResult(status=MAP_UNRESOLVED_CONFLICT, source_id=ident.inchikey, candidates=cands)
+            res.notes.append("conflict_reason=stereo_undefined_in_query")
+            if len(groups) > 1:
+                res.notes.append(f"multiple_stereo_candidates={len(groups)}: " + " vs ".join("/".join(sorted(g)) for g in groups))
+            res.notes.append("ChEBI entries share the InChIKey connectivity layer but differ in " + "; ".join(f"{c.chebi_id}: {','.join(c.mismatches)}" for c in cands) + " -- not mapped automatically")
+            return self._synonym_fallback(ident, res, allow=False)
         if cands:
             res = MappingResult(status=MAP_UNRESOLVED_CONFLICT, source_id=ident.inchikey, candidates=cands)
-            if query_stereo_undefined:
-                res.notes.append("conflict_reason=stereo_undefined_in_query")
             res.notes.append("ChEBI entries share the InChIKey connectivity layer but differ in " + "; ".join(f"{c.chebi_id}: {','.join(c.mismatches)}" for c in cands) + " -- not mapped automatically")
             return self._synonym_fallback(ident, res, allow=False)
         return self._synonym_fallback(ident, MappingResult(status=MAP_UNRESOLVED_NO_CHEBI, source_id=ident.inchikey, candidates=cands, notes=["no ChEBI entry found by exact InChIKey or connectivity search"]), allow=False)
+
+    def _group_forms(self, ids: list[str]) -> list[set[str]]:
+        """Union-find over conjugate acid/base and tautomer links: one group per chemical identity."""
+        groups: list[set[str]] = []
+        for cid in ids:
+            linked = self._info(cid).forms | {cid}
+            merged = {cid}
+            rest = []
+            for g in groups:
+                if g & linked or cid in g:
+                    merged |= g
+                else:
+                    rest.append(g)
+            groups = rest + [merged]
+        return groups
 
     def _synonym_fallback(self, ident: ChemicalIdentity, res: MappingResult, allow: bool = True) -> MappingResult:
         """Curated synonym mapping: only when no structural identifier exists (``allow``)."""

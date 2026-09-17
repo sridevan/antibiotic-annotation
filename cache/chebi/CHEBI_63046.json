@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:63046",
+ "chebi_release": "255",
+ "definition": "The chemical role played by a substance that stabilizes an emulsion by increasing its kinetic stability.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:51086"
+ ],
+ "name": "emulsifier",
+ "num_descendants": 6,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:50906",
+  "CHEBI:51086"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:34+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "emulsifier",
+   "chebi_accession": "CHEBI:63046",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "The chemical role played by a substance that stabilizes an emulsion by increasing its kinetic stability.",
+   "id": 63046,
+   "is_released": true,
+   "name": "emulsifier",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 51086,
+      "final_name": "chemical role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:63046",
+   "definition": [
+    "The chemical role played by a substance that stabilizes an emulsion by increasing its kinetic stability."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086"
+   ],
+   "isObsolete": false,
+   "label": [
+    "emulsifier"
+   ],
+   "numDescendants": 6.0,
+   "numHierarchicalDescendants": 6.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

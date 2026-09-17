@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:52211",
+ "chebi_release": "255",
+ "definition": "A biological role relating to the normal mechanisms and their interactions within a living system.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24432"
+ ],
+ "name": "physiological role",
+ "num_descendants": 36,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:35+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "physiological role",
+   "chebi_accession": "CHEBI:52211",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A biological role relating to the normal mechanisms and their interactions within a living system.",
+   "id": 52211,
+   "is_released": true,
+   "name": "physiological role",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24432,
+      "final_name": "biological role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 1
+  },
+  "ols4": {
+   "curie": "CHEBI:52211",
+   "definition": [
+    "A biological role relating to the normal mechanisms and their interactions within a living system."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "physiological role"
+   ],
+   "numDescendants": 36.0,
+   "numHierarchicalDescendants": 36.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 1,
+ "synonyms": []
+}

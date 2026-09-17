@@ -1,0 +1,84 @@
+{
+ "chebi_id": "CHEBI:35479",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24866",
+  "CHEBI:33296"
+ ],
+ "name": "alkali metal salt",
+ "num_descendants": 542,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24866",
+  "CHEBI:33296",
+  "CHEBI:33579",
+  "CHEBI:33674",
+  "CHEBI:36357",
+  "CHEBI:37577"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:40+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "alkali metal salt",
+   "chebi_accession": "CHEBI:35479",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 35479,
+   "is_released": true,
+   "name": "alkali metal salt",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33296,
+      "final_name": "alkali metal molecular entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 24866,
+      "final_name": "salt",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35479",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_33296"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_33296",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33674",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "alkali metal salt"
+   ],
+   "numDescendants": 542.0,
+   "numHierarchicalDescendants": 542.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -29,6 +29,7 @@ MAP_UNRESOLVED_NOT_FOUND = "unresolved_identity_not_found"
 METHOD_DIRECT_XREF = "direct_ccd_crossref"
 METHOD_UNICHEM_INCHIKEY = "unichem_inchikey"
 METHOD_UNICHEM_CONNECTIVITY = "unichem_connectivity_protonation"
+METHOD_UNICHEM_STEREO_UNDEFINED = "unichem_connectivity_stereo_undefined"
 METHOD_MANUAL_SYNONYM = "manual_synonym"
 METHOD_CHEBI_INPUT = "chebi_input"
 METHOD_UNRESOLVED = "unresolved"
@@ -105,6 +106,8 @@ class MappingResult:
     equivalent_chebi_ids: list[str] = field(default_factory=list)  # same standard InChIKey
     evidence_unioned: bool = False
     candidates: list[MappingCandidate] = field(default_factory=list)
+    confidence: str = "none"  # high (exact identity) | medium (protonation-relaxed / stereo-undefined) | low (manual) | none
+    related_parent: dict[str, str] | None = None  # optional curated biological parent for distinct covalent forms (never used for identity)
     notes: list[str] = field(default_factory=list)
 
     @property

@@ -1,0 +1,70 @@
+{
+ "chebi_id": "CHEBI:50904",
+ "chebi_release": "255",
+ "definition": "A chemical compound, or part thereof, which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:52209"
+ ],
+ "name": "allergen",
+ "num_descendants": 4,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:50906",
+  "CHEBI:52209"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:25+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "allergen",
+   "chebi_accession": "CHEBI:50904",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A chemical compound, or part thereof, which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy.",
+   "id": 50904,
+   "is_released": true,
+   "name": "allergen",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 52209,
+      "final_name": "aetiopathogenetic role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:50904",
+   "definition": [
+    "A chemical compound, or part thereof, which causes the onset of an allergic reaction by interacting with any of the molecular pathways involved in an allergy."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_52209"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52209"
+   ],
+   "isObsolete": false,
+   "label": [
+    "allergen"
+   ],
+   "numDescendants": 4.0,
+   "numHierarchicalDescendants": 4.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

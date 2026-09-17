@@ -1,0 +1,106 @@
+{
+ "chebi_id": "CHEBI:23114",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23117",
+  "CHEBI:33958"
+ ],
+ "name": "chloride salt",
+ "num_descendants": 575,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23117",
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:24866",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:33958",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:37578"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:17996",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T12:05:39+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "chloride salt",
+   "chebi_accession": "CHEBI:23114",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 23114,
+   "is_released": true,
+   "name": "chloride salt",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 17996,
+      "final_name": "chloride",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 33958,
+      "final_name": "halide salt",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 23117,
+      "final_name": "chlorine molecular entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:23114",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23117",
+    "http://purl.obolibrary.org/obo/CHEBI_33958"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23117",
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_33958",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37578"
+   ],
+   "isObsolete": false,
+   "label": [
+    "chloride salt"
+   ],
+   "numDescendants": 575.0,
+   "numHierarchicalDescendants": 575.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_17996"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

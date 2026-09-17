@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:77968",
+ "chebi_release": "255",
+ "definition": "A compound that is used to keep a substance moist.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33232"
+ ],
+ "name": "humectant",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:33232",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:50+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "humectant",
+   "chebi_accession": "CHEBI:77968",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A compound that is used to keep a substance moist.",
+   "id": 77968,
+   "is_released": true,
+   "name": "humectant",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33232,
+      "final_name": "application",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:77968",
+   "definition": [
+    "A compound that is used to keep a substance moist."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "humectant"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

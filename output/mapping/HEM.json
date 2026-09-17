@@ -67,6 +67,8 @@
         "note": "exact standard InChIKey match"
       }
     ],
+    "confidence": "high",
+    "related_parent": null,
     "notes": [
       "2 ChEBI entries share standard InChIKey KABFMIBPWCXCRK-RGGAHWMASA-L; treated as the same standardised chemical identity for mapping purposes, primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id, ontology evidence unioned over all of them"
     ],

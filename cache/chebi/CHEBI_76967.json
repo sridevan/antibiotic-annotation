@@ -1,0 +1,89 @@
+{
+ "chebi_id": "CHEBI:76967",
+ "chebi_release": "255",
+ "definition": "Any human metabolite produced by metabolism of a xenobiotic compound in humans.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:76206",
+  "CHEBI:77746"
+ ],
+ "name": "human xenobiotic metabolite",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:25212",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:75763",
+  "CHEBI:75767",
+  "CHEBI:75768",
+  "CHEBI:76206",
+  "CHEBI:77746"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:53+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "human xenobiotic metabolite",
+   "chebi_accession": "CHEBI:76967",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any human metabolite produced by metabolism of a xenobiotic compound in humans.",
+   "id": 76967,
+   "is_released": true,
+   "name": "human xenobiotic metabolite",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 76206,
+      "final_name": "xenobiotic metabolite",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 77746,
+      "final_name": "human metabolite",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:76967",
+   "definition": [
+    "Any human metabolite produced by metabolism of a xenobiotic compound in humans."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_76206",
+    "http://purl.obolibrary.org/obo/CHEBI_77746"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_25212",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_75763",
+    "http://purl.obolibrary.org/obo/CHEBI_75767",
+    "http://purl.obolibrary.org/obo/CHEBI_75768",
+    "http://purl.obolibrary.org/obo/CHEBI_76206",
+    "http://purl.obolibrary.org/obo/CHEBI_77746"
+   ],
+   "isObsolete": false,
+   "label": [
+    "human xenobiotic metabolite"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

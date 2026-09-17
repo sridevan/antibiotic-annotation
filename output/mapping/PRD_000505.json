@@ -29,17 +29,19 @@
     "inchikey_connectivity": "WTHRRGMBUAHGNI"
   },
   "mapping": {
-    "status": "unresolved_identity_conflict",
-    "method": "unresolved",
+    "status": "resolved",
+    "method": "unichem_connectivity_stereo_undefined",
     "source_id": "WTHRRGMBUAHGNI-UHFFFAOYSA-N",
-    "primary_chebi_id": null,
-    "equivalent_chebi_ids": [],
+    "primary_chebi_id": "CHEBI:8732",
+    "equivalent_chebi_ids": [
+      "CHEBI:8732"
+    ],
     "evidence_unioned": false,
     "candidates": [
       {
         "chebi_id": "CHEBI:8732",
         "inchikey": null,
-        "name": "Quinupristin",
+        "name": null,
         "comparison": {
           "HAtoms": true,
           "charge": true,
@@ -58,18 +60,21 @@
           "stereoSp3Inverted",
           "stereoType"
         ],
-        "accepted": false,
-        "note": "deposited descriptor has no stereo layer (UHFFFAOYSA): stereo cannot be compared; not mapped automatically"
+        "accepted": true,
+        "note": "stereo-undefined query: accepted as the single plausible connectivity candidate"
       }
     ],
+    "confidence": "medium",
+    "related_parent": null,
     "notes": [
-      "conflict_reason=stereo_undefined_in_query",
-      "ChEBI entries share the InChIKey connectivity layer but differ in CHEBI:8732: stereoSp3,stereoSp3Inverted,stereoType -- not mapped automatically"
+      "deposited descriptor has no stereo layer; connectivity matches exactly one plausible non-class ChEBI identity; NOT equivalent to an exact InChIKey mapping; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
     ],
-    "resolved": false
+    "resolved": true
   },
-  "primary_name": null,
-  "equivalent_names": {},
+  "primary_name": "Quinupristin",
+  "equivalent_names": {
+    "CHEBI:8732": "Quinupristin"
+  },
   "family": {
     "member_of": [],
     "forms": []

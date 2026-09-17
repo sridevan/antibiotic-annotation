@@ -1,0 +1,72 @@
+{
+ "chebi_id": "CHEBI:64946",
+ "chebi_release": "255",
+ "definition": "An antiviral agent that destroys or inhibits the replication of the human immunodeficiency virus.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:22587"
+ ],
+ "name": "anti-HIV agent",
+ "num_descendants": 8,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:22587",
+  "CHEBI:24432",
+  "CHEBI:33281",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:33+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "anti-HIV agent",
+   "chebi_accession": "CHEBI:64946",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An antiviral agent that destroys or inhibits the replication of the human immunodeficiency virus.",
+   "id": 64946,
+   "is_released": true,
+   "name": "anti-HIV agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 22587,
+      "final_name": "antiviral agent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:64946",
+   "definition": [
+    "An antiviral agent that destroys or inhibits the replication of the human immunodeficiency virus."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_22587"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_22587",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33281",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "anti-HIV agent"
+   ],
+   "numDescendants": 8.0,
+   "numHierarchicalDescendants": 8.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -14,7 +14,7 @@ import pytest
 from antibiotic_annotation.cache import HttpError, JsonFileCache, NetworkUnavailable
 from antibiotic_annotation.chebi import ChebiClient
 from antibiotic_annotation.identity import RcsbClient
-from antibiotic_annotation.mapping import Mapper, UniChemClient
+from antibiotic_annotation.mapping import ChebiLookup, Mapper, UniChemClient
 
 FIXTURES = Path(__file__).parent / "fixtures" / "http"
 
@@ -83,8 +83,9 @@ def chebi(transport, cache):
 
 @pytest.fixture
 def mapper(transport, cache, chebi):
-    def rank(c):
+    def lookup(c):
         t = chebi.term(c)
-        return (t.num_descendants if t.num_descendants is not None else 10**6, -(t.stars or 0))
+        forms = {r.target_id for r in t.relations + t.incoming if r.relation in ("is_conjugate_acid_of", "is_conjugate_base_of", "is_tautomer_of")}
+        return ChebiLookup(stars=t.stars, inchikey=t.inchikey, is_class_like=False, num_descendants=t.num_descendants, forms=frozenset(forms))
 
-    return Mapper(UniChemClient(transport, cache), rank=rank, inchikey_of=lambda c: chebi.term(c).inchikey)
+    return Mapper(UniChemClient(transport, cache), lookup=lookup)

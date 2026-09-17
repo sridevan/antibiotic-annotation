@@ -32,7 +32,7 @@ Eravacycline	YQM	ccd_nonpolymer	tetracycline	paper
 Pentacycline	P8F	ccd_nonpolymer	tetracycline	paper	
 Streptomycin	5I0	ccd_nonpolymer	aminoglycoside	paper	
 Apramycin	AM2	ccd_nonpolymer	aminoglycoside	paper	
-Capreomycin	CA7	ccd_nonpolymer	peptide_like	paper	tuberactinomycin
+Capreomycin	PRD_000193	bird_peptide_like	peptide_like	paper (corrected)	workbook lists CA7, which is Cymal-7 (7-cyclohexylheptyl 4-O-alpha-D-glucopyranosyl-beta-D-glucopyranoside, a detergent), not capreomycin; corrected to BIRD PRD_000193 Capreomycin IA as deposited in 4V7M/8CEP (tuberactinomycin)
 Tiamulin	MUL	ccd_nonpolymer	pleuromutilin	paper	
 Retapamulin	G34	ccd_nonpolymer	pleuromutilin	paper	
 Lincomycin	3QB	ccd_nonpolymer	lincosamide	paper	

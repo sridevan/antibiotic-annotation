@@ -65,7 +65,11 @@ def test_paper_external_validation_set(bench):
     paper = bench.paper_positives
     ids = {i.input_id for i in paper}
     # the nine paper-only compounds ...
-    assert {"U3B", "YQM", "P8F", "5I0", "AM2", "CA7", "MUL", "G34", "3QB"} <= ids
+    assert {"U3B", "YQM", "P8F", "5I0", "AM2", "PRD_000193", "MUL", "G34", "3QB"} <= ids
+    # CA7 in the workbook is Cymal-7 (a detergent); the audited correction points at BIRD capreomycin IA
+    assert "CA7" not in ids
+    cap = next(i for i in paper if i.compound == "Capreomycin")
+    assert cap.entity_kind == "bird_peptide_like" and "Cymal-7" in cap.note and "corrected from CA7" in cap.note
     # ... plus the two alternative deposited forms of manual positives
     assert {"HY0", "6O1"} <= ids
     # compounds already in the primary set are not duplicated

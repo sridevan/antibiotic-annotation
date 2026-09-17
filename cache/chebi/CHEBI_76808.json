@@ -1,0 +1,78 @@
+{
+ "chebi_id": "CHEBI:76808",
+ "chebi_release": "255",
+ "definition": "An EC 3.5.* (hydrolases acting on non-peptide C-N bonds) inhibitor that interferes with the action of any non-peptide cyclic amide C-N hydrolase (EC 3.5.2.*).",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:76764"
+ ],
+ "name": "EC 3.5.2.* (non-peptide cyclic amide C-N hydrolase) inhibitor",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23924",
+  "CHEBI:24432",
+  "CHEBI:35222",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:76759",
+  "CHEBI:76764"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:54+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "EC 3.5.2.* (non-peptide cyclic amide C-N hydrolase) inhibitor",
+   "chebi_accession": "CHEBI:76808",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An EC 3.5.* (hydrolases acting on non-peptide C-N bonds) inhibitor that interferes with the action of any non-peptide cyclic amide C-N hydrolase (EC 3.5.2.*).",
+   "id": 76808,
+   "is_released": true,
+   "name": "EC 3.5.2.* (non-peptide cyclic amide C-N hydrolase) inhibitor",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 76764,
+      "final_name": "EC 3.5.* (hydrolases acting on non-peptide C-N bonds) inhibitor",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:76808",
+   "definition": [
+    "An EC 3.5.* (hydrolases acting on non-peptide C-N bonds) inhibitor that interferes with the action of any non-peptide cyclic amide C-N hydrolase (EC 3.5.2.*)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_76764"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23924",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_35222",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_76759",
+    "http://purl.obolibrary.org/obo/CHEBI_76764"
+   ],
+   "isObsolete": false,
+   "label": [
+    "EC 3.5.2.* (non-peptide cyclic amide C-N hydrolase) inhibitor"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

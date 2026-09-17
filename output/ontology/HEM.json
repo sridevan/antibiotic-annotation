@@ -1,0 +1,346 @@
+{
+ "chebi_ids": [
+  "CHEBI:17627",
+  "CHEBI:26355"
+ ],
+ "terms": {
+  "CHEBI:17627": {
+   "name": "ferroheme b",
+   "definition": "Heme b in which the iron has oxidation state +2.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:26355",
+    "CHEBI:38573"
+   ]
+  },
+  "CHEBI:26355": {
+   "name": "heme b",
+   "definition": "A metalloprotoporphyrin in which the four pyrrole nitrogens of the protoporphyrin moiety are coordinated to iron. It is the most abundant of the heme compounds.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:30413",
+    "CHEBI:36158"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:26355",
+   "name": "heme b",
+   "min_depth": 1,
+   "via": "CHEBI:17627"
+  },
+  {
+   "chebi_id": "CHEBI:30413",
+   "name": "heme",
+   "min_depth": 1,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:36158",
+   "name": "metalloprotoporphyrin",
+   "min_depth": 1,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:38573",
+   "name": "ferroheme",
+   "min_depth": 1,
+   "via": "CHEBI:17627"
+  },
+  {
+   "chebi_id": "CHEBI:25216",
+   "name": "metalloporphyrin",
+   "min_depth": 2,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:26361",
+   "name": "protoporphyrins",
+   "min_depth": 2,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33892",
+   "name": "iron coordination entity",
+   "min_depth": 2,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33909",
+   "name": "metallotetrapyrrole",
+   "min_depth": 2,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:24873",
+   "name": "iron molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:26214",
+   "name": "porphyrins",
+   "min_depth": 3,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33240",
+   "name": "coordination entity",
+   "min_depth": 3,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33861",
+   "name": "transition element coordination entity",
+   "min_depth": 3,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:36309",
+   "name": "cyclic tetrapyrrole",
+   "min_depth": 3,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:26932",
+   "name": "tetrapyrrole",
+   "min_depth": 4,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33497",
+   "name": "transition element molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33744",
+   "name": "iron group molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:47882",
+   "name": "cyclic polypyrrole",
+   "min_depth": 4,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33676",
+   "name": "d-block molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33833",
+   "name": "heteroarene",
+   "min_depth": 5,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 5,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:38077",
+   "name": "polypyrrole",
+   "min_depth": 5,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 6,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:24532",
+   "name": "organic heterocyclic compound",
+   "min_depth": 6,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33659",
+   "name": "organic aromatic compound",
+   "min_depth": 6,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:38101",
+   "name": "organonitrogen heterocyclic compound",
+   "min_depth": 6,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 7,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33655",
+   "name": "aromatic compound",
+   "min_depth": 7,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33832",
+   "name": "organic cyclic compound",
+   "min_depth": 7,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:35352",
+   "name": "organonitrogen compound",
+   "min_depth": 7,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:5686",
+   "name": "heterocyclic compound",
+   "min_depth": 7,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33595",
+   "name": "cyclic compound",
+   "min_depth": 8,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:51143",
+   "name": "nitrogen molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:72695",
+   "name": "organic molecule",
+   "min_depth": 8,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:25367",
+   "name": "molecule",
+   "min_depth": 9,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33302",
+   "name": "pnictogen molecular entity",
+   "min_depth": 9,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 9,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 10,
+   "via": "CHEBI:26355"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 11,
+   "via": "CHEBI:26355"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:23357": {
+   "name": "cofactor",
+   "on": [
+    "CHEBI:17627"
+   ]
+  },
+  "CHEBI:77746": {
+   "name": "human metabolite",
+   "on": [
+    "CHEBI:17627"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:23357": {
+   "chebi_id": "CHEBI:23357",
+   "name": "cofactor",
+   "asserted_on": [
+    "CHEBI:17627",
+    "CHEBI:26214"
+   ]
+  },
+  "CHEBI:25212": {
+   "chebi_id": "CHEBI:25212",
+   "name": "metabolite",
+   "asserted_on": [
+    "CHEBI:30413"
+   ]
+  },
+  "CHEBI:26348": {
+   "chebi_id": "CHEBI:26348",
+   "name": "prosthetic group",
+   "asserted_on": [
+    "CHEBI:30413"
+   ]
+  },
+  "CHEBI:77746": {
+   "chebi_id": "CHEBI:77746",
+   "name": "human metabolite",
+   "asserted_on": [
+    "CHEBI:17627"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:75763",
+   "name": "eukaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75767",
+   "name": "animal metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75768",
+   "name": "mammalian metabolite"
+  }
+ ],
+ "chebi_release": "255"
+}

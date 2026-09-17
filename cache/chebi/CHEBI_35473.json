@@ -1,0 +1,85 @@
+{
+ "chebi_id": "CHEBI:35473",
+ "chebi_release": "255",
+ "definition": "A traditional grouping of drugs said to have a soothing or calming effect on mood, thought or behaviour.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35471",
+  "CHEBI:35488"
+ ],
+ "name": "tranquilizing drug",
+ "num_descendants": 6,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:35470",
+  "CHEBI:35471",
+  "CHEBI:35488",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:38+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "tranquilizing drug",
+   "chebi_accession": "CHEBI:35473",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A traditional grouping of drugs said to have a soothing or calming effect on mood, thought or behaviour.",
+   "id": 35473,
+   "is_released": true,
+   "name": "tranquilizing drug",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35471,
+      "final_name": "psychotropic drug",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35488,
+      "final_name": "central nervous system depressant",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35473",
+   "definition": [
+    "A traditional grouping of drugs said to have a soothing or calming effect on mood, thought or behaviour."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35471",
+    "http://purl.obolibrary.org/obo/CHEBI_35488"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35470",
+    "http://purl.obolibrary.org/obo/CHEBI_35471",
+    "http://purl.obolibrary.org/obo/CHEBI_35488",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "tranquilizing drug"
+   ],
+   "numDescendants": 6.0,
+   "numHierarchicalDescendants": 6.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

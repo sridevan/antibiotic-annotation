@@ -35,6 +35,8 @@
     "equivalent_chebi_ids": [],
     "evidence_unioned": false,
     "candidates": [],
+    "confidence": "none",
+    "related_parent": null,
     "notes": [
       "no ChEBI entry found by exact InChIKey or connectivity search"
     ],

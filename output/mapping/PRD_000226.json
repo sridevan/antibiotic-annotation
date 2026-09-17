@@ -124,8 +124,11 @@
         "note": "deposited descriptor has no stereo layer (UHFFFAOYSA): stereo cannot be compared; not mapped automatically"
       }
     ],
+    "confidence": "none",
+    "related_parent": null,
     "notes": [
       "conflict_reason=stereo_undefined_in_query",
+      "multiple_stereo_candidates=2: CHEBI:94788 vs CHEBI:15782/CHEBI:60081",
       "ChEBI entries share the InChIKey connectivity layer but differ in CHEBI:94788: stereoSp3,stereoSp3Inverted,stereoType; CHEBI:15782: stereoDbond,stereoSp3,stereoSp3Inverted,stereoType; CHEBI:60081: protonation,stereoDbond,stereoSp3,stereoSp3Inverted,stereoType -- not mapped automatically"
     ],
     "resolved": false

@@ -1,0 +1,76 @@
+{
+ "chebi_id": "CHEBI:35623",
+ "chebi_release": "255",
+ "definition": "A drug used to prevent seizures or reduce their severity.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35488"
+ ],
+ "name": "anticonvulsant",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:35470",
+  "CHEBI:35488",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:41+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "anticonvulsant",
+   "chebi_accession": "CHEBI:35623",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A drug used to prevent seizures or reduce their severity.",
+   "id": 35623,
+   "is_released": true,
+   "name": "anticonvulsant",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35488,
+      "final_name": "central nervous system depressant",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35623",
+   "definition": [
+    "A drug used to prevent seizures or reduce their severity."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35488"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35470",
+    "http://purl.obolibrary.org/obo/CHEBI_35488",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "anticonvulsant"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

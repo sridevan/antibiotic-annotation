@@ -1,0 +1,80 @@
+{
+ "chebi_id": "CHEBI:35941",
+ "chebi_release": "255",
+ "definition": "An agent that has an affinity for serotonin receptors and is able to mimic the effects of serotonin by stimulating the physiologic activity at the cell receptors. Serotonin agonists are used as antidepressants, anxiolytics, and in the treatment of migraine disorders.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:48278"
+ ],
+ "name": "serotonergic agonist",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:24432",
+  "CHEBI:33232",
+  "CHEBI:35942",
+  "CHEBI:48278",
+  "CHEBI:50906",
+  "CHEBI:52210",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:38+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "serotonergic agonist",
+   "chebi_accession": "CHEBI:35941",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An agent that has an affinity for serotonin receptors and is able to mimic the effects of serotonin by stimulating the physiologic activity at the cell receptors. Serotonin agonists are used as antidepressants, anxiolytics, and in the treatment of migraine disorders.",
+   "id": 35941,
+   "is_released": true,
+   "name": "serotonergic agonist",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 48278,
+      "final_name": "serotonergic drug",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35941",
+   "definition": [
+    "An agent that has an affinity for serotonin receptors and is able to mimic the effects of serotonin by stimulating the physiologic activity at the cell receptors. Serotonin agonists are used as antidepressants, anxiolytics, and in the treatment of migraine disorders."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_48278"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35942",
+    "http://purl.obolibrary.org/obo/CHEBI_48278",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52210",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "serotonergic agonist"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

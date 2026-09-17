@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:67079",
+ "chebi_release": "255",
+ "definition": "Any compound that has anti-inflammatory effects.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33232"
+ ],
+ "name": "anti-inflammatory agent",
+ "num_descendants": 3,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:33232",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:35+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "anti-inflammatory agent",
+   "chebi_accession": "CHEBI:67079",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any compound that has anti-inflammatory effects.",
+   "id": 67079,
+   "is_released": true,
+   "name": "anti-inflammatory agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33232,
+      "final_name": "application",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:67079",
+   "definition": [
+    "Any compound that has anti-inflammatory effects."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "anti-inflammatory agent"
+   ],
+   "numDescendants": 3.0,
+   "numHierarchicalDescendants": 3.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,80 @@
+{
+ "chebi_id": "CHEBI:24839",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24835",
+  "CHEBI:24866"
+ ],
+ "name": "inorganic salt",
+ "num_descendants": 241,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24835",
+  "CHEBI:24866",
+  "CHEBI:36357",
+  "CHEBI:37577"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:39+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "inorganic salt",
+   "chebi_accession": "CHEBI:24839",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 24839,
+   "is_released": true,
+   "name": "inorganic salt",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24835,
+      "final_name": "inorganic molecular entity",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 24866,
+      "final_name": "salt",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:24839",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24866"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24835",
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577"
+   ],
+   "isObsolete": false,
+   "label": [
+    "inorganic salt"
+   ],
+   "numDescendants": 241.0,
+   "numHierarchicalDescendants": 241.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

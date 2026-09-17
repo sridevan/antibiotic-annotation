@@ -1,0 +1,80 @@
+{
+ "chebi_id": "CHEBI:35617",
+ "chebi_release": "255",
+ "definition": "A food additive that is used to added improve the taste or odour of a food.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:64047"
+ ],
+ "name": "flavouring agent",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:33232",
+  "CHEBI:50906",
+  "CHEBI:51086",
+  "CHEBI:52211",
+  "CHEBI:64047",
+  "CHEBI:747325",
+  "CHEBI:78295"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:50+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "flavouring agent",
+   "chebi_accession": "CHEBI:35617",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A food additive that is used to added improve the taste or odour of a food.",
+   "id": 35617,
+   "is_released": true,
+   "name": "flavouring agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 64047,
+      "final_name": "food additive",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35617",
+   "definition": [
+    "A food additive that is used to added improve the taste or odour of a food."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_64047"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_51086",
+    "http://purl.obolibrary.org/obo/CHEBI_52211",
+    "http://purl.obolibrary.org/obo/CHEBI_64047",
+    "http://purl.obolibrary.org/obo/CHEBI_747325",
+    "http://purl.obolibrary.org/obo/CHEBI_78295"
+   ],
+   "isObsolete": false,
+   "label": [
+    "flavouring agent"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

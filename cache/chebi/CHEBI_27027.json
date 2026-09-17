@@ -1,0 +1,74 @@
+{
+ "chebi_id": "CHEBI:27027",
+ "chebi_release": "255",
+ "definition": "Any nutrient required in small quantities by organisms throughout their life in order to orchestrate a range of physiological functions.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33284"
+ ],
+ "name": "micronutrient",
+ "num_descendants": 3,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:33284",
+  "CHEBI:50906",
+  "CHEBI:52211",
+  "CHEBI:78295"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:34+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "micronutrient",
+   "chebi_accession": "CHEBI:27027",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any nutrient required in small quantities by organisms throughout their life in order to orchestrate a range of physiological functions.",
+   "id": 27027,
+   "is_released": true,
+   "name": "micronutrient",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33284,
+      "final_name": "nutrient",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:27027",
+   "definition": [
+    "Any nutrient required in small quantities by organisms throughout their life in order to orchestrate a range of physiological functions."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33284"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33284",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52211",
+    "http://purl.obolibrary.org/obo/CHEBI_78295"
+   ],
+   "isObsolete": false,
+   "label": [
+    "micronutrient"
+   ],
+   "numDescendants": 3.0,
+   "numHierarchicalDescendants": 3.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

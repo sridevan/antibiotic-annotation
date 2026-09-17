@@ -1,0 +1,78 @@
+{
+ "chebi_id": "CHEBI:75771",
+ "chebi_release": "255",
+ "definition": "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>).",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:75768"
+ ],
+ "name": "mouse metabolite",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:25212",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:75763",
+  "CHEBI:75767",
+  "CHEBI:75768"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:28+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "mouse metabolite",
+   "chebi_accession": "CHEBI:75771",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>).",
+   "id": 75771,
+   "is_released": true,
+   "name": "mouse metabolite",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 75768,
+      "final_name": "mammalian metabolite",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:75771",
+   "definition": [
+    "Any mammalian metabolite produced during a metabolic reaction in a mouse (<em>Mus musculus</em>)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_75768"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_25212",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_75763",
+    "http://purl.obolibrary.org/obo/CHEBI_75767",
+    "http://purl.obolibrary.org/obo/CHEBI_75768"
+   ],
+   "isObsolete": false,
+   "label": [
+    "mouse metabolite"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

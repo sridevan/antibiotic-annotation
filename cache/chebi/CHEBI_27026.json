@@ -1,0 +1,98 @@
+{
+ "chebi_id": "CHEBI:27026",
+ "chebi_release": "255",
+ "definition": "Poisonous substance produced by a biological organism such as a microbe, animal or plant.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25212",
+  "CHEBI:64909"
+ ],
+ "name": "toxin",
+ "num_descendants": 9,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:25212",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:64909"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:34+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "toxin",
+   "chebi_accession": "CHEBI:27026",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Poisonous substance produced by a biological organism such as a microbe, animal or plant.",
+   "id": 27026,
+   "is_released": true,
+   "name": "toxin",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 64909,
+      "final_name": "poison",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 25212,
+      "final_name": "metabolite",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:27026",
+   "definition": [
+    "Poisonous substance produced by a biological organism such as a microbe, animal or plant."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25212",
+    "http://purl.obolibrary.org/obo/CHEBI_64909"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_25212",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_64909"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "toxin"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "toxin"
+   ],
+   "numDescendants": 9.0,
+   "numHierarchicalDescendants": 9.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "toxin"
+ ]
+}

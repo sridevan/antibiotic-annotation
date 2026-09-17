@@ -21,7 +21,7 @@ from antibiotic_annotation.mapping import Mapper, UniChemClient  # noqa: E402
 
 FIX = ROOT / "tests" / "fixtures" / "http"
 
-IDS = ["GLC", "TAC", "KSG", "SCM", "GTP", "ORN", "TPF", "X8Q", "FYG", "T1C", "HY0", "6UQ", "NMY", "LLL", "VIR", "KIR", "PRD_000226", "EM1", "HOH", "CHEBI:26710", "ZZZZ9"]
+IDS = ["PRD_000505", "PRD_000193", "5I0", "GLC", "TAC", "KSG", "SCM", "GTP", "ORN", "TPF", "X8Q", "FYG", "T1C", "HY0", "6UQ", "NMY", "LLL", "VIR", "KIR", "PRD_000226", "EM1", "HOH", "CHEBI:26710", "ZZZZ9"]
 EXTRA_CHEBI = ["CHEBI:36047", "CHEBI:33282", "CHEBI:33281", "CHEBI:22507", "CHEBI:25105", "CHEBI:27933", "CHEBI:26895", "CHEBI:7507", "CHEBI:17833", "CHEBI:87209", "CHEBI:48947", "CHEBI:48001", "CHEBI:24835", "CHEBI:9999999"]
 
 
@@ -89,7 +89,9 @@ def main():
     tr = RecordingTransport()
     cache = JsonFileCache(tempfile.mkdtemp())
     rcsb, uni, chebi = RcsbClient(tr, cache), UniChemClient(tr, cache), ChebiClient(tr, cache)
-    mapper = Mapper(uni, rank=lambda cid: (chebi.term(cid).num_descendants or 0, -(chebi.term(cid).stars or 0)), inchikey_of=lambda cid: chebi.term(cid).inchikey)
+    from antibiotic_annotation.pipeline import Pipeline
+    pipe = Pipeline(cache_dir=cache.root, transport=tr, synonyms=None, related_parents=None)
+    mapper = pipe.mapper
     chebi.release()
     to_expand: set[str] = set(EXTRA_CHEBI)
     for i in IDS:

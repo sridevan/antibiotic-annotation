@@ -1,0 +1,74 @@
+{
+ "chebi_id": "CHEBI:76725",
+ "chebi_release": "255",
+ "definition": "An enzyme inhibitor which interferes with the action of an oxidoreductase (EC 1.*.*.*).",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23924"
+ ],
+ "name": "EC 1.* (oxidoreductase) inhibitor",
+ "num_descendants": 171,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23924",
+  "CHEBI:24432",
+  "CHEBI:35222",
+  "CHEBI:50906",
+  "CHEBI:52206"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:36+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "EC 1.* (oxidoreductase) inhibitor",
+   "chebi_accession": "CHEBI:76725",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An enzyme inhibitor which interferes with the action of an oxidoreductase (EC 1.*.*.*).",
+   "id": 76725,
+   "is_released": true,
+   "name": "EC 1.* (oxidoreductase) inhibitor",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23924,
+      "final_name": "enzyme inhibitor",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:76725",
+   "definition": [
+    "An enzyme inhibitor which interferes with the action of an oxidoreductase (EC 1.*.*.*)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23924"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23924",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_35222",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "isObsolete": false,
+   "label": [
+    "EC 1.* (oxidoreductase) inhibitor"
+   ],
+   "numDescendants": 171.0,
+   "numHierarchicalDescendants": 171.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

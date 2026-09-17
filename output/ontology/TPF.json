@@ -1,0 +1,564 @@
+{
+ "chebi_ids": [
+  "CHEBI:46081"
+ ],
+ "terms": {
+  "CHEBI:46081": {
+   "name": "fluconazole",
+   "definition": "A member of the class of  triazoles that is propan-2-ol substituted at position 1 and 3 by 1<em>H</em>-1,2,4-triazol-1-yl groups and at position 2 by a 2,4-difluorophenyl group. It is an antifungal drug used for the treatment of mucosal candidiasis and for systemic infections including systemic candidiasis, coccidioidomycosis, and cryptococcosis.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:26878",
+    "CHEBI:38582",
+    "CHEBI:87071",
+    "CHEBI:87101"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:26878",
+   "name": "tertiary alcohol",
+   "min_depth": 1,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:38582",
+   "name": "difluorobenzene",
+   "min_depth": 1,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:87071",
+   "name": "conazole antifungal drug",
+   "min_depth": 1,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:87101",
+   "name": "triazole antifungal drug",
+   "min_depth": 1,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:30879",
+   "name": "alcohol",
+   "min_depth": 2,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:35496",
+   "name": "fluorobenzenes",
+   "min_depth": 2,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:68452",
+   "name": "azole",
+   "min_depth": 2,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:86323",
+   "name": "conazole antifungal agent",
+   "min_depth": 2,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:86426",
+   "name": "triazole antifungal agent",
+   "min_depth": 2,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:22712",
+   "name": "benzenes",
+   "min_depth": 3,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33822",
+   "name": "organic hydroxy compound",
+   "min_depth": 3,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:35727",
+   "name": "triazoles",
+   "min_depth": 3,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:37143",
+   "name": "organofluorine compound",
+   "min_depth": 3,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:38101",
+   "name": "organonitrogen heterocyclic compound",
+   "min_depth": 3,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:38179",
+   "name": "monocyclic heteroarene",
+   "min_depth": 3,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:17792",
+   "name": "organohalogen compound",
+   "min_depth": 4,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:24062",
+   "name": "fluorine molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:24532",
+   "name": "organic heterocyclic compound",
+   "min_depth": 4,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:24651",
+   "name": "hydroxides",
+   "min_depth": 4,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33833",
+   "name": "heteroarene",
+   "min_depth": 4,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33836",
+   "name": "benzenoid aromatic compound",
+   "min_depth": 4,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:35352",
+   "name": "organonitrogen compound",
+   "min_depth": 4,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:24471",
+   "name": "halogen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33598",
+   "name": "carbocyclic compound",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33608",
+   "name": "hydrogen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33659",
+   "name": "organic aromatic compound",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33832",
+   "name": "organic cyclic compound",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:37578",
+   "name": "halide",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:51143",
+   "name": "nitrogen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:5686",
+   "name": "heterocyclic compound",
+   "min_depth": 5,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33302",
+   "name": "pnictogen molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33595",
+   "name": "cyclic compound",
+   "min_depth": 6,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33597",
+   "name": "homocyclic compound",
+   "min_depth": 6,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33655",
+   "name": "aromatic compound",
+   "min_depth": 6,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33674",
+   "name": "s-block molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 6,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:72695",
+   "name": "organic molecule",
+   "min_depth": 6,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:25367",
+   "name": "molecule",
+   "min_depth": 7,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:46081"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 8,
+   "via": "CHEBI:46081"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:22587": {
+   "name": "antiviral agent",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:33282": {
+   "name": "antibacterial agent",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35441": {
+   "name": "antiinfective agent",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35610": {
+   "name": "antineoplastic agent",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35674": {
+   "name": "antihypertensive agent",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35703": {
+   "name": "xenobiotic",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35718": {
+   "name": "antifungal agent",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:50183": {
+   "name": "P450 inhibitor",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:64946": {
+   "name": "anti-HIV agent",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:67079": {
+   "name": "anti-inflammatory agent",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:70868": {
+   "name": "antileishmanial agent",
+   "on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:78298": {
+   "name": "environmental contaminant",
+   "on": [
+    "CHEBI:46081"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:22587": {
+   "chebi_id": "CHEBI:22587",
+   "name": "antiviral agent",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:33282": {
+   "chebi_id": "CHEBI:33282",
+   "name": "antibacterial agent",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35441": {
+   "chebi_id": "CHEBI:35441",
+   "name": "antiinfective agent",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35610": {
+   "chebi_id": "CHEBI:35610",
+   "name": "antineoplastic agent",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35674": {
+   "chebi_id": "CHEBI:35674",
+   "name": "antihypertensive agent",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35703": {
+   "chebi_id": "CHEBI:35703",
+   "name": "xenobiotic",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:35718": {
+   "chebi_id": "CHEBI:35718",
+   "name": "antifungal agent",
+   "asserted_on": [
+    "CHEBI:46081",
+    "CHEBI:86323",
+    "CHEBI:86426"
+   ]
+  },
+  "CHEBI:50183": {
+   "chebi_id": "CHEBI:50183",
+   "name": "P450 inhibitor",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:64946": {
+   "chebi_id": "CHEBI:64946",
+   "name": "anti-HIV agent",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:67079": {
+   "chebi_id": "CHEBI:67079",
+   "name": "anti-inflammatory agent",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:70868": {
+   "chebi_id": "CHEBI:70868",
+   "name": "antileishmanial agent",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:75282": {
+   "chebi_id": "CHEBI:75282",
+   "name": "ergosterol biosynthesis inhibitor",
+   "asserted_on": [
+    "CHEBI:86323"
+   ]
+  },
+  "CHEBI:78298": {
+   "chebi_id": "CHEBI:78298",
+   "name": "environmental contaminant",
+   "asserted_on": [
+    "CHEBI:46081"
+   ]
+  },
+  "CHEBI:86327": {
+   "chebi_id": "CHEBI:86327",
+   "name": "antifungal drug",
+   "asserted_on": [
+    "CHEBI:87071",
+    "CHEBI:87101"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:23888",
+   "name": "drug"
+  },
+  {
+   "chebi_id": "CHEBI:23924",
+   "name": "enzyme inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:33232",
+   "name": "application"
+  },
+  {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent"
+  },
+  {
+   "chebi_id": "CHEBI:35222",
+   "name": "inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:35442",
+   "name": "antiparasitic agent"
+  },
+  {
+   "chebi_id": "CHEBI:35554",
+   "name": "cardiovascular drug"
+  },
+  {
+   "chebi_id": "CHEBI:35820",
+   "name": "antiprotozoal drug"
+  },
+  {
+   "chebi_id": "CHEBI:36043",
+   "name": "antimicrobial drug"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:51086",
+   "name": "chemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52217",
+   "name": "pharmaceutical"
+  },
+  {
+   "chebi_id": "CHEBI:76725",
+   "name": "EC 1.* (oxidoreductase) inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:76741",
+   "name": "EC 1.14.* (oxidoreductase acting on paired donors, with incorporation or reduction of molecular oxygen) inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:76838",
+   "name": "EC 1.14.14.* (oxidoreductase acting on paired donors, incorporating of 1 atom of oxygen, with reduced flavin or flavoprotein as one donor) inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:76898",
+   "name": "EC 1.14.14.1 (unspecific monooxygenase) inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:83317",
+   "name": "sterol biosynthesis inhibitor"
+  }
+ ],
+ "chebi_release": "255"
+}

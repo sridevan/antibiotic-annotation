@@ -56,6 +56,8 @@
         "note": "RCSB cross-reference (assigned by PubChem resource), verified by standard InChIKey equality"
       }
     ],
+    "confidence": "high",
+    "related_parent": null,
     "notes": [
       "RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by most specific entity (not a macromolecule/mixture class, fewest descendants), highest star rating, then lowest numeric id"
     ],

@@ -1,0 +1,128 @@
+{
+ "chebi_id": "CHEBI:33250",
+ "chebi_release": "255",
+ "definition": "A chemical entity constituting the smallest component of an element having the chemical properties of the element.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:24433",
+   "target_name": "group"
+  }
+ ],
+ "is_a": [
+  "CHEBI:24431"
+ ],
+ "name": "atom",
+ "num_descendants": 279,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24431"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:10545",
+   "target_name": null
+  },
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33252",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T12:05:07+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "atom",
+   "chebi_accession": "CHEBI:33250",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A chemical entity constituting the smallest component of an element having the chemical properties of the element.",
+   "id": 33250,
+   "is_released": true,
+   "name": "atom",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 24433,
+      "init_name": "group",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33252,
+      "final_name": "atomic nucleus",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 10545,
+      "final_name": "electron",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 24431,
+      "final_name": "chemical entity",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:22671",
+    "CHEBI:23907"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33250",
+   "definition": [
+    "A chemical entity constituting the smallest component of an element having the chemical properties of the element."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24431"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24431"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "atom"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "atom"
+   ],
+   "numDescendants": 279.0,
+   "numHierarchicalDescendants": 279.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_10545"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33252"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "atom"
+ ]
+}

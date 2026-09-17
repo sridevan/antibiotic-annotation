@@ -1,0 +1,70 @@
+{
+ "chebi_id": "CHEBI:50902",
+ "chebi_release": "255",
+ "definition": "A role played by a chemical compound to induce direct or indirect DNA damage. Such damage can potentially lead to the formation of a malignant tumour, but DNA damage does not lead inevitably to the creation of cancerous cells.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:52209"
+ ],
+ "name": "genotoxin",
+ "num_descendants": 3,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:50906",
+  "CHEBI:52209"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:52+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "genotoxin",
+   "chebi_accession": "CHEBI:50902",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A role played by a chemical compound to induce direct or indirect DNA damage. Such damage can potentially lead to the formation of a malignant tumour, but DNA damage does not lead inevitably to the creation of cancerous cells.",
+   "id": 50902,
+   "is_released": true,
+   "name": "genotoxin",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 52209,
+      "final_name": "aetiopathogenetic role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:50902",
+   "definition": [
+    "A role played by a chemical compound to induce direct or indirect DNA damage. Such damage can potentially lead to the formation of a malignant tumour, but DNA damage does not lead inevitably to the creation of cancerous cells."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_52209"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52209"
+   ],
+   "isObsolete": false,
+   "label": [
+    "genotoxin"
+   ],
+   "numDescendants": 3.0,
+   "numHierarchicalDescendants": 3.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

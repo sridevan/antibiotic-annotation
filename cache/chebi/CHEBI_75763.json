@@ -1,0 +1,72 @@
+{
+ "chebi_id": "CHEBI:75763",
+ "chebi_release": "255",
+ "definition": "Any  metabolite produced during a metabolic reaction in eukaryotes, the taxon that include members of the fungi, plantae and animalia kingdoms.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25212"
+ ],
+ "name": "eukaryotic metabolite",
+ "num_descendants": 37,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:25212",
+  "CHEBI:50906",
+  "CHEBI:52206"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:30+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "eukaryotic metabolite",
+   "chebi_accession": "CHEBI:75763",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any  metabolite produced during a metabolic reaction in eukaryotes, the taxon that include members of the fungi, plantae and animalia kingdoms.",
+   "id": 75763,
+   "is_released": true,
+   "name": "eukaryotic metabolite",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 25212,
+      "final_name": "metabolite",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:75763",
+   "definition": [
+    "Any  metabolite produced during a metabolic reaction in eukaryotes, the taxon that include members of the fungi, plantae and animalia kingdoms."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25212"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_25212",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "isObsolete": false,
+   "label": [
+    "eukaryotic metabolite"
+   ],
+   "numDescendants": 37.0,
+   "numHierarchicalDescendants": 37.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

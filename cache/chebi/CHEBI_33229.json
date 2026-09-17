@@ -1,0 +1,88 @@
+{
+ "chebi_id": "CHEBI:33229",
+ "chebi_release": "255",
+ "definition": "A biochemical role played by any micronutrient that is an organic compound. Vitamins are present in foods in small amounts and are essential to normal metabolism and biochemical functions, usually as coenzymes. The term \"vitamines\" (from <em>vita</em> + amines) was coined in 1912 by Casimir Funk, who believed that these compounds were amines.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:27027",
+  "CHEBI:52206"
+ ],
+ "name": "vitamin (role)",
+ "num_descendants": 2,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:27027",
+  "CHEBI:33284",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:52211",
+  "CHEBI:78295"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:35+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "vitamin (role)",
+   "chebi_accession": "CHEBI:33229",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A biochemical role played by any micronutrient that is an organic compound. Vitamins are present in foods in small amounts and are essential to normal metabolism and biochemical functions, usually as coenzymes. The term \"vitamines\" (from <em>vita</em> + amines) was coined in 1912 by Casimir Funk, who believed that these compounds were amines.",
+   "id": 33229,
+   "is_released": true,
+   "name": "vitamin (role)",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 27027,
+      "final_name": "micronutrient",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 52206,
+      "final_name": "biochemical role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:10004",
+    "CHEBI:27305"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33229",
+   "definition": [
+    "A biochemical role played by any micronutrient that is an organic compound. Vitamins are present in foods in small amounts and are essential to normal metabolism and biochemical functions, usually as coenzymes. The term \"vitamines\" (from <em>vita</em> + amines) was coined in 1912 by Casimir Funk, who believed that these compounds were amines."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_27027",
+    "http://purl.obolibrary.org/obo/CHEBI_52206"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_27027",
+    "http://purl.obolibrary.org/obo/CHEBI_33284",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_52211",
+    "http://purl.obolibrary.org/obo/CHEBI_78295"
+   ],
+   "isObsolete": false,
+   "label": [
+    "vitamin (role)"
+   ],
+   "numDescendants": 2.0,
+   "numHierarchicalDescendants": 2.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

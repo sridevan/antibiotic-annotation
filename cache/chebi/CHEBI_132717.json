@@ -1,0 +1,70 @@
+{
+ "chebi_id": "CHEBI:132717",
+ "chebi_release": "255",
+ "definition": "A reagent that lightens or whitens a substrate through chemical reaction. Bleaching reactions usually involve oxidative or reductive processes that degrade colour systems. Bleaching can occur by destroying one or more of the double bonds in the conjugated chain, by cleaving the conjugated chain, or by oxidation of one of the other moieties in the conjugated chain. Their reactivity results in many bleaches having strong bactericidal, disinfecting, and sterilising properties.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33893"
+ ],
+ "name": "bleaching agent",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:33232",
+  "CHEBI:33893",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:51+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "bleaching agent",
+   "chebi_accession": "CHEBI:132717",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A reagent that lightens or whitens a substrate through chemical reaction. Bleaching reactions usually involve oxidative or reductive processes that degrade colour systems. Bleaching can occur by destroying one or more of the double bonds in the conjugated chain, by cleaving the conjugated chain, or by oxidation of one of the other moieties in the conjugated chain. Their reactivity results in many bleaches having strong bactericidal, disinfecting, and sterilising properties.",
+   "id": 132717,
+   "is_released": true,
+   "name": "bleaching agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33893,
+      "final_name": "reagent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:132717",
+   "definition": [
+    "A reagent that lightens or whitens a substrate through chemical reaction. Bleaching reactions usually involve oxidative or reductive processes that degrade colour systems. Bleaching can occur by destroying one or more of the double bonds in the conjugated chain, by cleaving the conjugated chain, or by oxidation of one of the other moieties in the conjugated chain. Their reactivity results in many bleaches having strong bactericidal, disinfecting, and sterilising properties."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33893"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_33893",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "bleaching agent"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

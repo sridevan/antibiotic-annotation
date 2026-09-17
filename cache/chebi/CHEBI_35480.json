@@ -1,0 +1,83 @@
+{
+ "chebi_id": "CHEBI:35480",
+ "chebi_release": "255",
+ "definition": "An agent capable of relieving pain without the loss of consciousness or without producing anaesthesia. In addition, analgesic is a role played by a compound which is exhibited by a capability to cause a reduction of pain symptoms.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:23888",
+  "CHEBI:52210"
+ ],
+ "name": "analgesic",
+ "num_descendants": 2,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:24432",
+  "CHEBI:33232",
+  "CHEBI:50906",
+  "CHEBI:52210",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:37+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "analgesic",
+   "chebi_accession": "CHEBI:35480",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An agent capable of relieving pain without the loss of consciousness or without producing anaesthesia. In addition, analgesic is a role played by a compound which is exhibited by a capability to cause a reduction of pain symptoms.",
+   "id": 35480,
+   "is_released": true,
+   "name": "analgesic",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23888,
+      "final_name": "drug",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 52210,
+      "final_name": "pharmacological role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:35480",
+   "definition": [
+    "An agent capable of relieving pain without the loss of consciousness or without producing anaesthesia. In addition, analgesic is a role played by a compound which is exhibited by a capability to cause a reduction of pain symptoms."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_52210"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52210",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "analgesic"
+   ],
+   "numDescendants": 2.0,
+   "numHierarchicalDescendants": 2.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

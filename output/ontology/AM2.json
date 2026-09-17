@@ -1,0 +1,321 @@
+{
+ "chebi_ids": [
+  "CHEBI:2790"
+ ],
+ "terms": {
+  "CHEBI:2790": {
+   "name": "apramycin",
+   "definition": "An aminoglycoside that is 2-deoxystreptamine that is substituted on the oxygen at position 4 by an (8<i>R</i>)-2-amino-8-<em>O</em>-(4-amino-4-deoxy-α-<small>D</small>-glucopyranosyl)-2,3,7-trideoxy-7-(methylamino)-<small>D</small>-glycero-α-<small>D</small>-<i>allo</i>-octodialdo-1,5:8,4-dipyranos-1-yl) group.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:27171",
+    "CHEBI:47779",
+    "CHEBI:61800"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:27171",
+   "name": "organic heterobicyclic compound",
+   "min_depth": 1,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:47779",
+   "name": "aminoglycoside",
+   "min_depth": 1,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:61800",
+   "name": "2-deoxystreptamine derivative",
+   "min_depth": 1,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:24400",
+   "name": "glycoside",
+   "min_depth": 2,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33672",
+   "name": "heterobicyclic compound",
+   "min_depth": 2,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:38166",
+   "name": "organic heteropolycyclic compound",
+   "min_depth": 2,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:61689",
+   "name": "amino cyclitol",
+   "min_depth": 2,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:63299",
+   "name": "carbohydrate derivative",
+   "min_depth": 2,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:23451",
+   "name": "cyclitol",
+   "min_depth": 3,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:24532",
+   "name": "organic heterocyclic compound",
+   "min_depth": 3,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33636",
+   "name": "bicyclic compound",
+   "min_depth": 3,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33671",
+   "name": "heteropolycyclic compound",
+   "min_depth": 3,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:5686",
+   "name": "heterocyclic compound",
+   "min_depth": 3,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:63161",
+   "name": "glycosyl compound",
+   "min_depth": 3,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:78616",
+   "name": "carbohydrates and carbohydrate derivatives",
+   "min_depth": 3,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:26191",
+   "name": "polyol",
+   "min_depth": 4,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 4,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33595",
+   "name": "cyclic compound",
+   "min_depth": 4,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33635",
+   "name": "polycyclic compound",
+   "min_depth": 4,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33832",
+   "name": "organic cyclic compound",
+   "min_depth": 4,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:36963",
+   "name": "organooxygen compound",
+   "min_depth": 4,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:25367",
+   "name": "molecule",
+   "min_depth": 5,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33822",
+   "name": "organic hydroxy compound",
+   "min_depth": 5,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:36962",
+   "name": "organochalcogen compound",
+   "min_depth": 5,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:72695",
+   "name": "organic molecule",
+   "min_depth": 5,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:24651",
+   "name": "hydroxides",
+   "min_depth": 6,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 6,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33608",
+   "name": "hydrogen molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 8,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:2790"
+  },
+  {
+   "chebi_id": "CHEBI:33674",
+   "name": "s-block molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:2790"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:33281": {
+   "name": "antimicrobial agent",
+   "on": [
+    "CHEBI:2790"
+   ]
+  },
+  "CHEBI:33282": {
+   "name": "antibacterial agent",
+   "on": [
+    "CHEBI:2790"
+   ]
+  },
+  "CHEBI:36047": {
+   "name": "antibacterial drug",
+   "on": [
+    "CHEBI:2790"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:33281": {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent",
+   "asserted_on": [
+    "CHEBI:2790"
+   ]
+  },
+  "CHEBI:33282": {
+   "chebi_id": "CHEBI:33282",
+   "name": "antibacterial agent",
+   "asserted_on": [
+    "CHEBI:2790"
+   ]
+  },
+  "CHEBI:36047": {
+   "chebi_id": "CHEBI:36047",
+   "name": "antibacterial drug",
+   "asserted_on": [
+    "CHEBI:2790"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:23888",
+   "name": "drug"
+  },
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:33232",
+   "name": "application"
+  },
+  {
+   "chebi_id": "CHEBI:35441",
+   "name": "antiinfective agent"
+  },
+  {
+   "chebi_id": "CHEBI:36043",
+   "name": "antimicrobial drug"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:52217",
+   "name": "pharmaceutical"
+  }
+ ],
+ "chebi_release": "255"
+}

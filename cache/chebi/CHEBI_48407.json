@@ -1,0 +1,74 @@
+{
+ "chebi_id": "CHEBI:48407",
+ "chebi_release": "255",
+ "definition": "A drug used in the treatment of Parkinson's disease.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:66956"
+ ],
+ "name": "antiparkinson drug",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:50906",
+  "CHEBI:52217",
+  "CHEBI:66956"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:42+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antiparkinson drug",
+   "chebi_accession": "CHEBI:48407",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A drug used in the treatment of Parkinson's disease.",
+   "id": 48407,
+   "is_released": true,
+   "name": "antiparkinson drug",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 66956,
+      "final_name": "antidyskinesia agent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:48407",
+   "definition": [
+    "A drug used in the treatment of Parkinson's disease."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_66956"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217",
+    "http://purl.obolibrary.org/obo/CHEBI_66956"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antiparkinson drug"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

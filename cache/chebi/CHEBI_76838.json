@@ -1,0 +1,78 @@
+{
+ "chebi_id": "CHEBI:76838",
+ "chebi_release": "255",
+ "definition": "An EC 1.14.* (oxidoreductase acting on paired donors, with incorporation or reduction of molecular oxygen) inhibitor that interferes with the action of any such enzyme incorporating one atom of oxygen and using reduced flavin or flavoprotein as donor (EC 1.14.14.*).",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:76741"
+ ],
+ "name": "EC 1.14.14.* (oxidoreductase acting on paired donors, incorporating of 1 atom of oxygen, with reduced flavin or flavoprotein as one donor) inhibitor",
+ "num_descendants": 6,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23924",
+  "CHEBI:24432",
+  "CHEBI:35222",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:76725",
+  "CHEBI:76741"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:36+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "EC 1.14.14.* (oxidoreductase acting on paired donors, incorporating of 1 atom of oxygen, with reduced flavin or flavoprotein as one donor) inhibitor",
+   "chebi_accession": "CHEBI:76838",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An EC 1.14.* (oxidoreductase acting on paired donors, with incorporation or reduction of molecular oxygen) inhibitor that interferes with the action of any such enzyme incorporating one atom of oxygen and using reduced flavin or flavoprotein as donor (EC 1.14.14.*).",
+   "id": 76838,
+   "is_released": true,
+   "name": "EC 1.14.14.* (oxidoreductase acting on paired donors, incorporating of 1 atom of oxygen, with reduced flavin or flavoprotein as one donor) inhibitor",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 76741,
+      "final_name": "EC 1.14.* (oxidoreductase acting on paired donors, with incorporation or reduction of molecular oxygen) inhibitor",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:76838",
+   "definition": [
+    "An EC 1.14.* (oxidoreductase acting on paired donors, with incorporation or reduction of molecular oxygen) inhibitor that interferes with the action of any such enzyme incorporating one atom of oxygen and using reduced flavin or flavoprotein as donor (EC 1.14.14.*)."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_76741"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23924",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_35222",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_76725",
+    "http://purl.obolibrary.org/obo/CHEBI_76741"
+   ],
+   "isObsolete": false,
+   "label": [
+    "EC 1.14.14.* (oxidoreductase acting on paired donors, incorporating of 1 atom of oxygen, with reduced flavin or flavoprotein as one donor) inhibitor"
+   ],
+   "numDescendants": 6.0,
+   "numHierarchicalDescendants": 6.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

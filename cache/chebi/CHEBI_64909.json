@@ -1,0 +1,68 @@
+{
+ "chebi_id": "CHEBI:64909",
+ "chebi_release": "255",
+ "definition": "Any substance that causes disturbance to organisms by chemical reaction or other activity on the molecular scale, when a sufficient quantity is absorbed by the organism.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24432"
+ ],
+ "name": "poison",
+ "num_descendants": 12,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:34+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "poison",
+   "chebi_accession": "CHEBI:64909",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any substance that causes disturbance to organisms by chemical reaction or other activity on the molecular scale, when a sufficient quantity is absorbed by the organism.",
+   "id": 64909,
+   "is_released": true,
+   "name": "poison",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 24432,
+      "final_name": "biological role",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:64909",
+   "definition": [
+    "Any substance that causes disturbance to organisms by chemical reaction or other activity on the molecular scale, when a sufficient quantity is absorbed by the organism."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "poison"
+   ],
+   "numDescendants": 12.0,
+   "numHierarchicalDescendants": 12.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

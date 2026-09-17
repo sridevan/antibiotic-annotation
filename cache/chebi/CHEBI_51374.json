@@ -1,0 +1,78 @@
+{
+ "chebi_id": "CHEBI:51374",
+ "chebi_release": "255",
+ "definition": "A substance, such as agonists, antagonists, degradation or uptake inhibitors, depleters, precursors, and modulators of receptor function, used for its pharmacological actions on GABAergic systems.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35942"
+ ],
+ "name": "GABA agent",
+ "num_descendants": 6,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:24432",
+  "CHEBI:33232",
+  "CHEBI:35942",
+  "CHEBI:50906",
+  "CHEBI:52210",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:54+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "GABA agent",
+   "chebi_accession": "CHEBI:51374",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A substance, such as agonists, antagonists, degradation or uptake inhibitors, depleters, precursors, and modulators of receptor function, used for its pharmacological actions on GABAergic systems.",
+   "id": 51374,
+   "is_released": true,
+   "name": "GABA agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35942,
+      "final_name": "neurotransmitter agent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:51374",
+   "definition": [
+    "A substance, such as agonists, antagonists, degradation or uptake inhibitors, depleters, precursors, and modulators of receptor function, used for its pharmacological actions on GABAergic systems."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35942"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_35942",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52210",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "GABA agent"
+   ],
+   "numDescendants": 6.0,
+   "numHierarchicalDescendants": 6.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

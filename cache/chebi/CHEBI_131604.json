@@ -1,0 +1,76 @@
+{
+ "chebi_id": "CHEBI:131604",
+ "chebi_release": "255",
+ "definition": "Any bacterial metabolite produced during a metabolic reaction in <em>Mycoplasma genitalium</em>.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:76969"
+ ],
+ "name": "Mycoplasma genitalium metabolite",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:25212",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:75787",
+  "CHEBI:76969"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:08+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "Mycoplasma genitalium metabolite",
+   "chebi_accession": "CHEBI:131604",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any bacterial metabolite produced during a metabolic reaction in <em>Mycoplasma genitalium</em>.",
+   "id": 131604,
+   "is_released": true,
+   "name": "<em>Mycoplasma genitalium</em> metabolite",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 76969,
+      "final_name": "bacterial metabolite",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:131604",
+   "definition": [
+    "Any bacterial metabolite produced during a metabolic reaction in <em>Mycoplasma genitalium</em>."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_76969"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_25212",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_75787",
+    "http://purl.obolibrary.org/obo/CHEBI_76969"
+   ],
+   "isObsolete": false,
+   "label": [
+    "Mycoplasma genitalium metabolite"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

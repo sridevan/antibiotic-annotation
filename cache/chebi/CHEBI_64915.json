@@ -1,0 +1,91 @@
+{
+ "chebi_id": "CHEBI:64915",
+ "chebi_release": "255",
+ "definition": "An antiparasitic drug which is effective against Apicomplexan parasites in the genus <em>Plasmodium</em>. The genus contains over 200 species and includes those responsible for malaria.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:35442",
+  "CHEBI:35820"
+ ],
+ "name": "antiplasmodial drug",
+ "num_descendants": 1,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23888",
+  "CHEBI:24432",
+  "CHEBI:33232",
+  "CHEBI:33281",
+  "CHEBI:35441",
+  "CHEBI:35442",
+  "CHEBI:35820",
+  "CHEBI:36043",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:45+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antiplasmodial drug",
+   "chebi_accession": "CHEBI:64915",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "An antiparasitic drug which is effective against Apicomplexan parasites in the genus <em>Plasmodium</em>. The genus contains over 200 species and includes those responsible for malaria.",
+   "id": 64915,
+   "is_released": true,
+   "name": "antiplasmodial drug",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 35442,
+      "final_name": "antiparasitic agent",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 35820,
+      "final_name": "antiprotozoal drug",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:64915",
+   "definition": [
+    "An antiparasitic drug which is effective against Apicomplexan parasites in the genus <em>Plasmodium</em>. The genus contains over 200 species and includes those responsible for malaria."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_35442",
+    "http://purl.obolibrary.org/obo/CHEBI_35820"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_33281",
+    "http://purl.obolibrary.org/obo/CHEBI_35441",
+    "http://purl.obolibrary.org/obo/CHEBI_35442",
+    "http://purl.obolibrary.org/obo/CHEBI_35820",
+    "http://purl.obolibrary.org/obo/CHEBI_36043",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antiplasmodial drug"
+   ],
+   "numDescendants": 1.0,
+   "numHierarchicalDescendants": 1.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,81 @@
+{
+ "chebi_id": "CHEBI:50266",
+ "chebi_release": "255",
+ "definition": "A compound that, on administration, must undergo chemical conversion by metabolic processes before becoming the pharmacologically active drug for which it is a prodrug.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:136859",
+  "CHEBI:23888"
+ ],
+ "name": "prodrug",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:136859",
+  "CHEBI:23888",
+  "CHEBI:33232",
+  "CHEBI:50906",
+  "CHEBI:52217"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:38+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "prodrug",
+   "chebi_accession": "CHEBI:50266",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A compound that, on administration, must undergo chemical conversion by metabolic processes before becoming the pharmacologically active drug for which it is a prodrug.",
+   "id": 50266,
+   "is_released": true,
+   "name": "prodrug",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 23888,
+      "final_name": "drug",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 136859,
+      "final_name": "pro-agent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:50266",
+   "definition": [
+    "A compound that, on administration, must undergo chemical conversion by metabolic processes before becoming the pharmacologically active drug for which it is a prodrug."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_136859",
+    "http://purl.obolibrary.org/obo/CHEBI_23888"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_136859",
+    "http://purl.obolibrary.org/obo/CHEBI_23888",
+    "http://purl.obolibrary.org/obo/CHEBI_33232",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52217"
+   ],
+   "isObsolete": false,
+   "label": [
+    "prodrug"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

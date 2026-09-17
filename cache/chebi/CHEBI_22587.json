@@ -1,0 +1,70 @@
+{
+ "chebi_id": "CHEBI:22587",
+ "chebi_release": "255",
+ "definition": "A substance that destroys or inhibits replication of viruses.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33281"
+ ],
+ "name": "antiviral agent",
+ "num_descendants": 18,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:33281",
+  "CHEBI:50906"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:34+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "antiviral agent",
+   "chebi_accession": "CHEBI:22587",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "A substance that destroys or inhibits replication of viruses.",
+   "id": 22587,
+   "is_released": true,
+   "name": "antiviral agent",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33281,
+      "final_name": "antimicrobial agent",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:22587",
+   "definition": [
+    "A substance that destroys or inhibits replication of viruses."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33281"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_33281",
+    "http://purl.obolibrary.org/obo/CHEBI_50906"
+   ],
+   "isObsolete": false,
+   "label": [
+    "antiviral agent"
+   ],
+   "numDescendants": 18.0,
+   "numHierarchicalDescendants": 18.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

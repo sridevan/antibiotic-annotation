@@ -1,0 +1,82 @@
+{
+ "chebi_id": "CHEBI:33560",
+ "chebi_release": "255",
+ "definition": "Any main group element atom belonging to the p-block of the periodic table.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33675",
+   "target_name": "p-block molecular entity"
+  }
+ ],
+ "is_a": [
+  "CHEBI:33318"
+ ],
+ "name": "p-block element atom",
+ "num_descendants": 132,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24431",
+  "CHEBI:33250",
+  "CHEBI:33318"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:06+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "p-block element atom",
+   "chebi_accession": "CHEBI:33560",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any main group element atom belonging to the p-block of the periodic table.",
+   "id": 33560,
+   "is_released": true,
+   "name": "p-block element atom",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 33675,
+      "init_name": "p-block molecular entity",
+      "relation_type": "has part"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33318,
+      "final_name": "main group element atom",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33560",
+   "definition": [
+    "Any main group element atom belonging to the p-block of the periodic table."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33318"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_33250",
+    "http://purl.obolibrary.org/obo/CHEBI_33318"
+   ],
+   "isObsolete": false,
+   "label": [
+    "p-block element atom"
+   ],
+   "numDescendants": 132.0,
+   "numHierarchicalDescendants": 132.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

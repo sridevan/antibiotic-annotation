@@ -1,0 +1,491 @@
+{
+ "chebi_ids": [
+  "CHEBI:16238"
+ ],
+ "terms": {
+  "CHEBI:16238": {
+   "name": "FAD",
+   "definition": "A flavin adenine dinucleotide in which the substituent at position 10 of the flavin nucleus is a 5'-adenosyldiphosphoribityl group.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:176838",
+    "CHEBI:24040"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:176838",
+   "name": "vitamin B2",
+   "min_depth": 1,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:24040",
+   "name": "flavin adenine dinucleotide",
+   "min_depth": 1,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:30527",
+   "name": "flavin",
+   "min_depth": 2,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:36981",
+   "name": "flavin nucleotide",
+   "min_depth": 2,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:47885",
+   "name": "dinucleotide",
+   "min_depth": 2,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:75769",
+   "name": "B vitamin",
+   "min_depth": 2,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:35352",
+   "name": "organonitrogen compound",
+   "min_depth": 3,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:36963",
+   "name": "organooxygen compound",
+   "min_depth": 3,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:36976",
+   "name": "nucleotide",
+   "min_depth": 3,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:38925",
+   "name": "benzopteridine",
+   "min_depth": 3,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:25608",
+   "name": "nucleoside phosphate",
+   "min_depth": 4,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:26979",
+   "name": "organic heterotricyclic compound",
+   "min_depth": 4,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 4,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:36962",
+   "name": "organochalcogen compound",
+   "min_depth": 4,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:38101",
+   "name": "organonitrogen heterocyclic compound",
+   "min_depth": 4,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:51143",
+   "name": "nitrogen molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:24532",
+   "name": "organic heterocyclic compound",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:25703",
+   "name": "organic phosphate",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33302",
+   "name": "pnictogen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:36688",
+   "name": "heterotricyclic compound",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:37734",
+   "name": "phosphoric ester",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:38166",
+   "name": "organic heteropolycyclic compound",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:51959",
+   "name": "organic tricyclic compound",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:61120",
+   "name": "nucleobase-containing molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:25710",
+   "name": "organophosphorus compound",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:26020",
+   "name": "phosphate",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:26079",
+   "name": "phosphoric acid derivative",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33671",
+   "name": "heteropolycyclic compound",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33832",
+   "name": "organic cyclic compound",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33833",
+   "name": "heteroarene",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:35701",
+   "name": "ester",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:51958",
+   "name": "organic polycyclic compound",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:5686",
+   "name": "heterocyclic compound",
+   "min_depth": 6,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:26082",
+   "name": "phosphorus molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 7,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33595",
+   "name": "cyclic compound",
+   "min_depth": 7,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33635",
+   "name": "polycyclic compound",
+   "min_depth": 7,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33659",
+   "name": "organic aromatic compound",
+   "min_depth": 7,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:36359",
+   "name": "phosphorus oxoacid derivative",
+   "min_depth": 7,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:72695",
+   "name": "organic molecule",
+   "min_depth": 7,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 8,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:25367",
+   "name": "molecule",
+   "min_depth": 8,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33241",
+   "name": "oxoacid derivative",
+   "min_depth": 8,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:33655",
+   "name": "aromatic compound",
+   "min_depth": 8,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:36360",
+   "name": "phosphorus oxoacids and derivatives",
+   "min_depth": 8,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 9,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 9,
+   "via": "CHEBI:16238"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 9,
+   "via": "CHEBI:16238"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:23357": {
+   "name": "cofactor",
+   "on": [
+    "CHEBI:16238"
+   ]
+  },
+  "CHEBI:26348": {
+   "name": "prosthetic group",
+   "on": [
+    "CHEBI:16238"
+   ]
+  },
+  "CHEBI:75771": {
+   "name": "mouse metabolite",
+   "on": [
+    "CHEBI:16238"
+   ]
+  },
+  "CHEBI:76971": {
+   "name": "Escherichia coli metabolite",
+   "on": [
+    "CHEBI:16238"
+   ]
+  },
+  "CHEBI:77746": {
+   "name": "human metabolite",
+   "on": [
+    "CHEBI:16238"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:23357": {
+   "chebi_id": "CHEBI:23357",
+   "name": "cofactor",
+   "asserted_on": [
+    "CHEBI:16238",
+    "CHEBI:24040"
+   ]
+  },
+  "CHEBI:26348": {
+   "chebi_id": "CHEBI:26348",
+   "name": "prosthetic group",
+   "asserted_on": [
+    "CHEBI:16238"
+   ]
+  },
+  "CHEBI:27314": {
+   "chebi_id": "CHEBI:27314",
+   "name": "water-soluble vitamin (role)",
+   "asserted_on": [
+    "CHEBI:75769"
+   ]
+  },
+  "CHEBI:50733": {
+   "chebi_id": "CHEBI:50733",
+   "name": "nutraceutical",
+   "asserted_on": [
+    "CHEBI:75769"
+   ]
+  },
+  "CHEBI:75771": {
+   "chebi_id": "CHEBI:75771",
+   "name": "mouse metabolite",
+   "asserted_on": [
+    "CHEBI:16238"
+   ]
+  },
+  "CHEBI:76971": {
+   "chebi_id": "CHEBI:76971",
+   "name": "Escherichia coli metabolite",
+   "asserted_on": [
+    "CHEBI:16238"
+   ]
+  },
+  "CHEBI:77746": {
+   "chebi_id": "CHEBI:77746",
+   "name": "human metabolite",
+   "asserted_on": [
+    "CHEBI:16238"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:23888",
+   "name": "drug"
+  },
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:25212",
+   "name": "metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:27027",
+   "name": "micronutrient"
+  },
+  {
+   "chebi_id": "CHEBI:33229",
+   "name": "vitamin (role)"
+  },
+  {
+   "chebi_id": "CHEBI:33232",
+   "name": "application"
+  },
+  {
+   "chebi_id": "CHEBI:33284",
+   "name": "nutrient"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52211",
+   "name": "physiological role"
+  },
+  {
+   "chebi_id": "CHEBI:52217",
+   "name": "pharmaceutical"
+  },
+  {
+   "chebi_id": "CHEBI:75763",
+   "name": "eukaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75767",
+   "name": "animal metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75768",
+   "name": "mammalian metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:75787",
+   "name": "prokaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:76969",
+   "name": "bacterial metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:78295",
+   "name": "food component"
+  }
+ ],
+ "chebi_release": "255"
+}

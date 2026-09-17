@@ -33,6 +33,14 @@
     "equivalent_chebi_ids": [],
     "evidence_unioned": false,
     "candidates": [],
+    "confidence": "none",
+    "related_parent": {
+      "chebi_id": "CHEBI:17076",
+      "name": "streptomycin",
+      "relation": "hydrated (aldehyde gem-diol), triply protonated covalent form of",
+      "basis": "CCD 5I0 formula C21H44N7O13 (3+) versus ChEBI streptomycin C21H39N7O12; deposited name is the streptomycin skeleton with a bis(oxidanyl)methyl group; the hydrate changes the InChIKey connectivity layer so no exact or connectivity-level ChEBI mapping exists",
+      "use": "biological association only; never used as chemical identity"
+    },
     "notes": [
       "no ChEBI entry found by exact InChIKey or connectivity search"
     ],

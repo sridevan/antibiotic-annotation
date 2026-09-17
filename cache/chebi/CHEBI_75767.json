@@ -1,0 +1,77 @@
+{
+ "chebi_id": "CHEBI:75767",
+ "chebi_release": "255",
+ "definition": "Any eukaryotic metabolite produced during a metabolic reaction in animals that include diverse creatures from sponges, insects to mammals.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:75763"
+ ],
+ "name": "animal metabolite",
+ "num_descendants": 18,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:25212",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:75763"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:30+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "animal metabolite",
+   "chebi_accession": "CHEBI:75767",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any eukaryotic metabolite produced during a metabolic reaction in animals that include diverse creatures from sponges, insects to mammals.",
+   "id": 75767,
+   "is_released": true,
+   "name": "animal metabolite",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 75763,
+      "final_name": "eukaryotic metabolite",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:77721",
+    "CHEBI:77743"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:75767",
+   "definition": [
+    "Any eukaryotic metabolite produced during a metabolic reaction in animals that include diverse creatures from sponges, insects to mammals."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_75763"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_25212",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_75763"
+   ],
+   "isObsolete": false,
+   "label": [
+    "animal metabolite"
+   ],
+   "numDescendants": 18.0,
+   "numHierarchicalDescendants": 18.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,80 @@
+{
+ "chebi_id": "CHEBI:27314",
+ "chebi_release": "255",
+ "definition": "Any vitamin that dissolves in water and readily absorbed into tissues for immediate use. Unlike the fat-soluble vitamins, they are not stored in the body and need to be replenished regularly in the diet and will rarely accumulate to toxic levels since they are quickly excreted from the body via urine.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:33229"
+ ],
+ "name": "water-soluble vitamin (role)",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:27027",
+  "CHEBI:33229",
+  "CHEBI:33284",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:52211",
+  "CHEBI:78295"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:35+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "water-soluble vitamin (role)",
+   "chebi_accession": "CHEBI:27314",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any vitamin that dissolves in water and readily absorbed into tissues for immediate use. Unlike the fat-soluble vitamins, they are not stored in the body and need to be replenished regularly in the diet and will rarely accumulate to toxic levels since they are quickly excreted from the body via urine.",
+   "id": 27314,
+   "is_released": true,
+   "name": "water-soluble vitamin (role)",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 33229,
+      "final_name": "vitamin (role)",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:27314",
+   "definition": [
+    "Any vitamin that dissolves in water and readily absorbed into tissues for immediate use. Unlike the fat-soluble vitamins, they are not stored in the body and need to be replenished regularly in the diet and will rarely accumulate to toxic levels since they are quickly excreted from the body via urine."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_33229"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_27027",
+    "http://purl.obolibrary.org/obo/CHEBI_33229",
+    "http://purl.obolibrary.org/obo/CHEBI_33284",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_52211",
+    "http://purl.obolibrary.org/obo/CHEBI_78295"
+   ],
+   "isObsolete": false,
+   "label": [
+    "water-soluble vitamin (role)"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

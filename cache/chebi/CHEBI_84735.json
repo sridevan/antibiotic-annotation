@@ -1,0 +1,74 @@
+{
+ "chebi_id": "CHEBI:84735",
+ "chebi_release": "255",
+ "definition": "Any eukaryotic metabolite produced during a metabolic reaction in algae including unicellular organisms like chlorella and diatoms to multicellular organisms like giant kelps and brown algae.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:75763"
+ ],
+ "name": "algal metabolite",
+ "num_descendants": 0,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:24432",
+  "CHEBI:25212",
+  "CHEBI:50906",
+  "CHEBI:52206",
+  "CHEBI:75763"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:28+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "algal metabolite",
+   "chebi_accession": "CHEBI:84735",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any eukaryotic metabolite produced during a metabolic reaction in algae including unicellular organisms like chlorella and diatoms to multicellular organisms like giant kelps and brown algae.",
+   "id": 84735,
+   "is_released": true,
+   "name": "algal metabolite",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 75763,
+      "final_name": "eukaryotic metabolite",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:84735",
+   "definition": [
+    "Any eukaryotic metabolite produced during a metabolic reaction in algae including unicellular organisms like chlorella and diatoms to multicellular organisms like giant kelps and brown algae."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_75763"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_24432",
+    "http://purl.obolibrary.org/obo/CHEBI_25212",
+    "http://purl.obolibrary.org/obo/CHEBI_50906",
+    "http://purl.obolibrary.org/obo/CHEBI_52206",
+    "http://purl.obolibrary.org/obo/CHEBI_75763"
+   ],
+   "isObsolete": false,
+   "label": [
+    "algal metabolite"
+   ],
+   "numDescendants": 0.0,
+   "numHierarchicalDescendants": 0.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

@@ -1,0 +1,180 @@
+{
+ "chebi_id": "CHEBI:16670",
+ "chebi_release": "255",
+ "definition": "Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from α-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc.",
+ "inchikey": null,
+ "incoming": [
+  {
+   "relation": "has_functional_parent",
+   "target_id": "CHEBI:140517",
+   "target_name": "C-terminal boronic acid peptide"
+  },
+  {
+   "relation": "is_tautomer_of",
+   "target_id": "CHEBI:60466",
+   "target_name": "peptide zwitterion"
+  }
+ ],
+ "is_a": [
+  "CHEBI:37622",
+  "CHEBI:50047"
+ ],
+ "name": "peptide",
+ "num_descendants": 15384,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:25806",
+  "CHEBI:32988",
+  "CHEBI:33256",
+  "CHEBI:33285",
+  "CHEBI:33302",
+  "CHEBI:33304",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:35352",
+  "CHEBI:36962",
+  "CHEBI:36963",
+  "CHEBI:37622",
+  "CHEBI:50047",
+  "CHEBI:50860",
+  "CHEBI:51143"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:33708",
+   "target_name": null
+  },
+  {
+   "relation": "is_tautomer_of",
+   "target_id": "CHEBI:60466",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T11:58:00+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "peptide",
+   "chebi_accession": "CHEBI:16670",
+   "default_structure": {
+    "smiles": "*C(=O)C(*)NC(=O)C(*)N",
+    "standard_inchi_key": null
+   },
+   "definition": "Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from α-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc.",
+   "id": 16670,
+   "is_released": true,
+   "name": "peptide",
+   "ontology_relations": {
+    "incoming_relations": [
+     {
+      "init_id": 140517,
+      "init_name": "C-terminal boronic acid peptide",
+      "relation_type": "has functional parent"
+     },
+     {
+      "init_id": 60466,
+      "init_name": "peptide zwitterion",
+      "relation_type": "is tautomer of"
+     }
+    ],
+    "outgoing_relations": [
+     {
+      "final_id": 33708,
+      "final_name": "amino-acid residue",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 50047,
+      "final_name": "organic amino compound",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 37622,
+      "final_name": "carboxamide",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 60466,
+      "final_name": "peptide zwitterion",
+      "relation_type": "is tautomer of"
+     }
+    ]
+   },
+   "secondary_ids": [
+    "CHEBI:7990",
+    "CHEBI:14753",
+    "CHEBI:25906"
+   ],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:16670",
+   "definition": [
+    "Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from α-amino acids, but it includes those derived from any amino carboxylic acid. X = OH, OR, NH2, NHR, etc."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_50047"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_25806",
+    "http://purl.obolibrary.org/obo/CHEBI_32988",
+    "http://purl.obolibrary.org/obo/CHEBI_33256",
+    "http://purl.obolibrary.org/obo/CHEBI_33285",
+    "http://purl.obolibrary.org/obo/CHEBI_33302",
+    "http://purl.obolibrary.org/obo/CHEBI_33304",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_35352",
+    "http://purl.obolibrary.org/obo/CHEBI_36962",
+    "http://purl.obolibrary.org/obo/CHEBI_36963",
+    "http://purl.obolibrary.org/obo/CHEBI_37622",
+    "http://purl.obolibrary.org/obo/CHEBI_50047",
+    "http://purl.obolibrary.org/obo/CHEBI_50860",
+    "http://purl.obolibrary.org/obo/CHEBI_51143"
+   ],
+   "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym": [
+    {
+     "axioms": [
+      {
+       "http://www.geneontology.org/formats/oboInOwl#hasDbXref": "IUPAC",
+       "http://www.geneontology.org/formats/oboInOwl#hasSynonymType": "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+       "oboSynonymTypeName": "IUPAC NAME"
+      }
+     ],
+     "type": [
+      "reification"
+     ],
+     "value": "peptides"
+    }
+   ],
+   "isObsolete": false,
+   "label": [
+    "peptide"
+   ],
+   "numDescendants": 15384.0,
+   "numHierarchicalDescendants": 15384.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_33708"
+    },
+    {
+     "property": "http://purl.obolibrary.org/obo/RO_0018036",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_60466"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": [
+  "peptides"
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "chebi_id": "CHEBI:25697",
+ "chebi_release": "255",
+ "definition": "Any organic ion with a net positive charge.",
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:25699",
+  "CHEBI:36916"
+ ],
+ "name": "organic cation",
+ "num_descendants": 3987,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24870",
+  "CHEBI:25699",
+  "CHEBI:33579",
+  "CHEBI:33582",
+  "CHEBI:33675",
+  "CHEBI:36916",
+  "CHEBI:50860"
+ ],
+ "relations": [],
+ "retrieved_at": "2026-09-17T12:05:06+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "organic cation",
+   "chebi_accession": "CHEBI:25697",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": "Any organic ion with a net positive charge.",
+   "id": 25697,
+   "is_released": true,
+   "name": "organic cation",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 25699,
+      "final_name": "organic ion",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 36916,
+      "final_name": "cation",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:25697",
+   "definition": [
+    "Any organic ion with a net positive charge."
+   ],
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_36916"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24870",
+    "http://purl.obolibrary.org/obo/CHEBI_25699",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33582",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36916",
+    "http://purl.obolibrary.org/obo/CHEBI_50860"
+   ],
+   "isObsolete": false,
+   "label": [
+    "organic cation"
+   ],
+   "numDescendants": 3987.0,
+   "numHierarchicalDescendants": 3987.0,
+   "relatedTo": []
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

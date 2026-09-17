@@ -1,0 +1,102 @@
+{
+ "chebi_id": "CHEBI:33958",
+ "chebi_release": "255",
+ "definition": null,
+ "inchikey": null,
+ "incoming": [],
+ "is_a": [
+  "CHEBI:24866",
+  "CHEBI:37578"
+ ],
+ "name": "halide salt",
+ "num_descendants": 727,
+ "obsolete": false,
+ "ols4_ancestors": [
+  "CHEBI:23367",
+  "CHEBI:24431",
+  "CHEBI:24471",
+  "CHEBI:24866",
+  "CHEBI:33579",
+  "CHEBI:33675",
+  "CHEBI:36357",
+  "CHEBI:37577",
+  "CHEBI:37578"
+ ],
+ "relations": [
+  {
+   "relation": "has_part",
+   "target_id": "CHEBI:16042",
+   "target_name": null
+  }
+ ],
+ "retrieved_at": "2026-09-17T12:05:39+00:00",
+ "roles": [],
+ "sources": {
+  "chebi_backend": {
+   "ascii_name": "halide salt",
+   "chebi_accession": "CHEBI:33958",
+   "default_structure": {
+    "smiles": null,
+    "standard_inchi_key": null
+   },
+   "definition": null,
+   "id": 33958,
+   "is_released": true,
+   "name": "halide salt",
+   "ontology_relations": {
+    "incoming_relations": [],
+    "outgoing_relations": [
+     {
+      "final_id": 16042,
+      "final_name": "halide anion",
+      "relation_type": "has part"
+     },
+     {
+      "final_id": 24866,
+      "final_name": "salt",
+      "relation_type": "is a"
+     },
+     {
+      "final_id": 37578,
+      "final_name": "halide",
+      "relation_type": "is a"
+     }
+    ]
+   },
+   "secondary_ids": [],
+   "stars": 3
+  },
+  "ols4": {
+   "curie": "CHEBI:33958",
+   "directParent": [
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_37578"
+   ],
+   "hierarchicalAncestor": [
+    "http://purl.obolibrary.org/obo/CHEBI_23367",
+    "http://purl.obolibrary.org/obo/CHEBI_24431",
+    "http://purl.obolibrary.org/obo/CHEBI_24471",
+    "http://purl.obolibrary.org/obo/CHEBI_24866",
+    "http://purl.obolibrary.org/obo/CHEBI_33579",
+    "http://purl.obolibrary.org/obo/CHEBI_33675",
+    "http://purl.obolibrary.org/obo/CHEBI_36357",
+    "http://purl.obolibrary.org/obo/CHEBI_37577",
+    "http://purl.obolibrary.org/obo/CHEBI_37578"
+   ],
+   "isObsolete": false,
+   "label": [
+    "halide salt"
+   ],
+   "numDescendants": 727.0,
+   "numHierarchicalDescendants": 727.0,
+   "relatedTo": [
+    {
+     "property": "http://purl.obolibrary.org/obo/BFO_0000051",
+     "value": "http://purl.obolibrary.org/obo/CHEBI_16042"
+    }
+   ]
+  }
+ },
+ "stars": 3,
+ "synonyms": []
+}

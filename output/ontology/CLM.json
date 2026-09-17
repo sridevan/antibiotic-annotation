@@ -1,0 +1,395 @@
+{
+ "chebi_ids": [
+  "CHEBI:17698"
+ ],
+ "terms": {
+  "CHEBI:17698": {
+   "name": "chloramphenicol",
+   "definition": "An organochlorine compound that is dichloro-substituted acetamide containing a nitrobenzene ring, an amide bond and two alcohol functions.",
+   "stars": 3,
+   "is_a": [
+    "CHEBI:23824",
+    "CHEBI:35716",
+    "CHEBI:36683",
+    "CHEBI:37622"
+   ]
+  }
+ },
+ "is_a_ancestors": [
+  {
+   "chebi_id": "CHEBI:23824",
+   "name": "diol",
+   "min_depth": 1,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:35716",
+   "name": "C-nitro compound",
+   "min_depth": 1,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:36683",
+   "name": "organochlorine compound",
+   "min_depth": 1,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:37622",
+   "name": "carboxamide",
+   "min_depth": 1,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:17792",
+   "name": "organohalogen compound",
+   "min_depth": 2,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:23117",
+   "name": "chlorine molecular entity",
+   "min_depth": 2,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:26191",
+   "name": "polyol",
+   "min_depth": 2,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33256",
+   "name": "primary amide",
+   "min_depth": 2,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:35352",
+   "name": "organonitrogen compound",
+   "min_depth": 2,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:35715",
+   "name": "nitro compound",
+   "min_depth": 2,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:36963",
+   "name": "organooxygen compound",
+   "min_depth": 2,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:72695",
+   "name": "organic molecule",
+   "min_depth": 2,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:24471",
+   "name": "halogen molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:25367",
+   "name": "molecule",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:25806",
+   "name": "oxygen molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:32988",
+   "name": "amide",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33285",
+   "name": "heteroorganic entity",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33822",
+   "name": "organic hydroxy compound",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:36962",
+   "name": "organochalcogen compound",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:37578",
+   "name": "halide",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:50860",
+   "name": "organic molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:51143",
+   "name": "nitrogen molecular entity",
+   "min_depth": 3,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:24651",
+   "name": "hydroxides",
+   "min_depth": 4,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33302",
+   "name": "pnictogen molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33304",
+   "name": "chalcogen molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33582",
+   "name": "carbon group molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33675",
+   "name": "p-block molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:36357",
+   "name": "polyatomic entity",
+   "min_depth": 4,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:37577",
+   "name": "heteroatomic molecular entity",
+   "min_depth": 4,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:23367",
+   "name": "molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33579",
+   "name": "main group molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33608",
+   "name": "hydrogen molecular entity",
+   "min_depth": 5,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:24431",
+   "name": "chemical entity",
+   "min_depth": 6,
+   "via": "CHEBI:17698"
+  },
+  {
+   "chebi_id": "CHEBI:33674",
+   "name": "s-block molecular entity",
+   "min_depth": 6,
+   "via": "CHEBI:17698"
+  }
+ ],
+ "direct_roles": {
+  "CHEBI:131604": {
+   "name": "Mycoplasma genitalium metabolite",
+   "on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:176497": {
+   "name": "geroprotector",
+   "on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:33281": {
+   "name": "antimicrobial agent",
+   "on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:33282": {
+   "name": "antibacterial agent",
+   "on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:36047": {
+   "name": "antibacterial drug",
+   "on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:48001": {
+   "name": "protein synthesis inhibitor",
+   "on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:66981": {
+   "name": "ophthalmology drug",
+   "on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:76971": {
+   "name": "Escherichia coli metabolite",
+   "on": [
+    "CHEBI:17698"
+   ]
+  }
+ },
+ "inherited_roles": {
+  "CHEBI:131604": {
+   "chebi_id": "CHEBI:131604",
+   "name": "Mycoplasma genitalium metabolite",
+   "asserted_on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:176497": {
+   "chebi_id": "CHEBI:176497",
+   "name": "geroprotector",
+   "asserted_on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:33281": {
+   "chebi_id": "CHEBI:33281",
+   "name": "antimicrobial agent",
+   "asserted_on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:33282": {
+   "chebi_id": "CHEBI:33282",
+   "name": "antibacterial agent",
+   "asserted_on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:36047": {
+   "chebi_id": "CHEBI:36047",
+   "name": "antibacterial drug",
+   "asserted_on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:48001": {
+   "chebi_id": "CHEBI:48001",
+   "name": "protein synthesis inhibitor",
+   "asserted_on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:66981": {
+   "chebi_id": "CHEBI:66981",
+   "name": "ophthalmology drug",
+   "asserted_on": [
+    "CHEBI:17698"
+   ]
+  },
+  "CHEBI:76971": {
+   "chebi_id": "CHEBI:76971",
+   "name": "Escherichia coli metabolite",
+   "asserted_on": [
+    "CHEBI:17698"
+   ]
+  }
+ },
+ "roles_implied_by_role_hierarchy": [
+  {
+   "chebi_id": "CHEBI:23888",
+   "name": "drug"
+  },
+  {
+   "chebi_id": "CHEBI:23924",
+   "name": "enzyme inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:24432",
+   "name": "biological role"
+  },
+  {
+   "chebi_id": "CHEBI:25212",
+   "name": "metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:33232",
+   "name": "application"
+  },
+  {
+   "chebi_id": "CHEBI:35222",
+   "name": "inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:35441",
+   "name": "antiinfective agent"
+  },
+  {
+   "chebi_id": "CHEBI:36043",
+   "name": "antimicrobial drug"
+  },
+  {
+   "chebi_id": "CHEBI:50267",
+   "name": "protective agent"
+  },
+  {
+   "chebi_id": "CHEBI:50906",
+   "name": "role"
+  },
+  {
+   "chebi_id": "CHEBI:52206",
+   "name": "biochemical role"
+  },
+  {
+   "chebi_id": "CHEBI:52217",
+   "name": "pharmaceutical"
+  },
+  {
+   "chebi_id": "CHEBI:75787",
+   "name": "prokaryotic metabolite"
+  },
+  {
+   "chebi_id": "CHEBI:76932",
+   "name": "pathway inhibitor"
+  },
+  {
+   "chebi_id": "CHEBI:76969",
+   "name": "bacterial metabolite"
+  }
+ ],
+ "chebi_release": "255"
+}
