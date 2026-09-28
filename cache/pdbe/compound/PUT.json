@@ -1,0 +1,198 @@
+{
+ "_retrieved_at": "2026-09-28T05:19:49+00:00",
+ "carb_identifiers": null,
+ "compound_classes": null,
+ "compound_type": "NON-POLYMER",
+ "creation_date": "1999-07-08T00:00:00",
+ "cross_links": [
+  {
+   "resource": "PubChem",
+   "resource_id": "1045"
+  },
+  {
+   "resource": "fdasrs",
+   "resource_id": "V10TVZ52E4"
+  },
+  {
+   "resource": "CCDC",
+   "resource_id": "QATWAJ"
+  },
+  {
+   "resource": "Probes And Drugs",
+   "resource_id": "PD008302"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03376620"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-001-781-809"
+  },
+  {
+   "resource": "HMDB",
+   "resource_id": "HMDB0001414"
+  },
+  {
+   "resource": "EPA CompTox Dashboard",
+   "resource_id": "DTXSID4041107"
+  },
+  {
+   "resource": "DrugBank",
+   "resource_id": "DB01917"
+  },
+  {
+   "resource": "ChEMBL",
+   "resource_id": "CHEMBL46257"
+  },
+  {
+   "resource": "ChEBI",
+   "resource_id": "CHEBI:17148"
+  },
+  {
+   "resource": "BindingDb",
+   "resource_id": "50009385"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "49379"
+  },
+  {
+   "resource": "Guide to Pharmacology",
+   "resource_id": "2388"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "233173"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "21689"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "21642"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "182951"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "182682"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "178110"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "16078"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "155"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "1296"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "109948"
+  }
+ ],
+ "first_observed_in": [
+  "1a99"
+ ],
+ "formal_charge": 0,
+ "formula": "C4 H12 N2",
+ "inchi": "InChI=1S/C4H12N2/c5-3-1-2-4-6/h1-6H2",
+ "inchi_key": "KIDHWZJUCRJVML-UHFFFAOYSA-N",
+ "name": "1,4-DIAMINOBUTANE",
+ "one_letter_code": "X",
+ "phys_chem_properties": {
+  "crippen_clog_p": -0.316,
+  "crippen_mr": 27.343,
+  "exactmw": 88.1,
+  "fraction_csp3": 1.0,
+  "labute_asa": 55.606,
+  "lipinski_hba": 2.0,
+  "lipinski_hbd": 4.0,
+  "num_aliphatic_heterocycles": 0,
+  "num_aliphatic_rings": 0,
+  "num_amide_bonds": 0,
+  "num_aromatic_heterocycles": 0,
+  "num_aromatic_rings": 0,
+  "num_atom_stereo_centers": 0,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 2,
+  "num_hbd": 2,
+  "num_heavy_atoms": 6,
+  "num_heteroatoms": 2,
+  "num_heterocycles": 0,
+  "num_rings": 0,
+  "num_rotatable_bonds": 5,
+  "num_saturated_heterocycles": 0,
+  "num_saturated_rings": 0,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 52.04
+ },
+ "release_status": "REL",
+ "revision_date": "2021-03-01T00:00:00",
+ "smiles": [
+  {
+   "name": "C(CCN)CN",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "NCCCCN",
+   "program": "CACTVS",
+   "version": "3.341"
+  }
+ ],
+ "stereoisomers": null,
+ "subcomponent_occurrences": null,
+ "superseded_by": null,
+ "synonyms": [
+  {
+   "origin": "ChEMBL",
+   "value": "NSC-60545"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Putrescine"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "1,4-Diaminobutane"
+  },
+  {
+   "origin": "wwPDB",
+   "value": "PUTRESCINE"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Putrescine"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Putrescine"
+  }
+ ],
+ "systematic_names": [
+  {
+   "name": "butane-1,4-diamine",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "butane-1,4-diamine",
+   "program": "ACDLabs",
+   "version": "10.04"
+  }
+ ],
+ "weight": 88.151
+}

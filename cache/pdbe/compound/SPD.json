@@ -1,0 +1,218 @@
+{
+ "_retrieved_at": "2026-09-28T05:19:49+00:00",
+ "carb_identifiers": null,
+ "compound_classes": null,
+ "compound_type": "NON-POLYMER",
+ "creation_date": "1999-07-08T00:00:00",
+ "cross_links": [
+  {
+   "resource": "PubChem",
+   "resource_id": "1102"
+  },
+  {
+   "resource": "fdasrs",
+   "resource_id": "U87FK77H25"
+  },
+  {
+   "resource": "Probes And Drugs",
+   "resource_id": "PD006808"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT06186102"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04405388"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-001-761-230"
+  },
+  {
+   "resource": "HMDB",
+   "resource_id": "HMDB0001257"
+  },
+  {
+   "resource": "EPA CompTox Dashboard",
+   "resource_id": "DTXSID4036645"
+  },
+  {
+   "resource": "DrugBank",
+   "resource_id": "DB03566"
+  },
+  {
+   "resource": "ChEMBL",
+   "resource_id": "CHEMBL19612"
+  },
+  {
+   "resource": "ChEBI",
+   "resource_id": "CHEBI:16610"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "55168"
+  },
+  {
+   "resource": "BindingDb",
+   "resource_id": "50009353"
+  },
+  {
+   "resource": "Guide to Pharmacology",
+   "resource_id": "2390"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "234573"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "182955"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "182954"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "182953"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "182952"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "182726"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "161307"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "15618"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "148"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "13223"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "11155"
+  }
+ ],
+ "first_observed_in": [
+  "293d"
+ ],
+ "formal_charge": 0,
+ "formula": "C7 H19 N3",
+ "inchi": "InChI=1S/C7H19N3/c8-4-1-2-6-10-7-3-5-9/h10H,1-9H2",
+ "inchi_key": "ATHGHQPFGPMSJY-UHFFFAOYSA-N",
+ "name": "SPERMIDINE",
+ "one_letter_code": "X",
+ "phys_chem_properties": {
+  "crippen_clog_p": -0.336,
+  "crippen_mr": 44.83,
+  "exactmw": 145.158,
+  "fraction_csp3": 1.0,
+  "labute_asa": 90.143,
+  "lipinski_hba": 3.0,
+  "lipinski_hbd": 5.0,
+  "num_aliphatic_heterocycles": 0,
+  "num_aliphatic_rings": 0,
+  "num_amide_bonds": 0,
+  "num_aromatic_heterocycles": 0,
+  "num_aromatic_rings": 0,
+  "num_atom_stereo_centers": 0,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 3,
+  "num_hbd": 3,
+  "num_heavy_atoms": 10,
+  "num_heteroatoms": 3,
+  "num_heterocycles": 0,
+  "num_rings": 0,
+  "num_rotatable_bonds": 9,
+  "num_saturated_heterocycles": 0,
+  "num_saturated_rings": 0,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 64.07
+ },
+ "release_status": "REL",
+ "revision_date": "2024-09-27T00:00:00",
+ "smiles": [
+  {
+   "name": "C(CCNCCCN)CN",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "NCCCCNCCCN",
+   "program": "CACTVS",
+   "version": "3.341"
+  }
+ ],
+ "stereoisomers": null,
+ "subcomponent_occurrences": null,
+ "superseded_by": null,
+ "synonyms": [
+  {
+   "origin": "ChEMBL",
+   "value": "Spermidine"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Spermidine"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Spermidin"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "N-(3-aminopropyl)butane-1,4-diamine"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "N-(3-Aminopropyl)-1,4-butane-diamine"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "4-azaoctane-1,8-diamine"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "4-azaoctamethylenediamine"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "1,5,10-triazadecane"
+  },
+  {
+   "origin": "wwPDB",
+   "value": "PA(34)"
+  },
+  {
+   "origin": "wwPDB",
+   "value": "N-(2-AMINO-PROPYL)-1,4-DIAMINOBUTANE"
+  }
+ ],
+ "systematic_names": [
+  {
+   "name": "N-(3-aminopropyl)butane-1,4-diamine",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "N-(3-aminopropyl)butane-1,4-diamine",
+   "program": "ACDLabs",
+   "version": "10.04"
+  }
+ ],
+ "weight": 145.246
+}

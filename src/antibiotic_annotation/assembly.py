@@ -31,6 +31,11 @@ def _now() -> str:
     return _dt.datetime.now(_dt.timezone.utc).replace(microsecond=0).isoformat()
 
 
+def _first(v: Any) -> Any:
+    """Solr multi-valued fields arrive as lists."""
+    return (v[0] if v else None) if isinstance(v, list) else v
+
+
 class EntryNotFound(LookupError):
     pass
 
@@ -102,12 +107,9 @@ class AssemblyClient:
         data = self.cache.get_or_fetch("pdbe/prd_entities", pid, fetch)
         out: dict[int, dict[str, Any]] = {}
         for d in data.get("docs") or []:
-            prd = d.get("prd_id")
-            prd = prd[0] if isinstance(prd, list) else prd
-            if not prd or d.get("entity_id") is None:
-                continue
-            first = lambda v: v[0] if isinstance(v, list) and v else (v if not isinstance(v, list) else None)  # noqa: E731
-            out[int(d["entity_id"])] = {"prd_id": prd, "class": first(d.get("prd_class")), "name": first(d.get("prd_name")), "type": first(d.get("prd_type"))}
+            prd = _first(d.get("prd_id"))
+            if prd and d.get("entity_id") is not None:
+                out[int(d["entity_id"])] = {"prd_id": prd, "class": _first(d.get("prd_class")), "name": _first(d.get("prd_name")), "type": _first(d.get("prd_type"))}
         return out
 
     # -- public --------------------------------------------------------------

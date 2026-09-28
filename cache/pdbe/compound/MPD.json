@@ -1,0 +1,117 @@
+{
+ "_retrieved_at": "2026-09-28T05:19:47+00:00",
+ "carb_identifiers": null,
+ "compound_classes": null,
+ "compound_type": "NON-POLYMER",
+ "creation_date": "1999-07-08T00:00:00",
+ "cross_links": [
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "335683"
+  },
+  {
+   "resource": "Probes And Drugs",
+   "resource_id": "PD006810"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-003-936-748"
+  },
+  {
+   "resource": "CCDC",
+   "resource_id": "DUTBAX"
+  },
+  {
+   "resource": "EPA CompTox Dashboard",
+   "resource_id": "DTXSID601308225"
+  },
+  {
+   "resource": "DrugBank",
+   "resource_id": "DB03564"
+  },
+  {
+   "resource": "ChEBI",
+   "resource_id": "CHEBI:44224"
+  },
+  {
+   "resource": "PubChem",
+   "resource_id": "5288834"
+  }
+ ],
+ "first_observed_in": null,
+ "formal_charge": 0,
+ "formula": "C6 H14 O2",
+ "inchi": "InChI=1S/C6H14O2/c1-5(7)4-6(2,3)8/h5,7-8H,4H2,1-3H3/t5-/m0/s1",
+ "inchi_key": "SVTBMSDMJJWYQN-YFKPBYRVSA-N",
+ "name": "(4S)-2-METHYL-2,4-PENTANEDIOL",
+ "one_letter_code": "X",
+ "phys_chem_properties": {
+  "crippen_clog_p": 0.528,
+  "crippen_mr": 32.596,
+  "exactmw": 118.099,
+  "fraction_csp3": 1.0,
+  "labute_asa": 69.995,
+  "lipinski_hba": 2.0,
+  "lipinski_hbd": 2.0,
+  "num_aliphatic_heterocycles": 0,
+  "num_aliphatic_rings": 0,
+  "num_amide_bonds": 0,
+  "num_aromatic_heterocycles": 0,
+  "num_aromatic_rings": 0,
+  "num_atom_stereo_centers": 1,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 2,
+  "num_hbd": 2,
+  "num_heavy_atoms": 8,
+  "num_heteroatoms": 2,
+  "num_heterocycles": 0,
+  "num_rings": 0,
+  "num_rotatable_bonds": 7,
+  "num_saturated_heterocycles": 0,
+  "num_saturated_rings": 0,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 40.46
+ },
+ "release_status": "REL",
+ "revision_date": "2011-06-04T00:00:00",
+ "smiles": [
+  {
+   "name": "C[C@@H](CC(C)(C)O)O",
+   "program": "OpenEye OEToolkits",
+   "version": "1.7.0"
+  },
+  {
+   "name": "C[C@H](O)CC(C)(C)O",
+   "program": "CACTVS",
+   "version": "3.352"
+  }
+ ],
+ "stereoisomers": [
+  {
+   "chem_comp_id": "MRD",
+   "name": "(4R)-2-METHYLPENTANE-2,4-DIOL"
+  }
+ ],
+ "subcomponent_occurrences": null,
+ "superseded_by": null,
+ "synonyms": [
+  {
+   "origin": "DrugBank",
+   "value": "(4r)-2-Methylpentane-2,4-Diol"
+  }
+ ],
+ "systematic_names": [
+  {
+   "name": "(4S)-2-methylpentane-2,4-diol",
+   "program": "OpenEye OEToolkits",
+   "version": "1.6.1"
+  },
+  {
+   "name": "(4S)-2-methylpentane-2,4-diol",
+   "program": "ACDLabs",
+   "version": "11.02"
+  }
+ ],
+ "weight": 118.174
+}

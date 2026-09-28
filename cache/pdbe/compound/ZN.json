@@ -1,0 +1,540 @@
+{
+ "_retrieved_at": "2026-09-28T05:19:51+00:00",
+ "carb_identifiers": null,
+ "compound_classes": null,
+ "compound_type": "NON-POLYMER",
+ "creation_date": "1999-07-08T00:00:00",
+ "cross_links": [
+  {
+   "resource": "fdasrs",
+   "resource_id": "13S1S8SF37"
+  },
+  {
+   "resource": "Probes And Drugs",
+   "resource_id": "PD013418"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT06151392"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT06102044"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05680662"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05677126"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05661682"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05628571"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05605886"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05465434"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05453227"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05116098"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05002101"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04959786"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04898023"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04780061"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04574544"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04528927"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04482686"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04472585"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04447534"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04446104"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04335084"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04334512"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04278599"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT04072822"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03851055"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03717987"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03626298"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03528434"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03366584"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03283813"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03112382"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03095326"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT03005496"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02716415"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02609386"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02601742"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02428647"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02319499"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02130388"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02126293"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02116725"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01911260"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01791608"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01772680"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01662089"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01616693"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01599572"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01505803"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01472211"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01468636"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01265849"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01062347"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00967551"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00944853"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00944814"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00944723"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00944398"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00875927"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00809809"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00801606"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00705445"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00704990"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00698386"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00683644"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00623857"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00536133"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00530829"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00470158"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00459732"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00449592"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00446758"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00421668"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00408356"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00395161"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00325572"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00325247"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00321126"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00278681"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00255385"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00228254"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00226616"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00210470"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00198666"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00148733"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00138047"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00133432"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00133419"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00133406"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00098202"
+  },
+  {
+   "resource": "HMDB",
+   "resource_id": "HMDB0015532"
+  },
+  {
+   "resource": "EPA CompTox Dashboard",
+   "resource_id": "DTXSID40920495"
+  },
+  {
+   "resource": "DrugBank",
+   "resource_id": "DB14532"
+  },
+  {
+   "resource": "ChEMBL",
+   "resource_id": "CHEMBL1236970"
+  },
+  {
+   "resource": "ChEBI",
+   "resource_id": "CHEBI:29105"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "932"
+  },
+  {
+   "resource": "NMRShiftDB",
+   "resource_id": "60020613"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "32428"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "32427"
+  },
+  {
+   "resource": "PubChem",
+   "resource_id": "32051"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "29356898"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "242813"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "228544"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "228543"
+  },
+  {
+   "resource": "BindingDb",
+   "resource_id": "16"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "150"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "14"
+  }
+ ],
+ "first_observed_in": null,
+ "formal_charge": 2,
+ "formula": "Zn",
+ "inchi": "InChI=1S/Zn/q+2",
+ "inchi_key": "PTFCDOFLOPIGGS-UHFFFAOYSA-N",
+ "name": "ZINC ION",
+ "one_letter_code": "X",
+ "phys_chem_properties": {
+  "crippen_clog_p": -0.003,
+  "crippen_mr": 0.0,
+  "exactmw": 63.928,
+  "fraction_csp3": 0.0,
+  "labute_asa": 20.252,
+  "lipinski_hba": 0.0,
+  "lipinski_hbd": 0.0,
+  "num_aliphatic_heterocycles": 0,
+  "num_aliphatic_rings": 0,
+  "num_amide_bonds": 0,
+  "num_aromatic_heterocycles": 0,
+  "num_aromatic_rings": 0,
+  "num_atom_stereo_centers": 0,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 0,
+  "num_hbd": 0,
+  "num_heavy_atoms": 1,
+  "num_heteroatoms": 1,
+  "num_heterocycles": 0,
+  "num_rings": 0,
+  "num_rotatable_bonds": 0,
+  "num_saturated_heterocycles": 0,
+  "num_saturated_rings": 0,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 0.0
+ },
+ "release_status": "REL",
+ "revision_date": "2011-06-04T00:00:00",
+ "smiles": [
+  {
+   "name": "[Zn+2]",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "[Zn++]",
+   "program": "CACTVS",
+   "version": "3.341"
+  }
+ ],
+ "stereoisomers": null,
+ "subcomponent_occurrences": null,
+ "superseded_by": null,
+ "synonyms": [
+  {
+   "origin": "ChEMBL",
+   "value": "Zinc cation"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Zinc(II)"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Zinc(2+)"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Zinc, ion (Zn2+)"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Zinc ion(2+)"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Zinc ion"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Zinc cation"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Zinc ion"
+  }
+ ],
+ "systematic_names": [
+  {
+   "name": "zinc",
+   "program": "ACDLabs",
+   "version": "10.04"
+  },
+  {
+   "name": "zinc(+2) cation",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  }
+ ],
+ "weight": 65.409
+}

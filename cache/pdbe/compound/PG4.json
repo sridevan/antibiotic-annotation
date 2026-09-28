@@ -1,0 +1,117 @@
+{
+ "_retrieved_at": "2026-09-28T05:19:48+00:00",
+ "carb_identifiers": null,
+ "compound_classes": null,
+ "compound_type": "NON-POLYMER",
+ "creation_date": "1999-08-03T00:00:00",
+ "cross_links": [
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "15101"
+  },
+  {
+   "resource": "Probes And Drugs",
+   "resource_id": "PD188591"
+  },
+  {
+   "resource": "CCDC",
+   "resource_id": "OBEQIV"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-003-925-880"
+  },
+  {
+   "resource": "HMDB",
+   "resource_id": "HMDB0094708"
+  },
+  {
+   "resource": "EPA CompTox Dashboard",
+   "resource_id": "DTXSID9026922"
+  },
+  {
+   "resource": "ChEMBL",
+   "resource_id": "CHEMBL1235254"
+  },
+  {
+   "resource": "ChEBI",
+   "resource_id": "CHEBI:44920"
+  },
+  {
+   "resource": "PubChem",
+   "resource_id": "8200"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "20534"
+  }
+ ],
+ "first_observed_in": [
+  "1dx6"
+ ],
+ "formal_charge": 0,
+ "formula": "C8 H18 O5",
+ "inchi": "InChI=1S/C8H18O5/c9-1-3-11-5-7-13-8-6-12-4-2-10/h9-10H,1-8H2",
+ "inchi_key": "UWHCKJMYHZGTIT-UHFFFAOYSA-N",
+ "name": "TETRAETHYLENE GLYCOL",
+ "one_letter_code": "X",
+ "phys_chem_properties": {
+  "crippen_clog_p": -0.979,
+  "crippen_mr": 46.629,
+  "exactmw": 194.115,
+  "fraction_csp3": 1.0,
+  "labute_asa": 103.686,
+  "lipinski_hba": 5.0,
+  "lipinski_hbd": 2.0,
+  "num_aliphatic_heterocycles": 0,
+  "num_aliphatic_rings": 0,
+  "num_amide_bonds": 0,
+  "num_aromatic_heterocycles": 0,
+  "num_aromatic_rings": 0,
+  "num_atom_stereo_centers": 0,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 5,
+  "num_hbd": 2,
+  "num_heavy_atoms": 13,
+  "num_heteroatoms": 5,
+  "num_heterocycles": 0,
+  "num_rings": 0,
+  "num_rotatable_bonds": 12,
+  "num_saturated_heterocycles": 0,
+  "num_saturated_rings": 0,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 68.15
+ },
+ "release_status": "REL",
+ "revision_date": "2011-06-04T00:00:00",
+ "smiles": [
+  {
+   "name": "C(COCCOCCOCCO)O",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "OCCOCCOCCOCCO",
+   "program": "CACTVS",
+   "version": "3.341"
+  }
+ ],
+ "stereoisomers": null,
+ "subcomponent_occurrences": null,
+ "superseded_by": null,
+ "synonyms": null,
+ "systematic_names": [
+  {
+   "name": "2,2'-[oxybis(ethane-2,1-diyloxy)]diethanol",
+   "program": "ACDLabs",
+   "version": "10.04"
+  },
+  {
+   "name": "2-[2-[2-(2-hydroxyethoxy)ethoxy]ethoxy]ethanol",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  }
+ ],
+ "weight": 194.226
+}

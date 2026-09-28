@@ -52,10 +52,6 @@ class BenchmarkSet:
         return self.primary_positives + self.primary_negatives
 
     @property
-    def all_items(self) -> list[BenchmarkItem]:
-        return self.primary_items + self.paper_positives + self.challenge + self.peptide_track
-
-    @property
     def annotatable_items(self) -> list[BenchmarkItem]:
         """Everything that goes through the small-molecule/BIRD pipeline (peptide track excluded)."""
         return self.primary_items + self.paper_positives + self.challenge
@@ -257,7 +253,7 @@ def _paper_class_to_stratum(cls: str | None) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Mapping run over the benchmark (Phase 3 report)
+# Mapping run over the benchmark (validation report)
 # ---------------------------------------------------------------------------
 
 MAPPING_REPORT_COLUMNS = [

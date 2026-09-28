@@ -1,0 +1,270 @@
+{
+ "_retrieved_at": "2026-09-28T05:19:47+00:00",
+ "carb_identifiers": null,
+ "compound_classes": null,
+ "compound_type": "NON-POLYMER",
+ "creation_date": "1999-07-08T00:00:00",
+ "cross_links": [
+  {
+   "resource": "BRENDA",
+   "resource_id": "102124"
+  },
+  {
+   "resource": "Probes And Drugs",
+   "resource_id": "PD039221"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02343666"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00669669"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00612989"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00389090"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00017147"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-047-941-157"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-006-724-705"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-003-941-450"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-003-895-684"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-002-507-335"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-000-891-035"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-000-757-423"
+  },
+  {
+   "resource": "CCDC",
+   "resource_id": "KEMDOW"
+  },
+  {
+   "resource": "HMDB",
+   "resource_id": "HMDB0000132"
+  },
+  {
+   "resource": "EPA CompTox Dashboard",
+   "resource_id": "DTXSID9052476"
+  },
+  {
+   "resource": "DrugBank",
+   "resource_id": "DB02377"
+  },
+  {
+   "resource": "ChEMBL",
+   "resource_id": "CHEMBL219568"
+  },
+  {
+   "resource": "ChEBI",
+   "resource_id": "CHEBI:16235"
+  },
+  {
+   "resource": "BindingDb",
+   "resource_id": "626104"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "6126257"
+  },
+  {
+   "resource": "fdasrs",
+   "resource_id": "5Z93L87A1R"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "5260"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "5259"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "51287"
+  },
+  {
+   "resource": "BindingDb",
+   "resource_id": "50200094"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "49098"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "49097"
+  },
+  {
+   "resource": "Guide to Pharmacology",
+   "resource_id": "4556"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "342789"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "31714144"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "228483"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "228482"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "2216795"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "199"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "16389311"
+  },
+  {
+   "resource": "PubChem",
+   "resource_id": "135398634"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "122461"
+  }
+ ],
+ "first_observed_in": [
+  "1a95"
+ ],
+ "formal_charge": 0,
+ "formula": "C5 H5 N5 O",
+ "inchi": "InChI=1S/C5H5N5O/c6-5-9-3-2(4(11)10-5)7-1-8-3/h1H,(H4,6,7,8,9,10,11)",
+ "inchi_key": "UYTPUPDQBNUYGX-UHFFFAOYSA-N",
+ "name": "GUANINE",
+ "one_letter_code": "X",
+ "phys_chem_properties": {
+  "crippen_clog_p": -0.681,
+  "crippen_mr": 36.0,
+  "exactmw": 151.049,
+  "fraction_csp3": 0.0,
+  "labute_asa": 67.74,
+  "lipinski_hba": 6.0,
+  "lipinski_hbd": 4.0,
+  "num_aliphatic_heterocycles": 0,
+  "num_aliphatic_rings": 0,
+  "num_amide_bonds": 0,
+  "num_aromatic_heterocycles": 2,
+  "num_aromatic_rings": 2,
+  "num_atom_stereo_centers": 0,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 4,
+  "num_hbd": 3,
+  "num_heavy_atoms": 11,
+  "num_heteroatoms": 6,
+  "num_heterocycles": 2,
+  "num_rings": 2,
+  "num_rotatable_bonds": 1,
+  "num_saturated_heterocycles": 0,
+  "num_saturated_rings": 0,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 100.45
+ },
+ "release_status": "REL",
+ "revision_date": "2011-06-04T00:00:00",
+ "smiles": [
+  {
+   "name": "c1[nH]c2c(n1)C(=O)NC(=N2)N",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "NC1=Nc2[nH]cnc2C(=O)N1",
+   "program": "CACTVS",
+   "version": "3.341"
+  }
+ ],
+ "stereoisomers": null,
+ "subcomponent_occurrences": null,
+ "superseded_by": null,
+ "synonyms": [
+  {
+   "origin": "ChEMBL",
+   "value": "2-aminohypoxanthine"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Guanine"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Valganciclovir hydrochloride impurity b"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Valacyclovir hydrochloride, guanine-"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Guanine"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Guanine"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Guanine"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Ci 75170"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "C.i. no. 75170 (guanine)"
+  }
+ ],
+ "systematic_names": [
+  {
+   "name": "2-amino-1,9-dihydropurin-6-one",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "2-amino-1,9-dihydro-6H-purin-6-one",
+   "program": "ACDLabs",
+   "version": "10.04"
+  }
+ ],
+ "weight": 151.126
+}

@@ -1,4 +1,4 @@
-"""Phase 4: ChEBI term retrieval, local cache and graph closures.
+"""ChEBI term retrieval, local cache and graph closures.
 
 Primary source: OLS4 v2 (graph: direct parents, has-role restrictions, precomputed ancestors,
 labels, definitions). Secondary source: the ChEBI backend API (star rating, InChIKey, incoming
@@ -108,15 +108,8 @@ def trim_backend(raw: dict[str, Any]) -> dict[str, Any]:
 # ---------------------------------------------------------------------------
 
 def _syn_values(v: Any) -> list[str]:
-    out: list[str] = []
-    for item in v or []:
-        if isinstance(item, dict):
-            val = item.get("value")
-        else:
-            val = item
-        if isinstance(val, str) and val not in out:
-            out.append(val)
-    return out
+    vals = [item.get("value") if isinstance(item, dict) else item for item in v or []]
+    return list(dict.fromkeys(x for x in vals if isinstance(x, str)))
 
 
 def build_term(chebi_id: str, ols4: dict[str, Any] | None, backend: dict[str, Any] | None, release: str | None) -> ChebiTerm:
@@ -130,7 +123,7 @@ def build_term(chebi_id: str, ols4: dict[str, Any] | None, backend: dict[str, An
         nd = ols4.get("numHierarchicalDescendants")
         term.num_descendants = int(nd) if nd is not None else None
         term.inchikey = _first(ols4.get("https://w3id.org/chemrof/inchi_key_string"))
-        term.synonyms = _syn_values(ols4.get("http://www.geneontology.org/formats/oboInOwl#hasExactSynonym")) + _syn_values(ols4.get("http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"))
+        term.synonyms = _syn_values(ols4.get("http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"))
         roles: list[str] = []
         rels: list[ChebiRelation] = []
         for r in ols4.get("relatedTo") or []:
@@ -175,7 +168,7 @@ class ChebiClient:
         self.cache = cache
         self.use_backend = use_backend
         self._terms: dict[str, ChebiTerm] = {}
-        self._ancestors: dict[str, frozenset[str]] = {}
+        self._depths: dict[str, dict[str, int]] = {}
         self._release: str | None = None
 
     # -- release ---------------------------------------------------------------
@@ -189,22 +182,21 @@ class ChebiClient:
         return self._release
 
     # -- raw fetches ------------------------------------------------------------
-    def _fetch_record(self, chebi_id: str) -> dict[str, Any]:
-        ols4: dict[str, Any] | None
+    def _get_or_none(self, url: str) -> dict[str, Any] | None:
         try:
-            ols4 = trim_ols4(self.transport.get_json(ols4_term_url(chebi_id)))
+            return self.transport.get_json(url)
         except HttpError as exc:
-            if exc.status != 404:
-                raise
-            ols4 = None
-        backend: dict[str, Any] | None = None
+            if exc.status == 404:
+                return None
+            raise
+
+    def _fetch_record(self, chebi_id: str) -> dict[str, Any]:
+        raw = self._get_or_none(ols4_term_url(chebi_id))
+        ols4 = trim_ols4(raw) if raw else None
+        backend = None
         if self.use_backend:
-            try:
-                backend = trim_backend(self.transport.get_json(CHEBI_BACKEND_URL.format(num=chebi_id.split(":")[1])))
-            except HttpError as exc:
-                if exc.status != 404:
-                    raise
-                backend = None
+            raw = self._get_or_none(CHEBI_BACKEND_URL.format(num=chebi_id.split(":")[1]))
+            backend = trim_backend(raw) if raw else None
         if ols4 is None and backend is None:
             return {"chebi_id": chebi_id, "missing": True, "retrieved_at": _now()}
         return build_term(chebi_id, ols4, backend, self.release()).to_dict()
@@ -218,15 +210,14 @@ class ChebiClient:
             return self._terms[cid]
         rec = self.cache.get_or_fetch(CACHE_NS, cid, lambda: self._fetch_record(cid))
         if rec.get("missing"):
-            t = ChebiTerm(chebi_id=cid, name=None, definition="(term not found in OLS4 or ChEBI backend)", retrieved_at=rec.get("retrieved_at"))
+            t = ChebiTerm(chebi_id=cid, definition="(term not found in OLS4 or ChEBI backend)", retrieved_at=rec.get("retrieved_at"))
         else:
             t = ChebiTerm.from_dict(rec)
         self._terms[cid] = t
         return t
 
     def has_term(self, chebi_id: str) -> bool:
-        t = self.term(chebi_id)
-        return t.name is not None
+        return self.term(chebi_id).name is not None
 
     def name(self, chebi_id: str) -> str:
         return self.term(chebi_id).name or "?"
@@ -234,37 +225,25 @@ class ChebiClient:
     def names(self, ids: Iterable[str]) -> dict[str, str]:
         return {i: self.name(i) for i in ids}
 
-    def ancestors(self, chebi_id: str) -> frozenset[str]:
-        """Transitive is_a closure, computed locally from direct parents (excludes the term itself)."""
-        cid = normalise_chebi_id(chebi_id)
-        if cid in self._ancestors:
-            return self._ancestors[cid]
-        seen: set[str] = set()
-        stack = list(self.term(cid).is_a)
-        while stack:
-            p = stack.pop()
-            if p in seen:
-                continue
-            seen.add(p)
-            stack.extend(self.term(p).is_a)
-        fs = frozenset(seen)
-        self._ancestors[cid] = fs
-        return fs
-
     def ancestor_depths(self, chebi_id: str) -> dict[str, int]:
-        """Shortest is_a path length from ``chebi_id`` to each ancestor."""
+        """Shortest is_a path length from ``chebi_id`` to each ancestor (breadth-first, memoised)."""
         cid = normalise_chebi_id(chebi_id)
+        if cid in self._depths:
+            return self._depths[cid]
         depths: dict[str, int] = {}
-        frontier = [(p, 1) for p in self.term(cid).is_a]
+        frontier = list(self.term(cid).is_a)
+        d = 1
         while frontier:
-            nxt = []
-            for p, d in frontier:
-                if p in depths and depths[p] <= d:
-                    continue
-                depths[p] = d
-                nxt.extend((q, d + 1) for q in self.term(p).is_a)
-            frontier = nxt
+            new = [p for p in dict.fromkeys(frontier) if p not in depths]
+            depths.update((p, d) for p in new)
+            frontier = [q for p in new for q in self.term(p).is_a]
+            d += 1
+        self._depths[cid] = depths
         return depths
+
+    def ancestors(self, chebi_id: str) -> frozenset[str]:
+        """Transitive is_a closure (excludes the term itself)."""
+        return frozenset(self.ancestor_depths(chebi_id))
 
     def direct_roles(self, chebi_id: str) -> frozenset[str]:
         return frozenset(self.term(chebi_id).roles)
@@ -280,31 +259,4 @@ class ChebiClient:
 
     def role_closure(self, role_ids: Iterable[str]) -> frozenset[str]:
         """Role ids plus all their is_a ancestors (e.g. antibacterial drug -> antibacterial agent -> antimicrobial agent)."""
-        out: set[str] = set()
-        for r in role_ids:
-            out.add(r)
-            out |= self.ancestors(r)
-        return frozenset(out)
-
-    def is_a_path(self, chebi_id: str, ancestor: str) -> list[str] | None:
-        """One shortest is_a path from chebi_id up to ancestor (inclusive), or None."""
-        cid = normalise_chebi_id(chebi_id)
-        target = normalise_chebi_id(ancestor)
-        prev: dict[str, str | None] = {cid: None}
-        frontier = [cid]
-        while frontier:
-            nxt = []
-            for t in frontier:
-                if t == target:
-                    path = []
-                    cur: str | None = t
-                    while cur is not None:
-                        path.append(cur)
-                        cur = prev[cur]
-                    return list(reversed(path))
-                for p in self.term(t).is_a:
-                    if p not in prev:
-                        prev[p] = t
-                        nxt.append(p)
-            frontier = nxt
-        return None
+        return frozenset().union(*({r} | self.ancestors(r) for r in role_ids))

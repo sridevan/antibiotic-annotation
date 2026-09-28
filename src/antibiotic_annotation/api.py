@@ -11,7 +11,7 @@ from typing import Any
 
 from .assembly import KIND_CCD, KIND_PRD, AssemblyClient, AssemblyEntity
 from .classifier import Evidence, chebi_evidence, decide, name_stem_flags
-from .models import ENTITY_BIRD, ENTITY_CCD
+from .models import ENTITY_BIRD
 from .pipeline import Pipeline
 
 STATUS_HIT = "antibiotic_like"
@@ -81,38 +81,25 @@ def _pipe(pipeline: Pipeline | None) -> Pipeline:
     return _default_pipeline
 
 
-def _input_id(entity_id: str, entity_kind: str) -> str:
-    kind = entity_kind.upper()
+def _validate(entity_id: str, entity_kind: str) -> tuple[str, str]:
+    kind, eid = entity_kind.upper(), entity_id.strip().upper()
     if kind not in (KIND_CCD, KIND_PRD):
         raise ValueError(f"entity_kind must be 'CCD' or 'PRD', got {entity_kind!r}")
-    eid = entity_id.strip().upper()
-    if kind == KIND_PRD and not eid.startswith("PRD_"):
-        raise ValueError(f"PRD entity id must look like PRD_000226, got {entity_id!r}")
-    if kind == KIND_CCD and eid.startswith("PRD_"):
-        raise ValueError(f"{entity_id!r} is a PRD id, not a CCD code")
-    return eid
+    if (kind == KIND_PRD) != eid.startswith("PRD_"):
+        raise ValueError(f"{entity_id!r} is not a valid {kind} id (PRD ids look like PRD_000226)")
+    return eid, kind
 
 
 def annotate_entity(entity_id: str, entity_kind: str, pipeline: Pipeline | None = None) -> AnnotationRecord:
     pipe = _pipe(pipeline)
-    kind = entity_kind.upper()
-    res = pipe.resolve(_input_id(entity_id, kind))
+    eid, kind = _validate(entity_id, entity_kind)
+    res = pipe.resolve(eid)
     ident, m = res.identity, res.mapping
-    ev = Evidence()
+    ev = chebi_evidence(pipe.chebi, m.chebi_ids_for_evidence) if m.resolved else Evidence()
     if ident.entity_kind == ENTITY_BIRD:
-        ev.bird_class = ident.bird_class
-        ev.bird_antibiotic = ident.bird_antibiotic
-    if m.resolved:
-        chebi_ev = chebi_evidence(pipe.chebi, m.chebi_ids_for_evidence)
-        chebi_ev.bird_class, chebi_ev.bird_antibiotic = ev.bird_class, ev.bird_antibiotic
-        ev = chebi_ev
+        ev.bird_class, ev.bird_antibiotic = ident.bird_class, ident.bird_antibiotic
     hit, reasons = decide(ev)
-    if hit:
-        status = STATUS_HIT
-    elif m.resolved:
-        status = STATUS_NOT
-    else:
-        status = m.status
+    status = STATUS_HIT if hit else STATUS_NOT if m.resolved else m.status
     mapping = {
         "status": m.status, "method": m.method, "confidence": m.confidence,
         "equivalent_chebi_ids": m.equivalent_chebi_ids, "evidence_unioned": m.evidence_unioned,

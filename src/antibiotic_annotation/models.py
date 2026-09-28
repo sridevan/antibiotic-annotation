@@ -5,6 +5,7 @@ and inspected without the package.
 """
 from __future__ import annotations
 
+import re
 from dataclasses import asdict, dataclass, field
 from typing import Any
 
@@ -35,19 +36,6 @@ METHOD_CHEBI_INPUT = "chebi_input"
 METHOD_UNRESOLVED = "unresolved"
 
 
-def _clean(d: Any) -> Any:
-    """Recursively convert dataclasses/sets to JSON-friendly structures."""
-    if hasattr(d, "to_dict"):
-        return d.to_dict()
-    if isinstance(d, dict):
-        return {k: _clean(v) for k, v in d.items()}
-    if isinstance(d, (list, tuple)):
-        return [_clean(v) for v in d]
-    if isinstance(d, (set, frozenset)):
-        return sorted(_clean(v) for v in d)
-    return d
-
-
 @dataclass
 class ChemicalIdentity:
     """What the PDB (via PDBe) says the deposited chemical species is."""
@@ -63,7 +51,6 @@ class ChemicalIdentity:
     smiles: str | None = None
     synonyms: list[str] = field(default_factory=list)
     xrefs: dict[str, list[str]] = field(default_factory=dict)
-    atc_codes: list[str] = field(default_factory=list)
     bird_class: str | None = None          # BIRD class(es), comma-joined, e.g. "antibiotic"
     bird_type: str | None = None
     source: str = "PDBe"
@@ -121,10 +108,10 @@ class MappingResult:
 
     @property
     def chebi_ids_for_evidence(self) -> list[str]:
+        """Primary id first, then the other ids sharing its standardised identity."""
         if not self.resolved:
             return []
-        ids = [self.primary_chebi_id] + [c for c in self.equivalent_chebi_ids if c != self.primary_chebi_id]
-        return ids
+        return [self.primary_chebi_id, *(c for c in self.equivalent_chebi_ids if c != self.primary_chebi_id)]
 
     def to_dict(self) -> dict[str, Any]:
         d = asdict(self)
@@ -164,7 +151,7 @@ class ChebiTerm:
     sources: dict[str, Any] = field(default_factory=dict)  # trimmed raw payloads
 
     def to_dict(self) -> dict[str, Any]:
-        return _clean(asdict(self))
+        return asdict(self)
 
     @classmethod
     def from_dict(cls, d: dict[str, Any]) -> "ChebiTerm":
@@ -198,11 +185,5 @@ def normalise_chebi_id(value: str | int | None) -> str | None:
     s = str(value).strip()
     if not s:
         return None
-    s = s.replace("CHEBI_", "CHEBI:").replace("chebi:", "CHEBI:").replace("Chebi:", "CHEBI:")
-    if s.isdigit():
-        return f"CHEBI:{s}"
-    if s.upper().startswith("CHEBI:"):
-        num = s.split(":", 1)[1]
-        if num.isdigit():
-            return f"CHEBI:{num}"
-    return None
+    m = re.fullmatch(r"(?:CHEBI[:_])?(\d+)", s, flags=re.IGNORECASE)
+    return f"CHEBI:{m.group(1)}" if m else None

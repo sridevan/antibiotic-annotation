@@ -1,0 +1,76 @@
+{
+ "_retrieved_at": "2026-09-28T05:19:52+00:00",
+ "carb_identifiers": null,
+ "compound_classes": null,
+ "compound_type": "NON-POLYMER",
+ "creation_date": "2011-11-07T00:00:00",
+ "cross_links": null,
+ "first_observed_in": [
+  "4a6n"
+ ],
+ "formal_charge": 2,
+ "formula": "C29 H41 N5 O8",
+ "inchi": "InChI=1S/C29H39N5O8/c1-28(2,3)31-11-17(35)32-15-10-16(33(4)5)13-8-12-9-14-21(34(6)7)24(38)20(27(30)41)26(40)29(14,42)25(39)18(12)23(37)19(13)22(15)36/h10,12,14,21,31,36,38-39,42H,8-9,11H2,1-7H3,(H2,30,41)(H,32,35)/p+2/t12-,14-,21-,29-/m0/s1",
+ "inchi_key": "FPZLLRFZJZRHSY-HJYUBDRYSA-P",
+ "name": "TIGECYCLINE",
+ "one_letter_code": "X",
+ "phys_chem_properties": {
+  "crippen_clog_p": -3.527,
+  "crippen_mr": 148.864,
+  "exactmw": 587.294,
+  "fraction_csp3": 0.517,
+  "labute_asa": 301.509,
+  "lipinski_hba": 13.0,
+  "lipinski_hbd": 10.0,
+  "num_aliphatic_heterocycles": 0,
+  "num_aliphatic_rings": 3,
+  "num_amide_bonds": 2,
+  "num_aromatic_heterocycles": 0,
+  "num_aromatic_rings": 1,
+  "num_atom_stereo_centers": 4,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 9,
+  "num_hbd": 9,
+  "num_heavy_atoms": 42,
+  "num_heteroatoms": 13,
+  "num_heterocycles": 0,
+  "num_rings": 4,
+  "num_rotatable_bonds": 14,
+  "num_saturated_heterocycles": 0,
+  "num_saturated_rings": 0,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 208.16
+ },
+ "release_status": "REL",
+ "revision_date": "2014-09-05T00:00:00",
+ "smiles": [
+  {
+   "name": "CC(C)(C)NCC(=O)Nc1cc(c2c(c1O)C(=O)C3=C([C@]4([C@@H](C[C@@H]3C2)[C@@H](C(=C(C4=O)C(=O)N)O)[NH+](C)C)O)O)[NH+](C)C",
+   "program": "OpenEye OEToolkits",
+   "version": "1.9.2"
+  },
+  {
+   "name": "C[NH+](C)[C@H]1[C@@H]2C[C@@H]3Cc4c(cc(NC(=O)CNC(C)(C)C)c(O)c4C(=O)C3=C(O)[C@]2(O)C(=O)C(=C1O)C(N)=O)[NH+](C)C",
+   "program": "CACTVS",
+   "version": "3.385"
+  }
+ ],
+ "stereoisomers": null,
+ "subcomponent_occurrences": null,
+ "superseded_by": null,
+ "synonyms": null,
+ "systematic_names": [
+  {
+   "name": "(1S,4aS,11aR,12aS)-8-[(N-tert-butylglycyl)amino]-3-carbamoyl-2,4a,5,7-tetrahydroxy-N,N,N',N'-tetramethyl-4,6-dioxo-1,4,4a,6,11,11a,12,12a-octahydrotetracene-1,10-diaminium",
+   "program": "ACDLabs",
+   "version": "12.01"
+  },
+  {
+   "name": "[(1S,4aS,11aR,12aS)-3-aminocarbonyl-8-[2-(tert-butylamino)ethanoylamino]-10-(dimethylazaniumyl)-2,4a,5,7-tetrakis(oxidanyl)-4,6-bis(oxidanylidene)-11,11a,12,12a-tetrahydro-1H-tetracen-1-yl]-dimethyl-azanium",
+   "program": "OpenEye OEToolkits",
+   "version": "1.9.2"
+  }
+ ],
+ "weight": 587.665
+}

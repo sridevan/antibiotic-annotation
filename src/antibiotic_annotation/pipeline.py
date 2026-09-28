@@ -1,6 +1,7 @@
-"""Wires the layers together: identity -> mapping -> ontology (-> classification, Phase 6)."""
+"""Wires the layers together: compound identity -> ChEBI mapping -> ontology context."""
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
@@ -8,8 +9,6 @@ from typing import Any
 from .cache import HttpTransport, JsonFileCache, NetworkUnavailable
 from .chebi import ChebiClient
 from .identity import CompoundClient, IdentityNotFound
-import json
-
 from .mapping import ChebiLookup, Mapper, UniChemClient, load_synonym_table
 from .models import MAP_UNRESOLVED_NETWORK, MAP_UNRESOLVED_NOT_FOUND, ChemicalIdentity, MappingResult
 
@@ -72,16 +71,12 @@ class Pipeline:
     def resolve(self, input_id: str) -> Resolution:
         try:
             ident = self.compounds.identity(input_id)
-        except IdentityNotFound:
+        except (IdentityNotFound, NetworkUnavailable) as exc:
+            status, note = (MAP_UNRESOLVED_NOT_FOUND, "id not found in the PDBe compound (CCD / BIRD) dictionaries") if isinstance(exc, IdentityNotFound) else (MAP_UNRESOLVED_NETWORK, f"identity retrieval failed: {exc}")
             ident = ChemicalIdentity(input_id=input_id.strip().upper())
-            return Resolution(ident, MappingResult(status=MAP_UNRESOLVED_NOT_FOUND, source_id=ident.input_id, notes=["id not found in the PDBe compound (CCD / BIRD) dictionaries"]))
-        except NetworkUnavailable as exc:
-            ident = ChemicalIdentity(input_id=input_id.strip().upper())
-            return Resolution(ident, MappingResult(status=MAP_UNRESOLVED_NETWORK, source_id=ident.input_id, notes=[f"identity retrieval failed: {exc}"]))
+            return Resolution(ident, MappingResult(status=status, source_id=ident.input_id, notes=[note]))
         mapping = self.mapper.map(ident)
-        rp = self.related_parents.get(ident.input_id.upper())
-        if rp:
-            mapping.related_parent = dict(rp)
+        mapping.related_parent = self.related_parents.get(ident.input_id.upper())
         res = Resolution(ident, mapping)
         if mapping.resolved:
             try:
@@ -100,13 +95,12 @@ class Pipeline:
 
     def family_context(self, chebi_id: str) -> FamilyContext:
         term = self.chebi.term(chebi_id)
-        fc = FamilyContext()
-        for r in term.incoming:
-            if r.relation in FAMILY_RELATIONS:
-                fc.member_of.append({"chebi_id": r.target_id, "name": r.target_name or self.chebi.name(r.target_id), "relation": f"{r.relation} (incoming)"})
-        seen: set[tuple[str, str]] = set()
-        for r in term.relations + term.incoming:
-            if r.relation in FORM_RELATIONS and (r.target_id, r.relation) not in seen:
-                seen.add((r.target_id, r.relation))
-                fc.forms.append({"chebi_id": r.target_id, "name": r.target_name or self.chebi.name(r.target_id), "relation": r.relation})
-        return fc
+
+        def entry(r, relation: str) -> dict[str, str]:
+            return {"chebi_id": r.target_id, "name": r.target_name or self.chebi.name(r.target_id), "relation": relation}
+
+        forms = {(r.target_id, r.relation): r for r in term.relations + term.incoming if r.relation in FORM_RELATIONS}  # dedupe
+        return FamilyContext(
+            member_of=[entry(r, f"{r.relation} (incoming)") for r in term.incoming if r.relation in FAMILY_RELATIONS],
+            forms=[entry(r, r.relation) for r in forms.values()],
+        )

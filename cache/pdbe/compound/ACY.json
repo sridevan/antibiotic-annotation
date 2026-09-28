@@ -1,0 +1,450 @@
+{
+ "_retrieved_at": "2026-09-28T05:19:46+00:00",
+ "carb_identifiers": null,
+ "compound_classes": null,
+ "compound_type": "NON-POLYMER",
+ "creation_date": "1999-07-08T00:00:00",
+ "cross_links": [
+  {
+   "resource": "Guide to Pharmacology",
+   "resource_id": "1058"
+  },
+  {
+   "resource": "fdasrs",
+   "resource_id": "Q40Q9N063P"
+  },
+  {
+   "resource": "Probes And Drugs",
+   "resource_id": "PD051684"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT06356480"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT06297967"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05802121"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT05022524"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02806115"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02614703"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT02420665"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT01118663"
+  },
+  {
+   "resource": "ClinicalTrials",
+   "resource_id": "NCT00755924"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-000-871-575"
+  },
+  {
+   "resource": "LipidMaps",
+   "resource_id": "LMFA01010002"
+  },
+  {
+   "resource": "HMDB",
+   "resource_id": "HMDB0000042"
+  },
+  {
+   "resource": "EPA CompTox Dashboard",
+   "resource_id": "DTXSID5024394"
+  },
+  {
+   "resource": "DrugBank",
+   "resource_id": "DB03166"
+  },
+  {
+   "resource": "ChEMBL",
+   "resource_id": "CHEMBL539"
+  },
+  {
+   "resource": "ChEBI",
+   "resource_id": "CHEBI:15366"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "751"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "7472549"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "57511"
+  },
+  {
+   "resource": "BindingDb",
+   "resource_id": "50074329"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "47"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "469"
+  },
+  {
+   "resource": "DrugCentral",
+   "resource_id": "4211"
+  },
+  {
+   "resource": "PubChem",
+   "resource_id": "21980959"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "194467"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "179753"
+  },
+  {
+   "resource": "PubChem",
+   "resource_id": "176"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "140294"
+  }
+ ],
+ "first_observed_in": [
+  "1aa5"
+ ],
+ "formal_charge": 0,
+ "formula": "C2 H4 O2",
+ "inchi": "InChI=1S/C2H4O2/c1-2(3)4/h1H3,(H,3,4)",
+ "inchi_key": "QTBSBXVTEAMEQO-UHFFFAOYSA-N",
+ "name": "ACETIC ACID",
+ "one_letter_code": "X",
+ "phys_chem_properties": {
+  "crippen_clog_p": 0.091,
+  "crippen_mr": 13.31,
+  "exactmw": 60.021,
+  "fraction_csp3": 0.5,
+  "labute_asa": 29.767,
+  "lipinski_hba": 2.0,
+  "lipinski_hbd": 1.0,
+  "num_aliphatic_heterocycles": 0,
+  "num_aliphatic_rings": 0,
+  "num_amide_bonds": 0,
+  "num_aromatic_heterocycles": 0,
+  "num_aromatic_rings": 0,
+  "num_atom_stereo_centers": 0,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 2,
+  "num_hbd": 1,
+  "num_heavy_atoms": 4,
+  "num_heteroatoms": 2,
+  "num_heterocycles": 0,
+  "num_rings": 0,
+  "num_rotatable_bonds": 1,
+  "num_saturated_heterocycles": 0,
+  "num_saturated_rings": 0,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 37.3
+ },
+ "release_status": "REL",
+ "revision_date": "2024-09-27T00:00:00",
+ "smiles": [
+  {
+   "name": "CC(=O)O",
+   "program": "OpenEye OEToolkits",
+   "version": "1.7.0"
+  },
+  {
+   "name": "CC(O)=O",
+   "program": "CACTVS",
+   "version": "3.352"
+  }
+ ],
+ "stereoisomers": null,
+ "subcomponent_occurrences": null,
+ "superseded_by": null,
+ "synonyms": [
+  {
+   "origin": "ChEMBL",
+   "value": "Acetasol"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Volsol"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Orlex"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Acetasol"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Vinegar"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Methanecarboxylic acid"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "HOAc"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Glacial acetic acid"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Ethylic acid"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Ethoic acid"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Ethanoic acid"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Ethanoate"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Ethanoat"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Aceticum acidum"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Acetic acid, glacial"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Acetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Vosol"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Vinegar acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Vinegar"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Pyrosal"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Orthoacetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Orlex"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "NSC-406306"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "NSC-132953"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "NSC-127175"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "NSC-115870"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "NSC-112209"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "NSC-111201"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "INS-260"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "INS NO.260"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Glacial acetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Glacial acetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "FEMA NO. 2006"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Earcalm"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "E260"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "E-260"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Distilled vinegar"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Antipyrine acetylsalicylate"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Antipyrine acetylsalicylate"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acopyrine"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acidum aceticum glaciale"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acidum aceticum"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Aci-jel"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetopyrine"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Aceticum acidum"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid,glacial"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid, glacial component of tridesilon"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid, glacial"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid, glacial"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid, diluted"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid glacial"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid component of vosol hc  , glacial"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid component of tridesilon  , glacial"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid component of orlex hc  , glacial"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid component of acetasol hc  , glacial"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic acid"
+  },
+  {
+   "origin": "ChEMBL",
+   "value": "Acetic"
+  }
+ ],
+ "systematic_names": [
+  {
+   "name": "acetic acid",
+   "program": "ACDLabs",
+   "version": "11.02"
+  },
+  {
+   "name": "ethanoic acid",
+   "program": "OpenEye OEToolkits",
+   "version": "1.6.1"
+  }
+ ],
+ "weight": 60.052
+}

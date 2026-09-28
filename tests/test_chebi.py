@@ -32,7 +32,7 @@ def test_is_a_closure_matches_ols4_precomputed_ancestors(chebi):
 
 def test_kasugamycin_class_ancestry_without_drug_role(chebi):
     assert "CHEBI:22507" in chebi.ancestors("CHEBI:81419")  # aminoglycoside antibiotic
-    assert chebi.is_a_path("CHEBI:81419", "CHEBI:22507") == ["CHEBI:81419", "CHEBI:22507"]
+    assert chebi.ancestor_depths("CHEBI:81419")["CHEBI:22507"] == 1  # direct parent
     assert "CHEBI:48001" in chebi.direct_roles("CHEBI:81419")
     assert "CHEBI:36047" not in chebi.inherited_roles("CHEBI:81419")
 
