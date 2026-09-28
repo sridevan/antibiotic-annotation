@@ -104,7 +104,9 @@ class Pipeline:
         for r in term.incoming:
             if r.relation in FAMILY_RELATIONS:
                 fc.member_of.append({"chebi_id": r.target_id, "name": r.target_name or self.chebi.name(r.target_id), "relation": f"{r.relation} (incoming)"})
+        seen: set[tuple[str, str]] = set()
         for r in term.relations + term.incoming:
-            if r.relation in FORM_RELATIONS:
+            if r.relation in FORM_RELATIONS and (r.target_id, r.relation) not in seen:
+                seen.add((r.target_id, r.relation))
                 fc.forms.append({"chebi_id": r.target_id, "name": r.target_name or self.chebi.name(r.target_id), "relation": r.relation})
         return fc

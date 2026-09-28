@@ -161,6 +161,8 @@ def test_pipeline_reports_family_context_for_components(tmp_path, transport):
     res = pipe.resolve("NMY")
     assert res.mapping.primary_chebi_id == "CHEBI:7508"
     assert any(f["chebi_id"] == "CHEBI:7507" for f in res.family.member_of)
+    tac = pipe.resolve("TAC").family.forms
+    assert len(tac) == len({(f["chebi_id"], f["relation"]) for f in tac})  # no duplicate form entries
 
 
 def test_related_parent_is_attached_but_never_used_as_identity(tmp_path, transport):
