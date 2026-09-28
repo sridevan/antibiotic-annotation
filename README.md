@@ -68,7 +68,7 @@ for hit in find_antibiotic_entities("5J7L", 1):
 # TAC CCD tetracycline CHEBI:27902 ['ChEBI antibacterial drug']
 ```
 
-The first call for a new entry fetches from PDBe, RCSB, UniChem and ChEBI and takes a few
+The first call for a new entry fetches from PDBe, UniChem and ChEBI and takes a few
 seconds per new compound; every response is cached under `cache/`, so repeat calls are instant.
 
 ## Command line

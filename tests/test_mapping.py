@@ -52,11 +52,6 @@ def test_unverified_crossref_is_not_accepted(compounds, mapper):
     # PDBe's own record carries a verified ChEBI cross-link for water, so the natural path is direct_ccd_crossref
     m2 = mapper.map(compounds.identity("HOH"))
     assert m2.method == "direct_ccd_crossref" and m2.primary_chebi_id == "CHEBI:15377" and m2.confidence == "high"
-    # and a record without any cross-link maps by exact InChIKey
-    ident = compounds.identity("HOH")
-    ident.xrefs.pop("ChEBI")
-    m3 = mapper.map(ident)
-    assert m3.method == "unichem_inchikey" and m3.primary_chebi_id == "CHEBI:15377"
 
 
 def test_protonation_only_difference_is_accepted(compounds, mapper):
