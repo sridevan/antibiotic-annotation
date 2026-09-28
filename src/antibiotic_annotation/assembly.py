@@ -4,26 +4,31 @@ Which chemical entities are present in one biological assembly of a PDB entry:
 
 * PDBe ``/pdb/entry/assembly/{pdb_id}`` lists, per assembly, the entities with their chains and
   copy numbers; PDBe ``/pdb/entry/molecules/{pdb_id}`` gives the CCD code of each bound entity.
-* PDBe does not expose BIRD/PRD ids, so the (short) polymer entities of the assembly are looked
-  up in RCSB GraphQL ``polymer_entities`` for ``prd_id``. PDBe and RCSB share mmCIF entity ids.
+* The entry's entities are queried in the PDBe search API (``/pdbe/search/pdb/select``), whose
+  per-entity documents carry ``prd_id`` / ``prd_class`` / ``prd_name`` / ``prd_type`` for BIRD
+  reference molecules.
 """
 from __future__ import annotations
 
 from dataclasses import dataclass, field
 from typing import Any
 
+import datetime as _dt
+
 from .cache import HttpError, JsonFileCache
 
 PDBE_ASSEMBLY_URL = "https://www.ebi.ac.uk/pdbe/api/pdb/entry/assembly/{pdb_id}"
 PDBE_MOLECULES_URL = "https://www.ebi.ac.uk/pdbe/api/pdb/entry/molecules/{pdb_id}"
-RCSB_GRAPHQL_URL = "https://data.rcsb.org/graphql"
+PDBE_SEARCH_URL = "https://www.ebi.ac.uk/pdbe/search/pdb/select"
+SEARCH_ROWS = 500
 
 KIND_CCD = "CCD"
 KIND_PRD = "PRD"
 
-# Polymer entities longer than this are never BIRD peptide-like molecules; skipping them keeps
-# the RCSB lookup small for ribosomes (which have ~50 protein/RNA entities).
-MAX_BIRD_POLYMER_LENGTH = 100
+
+
+def _now() -> str:
+    return _dt.datetime.now(_dt.timezone.utc).replace(microsecond=0).isoformat()
 
 
 class EntryNotFound(LookupError):
@@ -76,23 +81,33 @@ class AssemblyClient:
     def molecules_raw(self, pdb_id: str) -> list[dict[str, Any]]:
         return self._pdbe(PDBE_MOLECULES_URL, "pdbe/molecules", pdb_id)
 
-    def prd_map(self, pdb_id: str, polymer_entity_ids: list[int]) -> dict[int, dict[str, Any]]:
-        """{entity_id: {"prd_id": ..., "description": ...}} for the polymer entities that carry a PRD id."""
-        pid = pdb_id.upper()
-        ids = sorted(set(polymer_entity_ids))
-        if not ids:
-            return {}
-        key = f"{pid}_{'_'.join(str(i) for i in ids)}"
-        query = ("{ polymer_entities(entity_ids:[%s]) { rcsb_id rcsb_polymer_entity { pdbx_description } "
-                 "rcsb_polymer_entity_container_identifiers { entity_id prd_id } } }") % ",".join(f'"{pid}_{i}"' for i in ids)
-        data = self.cache.get_or_fetch("rcsb/prd_map", key, lambda: self.transport.post_json(RCSB_GRAPHQL_URL, {"query": query}))
+    def prd_map(self, pdb_id: str) -> dict[int, dict[str, Any]]:
+        """{entity_id: {"prd_id", "class", "name", "type"}} for every BIRD entity of the entry."""
+        pid = pdb_id.lower()
+
+        def fetch():
+            docs: list[dict[str, Any]] = []
+            start = 0
+            while True:
+                params = {"q": f"pdb_id:{pid}", "fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type", "rows": SEARCH_ROWS, "start": start, "wt": "json"}
+                resp = self.transport.get_json(PDBE_SEARCH_URL, params=params)
+                page = (resp.get("response") or {}).get("docs") or []
+                docs.extend(page)
+                num_found = int((resp.get("response") or {}).get("numFound") or 0)
+                start += SEARCH_ROWS
+                if start >= num_found or not page:
+                    break
+            return {"docs": [d for d in docs if d.get("prd_id")], "retrieved_at": _now()}
+
+        data = self.cache.get_or_fetch("pdbe/prd_entities", pid, fetch)
         out: dict[int, dict[str, Any]] = {}
-        for pe in (data.get("data") or {}).get("polymer_entities") or []:
-            if not pe:
+        for d in data.get("docs") or []:
+            prd = d.get("prd_id")
+            prd = prd[0] if isinstance(prd, list) else prd
+            if not prd or d.get("entity_id") is None:
                 continue
-            ci = pe.get("rcsb_polymer_entity_container_identifiers") or {}
-            if ci.get("prd_id"):
-                out[int(ci["entity_id"])] = {"prd_id": ci["prd_id"], "description": (pe.get("rcsb_polymer_entity") or {}).get("pdbx_description")}
+            first = lambda v: v[0] if isinstance(v, list) and v else (v if not isinstance(v, list) else None)  # noqa: E731
+            out[int(d["entity_id"])] = {"prd_id": prd, "class": first(d.get("prd_class")), "name": first(d.get("prd_name")), "type": first(d.get("prd_type"))}
         return out
 
     # -- public --------------------------------------------------------------
@@ -110,7 +125,6 @@ class AssemblyClient:
         molecules = {int(m["entity_id"]): m for m in self.molecules_raw(pdb_id)}
 
         ccd: dict[str, AssemblyEntity] = {}
-        polymer_ids: list[int] = []
         polymer_rows: dict[int, dict[str, Any]] = {}
         for e in asm.get("entities") or []:
             eid = int(e["entity_id"])
@@ -125,16 +139,14 @@ class AssemblyClient:
                     ent.chains.extend(e.get("in_chains") or [])
                     ent.copies += int(e.get("number_of_copies") or len(e.get("in_chains") or []))
                 continue
-            length = molecules.get(eid, {}).get("length")
-            if length is not None and length > MAX_BIRD_POLYMER_LENGTH:
-                continue
-            polymer_ids.append(eid)
             polymer_rows[eid] = e
 
         prd: dict[str, AssemblyEntity] = {}
-        for eid, info in self.prd_map(pdb_id, polymer_ids).items():
-            e = polymer_rows[eid]
-            ent = prd.setdefault(info["prd_id"], AssemblyEntity(entity_id=info["prd_id"], entity_kind=KIND_PRD, name=info.get("description")))
+        for eid, info in self.prd_map(pdb_id).items():
+            e = polymer_rows.get(eid)
+            if e is None:
+                continue  # BIRD entity exists in the entry but not in this assembly
+            ent = prd.setdefault(info["prd_id"], AssemblyEntity(entity_id=info["prd_id"], entity_kind=KIND_PRD, name=info.get("name") or (e.get("molecule_name") or [None])[0]))
             ent.pdb_entity_ids.append(eid)
             ent.chains.extend(e.get("in_chains") or [])
             ent.copies += int(e.get("number_of_copies") or len(e.get("in_chains") or []))

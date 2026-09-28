@@ -16,14 +16,13 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from antibiotic_annotation.cache import HttpTransport, JsonFileCache  # noqa: E402
 from antibiotic_annotation.chebi import ChebiClient, ols4_term_url, trim_backend, trim_ols4  # noqa: E402
-from antibiotic_annotation.identity import RcsbClient  # noqa: E402
 from antibiotic_annotation.mapping import Mapper, UniChemClient  # noqa: E402
 
 FIX = ROOT / "tests" / "fixtures" / "http"
 
 IDS = ["PRD_000505", "PRD_000193", "5I0", "GLC", "TAC", "KSG", "SCM", "GTP", "ORN", "TPF", "X8Q", "FYG", "T1C", "HY0", "6UQ", "NMY", "LLL", "VIR", "KIR", "PRD_000226", "EM1", "HOH", "CHEBI:26710", "ZZZZ9"]
 ASSEMBLIES = [("5J7L", 1), ("5J7L", 2), ("4V7T", 1), ("4V7T", 2), ("4V7U", 1), ("4V85", 1), ("4U1U", 1), ("4V64", 1), ("5AFI", 1), ("1ATP", 1)]
-EXTRA_CHEBI = ["CHEBI:36047", "CHEBI:33282", "CHEBI:33281", "CHEBI:22507", "CHEBI:25105", "CHEBI:27933", "CHEBI:26895", "CHEBI:7507", "CHEBI:17833", "CHEBI:87209", "CHEBI:48947", "CHEBI:48001", "CHEBI:24835", "CHEBI:9999999"]
+EXTRA_CHEBI = ["CHEBI:25805", "CHEBI:36047", "CHEBI:33282", "CHEBI:33281", "CHEBI:22507", "CHEBI:25105", "CHEBI:27933", "CHEBI:26895", "CHEBI:7507", "CHEBI:17833", "CHEBI:87209", "CHEBI:48947", "CHEBI:48001", "CHEBI:24835", "CHEBI:9999999"]
 
 
 def request_key(method: str, url: str, payload) -> str:
@@ -31,14 +30,14 @@ def request_key(method: str, url: str, payload) -> str:
 
 
 def bundle_name(url: str) -> str:
+    if "pdbe/api/pdb/compound" in url:
+        return "pdbe_compound"
     if "pdbe" in url:
         return "pdbe"
     if "ols4" in url:
         return "ols4"
     if "chebi/backend" in url:
         return "chebi_backend"
-    if "rcsb" in url:
-        return "rcsb"
     return "unichem"
 
 
@@ -91,7 +90,7 @@ def main():
 
     tr = RecordingTransport()
     cache = JsonFileCache(tempfile.mkdtemp())
-    rcsb, uni, chebi = RcsbClient(tr, cache), UniChemClient(tr, cache), ChebiClient(tr, cache)
+    uni, chebi = UniChemClient(tr, cache), ChebiClient(tr, cache)
     from antibiotic_annotation.pipeline import Pipeline
     pipe = Pipeline(cache_dir=cache.root, transport=tr, synonyms=None, related_parents=None)
     mapper = pipe.mapper
@@ -99,7 +98,7 @@ def main():
     to_expand: set[str] = set(EXTRA_CHEBI)
     for i in IDS:
         try:
-            ident = rcsb.identity(i)
+            ident = pipe.compounds.identity(i)
         except IdentityNotFound:
             print(i, "-> not found (recorded)")
             continue

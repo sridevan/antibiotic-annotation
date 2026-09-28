@@ -50,7 +50,7 @@ def _clean(d: Any) -> Any:
 
 @dataclass
 class ChemicalIdentity:
-    """What the PDB (RCSB) says the deposited chemical species is."""
+    """What the PDB (via PDBe) says the deposited chemical species is."""
 
     input_id: str
     entity_kind: str = ENTITY_UNKNOWN
@@ -64,10 +64,15 @@ class ChemicalIdentity:
     synonyms: list[str] = field(default_factory=list)
     xrefs: dict[str, list[str]] = field(default_factory=dict)
     atc_codes: list[str] = field(default_factory=list)
-    bird_class: str | None = None
+    bird_class: str | None = None          # BIRD class(es), comma-joined, e.g. "antibiotic"
     bird_type: str | None = None
-    source: str = "RCSB"
+    source: str = "PDBe"
     retrieved_at: str | None = None
+
+    @property
+    def bird_antibiotic(self) -> bool:
+        """True when BIRD explicitly classifies the reference molecule as an antibiotic."""
+        return any(c.strip().lower() == "antibiotic" for c in (self.bird_class or "").split(","))
 
     @property
     def inchikey_connectivity(self) -> str | None:

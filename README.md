@@ -3,9 +3,10 @@
 Find the bound chemical entities in a **specific biological assembly** of a PDB entry that have
 antibiotic-like properties, and say *why*.
 
-The tool starts from the deposited chemical species (RCSB Chemical Component Dictionary or
-BIRD reference molecule), maps it to ChEBI by structure through UniChem, walks the ChEBI
-ontology, and applies one small, explicit rule. Every decision comes with the ontology
+The tool starts from the deposited chemical species (a Chemical Component Dictionary ligand or
+a BIRD reference molecule, read from PDBe), maps it to ChEBI by structure through UniChem, walks
+the ChEBI ontology, and applies one small, explicit rule. All data comes from EMBL-EBI services
+(PDBe, UniChem, OLS/ChEBI). Every decision comes with the ontology
 evidence that produced it, and every entity that was inspected but not returned gets a
 diagnostic status, so "not an antibiotic" is never confused with "could not be mapped".
 
@@ -208,12 +209,12 @@ Field guide:
 ```
 PDB id + assembly id
   │
-  ├─ 1. assembly scope      PDBe assembly + molecules endpoints; RCSB GraphQL for PRD ids
+  ├─ 1. assembly scope      PDBe assembly + molecules endpoints; PDBe search API for PRD ids
   │                          -> CCD and PRD entities present in that assembly (water excluded)
   │
   └─ for each entity
-       ├─ 2. identity         RCSB core/chemcomp -> name, formula, charge, InChI, InChIKey, synonyms,
-       │                       BIRD class/type for PRD entities
+       ├─ 2. identity         PDBe compound summary -> name, formula, charge, InChI, InChIKey, synonyms,
+       │                       cross-links, BIRD class/type for PRD entities
        ├─ 3. mapping          UniChem exact InChIKey, then connectivity search -> ChEBI id(s)
        ├─ 4. ontology         OLS4 (+ ChEBI backend) -> is_a closure, roles, definitions, cached per term
        ├─ 5. rule             antibacterial drug role OR antibiotic chemical class OR BIRD Antibiotic
@@ -228,18 +229,20 @@ deposited in the entry.
 - PDBe `GET /pdbe/api/pdb/entry/assembly/{pdb_id}` lists each assembly with its entities,
   chains (`in_chains`) and copy numbers.
 - PDBe `GET /pdbe/api/pdb/entry/molecules/{pdb_id}` gives the CCD code of each bound entity.
-- PDBe exposes no BIRD ids, so the short polymer entities of the assembly (up to 100 residues)
-  are looked up by mmCIF entity id in RCSB GraphQL `polymer_entities` for `prd_id`.
+- The PDBe search API (`GET /pdbe/search/pdb/select?q=pdb_id:{pdb_id}`) returns one document per
+  entity with `prd_id`, `prd_class`, `prd_name` and `prd_type` for BIRD reference molecules; those
+  entity ids are intersected with the assembly's entities.
 
 Example: 4V7T has chloramphenicol in assembly 1 but not in assembly 2; the tool returns it only
 for assembly 1.
 
 ### 2. Chemical identity
 
-RCSB `GET /rest/v1/core/chemcomp/{id}` serves both CCD codes and PRD ids. For PRD entries the
-`pdbx_reference_molecule` block provides the BIRD class ("Antibiotic", "Inhibitor", ...) and
-type ("Oligopeptide", ...). WHO ATC codes and DrugBank/PubChem cross-references are kept in the
-identity record but are not used by the rule.
+PDBe `GET /pdbe/api/pdb/compound/summary/{id}` serves both CCD codes and PRD ids. For PRD
+entries `compound_classes` provides the BIRD class ("antibiotic", "inhibitor", ...) and
+`compound_type` the type ("Oligopeptide", ...). Database cross-links (ChEBI, ChEMBL, DrugBank,
+PubChem, ...) are kept in the identity record; only a ChEBI cross-link is used, and only after
+verification (below).
 
 ### 3. Identity mapping to ChEBI
 
@@ -249,7 +252,7 @@ substituted for the deposited species.
 | Situation | Status / method | Confidence |
 |---|---|---|
 | Exact standard InChIKey match in UniChem | `resolved` / `unichem_inchikey` | high |
-| RCSB lists a ChEBI cross-reference and its InChIKey equals the deposited one | `resolved` / `direct_ccd_crossref` | high |
+| The PDBe compound record carries a ChEBI cross-link whose entry has the same InChIKey as the deposited species | `resolved` / `direct_ccd_crossref` | high |
 | Only protonation, charge or H-count differ (UniChem connectivity search) | `resolved` / `unichem_connectivity_protonation` | medium |
 | PRD descriptor has no stereo layer and exactly one plausible single-species ChEBI identity matches by connectivity | `resolved` / `unichem_connectivity_stereo_undefined` | medium |
 | Stereo layer or connectivity differs | `unresolved_identity_conflict` | none |
@@ -257,9 +260,10 @@ substituted for the deposited species.
 | No InChIKey in the deposited record | `unresolved_no_structure` | none |
 | Network failure | `unresolved_network` | none |
 
-RCSB's ChEBI cross-references are "assigned by PubChem resource" and are not identity-verified
-(water is linked to "oxygen atom", glucose to glucan polymer classes), so they are accepted only
-when the ChEBI entry's InChIKey equals the deposited one.
+Database cross-links are not identity-verified in general (RCSB's PubChem-assigned ChEBI links,
+for example, tie water to "oxygen atom" and glucose to glucan polymer classes), so a ChEBI
+cross-link on the compound record is accepted only when that ChEBI entry's InChIKey equals the
+deposited one; otherwise it is kept as a rejected candidate and UniChem decides.
 
 Several ChEBI ids can share one standard InChIKey: tautomers (tetracycline and its zwitterion),
 protonation forms, and polymer classes whose representative structure is the monomer (glucose
@@ -307,8 +311,8 @@ An entity is returned when any of these holds:
    "carbohydrate-containing antibiotic", "peptide antibiotic", "beta-lactam antibiotic", and so
    on. Labels that restrict the class to non-antibacterial use (antifungal, fungicide,
    antineoplastic, insecticide, ...) are excluded and reported separately.
-3. **BIRD class "Antibiotic"** (PRD entities only). BIRD's own curation; recorded as
-   `bird_antibiotic`.
+3. **BIRD class "antibiotic"** (PRD entities only). BIRD's own curation as exposed in PDBe's
+   `compound_classes`; recorded as `bird_antibiotic`.
 
 No individual antibiotics are hard-coded. The supporting roles antibacterial agent and
 antimicrobial agent are always retrieved and reported but never decide on their own: fluconazole
@@ -339,7 +343,7 @@ ChEBI's "Mocimycin" entry has no roles) or hygromycin B (unresolved) for manual 
 
 ## Caching and offline use
 
-- Every HTTP response is stored as JSON under `cache/` (RCSB, PDBe, UniChem, ChEBI namespaces).
+- Every HTTP response is stored as JSON under `cache/` (PDBe, UniChem, ChEBI namespaces).
   Override with `--cache DIR` or `Pipeline(cache_dir=DIR)`. The repository ships a populated cache
   for the compounds used during development.
 - `ANTIBIOTIC_ANNOTATION_OFFLINE=1` forbids network access; a cache miss raises
@@ -373,7 +377,7 @@ ChEBI's "Mocimycin" entry has no roles) or hygromycin B (unresolved) for manual 
 `data/benchmark/antibiotic_ontology_rule_evaluation.xlsx` is a manually curated benchmark of
 ribosome-bound antibiotics, negative controls and challenge cases. The audited id table
 `data/benchmark/benchmark_ids.tsv` maps each compound to the deposited CCD/PRD id (derived from
-the listed PDB entries through the RCSB entry API, not by name matching). It records one
+the entity lists of the PDB entries named in the workbook, not by name matching). It records one
 correction: the workbook's CCD for capreomycin, CA7, is the detergent Cymal-7; the deposited
 capreomycin is BIRD PRD_000193 (Capreomycin IA).
 
@@ -398,8 +402,8 @@ review test expectations that depend on ontology content.
 ```
 src/antibiotic_annotation/
   api.py          find_antibiotic_entities / inspect_assembly / annotate_entity, result dataclasses
-  assembly.py     PDBe assembly + molecules, RCSB PRD lookup
-  identity.py     RCSB chemcomp (CCD and PRD) -> ChemicalIdentity
+  assembly.py     PDBe assembly + molecules, PDBe search for PRD ids
+  identity.py     PDBe compound summary (CCD and PRD) -> ChemicalIdentity
   mapping.py      UniChem exact / connectivity mapping and acceptance rules
   chebi.py        OLS4 + ChEBI backend client, per-term cache, is_a and role closures
   classifier.py   the antibiotic-like rule, evidence, naming-stem diagnostic
@@ -420,7 +424,8 @@ cache/            cached API responses (safe to delete)
 | Source | Used for |
 |---|---|
 | [PDBe API](https://www.ebi.ac.uk/pdbe/api/doc/) `pdb/entry/assembly`, `pdb/entry/molecules` | assembly composition, CCD codes of bound entities |
-| [RCSB Data API](https://data.rcsb.org/) `core/chemcomp`, GraphQL `polymer_entities` | chemical identity of CCD/PRD entities, BIRD class, PRD ids |
+| PDBe API `pdb/compound/summary/{id}` | chemical identity of CCD and PRD entities, BIRD class and type, cross-links |
+| [PDBe search API](https://www.ebi.ac.uk/pdbe/api/doc/search.html) `search/pdb/select` | PRD (BIRD) ids of an entry's polymer entities |
 | [UniChem](https://www.ebi.ac.uk/unichem/) `api/v1/compounds`, `api/v1/connectivity` | InChIKey to ChEBI mapping with per-layer comparison flags |
 | [OLS4](https://www.ebi.ac.uk/ols4/) ChEBI, [ChEBI](https://www.ebi.ac.uk/chebi/) backend API | ontology terms, is_a parents, roles, definitions, star ratings |
-| wwPDB [BIRD](https://www.wwpdb.org/data/bird) via RCSB | curated class of peptide-like reference molecules |
+| wwPDB [BIRD](https://www.wwpdb.org/data/bird) via PDBe | curated class of peptide-like reference molecules |

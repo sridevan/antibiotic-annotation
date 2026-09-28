@@ -29374,14 +29374,14 @@
 "en"
 ],
 "loadAttempts": 0,
-"loaded": "2026-09-16T00:09:02.716384107",
+"loaded": "2026-09-24T00:26:29.457495677",
 "message": "",
 "numberOfIndividuals": 0,
 "numberOfProperties": 48,
 "numberOfTerms": 237960,
 "ontologyId": "chebi",
 "status": "LOADED",
-"updated": "2026-09-16T00:09:02.716384107",
+"updated": "2026-09-24T00:26:29.457495677",
 "version": "255"
 },
 "method": "GET",

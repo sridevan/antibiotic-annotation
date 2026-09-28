@@ -1,7 +1,7 @@
 """Phase 3, step 2: chemical identity -> ChEBI id(s) via UniChem.
 
 Order of preference
-1. ``direct_ccd_crossref``: a ChEBI cross-reference asserted by RCSB on the CCD (rare).
+1. ``direct_ccd_crossref``: a ChEBI cross-reference carried by the compound record itself, accepted only when its InChIKey equals the deposited one (PDBe records rarely carry one).
 2. ``unichem_inchikey``: exact standard InChIKey match. Several ChEBI ids can share one standard
    InChIKey (tautomers, zwitterions); they are treated as the same *standardised chemical identity
    for mapping purposes*, a deterministic primary is chosen and ontology evidence is unioned.
@@ -184,16 +184,16 @@ class Mapper:
             cid = normalise_chebi_id(ident.input_id)
             return MappingResult(status=MAP_RESOLVED, method=METHOD_CHEBI_INPUT, source_id=cid, primary_chebi_id=cid, equivalent_chebi_ids=[cid])
 
-        # 1. cross-references asserted on the CCD by RCSB. These are "assigned by PubChem
-        #    resource" and are NOT identity-verified (water links to "oxygen atom", glucose to
-        #    glucans), so a cross-reference is accepted only when the ChEBI entry's standard
+        # 1. ChEBI cross-references carried by the compound record. Database cross-links are not
+        #    identity-verified (RCSB's PubChem-assigned links tie water to "oxygen atom" and
+        #    glucose to glucan classes), so one is accepted only when the ChEBI entry's standard
         #    InChIKey equals the deposited species' InChIKey.
         xref_ids = [x for x in (normalise_chebi_id(x) for x in ident.xrefs.get("ChEBI", [])) if x]
         xref_candidates: list[MappingCandidate] = []
         verified: list[str] = []
         for cid in xref_ids:
             key = self._info(cid).inchikey
-            cand = MappingCandidate(chebi_id=cid, inchikey=key, note="RCSB cross-reference (assigned by PubChem resource)")
+            cand = MappingCandidate(chebi_id=cid, inchikey=key, note="ChEBI cross-reference on the compound record")
             if ident.inchikey and key == ident.inchikey:
                 cand.accepted = True
                 cand.note += ", verified by standard InChIKey equality"
@@ -206,7 +206,7 @@ class Mapper:
         if verified:
             primary, how = self._choose_primary(verified)
             res = MappingResult(status=MAP_RESOLVED, method=METHOD_DIRECT_XREF, source_id=ident.input_id, primary_chebi_id=primary, equivalent_chebi_ids=verified, candidates=xref_candidates)
-            res.notes.append(f"RCSB ChEBI cross-reference verified by InChIKey equality; primary chosen by {how}")
+            res.notes.append(f"compound-record ChEBI cross-reference verified by InChIKey equality; primary chosen by {how}")
             if len(verified) > 1:
                 res.evidence_unioned = True
                 res.notes.append("several verified entries share the standard InChIKey: same standardised chemical identity for mapping purposes; ontology evidence unioned")

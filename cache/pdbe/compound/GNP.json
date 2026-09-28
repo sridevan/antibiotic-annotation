@@ -1,0 +1,175 @@
+{
+ "_retrieved_at": "2026-09-28T05:01:11+00:00",
+ "carb_identifiers": null,
+ "compound_classes": null,
+ "compound_type": "NON-POLYMER",
+ "creation_date": "1999-07-08T00:00:00",
+ "cross_links": [
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "10334012"
+  },
+  {
+   "resource": "Probes And Drugs",
+   "resource_id": "PD060148"
+  },
+  {
+   "resource": "EPA CompTox Dashboard",
+   "resource_id": "DTXSID20187842"
+  },
+  {
+   "resource": "DrugBank",
+   "resource_id": "DB02082"
+  },
+  {
+   "resource": "ChEMBL",
+   "resource_id": "CHEMBL1233085"
+  },
+  {
+   "resource": "ChEBI",
+   "resource_id": "CHEBI:78408"
+  },
+  {
+   "resource": "fdasrs",
+   "resource_id": "9L7GM5N7EG"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "93574"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "89989"
+  },
+  {
+   "resource": "BindingDb",
+   "resource_id": "85784"
+  },
+  {
+   "resource": "BindingDb",
+   "resource_id": "81791"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "3344"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "25063"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "2351266"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "177674"
+  },
+  {
+   "resource": "PubChem",
+   "resource_id": "135403657"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "129950"
+  }
+ ],
+ "first_observed_in": [
+  "1ctq"
+ ],
+ "formal_charge": 0,
+ "formula": "C10 H17 N6 O13 P3",
+ "inchi": "InChI=1S/C10H17N6O13P3/c11-10-13-7-4(8(19)14-10)12-2-16(7)9-6(18)5(17)3(28-9)1-27-32(25,26)29-31(23,24)15-30(20,21)22/h2-3,5-6,9,17-18H,1H2,(H,25,26)(H3,11,13,14,19)(H4,15,20,21,22,23,24)/t3-,5-,6-,9-/m1/s1",
+ "inchi_key": "UQABYHGXWYXDTK-UUOKFMHZSA-N",
+ "name": "PHOSPHOAMINOPHOSPHONIC ACID-GUANYLATE ESTER",
+ "one_letter_code": "X",
+ "phys_chem_properties": {
+  "crippen_clog_p": -2.672,
+  "crippen_mr": 97.43,
+  "exactmw": 522.007,
+  "fraction_csp3": 0.5,
+  "labute_asa": 200.392,
+  "lipinski_hba": 19.0,
+  "lipinski_hbd": 10.0,
+  "num_aliphatic_heterocycles": 1,
+  "num_aliphatic_rings": 1,
+  "num_amide_bonds": 0,
+  "num_aromatic_heterocycles": 2,
+  "num_aromatic_rings": 2,
+  "num_atom_stereo_centers": 6,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 17,
+  "num_hbd": 9,
+  "num_heavy_atoms": 32,
+  "num_heteroatoms": 22,
+  "num_heterocycles": 3,
+  "num_rings": 3,
+  "num_rotatable_bonds": 15,
+  "num_saturated_heterocycles": 1,
+  "num_saturated_rings": 1,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 301.9
+ },
+ "release_status": "REL",
+ "revision_date": "2011-06-04T00:00:00",
+ "smiles": [
+  {
+   "name": "c1nc2c(n1[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@](=O)(O)O[P@@](=O)(NP(=O)(O)O)O)O)O)N=C(NC2=O)N",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "NC1=Nc2n(cnc2C(=O)N1)[C@@H]3O[C@H](CO[P@@](O)(=O)O[P@@](O)(=O)N[P](O)(O)=O)[C@@H](O)[C@H]3O",
+   "program": "CACTVS",
+   "version": "3.341"
+  }
+ ],
+ "stereoisomers": [
+  {
+   "chem_comp_id": "9GM",
+   "name": "2-amino-9-{5-O-[(S)-hydroxy{[(R)-hydroxy(phosphonoamino)phosphoryl]oxy}phosphoryl]-alpha-L-xylofuranosyl}-1,9-dihydro-6H-purin-6-one"
+  }
+ ],
+ "subcomponent_occurrences": null,
+ "superseded_by": null,
+ "synonyms": [
+  {
+   "origin": "DrugBank",
+   "value": "5'-guanylylimidodiphosphate"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Phosphoaminophosphonic acid guanylate ester"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Guanylyl imidodiphosphate"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Guanosine 5'-[beta,gamma-imido]triphosphate"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "Gpp(NH)p"
+  },
+  {
+   "origin": "DrugBank",
+   "value": "GMP-PNP"
+  }
+ ],
+ "systematic_names": [
+  {
+   "name": "[[[[(2R,3S,4R,5R)-5-(2-amino-6-oxo-1H-purin-9-yl)-3,4-dihydroxy-oxolan-2-yl]methoxy-hydroxy-phosphoryl]oxy-hydroxy-phosphoryl]amino]phosphonic acid",
+   "program": "OpenEye OEToolkits",
+   "version": "1.5.0"
+  },
+  {
+   "name": "5'-O-[(S)-hydroxy{[(R)-hydroxy(phosphonoamino)phosphoryl]oxy}phosphoryl]guanosine",
+   "program": "ACDLabs",
+   "version": "10.04"
+  }
+ ],
+ "weight": 522.196
+}

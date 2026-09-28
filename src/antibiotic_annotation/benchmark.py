@@ -3,7 +3,7 @@
 The workbook is the source of truth for compound names, labels and strata. The mapping from
 compound name to the deposited PDB chemical species (CCD id, PRD id, or a ChEBI id for
 controls without a single CCD) lives in ``data/benchmark/benchmark_ids.tsv``; it was built by
-resolving the workbook's "PDB examples" column through the RCSB entry API, not by name
+resolving the workbook's "PDB examples" column through the PDB entry records, not by name
 matching, and is checked in so the benchmark is reproducible and auditable.
 """
 from __future__ import annotations

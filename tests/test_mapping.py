@@ -6,8 +6,8 @@ from antibiotic_annotation.models import ChemicalIdentity
 from tests.conftest import FailingTransport
 
 
-def test_tetracycline_exact_key_with_equivalent_ids(rcsb, mapper):
-    m = mapper.map(rcsb.identity("TAC"))
+def test_tetracycline_exact_key_with_equivalent_ids(compounds, mapper):
+    m = mapper.map(compounds.identity("TAC"))
     assert m.resolved and m.status == "resolved"
     assert m.method == "unichem_inchikey"
     assert m.primary_chebi_id == "CHEBI:27902"
@@ -17,39 +17,50 @@ def test_tetracycline_exact_key_with_equivalent_ids(rcsb, mapper):
     assert m.chebi_ids_for_evidence[0] == "CHEBI:27902"
 
 
-def test_kirromycin_maps_by_structure_to_mocimycin_entry(rcsb, mapper):
-    m = mapper.map(rcsb.identity("KIR"))
+def test_kirromycin_maps_by_structure_to_mocimycin_entry(compounds, mapper):
+    m = mapper.map(compounds.identity("KIR"))
     assert m.method == "unichem_inchikey" and m.primary_chebi_id == "CHEBI:190786"
 
 
-def test_solithromycin_has_a_chebi_entry(rcsb, mapper):
-    m = mapper.map(rcsb.identity("EM1"))
+def test_solithromycin_has_a_chebi_entry(compounds, mapper):
+    m = mapper.map(compounds.identity("EM1"))
     assert m.resolved and m.primary_chebi_id == "CHEBI:230261"
 
 
-def test_component_species_are_preserved(rcsb, mapper):
+def test_component_species_are_preserved(compounds, mapper):
     # neomycin CCD is the single component framycetin (neomycin B), not the mixture
-    m = mapper.map(rcsb.identity("NMY"))
+    m = mapper.map(compounds.identity("NMY"))
     assert m.primary_chebi_id == "CHEBI:7508" and "CHEBI:7507" not in m.equivalent_chebi_ids
     # gentamicin CCD is gentamicin C1a, not the gentamicin family
-    m = mapper.map(rcsb.identity("LLL"))
+    m = mapper.map(compounds.identity("LLL"))
     assert m.primary_chebi_id == "CHEBI:27784" and "CHEBI:17833" not in m.equivalent_chebi_ids
     # virginiamycin CCD is virginiamycin M1 (pristinamycin IIA), not the mixture
-    m = mapper.map(rcsb.identity("VIR"))
+    m = mapper.map(compounds.identity("VIR"))
     assert m.primary_chebi_id == "CHEBI:9997" and "CHEBI:87209" not in m.equivalent_chebi_ids
 
 
-def test_unverified_rcsb_crossref_is_not_accepted(rcsb, mapper):
-    # RCSB lists both "water" and "oxygen atom" as ChEBI cross-references for HOH
-    m = mapper.map(rcsb.identity("HOH"))
-    assert m.primary_chebi_id == "CHEBI:15377"
+def test_unverified_crossref_is_not_accepted(compounds, mapper):
+    # a record that claims both "water" and "oxygen atom" as ChEBI cross-references: only the
+    # entry whose InChIKey equals the deposited one is accepted
+    ident = compounds.identity("HOH")
+    ident.xrefs["ChEBI"] = ["CHEBI:25805", "CHEBI:15377"]
+    m = mapper.map(ident)
+    assert m.method == "direct_ccd_crossref" and m.primary_chebi_id == "CHEBI:15377"
     assert "CHEBI:25805" not in m.equivalent_chebi_ids
     rejected = [c for c in m.candidates if c.chebi_id == "CHEBI:25805"]
-    assert rejected and rejected[0].accepted is False
+    assert rejected and rejected[0].accepted is False and rejected[0].mismatches == ["inchikey_not_equal"]
+    # PDBe's own record carries a verified ChEBI cross-link for water, so the natural path is direct_ccd_crossref
+    m2 = mapper.map(compounds.identity("HOH"))
+    assert m2.method == "direct_ccd_crossref" and m2.primary_chebi_id == "CHEBI:15377" and m2.confidence == "high"
+    # and a record without any cross-link maps by exact InChIKey
+    ident = compounds.identity("HOH")
+    ident.xrefs.pop("ChEBI")
+    m3 = mapper.map(ident)
+    assert m3.method == "unichem_inchikey" and m3.primary_chebi_id == "CHEBI:15377"
 
 
-def test_protonation_only_difference_is_accepted(rcsb, mapper):
-    m = mapper.map(rcsb.identity("T1C"))  # deposited tigecycline carries +2 charge
+def test_protonation_only_difference_is_accepted(compounds, mapper):
+    m = mapper.map(compounds.identity("T1C"))  # deposited tigecycline carries +2 charge
     assert m.resolved and m.method == "unichem_connectivity_protonation"
     assert "CHEBI:149836" in m.equivalent_chebi_ids
     for c in m.candidates:
@@ -57,8 +68,8 @@ def test_protonation_only_difference_is_accepted(rcsb, mapper):
             assert set(c.mismatches) <= {"protonation", "charge", "HAtoms", "isotopicExchangeableH"}
 
 
-def test_stereo_mismatch_is_an_identity_conflict(rcsb, mapper):
-    m = mapper.map(rcsb.identity("HY0"))  # hygromycin B, stereo layer differs from ChEBI:16976
+def test_stereo_mismatch_is_an_identity_conflict(compounds, mapper):
+    m = mapper.map(compounds.identity("HY0"))  # hygromycin B, stereo layer differs from ChEBI:16976
     assert not m.resolved
     assert m.status == "unresolved_identity_conflict"
     assert m.primary_chebi_id is None
@@ -67,14 +78,14 @@ def test_stereo_mismatch_is_an_identity_conflict(rcsb, mapper):
     assert any(k.lower().startswith("stereo") for k in hyg[0].mismatches)
 
 
-def test_avilamycin_c_is_never_substituted_by_avilamycin_a(rcsb, mapper):
-    m = mapper.map(rcsb.identity("6UQ"))
+def test_avilamycin_c_is_never_substituted_by_avilamycin_a(compounds, mapper):
+    m = mapper.map(compounds.identity("6UQ"))
     assert m.status == "unresolved_no_chebi"
     assert "CHEBI:85646" not in [c.chebi_id for c in m.candidates]
 
 
-def test_bird_entity_with_several_stereo_candidates_stays_unresolved(rcsb, mapper):
-    m = mapper.map(rcsb.identity("PRD_000226"))  # viomycin: CHEBI:15782 (+ its 3+ conjugate) vs a 2-star stereoisomer entry
+def test_bird_entity_with_several_stereo_candidates_stays_unresolved(compounds, mapper):
+    m = mapper.map(compounds.identity("PRD_000226"))  # viomycin: CHEBI:15782 (+ its 3+ conjugate) vs a 2-star stereoisomer entry
     assert m.status == "unresolved_identity_conflict"
     assert "conflict_reason=stereo_undefined_in_query" in m.notes
     assert any(n.startswith("multiple_stereo_candidates=2") for n in m.notes)
@@ -82,34 +93,34 @@ def test_bird_entity_with_several_stereo_candidates_stays_unresolved(rcsb, mappe
     assert m.confidence == "none"
 
 
-def test_bird_entity_with_single_plausible_candidate_maps_at_medium_confidence(rcsb, mapper):
-    m = mapper.map(rcsb.identity("PRD_000505"))  # quinupristin
+def test_bird_entity_with_single_plausible_candidate_maps_at_medium_confidence(compounds, mapper):
+    m = mapper.map(compounds.identity("PRD_000505"))  # quinupristin
     assert m.resolved
     assert m.method == "unichem_connectivity_stereo_undefined"
     assert m.confidence == "medium"
     assert m.primary_chebi_id == "CHEBI:8732"
-    m = mapper.map(rcsb.identity("PRD_000193"))  # capreomycin IA
+    m = mapper.map(compounds.identity("PRD_000193"))  # capreomycin IA
     assert m.resolved and m.method == "unichem_connectivity_stereo_undefined" and m.primary_chebi_id == "CHEBI:218527"
 
 
-def test_stereo_undefined_rule_only_applies_to_stereo_less_queries(rcsb, mapper):
-    m = mapper.map(rcsb.identity("HY0"))  # has a stereo layer that conflicts -> never accepted
+def test_stereo_undefined_rule_only_applies_to_stereo_less_queries(compounds, mapper):
+    m = mapper.map(compounds.identity("HY0"))  # has a stereo layer that conflicts -> never accepted
     assert m.status == "unresolved_identity_conflict" and m.method == "unresolved"
 
 
-def test_mapping_confidence_levels(rcsb, mapper):
-    assert mapper.map(rcsb.identity("TAC")).confidence == "high"
-    assert mapper.map(rcsb.identity("T1C")).confidence == "medium"
-    assert mapper.map(rcsb.identity("6UQ")).confidence == "none"
+def test_mapping_confidence_levels(compounds, mapper):
+    assert mapper.map(compounds.identity("TAC")).confidence == "high"
+    assert mapper.map(compounds.identity("T1C")).confidence == "medium"
+    assert mapper.map(compounds.identity("6UQ")).confidence == "none"
 
 
-def test_chebi_input_bypasses_mapping(rcsb, mapper):
-    m = mapper.map(rcsb.identity("CHEBI:26710"))
+def test_chebi_input_bypasses_mapping(compounds, mapper):
+    m = mapper.map(compounds.identity("CHEBI:26710"))
     assert m.resolved and m.method == "chebi_input" and m.primary_chebi_id == "CHEBI:26710"
 
 
-def test_network_failure_is_reported_not_negative(rcsb, cache):
-    ident = rcsb.identity("TAC")
+def test_network_failure_is_reported_not_negative(compounds, cache):
+    ident = compounds.identity("TAC")
     mapper = Mapper(UniChemClient(FailingTransport(), cache))
     m = mapper.map(ident)
     assert m.status == "unresolved_network" and not m.resolved
@@ -133,9 +144,9 @@ def test_no_structure_and_no_synonym_is_unresolved(cache, transport):
     assert m.status == "unresolved_no_structure"
 
 
-def test_unichem_lookups_are_cached(rcsb, transport, cache):
+def test_unichem_lookups_are_cached(compounds, transport, cache):
     mapper = Mapper(UniChemClient(transport, cache))
-    ident = rcsb.identity("KSG")
+    ident = compounds.identity("KSG")
     mapper.map(ident)
     n = len(transport.calls)
     mapper.map(ident)

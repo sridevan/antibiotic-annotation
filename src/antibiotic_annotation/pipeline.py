@@ -7,7 +7,7 @@ from typing import Any
 
 from .cache import HttpTransport, JsonFileCache, NetworkUnavailable
 from .chebi import ChebiClient
-from .identity import IdentityNotFound, RcsbClient
+from .identity import CompoundClient, IdentityNotFound
 import json
 
 from .mapping import ChebiLookup, Mapper, UniChemClient, load_synonym_table
@@ -49,7 +49,7 @@ class Pipeline:
     def __init__(self, cache_dir: str | Path = DEFAULT_CACHE, transport=None, synonyms: str | Path | None = DEFAULT_SYNONYMS, related_parents: str | Path | None = DEFAULT_RELATED_PARENTS):
         self.cache = JsonFileCache(cache_dir)
         self.transport = transport or HttpTransport()
-        self.rcsb = RcsbClient(self.transport, self.cache)
+        self.compounds = CompoundClient(self.transport, self.cache)
         self.unichem = UniChemClient(self.transport, self.cache)
         self.chebi = ChebiClient(self.transport, self.cache)
         self.mapper = Mapper(self.unichem, lookup=self.lookup, synonym_table=load_synonym_table(synonyms))
@@ -71,10 +71,10 @@ class Pipeline:
 
     def resolve(self, input_id: str) -> Resolution:
         try:
-            ident = self.rcsb.identity(input_id)
+            ident = self.compounds.identity(input_id)
         except IdentityNotFound:
             ident = ChemicalIdentity(input_id=input_id.strip().upper())
-            return Resolution(ident, MappingResult(status=MAP_UNRESOLVED_NOT_FOUND, source_id=ident.input_id, notes=["id not found in the RCSB chemical component / BIRD dictionaries"]))
+            return Resolution(ident, MappingResult(status=MAP_UNRESOLVED_NOT_FOUND, source_id=ident.input_id, notes=["id not found in the PDBe compound (CCD / BIRD) dictionaries"]))
         except NetworkUnavailable as exc:
             ident = ChemicalIdentity(input_id=input_id.strip().upper())
             return Resolution(ident, MappingResult(status=MAP_UNRESOLVED_NETWORK, source_id=ident.input_id, notes=[f"identity retrieval failed: {exc}"]))

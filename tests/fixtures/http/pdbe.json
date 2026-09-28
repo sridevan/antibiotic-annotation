@@ -6815,6 +6815,284 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/pdbe/api/pdb/entry/molecules/4v85"
 },
+"0d2fddb9d66dd3e1": {
+"data": {
+"response": {
+"docs": [
+{
+"entity_id": 1,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 2,
+"molecule_type": "Protein"
+}
+],
+"numFound": 2,
+"start": 0
+},
+"responseHeader": {
+"QTime": 0,
+"params": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:1atp",
+"rows": "500",
+"start": "0",
+"wt": "json"
+},
+"status": 0
+}
+},
+"method": "GET",
+"payload": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:1atp",
+"rows": 500,
+"start": 0,
+"wt": "json"
+},
+"status": 200,
+"url": "https://www.ebi.ac.uk/pdbe/search/pdb/select"
+},
+"2a984645b8b94564": {
+"data": {
+"response": {
+"docs": [
+{
+"entity_id": 1,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 2,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 3,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 4,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 5,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 6,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 7,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 8,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 9,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 10,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 11,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 12,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 13,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 14,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 15,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 16,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 17,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 18,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 19,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 20,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 21,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 22,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 23,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 24,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 25,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 26,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 27,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 28,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 29,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 30,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 31,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 32,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 33,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 34,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 35,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 36,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 37,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 38,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 39,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 40,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 41,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 42,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 43,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 44,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 45,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 46,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 47,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 48,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 49,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 50,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 51,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 52,
+"molecule_type": "Protein"
+}
+],
+"numFound": 52,
+"start": 0
+},
+"responseHeader": {
+"QTime": 0,
+"params": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4v7u",
+"rows": "500",
+"start": "0",
+"wt": "json"
+},
+"status": 0
+}
+},
+"method": "GET",
+"payload": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4v7u",
+"rows": 500,
+"start": 0,
+"wt": "json"
+},
+"status": 200,
+"url": "https://www.ebi.ac.uk/pdbe/search/pdb/select"
+},
 "3808226025e909c7": {
 "data": {
 "5afi": [
@@ -12892,6 +13170,536 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/pdbe/api/pdb/entry/assembly/4v7t"
+},
+"4bc9d4a89724553f": {
+"data": {
+"response": {
+"docs": [
+{
+"entity_id": 1,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 2,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 3,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 4,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 5,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 6,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 7,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 8,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 9,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 10,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 11,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 12,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 13,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 14,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 15,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 16,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 17,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 18,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 19,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 20,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 21,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 22,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 23,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 24,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 25,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 26,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 27,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 28,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 29,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 30,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 31,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 32,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 33,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 34,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 35,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 36,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 37,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 38,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 39,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 40,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 41,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 42,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 43,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 44,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 45,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 46,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 47,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 48,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 49,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 50,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 51,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 52,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 53,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 54,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 55,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 56,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 57,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 58,
+"molecule_type": "Protein"
+}
+],
+"numFound": 58,
+"start": 0
+},
+"responseHeader": {
+"QTime": 0,
+"params": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:5afi",
+"rows": "500",
+"start": "0",
+"wt": "json"
+},
+"status": 0
+}
+},
+"method": "GET",
+"payload": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:5afi",
+"rows": 500,
+"start": 0,
+"wt": "json"
+},
+"status": 200,
+"url": "https://www.ebi.ac.uk/pdbe/search/pdb/select"
+},
+"4f4e5db40df0d20e": {
+"data": {
+"response": {
+"docs": [
+{
+"entity_id": 1,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 2,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 3,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 5,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 9,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 10,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 11,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 20,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 27,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 32,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 34,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 36,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 38,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 40,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 42,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 44,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 46,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 49,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 51,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 52,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 54,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 56,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 4,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 6,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 7,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 8,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 12,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 13,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 14,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 15,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 16,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 17,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 18,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 19,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 21,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 22,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 23,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 24,
+"molecule_type": "Protein",
+"prd_class": [
+"Antibiotic"
+],
+"prd_id": [
+"PRD_000226"
+],
+"prd_name": [
+"Viomycin"
+],
+"prd_type": [
+"Oligopeptide"
+]
+},
+{
+"entity_id": 25,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 26,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 28,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 29,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 30,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 31,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 33,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 35,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 37,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 39,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 41,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 43,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 45,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 47,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 48,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 50,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 53,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 55,
+"molecule_type": "Protein"
+}
+],
+"numFound": 56,
+"start": 0
+},
+"responseHeader": {
+"QTime": 0,
+"params": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4v85",
+"rows": "500",
+"start": "0",
+"wt": "json"
+},
+"status": 0
+}
+},
+"method": "GET",
+"payload": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4v85",
+"rows": 500,
+"start": 0,
+"wt": "json"
+},
+"status": 200,
+"url": "https://www.ebi.ac.uk/pdbe/search/pdb/select"
 },
 "5220581ee3ab5c0a": {
 "data": {
@@ -35039,6 +35847,269 @@
 "status": 200,
 "url": "https://www.ebi.ac.uk/pdbe/api/pdb/entry/assembly/4u1u"
 },
+"c168c773357a4e89": {
+"data": {
+"response": {
+"docs": [
+{
+"entity_id": 1,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 2,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 3,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 4,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 5,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 6,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 7,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 8,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 9,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 10,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 11,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 12,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 13,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 14,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 15,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 16,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 17,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 18,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 19,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 20,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 21,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 22,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 23,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 24,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 25,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 26,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 27,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 28,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 29,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 30,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 31,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 32,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 33,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 34,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 35,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 36,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 37,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 38,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 39,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 40,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 41,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 42,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 43,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 44,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 45,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 46,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 47,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 48,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 49,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 50,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 51,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 52,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 53,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 54,
+"molecule_type": "Protein",
+"prd_class": [
+"Antibiotic",
+"Antibiotic"
+],
+"prd_id": [
+"PRD_000505",
+"PRD_000505"
+],
+"prd_name": [
+"Quinupristin",
+"Quinupristin"
+],
+"prd_type": [
+"Oligopeptide",
+"Oligopeptide"
+]
+}
+],
+"numFound": 54,
+"start": 0
+},
+"responseHeader": {
+"QTime": 0,
+"params": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4u1u",
+"rows": "500",
+"start": "0",
+"wt": "json"
+},
+"status": 0
+}
+},
+"method": "GET",
+"payload": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4u1u",
+"rows": 500,
+"start": 0,
+"wt": "json"
+},
+"status": 200,
+"url": "https://www.ebi.ac.uk/pdbe/search/pdb/select"
+},
 "c6f303e8be64865a": {
 "data": {
 "4v85": [
@@ -36208,5 +37279,758 @@
 "payload": null,
 "status": 200,
 "url": "https://www.ebi.ac.uk/pdbe/api/pdb/entry/assembly/4v85"
+},
+"cf73c661a8dcaa4f": {
+"data": {
+"response": {
+"docs": [
+{
+"entity_id": 1,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 2,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 3,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 4,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 5,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 6,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 7,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 8,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 9,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 10,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 11,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 12,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 13,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 14,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 15,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 16,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 17,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 18,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 19,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 20,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 21,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 22,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 23,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 24,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 25,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 26,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 27,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 28,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 29,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 30,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 31,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 32,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 33,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 34,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 35,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 36,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 37,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 41,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 38,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 39,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 40,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 42,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 43,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 44,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 45,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 46,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 47,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 48,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 49,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 50,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 51,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 52,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 53,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 54,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 55,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 56,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 57,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 58,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 59,
+"molecule_type": "Protein"
+}
+],
+"numFound": 59,
+"start": 0
+},
+"responseHeader": {
+"QTime": 0,
+"params": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4v7t",
+"rows": "500",
+"start": "0",
+"wt": "json"
+},
+"status": 0
+}
+},
+"method": "GET",
+"payload": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4v7t",
+"rows": 500,
+"start": 0,
+"wt": "json"
+},
+"status": 200,
+"url": "https://www.ebi.ac.uk/pdbe/search/pdb/select"
+},
+"d00de5b012195d7e": {
+"data": {
+"response": {
+"docs": [
+{
+"entity_id": 1,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 2,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 3,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 4,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 5,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 6,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 7,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 8,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 9,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 10,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 11,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 12,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 13,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 14,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 15,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 16,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 17,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 18,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 19,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 20,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 21,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 22,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 23,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 24,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 25,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 26,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 27,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 28,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 29,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 30,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 31,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 32,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 33,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 34,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 35,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 36,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 37,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 38,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 39,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 40,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 41,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 42,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 43,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 44,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 45,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 46,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 47,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 48,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 49,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 50,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 51,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 52,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 53,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 54,
+"molecule_type": "RNA"
+}
+],
+"numFound": 54,
+"start": 0
+},
+"responseHeader": {
+"QTime": 0,
+"params": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:5j7l",
+"rows": "500",
+"start": "0",
+"wt": "json"
+},
+"status": 0
+}
+},
+"method": "GET",
+"payload": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:5j7l",
+"rows": 500,
+"start": 0,
+"wt": "json"
+},
+"status": 200,
+"url": "https://www.ebi.ac.uk/pdbe/search/pdb/select"
+},
+"ead805971824345f": {
+"data": {
+"response": {
+"docs": [
+{
+"entity_id": 1,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 4,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 5,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 6,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 7,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 11,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 13,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 16,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 20,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 23,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 24,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 25,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 27,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 29,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 32,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 33,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 34,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 35,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 37,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 2,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 3,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 8,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 9,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 10,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 12,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 14,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 15,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 17,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 18,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 19,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 21,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 22,
+"molecule_type": "RNA"
+},
+{
+"entity_id": 26,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 28,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 30,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 31,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 36,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 38,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 39,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 40,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 41,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 42,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 43,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 44,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 45,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 46,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 47,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 48,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 49,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 50,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 51,
+"molecule_type": "Protein"
+},
+{
+"entity_id": 52,
+"molecule_type": "Protein"
+}
+],
+"numFound": 52,
+"start": 0
+},
+"responseHeader": {
+"QTime": 0,
+"params": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4v64",
+"rows": "500",
+"start": "0",
+"wt": "json"
+},
+"status": 0
+}
+},
+"method": "GET",
+"payload": {
+"fl": "entity_id,prd_id,prd_class,prd_name,prd_type,molecule_type",
+"q": "pdb_id:4v64",
+"rows": 500,
+"start": 0,
+"wt": "json"
+},
+"status": 200,
+"url": "https://www.ebi.ac.uk/pdbe/search/pdb/select"
 }
 }

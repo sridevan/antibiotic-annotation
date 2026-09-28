@@ -101,7 +101,7 @@ def annotate_entity(entity_id: str, entity_kind: str, pipeline: Pipeline | None 
     ev = Evidence()
     if ident.entity_kind == ENTITY_BIRD:
         ev.bird_class = ident.bird_class
-        ev.bird_antibiotic = (ident.bird_class or "").strip().lower() == "antibiotic"
+        ev.bird_antibiotic = ident.bird_antibiotic
     if m.resolved:
         chebi_ev = chebi_evidence(pipe.chebi, m.chebi_ids_for_evidence)
         chebi_ev.bird_class, chebi_ev.bird_antibiotic = ev.bird_class, ev.bird_antibiotic

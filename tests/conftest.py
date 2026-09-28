@@ -13,7 +13,7 @@ import pytest
 
 from antibiotic_annotation.cache import HttpError, JsonFileCache, NetworkUnavailable
 from antibiotic_annotation.chebi import ChebiClient
-from antibiotic_annotation.identity import RcsbClient
+from antibiotic_annotation.identity import CompoundClient
 from antibiotic_annotation.mapping import ChebiLookup, Mapper, UniChemClient
 
 FIXTURES = Path(__file__).parent / "fixtures" / "http"
@@ -72,8 +72,8 @@ def cache(tmp_path):
 
 
 @pytest.fixture
-def rcsb(transport, cache):
-    return RcsbClient(transport, cache)
+def compounds(transport, cache):
+    return CompoundClient(transport, cache)
 
 
 @pytest.fixture

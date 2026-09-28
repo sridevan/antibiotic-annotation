@@ -51,7 +51,7 @@ def test_supporting_roles_alone_do_not_qualify(chebi):
 def test_bird_antibiotic_is_a_reason_on_its_own(chebi):
     from antibiotic_annotation.classifier import Evidence
 
-    ev = Evidence(bird_antibiotic=True, bird_class="Antibiotic")
+    ev = Evidence(bird_antibiotic=True, bird_class="antibiotic")
     assert decide(ev) == (True, ["BIRD class Antibiotic"])
 
 

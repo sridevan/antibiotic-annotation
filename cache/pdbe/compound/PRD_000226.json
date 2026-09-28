@@ -1,0 +1,137 @@
+{
+ "_retrieved_at": "2026-09-28T05:01:12+00:00",
+ "carb_identifiers": null,
+ "compound_classes": [
+  "antibiotic"
+ ],
+ "compound_type": "Oligopeptide",
+ "creation_date": null,
+ "cross_links": [
+  {
+   "resource": "PubChem",
+   "resource_id": "135398671"
+  },
+  {
+   "resource": "fdasrs",
+   "resource_id": "YVU35998K5"
+  },
+  {
+   "resource": "Probes And Drugs",
+   "resource_id": "PD009213"
+  },
+  {
+   "resource": "MolPort",
+   "resource_id": "Molport-006-126-625"
+  },
+  {
+   "resource": "EPA CompTox Dashboard",
+   "resource_id": "DTXSID0023741"
+  },
+  {
+   "resource": "DrugBank",
+   "resource_id": "DB06827"
+  },
+  {
+   "resource": "ChEMBL",
+   "resource_id": "CHEMBL3085436"
+  },
+  {
+   "resource": "ChEBI",
+   "resource_id": "CHEBI:15782"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "34586"
+  },
+  {
+   "resource": "PubChem",
+   "resource_id": "3037981"
+  },
+  {
+   "resource": "DrugCentral",
+   "resource_id": "2830"
+  },
+  {
+   "resource": "SureChEMBL",
+   "resource_id": "22263509"
+  },
+  {
+   "resource": "BRENDA",
+   "resource_id": "16013"
+  }
+ ],
+ "first_observed_in": [
+  "3knj"
+ ],
+ "formal_charge": null,
+ "formula": "C25 H43 N13 O10",
+ "inchi": "InChI=1S/C25H43N13O10/c26-3-1-2-10(27)4-16(41)32-12-6-30-23(47)18(11-5-17(42)37-24(28)36-11)38-20(44)13(7-31-25(29)48)33-21(45)14(8-39)35-22(46)15(9-40)34-19(12)43/h7,10-12,14-15,17-18,39-40,42H,1-6,8-9,26-27H2,(H,30,47)(H,32,41)(H,33,45)(H,34,43)(H,35,46)(H,38,44)(H3,28,36,37)(H3,29,31,48)",
+ "inchi_key": "GXFAIFRPOKBQRV-UHFFFAOYSA-N",
+ "name": "Viomycin",
+ "one_letter_code": null,
+ "phys_chem_properties": {
+  "crippen_clog_p": -8.883,
+  "crippen_mr": 163.9,
+  "exactmw": 685.326,
+  "fraction_csp3": 0.6,
+  "labute_asa": 334.566,
+  "lipinski_hba": 23.0,
+  "lipinski_hbd": 19.0,
+  "num_aliphatic_heterocycles": 2,
+  "num_aliphatic_rings": 2,
+  "num_amide_bonds": 8,
+  "num_aromatic_heterocycles": 0,
+  "num_aromatic_rings": 0,
+  "num_atom_stereo_centers": 7,
+  "num_bridgehead_atoms": 0,
+  "num_hba": 15,
+  "num_hbd": 15,
+  "num_heavy_atoms": 48,
+  "num_heteroatoms": 23,
+  "num_heterocycles": 2,
+  "num_rings": 2,
+  "num_rotatable_bonds": 15,
+  "num_saturated_heterocycles": 1,
+  "num_saturated_rings": 1,
+  "num_spiro_atoms": 0,
+  "num_unspec_atom_stereo_centers": 0,
+  "tpsa": 392.86
+ },
+ "release_status": "REL",
+ "revision_date": null,
+ "smiles": [
+  {
+   "name": "C1[C@H](NC(=N[C@H]1O)N)[C@H]2C(=O)NC[C@@H](C(=O)N[C@H](C(=O)N[C@H](C(=O)N/C(=C\\NC(=O)N)/C(=O)N2)CO)CO)NC(=O)C[C@H](CCCN)N",
+   "program": "OpenEye OEToolkits",
+   "version": "1.7.6"
+  },
+  {
+   "name": "NCCC[C@H](N)CC(=O)N[C@H]1CNC(=O)[C@@H](NC(=O)\\C(NC(=O)[C@H](CO)NC(=O)[C@H](CO)NC1=O)=C\\NC(N)=O)[C@H]2C[C@H](O)N=C(N)N2",
+   "program": "CACTVS",
+   "version": "3.370"
+  }
+ ],
+ "stereoisomers": null,
+ "subcomponent_occurrences": {
+  "5OH": 1,
+  "DPP": 1,
+  "KBE": 1,
+  "SER": 2,
+  "UAL": 1
+ },
+ "superseded_by": null,
+ "synonyms": null,
+ "systematic_names": [
+  {
+   "name": "(3S)-N-[(3S,6Z,9S,12S,15S)-6-[(aminocarbonylamino)methylidene]-3-[(4S,6S)-2-azanyl-4-oxidanyl-1,4,5,6-tetrahydropyrimidin-6-yl]-9,12-bis(hydroxymethyl)-2,5,8,11,14-pentakis(oxidanylidene)-1,4,7,10,13-pentazacyclohexadec-15-yl]-3,6-bis(azanyl)hexanamide",
+   "program": "OpenEye OEToolkits",
+   "version": "1.7.6"
+  },
+  {
+   "name": "(3R)-3,6-diamino-N-[(3S,6Z,9S,12S,15R)-3-[(4S,6S)-2-amino-6-hydroxy-3,4,5,6-tetrahydropyrimidin-4-yl]-6-[(carbamoylamino)methylidene]-9,12-bis(hydroxymethyl)-2,5,8,11,14-pentaoxo-1,4,7,10,13-pentaazacyclohexadecan-15-yl]hexanamide",
+   "program": "ACDLabs",
+   "version": "12.01"
+  }
+ ],
+ "weight": 685.69
+}
